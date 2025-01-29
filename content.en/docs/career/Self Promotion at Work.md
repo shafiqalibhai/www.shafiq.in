@@ -1,0 +1,41 @@
+# Self-Promotion at Work
+
+1: Introduction
+
+Self-promotion is one of the key ingredients of success in the workplace. This guide will provide you with tips and tricks to help you sell yourself and advance in your career.
+
+2: Pronouns and Communication
+
+Using the right pronouns in conversation can be a subtle yet effective way of self-promoting. Taking credit for your work and avoiding the use of "we" when discussing individual accomplishments can help you get the recognition you deserve.
+
+3: Managers and Career Opportunities
+
+Having a boss who is supportive and willing to give you credit for your work is essential for self-promotion. Changing jobs regularly can also help you get new opportunities to promote yourself, especially during job interviews.
+
+4: Defining Success
+
+Defining success for yourself and focusing on your own personal growth, regardless of external recognition, can help you feel like you're making progress and moving in the right direction.
+
+5: Performance Reviews
+
+If your workplace has yearly performance reviews, this is the perfect opportunity to list your main accomplishments and get your boss's full attention. Preparation is key, so make sure to create a list of your achievements beforehand.
+
+6: Speak Up and Engage
+
+Being vocal in team meetings, speaking your opinion respectfully, and engaging with important people in the organization can help you get noticed and promoted.
+
+7: Making Your Boss Look Good
+
+Making your boss look good can go a long way in securing your own future. Be sure to show your boss the results of your work and help them succeed in their role.
+
+8: Alliances and 1 on 1 Meetings
+
+Allying with people who are important in the organization and setting up regular 1 on 1 meetings with them can help you establish a positive relationship and get noticed.
+
+9: Avoiding Common Mistakes
+
+Avoid embarrassing coworkers in public, keep your opinions respectful, and be generally competent to avoid common mistakes that can hinder your self-promotion efforts.
+
+10: Conclusion
+
+Self-promotion at work can be a challenging but rewarding process. By following the tips and tricks outlined in this guide, you can increase your chances of success and advance in your career.

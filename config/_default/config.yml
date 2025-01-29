@@ -1,0 +1,352 @@
+BaseURL: "https://shafiq.in/"
+title: "Shafiq Alibhai"
+pagination.pageSsize: 10
+# theme: hugo-theme-stack
+theme: hugo-book
+BookMenuBundle: /menu
+disablePathToLower: false
+# Needed for mermaid/katex shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1  
+
+languages:
+  en:
+    contentDir: content.en
+    languageCode: en-GB
+    languageDirection: ltr
+    languageName: English
+    permalinks:
+      posts: /blog/:title/
+      blog: /blog/:title/
+    weight: 1
+  hi:
+    contentDir: content.hi
+    languageCode: en-HI
+    languageDirection: ltr
+    languageName: Hindi
+    permalinks:
+      posts: /blog/hi/:title/
+      blog: /blog/hi/:title/
+    weight: 2
+  gu:
+    contentDir: content.gu
+    languageCode: en-GU
+    languageDirection: ltr
+    languageName: Gujarati
+    permalinks:
+      posts: /blog/gu/:title/
+      blog: /blog/gu/:title/
+    weight: 3
+  kok:
+    contentDir: content.kok
+    languageCode: en-KOK
+    languageDirection: ltr
+    languageName: Konkani
+    permalinks:
+      posts: /blog/kok/:title/
+      blog: /blog/kok/:title/
+    weight: 4
+  fr:
+    contentDir: content.fr
+    languageCode: en-FR
+    languageDirection: ltr
+    languageName: French
+    permalinks:
+      posts: /blog/fr/:title/
+      blog: /blog/fr/:title/
+    weight: 5
+  de:
+    contentDir: content.de
+    languageCode: en-DE
+    languageDirection: ltr
+    languageName: German
+    permalinks:
+      posts: /blog/de/:title/
+      blog: /blog/de/:title/
+    weight: 6
+
+menu:
+  # before: []
+  after:
+    - name: My Linkedin
+      url: "https://linkedin.com/in/deployview"
+    - name: My WhatsApp
+      url: "https://wa.me/+447440344860"
+params:
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme: "auto"
+
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC: true
+
+  # (Optional, default favicon.png) Set the path to a favicon file.
+  # If the favicon is /static/favicon.png then the path would be favicon.png
+  # BookFavicon: "favicon.png"
+
+  # (Optional, default none) Set the path to a logo for the book.
+  # If the logo is /static/logo.png then the path would be logo.png
+  # BookLogo: /logo.png
+
+  # (Optional, default none) Set leaf bundle to render as side menu
+  # When not specified file structure and weights will be used
+  # BookMenuBundle: /menu
+
+  # (Optional, default docs) Specify root page to render child pages as menu.
+  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
+  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
+  BookSection: docs
+
+  # Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  # BookRepo: https://github.com/alex-shpak/hugo-book
+
+  # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
+  # commit hash for 'doc' page type.
+  # Requires 'BookRepo' param.
+  # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
+  # Github uses 'commit', Bitbucket uses 'commits'
+  # BookCommitPath: commit
+
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Edit path must point to root directory of repo.
+  # BookEditPath: edit/main/exampleSite
+
+  # Configure the date format used on the pages
+  # - In git information
+  # - In blog posts
+  BookDateFormat: "2 January 2006"
+
+  # (Optional, default true) Enables search function with flexsearch,
+  # Index is built on fly, therefore it might slowdown your website.
+  # Configuration for indexing can be adjusted in i18n folder per language.
+  BookSearch: true
+
+  # (Optional, default true) Enables comments template on pages
+  # By default partals/docs/comments.html includes Disqus template
+  # See https://gohugo.io/content-management/comments/#configure-disqus
+  # Can be overwritten by same param in page frontmatter
+  BookComments: false
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
+  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
+  # Theme will print warning if page referenced in markdown does not exists.
+  BookPortableLinks: true
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
+  BookServiceWorker: true
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
+  BookTranslatedOnly: false
+
+  env: production # to enable google analytics, opengraph, twittetwitter-cardstwitter-cardsr-cards and schema.
+  title: "Shafiq Alibhai"
+  description: "Welcome to my blog, where I share my thoughts, passion, curiosity, experiences and some randomness."
+  keywords: [Blog, Shafiq Alibhai]
+  author: Shafiq Alibhai
+  # author: ["Me", "You"] # multiple authors
+  #  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  #  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
+
+  # label:
+  #   text: "Home"
+  #   icon: /apple-touch-icon.png
+  #   iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my personal blog, where I share my professional and personal experiences. On this blog, you'll find posts on various domains such as design, software development, architecture, project management and more. This blog is a reflection of my thoughts, passion and curiosity.
+
+  # socialIcons:
+    #- name: twitter
+    #  url: "https://twitter.com/shafiqalibhai"
+    # - name: facebook
+    #   url: "https://facebook.com/shafiqalibhai0"
+    # - name: github
+    #   url: "https://github.com/shafiqalibhai"
+    # - name: linkedin
+    #   url: "https://linkedin.com/in/deployview"
+    # - name: whatsapp
+    #   url: "https://wa.me/+447440344860"
+
+      #  analytics:
+      #google:
+      #SiteVerificationTag: "XYZabc"
+      #bing:
+      #SiteVerificationTag: "XYZabc"
+      #yandex:
+      #SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/shafiqissani/www.shafiq.in/content"
+  #   Text: "" # edit text
+  #   appendFilePath: false # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+languageCode: en-gb
+DefaultContentLanguage: "en"
+hasCJKLanguage: false
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# menu:
+#   main:
+#     - identifier: search
+#       name: search
+#       url: /search/
+#       weight: 9
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 11
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
+    # - identifier: shop
+    #   name: shop
+    #   url: /shop/
+    #   weight: 20
+    # - identifier: about-shafiq/
+    #   name: about
+    #   url: /post/about-shafiq/
+    #   weight: 10
+    # - identifier: favourite-quotes/
+    #   name: favourite quotes
+    #   url: /categories/quote/
+    #   weight: 40
+    # - identifier: designs/
+    #   name: design
+    #   url: /categories/design/
+    #   weight: 50
+    # - identifier: development/
+    #   name: development
+    #   url: /categories/development/
+    #   weight: 60
+    # - identifier: architecture/
+    #   name: architecture
+    #   url: /categories/architecture/
+    #   weight: 70
+    # - identifier: management/
+    #   name: management
+    #   url: /categories/management/
+    #   weight: 80
+    # - identifier: contact-shafiq/
+    #   name: contact
+    #   url: /post/contact-shafiq/
+    #   weight: 90
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+# markup:
+#   highlight:
+#     noClasses: false
+#     anchorLineNos: true
+#     codeFences: true
+#     guessSyntax: true
+#     # lineNos: true
+#     style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        # - JSON # is necessary
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    hidden: true
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+security:
+  funcs:
+    getenv:
+      allow:
+        - '^HUGO_'
+        - '^CI$'
+        - '^WC_POST_CSS$'
+        - 'WC_POST_CSS'
+        - ^WC_

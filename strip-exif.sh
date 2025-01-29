@@ -1,0 +1,1 @@
+exiftool -r -all= -ext png -ext jpg -ext jpeg -ext gif -q content/

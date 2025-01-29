@@ -1,0 +1,1 @@
+hugo --destination ../../www.shafiq.in-dist

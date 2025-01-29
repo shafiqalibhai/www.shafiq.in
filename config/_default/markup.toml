@@ -1,0 +1,49 @@
+# Markdown renderer configuration
+#[goldmark.renderer]
+#hardWraps = true
+#unsafe = true
+#xhtml = true
+
+[tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+tabWidth = 4
+
+#[goldmark.extensions]
+#definitionList = true
+#footnote = true
+#linkify = true
+#linkifyProtocol = 'https'
+#strikethrough = true
+#table = true
+#taskList = true
+#typographer = true
+
+#[goldmark.parser]
+#autoHeadingID = true
+#autoHeadingIDType = 'github'
+#wrapStandAloneImageWithinParagraph = true
+#[goldmark.parser.attribute]
+#block = false
+#title = true
+
+[asciidocExt]
+backend = 'html5'
+extensions = []
+failureLevel = 'fatal'
+noHeaderOrFooter = true
+preserveTOC = false
+safeMode = 'unsafe'
+sectionNumbers = false
+trace = false
+verbose = false
+workingFolderCurrent = false
