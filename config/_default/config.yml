@@ -63,10 +63,10 @@ languages:
 menu:
   # before: []
   after:
-    - name: My Linkedin
-      url: "https://linkedin.com/in/deployview"
-    - name: My WhatsApp
+    - name: UK WhatsApp
       url: "https://wa.me/+447440344860"
+    - name: Belgium WhatsApp
+      url: "https://wa.me/+32467830927"
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
