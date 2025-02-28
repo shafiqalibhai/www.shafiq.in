@@ -59,15 +59,6 @@ languages:
       posts: /blog/fr/:title/
       blog: /blog/fr/:title/
     weight: 5
-  de:
-    contentDir: content.de
-    languageCode: en-DE
-    languageDirection: ltr
-    languageName: German
-    permalinks:
-      posts: /blog/de/:title/
-      blog: /blog/de/:title/
-    weight: 6
 
 menu:
   # before: []
