@@ -1,8 +1,7 @@
 ---
 title: About Me
-author: Shafiq Alibhai
 type: page
-draft: false
+draft: true
 date: 2009-06-17T04:37:54+00:00
 menu:
     main:
