@@ -1,5 +1,5 @@
 BaseURL: "https://shafiq.in/"
-title: "Shafiq Alibhai"
+title: "A Blog"
 pagination.pageSsize: 10
 # theme: hugo-theme-stack
 theme: hugo-book
@@ -23,50 +23,9 @@ languages:
       posts: /blog/:title/
       blog: /blog/:title/
     weight: 1
-  hi:
-    contentDir: content.hi
-    languageCode: en-HI
-    languageDirection: ltr
-    languageName: Hindi
-    permalinks:
-      posts: /blog/hi/:title/
-      blog: /blog/hi/:title/
-    weight: 2
-  gu:
-    contentDir: content.gu
-    languageCode: en-GU
-    languageDirection: ltr
-    languageName: Gujarati
-    permalinks:
-      posts: /blog/gu/:title/
-      blog: /blog/gu/:title/
-    weight: 3
-  kok:
-    contentDir: content.kok
-    languageCode: en-KOK
-    languageDirection: ltr
-    languageName: Konkani
-    permalinks:
-      posts: /blog/kok/:title/
-      blog: /blog/kok/:title/
-    weight: 4
-  fr:
-    contentDir: content.fr
-    languageCode: en-FR
-    languageDirection: ltr
-    languageName: French
-    permalinks:
-      posts: /blog/fr/:title/
-      blog: /blog/fr/:title/
-    weight: 5
 
 menu:
   # before: []
-  after:
-    - name: UK WhatsApp
-      url: "https://wa.me/+447440344860"
-    - name: Belgium WhatsApp
-      url: "https://wa.me/+32467830927"
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
@@ -141,10 +100,10 @@ params:
   BookTranslatedOnly: false
 
   env: production # to enable google analytics, opengraph, twittetwitter-cardstwitter-cardsr-cards and schema.
-  title: "Shafiq Alibhai"
+  title: "A Blog"
   description: "Welcome to my blog, where I share my thoughts, passion, curiosity, experiences and some randomness."
-  keywords: [Blog, Shafiq Alibhai]
-  author: Shafiq Alibhai
+  keywords: [Blog]
+  author: A Blogger
   # author: ["Me", "You"] # multiple authors
   #  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -198,7 +157,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my personal blog, where I share my professional and personal experiences. On this blog, you'll find posts on various domains such as design, software development, architecture, project management and more. This blog is a reflection of my thoughts, passion and curiosity.
+    Content: Welcome to a blog.
 
   # socialIcons:
     #- name: twitter
