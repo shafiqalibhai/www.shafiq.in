@@ -6,35 +6,3 @@
 # [main.params]
 # icon = "home"
 # newtab = false
-
-[[social]]
-identifier = "github"
-name = "GitHub"
-url = "https://github.com/shafiqalibhai"
-
-[social.params]
-icon = "brand-github"
-
-[[social]]
-identifier = "facebook"
-name = "Facebook"
-url = "https://facebook.com/shafiqalibhai0"
-
-[social.params]
-icon = "brand-facebook"
-
-[[social]]
-identifier = "linkedin"
-name = "LinkedIn"
-url = "https://linkedin.com/in/deployview"
-
-[social.params]
-icon = "brand-linkedin"
-
-[[social]]
-identifier = "whatsapp"
-name = "WhatsApp"
-url = "https://wa.me/+447440344860"
-
-[social.params]
-icon = "brand-whatsapp"
