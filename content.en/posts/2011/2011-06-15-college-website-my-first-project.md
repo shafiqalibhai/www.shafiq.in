@@ -1,6 +1,7 @@
 ---
 title: How I Built My First Website for My College
 author: Shafiq Alibhai
+draft: true
 date: 2011-06-14T22:13:37+00:00
 categories:
   - Development
