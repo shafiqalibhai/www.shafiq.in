@@ -4,7 +4,7 @@
 
 ### About
 
-Hi my name is Shafiq Alibhai. Through this book, I aim to offer you not just a guidebook but an immersive experience into the heart of Mons. My goal is to make you feel like you're right there with me, discovering the hidden gems and sharing in the local customs and traditions. With my personal anecdotes and insider tips, I hope to provide you with a comprehensive travel resource that is both informative and engaging.
+Through this book, I aim to offer you not just a guidebook but an immersive experience into the heart of Mons. My goal is to make you feel like you're right there with me, discovering the hidden gems and sharing in the local customs and traditions. With my personal anecdotes and insider tips, I hope to provide you with a comprehensive travel resource that is both informative and engaging.
 
 - Methodology for researching and writing this guide
 
