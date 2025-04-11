@@ -24,6 +24,4 @@ SVN Repository Link : <https://svn.typo3.org/TYPO3v4/Extensions/ajax_google_sear
 
 Project Page on Typo3 Forge :<a href="http://forge.typo3.org/projects/show/extension-ajax_google_search">http://forge.typo3.org/projects/show/extension-ajax_google_search</a>
 
-Demo : typo3.alibhai.in/4/
-
 ![screenshot](https://www.shafiq.in/wp-content/uploads/2010/04/screenshot.png)
