@@ -1,6 +1,6 @@
 BaseURL: "https://shafiq.in/"
 title: "A Blog"
-pagination.pageSsize: 10
+pagination.pageSsize: 20
 # theme: hugo-theme-stack
 theme: hugo-book
 BookMenuBundle: /menu
