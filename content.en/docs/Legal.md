@@ -1,1 +1,0 @@
-Notes on Estate planning: Creating wills, trusts, and other legal documents.
