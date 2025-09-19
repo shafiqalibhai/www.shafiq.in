@@ -1,5 +1,5 @@
 ---
-title: Philosophy
+title: Board Games
 description: A description of this category
 image:
 

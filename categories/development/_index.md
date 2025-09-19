@@ -1,5 +1,5 @@
 ---
-title: Technical
+title: Software Development
 description: A description of this category
 image:
 

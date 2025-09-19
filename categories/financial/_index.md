@@ -1,5 +1,5 @@
 ---
-title: Financial
+title: Personal Finance
 description: A description of this category
 image:
 
