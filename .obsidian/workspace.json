@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content.en/_index.md",
+                "file": "content.en/docs/About Me.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "About Me"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.en/_index.md",
+                "file": "content.en/docs/About Me.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of About Me"
             }
           },
           {
@@ -184,6 +184,7 @@
   },
   "active": "4d77eb8bd5ad5e2b",
   "lastOpenFiles": [
+    "content.en/_index.md",
     "categories/jokes/_index.md",
     "categories/humour/_index.md",
     "categories/jokes",
@@ -208,7 +209,6 @@
     "content/docs",
     "content/_index 1.md",
     "content",
-    "content.en/_index.md",
     "content.fr/wp-content",
     "content.fr/posts",
     "content.fr/docs",

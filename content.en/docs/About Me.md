@@ -10,7 +10,20 @@ menu:
       icon: user
 ---
 
-Shafiq Alibhai is an Independent Contractor. He is the director of DeployView Limited, a company that provides project management solutions and services.
+# Things I Like
+
+## Magazines
+
+### Anime
+Otaku
+Anime
+Neo
+
+### Technology 
+Digit
+Chip
+
+%% Shafiq Alibhai is an Independent Contractor. He is the director of DeployView Limited, a company that provides project management solutions and services.
 
 ## Early life and education
 
@@ -30,4 +43,4 @@ Shafiq Alibhai has a wide range of skills and expertise, including:
 - Release Engineering
 - Web Development
 - Real Estate Management
-- Financial Independence
+- Financial Independence %%
