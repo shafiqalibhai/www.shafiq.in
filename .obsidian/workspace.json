@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content.en/docs/About Me.md",
+                "file": "content.en/docs/projects/software/Linux OS.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "About Me"
+              "title": "Linux OS"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.en/docs/About Me.md",
+                "file": "content.en/docs/projects/software/Linux OS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of About Me"
+              "title": "Outline of Linux OS"
             }
           },
           {
@@ -184,15 +184,18 @@
   },
   "active": "4d77eb8bd5ad5e2b",
   "lastOpenFiles": [
-    "content.en/docs/projects/writing/Book Binding.md",
+    "content.en/docs/projects/software/_index.md",
+    "content.en/docs/projects/software/Linux OS.md",
+    "content.en/docs/projects/_index.md",
     "content.en/docs/About Me.md",
+    "content.en/docs/projects/software",
+    "content.en/docs/projects/writing/Book Binding.md",
     "content.en/docs/projects/writing/Hobbies and Leisure.md",
     "content.en/docs/projects/writing/Personal Development.md",
     "content.en/docs/projects/writing/Self Promotion at Work.md",
     "content.en/docs/projects/writing/Ansible for Windows.md",
     "content.en/docs/projects/writing/Terraform.md",
     "content.en/docs/projects/writing/Saltstack.md",
-    "content.en/docs/projects/_index.md",
     "content.en/docs/_index.md",
     "content.en/docs/projects/writing/_index.md",
     "content.en/docs/projects/writing/Spirituality.md",
@@ -213,12 +216,9 @@
     "categories/formula1",
     "content.fr/_index.md",
     "content.en/docs/Interviewing.md",
-    "content.fr/search.md",
-    "content.en/search.md",
     "content/wp-content",
     "content/posts",
     "content/docs",
-    "content",
-    "content.fr/wp-content"
+    "content"
   ]
 }
