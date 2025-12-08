@@ -1,5 +1,5 @@
 ---
-bookCollapseSection: true
+
 ---
 
 # Book Binding

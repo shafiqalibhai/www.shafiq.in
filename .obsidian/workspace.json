@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content.en/docs/projects/writing/Hobbies and Leisure.md",
+                "file": "content.en/docs/projects/writing/Book Binding.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hobbies and Leisure"
+              "title": "Book Binding"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.en/docs/projects/writing/Hobbies and Leisure.md",
+                "file": "content.en/docs/projects/writing/Book Binding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hobbies and Leisure"
+              "title": "Outline of Book Binding"
             }
           },
           {
@@ -184,13 +184,13 @@
   },
   "active": "4d77eb8bd5ad5e2b",
   "lastOpenFiles": [
-    "content.en/docs/projects/writing/Personal Development.md",
+    "content.en/docs/About Me.md",
     "content.en/docs/projects/writing/Hobbies and Leisure.md",
+    "content.en/docs/projects/writing/Personal Development.md",
     "content.en/docs/projects/writing/Book Binding.md",
     "content.en/docs/projects/writing/Self Promotion at Work.md",
     "content.en/docs/projects/writing/Ansible for Windows.md",
     "content.en/docs/projects/writing/Terraform.md",
-    "content.en/docs/About Me.md",
     "content.en/docs/projects/writing/Saltstack.md",
     "content.en/docs/projects/_index.md",
     "content.en/docs/_index.md",
