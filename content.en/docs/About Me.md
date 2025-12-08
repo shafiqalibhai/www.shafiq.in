@@ -10,7 +10,7 @@ menu:
       icon: user
 ---
 
-# Things I Like
+# What I Like
 
 ## Magazines
 
@@ -22,6 +22,11 @@ Neo
 ### Technology 
 Digit
 Chip
+
+## Book Binding
+
+## 
+
 
 %% Shafiq Alibhai is an Independent Contractor. He is the director of DeployView Limited, a company that provides project management solutions and services.
 
