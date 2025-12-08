@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "categories/children/_index.md",
+                "file": "content.en/docs/Spirituality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Spirituality"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "categories/children/_index.md",
+                "file": "content.en/docs/Spirituality.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of Spirituality"
             }
           },
           {
@@ -184,9 +184,12 @@
   },
   "active": "4d77eb8bd5ad5e2b",
   "lastOpenFiles": [
+    "content.en/docs/Social.md",
+    "content.en/docs/Spirituality.md",
+    "content.en/docs/Self Care.md",
+    "categories/children/_index.md",
     "categories/formula1/_index.md",
     "categories/writing/_index.md",
-    "content.en/docs/Self Care.md",
     "categories/formula1",
     "content.en/docs/Personal Development.md",
     "content.en/docs/About Me.md",
@@ -195,7 +198,6 @@
     "content.en/docs/_index.md",
     "content.en/docs/Interviewing.md",
     "content.en/docs/Fitness.md",
-    "content.en/docs/Social.md",
     "content.fr/search.md",
     "content.en/search.md",
     "content/wp-content",
