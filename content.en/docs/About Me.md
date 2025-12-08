@@ -10,7 +10,7 @@ menu:
       icon: user
 ---
 
-Goan in Birmingham, Introvert, learns by doing, likes reading and writing.
+Goan in Birmingham, introvert, learns by doing, likes reading and writing.
 
 # What I Like
 
@@ -34,4 +34,7 @@ Chip
 ## TV Series
 
 ## Music
+
+## Sports
+Formula 1
 
