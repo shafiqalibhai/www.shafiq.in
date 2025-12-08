@@ -17,13 +17,13 @@ Goan in Birmingham, introvert, learns by doing, likes reading and writing.
 ## Magazines
 
 ### Anime
-Otaku
-Anime
-Neo
+- Otaku
+- Anime
+- Neo
 
 ### Technology 
-Digit
-Chip
+- Digit
+- Chip
 
 ## Book Binding
 
@@ -36,5 +36,5 @@ Chip
 ## Music
 
 ## Sports
-Formula 1
+- Formula 1
 
