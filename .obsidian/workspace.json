@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content.en/docs/projects/writing/_index.md",
+                "file": "content.en/docs/projects/writing/Saltstack.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Saltstack"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.en/docs/projects/writing/_index.md",
+                "file": "content.en/docs/projects/writing/Saltstack.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of Saltstack"
             }
           },
           {
@@ -184,6 +184,8 @@
   },
   "active": "4d77eb8bd5ad5e2b",
   "lastOpenFiles": [
+    "content.en/docs/projects/_index.md",
+    "content.en/docs/projects/writing/Saltstack.md",
     "content.en/docs/_index.md",
     "content.en/docs/projects/writing/_index.md",
     "content.en/docs/projects/writing/Spirituality.md",
