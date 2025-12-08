@@ -1,0 +1,78 @@
+---
+bookCollapseSection: true
+---
+
+# Book Binding
+
+Bookbinding is a great hobby to pick up! Here are some benefits:
+
+- You can create personalized gifts for your friends and family.
+- It's a healthy pastime that can improve your mental health.
+- Bookbinding allows you to stay connected with people, whether through creating gifts or joining a community of bookbinders.
+
+## Equipments and materials I use
+
+50Pcs Hot Melt Glue Strips 285mm Card Making Thermal Sticky for Book Binding | eBay
+
+    Technical Details
+
+    | Manufacturer           | SM SunniMix          |
+    | Part Number            | 00230005300012582654 |
+    | Manufacturer reference | 00230005300012582654 |
+    | Item Package Quantity  | 1                    |
+
+    Other mentions:
+
+    <https://www.aliexpress.com/item/32912816173.html>
+
+    <https://www.aliexpress.com/item/32834423518.html?spm=a2g0o.productlist.main.33.186e35a8A8l95O&algo_pvid=e2ef4917-21ba-484a-b1fa-e57d71ec21b5&algo_exp_id=e2ef4917-21ba-484a-b1fa-e57d71ec21b5-16&pdp_npi=3%40dis%21GBP%214.94%214.44%21%21%21%21%21%402100b18f16837280878272765d078a%2165035366945%21sea%21UK%210&curPageLogUid=lvptJGFOLVCM>
+
+    <https://www.aliexpress.com/item/33042461699.html?spm=a2g0o.productlist.main.5.186e35a8A8l95O&algo_pvid=e2ef4917-21ba-484a-b1fa-e57d71ec21b5&algo_exp_id=e2ef4917-21ba-484a-b1fa-e57d71ec21b5-2&pdp_npi=3%40dis%21GBP%210.07%210.07%21%21%21%21%21%402100b18f16837280878272765d078a%2167369346133%21sea%21UK%210&curPageLogUid=Qadiz7lxtRtN>
+
+    <https://www.aliexpress.com/item/32834423518.html?spm=a2g0o.productlist.main.15.73ab73a94aswDw&algo_pvid=265cc693-e736-4091-b450-199829f931ff&algo_exp_id=265cc693-e736-4091-b450-199829f931ff-7&pdp_npi=3%40dis%21GBP%214.94%214.44%21%21%21%21%21%402100b18f16837996571315347d078a%2165035366945%21sea%21UK%210&curPageLogUid=eHuHeLKMkKUE>
+
+    <https://www.aliexpress.com/item/1005005421841978.html?spm=a2g0o.productlist.main.7.73ab73a94aswDw&algo_pvid=265cc693-e736-4091-b450-199829f931ff&algo_exp_id=265cc693-e736-4091-b450-199829f931ff-3&pdp_npi=3%40dis%21GBP%2147.29%2135.47%21%21%21%21%21%402100b18f16837996571315347d078a%2112000032999667187%21sea%21UK%210&curPageLogUid=L7I0cISbhRWv>
+
+    <https://www.aliexpress.com/item/1005002327147381.html?spm=a2g0o.productlist.main.5.73ab73a94aswDw&algo_pvid=265cc693-e736-4091-b450-199829f931ff&algo_exp_id=265cc693-e736-4091-b450-199829f931ff-2&pdp_npi=3%40dis%21GBP%2121.69%2113.01%21%21%21%21%21%402100b18f16837996571315347d078a%2112000020186243120%21sea%21UK%210&curPageLogUid=yviPvGTashf2>
+
+    <https://www.aliexpress.com/item/32912816173.html?spm=a2g0o.productlist.main.3.73ab73a94aswDw&algo_pvid=265cc693-e736-4091-b450-199829f931ff&algo_exp_id=265cc693-e736-4091-b450-199829f931ff-1&pdp_npi=3%40dis%21GBP%214.7%214.22%21%21%21%21%21%402100b18f16837996571315347d078a%2165947185544%21sea%21UK%210&curPageLogUid=GyWjnENo8zlM>
+
+Artway Strong PVA Glue/Medium - 1 Litre, White : Amazon.co.uk: Home & Kitchen
+
+    Specifications for this item
+
+    | Brand Name          | Artway                        |
+    | Colour              | White                         |
+    | Compatible Material | Fabric , Plastic              |
+    | Ean                 | 0660989637583 , 5060669631033 |
+    | Item Volume         | 1 litres                      |
+    | Model Number        | 1 Litre                       |
+    | Part Number         | 2302686                       |
+    | UPC                 | 660989637583                  |
+
+HFS (R) Heavy Duty Guillotine Paper Cutter Commercial Metal Base (A3-17''-Black) : Amazon.co.uk: Stationery & Office Supplies
+
+    Technical Details
+
+    | Manufacturer             | HFS                                   |
+    | Brand                    | HFS                                   |
+    | Model Number             | 16167                                 |
+    | Product Dimensions       | 76.2 x 53.34 x 30.48 cm; 20 Kilograms |
+    | Material Type            | Alloy Steel                           |
+    | Number of Items          | 1                                     |
+    | Size                     | A3-17''                               |
+    | Manufacturer Part Number | 16167                                 |
+    | Item Weight              | 20 kg                                 |
+
+Rexel A3 Style Laminator, White : Amazon.co.uk
+
+    Technical Details
+
+    | Manufacturer             | Rexel                            |
+    | Brand                    | Rexel                            |
+    | Model Number             | 2104512                          |
+    | Product Dimensions       | 14 x 44.5 x 6 cm; 1.82 Kilograms |
+    | Colour                   | White                            |
+    | Size                     | A3                               |
+    | Manufacturer Part Number | 2104512                          |
+    | Item Weight              | 1.82 kg                          |

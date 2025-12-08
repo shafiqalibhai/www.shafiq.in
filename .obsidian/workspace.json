@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content.en/docs/projects/writing/Saltstack.md",
+                "file": "content.en/docs/projects/writing/Book Binding.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Saltstack"
+              "title": "Book Binding"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.en/docs/projects/writing/Saltstack.md",
+                "file": "content.en/docs/projects/writing/Book Binding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Saltstack"
+              "title": "Outline of Book Binding"
             }
           },
           {
@@ -184,8 +184,13 @@
   },
   "active": "4d77eb8bd5ad5e2b",
   "lastOpenFiles": [
-    "content.en/docs/projects/_index.md",
+    "content.en/docs/projects/writing/Self Promotion at Work.md",
+    "content.en/docs/projects/writing/Book Binding.md",
+    "content.en/docs/projects/writing/Ansible for Windows.md",
+    "content.en/docs/projects/writing/Terraform.md",
+    "content.en/docs/About Me.md",
     "content.en/docs/projects/writing/Saltstack.md",
+    "content.en/docs/projects/_index.md",
     "content.en/docs/_index.md",
     "content.en/docs/projects/writing/_index.md",
     "content.en/docs/projects/writing/Spirituality.md",
@@ -198,7 +203,6 @@
     "categories/book-binding/_index.md",
     "content.en/docs/projects",
     "categories/children/_index.md",
-    "content.en/docs/About Me.md",
     "categories/book-binding",
     "content.en/_index.md",
     "categories/jokes/_index.md",
@@ -214,10 +218,7 @@
     "content/wp-content",
     "content/posts",
     "content/docs",
-    "content/_index 1.md",
     "content",
-    "content.fr/wp-content",
-    "README.md",
-    "content.en/posts/2025/2025-06-27-102209.md"
+    "content.fr/wp-content"
   ]
 }

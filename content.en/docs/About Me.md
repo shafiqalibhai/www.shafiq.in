@@ -10,6 +10,8 @@ menu:
       icon: user
 ---
 
+Goan in Birmingham, Introvert,  learns by doing, likes reading and writing.
+
 # What I Like
 
 ## Magazines
