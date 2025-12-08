@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content.fr/_index.md",
+                "file": "content.en/docs/_index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "_index"
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.fr/_index.md",
+                "file": "content.en/docs/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -178,13 +178,15 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
   "active": "ada0244803e1a766",
   "lastOpenFiles": [
+    "content.en/docs/Fitness.md",
+    "content.en/docs/Social.md",
+    "content.fr/_index.md",
     "content.fr/search.md",
     "content.en/search.md",
     "content/wp-content",
@@ -192,7 +194,6 @@
     "content/docs",
     "content/_index 1.md",
     "content",
-    "content.fr/_index.md",
     "content.en/_index.md",
     "content.fr/wp-content",
     "content.fr/posts",
