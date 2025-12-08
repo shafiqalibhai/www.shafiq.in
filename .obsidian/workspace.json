@@ -11,10 +11,14 @@
             "id": "4d77eb8bd5ad5e2b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content.en/docs/About Me.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "About Me"
             }
           }
         ]
@@ -138,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.fr/_index.md",
+                "file": "content.en/docs/About Me.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of About Me"
             }
           },
           {
@@ -180,12 +184,13 @@
   },
   "active": "f1037b938f2e8aae",
   "lastOpenFiles": [
+    "content.fr/_index.md",
+    "content.en/docs/About Me.md",
     "content.en/docs/Hobbies and Leisure.md",
     "content.en/docs/_index.md",
     "content.en/docs/Interviewing.md",
     "content.en/docs/Fitness.md",
     "content.en/docs/Social.md",
-    "content.fr/_index.md",
     "content.fr/search.md",
     "content.en/search.md",
     "content/wp-content",
