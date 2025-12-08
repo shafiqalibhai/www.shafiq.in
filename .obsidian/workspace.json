@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0307a4d1d3f6087c",
+        "id": "2887d7ab675621ef",
         "type": "tabs",
         "children": [
           {
-            "id": "ada0244803e1a766",
+            "id": "4d77eb8bd5ad5e2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content.en/docs/_index.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "New tab"
             }
           }
         ]
@@ -142,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.en/docs/_index.md",
+                "file": "content.fr/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,8 +178,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ada0244803e1a766",
+  "active": "f1037b938f2e8aae",
   "lastOpenFiles": [
+    "content.en/docs/Hobbies and Leisure.md",
+    "content.en/docs/_index.md",
+    "content.en/docs/Interviewing.md",
     "content.en/docs/Fitness.md",
     "content.en/docs/Social.md",
     "content.fr/_index.md",
