@@ -1,6 +1,6 @@
 BaseURL: "https://shafiq.in/"
 title: "A Blog"
-pagination.pageSsize: 20
+pagination.pageSsize: 50
 # theme: hugo-theme-stack
 theme: hugo-book
 BookMenuBundle: /menu
@@ -159,17 +159,17 @@ params:
     Title: "Hi there \U0001F44B"
     Content: Welcome to a blog.
 
-  # socialIcons:
+  socialIcons:
     #- name: twitter
     #  url: "https://twitter.com/shafiqalibhai"
-    # - name: facebook
-    #   url: "https://facebook.com/shafiqalibhai0"
+    - name: facebook
+      url: "https://facebook.com/shafiqalibhai0"
     # - name: github
     #   url: "https://github.com/shafiqalibhai"
     # - name: linkedin
     #   url: "https://linkedin.com/in/deployview"
-    # - name: whatsapp
-    #   url: "https://wa.me/+447440344860"
+    - name: whatsapp
+      url: "https://wa.me/+447440344860"
 
       #  analytics:
       #google:
