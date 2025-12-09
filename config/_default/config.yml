@@ -6,14 +6,17 @@ theme: hugo-book
 BookMenuBundle: /menu
 disablePathToLower: false
 enableGitInfo: false
-min_version: "0.146.0"
+min_version: "0.146.0" 
+
 # Needed for mermaid/katex shortcodes
 markup:
   goldmark:
     renderer:
       unsafe: true
   tableOfContents:
-    startLevel: 1  
+    startLevel: 1
+  highlight:
+    style: base16-snazzy
 
 languages:
   en:
