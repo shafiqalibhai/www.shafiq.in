@@ -18,6 +18,10 @@ markup:
   highlight:
     style: base16-snazzy
 
+# Multi-lingual mode config
+# There are different options to translate files
+# See https://gohugo.io/content-management/multilingual/#translation-by-filename
+# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 languages:
   en:
     contentDir: content.en
@@ -28,6 +32,14 @@ languages:
       posts: /blog/:title/
       blog: /blog/:title/
     weight: 1
+  fr:
+    languageName: French
+    contentDir: content.fr
+    languageDirection: ltr
+    permalinks:
+      posts: /blog/:title/
+      blog: /blog/:title/
+    weight: 2
 
 menu:
   # before: []
