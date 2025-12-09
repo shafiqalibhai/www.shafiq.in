@@ -41,8 +41,8 @@ languages:
       blog: /blog/:title/
     weight: 2
 
-menu:
-  home:
+# menu:
+  # home:
     # - name: "Documentation"
     #   pageRef: "/docs/example/"
     #   weight: 1
@@ -61,7 +61,7 @@ menu:
     #   weight: 3
 
   # before: []
-  after:
+  # after:
     # - name: "Github"
     #   url: "https://github.com/alex-shpak/hugo-book"
     #   weight: 10
