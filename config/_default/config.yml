@@ -42,7 +42,33 @@ languages:
     weight: 2
 
 menu:
+  home:
+    # - name: "Documentation"
+    #   pageRef: "/docs/example/"
+    #   weight: 1
+    # - pageRef: "/docs/example/"
+    #   weight: 10
+    #   parent: "Documentation"
+    # - name: "Shortcodes"
+    #   pageRef: "/docs/shortcodes/buttons/"
+    #   weight: 20
+    #   parent: "Documentation"
+    # - name: "Showcases"
+    #   pageRef: "/showcases/"
+    #   weight: 2
+    # - name: "Github"
+    #   url: "https://github.com/alex-shpak/hugo-book/"
+    #   weight: 3
+
   # before: []
+  after:
+    # - name: "Github"
+    #   url: "https://github.com/alex-shpak/hugo-book"
+    #   weight: 10
+    # - name: "Hugo Themes"
+    #   url: "https://themes.gohugo.io/themes/hugo-book/"
+    #   weight: 20
+
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
