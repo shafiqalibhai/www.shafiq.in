@@ -1,15 +1,2 @@
-{{/*
-Shortcode usage: 
-{{< plantuml >}}
-@startuml
-Alice -> Bob: Hello
-@enduml
-{{< /plantuml >}}
-*/}}
-
-{{ $uml := .Inner | htmlUnescape | trim }}
-
-{{/* BASE64-encode and deflate PlantUML content */}}
-{{ $encoded := $uml | plantUML }}
-
-<img src="https://www.plantuml.com/plantuml/svg/{{ $encoded }}" alt="PlantUML diagram">
+{{ $uml := .Inner | htmlUnescape }}
+<img src="https://www.plantuml.com/plantuml/svg/~h{{ sha1 $uml }}" alt="PlantUML diagram">

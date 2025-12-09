@@ -632,8 +632,7 @@ note right: <color:blue>Beliefs now aligned with verified\ninformation leading t
 
 stop
 @enduml
-
-```
+{{< /plantuml >}}
 
 External influences like media, societal pressures, and peers inform personal beliefs which often lead to misconceptions. The process of debunking these misconceptions leads to the formulation of informed personal beliefs about what constitutes an incredible life.
 
@@ -1411,8 +1410,8 @@ endif
 
 stop
 
-enduml
-```
+@enduml
+{{< /plantuml >}}
 
 *Figure: Flowchart representing the process of setting SMART goals, starting with Specific, then Measurable, Achievable, Relevant, and Time-bound.*
 
@@ -2031,7 +2030,7 @@ Creating barriers involves making the temptation difficult to reach. For instanc
 ***** <back:COLOR1><&rocket> Long-Term Goals
 
 @endmindmap
-```
+{{< /plantuml >}}
 Strategies to Overcome Temptations: Creating Barriers and Practicing Delay.
 
 Figure 3 outlines the two-pronged strategy of creating barriers against temptations and practicing delay to strengthen self-discipline.
@@ -4241,8 +4240,7 @@ start
 stop
 
 @enduml
-
-```
+{{< /plantuml >}}
 
 *Diagram 2: A Process Flow Diagram describing the steps to achieve financial security. The journey begins with Budgeting, followed by Saving and Investing, Avoiding Debt, building an Emergency Fund, Retirement Planning, and securing adequate Insurance coverage.*
 
@@ -6048,8 +6046,7 @@ Act -down-> Adjust : Progresses to
 Adjust -down-> Desired_Outcome : Leads to
 
 @enduml
-
-```
+{{< /plantuml >}}
 
 In this diagram, you can see the progression across 'The Four A’s.' Starting with 'Acknowledge' we move towards 'Analyze' to 'Act' and finally 'Adjust' to reach our 'Desired Outcome.'
 
@@ -6233,8 +6230,7 @@ Mind --> Motivation : Fuels
 Motivation --> PositiveOutcome : Drives
 
 @enduml
-
-```
+{{< /plantuml >}}
 
 This diagram represents the interaction between our mind, visualization, and positive outcomes. It starts with our mind embracing visualization. Once our mind has embraced visualization, we can envision a positive outcome.
 
@@ -6359,8 +6355,7 @@ Self_Confidence -[hidden]-> Courage
 Decision_Making -[hidden]-> Wisdom
 
 @enduml
-
-```
+{{< /plantuml >}}
 
 In this diagram, 'Resilience' develops over time and fosters growth. 'Strength' is built facing situations and develops courage. 'Experience' is acquired over the course of failures leading to wisdom.
 
@@ -6386,7 +6381,7 @@ participant "Gratitude" as G
 participant "Resilience" as R
 M -> G : Channels Energy into Gratitude
 G -> R : Cultivates emotional resilience
-```
+{{< /plantuml >}}
 
 This diagram represents the interaction between our mindset, gratitude, and resilience. It starts with our mindset, channeling energy into gratitude. Gratitude, in turn, cultivates emotional resilience.
 
@@ -6996,7 +6991,7 @@ Below is a simple diagram to illustrate some of these activities:
 +++ Regular check-ups
 +++ Self-examinations
 @endmindmap
-```
+{{< /plantuml >}}
 
 When incorporated into your schedule, these activities could significantly improve your physical health and vitality.
 
@@ -7020,7 +7015,7 @@ Emotional self-care involves caring for your emotional health by acknowledging a
 +++ Meditation
 +++ Deep breathing
 @endmindmap
-```
+{{< /plantuml >}}
 
 When these activities become standard parts of your routine, they can significantly boost your emotional well-being, fostering a deeper, more compassionate relationship with yourself.
 
