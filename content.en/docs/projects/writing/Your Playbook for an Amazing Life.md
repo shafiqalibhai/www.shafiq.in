@@ -19,7 +19,7 @@ Psychology offers valuable insights about the key components that make life amaz
 Firstly, let's talk about the concept of *well-being*.
 
 \begin{center}
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DATABASE entity
@@ -87,7 +87,7 @@ Existentialist --> Ecological : Influences
 Ecological --> Mindfulness : Influences
 Mindfulness --> Integrative : Influences
 @enduml
-```
+{{< /plantuml >}}
 \end{center}
 
 (This concept broadly includes components such as positive emotions, engagement in challenging and meaningful activities, possessing a sense of purpose in life, having positive relationships, and feeling a sense of accomplishment)
@@ -96,7 +96,7 @@ It is essential to water these seeds within us—pursue activities that evoke po
 
 One significant psychological principle is Abraham Maslow's **Hierarchy of Needs**.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DATABASE entity
@@ -164,7 +164,7 @@ Love -down-> Safety : depends on
 Safety -down-> Physiological : depends on
 
 @enduml
-```
+{{< /plantuml >}}
 
 Maslow posited that human needs are hierarchical—with physiological needs at the base, followed by safety, love and belonging, esteem, and self-actualization.
 
@@ -176,7 +176,7 @@ Philosophy, the love of wisdom, has since time immemorial teased out the nuances
 
 Paramount to philosophy is the pursuit of 'Good Life'—summarised by the splendid Greek term, *Eudaimonia*. It translates to a 'life well-lived'—one marked by virtue and excellence.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define DARK_COLOR #1E90FF
 !define LIGHT_COLOR #ADD8E6
@@ -263,7 +263,7 @@ legend
     <<Adaptation>> : Phase for implementing changes based on reflection and new knowledge.
 endlegend
 @enduml
-```
+{{< /plantuml >}}
 
 Philosophy underscores the importance of virtues like courage, temperance, justice, and wisdom. The cultivation and manifestation of these virtues in daily life elevate our existence to that of Eudaimonia.
 
@@ -275,7 +275,7 @@ Modern scientific research into wellbeing, satisfaction, and happiness provides 
 
 Noted positive psychologist Martin Seligman developed a robust model of wellbeing known as **PERMA** – standing for Positive Emotion, Engagement, Relationships, Meaning, and Achievement.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define RECTANGLE class
@@ -431,7 +431,7 @@ M -d- A : contributes to
 A -l- PE : contributes to
 
 @enduml
-```
+{{< /plantuml >}}
 
 According to Seligman, the presence of these elements infuses life with a sense of fulfilment, happiness, and purpose, contributing to what can be considered an amazing life.
 
@@ -498,7 +498,7 @@ A prominent characteristic of an amazing life is balance. Balance between work a
 
 Having explored these elements, we should acknowledge that an amazing life isn't perfect. It's perfectly normal to experience periods of trial and tribulation, but they pave the way for a richer life experience. As we embrace the concept of an 'amazing life' let's envision it as a unique tapestry of experiences, emotions, and growth-endeavors that shape a life worth cherishing.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define CIRCLE class
@@ -532,7 +532,7 @@ goals --> balance : requires
 balance --> happiness : leads to
 
 @enduml
-```
+{{< /plantuml >}}
 
 *Figure 1: Key elements of an amazing life*
 
@@ -600,7 +600,7 @@ Our lives are filled with notions of what it's like to live an "amazing" life, b
 
 *Diagram 1: The Misconception Lifeline* depicts the evolution of these misconceptions and their roots. This flowchart illustrates how external influences feed into our individual and collective misunderstandings about what an amazing life consists of.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 skinparam monochrome false
 skinparam ArrowColor Blue
@@ -709,7 +709,7 @@ There's a famous quote by Salvador Dalí which states, "Have no fear of perfecti
 
 To begin understanding why an amazing life is not necessarily a perfect life, we first need to delve into what perfection is and why it’s problematic. Perfection is often viewed as an ideal state, with everything in absolute harmony and without any flaws. However, the major problem with this concept is that it's subjective. What's perceived as perfect for one person might not be for another. Furthermore, because perfection is an absolute, it implies that anything less is deficient or flawed, creating immense pressure and unrealistic expectations.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define STATE state
@@ -788,7 +788,7 @@ state "Pursuit of Perfection" as pursuit {
 }
 
 @enduml
-```
+{{< /plantuml >}}
 
 In the above chart, the pursuit of perfection is presented as a process. As you undertake tasks or face challenges, you're likely to make mistakes or fail ('non-perfection states'). These encounters can either lead to a sense of defeat, or serve as lessons that, if learned from, lead to growth. However, in the pursuit of perfection, when these non-perfection states are met with self-criticism and defeat instead of lessons and growth, it leads to a decrease in satisfaction, happiness, and overall life quality.
 
@@ -798,7 +798,7 @@ A major issue with perfection is its 'all-or-nothing' nature. This means that if
 
 Now that we understand the problem with perfection, the next step is learning to embrace the amazing over the perfect. An amazing life doesn't mean a life without failures, hardships, or defeats. Instead, it involves embracing diversity, understanding that life will be filled with various experiences, and utilising these experiences for growth and enrichment.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define ARROW -->
@@ -864,7 +864,7 @@ dynamicAmazing --> amazingLife : Rich Social Experiences & Networking
 limitedPerfect --> perfectLife : Narrow Social Interactions & Missed Opportunities
 
 @enduml
-```
+{{< /plantuml >}}
 
 In the second chart, we see a mapping of what an amazing life might look like. You start with various life experiences (such as work, relationships, failures, triumphs) and each of these experiences can take two routes: either contributing to your life's perfection or contributing to it being amazing.  
 
@@ -1067,7 +1067,7 @@ To better illustrate this, let's delve a bit deeper into what each acronym stand
 
 5. **Time-bound:** Every goal should have a timeframe to ensure a sense of urgency and prevent endless postponements. E.g., "I want to read 12 books this year."
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define RECTANGLE class
@@ -1123,7 +1123,7 @@ SMART --> Iteration : reviews and\nmodifies
 Iteration --> Specific : informs
 
 @enduml
-```
+{{< /plantuml >}}
 
 The image above is a visual representation of the SMART goals framework.
 
@@ -1328,7 +1328,7 @@ Your play of the day is to set one SMART goal using the criteria specified above
 
 To sum up, setting SMART goals gives your aspirations structure—it’s like adding a skeleton to the body of your dreams. Alongside dedication and perseverance, SMART goals can propel you towards your desired future, one step at a time.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DATABASE entity
@@ -1639,7 +1639,7 @@ Here, for instance's sake, let's proceed with a **goal-tracking spreadsheet** as
 
 Before moving ahead, let's understand this better with a diagram.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DATABASE entity
@@ -1720,7 +1720,7 @@ LayDown --> Prioritize : Assess & Sort
 Prioritize --> Define : Detail Out
 Define --> Choose : Finalize & Plan
 @enduml
-```
+{{< /plantuml >}}
 
 In this diagram, we are walking through the stages of goal setting till selecting a tracking method. Starting from identifying and laying down goals to prioritizing and defining them, and lastly choosing how we would like to track them.
 
@@ -1772,7 +1772,7 @@ First and foremost, it's important to understand what self-discipline is and wha
 
 Self-discipline is the ability to control one's feelings and overcome one's weaknesses; the ability to pursue what one thinks is right despite the temptations of ephemeral satisfaction. It represents the fortitude to stick to our decisions and follow them through with tenacity, even when facing difficulties or the allure of taking the easy route.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DIAMOND class
@@ -1872,7 +1872,7 @@ EmotionalIntelligence -up-> SelfDiscipline : "Reinforces"
 Accountability -up-> SelfDiscipline : "Reinforces"
 Consistency -up-> SelfDiscipline : "Reinforces"
 @enduml
-```
+{{< /plantuml >}}
 
 Fig 1. Self-Discipline as the Liberator
 
@@ -1882,7 +1882,7 @@ In the diagram (Fig 1), the path leading to an 'Amazing Life' is strewn with obs
 
 Now that we have a basic understanding of what self-discipline is, let's delve into why it's vital for an amazing life. Research has shown that self-discipline outperforms IQ in predicting academic performance[1].
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 
@@ -1953,7 +1953,7 @@ SelfDiscipline --> LongTermGoals : Fuels Ability to Set and Achieve
 LongTermGoals --> AcademicPerformance : Positively Contributes To
 SelfDiscipline -left-> ShortTermGratification : Overrides and Controls
 @enduml
-```
+{{< /plantuml >}}
 
 Fig 2. Comparisons of Self-Discipline and Intelligence Quotient (IQ) as Predictors of Academic Performance.
 
@@ -1977,7 +1977,7 @@ The temptation of immediate satisfaction often proves a significant roadblock in
 
 Creating barriers involves making the temptation difficult to reach. For instance, if you're trying to control unhealthy eating and your Achilles heel is ice-cream, don't keep it in your freezer. On the other hand, delay involves practicing patience and delaying gratification. Tell yourself that you can have the ice-cream, but after a fulfilling, nutritious meal.
 
-```plantuml
+{{< plantuml >}}
 @startmindmap
 
 !define COLOR1 #98FB98
@@ -2082,7 +2082,7 @@ Before we can embrace self-discipline, we need to overcome some common misconcep
 
 Several research studies support the idea that self-discipline is a better predictor of success than intelligence. Psychologists have discovered that our brains are designed to seek immediate gratification – a primitive survival instinct. Self-discipline, however, involves overriding this automatic tendency and focusing on long-term rewards. This is where our conscious effort comes in, training our brains to control impulses and delay gratification.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define ARROW -->
@@ -2132,7 +2132,7 @@ LS --> SD : Challenges with Impulse
 note on link: Short-term pleasures and emotional needs
 
 @enduml
-```
+{{< /plantuml >}}
 
 This diagram illustrates how the brain functions in the context of self-discipline. Key regions involved are the prefrontal cortex, responsible for decision-making and impulse control, and the limbic system, which drives immediate gratification. Balancing the interplay between these regions is crucial in battling temptations and exercising self-discipline.
 
@@ -2162,7 +2162,7 @@ A disciplined approach improves familial, platonic, and romantic relationships b
 
 Self-discipline promotes continuous learning, self-improvement, adaptability, and humility, fostering overall personal growth.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 
@@ -2217,7 +2217,7 @@ Each attribute mentioned within the blocks is directly influenced by an improvem
 - Goals Achievement: Task Completion, Time Management, Strategic Planning
 endlegend
 @enduml
-```
+{{< /plantuml >}}
 
 Plotting the practice of self-discipline against various life aspects – personal growth, relationships, health, and goals achievement, we observe that as the level of self-discipline rises, the quality of life improves proportionally in all aspects. This chart encapsulates the transformative impact of self-discipline on life, highlighting its significance in the journey towards an amazing life.
 
@@ -2245,7 +2245,7 @@ Cultivate positive habits like exercising, healthy eating, mindfulness, etc., an
 
 Building emotional resilience will help you deal with setbacks and failures without falling off the self-discipline wagon.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define ARROW -->
@@ -2316,7 +2316,7 @@ PositiveHabits --> BuildingResilience : "Habits Build\nResilience"
 note bottom: Each stage is integral and necessary in the journey of developing self-discipline.
 
 @enduml
-```
+{{< /plantuml >}}
 
 This diagram delineates the path to cultivating self-discipline – starting from changing beliefs and attitudes, setting goals, managing time, nurturing positive habits, and finally building resilience. Each step connects to the next, highlighting that each stage is integral and necessary in the journey of developing self-discipline.
 
@@ -3017,7 +3017,7 @@ When someone talks to you, **Listen Carefully**. Be present in the moment and tr
 
 Effective communication is not just about getting your point across. It involves delivering your message in such a way that it can be easily received and interpreted. To achieve this, one must speak their truth but also remember to be kind. This is a good rule of thumb for all aspects of life, but especially for maintaining fulfilling relationships.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 :Start;
 :Understand your Message;
@@ -3030,7 +3030,7 @@ else (no)
 endif
 :End;
 @enduml
-```
+{{< /plantuml >}}
 
 Start with understanding your message well. Think about how it would be interpreted by the other party. If you feel that it can land badly, take a step back and reframe your message with kindness and empathy. This consciousness in communication can eliminate many misunderstandings and increase trust in your relationships.
 
@@ -3171,7 +3171,7 @@ Remember this checklist should be viewed as a nourishment plan. Feeding your rel
 
 ## Decoding The Diagram: An Illustration of Family Bonding Practices
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DATABASE entity
@@ -3217,7 +3217,7 @@ note right of respectInd : Gear in Family Machinery
 note right of showAppreciation : Gear in Family Machinery
 
 @enduml
-```
+{{< /plantuml >}}
 
 This diagram is a visual representation of the strategies discussed in the checklist. It's an interconnected network of practices that foster healthy family relations. Here's a breakdown of the image:
 
@@ -3287,7 +3287,7 @@ Investment is the ultimate building block that can catapult you to financial fre
 
 Consider the following simple diagram representing smart investment choices. The diagram starts with savings, which are then split into two: an emergency fund for sudden, unexpected costs, and investments.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 title The Smart Investment Choices
 rectangle "Savings" as save {
@@ -3298,7 +3298,7 @@ save --> E
 save --> I
 note right of I : Stocks, Bonds, Mutual Fund
 @enduml
-```
+{{< /plantuml >}}
 
 ### Financial Planning
 
@@ -3346,7 +3346,7 @@ Budgeting is another crucial aspect of understanding your current financial stat
 
 ## Frequently review the following diagram to understand your current financial health
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define SUBRECTANGLE class
@@ -3411,7 +3411,7 @@ net_worth -down-> financial_health : Positive / Negative
 budget -down-> financial_health : Surplus / Deficit
 
 @enduml
-```
+{{< /plantuml >}}
 
 **Diagram Explanation:** The diagram titled 'Financial Health' represents the different aspects of your financial health, namely your assets, liabilities, income, and expenses. The connections show the relationship between these factors and how they impact your overall financial health. A positive net worth (assets > liabilities) and a surplus budget (income > expenses) are indications of good financial health.
 
@@ -3501,7 +3501,7 @@ Consider diving into free online resources or opt for a paid course that deliver
 
 Even after you've established a solid foundation, continual learning is critical. The financial world is dynamic, ever-changing. Consequently, financial literacy necessitates consistent learning and adjusting.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !pragma useVerticalIf on
 
@@ -3541,7 +3541,7 @@ FinancialLiteracy -down-> IntermediateConcepts : includes
 FinancialLiteracy -down-> AdvancedConcepts : includes
 
 @enduml
-```
+{{< /plantuml >}}
 
 Figure 1: A diagram illustrating the basic concepts integral to financial literacy. We begin with understanding simple concepts like interest, inflation and taxes. As we delve deeper, we need to familiarize ourselves with concepts like time value of money, risk, return and diversification. Then we can move onto advanced concepts like strategic investment, retirement planning and estate planning.
 
@@ -3559,7 +3559,7 @@ To do a thorough financial assessment, consider these areas:
 
 Lay everything out and take a good look at your financial position. This effort is not to stir guilt or regret but to empower you with a detailed understanding of your current financial position, preparing you for the next steps.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 
@@ -3674,7 +3674,7 @@ FinancialMarkets -up-> ActiveIncome : "Interest & Dividends<-"
 RealAssets -up-> PassiveIncome : "Rental & Appreciation<-"
 AlternativeInvestments -down-> TargetedSavings : "Potential Transfer->"
 @enduml
-```
+{{< /plantuml >}}
 
 Figure 2: A diagram outlining different sections of a personal financial analysis - income, expenses, debt, savings, and investments.
 
@@ -3686,7 +3686,7 @@ We all have lofty dreams - the dream house on a beach, a secure retirement, or a
 
 Financial goals should ideally be S.M.A.R.T - Specific, Measurable, Attainable, Relevant, and Time-bound. They should align with your long-term life objectives, and be divided into short-term(less than 3 years), mid-term(between 3-7 years), and long-term(more than 7 years) goals. Keep these goals at the forefront as you make financial decisions, allowing them to guide your spending, saving, and investment choices.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define RECTANGLE class
@@ -3809,7 +3809,7 @@ Investment -down-> "Investment Type"
 LifeObjectives -up-> FinancialGoals: "Guides\n<u>Financial Goals</u>"
 
 @enduml
-```
+{{< /plantuml >}}
 
 Figure 3: This diagram breaks down the S.M.A.R.T criteria for setting financial goals.
 
@@ -3842,7 +3842,7 @@ Develop a financial roadmap. This should encapsulate financial goals, both short
 
 Spend some time today refining your financial plans. What do they include? Can they be more detailed?
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 
@@ -3863,7 +3863,7 @@ Strategies --> Reviews : "Implement"
 Reviews --> Goal : "Revisit and Adjust"
 
 @enduml
-```
+{{< /plantuml >}}
 
 **Figure 1:** Crafting a basic financial plan_
 
@@ -3881,7 +3881,7 @@ Define your financial boundaries. Understand the difference between needs and wa
 
 Today, audit your income and expenses. Ascertain if you are living within your financial means and where adjustments might need to be made.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DIAMOND class
@@ -3915,7 +3915,7 @@ EmergencyCheck --> FinalDecision : Yes
 EmergencyCheck --> FinalDecision : No
 
 @enduml
-```
+{{< /plantuml >}}
 
 _**Figure 2:** Defining your financial boundaries*
 
@@ -3933,7 +3933,7 @@ A good rule of thumb is to set aside three to six months' worth of living expens
 
 If you haven't started an emergency fund, today is a great day to begin. Think about how much you can redirect from your income towards this safety net without affecting other financial necessities.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 skinparam activity {
   StartColor DarkGreen
@@ -4017,7 +4017,7 @@ endif
 
 stop
 @enduml
-```
+{{< /plantuml >}}
 
 _**Figure 3:** Building an emergency fund*
 
@@ -4035,7 +4035,7 @@ Strategize on how to reduce bad debt. Prioritize paying off high-interest debts 
 
 Examine your debt landscape. Are there problematic areas you recognize now that you weren't aware of before?
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DATABASE entity
@@ -4097,7 +4097,7 @@ StrategyBad --> Snowball
 StrategyBad --> Avalanche
 
 @enduml
-```
+{{< /plantuml >}}
 
 _**Figure 4:** Strategies to manage debt*
 
@@ -4196,7 +4196,7 @@ _Diagram 1: Depicting Maslow's Hierarchy of Needs. Starting from the bottom, we 
 
 Diagram 2: Steps to Financial Security
 
-```plantuml
+{{< plantuml >}}
 @startuml
 title Steps to Financial Security
 
@@ -4522,7 +4522,7 @@ Remember, the volley of life's challenges that you've been facing thus far or wi
 
 As you proceed further in your journey of life, keep referring back to this book, and particularly this chapter, whenever you find yourself straying. 'Your Playbook for an Amazing Life' is not only a guide but also an ally that can hold your hand and lead you through the excitingly challenging path of life. Here's to your amazing life, driven by robust health and overwhelming joy!
 
-```plantuml
+{{< plantuml >}}
 @startuml 
 title Physical Health
 partition Nutrition {
@@ -4542,9 +4542,9 @@ partition Health Check-ups {
   :Early Detection is Key;
 }
 @enduml
-```
+{{< /plantuml >}}
 
-```plantuml
+{{< plantuml >}}
 @startuml 
 title Mental Health
 partition Mindfulness {
@@ -4560,9 +4560,9 @@ partition Relationships {
   :Partake in Social Activities;
 }
 @enduml
-```
+{{< /plantuml >}}
 
-```plantuml
+{{< plantuml >}}
 @startuml 
 title Emotional Health  
 partition Emotions {
@@ -4574,7 +4574,7 @@ partition Self-Care {
   :Indulge in Enjoyable Activities;
 }
 @enduml
-```
+{{< /plantuml >}}
 
 The above diagrams depict the various aspects involved in maintaining physical, mental, and emotional health. Each partition represents an area of focus and the points inside elaborate the actions to take. These diagrams+ act as a quick reference guide, breaking down multifaceted aspects of maintaining holistic health into bite-sized, actionable goals.
 
@@ -4957,7 +4957,7 @@ Living an amazing life is woven around the concept of not just merely existing, 
 
 ## Embrace Your Inner Adventurer
 
-```plantuml
+{{< plantuml >}}
 @startuml
 hide circle
 
@@ -5020,7 +5020,7 @@ skinparam class {
   BorderColor Black
 }
 @enduml
-```
+{{< /plantuml >}}
 
 *Diagram 1: Embrace Your Inner Adventurer*
 
@@ -5244,7 +5244,7 @@ In recounting my journey, let me take you back to the quiet town of Moshi, Tanza
 
 My first lesson, *be open to new experiences*, was taught to me on day one. As we wound through the rainforest and transitioned into moorland, I encountered the abundant and diverse wildlife along the pathway, exposing me to a completely divergent world.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 
@@ -5275,7 +5275,7 @@ end note
 stop
 
 @enduml
-```
+{{< /plantuml >}}
 
 The flowchart above represents the progression of events. You begin your journey (Start) and proceed to see different plant and animal species that you have never seen before (New Experiences). This can be a magical and enlightening experience as you continue to cross various checkpoints in your journey further leading you to surpass Circuit A and reach the moorland (Achievement).
 
@@ -5713,7 +5713,7 @@ Where eustress teeters into its detrimental counterpart, distress, is determined
 
 While our focus leans towards the distress end of the spectrum, the practices and lessons extrapolated are applicable across the board. The claim here is not to romanticise hardship or inflict suffering, but illuminate the potential for growth and empowerment inherent in adversity.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 title Adversity Spectrum\nAdapted from the work of Hans Seyle
@@ -5774,7 +5774,7 @@ toxic -[dashed]-> negativeOutcomes : Can lead to
 note right of toxic: Increased Severity\nand Potential Harm
 
 @enduml
-```
+{{< /plantuml >}}
 
 *Figure 4.1: Adversity Spectrum – comprises eustress, tolerable stress, and toxic stress. Moving from left to right indicates increased severity and potential harm. Eustress and tolerable stress can, over time, lead to Strength Building and Personal Growth. Adapted from the work of Hans Seyle.*
 
@@ -5885,7 +5885,7 @@ In this chapter, we explored the idea of experiencing adversity as a catalyst fo
 
 An obstacle can be best described as a situation, event, or series of circumstances that impede progress or development. They are inevitable fingerprints on the glass of a good life. Understanding the core characteristics of obstacles is vital in learning how to overcome them. The first step to overcoming an obstacle lies in recognizing them for what they truly are—an opportunity for growth and improvement.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 skinparam rectangle {
@@ -5966,7 +5966,7 @@ endif
 
 stop
 @enduml
-```
+{{< /plantuml >}}
 
 In this flow diagram, you first identify the problem (the obstacle). Next, you analyze it and reframe it by viewing it as an opportunity.
 
@@ -5979,7 +5979,7 @@ Based on years of research, I propose a roadmap for overcoming obstacles in the 
 - **Act**: The best analysis becomes futile without action. Taking active steps towards solving the problem is necessary.
 - **Adjust**: Flexibility in approach helps navigate the bumps along the journey. Adjusting strategies based on feedback can bring about the desired outcome quicker.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 skinparam class {
@@ -6057,7 +6057,7 @@ In this diagram, you can see the progression across 'The Four A’s.' Starting w
 
 Courage is not just about taking risks recklessly but understanding the reality of the situation, accepting the fear, and then deciding to move forward. It doesn't matter if your steps are baby-steps so long as they are steps forward.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define DATABASE entity
@@ -6098,7 +6098,7 @@ Progress --> Growth : measures
 Progress --> Learning : facilitates
 
 @enduml
-```
+{{< /plantuml >}}
 
 In this flow diagram, we see that when we choose an individual path, it contributes to our courage, determination, and progress. Each of these, in turn, filters down into the forward steps we take.
 
@@ -6106,7 +6106,7 @@ In this flow diagram, we see that when we choose an individual path, it contribu
 
 Assorted research studies have suggested that mental rehearsal or imagining successful encounters with obstacles also affects the brain and body positively. Visualization primes our mind for the desired outcome we want to achieve, whether it's tackling a challenging business presentation, acing an exam, or navigating difficult conversations.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 title Comprehensive Interaction Between Mind, Visualization, and Positive Outcomes
@@ -6255,7 +6255,7 @@ In this pie chart, we see that 45% of our focus should be on the Circle of Contr
 
 Resilience gives us the strength to tackle obstacles skillfully. It is developed not by avoiding difficulties but by facing them fearlessly and learning from those experiences.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 
@@ -6380,7 +6380,7 @@ In this diagram, we realize that sharing leads to solutions by gaining perspecti
 
 By channeling our energyinto acknowledging the good, we can keep adversities in perspective and cultivate emotional resilience overtime.
 
-```plantuml
+{{< plantuml >}}
 participant "Mindset" as M
 participant "Gratitude" as G
 participant "Resilience" as R
@@ -6433,7 +6433,7 @@ Numerous researches underline the importance of self-love. A study published in 
 
 Belief in your ability to control your life events shapes your experiences. This is referred to as "locus of control". An internal locus of control, according to a 2016 study in Environmental Health and Preventive Medicine, is linked with higher self-efficacy and better health outcomes.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define RECTANGLE class
@@ -6511,7 +6511,7 @@ SelfCare --> [Becomes] Risks
 EmotionalIntelligence --> [Becomes] Opportunities
 
 @enduml
-```
+{{< /plantuml >}}
 
 In the diagram above, as we move to the right with an internal locus of control, we acknowledge that our actions significantly shape our lives. This nurtures self-love as we understand that we are not helpless pawns but active drivers of our life.
 
@@ -6540,7 +6540,7 @@ Just as there is empirical support for self-love, scientific evidence underscore
 
 Carve out time daily for solitude. This solitude is about embracing your company and engaging with your thoughts. You can meditate, journal, or sit quietly with a hot cup of tea.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define RECTANGLE class
@@ -6619,7 +6619,7 @@ Social ..> N7 : Influences
 Financial ..> N7 : Influences
 
 @enduml
-```
+{{< /plantuml >}}
 
 The above diagram delineates how self-care operates in different life domains. When you exercise self-care in one domain, it creates a ripple effect, improving your entire life and helping you achieve a sense of balance and well-being.
 
@@ -6979,7 +6979,7 @@ Physical self-care includes activities that help you stay fit and healthy, and t
 
 Below is a simple diagram to illustrate some of these activities:
 
-```plantuml
+{{< plantuml >}}
 @startmindmap
 + Physical Self-Care
 ++ Balanced diet
@@ -7004,7 +7004,7 @@ When incorporated into your schedule, these activities could significantly impro
 
 Emotional self-care involves caring for your emotional health by acknowledging and expressing your feelings regularly. This includes tools and activities that help you connect, process, and reflect on a full range of emotions. Here is another simple diagram illustrating these activities:
 
-```plantuml
+{{< plantuml >}}
 @startmindmap
 + Emotional Self-Care
 ++ Journaling
@@ -7223,7 +7223,7 @@ Having now understood the experiences and impacts of giving back, it's time for 
 3. Pick one of these that you can start with today or in the immediate future.
 4. Write down in detail the steps to execute this act of giving back.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 
 !define RECTANGLE class
@@ -7288,7 +7288,7 @@ Review -down-> Identify : Revisit\nGoals
 note left of VolunteerDecision : Decision Point
 
 @enduml
-```
+{{< /plantuml >}}
 
 To make this easier, use the above flowchart to strategize your journey towards giving back. You don’t need any special skills for this - just a heart willing to bring positive change.
 
@@ -7296,7 +7296,7 @@ To make this easier, use the above flowchart to strategize your journey towards 
 
 Research has proven that giving back has a scientific impact on our brain and overall well-being. Essential neurochemicals like dopamine and oxytocin, responsible for our happiness, are released when we perform altruistic acts. This is often termed a 'Helper's High'. The science behind why giving back feels good can be clearly depicted with the help of this flowchart.
 
-```plantuml
+{{< plantuml >}}
 @startuml
 !define RECTANGLE class
 !define ARROWCOLOR Black
@@ -7362,7 +7362,7 @@ note bottom of well_being : Psychological effects.
 note top of high : The "Helper's High" experience.
 
 @enduml
-```
+{{< /plantuml >}}
 
 ## 'Play of the Day': Start Small Today
 
