@@ -1,0 +1,53 @@
+@startmindmap
+
+!define COLOR1 #98FB98
+!define COLOR2 #FFD700
+!define COLOR3 #FFA07A
+
+* <back:White><&star><color:Black> Strategies to Overcome Temptations
+** <back:COLOR1><&shield> Creating Barriers
+*** <back:COLOR2><&wall> Physical Barriers
+**** <back:COLOR3><&box> Remove Tempting Items
+***** <back:COLOR1><&bin> Dispose or Give Away
+***** <back:COLOR1><&lock> Lock Away
+**** <back:COLOR3><&tools> Install App Lockers
+***** <back:COLOR1><&wrench> Customize Settings
+***** <back:COLOR1><&play> Time-Based Access
+*** <back:COLOR2><&group> Social Barriers
+**** <back:COLOR3><&users> Accountability Partners
+***** <back:COLOR1><&phone> Regular Check-Ins
+***** <back:COLOR1><&document> Written Commitments
+**** <back:COLOR3><&comment> Social Media Filters
+***** <back:COLOR1><&filter> Keyword Blocks
+***** <back:COLOR1><&mute> Mute or Unfollow
+*** <back:COLOR2><&cogs> Psychological Barriers
+**** <back:COLOR3><&thought> Change Mental Framing
+***** <back:COLOR1><&pen> Journaling
+***** <back:COLOR1><&brain> Cognitive Restructuring
+**** <back:COLOR3><&book> Educate Yourself
+***** <back:COLOR1><&search> Research
+***** <back:COLOR1><&presentation> Seminars/Webinars
+** <back:COLOR1><&hourglass> Practicing Delay
+*** <back:COLOR2><&clock> Short Delays
+**** <back:COLOR3><&time> 5-Minute Rule
+***** <back:COLOR1><&watch> Use a Stopwatch
+***** <back:COLOR1><&walk> Take a Short Walk
+**** <back:COLOR3><&stopwatch> Use a Timer
+***** <back:COLOR1><&list> To-Do List Prioritization
+***** <back:COLOR1><&alarm> Reminder Alarms
+*** <back:COLOR2><&calendar> Long Delays
+**** <back:COLOR3><&date> Schedule Indulgences
+***** <back:COLOR1><&checkmark> Calendar Entry
+***** <back:COLOR1><&bell> Set Alerts
+**** <back:COLOR3><&eye-slash> Out of Sight, Out of Mind
+***** <back:COLOR1><&box> Use Storage Solutions
+***** <back:COLOR1><&move> Rearrange Environment
+*** <back:COLOR2><&balance-scale> Cost-Benefit Analysis
+**** <back:COLOR3><&chart-line> Track Progress
+***** <back:COLOR1><&trend> Identify Patterns
+***** <back:COLOR1><&gauge> KPIs
+**** <back:COLOR3><&target> Set Goals
+***** <back:COLOR1><&flag> Short-Term Goals
+***** <back:COLOR1><&rocket> Long-Term Goals
+
+@endmindmap

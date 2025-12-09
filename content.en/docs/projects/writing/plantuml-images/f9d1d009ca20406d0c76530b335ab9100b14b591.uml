@@ -1,0 +1,67 @@
+@startuml
+!define RECTANGLE class
+!define DATABASE entity
+!define ACTOR actor
+!define HUMANISTIC #AFEEEE
+!define COGNITIVE #ADD8E6
+!define POSITIVE #F0E68C
+!define PSYCHOANALYTIC #FFB6C1
+!define BIOLOGICAL #FFA07A
+!define SOCIOCULTURAL #98FB98
+!define EXISTENTIAL #DB7093
+!define ECOLOGICAL #FFE4E1
+!define MINDFULNESS #D2B48C
+!define INTEGRATIVE #FFDAB9
+
+hide circle
+
+title Psychological Perspectives on Well-being
+
+skinparam rectangle {
+  BorderColor black
+  BackgroundColor #FFFFFF
+  FontName Arial
+  RoundedCorner 25
+}
+
+skinparam relationship {
+  ArrowColor DarkGrey
+  LineColor DarkGrey
+  LineThickness 1.5
+}
+
+rectangle "Well-being" {
+
+  RECTANGLE "Humanistic Psychology" as Humanistic << (H, HUMANISTIC) >>
+  RECTANGLE "Cognitive-Behavioral Approach" as CognitiveBehavioral << (C, COGNITIVE) >>
+  RECTANGLE "Positive Psychology" as Positive << (P, POSITIVE) >>
+  RECTANGLE "Psychoanalytic Theory" as Psychoanalytic << (PS, PSYCHOANALYTIC) >>
+  RECTANGLE "Biological Perspective" as Biological << (B, BIOLOGICAL) >>
+  RECTANGLE "Socio-Cultural Perspective" as SocioCultural << (S, SOCIOCULTURAL) >>
+  RECTANGLE "Existentialist Perspective" as Existentialist << (E, EXISTENTIAL) >>
+  RECTANGLE "Ecological Systems Theory" as Ecological << (EC, ECOLOGICAL) >>
+  RECTANGLE "Mindfulness and Eastern Philosophies" as Mindfulness << (M, MINDFULNESS) >>
+  RECTANGLE "Integrative or Holistic Approach" as Integrative << (I, INTEGRATIVE) >>
+
+  note bottom of Humanistic : Focuses on Self-Actualization
+  note bottom of CognitiveBehavioral : Emphasizes Cognitive Processes
+  note bottom of Positive : Centers on Positive Emotions
+  note bottom of Psychoanalytic : Delves into the Unconscious
+  note bottom of Biological : Considers Genetic and Neurological Factors
+  note bottom of SocioCultural : Examines Social and Cultural Contexts
+  note bottom of Existentialist : Concerned with Meaning and Choice
+  note bottom of Ecological : Looks at Systems and Environments
+  note bottom of Mindfulness : Promotes Awareness and Acceptance
+  note bottom of Integrative : Combines Various Approaches
+}
+
+Humanistic --> CognitiveBehavioral : Influences
+CognitiveBehavioral --> Positive : Influences
+Positive --> Psychoanalytic : Influences
+Psychoanalytic --> Biological : Influences
+Biological --> SocioCultural : Influences
+SocioCultural --> Existentialist : Influences
+Existentialist --> Ecological : Influences
+Ecological --> Mindfulness : Influences
+Mindfulness --> Integrative : Influences
+@enduml

@@ -1,0 +1,67 @@
+@startuml
+!define RECTANGLE class
+!define DATABASE entity
+!define USECASE usecase
+!define DARKGREEN #006400
+!define GREEN #008000
+!define LIGHTGREEN #00FF00
+!define GOLD #FFD700
+!define ORANGE #FFA500
+!define RED #FF0000
+
+hide circle
+
+skinparam rectangle {
+  BorderColor black
+  BackgroundColor #FFFFFF
+  FontName Arial
+}
+
+skinparam relationship {
+  ArrowColor DarkGrey
+  LineColor DarkGrey
+  LineThickness 2
+}
+
+rectangle "Self-Actualization" as Actualization << (S, DARKGREEN) >> {
+  RECTANGLE "Creativity" as a1 << (S, DARKGREEN) >>
+  RECTANGLE "Problem solving" as a2 << (S, DARKGREEN) >>
+  RECTANGLE "Acceptance of facts" as a3 << (S, DARKGREEN) >>
+}
+
+rectangle "Esteem" as Esteem << (E, GREEN) >> {
+  RECTANGLE "Self-esteem" as e1 << (E, GREEN) >>
+  RECTANGLE "Confidence" as e2 << (E, GREEN) >>
+  RECTANGLE "Achievement" as e3 << (E, GREEN) >>
+}
+
+rectangle "Love and Belonging" as Love << (L, LIGHTGREEN) >> {
+  RECTANGLE "Friendship" as l1 << (L, LIGHTGREEN) >>
+  RECTANGLE "Family" as l2 << (L, LIGHTGREEN) >>
+  RECTANGLE "Intimacy" as l3 << (L, LIGHTGREEN) >>
+}
+
+rectangle "Safety" as Safety << (SA, GOLD) >> {
+  RECTANGLE "Security of body" as s1 << (SA, GOLD) >>
+  RECTANGLE "Security of employment" as s2 << (SA, GOLD) >>
+  RECTANGLE "Security of health" as s3 << (SA, GOLD) >>
+}
+
+rectangle "Physiological" as Physiological << (P, ORANGE) >> {
+  RECTANGLE "Air" as p1 << (P, ORANGE) >>
+  RECTANGLE "Water" as p2 << (P, ORANGE) >>
+  RECTANGLE "Food" as p3 << (P, ORANGE) >>
+}
+
+note bottom of Physiological: Base level needs
+note bottom of Safety: Safety and Security
+note bottom of Love: Social Wellbeing
+note bottom of Esteem: Individual Importance
+note bottom of Actualization: Personal Potential
+
+Actualization -down-> Esteem : depends on
+Esteem -down-> Love : depends on
+Love -down-> Safety : depends on
+Safety -down-> Physiological : depends on
+
+@enduml

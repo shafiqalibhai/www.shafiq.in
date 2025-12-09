@@ -1,0 +1,103 @@
+@startuml
+!define RECTANGLE class
+
+package "Core Concepts" {
+  RECTANGLE Resilience {
+    +Develops Over Time
+    +Fosters Growth
+    +Encourages Adaptability
+    +Nurtures Perseverance
+  }
+  RECTANGLE Strength {
+    +Built By Facing Situations
+    +Develops Courage
+    +Enhanced by Mindfulness
+  }
+  RECTANGLE Experience {
+    +Acquired From Failures
+    +Leads To Wisdom
+    +Accumulates Over Time
+  }
+}
+
+package "Supporting Concepts" {
+  RECTANGLE Courage {
+    +Bolsters Self-Confidence
+  }
+  RECTANGLE Wisdom {
+    +Enables Better Decision Making
+  }
+  RECTANGLE Growth {
+    +Physical
+    +Emotional
+    +Intellectual
+  }
+  RECTANGLE Failures {
+    +Challenges
+    +Missteps
+  }
+  RECTANGLE Situations {
+    +Challenges
+    +Opportunities
+  }
+  RECTANGLE Time {
+    +Chronological
+    +Psychological
+  }
+  RECTANGLE Adaptability {
+    +Flexibility
+    +Versatility
+  }
+  RECTANGLE Perseverance {
+    +Consistency
+    +Determination
+  }
+  RECTANGLE Mindfulness {
+    +Awareness
+    +Presence
+  }
+  RECTANGLE Self_Confidence {
+    +Self_Assurance
+    +Self_Belief
+  }
+  RECTANGLE Decision_Making {
+    +Judgment
+    +Choices
+  }
+}
+
+' Core Concept Relationships
+Resilience --> Time : "<<develops>>\nOver"
+Resilience --> Growth : "<<fosters>>"
+Resilience --> Adaptability : "<<encourages>>"
+Resilience --> Perseverance : "<<nurtures>>"
+
+Strength --> Courage : "<<develops>>"
+Strength --> Situations : "<<built by>>\nFacing"
+Strength --> Mindfulness : "<<enhanced>>\nby"
+
+Experience --> Failures : "<<acquired>>\nFrom"
+Experience --> Wisdom : "<<leads>>\nTo"
+Experience --> Time : "<<accumulates>>\nOver"
+
+' Supporting Concept Relationships
+Courage --> Self_Confidence : "<<bolsters>>"
+Wisdom --> Decision_Making : "<<enables>>"
+
+Time -[hidden]-> Resilience
+Growth -[hidden]-> Resilience
+Adaptability -[hidden]-> Resilience
+Perseverance -[hidden]-> Resilience
+
+Courage -[hidden]-> Strength
+Situations -[hidden]-> Strength
+Mindfulness -[hidden]-> Strength
+
+Failures -[hidden]-> Experience
+Wisdom -[hidden]-> Experience
+Time -[hidden]-> Experience
+
+Self_Confidence -[hidden]-> Courage
+Decision_Making -[hidden]-> Wisdom
+
+@enduml

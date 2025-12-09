@@ -1,0 +1,64 @@
+@startuml
+
+!define RECTANGLE class
+!define DIAMOND abstract class
+
+skinparam class {
+  BackgroundColor LightYellow
+  BorderColor Black
+  ArrowColor Black
+}
+
+skinparam abstract {
+  BackgroundColor White
+  BorderColor Black
+  BorderThickness 2
+}
+
+title <size:16>Strategizing Journey Towards Giving Back - Enhanced Checklist Flowchart</size>
+
+RECTANGLE "1. Identify Causes\nYou're Passionate About" as Identify {
+  + Research
+  + Discuss with Family
+}
+RECTANGLE "2. Thorough Research\non Organizations" as Research {
+  + Reviews
+  + Financials
+  + Impact
+}
+RECTANGLE "3. Set Realistic\nDonation Budget" as Budget {
+  + Monthly Limit
+  + Emergency Funds
+}
+RECTANGLE "4. Decide on\nType of Donation" as ChooseType {
+  + One-Time
+  + Recurring
+  + In-Kind
+}
+DIAMOND "5. Also Consider\nVolunteering?" as VolunteerDecision
+RECTANGLE "6. Engage in\nVolunteer Activities" as Volunteer {
+  + Local Events
+  + Online Activities
+}
+RECTANGLE "7. Track & Measure\nImpact of Contributions" as TrackImpact {
+  + Reports
+  + Personal Visits
+}
+RECTANGLE "8. Periodic Review\nand Re-Strategize" as Review {
+  + Quarterly Assessment
+  + Financial Re-evaluation
+}
+
+Identify -down-> Research : Evaluate and\nPrioritize
+Research -down-> Budget : Shortlist\nOrganizations
+Budget -down-> ChooseType : Allocate\nResources
+ChooseType -down-> VolunteerDecision : Make\nDecision
+VolunteerDecision --|> Volunteer : Yes
+VolunteerDecision --|> TrackImpact : No
+Volunteer -down-> TrackImpact : Commit\nTime & Effort
+TrackImpact -down-> Review : Assess\nEffectiveness
+Review -down-> Identify : Revisit\nGoals
+
+note left of VolunteerDecision : Decision Point
+
+@enduml

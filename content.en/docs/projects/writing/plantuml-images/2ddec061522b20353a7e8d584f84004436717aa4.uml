@@ -1,0 +1,70 @@
+@startuml
+!define RECTANGLE class
+
+skinparam class {
+    BorderColor black
+    FontName Arial
+    BackgroundColor PaleGoldenRod
+    ArrowColor SeaGreen
+}
+
+title "Comparisons of Self-Discipline and IQ as Predictors of Academic Performance"
+
+legend right
+    **Key**
+    ====
+    --> : Indicates relationship or flow
+    ---- : Indicates weak or less reliable link
+    === : Indicates strong or more reliable link
+endlegend
+
+class "Intelligence Quotient (IQ)" as IQ {
+    ..Attributes..
+    + Innate ability
+    + Problem-solving skills
+    + Logical reasoning
+    + Memory retention
+    + Abstract thinking
+}
+
+class "Self-Discipline" as SelfDiscipline {
+    ..Attributes..
+    + Consistency
+    + Commitment
+    + Hard work
+    + Goal-setting
+    + Time management
+    + Self-control
+}
+
+class "Academic Performance" as AcademicPerformance {
+    ..Measures..
+    + Grades
+    + Skill acquisition
+    + Understanding of concepts
+    + Academic engagement
+    + Test scores
+}
+
+class "Long-term Objectives" as LongTermGoals {
+    ..Goals..
+    + Career aspirations
+    + Personal development
+    + Skill mastery
+    + Financial independence
+}
+
+class "Short-term Gratification" as ShortTermGratification {
+    ..Distractions..
+    + Immediate rewards
+    + Social media
+    + Entertainment
+    + Impulse decisions
+}
+
+IQ -down-> AcademicPerformance : Less Reliable Predictor
+SelfDiscipline -down-> AcademicPerformance : More Reliable Predictor
+SelfDiscipline --> LongTermGoals : Fuels Ability to Set and Achieve
+LongTermGoals --> AcademicPerformance : Positively Contributes To
+SelfDiscipline -left-> ShortTermGratification : Overrides and Controls
+@enduml

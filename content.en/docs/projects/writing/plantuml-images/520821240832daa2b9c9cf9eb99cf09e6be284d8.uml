@@ -1,0 +1,60 @@
+@startuml
+
+title Adversity Spectrum\nAdapted from the work of Hans Seyle
+
+!define ARROW -->
+
+rectangle eustress [
+  == Eustress ==
+  -- Characteristics --
+  + Positive Motivation
+  + Enthusiasm
+  + Short-term
+  + Increases Focus
+  + Enhances Performance
+]
+
+rectangle tolerable [
+  == Tolerable Stress ==
+  -- Characteristics --
+  + Manageable
+  + Short-to-Medium-term
+  + Coping Mechanisms
+  + Temporary Disturbance
+  + Resilience Building
+]
+
+rectangle toxic [
+  == Toxic Stress ==
+  -- Characteristics --
+  + Harmful
+  + Long-term
+  + Damaging Coping Mechanisms
+  + Health Risks
+  + Impairs Development
+]
+
+rectangle positiveOutcomes [
+  == Positive Outcomes ==
+  + Improved Resilience
+  + Enhanced Focus
+  + Greater Self-Confidence
+]
+
+rectangle negativeOutcomes [
+  == Negative Outcomes ==
+  + Chronic Illness
+  + Mental Health Issues
+  + Hindered Cognitive Growth
+]
+
+eustress -down-> tolerable : Increases in Severity
+tolerable -down-> toxic : Increases in Severity
+
+eustress -[dashed]-> positiveOutcomes : Can lead to
+tolerable -[dashed]-> positiveOutcomes : Can lead to
+toxic -[dashed]-> negativeOutcomes : Can lead to
+
+note right of toxic: Increased Severity\nand Potential Harm
+
+@enduml

@@ -1,0 +1,65 @@
+@startuml
+!define RECTANGLE class
+!define ARROWCOLOR Black
+!define TITLECOLOR MidnightBlue
+!define LINECOLOR Blue
+
+skinparam class {
+    BackgroundColor PaleGreen
+    BorderColor ARROWCOLOR
+    ArrowColor ARROWCOLOR
+    BorderRoundCorner 15
+}
+
+skinparam arrow {
+    Color ARROWCOLOR
+    FontColor ARROWCOLOR
+    Thickness 2
+}
+
+skinparam title {
+    BackgroundColor TITLECOLOR
+    FontColor White
+}
+
+title <size:18><color:White>Science Behind the "Helper's High"</color></size>
+
+RECTANGLE "Perform Altruistic Acts" as act <<Altruism>> {
+    +1. Donate Money
+    +2. Volunteer Time
+    +3. Help a Friend
+    +4. Share Knowledge
+}
+RECTANGLE "Brain Activity" as brain <<Neuroscience>> {
+    +1. Frontal Lobe Activation
+    +2. Amygdala Stimulation
+    +3. Neural Network Engagement
+}
+RECTANGLE "Neurochemical Release" as chem <<Biochemistry>> {
+    +1. Dopamine
+    +2. Oxytocin
+    +3. Endorphins
+}
+RECTANGLE "Effects on Well-being" as well_being <<Psychology>> {
+    +1. Increased Happiness
+    +2. Lowered Stress Levels
+    +3. Improved Mental Health
+}
+RECTANGLE "Helper's High" as high <<Outcome>> {
+    +1. Euphoria
+    +2. Sense of Purpose
+    +3. Overall Well-being
+}
+
+act --> brain : Initiates
+brain --> chem : Triggers
+chem --> well_being : Leads to
+well_being --> high : Results in
+
+note bottom of act : Where altruism starts.
+note right of brain : Neurological processes.
+note right of chem : Chemical changes.
+note bottom of well_being : Psychological effects.
+note top of high : The "Helper's High" experience.
+
+@enduml

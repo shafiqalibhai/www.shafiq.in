@@ -1,0 +1,15 @@
+@startuml 
+title Mental Health
+partition Mindfulness {
+  :Incorporate Mindful Breaks;
+  :Practice Meditation;
+}
+partition Learning {
+  :Be a Lifelong Learner;
+  :Stimulate Your Brain;
+}
+partition Relationships {
+  :Connect With Family, Friends;
+  :Partake in Social Activities;
+}
+@enduml

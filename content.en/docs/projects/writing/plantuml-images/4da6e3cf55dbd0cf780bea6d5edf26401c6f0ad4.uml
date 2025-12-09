@@ -1,0 +1,31 @@
+@startuml
+skinparam monochrome false
+skinparam ArrowColor Blue
+skinparam ActivityBackgroundColor LightYellow
+skinparam NoteBackgroundColor LightGreen
+
+title <size:18><b>Misconception Lifeline</b></size>
+
+start
+
+:External Influences: **Media**, **Social Media**, **Peers**, **Cultural Background**;
+note right: <color:purple>External factors like media,\nsocial media, peers, and cultural\nbackground shape initial viewpoints.</color>
+->
+
+:Personal Beliefs: **Personal Values**, **Moral Compass**, **Worldview**;
+note right: <color:red>Personal beliefs evolve based\non those external influences and\nare composed of values, morals, and worldviews.</color>
+->
+
+:Misconceptions: **Stereotypes**, **Myths**, **False Narratives**;
+note right: <color:darkorange>Incorrect beliefs that may\ninvolve stereotypes, myths, and false narratives.</color>
+->
+
+:Reality Check: **Fact-Checking**, **Expert Opinions**, **Self-Reflection**;
+note right: <color:darkgreen>Verification and debunking of\nmisconceptions through reliable\nsources, expert opinions, and self-reflection.</color>
+->
+
+:Informed Personal Beliefs: **Updated Values**, **Verified Facts**, **Enlightened Worldview**;
+note right: <color:blue>Beliefs now aligned with verified\ninformation leading to updated values,\nverified facts, and an enlightened worldview.</color>
+
+stop
+@enduml
