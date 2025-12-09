@@ -1,1 +1,1 @@
-hugo --destination ../../www.shafiq.in-dist
+./hugo-mobile --destination ../../www.shafiq.in-dist
