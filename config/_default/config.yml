@@ -5,6 +5,8 @@ pagination.pageSsize: 50
 theme: hugo-book
 BookMenuBundle: /menu
 disablePathToLower: false
+enableGitInfo: false
+min_version: "0.146.0"
 # Needed for mermaid/katex shortcodes
 markup:
   goldmark:
