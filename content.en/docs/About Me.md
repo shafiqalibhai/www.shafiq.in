@@ -35,6 +35,12 @@ Goan in Birmingham, introvert, learns by doing, likes reading and writing.
 
 ## Music
 
+## Games
+- Quake 3
+- Unreal Tournament
+- Road Rash
+- 
+
 ## Sports
 - Formula 1
 
