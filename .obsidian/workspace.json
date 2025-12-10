@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content.en/docs/projects/software/_index.md",
+                "file": "content.en/docs/projects/software/Linux OS.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Linux OS"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content.en/docs/projects/software/_index.md",
+                "file": "content.en/docs/projects/software/Linux OS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of Linux OS"
             }
           },
           {
@@ -184,12 +184,42 @@
   },
   "active": "4d77eb8bd5ad5e2b",
   "lastOpenFiles": [
-    "content.en/docs/projects/writing/_index.md",
     "content.en/docs/projects/software/_index.md",
+    "themes/hugo-book/static/asciinema/asciinema-player.min.js",
+    "themes/hugo-book/static/asciinema/asciinema-player.css",
+    "themes/hugo-book/static/asciinema/asciinema-auto.js",
+    "themes/hugo-book/static/asciinema",
+    "themes/hugo-book/layouts/term.html",
+    "themes/hugo-book/layouts/single.html",
+    "themes/hugo-book/layouts/list.html",
+    "themes/hugo-book/layouts/landing.html",
+    "themes/hugo-book/layouts/baseof.html",
+    "themes/hugo-book/layouts/_shortcodes/tabs.html",
+    "themes/hugo-book/exampleSite/content.he/_index.md",
+    "themes/hugo-book/exampleSite/content.en/showcases.md",
+    "themes/hugo-book/exampleSite/content.en/docs/shortcodes/steps.md",
+    "themes/hugo-book/exampleSite/content.en/docs/shortcodes/experimental/images.md",
+    "themes/hugo-book/exampleSite/content.en/docs/shortcodes/experimental/cards.md",
+    "themes/hugo-book/exampleSite/content.en/docs/shortcodes/experimental/badges.md",
+    "themes/hugo-book/exampleSite/content.en/docs/shortcodes/experimental/asciinema.md",
+    "themes/hugo-book/exampleSite/content.en/docs/shortcodes/experimental/_index.md",
+    "themes/hugo-book/exampleSite/content.en/_index.md",
+    "themes/hugo-book/exampleSite/assets/thumbnail.svg",
+    "themes/hugo-book/exampleSite/assets/placeholder.svg",
+    "themes/hugo-book/assets/icons/translate.svg",
+    "themes/hugo-book/assets/icons/toc.svg",
+    "themes/hugo-book/assets/icons/forward.svg",
+    "themes/hugo-book/assets/icons/backward.svg",
+    "content.en/docs/projects/writing/plantuml-images/f9d1d009ca20406d0c76530b335ab9100b14b591.png",
+    "content.en/docs/projects/writing/plantuml-images/f6c31b23b391f949f75dcae0aaf1bd78151b69ba.png",
+    "content.en/docs/projects/writing/plantuml-images/f4a7d1f8e3366d1ace612686659b98a372999bdc.png",
+    "content.en/docs/projects/writing/plantuml-images/ebe8a260cfb952bb67a161776b01c6d1aa8f9c16.png",
+    "content.en/docs/projects/writing/Your Playbook for an Amazing Life.md",
+    "categories/art/_index.md",
+    "content.en/docs/projects/writing/_index.md",
     "content.en/docs/projects/software/Linux OS.md",
     "content.en/docs/projects/_index.md",
     "content.en/docs/About Me.md",
-    "content.en/docs/projects/software",
     "content.en/docs/projects/writing/Book Binding.md",
     "content.en/docs/projects/writing/Hobbies and Leisure.md",
     "content.en/docs/projects/writing/Personal Development.md",
@@ -198,27 +228,6 @@
     "content.en/docs/projects/writing/Terraform.md",
     "content.en/docs/projects/writing/Saltstack.md",
     "content.en/docs/_index.md",
-    "content.en/docs/projects/writing/Spirituality.md",
-    "content.en/docs/projects/writing/Social.md",
-    "content.en/docs/projects/writing/Self Care.md",
-    "content.en/docs/projects/writing/Fitness.md",
-    "content.en/docs/projects/writing",
-    "categories/book-binding/_index.md",
-    "content.en/docs/projects",
-    "categories/children/_index.md",
-    "categories/book-binding",
-    "content.en/_index.md",
-    "categories/jokes/_index.md",
-    "categories/humour/_index.md",
-    "categories/jokes",
-    "categories/formula1/_index.md",
-    "categories/writing/_index.md",
-    "categories/formula1",
-    "content.fr/_index.md",
-    "content.en/docs/Interviewing.md",
-    "content/wp-content",
-    "content/posts",
-    "content/docs",
-    "content"
+    "content.en/docs/projects/writing/Spirituality.md"
   ]
 }
