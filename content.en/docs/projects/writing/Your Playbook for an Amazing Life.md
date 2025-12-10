@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Chapter 1.0 - What is an Amazing Life?
 
 As we embark on our journey of self-discovery and personal growth, one of the fundamental questions we must confront is: What is an amazing life? This question, simple as it may seem, has profound implications. The answer is not only a reflection of our beliefs, values, and priorities, but it also influences our actions and decisions. It is the lighthouse that guides us when we are lost at sea, the North Star that helps us navigate our way through the complexities of existence.
