@@ -17,11 +17,13 @@ Goan in Birmingham, introvert, learns by doing, likes reading, writing and freed
 ## Magazines
 
 ### Anime
+
 - Otaku
 - Anime
 - Neo
 
 ### Technology 
+
 - Digit
 - Chip
 
@@ -36,11 +38,18 @@ Goan in Birmingham, introvert, learns by doing, likes reading, writing and freed
 ## Music
 
 ## Games
+
 - Quake 3
 - Unreal Tournament
 - Road Rash
 - Need For Speed
 
 ## Sports
+
 - Formula 1
+
+## Contribution
+
+- Donates to Cancer Research UK, West Bromwich
+- Buy often from Salvation army, Oldbury
 
