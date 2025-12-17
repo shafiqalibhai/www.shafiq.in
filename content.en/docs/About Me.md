@@ -10,9 +10,9 @@ menu:
       icon: user
 ---
 
-Goan in Birmingham, introvert, learns by doing, likes reading and writing.
+Goan in Birmingham, introvert, learns by doing, likes reading, writing and freedom.
 
-# What I Like
+# My Likes
 
 ## Magazines
 
@@ -39,7 +39,7 @@ Goan in Birmingham, introvert, learns by doing, likes reading and writing.
 - Quake 3
 - Unreal Tournament
 - Road Rash
-- 
+- Need For Speed
 
 ## Sports
 - Formula 1
