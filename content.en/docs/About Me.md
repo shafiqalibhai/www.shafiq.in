@@ -68,3 +68,22 @@ I am interested in the following topics related to Politics:
 ### European Union
 
 ### United Kingdom
+
+## Software
+
+- write-good linter
+- Bazzite Linux OS
+- Docker/Podman
+- Obsidian
+- Visual Studio Code
+- Ollama
+- llama.cpp
+- Proxmox
+- Git
+- Homebrew
+- Waterfox
+- Synology Diskstation
+- Hugo
+- Opencore
+- Kodi
+- Immich
