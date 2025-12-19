@@ -10,7 +10,7 @@ menu:
       icon: user
 ---
 
-Goan in Birmingham, introvert, learns by doing, likes reading, writing and freedom.
+Goan in Birmingham UK, introvert, learns by doing, likes reading, writing and freedom.
 
 # My Likes
 
@@ -53,3 +53,10 @@ Goan in Birmingham, introvert, learns by doing, likes reading, writing and freed
 - Donates to Cancer Research UK, West Bromwich
 - Buy often from Salvation army, Oldbury
 
+## Politics
+
+I am interested in the following topics related to Politics:
+
+### European Union
+
+### United
