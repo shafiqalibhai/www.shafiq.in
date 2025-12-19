@@ -27,9 +27,17 @@ Goan in Birmingham UK, introvert, learns by doing, likes reading, writing and fr
 - Digit
 - Chip
 
-## Book Binding
+## Hobbies
+
+### Book Binding
 
 ## Books
+
+### Genres
+
+- Reference
+- Self Help
+- Humour
 
 ## Movies
 
@@ -51,7 +59,7 @@ Goan in Birmingham UK, introvert, learns by doing, likes reading, writing and fr
 ## Contribution
 
 - Donates to Cancer Research UK, West Bromwich
-- Buy often from Salvation army, Oldbury
+- Buys often from Salvation army, Oldbury
 
 ## Politics
 
