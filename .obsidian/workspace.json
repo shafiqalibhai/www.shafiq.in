@@ -184,6 +184,8 @@
   },
   "active": "4d77eb8bd5ad5e2b",
   "lastOpenFiles": [
+    "categories/home-automation/_index.md",
+    "categories/home-automation",
     "content.en/docs/projects/software/Linux OS.md",
     "content.en/docs/projects/software/_index.md",
     "themes/hugo-book/static/asciinema/asciinema-player.min.js",
@@ -195,7 +197,6 @@
     "themes/hugo-book/layouts/list.html",
     "themes/hugo-book/layouts/landing.html",
     "themes/hugo-book/layouts/baseof.html",
-    "themes/hugo-book/layouts/_shortcodes/tabs.html",
     "themes/hugo-book/exampleSite/content.he/_index.md",
     "themes/hugo-book/exampleSite/content.en/showcases.md",
     "themes/hugo-book/exampleSite/content.en/docs/shortcodes/steps.md",
