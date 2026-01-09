@@ -15,7 +15,7 @@ disableHLJS: false
 ---
 I'm excited to share with you _my first_ typo3 extension.
 
-It's a front end plugin that lets you display a customized google search engine on your website. The search engine uses ajax technology and has tabs feature, so you can switch between different types of results without reloading the page.
+It's a front end plugin that lets you display a customised google search engine on your website. The search engine uses ajax technology and has tabs feature, so you can switch between different types of results without reloading the page.
 
 <!-- Download Link : -->
 

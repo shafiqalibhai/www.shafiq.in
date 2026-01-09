@@ -10,9 +10,9 @@ disableHLJS: false
 
 ## Navigating Methodologies in SAP Implementation
 
-In the evolving landscape of software development, particularly for enterprise systems like SAP, understanding the methodology driving your project is crucial. Major players like Deloitte Consulting and IBM offer proprietary frameworks like Thread Manager and Ascendant™ to guide you. Even SAP offers its Roadmap methodology through its Solution Manager platform. These frameworks are also backed by standards from established organizations like IEEE and the U.S. Department of Defense.
+In the evolving landscape of software development, particularly for enterprise systems like SAP, understanding the methodology driving your project is crucial. Major players like Deloitte Consulting and IBM offer proprietary frameworks like Thread Manager and Ascendant™ to guide you. Even SAP offers its Roadmap methodology through its Solution Manager platform. These frameworks are also backed by standards from established organizations like IEEE and the U.S. Department of Defence.
 
-Smaller corporations without a defined methodology can also find guidance in classical software development models like the waterfall, spiral, and evolutionary approaches. These models are flexible enough to adapt to different project scopes and levels of requirement stability. If your organization already has a successful track record with other large-scale software projects, that experience can be invaluable in shaping your SAP implementation.
+Smaller corporations without a defined methodology can also find guidance in classical software development models like the waterfall, spiral, and evolutionary approaches. These models are flexible enough to adapt to different project scopes and levels of requirement stability. If your organisation already has a successful track record with other large-scale software projects, that experience can be invaluable in shaping your SAP implementation.
 
 The key takeaway? Ensure that your chosen methodology provides sufficient guidance for testing your ERP system. Some frameworks designed for building software from scratch may not be suitable for off-the-shelf solutions like SAP.
 
@@ -60,4 +60,4 @@ Detailed record-keeping is a must. Test documentation varies from management-lev
 
 If these conditions don't align for you, it doesn't mean automation is off the table. It just signifies that you might have to work a bit harder to implement it successfully.
 
-While automated tools can significantly aid the testing process, they are not a panacea. A balanced approach that aligns with your organization's unique needs and the specifics of your SAP implementation is essential for long-term success.
+While automated tools can significantly aid the testing process, they are not a panacea. A balanced approach that aligns with your organisation's unique needs and the specifics of your SAP implementation is essential for long-term success.

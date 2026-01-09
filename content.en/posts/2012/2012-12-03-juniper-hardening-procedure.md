@@ -36,7 +36,7 @@ disableHLJS: false
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Introduction
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Introduction
 
 <h2 class="western" style="margin-left:1.4cm;text-indent:-1.4cm;margin-top:.21cm;line-height:100%;page-break-inside:auto;">
   <span style="font-family:Verdana, sans-serif;">Rationale
@@ -108,7 +108,7 @@ disableHLJS: false
       <span style="font-family:Verdana, sans-serif;">Policy logging and monitoring
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Device and ScreenOS Setup
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Device and ScreenOS Setup
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">The security of a Juniper firewall Screen OS starts with a secure setup. The factors that influence this include using the correct Screen OS version.
@@ -120,7 +120,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">The outside packaging cannot show damage, or evidence that unauthorized persons have opened it. If the cardboard shows damage that would allow the device to be unpacked or exchanged, this may be evidence of tampering.
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="font-family:Verdana, sans-serif;">Each packed box arrives with custom tape to indicate that Juniper or an authorized manufacturer packaged the device. The tape is unique; with the word, "Juniper" printed repeatedly throughout the tape. If the tape is not present, this may be evidence of tampering.
+  <span style="font-family:Verdana, sans-serif;">Each packed box arrives with custom tape to indicate that Juniper or an authorised manufacturer packaged the device. The tape is unique; with the word, "Juniper" printed repeatedly throughout the tape. If the tape is not present, this may be evidence of tampering.
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">The internal packaging cannot show damage or evidence of tampering. The plastic bag should not have a large hole and the label that seals the plastic bag should not be detached or missing. Any damage to the bag or the seal may be evidence of tampering.
@@ -192,16 +192,16 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">The security appliance will return to the login prompt. At this time, the security appliance has been completely loaded with the proper Screen OS software version.
 
 <h2 class="western" style="margin-left:1.4cm;text-indent:-1.4cm;margin-top:.21cm;line-height:150%;page-break-inside:auto;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;">Screen OS Upgrades
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;">Screen OS Upgrades
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Update the firewalls' Screen OS with the vendor recommended updates as part of quarterly.
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Device Configuration
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Device Configuration
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Restore default settings </b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Restore default settings </b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Restore the firewall to the default manufacturing operation mode and configurations before putting the appliance in a different operation modes including Transparent Authenticated mode (a.k.a. Transparent VPN mode) or NAT/Route Authenticated mode (a.k.a. NAT/Route VPN mode) or before performing any configurations for any specific testing.
@@ -234,7 +234,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><b>set clock mm/dd/yyyy hh:mm</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Setting the Operation Mode</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Setting the Operation Mode</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">To determine which operation mode the juniper firewall is, use the following command.
@@ -270,7 +270,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><b>Authenticated Transparent Mode</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Authenticated NAT/Route Mode</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Authenticated NAT/Route Mode</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Configure the firewall in authenticated NAT/Route Mode using either a Route-based VPN or Policy-based VPN. You can configure both Route-based VPN and Policy-based VPN in authenticated NAT/Route mode.
@@ -279,13 +279,13 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">Only Manual Key is supported in the Evaluated Configuration, i.e. AutoKey cannot be used. Take care in selecting Manual Key values such that they follow the same rules as administrative passwords. Distribute the manual keys using a secure method to ensure that they are not publicly accessible.
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Route-Based VPN</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Route-Based VPN</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Configure the respective security appliance with a Route-based VPN in authenticated NAT/Route mode.
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Policy-Based VPN </b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Policy-Based VPN </b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Configure the respective security appliance with a Policy-based VPN in authenticated NAT/Route mode.
@@ -297,10 +297,10 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">Branch Firewalls: (Naming convention not set)
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="font-family:Verdana, sans-serif;">Data Center Firewalls: (Naming convention not set)
+  <span style="font-family:Verdana, sans-serif;">Data Centre Firewalls: (Naming convention not set)
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Configuring Screen Options</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Configuring Screen Options</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Security appliances must prevent all types of Denial of Service (DoS) and attack signatures on every security zone to prevent these types of attacks from occurring on the network.
@@ -504,7 +504,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">Ensure to execute the same command (as above) for any Layer-3 security zones that are used. When changing the HTTP blocking option the changes will only apply to the sessions newly created after this blocking option is set.
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Configuring IP Spoofing Protection </b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Configuring IP Spoofing Protection </b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Configure IP spoofing protection by the screen option "ip-spoofing" as indicated above in the section, "Configuring Screen Options". This includes <b>Intrazone </b>configurations where VPN traffic is on the same zone as the decrypted traffic. However depending on the configuration implemented (especially <b>Interzone</b>) the following additional steps are required to be adequately protected against IP spoofing attacks.
@@ -519,13 +519,13 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">When operating in Authenticated NAT/Route mode or Authenticated Transparent mode, the "IP-spoofing" screen option is "bypassed". Therefore, define a set of addresses and policies to allow traffic, excluding spoofed IP addresses.
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Device Management
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Device Management
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">This sections provides details on securing the firewall device's management aspects
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Securing Administrator Traffic On Device</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Securing Administrator Traffic On Device</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Four steps are required to secure the device administrator traffic:
@@ -546,7 +546,7 @@ disableHLJS: false
       <span style="font-family:Verdana, sans-serif;">Change port numbers for administrator services
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Disable Internal Commands</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Disable Internal Commands</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">The firewall administrator must disable internal commands. The usage of internal commands applies only for troubleshooting and debugging purposes.
@@ -567,7 +567,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><i>Note: Use the internal commands ‘debug ids sat' is for ISG-1000, ISG-2000, NS-5200 and NS-5400
 
 <h1 class="western" style="margin-top:.21cm;margin-bottom:0;font-variant:normal;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;">Disable Telnet for Device Management
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;">Disable Telnet for Device Management
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">The use of telnet is discouraged on the Juniper firewalls. Use SSH, 2.0 for managing the Juniper firewall:
@@ -582,7 +582,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><b>Enable ssh</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Control Unauthorized Hardware Resets</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Control Unauthorized Hardware Resets</b>
 
 <p style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">To disable recovery via login, use the following command:
@@ -600,7 +600,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">When disabled, a firewall administrator needs to enable the respective reset in order to perform any activity, which requires rebooting the firewall.
 
 <h1 class="western" style="margin-top:.21cm;margin-bottom:0;font-variant:normal;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;">Restricting Remote Access
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;">Restricting Remote Access
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Management access must be limited to the locally connected console port as opposed to the factory default settings.
@@ -618,7 +618,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><b>unset interface </b><i>interface-name </i><b>manage</b>
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">User Management
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">User Management
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Security appliance administrators must choose login-names and passwords that not only have the length of at least eight characters and employ as many types of characters as possible. Mixing lower case and upper case is required to ensure proper protection. In addition, easily guessable usernames and passwords are not secure.
@@ -630,7 +630,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">The recommended time between password changes is no longer than 30 days to mitigate the effects of a compromised administrator identity.
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Setting/Changing Password Length Restrictions</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Setting/Changing Password Length Restrictions</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">To ensure that passwords of eight characters or more are always used, you must first set the following command:
@@ -642,7 +642,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">where, <i>password-length </i>is a decimal value equal to or greater than 8 and less than or equal to 31. It should also follow password policy.
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Setting/Changing Administrator Name and Password</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Setting/Changing Administrator Name and Password</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">The following CLI commands, in order, are required to set a new administrator name and password:
@@ -657,10 +657,10 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">where, <i>name-string </i>and <i>password-string </i>should be replaced with actual login name and password of administrator.
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Policy Management
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Policy Management
 
 <p style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Remove Permissive Default Policy</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Remove Permissive Default Policy</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">The firewall might have a default policy that allows traffic to traverse the device from the interface in the <b>Trust </b>zone to the interface in the <b>Untrust </b>zone. Delete this default policy to avoid inadvertently allowing information to traverse the device. Use the CLI command:
@@ -669,7 +669,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><b>unset policy id 1</b>
 
 <p style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Log Denied Traffic</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Log Denied Traffic</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">By default, security appliance will drop any traffic that does not match any "permit" policy. Therefore, add a policy to the end of the policy list to log denied traffic, which matches no policy:
@@ -702,7 +702,7 @@ disableHLJS: false
   …
 
 <h1 class="western" style="margin-top:.21cm;margin-bottom:0;font-variant:normal;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;">Setting a Policy To Permit Traffic
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;">Setting a Policy To Permit Traffic
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">Two important steps to take when creating a security policy:
@@ -729,7 +729,7 @@ disableHLJS: false
   …<span style="font-family:Verdana, sans-serif;">where, <i>"id-num"</i>: is the decimal number presenting the policy ID number & <i> "action</i>" can be <b>permit </b>to allow specific service to pass from source address across the security appliance to the destination address; or <b>deny </b>to block service from passing though the security appliance
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Ordering Policies</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Ordering Policies</b>
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">The order of policies is important, as policies match in order beginning with the first one in the policy list and moving through the list. The first matching policy applies to network traffic to determine the action taken. By default, a newly created policy appears at the bottom of a policy list.
@@ -762,10 +762,10 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><b>set policy global id <i>pol-id </i>any any any deny log count</b>
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">System Logging and Monitoring
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">System Logging and Monitoring
 
 <h2 class="western" style="margin-top:.21cm;line-height:150%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;">Configuring Syslog
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;">Configuring Syslog
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;">You should configure a Syslog firewall as a backup for security audit information and for long-term audit log storage. This will help prevent a loss in security audit information.
@@ -870,16 +870,16 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">For maintaining the security levels on the Juniper firewalls, monitor the firewalls on a regular basis. Perform these monitoring tasks on periodic basis.
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Configuring Audit Loss Mitigation
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Configuring Audit Loss Mitigation
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="font-family:Verdana, sans-serif;">There are cases where more auditable events can occur than the security appliance is able to write to a syslog firewall. The security appliance must stop further auditable events from occurring until the audit trail is able to handle more traffic. An authorized administrator must enable the following command:
+  <span style="font-family:Verdana, sans-serif;">There are cases where more auditable events can occur than the security appliance is able to write to a syslog firewall. The security appliance must stop further auditable events from occurring until the audit trail is able to handle more traffic. An authorised administrator must enable the following command:
 
 <p class="western" style="margin-top:.21cm;line-height:150%;">
   <span style="font-family:Verdana, sans-serif;"><b>set log audit-loss-mitigation</b>
 
 <p style="margin-top:.21cm;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Logging Permitted Packets</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Logging Permitted Packets</b>
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
   <span style="font-family:Verdana, sans-serif;">To log permitted packets passing through the device enable logging option on all authenticated and/or unauthenticated traffic policies.
@@ -888,7 +888,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">In this document, all permitted policies include the keyword <b>log</b>, to create traffic log entries for permitted traffic.
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="font-family:Verdana, sans-serif;">Upon completion of the application session permitted traffic logs are created<span style="color:#ff0000;">.
+  <span style="font-family:Verdana, sans-serif;">Upon completion of the application session permitted traffic logs are created<span style="colour:#ff0000;">.
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
   <span style="font-family:Verdana, sans-serif;">You can use the following command to view the overall traffic logs, or specific policy's traffic log:
@@ -900,7 +900,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><b>get log traffic policy </b><i>id
 
 <p style="margin-top:.21cm;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Logging Dropped Packets</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Logging Dropped Packets</b>
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
   <span style="font-family:Verdana, sans-serif;">To log dropped packets set to terminate on any of the device interfaces, you must enable the following command:
@@ -912,10 +912,10 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">To log authenticated dropped packets; you must add the <b>log </b>keyword to the first policy associated with a VPN tunnel. Packets that do not match any of the policies associated with the tunnel are "dropped". The log entries for these dropped packets linked with the highest priority policy (first in the ‘<b>get policy all</b>' list) associated with the tunnel and the traffic flow direction.
 
 <p class="western" style="margin-top:.21cm;line-height:115%;page-break-before:always;">
-  <span style="color:#17365d;"><b>Firewall Management Idle Timeout</b>
+  <span style="colour:#17365d;"><b>Firewall Management Idle Timeout</b>
 
 <p style="margin-top:.21cm;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Command Line Interface</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Command Line Interface</b>
 
 <p style="margin-left:.64cm;margin-top:.21cm;">
   <span style="font-family:Verdana, sans-serif;">Protect Management from the console port by setting an idle timeout. By default, console and Telnet sessions time out after 10 minutes of inactivity. Recommend never to set the timeout value to zero.
@@ -927,7 +927,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;"><i><b>get console</b>
 
 <p style="margin-top:.21cm;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Web User Interface (WebUI)</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Web User Interface (WebUI)</b>
 
 <p style="margin-left:.64cm;margin-top:.21cm;">
   <span style="font-family:Verdana, sans-serif;">The WebUI timeout, like the console timeout, defaults to 10 minutes. When changing the WebUI timeout, specify a number of minutes (between 1 and 999) of idle time before closing the browser. Enable the option "Enable Web Management Idle Timeout" check box. Do not disable it.
@@ -939,7 +939,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">Edit Device > Device Admin > Web Management
 
 <p style="margin-top:.21cm;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Permitted IP Addresses</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Permitted IP Addresses</b>
 
 <p style="margin-left:.64cm;margin-top:.21cm;">
   <span style="font-family:Verdana, sans-serif;">Configure Juniper Networks devices to accept management requests only from trusted sources. Define a list of permitted IP addresses. Permitted IP addresses include a mask parameter specified as dotted-decimal value. Permitted IP addresses can be a hosts / subnets. NOTE: You are limited to six entries.
@@ -963,7 +963,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">Edit Device > Device Admin > Permitted IPs > Add
 
 <p class="western" style="margin-top:.21cm;line-height:115%;page-break-before:always;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Daily Monitoring Tasks</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Daily Monitoring Tasks</b>
 
 * <p class="western" style="margin-top:.21cm;line-height:100%;">
       <span style="font-family:Verdana, sans-serif;">Three or more consecutive failed login attempts
@@ -981,7 +981,7 @@ disableHLJS: false
       <span style="font-family:Verdana, sans-serif;">Unauthorized access attempts
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Weekly Monitoring Tasks</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Weekly Monitoring Tasks</b>
 
 * <p class="western" style="margin-top:.21cm;line-height:100%;">
       <span style="font-family:Verdana, sans-serif;">Correct operation of syslog daemon
@@ -990,7 +990,7 @@ disableHLJS: false
       <span style="font-family:Verdana, sans-serif;">All resource (CPU, memory) usage exceeding pre-defined thresholds (based on capacity planning figures)
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Monthly Monitoring Tasks</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Monthly Monitoring Tasks</b>
 
 * <p class="western" style="margin-top:.21cm;line-height:100%;">
       <span style="font-family:Verdana, sans-serif;">Firewall patch levels
@@ -1008,7 +1008,7 @@ disableHLJS: false
       <span style="font-family:Verdana, sans-serif;">Verification of backups
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="color:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Bi Yearly Monitoring Tasks</b>
+  <span style="colour:#548dd4;"><span style="font-family:Verdana, sans-serif;"><b>Bi Yearly Monitoring Tasks</b>
 
 * <p class="western" style="margin-top:.21cm;line-height:100%;">
       <span style="font-family:Verdana, sans-serif;">Perform Physical audit
@@ -1017,7 +1017,7 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">The Juniper Firewall administrators must perform these monitoring tasks. Notify any discrepancy observed from normal operation to the appropriate department.
 
 <h1 class="western" style="margin-left:.95cm;text-indent:-.95cm;margin-top:.21cm;margin-bottom:0;page-break-before:auto;page-break-after:auto;">
-  <span style="color:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Firewall Protection
+  <span style="colour:#17365d;"><span style="font-family:Verdana, sans-serif;"><span style="font-size:large;">Firewall Protection
 
 <h2 class="western" style="margin-left:1.4cm;text-indent:-1.4cm;margin-top:.21cm;line-height:100%;page-break-inside:auto;">
   <span style="font-family:Verdana, sans-serif;">Disaster Recovery Plan (DRP)
@@ -1101,13 +1101,13 @@ disableHLJS: false
   <span style="font-family:Verdana, sans-serif;">For continuity of operation, protect the firewalls from extended downtimes due to Screen OS malfunctioning or hardware failure.
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="font-family:Verdana, sans-serif;">Each Juniper Firewall must have an SLA for Screen OS support (patches, troubleshooting etc) from an authorized Juniper Firewall vendor. Ensure that the firewalls are also be supported by an SLA with respective product vendors.
+  <span style="font-family:Verdana, sans-serif;">Each Juniper Firewall must have an SLA for Screen OS support (patches, troubleshooting etc) from an authorised Juniper Firewall vendor. Ensure that the firewalls are also be supported by an SLA with respective product vendors.
 
 <h2 class="western" style="margin-left:1.4cm;text-indent:-1.4cm;margin-top:.21cm;line-height:100%;page-break-inside:auto;">
-  <span style="font-family:Verdana, sans-serif;">Protection of firewalls not kept in the Data <span style="color:#548dd4;">Center
+  <span style="font-family:Verdana, sans-serif;">Protection of firewalls not kept in the Data <span style="colour:#548dd4;">Centre
 
 <p class="western" style="margin-top:.21cm;line-height:115%;">
-  <span style="font-family:Verdana, sans-serif;">Not all Juniper firewalls are located at the Data Center. Many of them are deployed in remote sites are housed in other locations with lesser protection – like the Lab \ Outstations. Hence, the respective teams must ensure that such firewalls have adequate access control and physical protection implemented.
+  <span style="font-family:Verdana, sans-serif;">Not all Juniper firewalls are located at the Data Centre. Many of them are deployed in remote sites are housed in other locations with lesser protection – like the Lab \ Outstations. Hence, the respective teams must ensure that such firewalls have adequate access control and physical protection implemented.
 
 <h2 class="western" style="margin-left:1.4cm;text-indent:-1.4cm;margin-top:.21cm;line-height:100%;page-break-inside:auto;">
   <span style="font-family:Verdana, sans-serif;">Documentation
@@ -1181,7 +1181,7 @@ Properly Identify Device for Physical Tampering
 The outside packaging cannot show damage, or evidence that unauthorized persons have  
 opened it. If the cardboard shows damage that would allow the device to be unpacked or  
 exchanged, this may be evidence of tampering.  
-Each packed box arrives with custom tape to indicate that Juniper or an authorized  
+Each packed box arrives with custom tape to indicate that Juniper or an authorised  
 manufacturer packaged the device. The tape is unique; with the word, "Juniper" printed  
 repeatedly throughout the tape. If the tape is not present, this may be evidence of  
 tampering.  
@@ -1305,7 +1305,7 @@ Page 5 of 21Configure the respective security appliance with a Policy-based VPN 
 NAT/Route mode.  
 Firewall Naming Convention  
 Branch Firewalls: (Naming convention not set)  
-Data Center Firewalls: (Naming convention not set)  
+Data Centre Firewalls: (Naming convention not set)  
 Configuring Screen Options  
 Security appliances must prevent all types of Denial of Service (DoS) and attack signatures  
 on every security zone to prevent these types of attacks from occurring on the network.  
@@ -1599,7 +1599,7 @@ There are cases where more auditable events can occur than the security applianc
 to write to a syslog firewall. The security appliance must stop further auditable events from  
 Physical and Environmental Security – Juniper Hardening Procedure  
 21  
-Page 16 ofoccurring until the audit trail is able to handle more traffic. An authorized administrator must  
+Page 16 ofoccurring until the audit trail is able to handle more traffic. An authorised administrator must  
 enable the following command:  
 set log audit-loss-mitigation  
 Logging Permitted Packets  
@@ -1722,10 +1722,10 @@ Service Level Agreements for Screen OS and hardware support
 For continuity of operation, protect the firewalls from extended downtimes due to Screen OS  
 malfunctioning or hardware failure.  
 Each Juniper Firewall must have an SLA for Screen OS support (patches, troubleshooting etc)  
-from an authorized Juniper Firewall vendor. Ensure that the firewalls are also be supported  
+from an authorised Juniper Firewall vendor. Ensure that the firewalls are also be supported  
 by an SLA with respective product vendors.  
-Protection of firewalls not kept in the Data Center  
-Not all Juniper firewalls are located at the Data Center. Many of them are deployed in remote  
+Protection of firewalls not kept in the Data Centre  
+Not all Juniper firewalls are located at the Data Centre. Many of them are deployed in remote  
 sites are housed in other locations with lesser protection – like the Lab \ Outstations. Hence,  
 the respective teams must ensure that such firewalls have adequate access control and  
 physical protection implemented.  

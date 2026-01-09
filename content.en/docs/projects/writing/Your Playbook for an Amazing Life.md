@@ -23,7 +23,7 @@ Psychology offers valuable insights about the key components that make life amaz
 
 Firstly, let's talk about the concept of *well-being*.
 
-\begin{center}
+\begin{centre}
 {{< plantuml >}}
 @startuml
 !define RECTANGLE class
@@ -60,7 +60,7 @@ skinparam relationship {
 rectangle "Well-being" {
 
   RECTANGLE "Humanistic Psychology" as Humanistic << (H, HUMANISTIC) >>
-  RECTANGLE "Cognitive-Behavioral Approach" as CognitiveBehavioral << (C, COGNITIVE) >>
+  RECTANGLE "Cognitive-Behavioural Approach" as CognitiveBehavioral << (C, COGNITIVE) >>
   RECTANGLE "Positive Psychology" as Positive << (P, POSITIVE) >>
   RECTANGLE "Psychoanalytic Theory" as Psychoanalytic << (PS, PSYCHOANALYTIC) >>
   RECTANGLE "Biological Perspective" as Biological << (B, BIOLOGICAL) >>
@@ -93,7 +93,7 @@ Ecological --> Mindfulness : Influences
 Mindfulness --> Integrative : Influences
 @enduml
 {{< /plantuml >}}
-\end{center}
+\end{centre}
 
 (This concept broadly includes components such as positive emotions, engagement in challenging and meaningful activities, possessing a sense of purpose in life, having positive relationships, and feeling a sense of accomplishment)
 
@@ -217,7 +217,7 @@ class "Purpose" as Purpose <<Planning>> {
     +Define Personal Goals
     +Identify Values
     +Set a Vision
-    +Prioritize Objectives
+    +Prioritise Objectives
     +Consult Mentors
 }
 class "Action" as Action <<Execution>> {
@@ -228,10 +228,10 @@ class "Action" as Action <<Execution>> {
     +Seek Feedback
 }
 class "Reflection" as Reflection <<Assessment>> {
-    +Analyze Results
+    +Analyse Results
     +Evaluate Choices
     +Contemplate on Experiences
-    +Recognize Achievements
+    +Recognise Achievements
     +Identify Shortcomings
 }
 class "Learning" as Learning <<Adaptation>> {
@@ -262,7 +262,7 @@ N1 .. N0
 ' Legend
 legend
   Note: 
-    <<Planning>> : Phase that involves defining and organizing goals.
+    <<Planning>> : Phase that involves defining and organising goals.
     <<Execution>> : Phase that focuses on the activities required to achieve objectives.
     <<Assessment>> : Phase for reviewing actions, evaluating outcomes, and gaining insights.
     <<Adaptation>> : Phase for implementing changes based on reflection and new knowledge.
@@ -541,7 +541,7 @@ balance --> happiness : leads to
 
 *Figure 1: Key elements of an amazing life*
 
-To explain the above diagram, let’s take it step by step. The image is a circle divided into four pieces of equal sizes - each quadrant represents a vital ingredient to lead an amazing life. Starting from the top right quadrant and moving clockwise, we begin with 'Happiness and Fulfillment,' which emphasizes the importance of cherishing happiness in every moment, and drawing fulfillment from our accomplishments. The next quadrant showcases 'Physical and Mental Health,' emphasizing the importance of taking care of our bodies and minds. This could include prioritizing things like regular exercise, nutritious food, sufficient sleep, and mental health care. The 'Achieving Personal Goals' section highlights the significance of setting, pursuing, and achieving personal goals in leading a fulfilled life. Goals can vary from person to person, but having something to aim for is essential for personal growth. Lastly, 'Balance' draws attention to finding equilibrium in all aspects of life to avoid the risk of burnout and maintain a harmonious existence. Every piece of the quadrant touches the center, indicating that each factor contributes equally to painting the larger picture of an 'amazing life.'
+To explain the above diagram, let’s take it step by step. The image is a circle divided into four pieces of equal sizes - each quadrant represents a vital ingredient to lead an amazing life. Starting from the top right quadrant and moving clockwise, we begin with 'Happiness and Fulfillment,' which emphasizes the importance of cherishing happiness in every moment, and drawing fulfillment from our accomplishments. The next quadrant showcases 'Physical and Mental Health,' emphasizing the importance of taking care of our bodies and minds. This could include prioritizing things like regular exercise, nutritious food, sufficient sleep, and mental health care. The 'Achieving Personal Goals' section highlights the significance of setting, pursuing, and achieving personal goals in leading a fulfilled life. Goals can vary from person to person, but having something to aim for is essential for personal growth. Lastly, 'Balance' draws attention to finding equilibrium in all aspects of life to avoid the risk of burnout and maintain a harmonious existence. Every piece of the quadrant touches the centre, indicating that each factor contributes equally to painting the larger picture of an 'amazing life.'
 
 Now, having defined what constitutes an amazing life, we must strive to comprehend how we can mold our current life trajectory to this ideal.
 
@@ -557,7 +557,7 @@ Happiness varies widely among individuals. To ensure a constant supply of joy an
 
 *Exercise: Identify Your Happy Triggers*
 
-Start by taking some time off your day to reflect on moments or activities where you've felt pure joy and fulfillment. List down these 'happy triggers.' They can range from simple pleasures like reading a book or enjoying a coffee, to grand experiences like traveling or playing a musical instrument.
+Start by taking some time off your day to reflect on moments or activities where you've felt pure joy and fulfillment. List down these 'happy triggers.' They can range from simple pleasures like reading a book or enjoying a coffee, to grand experiences like travelling or playing a musical instrument.
 
 Aim to incorporate at least one happy trigger into your routine every day. By consciously prioritizing moments of happiness and fulfillment, you're taking control of your emotional landscape and sewing seeds for an amazing life.
 
@@ -617,23 +617,23 @@ title <size:18><b>Misconception Lifeline</b></size>
 start
 
 :External Influences: **Media**, **Social Media**, **Peers**, **Cultural Background**;
-note right: <color:purple>External factors like media,\nsocial media, peers, and cultural\nbackground shape initial viewpoints.</color>
+note right: <colour:purple>External factors like media,\nsocial media, peers, and cultural\nbackground shape initial viewpoints.</colour>
 ->
 
 :Personal Beliefs: **Personal Values**, **Moral Compass**, **Worldview**;
-note right: <color:red>Personal beliefs evolve based\non those external influences and\nare composed of values, morals, and worldviews.</color>
+note right: <colour:red>Personal beliefs evolve based\non those external influences and\nare composed of values, morals, and worldviews.</colour>
 ->
 
 :Misconceptions: **Stereotypes**, **Myths**, **False Narratives**;
-note right: <color:darkorange>Incorrect beliefs that may\ninvolve stereotypes, myths, and false narratives.</color>
+note right: <colour:darkorange>Incorrect beliefs that may\ninvolve stereotypes, myths, and false narratives.</colour>
 ->
 
 :Reality Check: **Fact-Checking**, **Expert Opinions**, **Self-Reflection**;
-note right: <color:darkgreen>Verification and debunking of\nmisconceptions through reliable\nsources, expert opinions, and self-reflection.</color>
+note right: <colour:darkgreen>Verification and debunking of\nmisconceptions through reliable\nsources, expert opinions, and self-reflection.</colour>
 ->
 
 :Informed Personal Beliefs: **Updated Values**, **Verified Facts**, **Enlightened Worldview**;
-note right: <color:blue>Beliefs now aligned with verified\ninformation leading to updated values,\nverified facts, and an enlightened worldview.</color>
+note right: <colour:blue>Beliefs now aligned with verified\ninformation leading to updated values,\nverified facts, and an enlightened worldview.</colour>
 
 stop
 @enduml
@@ -651,7 +651,7 @@ The *Checklist: Money does not equal Happiness*, provides questions to gauge you
 
 - Do I equate wealth with happiness?
 - Do I feel unsuccessful if I am not earning a certain amount?
-- Do I prioritize earning money over health, relationships, and peace of mind?
+- Do I prioritise earning money over health, relationships, and peace of mind?
 
 *Research Spotlight: Money-Happiness Paradox*.
 
@@ -809,7 +809,7 @@ Now that we understand the problem with perfection, the next step is learning to
 
 skinparam class {
   BackgroundColor LightYellow
-  BorderColor Gray
+  BorderColor Grey
   FontName Arial
 }
 
@@ -908,7 +908,7 @@ Born into a family with limited means in a small town in Minnesota, Martin’s c
 
 ### Section 2: Struggle Shapes Character
 
-Despite economic hardship, Martin did not allow his circumstances to define him. From a young age, he was drawn towards books, and he realized the power of knowledge. With his limited resources, he could only afford to visit the public library in his town, but for him, it became a sanctuary and a resource for learning and development. He associated words and their worlds as a means of escape from the immediate struggles of day-to-day life. The narratives yielded lessons, the characters acted as unperturbed friended, a beacon during his darkest times. During school projects, while his peers would present high-quality materials, Martin would often have to make do with used papers and colours. However, his creativity shone through. Teachers soon started recognizing him for his ingenuity.
+Despite economic hardship, Martin did not allow his circumstances to define him. From a young age, he was drawn towards books, and he realised the power of knowledge. With his limited resources, he could only afford to visit the public library in his town, but for him, it became a sanctuary and a resource for learning and development. He associated words and their worlds as a means of escape from the immediate struggles of day-to-day life. The narratives yielded lessons, the characters acted as unperturbed friended, a beacon during his darkest times. During school projects, while his peers would present high-quality materials, Martin would often have to make do with used papers and colours. However, his creativity shone through. Teachers soon started recognising him for his ingenuity.
 
 ### Section 3: Scholastic Achievement
 
@@ -971,7 +971,7 @@ This quality is imperative for one to live an amazing life on account of its imm
 
 #### Actionable Tip: The Introspection Exercise
 
-To foster self-awareness, take out 15-20 minutes of your day for an introspection exercise. Go to a quiet place free of distractions, carry a notebook or diary, write down about your feelings, thoughts, and reflect on your actions of the day. This exercise of self-reflection aids in realizing one's thoughts, feelings, actions, and reactions, thereby fostering self-awareness.
+To foster self-awareness, take out 15-20 minutes of your day for an introspection exercise. Go to a quiet place free of distractions, carry a notebook or diary, write down about your feelings, thoughts, and reflect on your actions of the day. This exercise of self-reflection aids in realising one's thoughts, feelings, actions, and reactions, thereby fostering self-awareness.
 
 #### Play of the Day
 
@@ -1021,7 +1021,7 @@ The next time you interact with someone, make a conscious effort to understand t
 
 ### Quality 5: Authenticity
 
-Authenticity is about recognizing, accepting, and being true to oneself. An authentic person doesn't feel the need to pretend or be someone else; they are comfortable in their skin and have the courage to be their real selves.
+Authenticity is about recognising, accepting, and being true to oneself. An authentic person doesn't feel the need to pretend or be someone else; they are comfortable in their skin and have the courage to be their real selves.
 
 This quality of authenticity is invaluable in leading an amazing life. Authenticity brings about self-confidence, helps gain the respect of others, and instills a sense of peace within oneself. It helps one stay true to oneself, steering life according to one's values, and preferences, making life meaningful, content, and truly amazing.
 
@@ -1039,9 +1039,9 @@ Each one of us, despite the differences in our lives, dreams of leading a life t
 
 By delving into each of these qualities, one gets an insight into the immense significant role that they play in molding one's life. The actionable tips and 'play of the day' included in each section are designed to provide readers with a clearly defined roadmap to inculcate these qualities, thereby empowering them to transform their life journey into an incredible one.
 
-Life is a learning process in which every day is a new opportunity to evolve, become a better version of oneself, make remarkable differences, and live an amazing life. And these five qualities are the stepping stones that guide you towards realizing an amazing life.
+Life is a learning process in which every day is a new opportunity to evolve, become a better version of oneself, make remarkable differences, and live an amazing life. And these five qualities are the stepping stones that guide you towards realising an amazing life.
 
-Indeed, it is a euphoric feeling to think of the endless possibilities that one can potentially unveil on their journey of life. Could anyone just imagine what the world would look like if each one of realized these top five qualities? It would certainly be a world where everyone is self-aware, embraces a growth mindset, is resilient, practices empathy, and is authentic.
+Indeed, it is a euphoric feeling to think of the endless possibilities that one can potentially unveil on their journey of life. Could anyone just imagine what the world would look like if each one of realised these top five qualities? It would certainly be a world where everyone is self-aware, embraces a growth mindset, is resilient, practices empathy, and is authentic.
 
 Indeed, life doesn't get easier; instead, we become stronger and better equipped to navigate through it. And these five qualities are the armor that equips us to carve out a truly amazing life. As we delve further into the chapters that follow, we will introspect, ponder, and take specific actions to embrace these qualities, bringing us closer to the amazing life we aim for. So equip yourself for this fascinating journey and hold on to your playbook because the exploration to our dream life has just begun!
 
@@ -1051,7 +1051,7 @@ So, as you embark on your journey towards an amazing life, remember, it's not ab
 
 # Chapter 2.0 - Setting Your Goals
 
-In the grand scheme of your life, your goals are the guiding compass that leads you to your desired destination. They give you a sense of purpose, a course of action, and a blueprint for how to best invest your time and energy. This chapter sets the scene for an engaging exploration of the art and science of goal setting. By the end of this chapter, you'll not only understand the importance of setting goals but also have a clear plan for how to create attainable, meaningful objectives that are customized to your dreams and aspirations. Not only will you just read but engage with the material, boosting your understanding through actionable exercises, checklists, and enthusiastic jumpstart initiatives.
+In the grand scheme of your life, your goals are the guiding compass that leads you to your desired destination. They give you a sense of purpose, a course of action, and a blueprint for how to best invest your time and energy. This chapter sets the scene for an engaging exploration of the art and science of goal setting. By the end of this chapter, you'll not only understand the importance of setting goals but also have a clear plan for how to create attainable, meaningful objectives that are customised to your dreams and aspirations. Not only will you just read but engage with the material, boosting your understanding through actionable exercises, checklists, and enthusiastic jumpstart initiatives.
 
 Before we dive in, let's unpack the premise of a goal. A goal is an intended outcome that an individual or a group envisions, plans, commits to, and strives to accomplish. It is, in essence, a projection of your desires into actionable, measurable objectives. Whether it's a personal goal like being proficient in a new skill, losing weight, or reading a certain number of books in a year, or a professional goal like getting a promotion or increasing your business's revenue, what matters is that it's something you genuinely aspire to achieve.
 
@@ -1199,19 +1199,19 @@ Goals are the end-state that provide us with directions to drive our efforts. Th
 
 Goals could be multiple and varied, based on different facets of life. Professional goals might revolve around job successes, accomplishments, promotions, or expansion of businesses. Personal goals could involve health, relationships, personal skills, or hobbies.
 
-The relevance and influence of having a goal are deep-rooted in our minds and behaviors, backed by evidence from various scientific studies and psychological principles.
+The relevance and influence of having a goal are deep-rooted in our minds and behaviours, backed by evidence from various scientific studies and psychological principles.
 
 **Evidence-based Understanding of Goal-setting**
 
-Scientific evidence underscores the importance of setting goals. Locke's **Goal-setting Theory** has a prominent place in organizational behavior studies and reveals that clear and challenging goals lead to higher performance levels.
+Scientific evidence underscores the importance of setting goals. Locke's **Goal-setting Theory** has a prominent place in organizational behaviour studies and reveals that clear and challenging goals lead to higher performance levels.
 
 Locke's theory is based on the fundamental premise that conscious goals affect action (Locke, 1968). Locke stated that the essence of a goal is having a clear objective towards which one's efforts are directed.
 
 More recently, studies have shown that setting specific and challenging goals leads to higher performance than setting easy goals or just 'doing your best' – a low or vague goal (Locke & Latham, 2006).
 
-Another important aspect of goals, especially from a psychological standpoint, lies in their ability to provide a sense of purpose. Dr. Angela Duckworth and other researchers from the University of Pennsylvania, defined having a purpose, as having "core goals around which one organizes their life" (Duckworth et al., 2014).
+Another important aspect of goals, especially from a psychological standpoint, lies in their ability to provide a sense of purpose. Dr. Angela Duckworth and other researchers from the University of Pennsylvania, defined having a purpose, as having "core goals around which one organises their life" (Duckworth et al., 2014).
 
-In this case, the goal does more than guide behavior: it also provides a sense of meaning and direction in life, which has been linked to better mental well-being (Steger, Oishi & Kashdan, 2009).
+In this case, the goal does more than guide behaviour: it also provides a sense of meaning and direction in life, which has been linked to better mental well-being (Steger, Oishi & Kashdan, 2009).
 
 These scientific pieces of evidence clear our premise that goal-setting is not only a basic human activity but also an essential contributor to our progress and well-being.
 
@@ -1219,7 +1219,7 @@ These scientific pieces of evidence clear our premise that goal-setting is not o
 
 Further placing goal-setting in a larger perspective, it is essential to consider its connection with Positive Psychology. Inherently, goal-setting is an optimistic activity. When setting goals, we believe in our ability to shape our future, which is a powerful motivator.
 
-Positive Psychology is a scientific approach to study human thoughts, feelings, and behavior, focusing more on strengths than weaknesses, building the best things in life rather than repairing the wrong ones and taking into consideration the satisfying and more fulfilled aspects of human life.
+Positive Psychology is a scientific approach to study human thoughts, feelings, and behaviour, focusing more on strengths than weaknesses, building the best things in life rather than repairing the wrong ones and taking into consideration the satisfying and more fulfilled aspects of human life.
 
 Thus, goal-setting aligns perfectly with the principles of Positive Psychology, advocating a strengths-based approach rather than a deficit-based one. By emphasizing positive outcomes, goal-setting can increase motivation and commitment, contributing to a more satisfied, fulfilling life.
 
@@ -1341,8 +1341,8 @@ To sum up, setting SMART goals gives your aspirations structure—it’s like ad
 
 skinparam class {
   BackgroundColor LightYellow
-  BorderColor Gray
-  ArrowColor Gray
+  BorderColor Grey
+  ArrowColor Grey
 }
 
 startuml
@@ -1426,15 +1426,15 @@ Remember this as you venture to set your own SMART goals, and set the stage for 
 
 ## Chapter 2.3 - Setting Long-term and Short-term Goals
 
-The process of setting goals is essential in our journey towards achieving an amazing life. It is our goals that guide us, giving direction and sequence to all of our activities. But setting goals isn't restricted to just creating a motor list of desires or wishes. It instead involves understanding what's meaningful to the individual, charting a course to realize those aspirations, and then committing to a series of actions to get there.
+The process of setting goals is essential in our journey towards achieving an amazing life. It is our goals that guide us, giving direction and sequence to all of our activities. But setting goals isn't restricted to just creating a motor list of desires or wishes. It instead involves understanding what's meaningful to the individual, charting a course to realise those aspirations, and then committing to a series of actions to get there.
 
-Just as an athlete doesn't merely decide they want to be the best but lays out a detailed plan to achieve their dream, we need to precisely define our goals and craft a roadmap for realizing them. And key to this effective goal-setting is understanding the difference between long-term and short-term goals.
+Just as an athlete doesn't merely decide they want to be the best but lays out a detailed plan to achieve their dream, we need to precisely define our goals and craft a roadmap for realising them. And key to this effective goal-setting is understanding the difference between long-term and short-term goals.
 
 ### Long-term Goals
 
 Long-term goals are the broader objectives that give direction to our lives and form the foundation upon which we build our daily activities. They are the ultimate outcomes we aim to reach over an extended period, often years.
 
-There is an array of different long-term goals an individual can set based on personal interests, values, and ambitions. These may range from professional aspirations, such as reaching a specific senior role in your career or starting your own business, to personal goals like improving your health and fitness level, achieving financial independence, or traveling to specific places.
+There is an array of different long-term goals an individual can set based on personal interests, values, and ambitions. These may range from professional aspirations, such as reaching a specific senior role in your career or starting your own business, to personal goals like improving your health and fitness level, achieving financial independence, or travelling to specific places.
 
 Here's an example of a long-term goal from a professional context:
 
@@ -1615,11 +1615,11 @@ Before we jump into tracking, we need to establish what we're tracking. Your goa
 
 Take a few minutes to write down your goals. Don't fret about the structure, precision or the magnitude of your goal yet. Just write down whatever comes to your mind.
 
-### Step 2: Prioritize Your Goals
+### Step 2: Prioritise Your Goals
 
-Once you've jotted down your goals, the next step is to prioritize them. Let's not beat around the bush — we can't tackle all our aspirations at once. What are the most important goals for you at this moment? Are there any goals that need immediate attention or those that will reap greater benefits if achieved earlier?
+Once you've jotted down your goals, the next step is to prioritise them. Let's not beat around the bush — we can't tackle all our aspirations at once. What are the most important goals for you at this moment? Are there any goals that need immediate attention or those that will reap greater benefits if achieved earlier?
 
-#### Exercise 2: Prioritize Your Goals
+#### Exercise 2: Prioritise Your Goals
 
 Revisit the list of goals you've penned down. Rank them in the order of their importance to you.
 
@@ -1633,7 +1633,7 @@ For instance, if your goal is to "be healthier," it's quite ambiguous and it wou
 
 Again, revisit your list of goals. This time, redefine them in SMART terms.
 
-We've now identified, prioritized, and defined our goals. It's time to delve into tracking them.
+We've now identified, prioritised, and defined our goals. It's time to delve into tracking them.
 
 ### Step 4: Choose a Tracking Method
 
@@ -1675,13 +1675,13 @@ RECTANGLE "Laying Down Goals" as LayDown {
   ++ Achievability
   ++ Relevance
   ++ Time-bound
-  + Categorize Goals
+  + Categorise Goals
   ++ Health
   ++ Financial
   ++ Personal Development
 }
 
-RECTANGLE "Prioritizing Goals" as Prioritize {
+RECTANGLE "Prioritizing Goals" as Prioritise {
   + Determine Importance
   ++ Impact Scale
   ++ Growth Potential
@@ -1720,9 +1720,9 @@ RECTANGLE "Choosing Tracking Method" as Choose {
 }
 
 Identify --> LayDown : Refine & List
-LayDown --> Prioritize : Assess & Sort
-Prioritize --> Define : Detail Out
-Define --> Choose : Finalize & Plan
+LayDown --> Prioritise : Assess & Sort
+Prioritise --> Define : Detail Out
+Define --> Choose : Finalise & Plan
 @enduml
 {{< /plantuml >}}
 
@@ -1988,14 +1988,14 @@ Creating barriers involves making the temptation difficult to reach. For instanc
 !define COLOR2 #FFD700
 !define COLOR3 #FFA07A
 
-* <back:White><&star><color:Black> Strategies to Overcome Temptations
+* <back:White><&star><colour:Black> Strategies to Overcome Temptations
 ** <back:COLOR1><&shield> Creating Barriers
 *** <back:COLOR2><&wall> Physical Barriers
 **** <back:COLOR3><&box> Remove Tempting Items
 ***** <back:COLOR1><&bin> Dispose or Give Away
 ***** <back:COLOR1><&lock> Lock Away
 **** <back:COLOR3><&tools> Install App Lockers
-***** <back:COLOR1><&wrench> Customize Settings
+***** <back:COLOR1><&wrench> Customise Settings
 ***** <back:COLOR1><&play> Time-Based Access
 *** <back:COLOR2><&group> Social Barriers
 **** <back:COLOR3><&users> Accountability Partners
@@ -2078,7 +2078,7 @@ Living an amazing life is like crafting an exquisite piece of art. Learning to a
 
 ### Section 1: Self-Discipline – A Paradigm Shift
 
-Self-discipline is more than the ability to resist temptations; it’s the powerful force that enables us to realize our dreams, build strong habits, and maintain healthy boundaries. It’s the essential factor that drives us to make hard choices today for a better tomorrow. This perspective shifts the view of self-discipline from being a restrictive force to a liberating one.
+Self-discipline is more than the ability to resist temptations; it’s the powerful force that enables us to realise our dreams, build strong habits, and maintain healthy boundaries. It’s the essential factor that drives us to make hard choices today for a better tomorrow. This perspective shifts the view of self-discipline from being a restrictive force to a liberating one.
 
 Before we can embrace self-discipline, we need to overcome some common misconceptions. Some people equate self-discipline with rigidity and self-denial, but true self-discipline empowers us. It gives us the liberty to pursue our passions, explore possibilities, and achieve our true potential while setting boundaries for our wellbeing and happiness. This reformed understanding separates self-discipline from self-deprivation; it fosters self-love, not self-punishment.
 
@@ -2140,7 +2140,7 @@ note on link: Short-term pleasures and emotional needs
 
 This diagram illustrates how the brain functions in the context of self-discipline. Key regions involved are the prefrontal cortex, responsible for decision-making and impulse control, and the limbic system, which drives immediate gratification. Balancing the interplay between these regions is crucial in battling temptations and exercising self-discipline.
 
-To delve deeper, the Prefrontal Cortex, our “logical brain”, helps us weigh up options rationally, assess potential outcomes of actions, and suppress impulsive responses. Its role is crucial for goal-directed activity and behavior. The limbic system, our “emotional brain,” drives us to seek pleasure and avoid pain. It’s the powerhouse of emotions, memory, and survival instincts like eating and reproduction – these functions often seek immediate gratification.
+To delve deeper, the Prefrontal Cortex, our “logical brain”, helps us weigh up options rationally, assess potential outcomes of actions, and suppress impulsive responses. Its role is crucial for goal-directed activity and behaviour. The limbic system, our “emotional brain,” drives us to seek pleasure and avoid pain. It’s the powerhouse of emotions, memory, and survival instincts like eating and reproduction – these functions often seek immediate gratification.
 
 When these two systems conflict, it’s like a tug-of-war. The temptation forces the limbic system to drag us towards quick fixes and fleeting pleasures. Simultaneously, the prefrontal cortex, armed with goals and long-term vision, pulls in the opposite direction - towards reason, control, but steadily towards the desired goals.
 
@@ -2289,7 +2289,7 @@ class SettingGoals as "Setting Goals" {
 }
 
 class TimeManagement as "Managing Time" {
-  +{field}<&gear> Prioritize Tasks
+  +{field}<&gear> Prioritise Tasks
   +{field}<&gear> Eliminate Distractions
   +{field}<&gear> Create a Schedule
   +{method}<&lightbulb> Use productivity tools
@@ -2328,7 +2328,7 @@ This diagram delineates the path to cultivating self-discipline – starting fro
 
 Today's action-item is to perform a self-assessment.
 
-Reflect on your current level of self-discipline. Analyze its impact - on your life and its various aspects: your goals, health, relationships, personal growth. Identify areas where you lack self-discipline. This examination will spotlight where you need to focus on developing self-discipline.
+Reflect on your current level of self-discipline. Analyse its impact - on your life and its various aspects: your goals, health, relationships, personal growth. Identify areas where you lack self-discipline. This examination will spotlight where you need to focus on developing self-discipline.
 
 Remember, the first step in this exciting journey of mastering self-discipline is self-awareness. Start today, for an amazing life awaits you.
 
@@ -2350,7 +2350,7 @@ I began my journey by setting a disciplined schedule. I opted for two hours of d
 
 Finally, the day came. I remember being at the base of Mount Kilimanjaro, looking up at the peak. It was intimidating and exhilarating at the same time. It was a test of my physical strength, yes, but more importantly, it was a test of my mental resolve.
 
-As I climbed higher, the weather became more brutal, the air thinner, but my determination remained unwavering. Every step I took was a testament to the hours of dedicated training I had put into it. I was able to enjoy the breathtaking view and reach the summit. At that moment, I realized the power of self-discipline. It had transformed me, from an ambitious yet directionless person to someone who had achieved a significant personal milestone.
+As I climbed higher, the weather became more brutal, the air thinner, but my determination remained unwavering. Every step I took was a testament to the hours of dedicated training I had put into it. I was able to enjoy the breathtaking view and reach the summit. At that moment, I realised the power of self-discipline. It had transformed me, from an ambitious yet directionless person to someone who had achieved a significant personal milestone.
 
 The discipline I practiced for climbing the mountain soon seeped into every aspect of my life. I started achieving better work productivity, better relationships, and a better understanding of myself. It also led to the creation of this book.
 
@@ -2380,7 +2380,7 @@ Let’s now explore some actionable tips to become more self-disciplined:
 
 1. **Build a routine:** The beauty of a routine is its predictability. It produces stability and regularity in your life, which is essential when you're trying to discipline yourself.
 
-2. **Use tools to help stay organized:** Utilize productivity tools to ensure that you stay on top of your tasks and don't get overwhelmed. Develop a time-blocked schedule that ensures you're dedicating time to your top priorities.
+2. **Use tools to help stay organised:** Utilise productivity tools to ensure that you stay on top of your tasks and don't get overwhelmed. Develop a time-blocked schedule that ensures you're dedicating time to your top priorities.
 
 3. **Cultivate a healthy lifestyle:** Regular exercise, a healthy diet, and proper sleep are pivotal in maintaining concentration and focus.
 
@@ -2425,7 +2425,7 @@ It's no secret that self-discipline is hard to master. But the real hardship lie
 
 Think of self-discipline as a muscle—weak in its initial state. Like all muscles, it needs regular training to make it stronger. Left undeveloped, it's easily overpowered, causing us to give in to temptations and distractions. Consequently, we find ourselves prioritizing immediate gratification over long-term goals.
 
-Have you ever sat down to work on an important project only to be distracted by your smartphone, a social media notification, or just the lure of doing something more entertaining? That's a familiar struggle for most of us. The reason for this behavior is rooted in our evolutionary history. Our ancestors needed to prioritize immediate resources for survival—hence, the predisposition to prioritize immediate gratification.
+Have you ever sat down to work on an important project only to be distracted by your smartphone, a social media notification, or just the lure of doing something more entertaining? That's a familiar struggle for most of us. The reason for this behaviour is rooted in our evolutionary history. Our ancestors needed to prioritise immediate resources for survival—hence, the predisposition to prioritise immediate gratification.
 
 In today's world, however, this inclination often proves to be more of a hindrance than a help. To achieve success in any area, we need to act contrary to this predisposition and direct our focus towards future rewards. That's where self-discipline plays a pivotal role.
 
@@ -2459,7 +2459,7 @@ To overcome procrastination, employ the "Two-Minute Rule". Introduced by product
 
 ### Technique 4: Practice Mindfulness
 
-Mindfulness is a psychological process that involves bringing our attention to the experiences occurring in the present moment. It helps in developing self-awareness and provides clarity on our behaviors and thoughts.
+Mindfulness is a psychological process that involves bringing our attention to the experiences occurring in the present moment. It helps in developing self-awareness and provides clarity on our behaviours and thoughts.
 
 Research suggests that practicing mindfulness can significantly improve self-discipline. It aids attention regulation and enhances our perception of effort-reward outcomes, eventually increasing our motivation to persist in achieving long-term goals.
 
@@ -2518,7 +2518,7 @@ Yet, contrary to the common belief, self-discipline is not necessarily a trait c
 
 ## Section 1: Understanding Habits
 
-Before we dive deeper, let's get a basic understanding of what a habit essentially is. A habit is an automatic response or behavior that we resort to in reaction to a specific cue. It's often something we do without putting much conscious thought. Brushing our teeth in the morning, checking our phone as soon as we wake up, or brewing a cup of tea after a long workday - all these actions are habits that we've ingrained in our systems.
+Before we dive deeper, let's get a basic understanding of what a habit essentially is. A habit is an automatic response or behaviour that we resort to in reaction to a specific cue. It's often something we do without putting much conscious thought. Brushing our teeth in the morning, checking our phone as soon as we wake up, or brewing a cup of tea after a long workday - all these actions are habits that we've ingrained in our systems.
 
 A habit can be broken down into three key components - the cue, the routine, and the reward, as identified by Charles Duhigg in his book, 'The Power of Habit'. The cue is the trigger that initiates the habit. The routine is the habitual action we undertake, and the reward is the result of our action that reinforces the habit. Together, these form the 'habit loop'.
 
@@ -2584,7 +2584,7 @@ Finally, it is important to approach habit formation with the right mindset and 
 
 Just as building good habits is integral to instilling self-discipline, breaking unhealthy ones is equally important. Bad habits distract us from our goals and provide momentary pleasure at the cost of long-term success. Therefore, understanding and tackling them is critical.
 
-The process is quite similar to building habits, but with a slight twist. The first step is to recognize the habit loop associated with the bad habit. Once identified, the challenge is to change the routine while retaining the cue and the reward (if possible). For instance, if snacking on unhealthy food is your stress response, the cue is stress, and the reward might be momentary distraction or pleasure. Try to replace unhealthy snacking with a healthier option or a different stress-buster like a brisk walk or a few minutes of deep breathing.
+The process is quite similar to building habits, but with a slight twist. The first step is to recognise the habit loop associated with the bad habit. Once identified, the challenge is to change the routine while retaining the cue and the reward (if possible). For instance, if snacking on unhealthy food is your stress response, the cue is stress, and the reward might be momentary distraction or pleasure. Try to replace unhealthy snacking with a healthier option or a different stress-buster like a brisk walk or a few minutes of deep breathing.
 
 Remember, the key to breaking bad habits is not to suppress them, but replace them with better routines.
 
@@ -2602,7 +2602,7 @@ Remember that self-discipline is not a one-day affair. It's a continuous process
 
 ## Chapter 3.5 - Your Play to Master Self-Discipline
 
-Mastering self-discipline is a rigorous exercise but the returns are in multifold. Self-discipline helps you to design your life and adapt and adhere to structures that determine your productivity, health, happiness, and success. This chapter delves deeper into creating and maintaining self-discipline practices on an everyday basis to help you realize and embody the potential of an amazing life.
+Mastering self-discipline is a rigorous exercise but the returns are in multifold. Self-discipline helps you to design your life and adapt and adhere to structures that determine your productivity, health, happiness, and success. This chapter delves deeper into creating and maintaining self-discipline practices on an everyday basis to help you realise and embody the potential of an amazing life.
 
 ## Section 1 - Understanding a Self-Disciplined Life
 
@@ -2646,7 +2646,7 @@ Making a detailed plan of how you will achieve your goals can make the process l
 
 With a clear plan in place, your next step is to create a routine that reflects the steps towards achieving your goals. This forms the structure around which your disciplined life revolves.
 
-**Action Step:** Create and optimize your daily routine to align with your goal(s).
+**Action Step:** Create and optimise your daily routine to align with your goal(s).
 
 ### 5. Build Healthy Habits
 
@@ -2656,7 +2656,7 @@ Developing healthy habits is a cornerstone to self-discipline. It can be as simp
 
 ### 6. Practice Mindfulness
 
-Being attentive and aware of your present moment helps you in taking conscious decisions, being more patient, and analyzing situations better. It promotes clarity, concentration, and a sense of calm, making it easier for you to stay disciplined.
+Being attentive and aware of your present moment helps you in taking conscious decisions, being more patient, and analysing situations better. It promotes clarity, concentration, and a sense of calm, making it easier for you to stay disciplined.
 
 **Action Step:** Schedule mindfulness exercises like meditation or deep-breathing techniques into your daily routine.
 
@@ -2692,7 +2692,7 @@ Continue with this playbook, every day, every step, moving closer to experiencin
 
 ## Chapter 4.0 - The Role of Relationships
 
-Life is a grand journey, and on this voyage, relationships form the contours of our experiences, shaping and coloring our world with joy, love, support, and occasionally, the lessons that pain and hardship provide. As social creatures, we are intrinsically wrapped in an intricate web of relationships - family, friends, spouses and significant others, colleagues, acquaintances and possibly the most complex relationship of all, the one we have with ourselves. These connections are not merely comforts to keep solitude at bay; they are critical drivers of well-being, personal growth, and success in multiple facets of life. Scientific studies are increasingly confirming the profound impact that relationships can have on our physical health, mental health, happiness, stress levels, and even longevity.
+Life is a grand journey, and on this voyage, relationships form the contours of our experiences, shaping and colouring our world with joy, love, support, and occasionally, the lessons that pain and hardship provide. As social creatures, we are intrinsically wrapped in an intricate web of relationships - family, friends, spouses and significant others, colleagues, acquaintances and possibly the most complex relationship of all, the one we have with ourselves. These connections are not merely comforts to keep solitude at bay; they are critical drivers of well-being, personal growth, and success in multiple facets of life. Scientific studies are increasingly confirming the profound impact that relationships can have on our physical health, mental health, happiness, stress levels, and even longevity.
 
 In this chapter of "Your Playbook for an Amazing Life", we will delve into the beautiful yet challenging world of relationships, unraveling how they can affect our lives, what makes them thrive or wither, and how we can cultivate healthy and enriching bonds that boost our well-being and facilitate our journey to an extraordinary life. This exploration will be replete with actionable strategies, backed by evidence, to enhance our relational abilities.
 
@@ -2702,7 +2702,7 @@ Relationships are not merely a "nice to have" element; they are absolute essenti
 
 **Studies** have found that strong social connections can provide a myriad of benefits, including increased happiness ([1]), improved health ([2]), and a longer life ([3]). Conversely, they found that loneliness, or the lack of social connections, is a significant risk factor for premature mortality, being linked to a 26% increase in the likelihood of death ([4]).
 
-Human relationships also play a crucial role in our cognitive processes. Relationships are, in essence, a **workout for our brains**. They stimulate mental activity, requiring us to think, remember, reason, analyze, empathize, understand, and communicate. This neural exercise could help to combat cognitive decline and boost overall mental agility ([5]).
+Human relationships also play a crucial role in our cognitive processes. Relationships are, in essence, a **workout for our brains**. They stimulate mental activity, requiring us to think, remember, reason, analyse, empathize, understand, and communicate. This neural exercise could help to combat cognitive decline and boost overall mental agility ([5]).
 
 ## Understanding Relationship Dynamics
 
@@ -2712,7 +2712,7 @@ To approach relationships effectively, we need to understand their basics. A rel
 
 In every relationship, individuals affect and are simultaneously affected by their connections in dynamic reciprocity. This constant give-and-take choreography forms the basis of relationship dynamics ([6]).
 
-Let's utilize a **flowchart** to illustrate this.
+Let's utilise a **flowchart** to illustrate this.
 
 ```mermaid
 graph TD
@@ -2756,7 +2756,7 @@ graph TD
 
 ```
 
-In the flowchart above, Individual 1 and Individual 2 represent two people in a relationship. The 'Relationship' in the center signifies the shared space where the interaction occurs. Individuals bring their 'Needs and Interests' to this space, which they seek to satisfy or support through the shared interaction. They 'Give' to the relationship by investing their effort, time, emotions, or other resources to meet the needs and interests of the other. In return, they 'Receive' when their own needs and interests are met.
+In the flowchart above, Individual 1 and Individual 2 represent two people in a relationship. The 'Relationship' in the centre signifies the shared space where the interaction occurs. Individuals bring their 'Needs and Interests' to this space, which they seek to satisfy or support through the shared interaction. They 'Give' to the relationship by investing their effort, time, emotions, or other resources to meet the needs and interests of the other. In return, they 'Receive' when their own needs and interests are met.
 
 This dynamic interplay, however, isn't as straightforward as it seems. It's often affected by multiple factors – interpersonal skills, emotional health, personal development, understanding, mutual respect, shared vision, and more.
 
@@ -2815,7 +2815,7 @@ For now, though, keep practicing, stay positive, and watch your relationships fl
 3. Pantell et al., "Social Isolation: A Predicate for Mortality comparable to smoking", Am J Pub Health, 2013.
 4. Holt-Lunstad et al., "Loneliness and Social Isolation as Risk Factors for Mortality: A Meta-Analytic Review", Perspectives on Psychological Science, 2015.
 5. Ybarra et al., "Mental Exercising Through Simple Socializing: Social Interaction Promotes General Cognitive Functioning", Personality and Social Psychology Bulletin, 2008.
-6. Lundberg, C., "Understanding and Influencing Consumer Behavior in the Virtual World" in Psychology & Marketing, 2014.
+6. Lundberg, C., "Understanding and Influencing Consumer Behaviour in the Virtual World" in Psychology & Marketing, 2014.
 7. Covey S.R., "The 7 Habits of Highly Effective People", Simon & Schuster, 1989.
 8. Gottman J., "The Mathematics of Marriage: Dynamic Nonlinear Models", MIT Press, 2002.
 9. Snavely L.E., "Positive Communication in Health and Wellness", Peter Lang Publishing, 2016.
@@ -2825,7 +2825,7 @@ For now, though, keep practicing, stay positive, and watch your relationships fl
 
 ## Chapter 4.1 - The Power of Relationships: A Key Player in Your Amazing Life
 
-Expecting the extraordinary often leads us towards the journey of self-transformation. But, an amazing life isn't just a solo expedition. It involves understanding and nurturing our relationships as well — a notion that is both a science and art. In this playbook for an amazing life, relationships stand at the forefront, embodying love, empathy, care, and more. Here we will analyze their significance, and how they can contribute towards making our lives extraordinary.
+Expecting the extraordinary often leads us towards the journey of self-transformation. But, an amazing life isn't just a solo expedition. It involves understanding and nurturing our relationships as well — a notion that is both a science and art. In this playbook for an amazing life, relationships stand at the forefront, embodying love, empathy, care, and more. Here we will analyse their significance, and how they can contribute towards making our lives extraordinary.
 
 Our lives are like a tapestry, interwoven with threads of relationships — families, friends, colleagues, and even relationships we form with ourselves. These bonds lay the foundation of society and are pivotal for personal growth. As social beings, we are wired to connect, understand, and nourish our relationships, that in turn, feed into our emotional wellbeing. So, let's embark on this undulating voyage of understanding relationships, which plays field in our ballpark of living an amazing life.
 
@@ -2915,7 +2915,7 @@ One essential relationship often neglected is the one we share with ourselves. B
 
 A healthy self-relationship means acknowledging our weaknesses and strengths, accepting them, attuning our thoughts, beliefs, and adapting to our needs. Here are a few ways to cultivate a better relationship with self:
 
-1. Recognize and embrace your feelings.
+1. Recognise and embrace your feelings.
 
 2. Surround yourself with positivity.
 
@@ -2995,7 +2995,7 @@ Diagram 1: healthy-vs-toxic-relationship-cycle
 
 Diagram 1 Explanation: The cycle of relationships starts with one partner feeling safe and secure (Healthy), leading to effective communication, that builds trust and mutual respect, further strengthening the sense of safety. In a toxic relationship, however, feelings of insecurity lead to poor communication, ensuing in diminished trust and disrespect, fueling further feelings of insecurity.
 
-By understanding these differences, we not only recognize the essential elements required for a healthy relationship but also become aware of signals indicating a toxic relationship. As we learn and grow, we can create healthier, more fulfilling relationships, ultimately helping us lead an amazing life.
+By understanding these differences, we not only recognise the essential elements required for a healthy relationship but also become aware of signals indicating a toxic relationship. As we learn and grow, we can create healthier, more fulfilling relationships, ultimately helping us lead an amazing life.
 
 ## Chapter 4.3 - Playing for Keeps: Tips for Maintaining Long-Lasting Relationships
 
@@ -3171,7 +3171,7 @@ Building a strong family relationship requires conscious effort, patience, and c
 
 Remember this checklist should be viewed as a nourishment plan. Feeding your relationships with these practices regularly can enable them to grow into strong pillars of support and love.
 
-**Exercise 2:** Create a family communication board in your house. A place where all members can leave messages, write feelings, or appreciate someone. It’s a great tangible reminder to communicate openly and recognize the efforts of each other.
+**Exercise 2:** Create a family communication board in your house. A place where all members can leave messages, write feelings, or appreciate someone. It’s a great tangible reminder to communicate openly and recognise the efforts of each other.
 
 ## Decoding The Diagram: An Illustration of Family Bonding Practices
 
@@ -3225,7 +3225,7 @@ note right of showAppreciation : Gear in Family Machinery
 
 This diagram is a visual representation of the strategies discussed in the checklist. It's an interconnected network of practices that foster healthy family relations. Here's a breakdown of the image:
 
-The center node of the diagram represents your family, with the nodes surrounding it representing various strategies: open communication; Quality Time; Resolve Conflicts Rationally; Respect Individuality; Show Appreciation. The connecting lines signify their connection with family, and the two-way arrows depict that family relationships demand efforts from all parties involved.
+The centre node of the diagram represents your family, with the nodes surrounding it representing various strategies: open communication; Quality Time; Resolve Conflicts Rationally; Respect Individuality; Show Appreciation. The connecting lines signify their connection with family, and the two-way arrows depict that family relationships demand efforts from all parties involved.
 
 These are the gears that keep the family machinery operating smoothly; the lack of any one of these can distress the whole machinery.
 
@@ -3314,7 +3314,7 @@ Let's explore tips on creating your financial plan.
 
 Begin working toward your financial freedom by setting a financial goal. Write it down, and review your budget and savings strategy with this goal in mind.
 
-This chapter focused on the actionable strategies that can lead you to financial freedom: budgeting, managing debt, saving, and investing. Remember, financial freedom doesn't come overnight. It is a journey that is often fraught with financial ups and downs, but it is also a journey well worth taking. It is through financial freedom that you achieve personal mastery, enhance your quality of life, and potentially attain an amazing life. Future chapters will delve into the qualitative elements of financial freedom, including emotional resilience, happiness, and overall behavioral pattern revolution that are an integral part of this journey. Remember, your playbook for an amazing life begins and ends with you.
+This chapter focused on the actionable strategies that can lead you to financial freedom: budgeting, managing debt, saving, and investing. Remember, financial freedom doesn't come overnight. It is a journey that is often fraught with financial ups and downs, but it is also a journey well worth taking. It is through financial freedom that you achieve personal mastery, enhance your quality of life, and potentially attain an amazing life. Future chapters will delve into the qualitative elements of financial freedom, including emotional resilience, happiness, and overall behavioural pattern revolution that are an integral part of this journey. Remember, your playbook for an amazing life begins and ends with you.
 
 ## Chapter 5.1 - Your Playbook to Financial Freedom
 
@@ -3340,7 +3340,7 @@ To start with, it's essential to understand your baseline financial health. This
 
 ### Creating a Budget
 
-Budgeting is another crucial aspect of understanding your current financial status. It gives you a clear idea of your income and expenses, allowing you to analyze where your money goes and how you can save more.
+Budgeting is another crucial aspect of understanding your current financial status. It gives you a clear idea of your income and expenses, allowing you to analyse where your money goes and how you can save more.
 
 **Tip:** Start by tracking every single expense - fixed monthly payments such as rent, utilities, and subscriptions, variable costs such as groceries and dining out, and even irregular expenses like clothing or home repairs.
 
@@ -3439,9 +3439,9 @@ This strategy isn't a new one, but it's worth reinforcing because its foundation
 
 ### Eliminate High-Interest Debts
 
-High-interest debts can eat away your savings and become a barrier on the path to financial freedom. Prioritize paying off these debts as quickly as possible.
+High-interest debts can eat away your savings and become a barrier on the path to financial freedom. Prioritise paying off these debts as quickly as possible.
 
-**Action:** Make a list of all your debts and their respective interest rates—prioritize paying off the highest interest rate debts first.
+**Action:** Make a list of all your debts and their respective interest rates—prioritise paying off the highest interest rate debts first.
 
 ### Invest Wisely
 
@@ -3465,7 +3465,7 @@ Creating multiple streams of income ensures that you're not reliant on a single 
 
 Every journey starts with a small step. Select one strategy that resonates with your financial condition and implement it today!
 
-There's no shortcut to achieving financial freedom, it's a gradual process that requires consistency, discipline, and persistence. Remember, every small step you take today will bring you closer to realizing your financial freedom. It's an exhilarating journey filled with learning and growth, so embrace it and enjoy every bit of it.
+There's no shortcut to achieving financial freedom, it's a gradual process that requires consistency, discipline, and persistence. Remember, every small step you take today will bring you closer to realising your financial freedom. It's an exhilarating journey filled with learning and growth, so embrace it and enjoy every bit of it.
 
 ## Recap
 
@@ -3493,7 +3493,7 @@ Financial freedom - the phrase rings with the sweet sound of relief, empowerment
 
 The pathway to this preferable position is not paved with overnight successes and get-rich-quick schemes, but rather with intelligent decisions, strict self-discipline, and evidence-backed strategies. This chapter will guide you through the key steps to acquiring financial freedom, backed by reliable research and adaptable for any individual, regardless of your current financial condition.
 
-As we embark on this journey, I want you to imagine financial freedom not as a destination but a continuous journey. While the tangible milestones like clearing your debts or a hefty amount in your savings account might give you a sense of relief and achievement, the true essence of financial freedom lies in the long-lasting changes in your mindset and financial behavior that ensures stability, growth, and resilience.
+As we embark on this journey, I want you to imagine financial freedom not as a destination but a continuous journey. While the tangible milestones like clearing your debts or a hefty amount in your savings account might give you a sense of relief and achievement, the true essence of financial freedom lies in the long-lasting changes in your mindset and financial behaviour that ensures stability, growth, and resilience.
 
 ## Step 1: Building a Solid Financial Literacy Foundation
 
@@ -3836,7 +3836,7 @@ Honest reflection can be a game-changer when it comes to enhancing your financia
 
 ## Mistake 1: Lack of a Financial Plan
 
-The first roadblock many people encounter on their journey to financial freedom is the mere absence of a financial plan. Picture this: You're an avid traveler gearing up for a cross-country road trip. Would you set off recklessly without any directions, hoping you'd somehow stumble upon your destination? Most of us wouldn't dare, and yet that's precisely how we approach our finances. Without a financial plan, you're driving blind, and the journey towards financial freedom quickly transforms into a road riddled with detours and dead-ends.
+The first roadblock many people encounter on their journey to financial freedom is the mere absence of a financial plan. Picture this: You're an avid traveller gearing up for a cross-country road trip. Would you set off recklessly without any directions, hoping you'd somehow stumble upon your destination? Most of us wouldn't dare, and yet that's precisely how we approach our finances. Without a financial plan, you're driving blind, and the journey towards financial freedom quickly transforms into a road riddled with detours and dead-ends.
 
 ### Actionable Tip
 
@@ -3862,7 +3862,7 @@ RECTANGLE "Identify Strategies to Meet Goals" as Strategies
 RECTANGLE "Regular Reviews to Adjust Plans" as Reviews
 
 Goal --> Assess : "Proceed"
-Assess --> Strategies : "Analyze"
+Assess --> Strategies : "Analyse"
 Strategies --> Reviews : "Implement"
 Reviews --> Goal : "Revisit and Adjust"
 
@@ -4008,7 +4008,7 @@ if (Is it a Legitimate Emergency?) then (Yes)
   note right
     Assess how usage affects financial stability
   end note
-  : **Replenish and Optimize the Fund**;
+  : **Replenish and Optimise the Fund**;
   note right
     Replenish quickly and consider optimization
   end note
@@ -4033,11 +4033,11 @@ Not all debt is equal, and understanding this is crucial in maintaining financia
 
 ### Actionable Tip
 
-Strategize on how to reduce bad debt. Prioritize paying off high-interest debts first while maintaining required payments on lower-interest debts. Once those are cleared, focus on paying off the rest progressively.
+Strategize on how to reduce bad debt. Prioritise paying off high-interest debts first while maintaining required payments on lower-interest debts. Once those are cleared, focus on paying off the rest progressively.
 
 ### Play of the Day
 
-Examine your debt landscape. Are there problematic areas you recognize now that you weren't aware of before?
+Examine your debt landscape. Are there problematic areas you recognise now that you weren't aware of before?
 
 {{< plantuml >}}
 @startuml
@@ -4123,9 +4123,9 @@ Every individual has their unique perspective on what constitutes an amazing lif
 
 Before we delve into the psychological benefits, it's essential that we deepen our understanding of the psychology behind financial security.
 
-In essence, money serves as more than just a medium for trade. It's a construct that holds varied psychological nuances, influencing our behavior, stress levels, aspirations, and relationships, among many others. To understand the profound impact of financial stability on our psychological well-being, we must explore Abraham Maslow's Hierarchy of Needs.
+In essence, money serves as more than just a medium for trade. It's a construct that holds varied psychological nuances, influencing our behaviour, stress levels, aspirations, and relationships, among many others. To understand the profound impact of financial stability on our psychological well-being, we must explore Abraham Maslow's Hierarchy of Needs.
 
-Abraham Maslow, an eminent psychologist, created a framework representing the universal needs of humans, organized into a pyramid. The base constitutes physiological needs (like food, water, etc.) necessary for survival, followed by safety needs (shelter, financial security, etc.). Next come 'belongingness' and 'love' needs, featuring relationships and friendships. The pyramid then proceeds to 'esteem' needs embodying confidence, recognition, and respect. The peak is crowned with 'self-actualization' needs, epitomizing the fulfillment of personal potential.
+Abraham Maslow, an eminent psychologist, created a framework representing the universal needs of humans, organised into a pyramid. The base constitutes physiological needs (like food, water, etc.) necessary for survival, followed by safety needs (shelter, financial security, etc.). Next come 'belongingness' and 'love' needs, featuring relationships and friendships. The pyramid then proceeds to 'esteem' needs embodying confidence, recognition, and respect. The peak is crowned with 'self-actualization' needs, epitomizing the fulfillment of personal potential.
 
 This hierarchy is insightful in understanding the role of financial security in our lives. Financial stability directly impacts our 'safety' needs and indirectly influences our needs for 'belongingness','esteem', and 'self-actualization'. More often than not, the lack of financial security can prevent people from fulfilling these needs, causing distress, anxiety, and affecting their overall psychological well-being.
 
@@ -4153,7 +4153,7 @@ With these benefits at play, the picture becomes clear - financial security can 
 
 Here are a few practical steps to get you started.
 
-1. **Budgeting**: Make a thorough list of your income sources and expenditure. Analyze your spending patterns and identify areas where you could cut back. A consistent budgeting habit forms the backbone of financial security.
+1. **Budgeting**: Make a thorough list of your income sources and expenditure. Analyse your spending patterns and identify areas where you could cut back. A consistent budgeting habit forms the backbone of financial security.
 
 2. **Saving and Investing**: Ensure you save a certain percentage of your income, no matter how small. Next, consider investing your savings. Read up on different investment vehicles and choose what suits your risk appetite and financial goals.
 
@@ -4263,7 +4263,7 @@ The introduction would set the stage for the subject of budgeting and savings. I
 
 This section would delve into explaining what budgeting means. The use of references and scientific research will give the discussion some weight, making sure that the reader understands that budgeting is not just about restricting their spending, but about understanding their finances.
 
-**Play of the Day**: Try to categorize your expenses into needs, wants, and savings.
+**Play of the Day**: Try to categorise your expenses into needs, wants, and savings.
 
 ---
 
@@ -4303,7 +4303,7 @@ The chapter would then offer tested and effective savings strategies. Each strat
 
 As we wrap up the chapter, we summarize the significant points about budgeting and saving. At this stage, readers should have a proper understanding of how to create a budget and save money effectively.
 
-**Play of the Day**: Revisit your drafted budget and savings strategy and finalize it for implementation.
+**Play of the Day**: Revisit your drafted budget and savings strategy and finalise it for implementation.
 
 ---
 
@@ -4315,7 +4315,7 @@ That’s a concise breakdown of how the guide can be structured. However, creati
 
 ## Chapter 6.0 - Health and Wellness - Your Main Asset on the Path to an Amazing Life
 
-Embarking on a journey toward an amazing life is an exhilarating endeavor. However, having the best roadmap to such a life becomes meaningless if the traveler is not healthy enough to undertake the voyage. In this chapter, we shall discuss the indispensable role of health and wellness in your playbook for an amazing life. We will cover various aspects such as physical health, mental health, nutrition, sleep, and exercise. In each section, filled with actionable insights, we will also encompass numerous exercises, checklists, and timely tips that you can readily apply to your existing lifestyles. We will then conclude each of these sections with a "Play of the Day" – a distinct action you can perform or a thought you can contemplate to put into practice what you have learned.
+Embarking on a journey toward an amazing life is an exhilarating endeavor. However, having the best roadmap to such a life becomes meaningless if the traveller is not healthy enough to undertake the voyage. In this chapter, we shall discuss the indispensable role of health and wellness in your playbook for an amazing life. We will cover various aspects such as physical health, mental health, nutrition, sleep, and exercise. In each section, filled with actionable insights, we will also encompass numerous exercises, checklists, and timely tips that you can readily apply to your existing lifestyles. We will then conclude each of these sections with a "Play of the Day" – a distinct action you can perform or a thought you can contemplate to put into practice what you have learned.
 
 The vast knowledge shared in this chapter is based on reputable studies, scientific research, and established psychological principles so as to provide you credible and effective measures to enhance your health and wellness.
 
@@ -4343,7 +4343,7 @@ Having understood the importance of physical health and the ways to maintain it,
 
 ## 2. Mental Health
 
-As equally critical as physical health, mental health often remains under-emphasized. Mental health involves a state of well-being in which individuals can realize their own potential and can effectively deal with the typical stresses of life. To enhance and maintain good mental health, consider the following strategies.
+As equally critical as physical health, mental health often remains under-emphasized. Mental health involves a state of well-being in which individuals can realise their own potential and can effectively deal with the typical stresses of life. To enhance and maintain good mental health, consider the following strategies.
 
 ### 2.1 Meditation and Mindfulness
 
@@ -4419,7 +4419,7 @@ Embedding the essence of William Londen's words, "To ensure good health: eat lig
 
 ## Section 1: Illuminating the Pillars of Health
 
-Three core pillars uphold the mansion of health in life. Recognized as physical health, mental health, and emotional health, these pillars consecutively reflect the synchronization between a robust body, a resilient mind, and a harmonious emotional landscape.
+Three core pillars uphold the mansion of health in life. Recognised as physical health, mental health, and emotional health, these pillars consecutively reflect the synchronization between a robust body, a resilient mind, and a harmonious emotional landscape.
 
 ### Physical Health: The Corpus of Strength
 
@@ -4443,7 +4443,7 @@ Regular medical screenings embody preventative health care. These periodic asses
 
 ### Mental Health: The Forge of Resilience
 
-Mental health encapsulates our cognitive and psychological well-being, significantly impacting our thoughts, feelings, and behaviors. It establishes an enabling environment to learn, expresses emotions, copes with stress, and forges meaningful social connections.
+Mental health encapsulates our cognitive and psychological well-being, significantly impacting our thoughts, feelings, and behaviours. It establishes an enabling environment to learn, expresses emotions, copes with stress, and forges meaningful social connections.
 
 #### Cultivate Mindfulness
 
@@ -4475,7 +4475,7 @@ Our holistic health does not stand confined to influencing merely our well-being
 
 ### Health – The Locomotive of Life
 
-A healthy body fuels our daily life's dynamism and endeavors. It cultivates the necessity vigor and vitality for the many roles we play daily - as professionals, parents, students, caretakers, or entrepreneurs. From empowering you to chase your toddler in the park, climb the stairs without being winded, perfect an authentic yoga pose, or simply savor your favorite hobbies, physical health forms the essential vehicle that maneuvers the diverse routes life encompasses.
+A healthy body fuels our daily life's dynamism and endeavors. It cultivates the necessity vigor and vitality for the many roles we play daily - as professionals, parents, students, caretakers, or entrepreneurs. From empowering you to chase your toddler in the park, climb the stairs without being winded, perfect an authentic yoga pose, or simply savor your favourite hobbies, physical health forms the essential vehicle that maneuvers the diverse routes life encompasses.
 
 ### Resilience – The Unseen Armor
 
@@ -4495,7 +4495,7 @@ Recognizing this intricate intertwine of holistic health and incredible life, le
 
 2. **Eat Right:** Incorporate a variety of fresh fruits, vegetables, lean proteins, and whole grains in your meals. Moderation and balance are key, and remember to stay hydrated!
 
-3. **Prioritize Sleep:** Aim for 7-9 hours of quality sleep each night. Maintain a regular sleep-wake cycle, keep electronic gadgets away from the bedroom, and avoid caffeinated drinks in the evening to foster healthy sleep hygiene.
+3. **Prioritise Sleep:** Aim for 7-9 hours of quality sleep each night. Maintain a regular sleep-wake cycle, keep electronic gadgets away from the bedroom, and avoid caffeinated drinks in the evening to foster healthy sleep hygiene.
 
 4. **Regular Health Check-ups:** Based on your age, medical history, and lifestyle, schedule regular medical check-ups. Early detection is key to preventing many diseases.
 
@@ -4503,7 +4503,7 @@ Recognizing this intricate intertwine of holistic health and incredible life, le
 
 1. **Practice Mindfulness:** Incorporate short mindfulness breaks into your daily routine. Meditating for a couple of minutes, savoring your beverage in silence, or taking a mindful walk can work wonders!
 
-2. **Never Stop Learning:** Be a lifelong learner. Enroll in a course, start a new hobby, or pick up a new book. Engage in activities that stimulate your brain.
+2. **Never Stop Learning:** Be a lifelong learner. Enrol in a course, start a new hobby, or pick up a new book. Engage in activities that stimulate your brain.
 
 3. **Surround Yourself With Positive Relationships:** Foster relationships that add positivity and value to your life. Regularly connect with family and friends and actively participate in social activities and communities.
 
@@ -4511,7 +4511,7 @@ Recognizing this intricate intertwine of holistic health and incredible life, le
 
 1. **Express Your Emotions:** Don't bottle up your feelings. If something bothers you, discuss it with someone you trust. Use 'I' statements to express your feelings without blaming others.
 
-2. **Self-Care is Essential:** Prioritize yourself and indulge in activities you enjoy. Self-care isn't selfish, it's necessary for your emotional wellbeing.
+2. **Self-Care is Essential:** Prioritise yourself and indulge in activities you enjoy. Self-care isn't selfish, it's necessary for your emotional wellbeing.
 
 ## Section 4: Closing Thoughts – Your Play for the Day
 
@@ -4519,7 +4519,7 @@ Congratulations! By reaching the end of this chapter, you have taken a substanti
 
 Devote the next week to consciously following at least one prescription from each category every day. Take a brisk walk for 30 minutes (Physical Prescription), read a book, or learn a new skill (Mental Mantra), express your gratitude to someone you appreciate (Emotional Edict) – the combinations are limitless! Notice the difference in how you feel. Remember, the path to an amazing life begins with the step towards comprehensive health, and you've already embarked on that journey!
 
-Starting from simply recognizing the importance of maintaining one's health and concluding with stressing upon the fact that one's healthy state isn't just confined to them but also affects the people around, the concept of holistic health touches upon all possible aspects. Empowered with the knowledge of how one can attain and maintain it in one's life, the task is now cut out clearly in front of us. We are now sufficiently equipped with all that we need to embark upon this exciting new phase of life- a life full of energy, positivity, and happiness.
+Starting from simply recognising the importance of maintaining one's health and concluding with stressing upon the fact that one's healthy state isn't just confined to them but also affects the people around, the concept of holistic health touches upon all possible aspects. Empowered with the knowledge of how one can attain and maintain it in one's life, the task is now cut out clearly in front of us. We are now sufficiently equipped with all that we need to embark upon this exciting new phase of life- a life full of energy, positivity, and happiness.
 
 Remember, the volley of life's challenges that you've been facing thus far or will in the future, becomes supremely easy to handle when you have a strong foundation of holistic health to rely upon, and this is why it is rightly said that, "Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship."
 
@@ -4573,7 +4573,7 @@ partition Emotions {
   :Don't Bottle Up;
 }
 partition Self-Care {
-  :Prioritize Yourself;
+  :Prioritise Yourself;
   :Indulge in Enjoyable Activities;
 }
 @enduml
@@ -4641,7 +4641,7 @@ Adopting an exercise habit can seem daunting, but breaking it down into manageab
 
 - **Time-bound**: Have a timeline. Like 'I will reduce my body fat percentage by 2% in next 4 months'.
 
-Utilize this approach to materialize your workout plans, making them more manageable and easier to adhere to.
+Utilise this approach to materialize your workout plans, making them more manageable and easier to adhere to.
 
 ### Exercise Play of the Day: Get Moving
 
@@ -4687,11 +4687,11 @@ Physical health is truly the cradle of wellness. Push those swing doors that ush
 
 Inscribe your fitness goals, nutritional goals, and sleep goals in your playbook. Pen down how you intend to achieve these goals. Make sure they are SMART. Immerse into action straightaway. Your 'amazing life' is waiting at the next bend, go meet it there!
 
-## Chapter 6.3 - Prioritize Your Mental Health: The Cornerstone of an Amazing Life
+## Chapter 6.3 - Prioritise Your Mental Health: The Cornerstone of an Amazing Life
 
 >We don't have to be mentally ill to understand the necessity of good mental health.
 
-In this ever-evolving and bustling world, acknowledging and nurturing mental health has become an imperative topic of discussion. Embracing mental wellness isn't an optional add-on but an indispensable cornerstone of an incredible life. It is an undeniable fact that mental health drastically influences our behavior, thoughts, emotions, and how we cope with stress, relate to others, and make choices.
+In this ever-evolving and bustling world, acknowledging and nurturing mental health has become an imperative topic of discussion. Embracing mental wellness isn't an optional add-on but an indispensable cornerstone of an incredible life. It is an undeniable fact that mental health drastically influences our behaviour, thoughts, emotions, and how we cope with stress, relate to others, and make choices.
 
 In simpler terms, mental health is an umbrella term that embraces emotional, psychological, and social well-being. The chapter aims to explain the role of mental health, its importance in maintaining an extraordinary life, offer practical tips, and provide actionable strategies based on scientific research, reputable studies, and proven psychological principles.
 
@@ -4699,7 +4699,7 @@ Let's meticulously dive into the deep ocean of mental health, explore its nuance
 
 ## What is Mental Health?
 
-Before contemplating the importance of mental health and its contribution to an amazing life, it's crucial to fathom what it exactly means. As per the World Health Organization *(WHO)*, mental health is "a state of well-being in which the individual realizes his or her abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to contribute to his or her community."
+Before contemplating the importance of mental health and its contribution to an amazing life, it's crucial to fathom what it exactly means. As per the World Health Organisation *(WHO)*, mental health is "a state of well-being in which the individual realizes his or her abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to contribute to his or her community."
 
 Now, one could possibly wonder - what constitutes mental health? A multitude of factors contribute to mental health, including but not limited to - biological factors (genes and brain chemistry), life experiences (trauma, abuse), and family history of mental health problems.
 
@@ -4772,7 +4772,7 @@ Every single individual on earth is unique. Our thoughts, emotions, perceptions,
 
 In the most basic sense, spirituality can be seen as a journey or a personal quest: a path that leads us towards answers, towards understanding the deepest truths about ourselves and the world around us. It's that innate human search for meaning, for purpose, that drives us to ask life's immense, profound questions.
 
-For some, spirituality is intimately connected with religious faith—with belief in a Divine Being or a higher power. For others, it stems from the exploration of the self, or the cosmos, or of nature. It centers on compassion, on mindfulness, on simple human goodness. Regardless of our individual interpretations, spirituality, with its focus on inner peace and connection, can be a powerful catalyst for holistic wellness.
+For some, spirituality is intimately connected with religious faith—with belief in a Divine Being or a higher power. For others, it stems from the exploration of the self, or the cosmos, or of nature. It centres on compassion, on mindfulness, on simple human goodness. Regardless of our individual interpretations, spirituality, with its focus on inner peace and connection, can be a powerful catalyst for holistic wellness.
 
 ## Unraveling the Bonds between Spirituality and Wellness
 
@@ -4886,7 +4886,7 @@ Mindful eating helps you acknowledge the nutrition you intake and its relevance 
 
 2. Enhances Nutrient Absorption: As your speed of eating decreases, your body is more able to process and boost nutrient absorption.
 
-3. Controls Overeating and Weight: It aids you in recognizing when you are actually full and avoid overeating.
+3. Controls Overeating and Weight: It aids you in recognising when you are actually full and avoid overeating.
 
 4. Encourages Healthy Eating Choices: Fostering mindfulness around food can make you more conscious of your choices, prompting healthier food decisions.
 
@@ -5033,7 +5033,7 @@ Diagram 1 illustrates a continuous flow between the current comfort zone, learni
 
 1. **Comfort Zone**: List down your regular daily activities and identify which actions you perform almost subconsciously or routinely.
 2. **Learning Zone**: Identify potential areas where you would like to improve or learn more about.
-3. **Adventure Zone**: Contemplate about what does adventure mean to you? Identify how you can incorporate more adventurous activities into your routine, be it hiking, traveling, trying new food, or even reading a different genre of book than you usually do.
+3. **Adventure Zone**: Contemplate about what does adventure mean to you? Identify how you can incorporate more adventurous activities into your routine, be it hiking, travelling, trying new food, or even reading a different genre of book than you usually do.
 
 ## Learning to Navigate Uncertainty
 
@@ -5052,7 +5052,7 @@ Experiences hold transformative power. They change our perspectives, push us to 
 ### Checklist: Crafting Memorable Experiences
 
 - **Identify**: What activities or experiences fascinate you? Make a list.
-- **Evaluate**: Identify the feasibility of these experiences. Do they require travel? Are they out of your budget? Use this to prioritize your list.
+- **Evaluate**: Identify the feasibility of these experiences. Do they require travel? Are they out of your budget? Use this to prioritise your list.
 - **Plan**: Create a practical framework to pursue these experiences. Document time frames, budget, etc.
 - **Action**: Start small, and gradually move on to larger quests.
 
@@ -5068,7 +5068,7 @@ The world is a treasure trove of sights, sounds, smells, and sensations. Tapping
 
 ## Incredible Power of Travel
 
-Traveling, whether it's to a new city or an entirely different country, is one of the most enriching experiences one can have. Every place you visit leaves an imprint on your soul, offering a fresh perspective—with every journey you embark upon, you return a little more enlightened.
+Travelling, whether it's to a new city or an entirely different country, is one of the most enriching experiences one can have. Every place you visit leaves an imprint on your soul, offering a fresh perspective—with every journey you embark upon, you return a little more enlightened.
 
 ### Actionable Advice: Make the Most of Your Travels
 
@@ -5141,14 +5141,14 @@ Consider the life stories of successful individuals. One common thread that bind
 
 ## Exercise 3: Resilience Recognition
 
-Recall instances when you showed exceptional resilience and battled your way out of tough times. Recognize the strength within you.
+Recall instances when you showed exceptional resilience and battled your way out of tough times. Recognise the strength within you.
 
 ## Checklist
 
 Before moving ahead, reconfirm the following:
 
 1. Have you noted down all instances demonstrating your resilience?
-2. Have you acknowledged and recognized the strength within you?
+2. Have you acknowledged and recognised the strength within you?
 
 ## Section 4: Utilizing Experiences for Personal Growth
 
@@ -5164,7 +5164,7 @@ Identify experiences that sparked awareness about your capabilities and areas of
 
 Have you:
 
-1. Recognized experiences that acted as eye-openers about your potential and improvement areas?
+1. Recognised experiences that acted as eye-openers about your potential and improvement areas?
 2. Marked on working upon areas needing improvement and leveraging the strengths that these experiences threw light on?
 
 ## Actionable Tips
@@ -5176,9 +5176,9 @@ Have you:
 
 # Play of the Day
 
-The beauty of life lies in unpredictability and the journey of growing through our experiences. As we navigate the maze of life, we must perceive each experience as a guide helping us find our way, each leaving us stronger and wiser. Today, re-visit a past experience which threw your life off the track. Reflect upon it using the exercise format we've learned today. You'll realize how, in the aftermath of resilience and wisdom, you've emerged stronger.
+The beauty of life lies in unpredictability and the journey of growing through our experiences. As we navigate the maze of life, we must perceive each experience as a guide helping us find our way, each leaving us stronger and wiser. Today, re-visit a past experience which threw your life off the track. Reflect upon it using the exercise format we've learned today. You'll realise how, in the aftermath of resilience and wisdom, you've emerged stronger.
 
-Experiences shape our life, make us who we are, and significantly contribute to our life story. They have a far-reaching impact on our journey to personal growth. We might not realize it, but subtly and gradually, they leave an imprint on our personality, decisions, and perspectives. Hence, valuing these experiences and appreciating the learning they bring along is crucial to live an amazing life.
+Experiences shape our life, make us who we are, and significantly contribute to our life story. They have a far-reaching impact on our journey to personal growth. We might not realise it, but subtly and gradually, they leave an imprint on our personality, decisions, and perspectives. Hence, valuing these experiences and appreciating the learning they bring along is crucial to live an amazing life.
 
 In the next chapter, we will explore how to leverage mental fortitude born from these experiences, acting as your protective shield against life's adversities and your driving force during times of peace.
 
@@ -5193,21 +5193,21 @@ This chapter was completed in reference to substantial scientific research and s
 
 As Herman Hesse has rightly said, ‘In all beginnings dwells a magic force for guarding us and helping us to live.’ Hence, it is indispensable that one understands the power of one’s experiences, and owing to the magic of these experiences, one can achieve the magical force within them to live an amazing life.
 
-## Chapter 7.2 - The Benefits of Traveling
+## Chapter 7.2 - The Benefits of Travelling
 
-An old quote suggests, "The world is a book, and those who do not travel read only one page." The essence of this saying resonates, as traveling fundamentally has transformative powers on an individual’s perception towards life at large, cutting across domains from physical well-being to enhancing creativity, from bridging cultural gaps to promoting peace and understanding. Although, the importance of traveling needs to be advocated with empirical evidence, real-life stories and practical tips that not only inspire readers to explore the globe, but also provides them an actionable “travel game plan” or a set of strategies for optimizing travel experiences. This chapter is meticulously structured to bestow light on each of these facets of traveling. As we explore these perspectives one by one, let us begin with the foundational premise of how traveling impacts physical well-being.
+An old quote suggests, "The world is a book, and those who do not travel read only one page." The essence of this saying resonates, as travelling fundamentally has transformative powers on an individual’s perception towards life at large, cutting across domains from physical well-being to enhancing creativity, from bridging cultural gaps to promoting peace and understanding. Although, the importance of travelling needs to be advocated with empirical evidence, real-life stories and practical tips that not only inspire readers to explore the globe, but also provides them an actionable “travel game plan” or a set of strategies for optimising travel experiences. This chapter is meticulously structured to bestow light on each of these facets of travelling. As we explore these perspectives one by one, let us begin with the foundational premise of how travelling impacts physical well-being.
 
 ### Domains of Well-being
 
-The benefits of traveling encompass physical, mental and emotional well-being. Physical well-being is the most tangible that can be realized with numerous benefits starting with improving cardiovascular health. A nine-year study conducted by the Global Commission on Aging and Transamerica Center for Retirement Studies evidenced that traveling reduces risk of heart attacks and in fact, skipping annual vacations could increase the risk of heart attacks by 30 percent for men and 50 percent for women[^1^].
+The benefits of travelling encompass physical, mental and emotional well-being. Physical well-being is the most tangible that can be realised with numerous benefits starting with improving cardiovascular health. A nine-year study conducted by the Global Commission on Aging and Transamerica Centre for Retirement Studies evidenced that travelling reduces risk of heart attacks and in fact, skipping annual vacations could increase the risk of heart attacks by 30 percent for men and 50 percent for women[^1^].
 
-Stelden et.al.(2015)[^2^]remarked that traveling is not just about changing places, but about changing pace, and fundamentally about inducing physical activities unmet under normal circumstances at home, which enforces therapeutic mechanisms like recalibrating body clocks and boosting physical energies.
+Stelden et.al.(2015)[^2^]remarked that travelling is not just about changing places, but about changing pace, and fundamentally about inducing physical activities unmet under normal circumstances at home, which enforces therapeutic mechanisms like recalibrating body clocks and boosting physical energies.
 
 Moreover, going beyond just physical health, travel has a direct culture-centric connection with mental well-being. This might raise questions like, How does travel, which is often perceived as an escape from taxing daily routines, contribute to overall well-being? How does it shift gears of our mental health and nurture resilience?
 
 ### Mental and Emotional Well-being Through Travel
 
-A 2013 study conducted by the University of Kansas found that out of 500 travelers, around 89% experienced a significant drop in their stress levels after 1-2 days of traveling[^3^]. This directly points toward the power of traveling in rejuvenating mental energies and inducing a sense of mental peace.
+A 2013 study conducted by the University of Kansas found that out of 500 travelers, around 89% experienced a significant drop in their stress levels after 1-2 days of travelling[^3^]. This directly points toward the power of travelling in rejuvenating mental energies and inducing a sense of mental peace.
 
 Travel, especially visiting unfamiliar places, is about investing in the unknown, seeking novelty experiences, which according to research, fosters cognitive flexibility and depth, and in turn, induces creativity[^4^]. A fascinating dimension of this creativity fostering aspect is well-illustrated by Adam Galinsky's research at Columbia Business School, which suggested that foreign experiences increase cognitive flexibility and depth, the ability to make deep connections and integrative thinking, which are vital components of creative thinking and innovation[^5^].
 
@@ -5215,21 +5215,21 @@ Travel, especially visiting unfamiliar places, is about investing in the unknown
 
 However, travel is not just about enhancing creativity, it is also about emotional resilience. Navigating through unfamiliar geographies and cultures and undergoing unpredictable experiences outside your comfort zone makes one versatile and teaches the individual to handle stress and fear in a more matured way. It is the idea of transformational travel that embodies the perspective of emotional growth. Transformational travel is about venturing into the outer world and bring lessons from it to positively transform one's inner world[^6^].
 
-This is where we hit the intersection of physical, mental and emotional well-being—the concept of holistic well-being through traveling. The premise of holistic well-being is drawn from the World Health Organisation’s definition of health - “Health is a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity.”[^7^]. Holistic well-being is about recognizing health as an active state of being, embracing a balance of physical, mental and social/emotional health. It’s about understanding that these aspects of health are interrelated and each contributes to overall well-being.
+This is where we hit the intersection of physical, mental and emotional well-being—the concept of holistic well-being through travelling. The premise of holistic well-being is drawn from the World Health Organisation’s definition of health - “Health is a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity.”[^7^]. Holistic well-being is about recognising health as an active state of being, embracing a balance of physical, mental and social/emotional health. It’s about understanding that these aspects of health are interrelated and each contributes to overall well-being.
 
-### Traveling and Self-Identity
+### Travelling and Self-Identity
 
 Despite the synergistic effect of physical, mental, and emotional well-being, travel perhaps has its most profound effect in forming and transforming one's self-identity. Navigating through the unfamiliar, encountering diverse cultures, and interacting with people from different walks of life, one develops a more comprehensive self-view. Such experiences can play a crucial role in an individual’s self-discovery and shaping their identity[^8^].
 
 ## Meeting The "Others"
 
-Now moving beyond the individualistic benefits of traveling, let’s look at the broader societal implications. Travel can play a pivotal role in bridging cultural gaps and fostering a global understanding that nourishes peace and harmony in society. Interactions with the locals, understanding their way of life, problems, cultures, and customs, have been shown to increase empathy and reduce prejudice[^9^] . This shift in perspective creates a sense of global citizenship and promotes harmony in society.
+Now moving beyond the individualistic benefits of travelling, let’s look at the broader societal implications. Travel can play a pivotal role in bridging cultural gaps and fostering a global understanding that nourishes peace and harmony in society. Interactions with the locals, understanding their way of life, problems, cultures, and customs, have been shown to increase empathy and reduce prejudice[^9^] . This shift in perspective creates a sense of global citizenship and promotes harmony in society.
 
 ### "Play of The Day"
 
-In light of these insights about travel and its multifaceted benefits, how can you, as a reader, engage more meaningfully with these ideas? The "Play of The Day" for this chapter is designed to get you started on your travel journey—start small. Begin with exploring areas in and around your city that you have never been before, indulge in new experiences, interact with the locals, seek to understand their culture and life experiences. It’s not just about ticking places off the map, but about accumulating experiences. Remember, traveling is not a luxury, it’s a lifestyle.
+In light of these insights about travel and its multifaceted benefits, how can you, as a reader, engage more meaningfully with these ideas? The "Play of The Day" for this chapter is designed to get you started on your travel journey—start small. Begin with exploring areas in and around your city that you have never been before, indulge in new experiences, interact with the locals, seek to understand their culture and life experiences. It’s not just about ticking places off the map, but about accumulating experiences. Remember, travelling is not a luxury, it’s a lifestyle.
 
-[^1^]: Global Commission on Aging & Transamerica Center for Retirement Studies. (2013). Vacation Time and Health. Retrieved from <https://www.globalcoalitiononaging.com/vacation-time-and-health/>
+[^1^]: Global Commission on Aging & Transamerica Centre for Retirement Studies. (2013). Vacation Time and Health. Retrieved from <https://www.globalcoalitiononaging.com/vacation-time-and-health/>
 [^2^]: Stettinger, W., Fiedler, K., & Armbruster, T. (2015). Travelling abroad matters: Export mode and learning in product innovation. International Business Review, 24(5), 942-951.
 [^3^]: Chen, C. C., & Petrick, J. F. (2013). Health and wellness benefits of travel experiences: A literature review. Journal of Travel Research, 52(6), 709-719.
 [^4^]: Maddux, W. W., & Galinsky, A. D. (2009). Cultural borders and mental barriers: the relationship between living abroad and creativity. Journal of Personality and Social Psychology, 96(5), 1047–1061.
@@ -5296,7 +5296,7 @@ So, how do you apply these learnings to your life?
 
 1. Be open to new experiences: Take a not-so-explored path in your career, learn a new skill, travel to new destinations, meet new people. Life has this incredible way of giving us opportunities to grow; all we have to do is welcome them.
 2. Doubters will doubt, skeptics will question, but it is your belief that will fuel your journey: Lean into your confidence, believe in your abilities, and ignore the naysayers.
-3. Pace yourself, appreciate your progress: Recognize that every journey is unique; don't undermine your achievements by comparing with others.
+3. Pace yourself, appreciate your progress: Recognise that every journey is unique; don't undermine your achievements by comparing with others.
 4. Humility makes you kinder and open-minded: Understand the insignificance of your problems in the grand scheme of things, and appreciate the beauty and grandeur of life.
 5. Triumph under adversity: Keep pushing, keep moving, keep believing.
 
@@ -5382,7 +5382,7 @@ Life is an intricate dance between freedom and responsibility, playfulness and p
 
 ## Section 1: The Importance of Balance
 
-The concept of balance is integral to our pursuit of a meaningful existence. We're paradoxical beings that crave security and predictability, yet abhor stagnancy and monotony. On the one hand, we long to explore new territories, embrace fresh ideas, and taste unique experiences. On the other hand, we have duties to fulfill, roles to play, and routines to adhere to.
+The concept of balance is integral to our pursuit of a meaningful existence. We're paradoxical beings that crave security and predictability, yet abhor stagnancy and monotony. On the one hand, we long to explore new territories, embrace fresh ideas, and taste unique experiences. On the other hand, we have duties to fulfil, roles to play, and routines to adhere to.
 
 "Life is about rhythm. We vibrate, our hearts are pumping blood, we are a rhythm machine, that's what we are." - Mickey Hart. The rhythm of life involves playing different beats at different stages. Some beats are brisk with excitement; others play solemnly as we cater to our responsibilities. But the brilliance of life lies in the harmony of this rhythm. This harmony is achieved when these beats coexist and complement each other, creating an intricate symphony of experiences that makes our existence truly rich, vibrant, and fulfilling.
 
@@ -5398,7 +5398,7 @@ Achieving balance doesn't happen overnight. It's the result of an iterative proc
 
 ### Set Priorities
 
-Firstly, identify what's important to you. Categorize your obligations, goals, and desires based on priorities. Priorities may vary from individual to individual. For some, career growth might be important; for others, it may be traveling. The key to successful balancing lies in discerning what matters the most to you.
+Firstly, identify what's important to you. Categorise your obligations, goals, and desires based on priorities. Priorities may vary from individual to individual. For some, career growth might be important; for others, it may be travelling. The key to successful balancing lies in discerning what matters the most to you.
 
 Use SMART criteria (Specific, Measurable, Achievable, Relevant, and Time-bound) to determine your priorities. Enlist your responsibilities and adventure goals, carefully align them with SMART requisites. This gives you a clear picture of what areas need immediate attention. In doing so, ensure avoidance of vague or unrealistic ambitions. Priorities must be feasible, specific, and connected with your core values.
 
@@ -5422,7 +5422,7 @@ Use a time tracking app like Toggl or Clockify, log how you spend your time duri
 
 In this interconnected world, the lines between work and personal life often blur. Understanding that work is a part of life, not vice versa, helps cultivate work-life harmony rather than balance.
 
-Collectively, these strategies can help you foster a gratifying balance between adventure and responsibility. Always remember - fulfillment comes when we honor all facets of our life.  
+Collectively, these strategies can help you foster a gratifying balance between adventure and responsibility. Always remember - fulfillment comes when we honour all facets of our life.  
 
 **Exercise:** What practices can you adopt to improve your work-life harmony?
 
@@ -5444,7 +5444,7 @@ Now, let's dive deeper...
 
 ## Section I: Understanding Resilience
 
-Resilience is not a trait exclusive to the rare few who've won the genetic lottery. It's a strength we all possess. But not all of us know how to access and utilize it. Resilience isn't just surviving, it's thriving in adverse circumstances; it isn't simply hanging in there through a storm, it's coming out the other side stronger, wiser, and ready to face whatever's next.
+Resilience is not a trait exclusive to the rare few who've won the genetic lottery. It's a strength we all possess. But not all of us know how to access and utilise it. Resilience isn't just surviving, it's thriving in adverse circumstances; it isn't simply hanging in there through a storm, it's coming out the other side stronger, wiser, and ready to face whatever's next.
 
 A common misconception about resilience is that it's synonymous with being tough. Toughness, or grit, can certainly be a part of resilience, but it's not the whole picture. Much like how being physically fit is not solely about having strong muscles, resilience is not just about being able to persist through difficult times. It's rooted in a combination of qualities – such as optimism, problem-solving skills, emotional intelligence, and an ability to maintain balance under stress.
 
@@ -5454,13 +5454,13 @@ Resilient individuals aren't those who avoid stress or adversity. They are the o
 
 ### Play of the Day
 
-Take a moment to reflect on a personal challenge you’ve faced in the past. Write it down. Then, note how you responded, what you learned from the experience, and how it’s shaped the person you are today. This exercise is a simple way to begin recognizing the role of resilience in your life.
+Take a moment to reflect on a personal challenge you’ve faced in the past. Write it down. Then, note how you responded, what you learned from the experience, and how it’s shaped the person you are today. This exercise is a simple way to begin recognising the role of resilience in your life.
 
 ## Section II: Building Resilience
 
 Building resilience is akin to strengthening muscles: it requires consistent effort, persistence, and a blend of exercises. The following are scientifically proven strategies to build resilience.
 
-1. **Cultivate Optimism**: To discuss resilience without delving into optimism would be akin to discussing art without color. Studies show that optimism is closely tied to resilience. One study conducted by the University of Pennsylvania affirmed that an optimist will perceive adversities as temporary hurdles rather than permanent obstacles. An ideal way to cultivate optimism is through the practice of positive self-talk. By consciously directing our inner dialogue to focus more on the positive aspects and possibilities of a situation, we can cultivate a more optimistic mindset.
+1. **Cultivate Optimism**: To discuss resilience without delving into optimism would be akin to discussing art without colour. Studies show that optimism is closely tied to resilience. One study conducted by the University of Pennsylvania affirmed that an optimist will perceive adversities as temporary hurdles rather than permanent obstacles. An ideal way to cultivate optimism is through the practice of positive self-talk. By consciously directing our inner dialogue to focus more on the positive aspects and possibilities of a situation, we can cultivate a more optimistic mindset.
 
 2. **Embrace Change**: It's said that the only constant in life is change. The ability to accept and adapt to change plays an integral role in developing resilience. When we learn to see change as a natural part of life and an opportunity for growth rather than as an imposing threat, we develop a cornerstone of resilience.
 
@@ -5468,7 +5468,7 @@ Building resilience is akin to strengthening muscles: it requires consistent eff
 
 4. **Practice Mindfulness**: This powerful practice anchors us in the present moment, allowing us to face adversity without being overwhelmed by it. It prevents our brains from spiraling into anxiety about the future or regret about the past and invites us to concentrate on the present moment. Practicing mindfulness can range from traditional meditation, yoga, breathing exercises to simply savoring a meal or spending time in nature.
 
-5. **Cultivate Emotional Intelligence**: Resilience is also closely tied to emotional intelligence. Emotional intelligence refers to the ability to recognize, understand, and manage our own emotions and those of others. This can involve self-awareness, self-regulation, motivation, empathy and social skills.
+5. **Cultivate Emotional Intelligence**: Resilience is also closely tied to emotional intelligence. Emotional intelligence refers to the ability to recognise, understand, and manage our own emotions and those of others. This can involve self-awareness, self-regulation, motivation, empathy and social skills.
 
 6. **Stay Connected**: Resilience does not equate to navigating adversity alone. Building and maintaining strong, supportive relationships is another crucial aspect of resilience. These relationships provide a buffer against mental health issues like depression and offer emotional support, practical help, and increase feelings of belonging.
 
@@ -5556,7 +5556,7 @@ graph LR
 
 This simple diagram titled 'Framework of Resilience' illustrates the key contributors to resilience, represented as nodes.
 
-- **Emotional Intelligence:** It is our ability to understand, assess, and manage our own emotions as well as the emotions of others. Emotionally intelligent people can handle stress better, relate well to others, and adjust their behaviors according to the situation.
+- **Emotional Intelligence:** It is our ability to understand, assess, and manage our own emotions as well as the emotions of others. Emotionally intelligent people can handle stress better, relate well to others, and adjust their behaviours according to the situation.
 
 - **Problem-Solving Skills:** Resilient individuals possess excellent problem-solving skills. They view adversities as problems to be solved rather than threats to be avoided. They approach difficult situations with a solution-oriented mindset.
 
@@ -5590,7 +5590,7 @@ Remember, resilience is a journey of continual growth and evolution. It's not a 
 
 ## Your Play of the Day
 
-Reflect on a personal challenging situation you encountered in the past. Analyze your actions, thoughts, and coping strategies during that phase. Identify your strengths and areas for improvement. Practice self-compassion while doing this exercise. Remember, it's a learning opportunity. Aim to apply these insights to future situations, to cultivate a resilient mindset.
+Reflect on a personal challenging situation you encountered in the past. Analyse your actions, thoughts, and coping strategies during that phase. Identify your strengths and areas for improvement. Practice self-compassion while doing this exercise. Remember, it's a learning opportunity. Aim to apply these insights to future situations, to cultivate a resilient mindset.
 
 ---
 
@@ -5610,7 +5610,7 @@ The psychological aspect of resilience is also tied significantly to other facto
 
 Importantly, resilience isn't something that we are born with. It isn't a trait that's implicit in our genetic makeup. Instead, psychologists view resilience as an ordinary capacity within all of us - a capacity that can be developed and nurtured over time, just like any other skill.
 
-This understanding is vital because it shifts our perspective - it helps us realize that we aren't just passive recipients of adversity. Instead, we can actively choose to cultivate resilience within us, empowering ourselves to tackle any challenge that comes our way.
+This understanding is vital because it shifts our perspective - it helps us realise that we aren't just passive recipients of adversity. Instead, we can actively choose to cultivate resilience within us, empowering ourselves to tackle any challenge that comes our way.
 
 ## Exercise: Identify your resilient qualities
 
@@ -5672,7 +5672,7 @@ Here's an exercise to understand your current resilience quotient and strategize
 
 Reflect upon the significant challenges you've faced in your life – a setback, failure, a life-changing event, or a personal tragedy. There may be more than one, and that's fine. As you identify each adversity, write it down on a piece of paper or a digital note-making application.
 
-### Step 2: Analyze Your Response
+### Step 2: Analyse Your Response
 
 Now, for each adversity that you've listed, recall how you responded to it. Did you find it difficult to cope initially? Did you eventually find a way to manage? Record your responses and emotions during the adversity and in its aftermath.
 
@@ -5680,7 +5680,7 @@ Now, for each adversity that you've listed, recall how you responded to it. Did 
 
 This step is about assessing how well you bounced back from your adversity or adversities. Or better yet, how you've grown through them. Are you a better person as a result? Have you learned something valuable? Has your outlook towards life transformed?
 
-### Step 4: Recognize the Patterns
+### Step 4: Recognise the Patterns
 
 With your responses and learnings about each adversity in front of you, it's time to identify patterns. Are you naturally inclined to bring a positive perspective to negative circumstances? Do you exhibit a fighting spirit? Or do you withdraw from life's challenges?
 
@@ -5886,7 +5886,7 @@ In this chapter, we explored the idea of experiencing adversity as a catalyst fo
 
 ## Understanding the Nature of Obstacles
 
-An obstacle can be best described as a situation, event, or series of circumstances that impede progress or development. They are inevitable fingerprints on the glass of a good life. Understanding the core characteristics of obstacles is vital in learning how to overcome them. The first step to overcoming an obstacle lies in recognizing them for what they truly are—an opportunity for growth and improvement.
+An obstacle can be best described as a situation, event, or series of circumstances that impede progress or development. They are inevitable fingerprints on the glass of a good life. Understanding the core characteristics of obstacles is vital in learning how to overcome them. The first step to overcoming an obstacle lies in recognising them for what they truly are—an opportunity for growth and improvement.
 
 {{< plantuml >}}
 @startuml
@@ -5910,11 +5910,11 @@ start
 :Start;
 
 rectangle "Identify the Problem" as Identify {
-  :1. Recognize symptoms;
+  :1. Recognise symptoms;
   :2. Determine the scale;
   :3. Consult stakeholders;
   :4. Clarify the problem statement;
-  :5. Prioritize urgency;
+  :5. Prioritise urgency;
 }
 
 :Identify the Problem;
@@ -5927,7 +5927,7 @@ else (no)
   :Clarify problem again;
 endif
 
-rectangle "Analyze the Problem" as Analyze {
+rectangle "Analyse the Problem" as Analyse {
   :1. Gather relevant data;
   :2. Identify possible causes;
   :3. Evaluate evidence;
@@ -5936,14 +5936,14 @@ rectangle "Analyze the Problem" as Analyze {
   :6. Weigh pros and cons;
 }
 
-:Analyze the Problem;
+:Analyse the Problem;
 
 :Collect more data?;
 if (Is data sufficient?) then (yes)
   :Proceed to Reframe;
 else (no)
   :Collect more data;
-  :Re-analyze problem;
+  :Re-analyse problem;
 endif
 
 rectangle "Reframe as Opportunity" as Reframe {
@@ -5957,11 +5957,11 @@ rectangle "Reframe as Opportunity" as Reframe {
 
 :Reframe as Opportunity;
 
-:Re-analyze problem?;
+:Re-analyse problem?;
 if (Is reframe possible?) then (yes)
   :End;
 else (no)
-  :Re-analyze problem;
+  :Re-analyse problem;
   :Try to Reframe Again;
 endif
 
@@ -5971,14 +5971,14 @@ stop
 @enduml
 {{< /plantuml >}}
 
-In this flow diagram, you first identify the problem (the obstacle). Next, you analyze it and reframe it by viewing it as an opportunity.
+In this flow diagram, you first identify the problem (the obstacle). Next, you analyse it and reframe it by viewing it as an opportunity.
 
 ## 7.2: Your Personal Roadmap— The Four A’s of Overcoming Obstacles
 
-Based on years of research, I propose a roadmap for overcoming obstacles in the form of 'The Four A’s.' They are Acknowledge, Analyze, Act, and Adjust.
+Based on years of research, I propose a roadmap for overcoming obstacles in the form of 'The Four A’s.' They are Acknowledge, Analyse, Act, and Adjust.
 
 - **Acknowledge**: Face the obstacle head on without fear. Accept its presence before you can take the steps necessary to surpass it. Denial only lengthens the healing process.
-- **Analyze**: It is essential to understand the problem deeply, to get a grip on what is happening and why it is happening. Only then can one come up with a suitable solution.
+- **Analyse**: It is essential to understand the problem deeply, to get a grip on what is happening and why it is happening. Only then can one come up with a suitable solution.
 - **Act**: The best analysis becomes futile without action. Taking active steps towards solving the problem is necessary.
 - **Adjust**: Flexibility in approach helps navigate the bumps along the journey. Adjusting strategies based on feedback can bring about the desired outcome quicker.
 
@@ -6005,7 +6005,7 @@ class Acknowledge {
     - Speak openly about the issue
 }
 
-class Analyze {
+class Analyse {
     .. General Steps ..
     - Understand the problem deeply
     - Get a grip on what's happening
@@ -6045,15 +6045,15 @@ class "Desired Outcome" as Desired_Outcome {
     - Achieve what you want
 }
 
-Acknowledge -down-> Analyze : Progresses to
-Analyze -down-> Act : Progresses to
+Acknowledge -down-> Analyse : Progresses to
+Analyse -down-> Act : Progresses to
 Act -down-> Adjust : Progresses to
 Adjust -down-> Desired_Outcome : Leads to
 
 @enduml
 {{< /plantuml >}}
 
-In this diagram, you can see the progression across 'The Four A’s.' Starting with 'Acknowledge' we move towards 'Analyze' to 'Act' and finally 'Adjust' to reach our 'Desired Outcome.'
+In this diagram, you can see the progression across 'The Four A’s.' Starting with 'Acknowledge' we move towards 'Analyse' to 'Act' and finally 'Adjust' to reach our 'Desired Outcome.'
 
 ## 7.3: Finding Courage Amidst the Adversity
 
@@ -6152,7 +6152,7 @@ RECTANGLE Visualization {
 
 ELLIPSE ActionPlan {
     + Execute Actions
-    + Prioritize
+    + Prioritise
     + Tactical Steps
     + Timeline
 }
@@ -6169,7 +6169,7 @@ CIRCLE PositiveOutcome {
     + Reinforce Mind
     + Feedback Loop
     + Celebrate
-    + Analyze
+    + Analyse
 }
 
 ELLIPSE ExternalFactors {
@@ -6374,7 +6374,7 @@ Sharing --> | Gains Perspective | Solution
 Sharing --> | Lightens Burden | Ease 
 ```
 
-In this diagram, we realize that sharing leads to solutions by gaining perspective and ease by lightening the burden.
+In this diagram, we realise that sharing leads to solutions by gaining perspective and ease by lightening the burden.
 
 ## 7.8: Practice Gratitude
 
@@ -6412,7 +6412,7 @@ In a marathon of life, where we are ceaselessly running towards achieving someth
 
 ## Loving Yourself: The Pillar Of Inner Strength
 
-At its core, self-love is about recognizing and appreciating our worth, strengths, and accepting our weaknesses. It involves acknowledging that our value does not lessen with errors or disapproval. Self-love fosters inner strength and builds a buffer against external criticism.
+At its core, self-love is about recognising and appreciating our worth, strengths, and accepting our weaknesses. It involves acknowledging that our value does not lessen with errors or disapproval. Self-love fosters inner strength and builds a buffer against external criticism.
 
 ### Exercise 1: Self-Appreciation
 
@@ -6457,7 +6457,7 @@ package "Belief in Ability to Control Life Events" <<main>> {
 }
 
 package "Internal Locus of Control" <<main>> {
-  RECTANGLE "Proactive Behavior" as ProactiveBehavior
+  RECTANGLE "Proactive Behaviour" as ProactiveBehavior
   RECTANGLE "Decision-Making" as DecisionMaking
   note bottom: 'The core psychological trait'
 }
@@ -6489,7 +6489,7 @@ package "Nurturing Self-Love" <<main>> {
 package "Active Drivers of Life" <<main>> {
   RECTANGLE "Taking Calculated Risks" as Risks
   RECTANGLE "Pursuing Opportunities" as Opportunities
-  note bottom: 'Resulting behavior and life approach'
+  note bottom: 'Resulting behaviour and life approach'
 }
 
 SelfReflection --> [Fosters] ProactiveBehavior
@@ -6645,7 +6645,7 @@ Simply put, self-love is the affection and reverence we have for oneself. Yet, s
 
 When we speak of self-love, we touch upon critical dimensions such as self-care, self-compassion, self-esteem, self-acceptance, and forgiveness. Rather than an external pursuit or an elusive goal, it’s about acknowledging that we are our best friends and realising the magnitude of our own significance.
 
-Undeniably, everyone’s interpretation of self-love can vary, and that’s okay. You may visualize it as a quiet hour spent reading your favorite book, a rejuvenating workout session, or uninterrupted alone time dedicated to self-reflection. In essence, self-love is subjective, fluid, and dynamic.
+Undeniably, everyone’s interpretation of self-love can vary, and that’s okay. You may visualize it as a quiet hour spent reading your favourite book, a rejuvenating workout session, or uninterrupted alone time dedicated to self-reflection. In essence, self-love is subjective, fluid, and dynamic.
 
 Indeed, it's a formidable journey that requires constant effort, commitment, and acknowledgment of our worth, but the benefits are unparalleled. Embracing self-love can buffer our mental health, promote a positive mindset, reduce stress, and boost resilience. Ultimately, it leads to an enhanced sense of self-worth and exponentially improves our relationship with ourselves and others.
 
@@ -6692,7 +6692,7 @@ Both of these techniques help us to become more aware of our body, thoughts, and
 
 ### Self-Care Rituals
 
-Self-care is not a luxury but a necessity. It ensures we stay physically, mentally, and emotionally healthy. Dedicating time daily for self-care rituals and understanding that it is okay to prioritize your needs can have a transformative impact on the way you perceive yourself and inculcate a deep sense of self-love.
+Self-care is not a luxury but a necessity. It ensures we stay physically, mentally, and emotionally healthy. Dedicating time daily for self-care rituals and understanding that it is okay to prioritise your needs can have a transformative impact on the way you perceive yourself and inculcate a deep sense of self-love.
 
 Here are a few ideas to kickstart your daily self-care rituals:
 
@@ -6732,11 +6732,11 @@ Every step, however small, is a step forward. Happy playing!
 
 Anyone who has ever seen a sports team compete may have come across the term “MVP” –Most Valuable Player. It’s a title assigned only to the one player who has made an indelible impact on the team, the one who takes the game to another level. But there is a game bigger than any sport known to mankind, a game we all partake in without commissions or contracts and the name of that game is Life.
 
-In this game called life, it's crucial to recognize that you are your own Most Valuable Player. No one else can play your role better than you do and it's your primary responsibility to take care of yourself. This chapter is going to explore the profound relationship between self-love and living an amazing life.
+In this game called life, it's crucial to recognise that you are your own Most Valuable Player. No one else can play your role better than you do and it's your primary responsibility to take care of yourself. This chapter is going to explore the profound relationship between self-love and living an amazing life.
 
 ## Understanding Self-Love
 
-Self-love is more than just a popular term. It represents a fundamental relationship between you and your own being. The term encapsulates a variety of feelings, attitudes, and behaviors that indicate a sense of acceptance, respect, care, and appreciation for oneself.
+Self-love is more than just a popular term. It represents a fundamental relationship between you and your own being. The term encapsulates a variety of feelings, attitudes, and behaviours that indicate a sense of acceptance, respect, care, and appreciation for oneself.
 
 This is not about ego or self-centeredness. Self-love is a state of self-appreciation that grows from actions that physically, psychologically, and spiritually support our development. It's a state of loving-kindness to yourself that allows you to establish healthy boundaries and assert your needs and wants confidently. It's about taking care of your well-being, nourishing your happiness, and not sacrificing your well-being to please others.
 
@@ -6806,13 +6806,13 @@ This chapter and the entire playbook can be a transformational journey if you en
 
 To achieve an amazing life, investing time and effort into building a healthy life, both physically and mentally, is a crucial stage that should not be overlooked. Making a conscious effort to maintain your well-being holistically by looking after your body, mind, and soul is called self-care.
 
-Though the practice of self-care is simple in theory, many of us struggle to put it into practice consistently. Taking care of ourselves is often relegated to the bottom of our to-do lists as we prioritize work, family, and other responsibilities. However, implementing a routine that prioritizes self-care can substantially improve your overall health, mood, and productivity.
+Though the practice of self-care is simple in theory, many of us struggle to put it into practice consistently. Taking care of ourselves is often relegated to the bottom of our to-do lists as we prioritise work, family, and other responsibilities. However, implementing a routine that prioritizes self-care can substantially improve your overall health, mood, and productivity.
 
 ## Step 1: Understanding The Importance of Self-Care
 
 Before we delve deeper into building an actionable self-care routine, it's essential to first comprehend the importance of self-care. This extends much beyond pampering sessions and occasional treats. At its core, self-care is a vital tool for refreshing our mental health, reducing stress, and enhancing our general well-being. Consistent self-care can help foster resilience towards everyday stressors, making you more productive and fulfilled in your personal and professional life.
 
-Scientific research corroborates this claim. For instance, a study published in the Journal of Behavioral Medicine found that there's a significant correlation between regular self-care practices and increased happiness, improved immune function, and higher productivity. This drives home the point that self-care is not an indulgence but a necessity.
+Scientific research corroborates this claim. For instance, a study published in the Journal of Behavioural Medicine found that there's a significant correlation between regular self-care practices and increased happiness, improved immune function, and higher productivity. This drives home the point that self-care is not an indulgence but a necessity.
 
 ## Step 2: Identifying Your Personal Self-Care Needs
 
@@ -6839,7 +6839,7 @@ Here's an example of a well-structured, realistic daily self-care routine:
 
 ## Step 4: Staying Consistent With Your Routine
 
-A self-care routine that isn't followed consistently is not a routine at all. Consistency is vital for lasting benefits. To foster consistency, you can use tools like a habit tracker, reminders on your phone, or simply a post-it note by your bed. Utilize whatever tools work best for you.
+A self-care routine that isn't followed consistently is not a routine at all. Consistency is vital for lasting benefits. To foster consistency, you can use tools like a habit tracker, reminders on your phone, or simply a post-it note by your bed. Utilise whatever tools work best for you.
 
 ## Step 5: Making Adjustments When Necessary
 
@@ -6849,7 +6849,7 @@ Another factor is progression. Over time, as you become comfortable with your ro
 
 Ultimately, the goal is to ensure that the self-care routine is serving you and not becoming yet another source of stress.
 
-In conclusion, creating a self-care routine is a testament to understanding, planning, consistency, and adaptability, all backed by the final aim of enhancing your well-being. And remember, while you strive to execute your playbook for an amazing life, always prioritize self-care because as famously quoted, "An empty lantern provides no light."
+In conclusion, creating a self-care routine is a testament to understanding, planning, consistency, and adaptability, all backed by the final aim of enhancing your well-being. And remember, while you strive to execute your playbook for an amazing life, always prioritise self-care because as famously quoted, "An empty lantern provides no light."
 
 Here comes your 'Play of the Day': take the first simple step towards self-care. Reflect on your day, assess your stress points, and identify one simple activity that can be easily incorporated into your daily routine to alleviate stress. It could be as simple as a five-minute stretch or a few minutes of gratitude journaling.
 
@@ -6859,7 +6859,7 @@ Now it's time to go out there and execute your play because every step you take 
 
 References:
 
-1. Foster, R. M. (2019). Towards a psychology of self-care: Linking self-care and well-being. Journal of Behavioral Medicine.
+1. Foster, R. M. (2019). Towards a psychology of self-care: Linking self-care and well-being. Journal of Behavioural Medicine.
 2. Manjunath, N. K., & Telles, S. (2001). Influence of Yoga and Ayurveda on self-rated sleep in a geriatric population. Indian Journal of Medical Research, 114, 113–117.
 3. Watkins, P. C., Grimm, D. L., & Kolts, R. (2004). Counting your blessings: Positive memories among grateful persons. Current Psychology, 23(1), 52–67.
 4. Harvard Health Publishing. (2018, April). The happiness-health connection. Harvard Medical School.
@@ -6868,19 +6868,19 @@ References:
 
 We live in a world where there is an abundance of expectations and demands, a relentless push and pull from every corner of our existence. It's easy to get caught in the never-ending grind, forgetting that the primary relationship we have is the one with ourselves.
 
-Self-love is the heart and cornerstone of an amazing life, which is often underestimated and overlooked. When the hum of our struggles drowns the whisper of self-love, it is essential to pause, step back, and reassess. This chapter aims to shed light on the risks associated with neglecting self-love and presents valuable steps to prioritize it.
+Self-love is the heart and cornerstone of an amazing life, which is often underestimated and overlooked. When the hum of our struggles drowns the whisper of self-love, it is essential to pause, step back, and reassess. This chapter aims to shed light on the risks associated with neglecting self-love and presents valuable steps to prioritise it.
 
 ## 1. Understanding Self-Love
 
 Before diving into the risks of neglecting self-love, it's crucial to clarify what 'self-love' truly implies. Contrary to the common misconceptions, self-love is not about selfishness, narcissism, or unjustified pride.
 
-Self-love is the act of recognizing our worth, accepting our deficit, caring for our needs, and making choices that nourish growing. It is a continuous dance between self-forgiveness and self-improvement, the knowledge that we are work-in-progress and making peace with it.
+Self-love is the act of recognising our worth, accepting our deficit, caring for our needs, and making choices that nourish growing. It is a continuous dance between self-forgiveness and self-improvement, the knowledge that we are work-in-progress and making peace with it.
 
 ### Exercise 1: Self-Love Self-assessment
 
 Take a moment now to conduct a self-love self-assessment. Reflect on the following statements and note down your responses.
 
-- I habitually prioritize my needs.
+- I habitually prioritise my needs.
 - I am comfortable setting boundaries.
 - I accept myself, including my shortcomings.
 - I engage in self-care rituals regularly.
@@ -6950,13 +6950,13 @@ Several studies have emphasized the importance of self-care to our overall well-
 
 Likewise, self-care can have significant psychological and emotional benefits. Taking the time to engage in activities that incubate joy can boost our mood and lead to higher levels of positivity and happiness. Further, techniques such as mindfulness or relaxation exercises can enhance our emotional self-awareness, ultimately enabling us to nurture better connections with ourselves and people around us.
 
-So why, despite knowing the importance of self-care, do we often find it hard to fit in into our daily lives? The answer is simple: Our strenuous schedules and surrounding pressures often lead us to prioritize work-related or family-related responsibilities over the need for self-care. However, overlooking self-care can lead to burnout, stress, and eventual breakdown. Hence, it is crucial not only to recognize the importance of self-care but to actively strive to incorporate it into our day-to-day lives.
+So why, despite knowing the importance of self-care, do we often find it hard to fit in into our daily lives? The answer is simple: Our strenuous schedules and surrounding pressures often lead us to prioritise work-related or family-related responsibilities over the need for self-care. However, overlooking self-care can lead to burnout, stress, and eventual breakdown. Hence, it is crucial not only to recognise the importance of self-care but to actively strive to incorporate it into our day-to-day lives.
 
 ----
 
 ## Part 2: Making Self-Care a Habit
 
-Before we discuss how to make self-care a habit, it's essential to dispel a common misconception: Self-care is not selfish. Taking the time to care for yourself does not mean that you are neglecting your responsibilities or ignoring others; instead, it signifies that you recognize the simple truth that you cannot effectively care for others if you're not in good shape yourself. It's like the pre-flight safety directive: "Put your oxygen mask on before helping others with theirs."
+Before we discuss how to make self-care a habit, it's essential to dispel a common misconception: Self-care is not selfish. Taking the time to care for yourself does not mean that you are neglecting your responsibilities or ignoring others; instead, it signifies that you recognise the simple truth that you cannot effectively care for others if you're not in good shape yourself. It's like the pre-flight safety directive: "Put your oxygen mask on before helping others with theirs."
 
 Here's a practical guide on how to incorporate self-care into your daily routine:
 
@@ -7032,7 +7032,7 @@ Having explored various self-care strategies, it's time to put together your cus
 
 1. **Identify Activities**: Firstly, based on the strategies we've discussed, identify self-care activities that frankly resonate with you. Remember, self-care isn't one-size-fits-all. What works wonderfully for another person might not work as well for you. Choose activities that you enjoy and can realistically incorporate into your routine.
 2. **Create Your Schedule**: Once you've compiled a list of activities, start scheduling them into your week. Again, it's not about providing a complete revamp of your lifestyle but about finding little moments to weave self-care into your daily life.
-3. **Log Your Progress**: Making changes to your lifestyle can often be a challenging process. It's essential to track your progress and log your journey through this self-care path. Not only can this act as an encouragement, but it can also help you recognize patterns or triggers and modify your plan accordingly.
+3. **Log Your Progress**: Making changes to your lifestyle can often be a challenging process. It's essential to track your progress and log your journey through this self-care path. Not only can this act as an encouragement, but it can also help you recognise patterns or triggers and modify your plan accordingly.
 4. **Stay Flexible and Patient**: Understand that this is a process. There will be days when you skip your self-care routine, and that's okay. The goal is not to be perfect but to be persistent. Stay patient and flexible, adjusting your plan as you go along based on what feels right for you.
 
 Your journey towards self-care is just that: a journey. Give yourself the patience, time, and gentleness you would offer to a friend going through the same process.
@@ -7043,7 +7043,7 @@ Your journey towards self-care is just that: a journey. Give yourself the patien
 
 To conclude this chapter, we invite you to taking a self-care pledge which involves committing to taking small steps towards self-care each day. Write this pledge somewhere you can see it daily as a reminder of your commitment to self-care. Use the below template or create your own:
 
-_I ______*, commit to prioritizing self-care in my life. I promise to listen to what my body and mind need, to be flexible and patient with myself, and strive to dedicate a portion of my time daily, no matter how brief, to self-care. I understand that there might be difficult days, but I will remain committed to the journey, recognizing the power of self-care in contributing to my overall well-being.*
+_I ______*, commit to prioritizing self-care in my life. I promise to listen to what my body and mind need, to be flexible and patient with myself, and strive to dedicate a portion of my time daily, no matter how brief, to self-care. I understand that there might be difficult days, but I will remain committed to the journey, recognising the power of self-care in contributing to my overall well-being.*
 
 Following the strategic advice, steps, and guidelines presented throughout this chapter, you will be well-equipped to make self-care an integral part of your amazing life. Make a conscious choice each day to adopt one small self-care task into your routine. In the course of time, these small actions will compound to foster physical health, emotional well-being, and overall vitality towards your journey to an amazing life.
 
@@ -7065,11 +7065,11 @@ Giving back, despite its immense implications and wide-ranging forms, often does
 
 ### Exercise 1: Understand Your Giving Instincts
 
-**Objective:** Gain clarity on your current attitudes and behaviors towards giving back.
+**Objective:** Gain clarity on your current attitudes and behaviours towards giving back.
 
 **Instructions:** List down instances in your life where you spontaneously gave someone or something without expecting anything in return. Focus on both small (helping your neighbour bring in groceries) to the potentially unnoticed (dropping off a friend at the airport).
 
-Take note of how the act of giving made you feel. Did it bring about a sense of satisfaction or fulfillment? Did it make you feel any happier? Try and see any patterns that emerge with respect to your behaviors.
+Take note of how the act of giving made you feel. Did it bring about a sense of satisfaction or fulfillment? Did it make you feel any happier? Try and see any patterns that emerge with respect to your behaviours.
 
 ## The Science of Giving Back
 
@@ -7077,7 +7077,7 @@ Engaging in compassionate activities and giving back have profound effects on ou
 
 1. Studies published in the International Journal of Psychophysiology have shown that acts of giving and kindness can significantly increase levels of oxytocin—a hormone strongly associated with feelings of love, trust, and connection.
 
-2. Research conducted by the National Institute of Health (USA) has demonstrated that giving to others triggers an increase in the brain's pleasure centers, eliciting feelings of positivity and happiness. The study teases out this effect, known as "helper's high" or "giver's glow."
+2. Research conducted by the National Institute of Health (USA) has demonstrated that giving to others triggers an increase in the brain's pleasure centres, eliciting feelings of positivity and happiness. The study teases out this effect, known as "helper's high" or "giver's glow."
 
 3. Another study published in the Journal of Social Psychology noted that individuals who committed acts of kindness experienced less stress and had a better overall mood, compared to a control group who did not.
 
@@ -7087,13 +7087,13 @@ Let's visualize this information through the following flowchart, that depicts t
 graph TB;
 A["Act of Giving"] -->B["Trigger: Release of Oxytocin"]
 B --> C["Outcome: Increased feelings of love, trust, connection"]
-A --> D["Trigger: Activation of brain's pleasure centers"]
+A --> D["Trigger: Activation of brain's pleasure centres"]
 D --> E["Outcome: Elevation of mood and happiness levels"]
 A --> F["Trigger: Act of Kindness"]
 F --> G["Outcome: Decreased stress levels"]
 ```
 
-The diagram vividly illustrates the series of positive reactions initiated by the simple act of giving. It begins with the act, whether it's giving your time, money, or energy, which then sets off a series of triggers in your brain resulting in gastrointestinal effects. These effects include the release of oxytocin leading to increased feelings of love, trust, and connection, inducing pleasure centers in the brain enhancing our happiness levels, and performing acts of kindness that results in decreased stress levels. In this way, giving back is not just good for the recipients, it also beneficial to us.
+The diagram vividly illustrates the series of positive reactions initiated by the simple act of giving. It begins with the act, whether it's giving your time, money, or energy, which then sets off a series of triggers in your brain resulting in gastrointestinal effects. These effects include the release of oxytocin leading to increased feelings of love, trust, and connection, inducing pleasure centres in the brain enhancing our happiness levels, and performing acts of kindness that results in decreased stress levels. In this way, giving back is not just good for the recipients, it also beneficial to us.
 
 However, all this conjecture and scientific evidence can, at times, feel abstract and inapplicable to our daily lives. Thus, let's move towards assessing how to practically implement actions of giving back.
 
@@ -7106,7 +7106,7 @@ Here are some simple strategies you could likely start implementing without disr
 1. **Small Acts of Kindness:** From holding the door for someone, to offering your place in line to someone in a hurry, these small actions can significantly brighten someone else's day.
 2. **Charitable Donations:** If you are fortunate enough to have disposable income or items, consider donating a portion of it to a charity of your choice. Remember, no donation is too small; it’s the thought that counts.
 3. **Volunteering:** Using your time and skills for the benefit of others can be incredibly rewarding. You could volunteer at soup kitchens, tutor children or even contribute your expertise online.
-4. **Pay it Forward:** Rather than returning a favor to the person who helped you before, pay it forward to a stranger.
+4. **Pay it Forward:** Rather than returning a favour to the person who helped you before, pay it forward to a stranger.
 5. **Using Your Skills for Good:** If you have expertise in a particular domain, consider offering your services pro bono to those who wouldn't otherwise afford it.
 
 ### Exercise 2: Choose Your Giving Back Methods
@@ -7144,7 +7144,7 @@ Before delving into the intrinsic details, let's dissect the miraculous science 
 
 A study conducted by mental health professionals at the University of Pittsburgh concluded that performing acts of kindness stimulates the production of serotonin, a neurotransmitter that plays a pivotal role in mood regulation. Serotonin contributes to our feelings of happiness, well-being, and overall contentment.
 
-Furthermore, studies have observed that the act of giving has the potential to activate the release of oxytocin, often referred to as the "love hormone". This hormone encourages social bonding, fosters trust, and promotes feelings of warmth and friendliness. In essence, our brain is wired in a way to reward us when we engage in acts of giving, creating a positive feedback loop that encourages more compassionate behavior.
+Furthermore, studies have observed that the act of giving has the potential to activate the release of oxytocin, often referred to as the "love hormone". This hormone encourages social bonding, fosters trust, and promotes feelings of warmth and friendliness. In essence, our brain is wired in a way to reward us when we engage in acts of giving, creating a positive feedback loop that encourages more compassionate behaviour.
 
 On a physiological level, giving or helping others can contribute to the decrease in blood pressure, as asserted by a study from the University of British Columbia and Harvard Business School. Thus, leading to a healthier heart and longer life.
 
@@ -7154,7 +7154,7 @@ So, the science is precise and consistent: the real gift of giving is how it mak
 
 Giving is not a solitary phenomenon. Instead, it is a dynamic process that propagates like ripples in water when a pebble is thrown. A kind act, a warm word, a thoughtful assistance don't merely affect the primary recipients, but their impact extends, causing a ripple effect that influences numerous lives.
 
-For instance, If you assist a colleague in a project, you are not only earning their gratitude and respect but also fostering a work culture of mutual help and camaraderie. This encourages others to replicate such behavior, leading to a harmonious and productive work environment. The impact is profound, far-reaching, and can potentially transform an entire organizational culture.
+For instance, If you assist a colleague in a project, you are not only earning their gratitude and respect but also fostering a work culture of mutual help and camaraderie. This encourages others to replicate such behaviour, leading to a harmonious and productive work environment. The impact is profound, far-reaching, and can potentially transform an entire organizational culture.
 
 This ripple effect holds even for minute acts of giving. If you offer your seat to an elderly person in a bus, give way to a vehicle in traffic, or help a stranger pick up their fallen possessions, you are setting an example for the bystanders. Each small act of kindness acts as a whisper in the wind, inspiring and encouraging others to do the same.
 
@@ -7170,7 +7170,7 @@ Despite the benefits, giving back can seem daunting. After all, it's not always 
 
 1. **Small Acts, Big Impact:** Never underestimate the power of small acts of kindness. Whether it's sharing a warm smile with a stranger, offering a hand to those in need, or providing emotional support to a friend, each act matters.
 
-2. **Utilize Your Skills:** Everyone has unique skills and talents. If you are an accomplished pianist, consider giving free lessons to underprivileged children. If you are a math whiz, help your friend struggling with algebra. There is always someone who can be benefited from your skills.
+2. **Utilise Your Skills:** Everyone has unique skills and talents. If you are an accomplished pianist, consider giving free lessons to underprivileged children. If you are a math whiz, help your friend struggling with algebra. There is always someone who can be benefited from your skills.
 
 3. **Donate What You Can:** Financial constraints should never be a barrier in your effort to give back. Remember, donations don't always have to be monetary. You could donate old books, clothes, or your time.
 
@@ -7216,7 +7216,7 @@ Fast forward five years, Emma's makeshift class grew into a full-fledged school,
 
 ## The Give-Back Exercise
 
-Having now understood the experiences and impacts of giving back, it's time for reflection. Analyze what giving back means to you and the forms it could take in your life. Here's a simple exercise to help you with this:
+Having now understood the experiences and impacts of giving back, it's time for reflection. Analyse what giving back means to you and the forms it could take in your life. Here's a simple exercise to help you with this:
 
 1. What does giving back mean to you?
 2. List five ways, no matter how small, in which you can give back to your community/family/society.
@@ -7311,7 +7311,7 @@ skinparam class {
 }
 
 skinparam arrow {
-    Color ARROWCOLOR
+    Colour ARROWCOLOR
     FontColor ARROWCOLOR
     Thickness 2
 }
@@ -7321,7 +7321,7 @@ skinparam title {
     FontColor White
 }
 
-title <size:18><color:White>Science Behind the "Helper's High"</color></size>
+title <size:18><colour:White>Science Behind the "Helper's High"</colour></size>
 
 RECTANGLE "Perform Altruistic Acts" as act <<Altruism>> {
     +1. Donate Money
@@ -7366,7 +7366,7 @@ note top of high : The "Helper's High" experience.
 
 ## 'Play of the Day': Start Small Today
 
-As part of our 'Play of the Day', after you've gone through the exercise and flowchart; take your first small step towards giving back. It could be anything - spending an hour volunteering at a local shelter, giving away clothes/books to the needy, or even helping your neighbor with their groceries.
+As part of our 'Play of the Day', after you've gone through the exercise and flowchart; take your first small step towards giving back. It could be anything - spending an hour volunteering at a local shelter, giving away clothes/books to the needy, or even helping your neighbour with their groceries.
 
 ## Conclusion
 
@@ -7384,11 +7384,11 @@ Before we delve into the psychological benefits of helping others, it is essenti
 
 ## Understanding Altruism
 
-Altruism refers to selfless acts designed to benefit others without any thought of reward (Alcock, Barresi & Wilson, 2017). That said, numerous studies show that we often receive internal rewards when we help others, such as a sense of fulfillment, a boost in mood, self-esteem, and general positivity. Helping others could be as simple as lending a supportive ear to a friend or as complex as starting a charitable organization.
+Altruism refers to selfless acts designed to benefit others without any thought of reward (Alcock, Barresi & Wilson, 2017). That said, numerous studies show that we often receive internal rewards when we help others, such as a sense of fulfillment, a boost in mood, self-esteem, and general positivity. Helping others could be as simple as lending a supportive ear to a friend or as complex as starting a charitable organisation.
 
 ## The Benefits of Helping Others
 
-Numerous studies suggest that there are a plethora of emotional benefits associated with altruistic behavior. Let's explore a few highlights:
+Numerous studies suggest that there are a plethora of emotional benefits associated with altruistic behaviour. Let's explore a few highlights:
 
 ### Increased Life Satisfaction
 
@@ -7434,7 +7434,7 @@ Helping others triggers the release of oxytocin, a hormone associated with bondi
 
 ### Dopamine
 
-Engaging in altruistic behaviors also stimulates our brain's reward system to release dopamine, a neurotransmitter associated with pleasure and motivation. This release results in what is popularly referred to as the 'helper's high.'
+Engaging in altruistic behaviours also stimulates our brain's reward system to release dopamine, a neurotransmitter associated with pleasure and motivation. This release results in what is popularly referred to as the 'helper's high.'
 
 ### Empathy and Mirror Neurons
 
@@ -7450,7 +7450,7 @@ From the evidence highlighted, helping others is a potent way to enhance emotion
 
 - Use Your Skills: Leveraging your unique skill sets is another approach to add value for others. You could tutor students in struggling subjects or provide free workshops in your field of expertise.
 
-- Be More Empathetic: Non-judgmental listening and empathy are tools that everyone can utilize to support others emotionally. Oftentimes, emotional difficulties are circumnavigated when one realizes that they are not alone, and their feelings are valid and understood.
+- Be More Empathetic: Non-judgmental listening and empathy are tools that everyone can utilise to support others emotionally. Oftentimes, emotional difficulties are circumnavigated when one realizes that they are not alone, and their feelings are valid and understood.
 
 ## Play of the day
 
@@ -7465,11 +7465,11 @@ Remember, your playbook to an amazing life is unique, and so is your journey in 
 ## References
 
 - Alcock, J. E., Barresi, J. P., & Wilson, D. S. (2017). The nature of altruism. Oxford University Press.
-- Anik, L., Aknin, L. B., Norton, M. I., & Dunn, E. W. (2010). Feeling Good about Giving: The Benefits (and Costs) of Self-Interested Charitable Behavior. Harvard Business School.
-- Aknin, L. B., Barrington-Leigh, C. P., & Helliwell, J. F. (2013). Happiness and prosocial behavior: An evaluation of the evidence. World Happiness Report.
+- Anik, L., Aknin, L. B., Norton, M. I., & Dunn, E. W. (2010). Feeling Good about Giving: The Benefits (and Costs) of Self-Interested Charitable Behaviour. Harvard Business School.
+- Aknin, L. B., Barrington-Leigh, C. P., & Helliwell, J. F. (2013). Happiness and prosocial behaviour: An evaluation of the evidence. World Happiness Report.
 - Arnstein, P., Vidal, M., Wells-Federman, C., Morgan, B., & Caudill, M. (2002). From chronic pain patient to peer: Benefits and risks of volunteering. Pain Management Nursing.
 - Leary, M. R., Terry, M. L., & Allen, A. B. (2013). The concept of ego threat in social and personality psychology: Is ego threat a viable scientific construct? Personality and Social Psychology Review.
-- Raposa, E. B., Laws, H. B., & Ansell, E. B. (2015). Prosocial Behavior Mitigates the Negative Effects of Stress in Everyday Life. Clinical Psychological Science.
+- Raposa, E. B., Laws, H. B., & Ansell, E. B. (2015). Prosocial Behaviour Mitigates the Negative Effects of Stress in Everyday Life. Clinical Psychological Science.
 
 ## Chapter 10.5 - 5 Ways to Give Back Today
 
@@ -7485,7 +7485,7 @@ Time is a valuable asset we all possess. Regardless of our financial status, eac
 
 - Identify your skills and interests: What are you good at, and what do you enjoy doing?
 - Research opportunities: Look for organizations that align with your passion.
-- Reach out: Contact the organization and see how you can contribute.
+- Reach out: Contact the organisation and see how you can contribute.
 - Make a commitment: Decide on a regular schedule that you can commit to – when it comes to volunteering, consistency matters.
 
 ## 2. Share Your Knowledge
@@ -7495,7 +7495,7 @@ Fact: When knowledge is shared, it grows. Have you mastered financial literacy? 
 **Checklist: Sharing Your Knowledge**
 
 - Ask yourself: What skills or knowledge do I wish I'd learned earlier in life?
-- Start small: You could begin by teaching a younger sibling or a neighbor.
+- Start small: You could begin by teaching a younger sibling or a neighbour.
 - Explore larger platforms: Consider creating a blog, YouTube channel, or even a podcast to reach a wider audience.
 
 ## 3. Donate to a Cause
@@ -7526,7 +7526,7 @@ Often a voice goes a long way than a check. If you're passionate about a cause, 
 
 - Explore your passion: What issues are you deeply passionate about?
 - Educate yourself: Learn about the issue in-depth, so you can speak persuasively about it.
-- Take action: Organize an event, create a social media campaign, or lobby local officials to address the concern.
+- Take action: Organise an event, create a social media campaign, or lobby local officials to address the concern.
 
 # Play of the Day
 
@@ -7536,19 +7536,19 @@ Choose one action point from each of the five ways given above. For instance, un
 
 # Diagrams
 
-Understanding complex concepts is often easier with visual aids. So, to put everything in perspective, we'll utilize the power of diagrammatic representations.
+Understanding complex concepts is often easier with visual aids. So, to put everything in perspective, we'll utilise the power of diagrammatic representations.
 
 ```mermaid
 flowchart LR
     A[Volunteer your Time] -- Research --> B[Tutor students]
     A -- Commit --> C[Help at animal shelter]
     D[Share Your Knowledge] -- Identify --> E[Start a blog]
-    D -- Start Small --> F[Tutor a neighbor]
+    D -- Start Small --> F[Tutor a neighbour]
     G[Donate to a Cause] -- Research --> H[Donate to a charity]
     G -- Plan --> I[Small monthly donations]
     J[Practice Random Acts of Kindness] -- Look for opportunities --> K[Pay for someone's coffee]
     J -- Go out of your way --> L[Help an elderly person]
-    M[Be an Advocate] -- Explore --> N[Organize an event]
+    M[Be an Advocate] -- Explore --> N[Organise an event]
     M -- Educate --> O[Social media campaign]
 ```
 
@@ -7556,13 +7556,13 @@ This flowchart details the course of action you can take for each of our five gi
 
 1. 'Volunteer your Time': This could take the form of tutoring students (B) or helping at an animal shelter (C). Both these paths begin with research and commitment (A).
 
-2. 'Share Your Knowledge': You can start a blog (E) or tutor a neighbor (F). Both these options commence with identifying your skills (D).
+2. 'Share Your Knowledge': You can start a blog (E) or tutor a neighbour (F). Both these options commence with identifying your skills (D).
 
 3. 'Donate to a Cause': This could involve donating to a particular charity (H) or making small monthly donations (I). Both these paths involve doing some research and planning (G).
 
 4. 'Practice Random Acts of Kindness': Opportunities might present themselves as paying for someone's coffee (K) or helping an elderly person (L). Both actions require a keen eye for opportunity and a willingness to go out of your way (J).
 
-5. 'Be an Advocate': Becoming an advocate might involve organizing a local event (N) or starting a social media campaign (O). Both pathways begin with exploring your passions and educating yourself on the issues (M).
+5. 'Be an Advocate': Becoming an advocate might involve organising a local event (N) or starting a social media campaign (O). Both pathways begin with exploring your passions and educating yourself on the issues (M).
 
 For an amazing life, it all essentially circles back to this quote by Winston Churchill, "We make a living by what we get. We make a life by what we give." So, as we journey together on this path of self-betterment, let's remember to give back, adding value not just to our own lives, but also to myriad others that cross our paths.
 

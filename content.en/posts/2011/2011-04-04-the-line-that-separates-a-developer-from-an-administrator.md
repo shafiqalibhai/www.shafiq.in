@@ -21,7 +21,7 @@ Speaking from firsthand observation, it's not uncommon for developers to roll ou
 
 Why does this happen? It's likely that developers feel the risk of refusing a business request is greater than the risk of a technical fallout. They worry that saying "no" could put their job on the line, while the blame for any glitches post-launch will be spread around.
 
-This behavior shines a spotlight on a critical division in roles. Administrators, on the other hand, often operate from a standpoint of caution. They are the gatekeepers, after all, responsible for maintaining a stable environment. The thought of rushing changes that could risk system stability is their worst nightmare.
+This behaviour shines a spotlight on a critical division in roles. Administrators, on the other hand, often operate from a standpoint of caution. They are the gatekeepers, after all, responsible for maintaining a stable environment. The thought of rushing changes that could risk system stability is their worst nightmare.
 
 So, where does this leave us? At the crux of a balancing act that defines the line separating developers from administrators. Developers are driven by the need to innovate and meet business demands, while administrators are motivated by the need to preserve stability and integrity. Striking the right balance between these competing priorities is crucial for any successful business operation.
 

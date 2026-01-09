@@ -87,7 +87,7 @@ Description
 The DS1307 Serial Real-Time Clock is a low-power; full binary-coded decimal (BCD) clock/calendar plus 56 bytes of NV SRAM. Address and data are transferred serially via a 2-wire, bi-directional bus. The clock/calendar provides seconds, minutes, hours, day, date, month, and year information. The end of the month date is automatically adjusted for months with fewer than 31 days, including corrections for leap year. The clock operates in either the 24-hour or 12-hour format with AM/PM indicator. The DS1307 has a built-in power sense circuit that detects power failures and automatically switches to the battery supply.
 
 Operation  
-The DS1307 operates as a slave device on the serial bus. Access is obtained by implementing a START condition and providing a device identification code followed by a register address. Subsequent registers can be accessed sequentially until a STOP condition is executed. When VCC falls below 1.25 x VBAT the device terminates an access in progress and resets the device address counter. Inputs to the device will not be recognized at this time to prevent erroneous data from being written to the device from an out of tolerance system. When VCC falls below VBAT the device switches into a low-current battery backup mode. Upon power-up, the device switches from battery to VCC when VCC is greater than VBAT + 0.2V and recognizes inputs when VCC is greater than 1.25 x VBAT.
+The DS1307 operates as a slave device on the serial bus. Access is obtained by implementing a START condition and providing a device identification code followed by a register address. Subsequent registers can be accessed sequentially until a STOP condition is executed. When VCC falls below 1.25 x VBAT the device terminates an access in progress and resets the device address counter. Inputs to the device will not be recognised at this time to prevent erroneous data from being written to the device from an out of tolerance system. When VCC falls below VBAT the device switches into a low-current battery backup mode. Upon power-up, the device switches from battery to VCC when VCC is greater than VBAT + 0.2V and recognizes inputs when VCC is greater than 1.25 x VBAT.
 
 2.3.4 Serial Transceiver (MAX232)
 
@@ -104,7 +104,7 @@ The DS232A is a dual RS-232 driver/receiver pair that generates RS-232 voltage l
 
 2.3.4 Serial EEPROM  
 Features  
- Internally Organized 1024 x 8 (8K) memory  
+ Internally Organised 1024 x 8 (8K) memory  
  2-wire Serial Interface  
  Bi-directional Data Transfer Protocol  
  Write Protect Pin for Hardware Data Protection  
@@ -114,7 +114,7 @@ Features
 Pin Configurations
 
 Description  
-The AT24C08 provides 8192 bits of serial electrically erasable and programmable read-only memory (EEPROM) organized as 1024 words of 8 bits each. The device is optimized for use in many industrial and commercial applications where low-power and low-voltage operation are essential. The AT24C08 is accessed via a 2-wire serial interface.
+The AT24C08 provides 8192 bits of serial electrically erasable and programmable read-only memory (EEPROM) organised as 1024 words of 8 bits each. The device is optimised for use in many industrial and commercial applications where low-power and low-voltage operation are essential. The AT24C08 is accessed via a 2-wire serial interface.
 
 2.3.5. Liquid Crystal Display  
 Online Temperature Monitoring system uses the Liquid crystal display as the system end display, with the display of 16 x 2. It has the display capability of 16 characters of ASCII data with 2 lines, total of 32 characters  
@@ -284,7 +284,7 @@ Designer benefits
 • Fault diagnosis and debugging are simple; malfunctions can be immediately traced
 
 The I2C-Bus Concept  
-The I2C-bus contains two wires, serial data (SDA) and serial clock (SCL), carry information between the devices connected to the bus. Each device is recognized by a unique address (whether it's a microcontroller, LCD driver, memory or keyboard interface) and can operate as either a transmitter or receiver, depending on the function of the device. Obviously an LCD driver is only a receiver, whereas a memory can both receive and transmit data. In addition to transmitters and receivers, devices can also be considered as masters or slaves when performing data transfers
+The I2C-bus contains two wires, serial data (SDA) and serial clock (SCL), carry information between the devices connected to the bus. Each device is recognised by a unique address (whether it's a microcontroller, LCD driver, memory or keyboard interface) and can operate as either a transmitter or receiver, depending on the function of the device. Obviously an LCD driver is only a receiver, whereas a memory can both receive and transmit data. In addition to transmitters and receivers, devices can also be considered as masters or slaves when performing data transfers
 
 Definition of I2C-bus Terminology
 

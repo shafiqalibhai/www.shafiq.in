@@ -142,7 +142,7 @@ You can have multiple tasks in a playbook.
 
 ## Roles and Role-based Playbooks
 
-Roles allow you to organize your playbooks into reusable components.
+Roles allow you to organise your playbooks into reusable components.
 
 ```bash
 ansible-galaxy init web-server

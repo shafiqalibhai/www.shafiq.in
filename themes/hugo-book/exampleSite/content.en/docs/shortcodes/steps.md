@@ -1,6 +1,6 @@
 # Steps
 
-Steps shortcode styles numbered list as series of points for better content organization.
+Steps shortcode styles numbered list as series of points for better content organisation.
 
 ```tpl
 {{%/* steps */%}}

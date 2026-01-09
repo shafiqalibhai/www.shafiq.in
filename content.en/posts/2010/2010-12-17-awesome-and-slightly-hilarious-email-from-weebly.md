@@ -31,7 +31,7 @@ If you ran into any trouble along the way, we're here for you. Making your own w
 
 So we'll make it really, really easy to start working on your Weebly website again: just click here!
 
-If you have any questions, we'd love to help. Feel free to visit our Support Center or email us at <support@weebly.com>.
+If you have any questions, we'd love to help. Feel free to visit our Support Centre or email us at <support@weebly.com>.
 
 Sincerely,  
 The Weebly Team

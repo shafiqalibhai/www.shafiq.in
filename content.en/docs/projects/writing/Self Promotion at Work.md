@@ -34,4 +34,3 @@ Allying with people who are important in the organisation and setting up regular
 9: Avoiding Common Mistakes
 
 Avoid embarrassing coworkers in public, keep your opinions respectful, and be generally competent to avoid common mistakes that can hinder your self-promotion efforts.
-

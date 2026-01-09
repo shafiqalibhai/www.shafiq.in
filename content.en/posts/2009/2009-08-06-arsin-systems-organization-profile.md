@@ -1,5 +1,5 @@
 ---
-title: Arsin Systems — Organization Profile
+title: Arsin Systems — Organisation Profile
 author: Shafiq Alibhai
 draft: true
 date: 2009-08-06T06:13:53+00:00
@@ -29,7 +29,7 @@ tags:
   - IP
   - Management
   - Network
-  - organization profile
+  - organisation profile
   - Productivity
   - promise
   - quality demands
@@ -55,7 +55,7 @@ tags:
 disableHLJS: false
 ---
 
-**Organization Profile**
+**Organisation Profile**
 
 Arsin is the leading supplier of automated enterprise software testing solutions delivered by an expert team of software test professionals backed by a service framework that has been field tested and refined for over ten years. Arsin solutions are composed of proven processes and a combination of best-of-breed test tools from commercially available providers and when necessary Arsin's in-house developed tools and solutions.
 

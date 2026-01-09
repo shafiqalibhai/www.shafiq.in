@@ -22,4 +22,4 @@ var_export(content_fields('field_name_of_the_field', 'name_of_the_content_type')
 
 In this snippet, replace `'field_name_of_the_field'` with the actual name of the field you're interested in and `'name_of_the_content_type'` with the specific content type containing that field.
 
-This simple line of code will output the field's content as an array, making it easier for you to analyze its structure and content.
+This simple line of code will output the field's content as an array, making it easier for you to analyse its structure and content.

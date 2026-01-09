@@ -86,7 +86,7 @@ Notes on:
 #### Small Talk Topics
 
 - Recent movies or TV shows you've watched and enjoyed.
-- Books you've read recently or your favorite authors.
+- Books you've read recently or your favourite authors.
 - Hobbies or interests you both share, such as cooking, hiking, or painting.
 - Current events or news stories that have caught your attention.
 - Travel experiences or dream destinations you'd like to visit.

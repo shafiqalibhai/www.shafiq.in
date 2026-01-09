@@ -9,7 +9,7 @@ disableHLJS: false
 ---
 # Abstract
 
-The use of screen design and systems is influenced by various factors, such as the amount of information presented, screen organization, language used, and distinctiveness of screen components. This paper explores principles of screen design and proposes enhancing human-computer interaction through cognitive biometric and neural technology.
+The use of screen design and systems is influenced by various factors, such as the amount of information presented, screen organisation, language used, and distinctiveness of screen components. This paper explores principles of screen design and proposes enhancing human-computer interaction through cognitive biometric and neural technology.
 
 ## Introduction
 
@@ -27,13 +27,13 @@ To reduce or eliminate the need for motor work in human-computer interaction, co
 
 To create an easy and pleasant interface, design goals should focus on reducing visual, intellectual, memory, and motor work. By achieving these goals, user productivity and satisfaction can be improved.
 
-## Organizing Screen Elements Clearly and Meaningfully
+## Organising Screen Elements Clearly and Meaningfully
 
-Visual clarity is achieved when screen elements are organized in a meaningful and understandable way. This involves consistency in design, visually pleasing composition, logical ordering, presenting the right amount of information, and proper grouping and alignment. Visual clutter should be avoided to ensure clear and distinct elements.
+Visual clarity is achieved when screen elements are organised in a meaningful and understandable way. This involves consistency in design, visually pleasing composition, logical ordering, presenting the right amount of information, and proper grouping and alignment. Visual clutter should be avoided to ensure clear and distinct elements.
 
 ## Ordering of Screen Data and Content
 
-Information should be organized logically and sensibly, considering interrelationships. Screen units should be ordered based on user expectations and needs. Comparing information should be made easy, and irrelevant information should be avoided.
+Information should be organised logically and sensibly, considering interrelationships. Screen units should be ordered based on user expectations and needs. Comparing information should be made easy, and irrelevant information should be avoided.
 
 ## Screen Navigation and Flow
 
@@ -61,7 +61,7 @@ Screen controls and groups should be visually distinct. Borders should separate 
 
 ## Focus and Emphasis
 
-Important elements and central ideas should be visually emphasized using techniques like brightness, font size, underlining, contrasting colors, and positioning. Overemphasizing elements or using too many techniques should be avoided.
+Important elements and central ideas should be visually emphasized using techniques like brightness, font size, underlining, contrasting colours, and positioning. Overemphasizing elements or using too many techniques should be avoided.
 
 ## Conveying Depth of Levels or a Three-Dimensional Appearance
 
@@ -71,7 +71,7 @@ Creating a three-dimensional appearance using perspective, shading, and highligh
 
 Information should be presented in a legible and readable manner. Utilizing contrasting display features, creating visual lines, maintaining consistency, and providing structure enhance the usability of information.
 
-## Organization and Structure Guidelines
+## Organisation and Structure Guidelines
 
 Specific screen types, such as information entry and modification screens, dedicated source documents, and display/read-only screens, require organizational and structural guidelines tailored to their purpose.
 
@@ -81,7 +81,7 @@ Web pages are typically scanned in a clockwise direction, with users focusing on
 
 ## Interaction through Brain-Machine Interface
 
-The paper explores the concept of a brain-machine interface, where users can control systems using their thoughts. This interface detects brain signals through an electrode attached to the scalp or implanted into the gray matter. The signals are processed by computer software, allowing users to interact with the system effortlessly. The interface should be convenient, comfortable, and accessible to physically challenged individuals.
+The paper explores the concept of a brain-machine interface, where users can control systems using their thoughts. This interface detects brain signals through an electrode attached to the scalp or implanted into the grey matter. The signals are processed by computer software, allowing users to interact with the system effortlessly. The interface should be convenient, comfortable, and accessible to physically challenged individuals.
 
 ## Advantages
 

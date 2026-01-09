@@ -90,4 +90,4 @@ Here's a quick example for those interested in the nitty-gritty details:
 - **Billing Document Type**: F2
   - Generate invoice and complete the financial transaction.
 
-This guide aims to provide a comprehensive understanding of the OTC process, its importance, and how automation and ERP systems can make it more efficient. Companies aiming to remain competitive should continually analyze and improve their Order-to-Cash processes.
+This guide aims to provide a comprehensive understanding of the OTC process, its importance, and how automation and ERP systems can make it more efficient. Companies aiming to remain competitive should continually analyse and improve their Order-to-Cash processes.

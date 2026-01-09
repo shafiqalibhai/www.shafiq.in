@@ -170,7 +170,7 @@ Item    |    Yes    |    No    |    NA    |    Remarks
 Maintainability    |     |     |     |
 Does the architecture, design, or code create any maintenance difficulties?    |     |     |     |
 Are the maintenance people involved early in the design?    |     |     |     |
-Is the product documentation adequate for maintenance by an outside organization?    |     |     |     |
+Is the product documentation adequate for maintenance by an outside organisation?    |     |     |     |
 Reliability    |     |     |     |
 Are reliability requirements allocated to the software?    |     |     |     |
 Are availability requirements allocated to the software?    |     |     |     |
@@ -263,7 +263,7 @@ Is re-planning done when disruptions occur?    |     |     |     |
 Are people at all levels included in the planning of their own work?    |     |     |     |
 Are there contingency plans for known risks?    |     |     |     |
 Are long-term issues being adequately addressed?    |     |     |     |
-Project Organization
+Project Organisation
 Are the
 
  roles and reporting relationships clear?    |     |     |     |

@@ -104,7 +104,7 @@ Ansible®, Red Hat® Ansible® Automation Platform, Red Hat®, JBoss®, OpenShif
 
 Linux is a registered trademark of Linus Torvalds.
 
-Certified Kubernetes®, Certified Kubernetes Administrator®, Certified Kubernetes Application Developer®, Certified Kubernetes Security Specialist®, CloudEvents®, CloudNativeCon®, CNCF®, containerd®, etcd®, KubeCon®, Kubernetes®, LSB®, Open Container Initiative®, Prometheus®, The Linux Foundation®, Xen Project®, Cloud Native Computing Foundation logo, Kubernetes and Cloud Native Associate and Design (color), OpenTelemetry and Design (black and white), Fluentd and Design of a Carrier Pigeon (color - horizontal) are registered trademarks of The Linux Foundation in the United States and/or other countries. The marks CRI-O™, LF™, LinuxCon™, Linux Foundation™, OpenGitOps™, OpenTelemetry™, Open Container Format™, Open Virtualization Alliance™, Virtual Kubelet™, World of Open Source™ have registrations pending or trademarks in use of The Linux Foundation in the United States and/or other countries. The Linux Foundation logo. US Reg. no. 5166331 (The Linux Foundation geometric design (black and white)), The Linux Foundation logo. US Reg. no. 5166330 (The Linux Foundation geometric design (color)), Certified Kubernetes logo. US Reg. no. 5734733, Community Data License Agreement logo. US Reg. no. 5852265, fluentd logo. US Reg. no. 4734498, Kubernetes logo. US Reg. no. 4816320, Kubernetes and Cloud Native Associate and Design (color) US Reg. 6949718, SupplyChainSecurity and Design (black and white) US Reg. No. 6949717 are registered trademarks for the following logo marks in the United States and/or other countries. <https://www.linuxfoundation.org/trademark-usage/>
+Certified Kubernetes®, Certified Kubernetes Administrator®, Certified Kubernetes Application Developer®, Certified Kubernetes Security Specialist®, CloudEvents®, CloudNativeCon®, CNCF®, containerd®, etcd®, KubeCon®, Kubernetes®, LSB®, Open Container Initiative®, Prometheus®, The Linux Foundation®, Xen Project®, Cloud Native Computing Foundation logo, Kubernetes and Cloud Native Associate and Design (colour), OpenTelemetry and Design (black and white), Fluentd and Design of a Carrier Pigeon (colour - horizontal) are registered trademarks of The Linux Foundation in the United States and/or other countries. The marks CRI-O™, LF™, LinuxCon™, Linux Foundation™, OpenGitOps™, OpenTelemetry™, Open Container Format™, Open Virtualization Alliance™, Virtual Kubelet™, World of Open Source™ have registrations pending or trademarks in use of The Linux Foundation in the United States and/or other countries. The Linux Foundation logo. US Reg. no. 5166331 (The Linux Foundation geometric design (black and white)), The Linux Foundation logo. US Reg. no. 5166330 (The Linux Foundation geometric design (colour)), Certified Kubernetes logo. US Reg. no. 5734733, Community Data Licence Agreement logo. US Reg. no. 5852265, fluentd logo. US Reg. no. 4734498, Kubernetes logo. US Reg. no. 4816320, Kubernetes and Cloud Native Associate and Design (colour) US Reg. 6949718, SupplyChainSecurity and Design (black and white) US Reg. No. 6949717 are registered trademarks for the following logo marks in the United States and/or other countries. <https://www.linuxfoundation.org/trademark-usage/>
 
 UNIX® is a registered trademark of The Open Group.
 
@@ -120,7 +120,7 @@ Celeron, Celeron Inside, Centrino, Centrino logo, Core Inside, Intel Core, Intel
 
 Amazon Web Services, AWS, the Powered by AWS logo, and any other AWS Marks used in this book are trademarks of Amazon.com, Inc. or its affiliates. This book is not endorsed by or affiliated with Amazon in any way <https://aws.amazon.com/trademark-guidelines/>
 
-Google, Chrome™ browser, Chromium™ open source project, Cloud TPU™ integrated circuit, GCP™ infrastructure platform, GKE™ software service, Gmail™ email service, Google App Engine™ platform, Google Cloud Platform™ service, Google Cloud Storage™ service, Google Cloud™ enterprise services, Google Compute Engine™ service, Google Container Engine™ container management system, Google Dashboard™ interface, Google Photos™ photo storage and organizing platform, Google™ search or search engine, Go™ programming language, Kubeflow™ open-source machine learning platform, Optimized Chip™ processor chip, SPDY™ protocol, YouTube™ video community, are trademarks of Google LLC and this book is not endorsed by or affiliated with Google in any way. <https://about.google/brand-resource-center/>
+Google, Chrome™ browser, Chromium™ open source project, Cloud TPU™ integrated circuit, GCP™ infrastructure platform, GKE™ software service, Gmail™ email service, Google App Engine™ platform, Google Cloud Platform™ service, Google Cloud Storage™ service, Google Cloud™ enterprise services, Google Compute Engine™ service, Google Container Engine™ container management system, Google Dashboard™ interface, Google Photos™ photo storage and organising platform, Google™ search or search engine, Go™ programming language, Kubeflow™ open-source machine learning platform, Optimised Chip™ processor chip, SPDY™ protocol, YouTube™ video community, are trademarks of Google LLC and this book is not endorsed by or affiliated with Google in any way. <https://about.google/brand-resource-centre/>
 
 HashiCorp®, Vagrant, Packer, Terraform, HashiCorp products, name & logo are trademarks of The HashiCorp, Inc. <https://www.hashicorp.com/trademark-policy>
 
@@ -166,7 +166,7 @@ The provided terminal commands follow POSIX conventions and are compatible with 
 
 Each Ansible resource (playbook, role, plugin, and collection) adheres to the latest Ansible best practices, validated with the latest release of the Ansible Linter.
 
-However, it’s worth noting that specific code snippets intentionally diverge from best practices to reproduce specific behaviors or use cases accurately. This ensures a comprehensive understanding of Ansible, encompassing ideal techniques and real-world scenarios.
+However, it’s worth noting that specific code snippets intentionally diverge from best practices to reproduce specific behaviours or use cases accurately. This ensures a comprehensive understanding of Ansible, encompassing ideal techniques and real-world scenarios.
 
 <div style="page-break-after: always"></div>
 
@@ -380,7 +380,7 @@ Ansible is a versatile tool that can be used by a wide range of IT professionals
 
 6. Cloud Architects: Cloud architects designing and implementing cloud-based solutions can use Ansible to manage infrastructure as code, ensuring consistency and repeatability across on-premises and cloud environments. This approach simplifies the migration of applications and services to public or private clouds, reducing costs and improving scalability.
 
-7. Network Engineers: Network engineers responsible for managing complex network infrastructures can utilize Ansible to automate configuration management, monitoring, and troubleshooting tasks. By streamlining these processes, network engineers can minimize downtime and ensure optimal performance.
+7. Network Engineers: Network engineers responsible for managing complex network infrastructures can utilise Ansible to automate configuration management, monitoring, and troubleshooting tasks. By streamlining these processes, network engineers can minimize downtime and ensure optimal performance.
 
 8. Managed Services Providers (MSPs): MSPs offer IT managed services to businesses of all sizes. Ansible can help these providers streamline their service delivery process by automating routine tasks such as software updates, backups, and security configuration.
 
@@ -452,17 +452,17 @@ Ansible offers a powerful and versatile solution for Windows configuration manag
 
 #### The Need for Windows Configuration Management
 
-Traditionally, IT administrators have used tools like Group Policy, PowerShell, or System Center Configuration Manager (SCCM) to manage configurations on Windows systems. However, as organizations adopt a more agile approach to IT infrastructure management, they require a more flexible and scalable solution that can automate repetitive tasks and streamline the configuration process across different platforms.
+Traditionally, IT administrators have used tools like Group Policy, PowerShell, or System Centre Configuration Manager (SCCM) to manage configurations on Windows systems. However, as organizations adopt a more agile approach to IT infrastructure management, they require a more flexible and scalable solution that can automate repetitive tasks and streamline the configuration process across different platforms.
 
 This is where Ansible comes into play. It offers a unified approach to managing configurations on both Windows and Linux systems, enabling organizations to manage their entire IT infrastructure using a single tool.
 
 While Ansible is a powerful tool for managing configurations on both Windows and Linux systems, there are certain scenarios where it may be particularly beneficial. These include:
 
-- Automating repetitive tasks: If your organization performs routine configuration changes or deployments, using Ansible can help automate these processes and reduce manual effort.
+- Automating repetitive tasks: If your organisation performs routine configuration changes or deployments, using Ansible can help automate these processes and reduce manual effort.
 - Managing complex environments: In large-scale deployments with multiple systems and applications, Ansible's ability to manage configurations consistently across different platforms can be invaluable.
 - Ensuring consistency: If maintaining consistency across your IT infrastructure is crucial, Ansible's support for cross-platform configuration management can help ensure that all systems are configured identically.
-- Scaling infrastructure: As your organization grows and adds new systems or applications, using Ansible can help streamline the configuration process and enable you to scale your infrastructure efficiently.
-- Improving security: If security is a top priority for your organization, Ansible's use of secure communication protocols like SSH or WinRM can help ensure that configurations are applied securely.
+- Scaling infrastructure: As your organisation grows and adds new systems or applications, using Ansible can help streamline the configuration process and enable you to scale your infrastructure efficiently.
+- Improving security: If security is a top priority for your organisation, Ansible's use of secure communication protocols like SSH or WinRM can help ensure that configurations are applied securely.
 
 Using Ansible for Windows Configuration Management offers numerous benefits, including reduced complexity, increased efficiency, improved scalability, and cost savings. By leveraging Ansible in the right scenarios, you can transform your IT infrastructure management process and take advantage of a unified, flexible, and scalable solution that supports both Windows and Linux systems.
 
@@ -470,9 +470,9 @@ Using Ansible for Windows Configuration Management offers numerous benefits, inc
 
 Ansible is not the only tool available for Windows Configuration Management. In this section, we will explore some popular alternatives to Ansible and compare their features and capabilities in managing Windows environments:
 
-##### Microsoft System Center Configuration Manager (SCCM)
+##### Microsoft System Centre Configuration Manager (SCCM)
 
-Microsoft System Center Configuration Manager (SCCM), formerly known as Systems Management Server (SMS), is a comprehensive platform for Windows Configuration Management developed by Microsoft itself. It offers a wide range of features, including software deployment, patch management, hardware inventory, and user-based policies. SCCM can also integrate with other Microsoft products like Intune and Azure to provide a unified approach to managing Windows systems.
+Microsoft System Centre Configuration Manager (SCCM), formerly known as Systems Management Server (SMS), is a comprehensive platform for Windows Configuration Management developed by Microsoft itself. It offers a wide range of features, including software deployment, patch management, hardware inventory, and user-based policies. SCCM can also integrate with other Microsoft products like Intune and Azure to provide a unified approach to managing Windows systems.
 
 SCCM is an excellent choice for organizations that heavily rely on the Microsoft ecosystem, as it offers deep integration with various Microsoft tools and services. However, its complexity and the need for a dedicated server infrastructure may make it less appealing for smaller organizations or those looking for a more lightweight solution.
 
@@ -687,7 +687,7 @@ SaltStack offers a flexible and powerful approach to Windows Configuration Manag
 
 #### System and Network Configuration
 
-- **win_computer_description module** – Set windows description, owner and organization
+- **win_computer_description module** – Set windows description, owner and organisation
 - **win_data_deduplication module** – Module to enable Data Deduplication on a volume
 - **win_defrag module** – Consolidate fragmented files on local volumes
 - **win_disk_facts module** – Show the attached disks and disk information of the target host
@@ -702,7 +702,7 @@ SaltStack offers a flexible and powerful approach to Windows Configuration Manag
 - **win_pagefile module** – Query or change pagefile configuration
 - **win_partition module** – Creates, changes and removes partitions on Windows Server
 - **win_power_plan module** – Changes the power plan of a Windows system
-- **win_product_facts module** – Provides Windows product and license information
+- **win_product_facts module** – Provides Windows product and licence information
 - **win_route module** – Add or remove a static route
 - **win_timezone module** – Sets Windows machine timezone
 - **win_webpicmd module** – Installs packages using Web Platform Installer command-line

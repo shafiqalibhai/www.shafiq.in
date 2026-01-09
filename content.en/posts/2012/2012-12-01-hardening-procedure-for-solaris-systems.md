@@ -130,63 +130,63 @@ disableHLJS: false
             
             <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding: 0;" width="425">
               <p style="margin-top: .21cm;">
-                <span style="font-size: medium;"><span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#ProcedureStatement"><span style="font-size: small;">Procedure Statement………………………………………………………1</a>
+                <span style="font-size: medium;"><span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#ProcedureStatement"><span style="font-size: small;">Procedure Statement………………………………………………………1</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#TOC"><span style="font-size: small;">Table of Contents………………………………………………………….1</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#TOC"><span style="font-size: small;">Table of Contents………………………………………………………….1</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#JASS"><span style="font-size: small;">JASS Implementation……………………………………………………..2</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#JASS"><span style="font-size: small;">JASS Implementation……………………………………………………..2</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Driver"><span style="font-size: small;">Driver……………………………………………………………………...2</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Driver"><span style="font-size: small;">Driver……………………………………………………………………...2</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#BSM"><span style="font-size: small;">BSM Implementation……………………………………………………...5</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#BSM"><span style="font-size: small;">BSM Implementation……………………………………………………...5</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Audit"><span style="font-size: small;">Audit Configuration……………………………………………………….5</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Audit"><span style="font-size: small;">Audit Configuration……………………………………………………….5</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#RSA"><span style="font-size: small;">RSA Implementation………………………………………………………6</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#RSA"><span style="font-size: small;">RSA Implementation………………………………………………………6</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Tripwire"><span style="font-size: small;">Tripwire Implementation………………………………………………….6</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Tripwire"><span style="font-size: small;">Tripwire Implementation………………………………………………….6</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#SolarisContainers"><span style="font-size: small;">Solaris Containers (Virtualization)………………………………………..7</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#SolarisContainers"><span style="font-size: small;">Solaris Containers (Virtualization)………………………………………..7</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Bibliography"><span style="font-size: small;">Bibliography………………………………………………………………11</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Bibliography"><span style="font-size: small;">Bibliography………………………………………………………………11</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Revision"><span style="font-size: small;">Revision References……………………………………………………….11</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Revision"><span style="font-size: small;">Revision References……………………………………………………….11</a>
               
               
               <p class="western" style="margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Appendix"><span style="font-size: small;">Appendix A: Examples……………………………………………………12</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Appendix"><span style="font-size: small;">Appendix A: Examples……………………………………………………12</a>
               
               
               <p class="western" style="margin-left: 1.24cm; text-indent: -1.24cm; margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Scripts"><span style="font-size: small;">Scripts..………………………………………..………………..12</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Scripts"><span style="font-size: small;">Scripts..………………………………………..………………..12</a>
               
               
               <p class="western" style="margin-left: 1.56cm; text-indent: -1.56cm; margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Password"><span style="font-size: small;">Password……………………………………………………..…17</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Password"><span style="font-size: small;">Password……………………………………………………..…17</a>
               
               
               <p class="western" style="margin-left: 1.56cm; text-indent: -1.56cm; margin-top: .21cm;">
-                <span style="color: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Audit"><span style="font-size: small;">Audit…………….…………………………………………..….21</a>
+                <span style="colour: #0000ff;"><span style="text-decoration: underline;"><a class="western" href="#Audit"><span style="font-size: small;">Audit…………….…………………………………………..….21</a>
               
               
               <p class="western" style="margin-top: .21cm;">
@@ -223,11 +223,11 @@ disableHLJS: false
                           
                           <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding: 0;" width="425">
                             <p style="margin-bottom: .11cm;">
-                              <span style="font-size: small;">JASS provides a set of templates to customize the security profiles. The one utilized is <i>secure.driver</i>.
+                              <span style="font-size: small;">JASS provides a set of templates to customise the security profiles. The one utilized is <i>secure.driver</i>.
                             
                             
                             <p style="margin-bottom: .11cm;">
-                              <span style="font-size: small;">No scripts are customized (user.init) but some of the scripts in the hardening.driver file, are disabled or enabled to fit the requirements in the environment. 
+                              <span style="font-size: small;">No scripts are customised (user.init) but some of the scripts in the hardening.driver file, are disabled or enabled to fit the requirements in the environment. 
                             
                             
                             
@@ -3041,7 +3041,7 @@ disableHLJS: false
                                                                 
                                                                 
                                                                 <p class="western" style="margin-top: .21cm;">
-                                                                  # Use is subject to license terms.
+                                                                  # Use is subject to licence terms.
                                                                 
                                                                 
                                                                 

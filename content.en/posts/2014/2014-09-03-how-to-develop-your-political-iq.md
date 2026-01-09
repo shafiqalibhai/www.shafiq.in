@@ -12,7 +12,7 @@ Navigating the intricacies of office politics can often feel like walking throug
 
 ### Clearly Map Out Your Path to Success
 
-Before you can even think about maneuvering through the maze of office politics, you need to have a clear idea of where you want to go. What are your career goals? What milestones do you need to hit along the way? Understanding your ambitions will give you a roadmap to navigate through the complexity of the workplace.
+Before you can even think about manoeuvring through the maze of office politics, you need to have a clear idea of where you want to go. What are your career goals? What milestones do you need to hit along the way? Understanding your ambitions will give you a roadmap to navigate through the complexity of the workplace.
 
 ### Understand the Power Dynamics
 
@@ -20,7 +20,7 @@ The workplace isn't just about getting your job done; it's a living, breathing e
 
 ### Seize Opportunities to Amplify Your Influence
 
-Once you have a grasp of the power structure, the next step is to find your place within it. Look for opportunities that allow you to showcase your skills and contribute to the team's goals. Whether it’s volunteering for a challenging project or simply helping a colleague in need, each action you take can increase your personal power and influence within the organization.
+Once you have a grasp of the power structure, the next step is to find your place within it. Look for opportunities that allow you to showcase your skills and contribute to the team's goals. Whether it’s volunteering for a challenging project or simply helping a colleague in need, each action you take can increase your personal power and influence within the organisation.
 
 ### Decode Hidden Agendas and Motives
 

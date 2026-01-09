@@ -35,7 +35,7 @@ From the control panel, website administrators can:
 - **Custom Image**: Choose an image to separate the text.
 - **Text Frequency**: Define how many times a specific text should appear.
 - **Scroll Direction**: Choose the scrolling direction (rtl or ltr).
-- **Background Color**: Customize the background color.
+- **Background Colour**: Customise the background colour.
 - **Content Source**: Select the source for text and images.
 - **Image Positioning**: Define where the image will be placed within the text.
 - **Display Timing**: Set how long an image or text will be displayed.
@@ -45,7 +45,7 @@ From the control panel, website administrators can:
 ### Examples
 - **Gmail's Chat feature**: Like the Gmail Chat feature in web browsers, the BottomToolBar stays on top of all other elements.
 
-The BottomToolBar is a comprehensive, dynamic tool designed to make websites more interactive and engaging. It's fully customizable to suit the needs of different kinds of websites, from news portals to entertainment sites.
+The BottomToolBar is a comprehensive, dynamic tool designed to make websites more interactive and engaging. It's fully customisable to suit the needs of different kinds of websites, from news portals to entertainment sites.
 
 So if you're looking to give your website that extra bit of functionality and pizazz, BottomToolBar could be just the solution you're looking for.
 

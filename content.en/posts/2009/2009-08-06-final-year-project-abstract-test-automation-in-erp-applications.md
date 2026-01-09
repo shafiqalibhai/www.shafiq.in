@@ -65,9 +65,9 @@ Bachelor of Technology in Computer Science and Engineering
 
 **Abstract**
 
-Test Automation plays vital role in Enterprise applications implementation. Majority of the Enterprises run their businesses by using Packaged applications like SAP, Oracle, Peoplesoft, etc. These business processes are highly customized depending on the Organizations business and objectives.
+Test Automation plays vital role in Enterprise applications implementation. Majority of the Enterprises run their businesses by using Packaged applications like SAP, Oracle, Peoplesoft, etc. These business processes are highly customised depending on the Organizations business and objectives.
 
-As Development and Testing these implementations and deploying within in the budget and timeframes are crucial for an Organization business commitment drives IT departments at these Organizations to looks for accelerators of testing process. These accelerators are in the form of Test Automation tools available in market and also Frameworks to deploy these tools.
+As Development and Testing these implementations and deploying within in the budget and timeframes are crucial for an Organisation business commitment drives IT departments at these Organizations to looks for accelerators of testing process. These accelerators are in the form of Test Automation tools available in market and also Frameworks to deploy these tools.
 
 The problem is to identify the ways and means to enhance and improve such Test Automation Framework.
 

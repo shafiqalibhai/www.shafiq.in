@@ -86,11 +86,11 @@ Domain knowledge is the knowledge of the specific problem domain or industry tha
 
 ## Development "hygiene"
 
-Development hygiene is the practice of using tools and techniques that help you organize, manage, test, debug, document, and deploy your code in a consistent and reliable way. It includes using version control systems, bug tracking systems, testing frameworks, code analysis tools, code formatting tools, documentation tools, deployment tools, etc. Development hygiene helps you improve the quality of your code, reduce errors and bugs, collaborate with other developers more smoothly, and deliver your solutions faster.
+Development hygiene is the practice of using tools and techniques that help you organise, manage, test, debug, document, and deploy your code in a consistent and reliable way. It includes using version control systems, bug tracking systems, testing frameworks, code analysis tools, code formatting tools, documentation tools, deployment tools, etc. Development hygiene helps you improve the quality of your code, reduce errors and bugs, collaborate with other developers more smoothly, and deliver your solutions faster.
 
 ## Mobile development
 
-Mobile development is the development of applications that run on mobile devices such as smartphones or tablets. It is one of the fastest-growing and most exciting areas of development today. There are different approaches to mobile development: web applications that are optimized for mobile browsers; RIAs that run on mobile platforms; or native applications that run directly on the devices. Regardless of which approach you choose,
+Mobile development is the development of applications that run on mobile devices such as smartphones or tablets. It is one of the fastest-growing and most exciting areas of development today. There are different approaches to mobile development: web applications that are optimised for mobile browsers; RIAs that run on mobile platforms; or native applications that run directly on the devices. Regardless of which approach you choose,
 you need to learn how to design and develop applications that are user-friendly,
 responsive,
 secure,

@@ -50,4 +50,4 @@ Finally, a Puppet run is initiated across all servers using MCollective. This to
 
 ## Wrapping Up
 
-By following this plan, you'll not only have a more organized approach to release engineering, but you'll also reduce the likelihood of errors and setbacks. A well-planned process is the cornerstone of successful development, and this guide aims to be just that—a roadmap for a smoother, more reliable engineering pipeline.
+By following this plan, you'll not only have a more organised approach to release engineering, but you'll also reduce the likelihood of errors and setbacks. A well-planned process is the cornerstone of successful development, and this guide aims to be just that—a roadmap for a smoother, more reliable engineering pipeline.

@@ -1879,7 +1879,7 @@ disableHLJS: false
     </td>
     
     <td>
-      Have controls been established to ensure that physical access to areas with confidential information, and information systems be controlled and restricted to authorized persons only?
+      Have controls been established to ensure that physical access to areas with confidential information, and information systems be controlled and restricted to authorised persons only?
     </td>
     
     <td>
@@ -1947,7 +1947,7 @@ disableHLJS: false
     </td>
     
     <td>
-      Yes, sign in and data center manager approval required
+      Yes, sign in and data centre manager approval required
     </td>
     
     <td>
@@ -3163,7 +3163,7 @@ disableHLJS: false
     </td>
     
     <td>
-      Is access to the modify job schedules limited to authorized personnel?
+      Is access to the modify job schedules limited to authorised personnel?
     </td>
     
     <td>
@@ -3590,7 +3590,7 @@ disableHLJS: false
     </td>
     
     <td>
-      Does the authentication method to gain access to the network utilize passwords?
+      Does the authentication method to gain access to the network utilise passwords?
     </td>
     
     <td>
@@ -4749,7 +4749,7 @@ disableHLJS: false
     </td>
     
     <td>
-      Does the authentication method to gain access to the application utilize passwords?
+      Does the authentication method to gain access to the application utilise passwords?
     </td>
     
     <td>
@@ -5972,7 +5972,7 @@ disableHLJS: false
     </td>
     
     <td>
-      Does the authentication method to gain access to the  portal utilize passwords?
+      Does the authentication method to gain access to the  portal utilise passwords?
     </td>
     
     <td>
@@ -7427,7 +7427,7 @@ disableHLJS: false
     </td>
     
     <td colspan="3">
-      Customer Service Center Call History
+      Customer Service Centre Call History
     </td>
     
     <td>

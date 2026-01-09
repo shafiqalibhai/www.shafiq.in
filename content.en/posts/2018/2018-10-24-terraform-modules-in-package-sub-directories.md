@@ -22,8 +22,8 @@ Now, if you're working with version control sources and you need to include argu
 
 * `git::https://example.com/network.git//modules/vpc?ref=v1.2.0`
 
-Another thing to note is that when you use this feature, Terraform will download the entire package to your local machine. However, it will only utilize the module present in the specified sub-directory. This also means that if you have modules interacting with each other within the same package, they can safely refer to each other using local paths.
+Another thing to note is that when you use this feature, Terraform will download the entire package to your local machine. However, it will only utilise the module present in the specified sub-directory. This also means that if you have modules interacting with each other within the same package, they can safely refer to each other using local paths.
 
 For more information, you can check the official Terraform documentation on [Modules in Package Subdirectories](https://www.terraform.io/docs/modules/sources.html#modules-in-package-sub-directories).
 
-Navigating subdirectories might seem like a minor feature, but it’s a powerful tool that helps you keep your codebase organized while leveraging external modules effectively. Happy coding!
+Navigating subdirectories might seem like a minor feature, but it’s a powerful tool that helps you keep your codebase organised while leveraging external modules effectively. Happy coding!

@@ -52,7 +52,7 @@ Dear Sir/Madam,
 Ubislate7+ is expected to be launched by February end. The company will endeavour to fulfil all orders on a first come first served basis. You can check our website for latest information/updates.  
 An offer exclusively for you if you decide to make the payment in advance:  
 
-- You can have a prioritized delivery of your Ubislate7+ in March!
+- You can have a prioritised delivery of your Ubislate7+ in March!
 
 - Free shipping! Normal shipping charges Rs.199/- will be waived off!
 

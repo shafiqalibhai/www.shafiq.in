@@ -20,7 +20,7 @@ The college website was a simple static website that showcased the information a
 As this was my first project, I faced many challenges along the way. Some of them were:
 
 - Learning HTML, CSS, and PHP from scratch. I had no prior knowledge of web development, so I had to learn everything from online tutorials and books.
-- Designing the layout and appearance of the website. I had to choose the colors, fonts, images, and icons that matched the theme and style of our college.
+- Designing the layout and appearance of the website. I had to choose the colours, fonts, images, and icons that matched the theme and style of our college.
 - Testing and debugging the website on different browsers and devices. I had to make sure that the website worked properly on all platforms and looked consistent.
 - Dealing with security issues. Our college network was not very secure, so we had to protect our website from hackers and viruses. We also had a php shell in there somewhere that we used for administrative purposes only. 🙂
 

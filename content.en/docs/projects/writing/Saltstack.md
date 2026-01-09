@@ -920,7 +920,7 @@ archive.unzip:
         On Windows, only the read-only flag will be extracted as set within the
         zip file, other attributes (i.e. user/group permissions) are ignored.
 
-        Set this argument to ``False`` to disable this behavior.
+        Set this argument to ``False`` to disable this behaviour.
 
         New in version 2016.11.0
 
@@ -3440,7 +3440,7 @@ cmd.powershell:
       where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -3673,7 +3673,7 @@ cmd.powershell_all:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -3842,7 +3842,7 @@ cmd.retcode:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -3995,7 +3995,7 @@ cmd.run:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running.
+        behaviour is to run as the user under which Salt is running.
 
         Warning:
 
@@ -4222,7 +4222,7 @@ cmd.run_all:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -4467,7 +4467,7 @@ cmd.run_bg:
         skip logging the output if the command has a nonzero exit code.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -4617,7 +4617,7 @@ cmd.run_chroot:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -4747,7 +4747,7 @@ cmd.run_stderr:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -4911,7 +4911,7 @@ cmd.run_stdout:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -5087,7 +5087,7 @@ cmd.script:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -5258,7 +5258,7 @@ cmd.script_retcode:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -5390,7 +5390,7 @@ cmd.shell:
         cases where sensitive information must be read from standard input.
 
     :param str runas: Specify an alternate user to run the command. The default
-        behavior is to run as the user under which Salt is running. If running
+        behaviour is to run as the user under which Salt is running. If running
         on a Windows minion you must also use the ``password`` argument, and
         the target user account must be in the Administrators group.
 
@@ -5681,8 +5681,8 @@ composer.install:
     no_plugins
         --no-plugins option of composer.
 
-    optimize
-        --optimize-autoloader option of composer. Recommended for production.
+    optimise
+        --optimise-autoloader option of composer. Recommended for production.
 
     no_dev
         --no-dev option for composer. Recommended for production.
@@ -5700,7 +5700,7 @@ composer.install:
 
         salt '*' composer.install /var/www/application
 
-        salt '*' composer.install /var/www/application             no_dev=True optimize=True
+        salt '*' composer.install /var/www/application             no_dev=True optimise=True
     
 
 composer.selfupdate:
@@ -5772,8 +5772,8 @@ composer.update:
     no_plugins
         --no-plugins option of composer.
 
-    optimize
-        --optimize-autoloader option of composer. Recommended for production.
+    optimise
+        --optimise-autoloader option of composer. Recommended for production.
 
     no_dev
         --no-dev option for composer. Recommended for production.
@@ -5791,7 +5791,7 @@ composer.update:
 
         salt '*' composer.update /var/www/application
 
-        salt '*' composer.update /var/www/application             no_dev=True optimize=True
+        salt '*' composer.update /var/www/application             no_dev=True optimise=True
     
 
 config.backup_mode:
@@ -5897,7 +5897,7 @@ config.get:
     merge
         New in version 2015.5.0
 
-        If passed, this parameter will change the behavior of the function so
+        If passed, this parameter will change the behaviour of the function so
         that, instead of traversing each data store above in order and
         returning the first match, the data stores are first merged together
         and then searched. The pillar data is merged into the master config
@@ -6141,7 +6141,7 @@ consul.acl_update:
 
 consul.agent_check_deregister:
 
-    The agent will take care of deregistering the check from the Catalog.
+    The agent will take care of deregistering the check from the Catalogue.
 
     :param consul_url: The Consul server URL.
     :param checkid: The ID of the check to deregister from Consul.
@@ -6395,7 +6395,7 @@ consul.agent_services:
 
 consul.catalog_datacenters:
 
-    Return list of available datacenters from catalog.
+    Return list of available datacenters from catalogue.
 
     :param consul_url: The Consul server URL.
     :return: The list of available datacenters.
@@ -6442,7 +6442,7 @@ consul.catalog_node:
 
 consul.catalog_nodes:
 
-    Return list of available nodes from catalog.
+    Return list of available nodes from catalogue.
 
     :param consul_url: The Consul server URL.
     :param dc: By default, the datacenter of the agent is queried;
@@ -6502,7 +6502,7 @@ consul.catalog_service:
 
 consul.catalog_services:
 
-    Return list of available services rom catalog.
+    Return list of available services rom catalogue.
 
     :param consul_url: The Consul server URL.
     :param dc: By default, the datacenter of the agent is queried;
@@ -6725,8 +6725,8 @@ consul.session_create:
     :param checks: A list of associated health checks. It is highly
                    recommended that, if you override this list, you
                    include the default "serfHealth".
-    :param behavior: Can be set to either release or delete. This controls
-                     the behavior when a session is invalidated. By default,
+    :param behaviour: Can be set to either release or delete. This controls
+                     the behaviour when a session is invalidated. By default,
                      this is release, causing any locks that are held to be
                      released. Changing this to delete causes any locks that
                      are held to be deleted. delete is useful for creating
@@ -6737,7 +6737,7 @@ consul.session_create:
 
     CLI Example:
 
-        salt '*' consul.session_create node='node1' name='my-session' behavior='delete' ttl='3600s'
+        salt '*' consul.session_create node='node1' name='my-session' behaviour='delete' ttl='3600s'
 
     
 
@@ -8612,7 +8612,7 @@ dnsmasq.set_config:
     conf-dir is configured in this file, salt will attempt to set the option
     in any file inside the conf-dir where it has already been enabled. If it
     does not find it inside any files, it will append it to the main config
-    file. Setting follow to False will turn off this behavior.
+    file. Setting follow to False will turn off this behaviour.
 
     If a config option currently appears multiple times (such as dhcp-host,
     which is specified at least once per host), the new option will be added
@@ -8880,7 +8880,7 @@ environ.setenv:
         Must be a dict. The top-level keys of the dict are the names
         of the environment variables to set. Each key's value must be
         a string or False. Refer to the 'false_unsets' parameter for
-        behavior when a value set to False.
+        behaviour when a value set to False.
 
     false_unsets
         If a key's value is False and false_unsets is True, then the
@@ -8926,7 +8926,7 @@ environ.setval:
 
     val
         The value to set. Must be a string or False. Refer to the
-        'false_unsets' parameter for behavior when set to False.
+        'false_unsets' parameter for behaviour when set to False.
 
     false_unsets
         If val is False and false_unsets is True, then the key will be
@@ -9204,7 +9204,7 @@ extfs.mkfs:
     * **uuid**: set the UUID for the file system
     * **cluster_size**: specify the size of cluster in bytes for file systems using the bigalloc feature
     * **root_directory**: copy the contents of the given directory into the root directory of the file system
-    * **errors_behavior**: change the behavior of the kernel code when errors are detected
+    * **errors_behavior**: change the behaviour of the kernel code when errors are detected
 
     See the ``mke2fs(8)`` manpage for a more complete description of these
     options.
@@ -9227,7 +9227,7 @@ extfs.tune:
 
     * **max**: max mount count
     * **count**: mount count
-    * **error**: error behavior
+    * **error**: error behaviour
     * **extended_opts**: extended options (comma separated)
     * **force**: force, even if there are errors (set to True)
     * **group**: group name or gid that can use the reserved blocks
@@ -9415,10 +9415,10 @@ file.blockreplace:
 
         New in version 2016.3.4
         Changed in version 2017.7.5,2018.3.1
-            New behavior added when value is ``None``.
+            New behaviour added when value is ``None``.
         Changed in version 2019.2.0
             The default value of this argument will change to ``None`` to match
-            the behavior of the :py:func:`file.blockreplace state
+            the behaviour of the :py:func:`file.blockreplace state
             <salt.states.file.blockreplace>`
 
     CLI Example:
@@ -9692,7 +9692,7 @@ file.comment_line:
 
     :param regex: string
         A regex expression that begins with ``^`` that will find the line you wish
-        to comment. Can be as simple as ``^color =``
+        to comment. Can be as simple as ``^colour =``
 
     :param char: string
         The character used to comment a line in the type of file you're referencing.
@@ -11150,7 +11150,7 @@ file.move:
 
 file.normpath:
 
-    Returns Normalize path, eliminating double slashes, etc.
+    Returns Normalise path, eliminating double slashes, etc.
 
     New in version 2015.5.0
 
@@ -12473,7 +12473,7 @@ git.archive:
         Manually specify the file format of the resulting archive. This
         argument can be omitted, and ``git archive`` will attempt to guess the
         archive type (and compression) from the filename. ``zip``, ``tar``,
-        ``tar.gz``, and ``tgz`` are extensions that are recognized
+        ``tar.gz``, and ``tgz`` are extensions that are recognised
         automatically, and git can be configured to support other archive types
         with the addition of git configuration keys.
 
@@ -12491,13 +12491,13 @@ git.archive:
         top-level directory by that name).
 
         Note:
-            The default behavior if the ``--prefix`` option for ``git archive``
-            is not specified is to not prepend a prefix, so Salt's behavior
+            The default behaviour if the ``--prefix`` option for ``git archive``
+            is not specified is to not prepend a prefix, so Salt's behaviour
             differs slightly from ``git archive`` in this respect. Use
             ``prefix=''`` to create an archive with no prefix.
 
         Changed in version 2015.8.0
-            The behavior of this argument has been changed slightly. As of
+            The behaviour of this argument has been changed slightly. As of
             this version, it is necessary to include the trailing slash when
             specifying a prefix, if the prefix is intended to create a
             top-level directory.
@@ -13459,7 +13459,7 @@ git.fetch:
 
     remote
         Optional remote name to fetch. If not passed, then git will use its
-        default behavior (as detailed in `git-fetch(1)`_).
+        default behaviour (as detailed in `git-fetch(1)`_).
 
         New in version 2015.8.0
 
@@ -16447,7 +16447,7 @@ grafana4.create_datasource:
         Optional - Logo to use for this datasource.
 
     orgname
-        Name of the organization in which the data source should be created.
+        Name of the organisation in which the data source should be created.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16461,10 +16461,10 @@ grafana4.create_datasource:
 
 grafana4.create_org:
 
-    Create a new organization.
+    Create a new organisation.
 
     name
-        Name of the organization.
+        Name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16477,20 +16477,20 @@ grafana4.create_org:
 
 grafana4.create_org_user:
 
-    Add user to the organization.
+    Add user to the organisation.
 
     loginOrEmail
         Login or email of the user.
 
     role
-        Role of the user for this organization. Should be one of:
+        Role of the user for this organisation. Should be one of:
             - Admin
             - Editor
             - Read Only Editor
             - Viewer
 
     orgname
-        Name of the organization in which users are added.
+        Name of the organisation in which users are added.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16512,7 +16512,7 @@ grafana4.create_update_dashboard:
         Whether the dashboard should be overwritten if already existing.
 
     orgname
-        Name of the organization.
+        Name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16556,7 +16556,7 @@ grafana4.delete_dashboard:
         Slug (name) of the dashboard.
 
     orgname
-        Name of the organization.
+        Name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16585,10 +16585,10 @@ grafana4.delete_datasource:
 
 grafana4.delete_org:
 
-    Delete an organization.
+    Delete an organisation.
 
     orgid
-        Id of the organization.
+        Id of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16601,13 +16601,13 @@ grafana4.delete_org:
 
 grafana4.delete_org_user:
 
-    Remove user from the organization.
+    Remove user from the organisation.
 
     userid
         Id of the user.
 
     orgname
-        Name of the organization in which users are updated.
+        Name of the organisation in which users are updated.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16636,13 +16636,13 @@ grafana4.delete_user:
 
 grafana4.delete_user_org:
 
-    Remove a user from an organization.
+    Remove a user from an organisation.
 
     userid
         Id of the user.
 
     orgid
-        Id of the organization.
+        Id of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16661,7 +16661,7 @@ grafana4.get_dashboard:
         Slug (name) of the dashboard.
 
     orgname
-        Name of the organization.
+        Name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16680,7 +16680,7 @@ grafana4.get_datasource:
         Name of the datasource.
 
     orgname
-        Name of the organization.
+        Name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16696,7 +16696,7 @@ grafana4.get_datasources:
     List all datasources in an organisation.
 
     orgname
-        Name of the organization.
+        Name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16709,10 +16709,10 @@ grafana4.get_datasources:
 
 grafana4.get_org:
 
-    Show a single organization.
+    Show a single organisation.
 
     name
-        Name of the organization.
+        Name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16725,10 +16725,10 @@ grafana4.get_org:
 
 grafana4.get_org_address:
 
-    Get the organization address.
+    Get the organisation address.
 
     orgname
-        Name of the organization in which users are updated.
+        Name of the organisation in which users are updated.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16741,10 +16741,10 @@ grafana4.get_org_address:
 
 grafana4.get_org_prefs:
 
-    Get the organization preferences.
+    Get the organisation preferences.
 
     orgname
-        Name of the organization in which users are updated.
+        Name of the organisation in which users are updated.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16757,10 +16757,10 @@ grafana4.get_org_prefs:
 
 grafana4.get_org_users:
 
-    Get the list of users that belong to the organization.
+    Get the list of users that belong to the organisation.
 
     orgname
-        Name of the organization.
+        Name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16847,10 +16847,10 @@ grafana4.get_users:
 
 grafana4.switch_org:
 
-    Switch the current organization.
+    Switch the current organisation.
 
     name
-        Name of the organization to switch to.
+        Name of the organisation to switch to.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16924,13 +16924,13 @@ grafana4.update_datasource:
 
 grafana4.update_org:
 
-    Update an existing organization.
+    Update an existing organisation.
 
     orgid
-        Id of the organization.
+        Id of the organisation.
 
     name
-        New name of the organization.
+        New name of the organisation.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -16943,10 +16943,10 @@ grafana4.update_org:
 
 grafana4.update_org_address:
 
-    Update the organization address.
+    Update the organisation address.
 
     orgname
-        Name of the organization in which users are updated.
+        Name of the organisation in which users are updated.
 
     address1
         Optional - address1 of the org.
@@ -16977,10 +16977,10 @@ grafana4.update_org_address:
 
 grafana4.update_org_prefs:
 
-    Update the organization preferences.
+    Update the organisation preferences.
 
     orgname
-        Name of the organization in which users are updated.
+        Name of the organisation in which users are updated.
 
     theme
         Selected theme for the org.
@@ -17002,7 +17002,7 @@ grafana4.update_org_prefs:
 
 grafana4.update_org_user:
 
-    Update user role in the organization.
+    Update user role in the organisation.
 
     userid
         Id of the user.
@@ -17011,14 +17011,14 @@ grafana4.update_org_user:
         Login or email of the user.
 
     role
-        Role of the user for this organization. Should be one of:
+        Role of the user for this organisation. Should be one of:
             - Admin
             - Editor
             - Read Only Editor
             - Viewer
 
     orgname
-        Name of the organization in which users are updated.
+        Name of the organisation in which users are updated.
 
     profile
         Configuration profile used to connect to the Grafana instance.
@@ -20669,7 +20669,7 @@ kernelpkg.active:
         salt '*' kernelpkg.active
     
 
-kernelpkg.cleanup:
+kernelpkg.clean-up:
 
     Remove all unused kernel packages from the system.
 
@@ -20680,7 +20680,7 @@ kernelpkg.cleanup:
 
     CLI Example:
 
-        salt '*' kernelpkg.cleanup
+        salt '*' kernelpkg.clean-up
     
 
 kernelpkg.latest_available:
@@ -20953,7 +20953,7 @@ kubeadm.alpha_kubeconfig_user:
        "/etc/kubernetes/pki")
 
     org
-       The organization of the client certificate
+       The organisation of the client certificate
 
     token
        The token that show be used as the authentication mechanism for
@@ -21946,7 +21946,7 @@ mandrill.send:
         documentation.
 
     asynchronous: ``False``
-        Enable a background sending mode that is optimized for bulk sending.
+        Enable a background sending mode that is optimised for bulk sending.
         In asynchronous mode, messages/send will immediately return a status of
         "queued" for every recipient. To handle rejections when sending in asynchronous
         mode, set up a webhook for the 'reject' event. Defaults to false for
@@ -22518,7 +22518,7 @@ minion.restart:
     if the configuration value ``minion_restart_command`` is not set and the
     ``-d`` (daemonize) argument is missing from ``argv`` then the minion
     *will* be killed but will *not* be restarted and will require the parent
-    process to perform the restart.  This behavior is intended for managed
+    process to perform the restart.  This behaviour is intended for managed
     salt minion processes.
 
     CLI Example:
@@ -23084,7 +23084,7 @@ msteams.post_card:
     :param message:     The message to send to the MS Teams channel.
     :param hook_url:    The Teams webhook URL, if not specified in the configuration.
     :param title:       Optional title for the posted card
-    :param theme_color:  Optional hex color highlight for the posted card
+    :param theme_color:  Optional hex colour highlight for the posted card
     :return:            Boolean if message was sent successfully.
 
     CLI Example:
@@ -27021,7 +27021,7 @@ opsgenie.post_data:
 
     action_type
         OpsGenie supports the default values Create/Close for action_type. You
-        can customize this field with OpsGenie's custom actions for other
+        can customise this field with OpsGenie's custom actions for other
         purposes like adding notes or acknowledging alerts.
 
     Optional parameters:
@@ -28326,7 +28326,7 @@ pillar.fetch:
         If specified, this function will query the master to generate fresh
         pillar data on the fly, specifically from the requested pillar
         environment. Note that this can produce different pillar data than
-        executing this function without an environment, as its normal behavior
+        executing this function without an environment, as its normal behaviour
         is just to return a value from minion's pillar data in memory (which
         can be sourced from more than one pillar environment).
 
@@ -28489,7 +28489,7 @@ pillar.get:
         If specified, this function will query the master to generate fresh
         pillar data on the fly, specifically from the requested pillar
         environment. Note that this can produce different pillar data than
-        executing this function without an environment, as its normal behavior
+        executing this function without an environment, as its normal behaviour
         is just to return a value from minion's pillar data in memory (which
         can be sourced from more than one pillar environment).
 
@@ -28540,7 +28540,7 @@ pillar.item:
         If specified, this function will query the master to generate fresh
         pillar data on the fly, specifically from the requested pillar
         environment. Note that this can produce different pillar data than
-        executing this function without an environment, as its normal behavior
+        executing this function without an environment, as its normal behaviour
         is just to return a value from minion's pillar data in memory (which
         can be sourced from more than one pillar environment).
 
@@ -29736,7 +29736,7 @@ pkg.mod_repo:
     refresh : True
         Enable or disable (True or False) refreshing of the apt package
         database. The previous ``refresh_db`` argument was deprecated in
-        favor of ``refresh```. The ``refresh_db`` argument will still
+        favour of ``refresh```. The ``refresh_db`` argument will still
         continue to work to ensure backwards compatibility, but please
         change to using the preferred ``refresh``.
 
@@ -30133,10 +30133,10 @@ pkg_resource.pack_sources:
     ``'[{"foo": "salt://foo.rpm"}, {"bar": "salt://bar.rpm"}]'`` would become
     ``{"foo": "salt://foo.rpm", "bar": "salt://bar.rpm"}``
 
-    normalize : True
-        Normalize the package name by removing the architecture, if the
+    normalise : True
+        Normalise the package name by removing the architecture, if the
         architecture of the package is different from the architecture of the
-        operating system. The ability to disable this behavior is useful for
+        operating system. The ability to disable this behaviour is useful for
         poorly-created packages which include the architecture as an actual
         part of the name, such as kernel modules which match a specific kernel
         version.
@@ -30370,7 +30370,7 @@ ps.boot_time:
         ``time_format='%c'`` to get a nicely-formatted locale specific date and
         time (i.e. ``Fri May  2 19:08:32 2014``).
 
-        .. _strftime: https://docs.python.org/2/library/datetime.html#strftime-strptime-behavior
+        .. _strftime: https://docs.python.org/2/library/datetime.html#strftime-strptime-behaviour
 
         New in version 2014.1.4
 
@@ -31487,7 +31487,7 @@ rest_sample_utils.get_test_string:
 
 restartcheck.restartcheck:
 
-    Analyzes files openeded by running processes and seeks for packages which need to be restarted.
+    Analyses files openeded by running processes and seeks for packages which need to be restarted.
 
     Args:
         ignorelist: string or list of packages to be ignored.
@@ -33934,7 +33934,7 @@ service.enable:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            enabling. This behavior is no longer the default.
+            enabling. This behaviour is no longer the default.
 
     unmask_runtime : False
         Set to ``True`` to remove a runtime mask before attempting to enable
@@ -33942,7 +33942,7 @@ service.enable:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            enabling. This behavior is no longer the default.
+            enabling. This behaviour is no longer the default.
 
     root
         Enable/disable/mask unit files in the specified root directory
@@ -34039,7 +34039,7 @@ service.force_reload:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            force-reloading. This behavior is no longer the default.
+            force-reloading. This behaviour is no longer the default.
 
     unmask_runtime : False
         Set to ``True`` to remove a runtime mask before attempting to
@@ -34047,7 +34047,7 @@ service.force_reload:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            force-reloading. This behavior is no longer the default.
+            force-reloading. This behaviour is no longer the default.
 
     CLI Example:
 
@@ -34234,7 +34234,7 @@ service.reload:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            reloading. This behavior is no longer the default.
+            reloading. This behaviour is no longer the default.
 
     unmask_runtime : False
         Set to ``True`` to remove a runtime mask before attempting to reload
@@ -34242,7 +34242,7 @@ service.reload:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            reloading. This behavior is no longer the default.
+            reloading. This behaviour is no longer the default.
 
     CLI Example:
 
@@ -34275,7 +34275,7 @@ service.restart:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            restarting. This behavior is no longer the default.
+            restarting. This behaviour is no longer the default.
 
     unmask_runtime : False
         Set to ``True`` to remove a runtime mask before attempting to restart
@@ -34283,7 +34283,7 @@ service.restart:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            restarting. This behavior is no longer the default.
+            restarting. This behaviour is no longer the default.
 
     CLI Example:
 
@@ -34330,7 +34330,7 @@ service.start:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            starting. This behavior is no longer the default.
+            starting. This behaviour is no longer the default.
 
     unmask_runtime : False
         Set to ``True`` to remove a runtime mask before attempting to start the
@@ -34338,7 +34338,7 @@ service.start:
 
         New in version 2017.7.0
             In previous releases, Salt would simply unmask a service before
-            starting. This behavior is no longer the default.
+            starting. This behaviour is no longer the default.
 
     CLI Example:
 
@@ -34705,7 +34705,7 @@ slack.call_hook:
 
     :param message:     The topic of message.
     :param attachment:  The message to send to the Slack WebHook.
-    :param color:       The color of border of left side
+    :param colour:       The colour of border of left side
     :param short:       An optional flag indicating whether the value is short
                         enough to be displayed side-by-side with other values.
     :param identifier:  The identifier of WebHook.
@@ -35107,7 +35107,7 @@ slsutil.update:
     Merge ``upd`` recursively into ``dest``
 
     If ``merge_lists=True``, will aggregate list object types instead of
-    replacing. This behavior is only activated when ``recursive_update=True``.
+    replacing. This behaviour is only activated when ``recursive_update=True``.
 
     CLI Example:
 
@@ -35466,7 +35466,7 @@ sqlite3.version:
 
 ssh.auth_keys:
 
-    Return the authorized keys for users
+    Return the authorised keys for users
 
     CLI Example:
 
@@ -35613,7 +35613,7 @@ ssh.recv_known_host_entries:
 
 ssh.rm_auth_key:
 
-    Remove an authorized key from the specified user's authorized key file
+    Remove an authorised key from the specified user's authorised key file
 
     CLI Example:
 
@@ -35622,7 +35622,7 @@ ssh.rm_auth_key:
 
 ssh.rm_auth_key_from_file:
 
-    Remove an authorized key from the specified user's authorized key file,
+    Remove an authorised key from the specified user's authorised key file,
     using a file as source
 
     CLI Example:
@@ -35669,7 +35669,7 @@ ssh.set_known_host:
     If such a record does already exists in there, do nothing.
 
     user
-        The user who owns the ssh authorized keys file to modify
+        The user who owns the ssh authorised keys file to modify
 
     hostname
         The name of the remote host (e.g. "github.com")
@@ -35692,7 +35692,7 @@ ssh.set_known_host:
         ssh-rsa, ssh-dss or any other type as of openssh server version 8.7.
 
     config
-        The location of the authorized keys file relative to the user's home
+        The location of the authorised keys file relative to the user's home
         directory, defaults to ".ssh/known_hosts". If no user is specified,
         defaults to "/etc/ssh/ssh_known_hosts". If present, must be an
         absolute path when a user is not specified.
@@ -35831,8 +35831,8 @@ state.apply:
         # and salt://pkgs.sls (or salt://pkgs/init.sls).
         salt '*' state.apply stuff,pkgs
 
-        # Run the states configured in a more deeply nested directory such as salt://my/organized/stuff.sls (or salt://my/organized/stuff/init.sls)
-        salt '*' state.apply my.organized.stuff
+        # Run the states configured in a more deeply nested directory such as salt://my/organised/stuff.sls (or salt://my/organised/stuff/init.sls)
+        salt '*' state.apply my.organised.stuff
 
     The following additional arguments are also accepted when applying
     individual SLS files:
@@ -39171,7 +39171,7 @@ tls.create_ca:
     L
         locality, default is "Centerville", the city where SaltStack originated
     O
-        organization, default is "SaltStack"
+        organisation, default is "SaltStack"
     OU
         organizational unit, default is None
     emailAddress
@@ -39316,7 +39316,7 @@ tls.create_csr:
     L
         locality, default is "Centerville", the city where SaltStack originated
     O
-        organization, default is "SaltStack"
+        organisation, default is "SaltStack"
         NOTE: Must the same as CA certificate or an error will be raised
     OU
         organizational unit, default is None
@@ -39471,7 +39471,7 @@ tls.create_self_signed_cert:
     L
         locality, default is "Centerville", the city where SaltStack originated
     O
-        organization, default is "SaltStack"
+        organisation, default is "SaltStack"
         NOTE: Must the same as CA certificate or an error will be raised
     OU
         organizational unit, default is None
@@ -40217,7 +40217,7 @@ vault.clear_cache:
     Delete Vault caches. Will ensure the current token and associated leases
     are revoked by default.
 
-    The cache is organized in a hierarchy: ``/vault/connection/session/leases``.
+    The cache is organised in a hierarchy: ``/vault/connection/session/leases``.
     (*italics* mark data that is only cached when receiving configuration from a master)
 
     ``connection`` contains KV metadata (by default), *configuration* and *(AppRole) auth credentials*.

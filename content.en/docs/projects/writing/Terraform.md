@@ -146,7 +146,7 @@
 
 - 12.1 Introduction to Terraform Cost Optimization and Management
 - 12.2 Understanding Cloud Costs and Pricing Models
-- 12.3 Using Terraform to Optimize Resource Utilization
+- 12.3 Using Terraform to Optimise Resource Utilization
 - 12.4 Rightsizing and Reserved Instances with Terraform
 - 12.5 Cost Estimation and Forecasting with Terraform
 - 12.6 Tagging and Cost Allocation with Terraform

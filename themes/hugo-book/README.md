@@ -1,7 +1,7 @@
 # Hugo Book Theme
 
 [![Hugo](https://img.shields.io/badge/hugo-0.146-blue.svg)](https://gohugo.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
 ![Build with Hugo](https://github.com/alex-shpak/hugo-book/workflows/Build%20with%20Hugo/badge.svg)
 
 ### [Hugo](https://gohugo.io) documentation theme as simple as plain book
@@ -128,7 +128,7 @@ enableGitInfo = true
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
 [params]
-  # (Optional, default light) Sets color theme: light, dark or auto.
+  # (Optional, default light) Sets colour theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme = 'light'
 

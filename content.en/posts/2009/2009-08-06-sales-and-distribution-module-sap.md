@@ -32,7 +32,7 @@ tags:
   - Requirement
   - Requirements
   - Sales order
-  - sales organization
+  - sales organisation
   - SAP
   - sap system
   - sed
@@ -69,12 +69,12 @@ disableHLJS: false
       1. Assign plant to Company Code. 14
    5. Location. 14
    6. Division. 15
-   7. Sales Organization. 15
-      1. Assign Sales Organization to Company Code. 16
+   7. Sales Organisation. 15
+      1. Assign Sales Organisation to Company Code. 16
    8. Distribution Channel 16
-      1. Assign Distribution Channel to Sales Organization. 17
+      1. Assign Distribution Channel to Sales Organisation. 17
       3. Set up Sales Area. 18
-      4. Assign sales organization - distribution channel – plant 19
+      4. Assign sales organisation - distribution channel – plant 19
    9. Define Shipping Points. 20
       1. Assign Shipping point to plant 20
       2. Shipping point and goods receiving point determination:
@@ -90,12 +90,12 @@ disableHLJS: false
 #### Definition of Sales & Distribution
 
 For the representation of your company structures in the SAP System, different organizational units are available for the areas of sales, shipping and billing.
-First analyze the structure and process organization in your company and then compare them with the SAP structures.
+First analyse the structure and process organisation in your company and then compare them with the SAP structures.
 In the standard version, different organizational elements are defined as examples. In general, these elements are not sufficient for individual demands. Extend the elements accordingly.
 
 During the clarification phase, work with the structures delivered by SAP. Change the names if necessary in order to achieve a high degree of identification and acceptance with project members and user departments from the beginning. After having defined the organizational units, allocate the elements to each other in the menu option "Allocation". Then check the defined organizational units in the menu option "Check". Only a limited number of users should be given authorization to maintain organizational elements. Determine the authorization profiles accordingly. As soon as the processing of the menu item is completed, access should be blocked so that no further changes can be made.
 
-The organizational units set up the framework of sales processing with the SD system. The master records of sales and distribution (for example, customer master records and pricing elements) as well as the documents used in processing (for example, orders and delivery documents) are entered in dependency with the organizational structures. The data in a master record is only valid within a certain part of the organization. The sales and distribution documents are entered in the respective sub area of the organization. The master data valid there is automatically included in the sales & distribution documents. Different control criteria are specified for the management and processing of the master data depending on the organizational units. In order to simplify master record and document entry, the organizational units can be stored as user parameters in the user master record. It is not necessary to specify the organizational units since the values are proposed automatically.
+The organizational units set up the framework of sales processing with the SD system. The master records of sales and distribution (for example, customer master records and pricing elements) as well as the documents used in processing (for example, orders and delivery documents) are entered in dependency with the organizational structures. The data in a master record is only valid within a certain part of the organisation. The sales and distribution documents are entered in the respective sub area of the organisation. The master data valid there is automatically included in the sales & distribution documents. Different control criteria are specified for the management and processing of the master data depending on the organizational units. In order to simplify master record and document entry, the organizational units can be stored as user parameters in the user master record. It is not necessary to specify the organizational units since the values are proposed automatically.
 
 **
 **
@@ -104,11 +104,11 @@ The organizational units set up the framework of sales processing with the SD sy
 
 ü  This helps us to portray the specific organizational structure of your business in the R/3 System.
 
-ü  To portray your company structure, different Accounting, Logistics, and Human Resources organization units are provided.
+ü  To portray your company structure, different Accounting, Logistics, and Human Resources organisation units are provided.
 
 ü  In the SAP R/3 system, organizational levels are structures that represent the legal or organizational views of a company. Defining organizational levels is an essential step in the project and is vital for all subsequent activities.
 
-ü  First analyze the structures and procedures in your company, and then match them to the SAP structures. As soon as your organization units are ready, access should be locked.
+ü  First analyse the structures and procedures in your company, and then match them to the SAP structures. As soon as your organisation units are ready, access should be locked.
 
 SD is integrated in the R/3 system in the following way:
 
@@ -268,15 +268,15 @@ The following is the Organizational structure from SD perspective:
 
 ü  One company code can have ‘n' number of sales organizations
 
-ü  One sales organization is assigned to exactly one company code
+ü  One sales organisation is assigned to exactly one company code
 
-ü  A sales organization is assigned to one or more plants
+ü  A sales organisation is assigned to one or more plants
 
-ü  Each sales organization has its own master data. Eg. Its own Customer and Material master data as well as condition records.
+ü  Each sales organisation has its own master data. Eg. Its own Customer and Material master data as well as condition records.
 
-ü  A sales organization can have ‘n' number of distribution channels (you can vary master data relevant to sales such as customer master data, sales master data, prices, and surcharges/discounts for each sales organization/distribution channel.
+ü  A sales organisation can have ‘n' number of distribution channels (you can vary master data relevant to sales such as customer master data, sales master data, prices, and surcharges/discounts for each sales organisation/distribution channel.
 
-ü  Sales area is a combination of sales organization, distribution channel, and
+ü  Sales area is a combination of sales organisation, distribution channel, and
 
 ü  division
 
@@ -292,11 +292,11 @@ The following is the Organizational structure from SD perspective:
 
 ü  A sales person is assigned to a sales office and group in the sales employee master record
 
-ü  One sales organization can sell the goods from several plants.
+ü  One sales organisation can sell the goods from several plants.
 
 ü  A plant can be assigned to different sales organizations at any one-time all of which can sell from the plant.
 
-ü  A sales organization can also sell products supplied by a plant which is assigned to a different company code0inter-complany sales processing.
+ü  A sales organisation can also sell products supplied by a plant which is assigned to a different company code0inter-complany sales processing.
 
 ü  A broad product range can be divided into divisions.  In sap-system, you can also define a division-specific sales structure.
 
@@ -316,7 +316,7 @@ Following organizational elements are required for the SD transactions:
 
 ü  Storage Location
 
-ü  Sales Organization
+ü  Sales Organisation
 
 ü  Distribution Channel
 
@@ -332,7 +332,7 @@ The client is a commercial organizational unit within R/3 system, with its own d
 
 2.2        Company
 
-ü  A company is an organizational unit in Accounting which represents a business organization according to the requirements of commercial law in a particular country.
+ü  A company is an organizational unit in Accounting which represents a business organisation according to the requirements of commercial law in a particular country.
 
 ü  You store basic data for each company in company definition
 
@@ -434,7 +434,7 @@ Click New Entries to create a new Fiscal Year Variant or Use the Existing Varian
 
 <ol>
 <li>
-Select Z4 and click period texts under dialog structure
+Select Z4 and click period texts under dialogue structure
 </li>
 </ol>
 
@@ -600,7 +600,7 @@ Define Document Types
 
 Predefine various amount limits for your employees with which you determine:
 
-ü  the maximum document amount the employee is authorized to post
+ü  the maximum document amount the employee is authorised to post
 
 ü  the maximum amount the employee can enter as a line item in a customer or vendor account
 
@@ -803,9 +803,9 @@ Save
 </li>
 </ol>
 
-2.7             Sales Organization
+2.7             Sales Organisation
 
-Sales Organization is an organizational unit in Logistics that structures the company according to its sales requirements.  A sales organization is responsible for selling materials & services and to negotiate terms of sale. Following is the path to define a Sales Organization.
+Sales Organisation is an organizational unit in Logistics that structures the company according to its sales requirements.  A sales organisation is responsible for selling materials & services and to negotiate terms of sale. Following is the path to define a Sales Organisation.
 
 IMG
 
@@ -815,26 +815,26 @@ Definition
 
 Sales and Distribution
 
-Define, Copy, Delete, Check Sales Organization
+Define, Copy, Delete, Check Sales Organisation
 
-Steps to define a Sales Organization:
+Steps to define a Sales Organisation:
 
 <ol>
 <li>
-Click Define Sales Organization
+Click Define Sales Organisation
 </li>
 <li>
 Click New Entries
 </li>
 <li>
-Enter the values for Sales Organization, Name (eg: 9999, Sales Organization 9999)
+Enter the values for Sales Organisation, Name (eg: 9999, Sales Organisation 9999)
 </li>
 <li>
 Save
 </li>
 </ol>
 
-2.7.1      Assign Sales Organization to Company Code
+2.7.1      Assign Sales Organisation to Company Code
 
 IMG
 
@@ -844,9 +844,9 @@ Assignment
 
 Sales and Distribution
 
-Assign Sales Organization to Company Code
+Assign Sales Organisation to Company Code
 
-Steps to assign sales organization to company code
+Steps to assign sales organisation to company code
 
 <ol>
 <li>
@@ -856,7 +856,7 @@ Select company code (eg:9999)
 Click Assign
 </li>
 <li>
-Check Sales Organization
+Check Sales Organisation
 </li>
 <li>
 Save
@@ -896,7 +896,7 @@ Save
 </li>
 </ol>
 
-2.8.1         Assign Distribution Channel to Sales Organization
+2.8.1         Assign Distribution Channel to Sales Organisation
 
 IMG
 
@@ -906,16 +906,16 @@ Assignment
 
 Sales and Distribution
 
-Assign Distribution Channel to Sales Organization
+Assign Distribution Channel to Sales Organisation
 
-Steps to assign distribution channel to sales organization:
+Steps to assign distribution channel to sales organisation:
 
 <ol>
 <li>
-Click Assign distribution channel to sales organization
+Click Assign distribution channel to sales organisation
 </li>
 <li>
-Select Sales organization
+Select Sales organisation
 </li>
 <li>
 Click assign
@@ -954,7 +954,7 @@ Save
 
 ** **
 
-**2.8.2   Assign Division to Sales Organization**
+**2.8.2   Assign Division to Sales Organisation**
 
 IMG
 
@@ -964,13 +964,13 @@ Assignment
 
 Sales and Distribution
 
-Assign division to sales organization
+Assign division to sales organisation
 
-Steps to assign division to sales organization:
+Steps to assign division to sales organisation:
 
 <ol>
 <li>
-Select sales organization (eg:9999)
+Select sales organisation (eg:9999)
 </li>
 <li>
 Click assign
@@ -985,7 +985,7 @@ Save
 
 2.8.3      Set up Sales Area
 
-Sales Area is a combination of sales organization, distribution channel, and division.
+Sales Area is a combination of sales organisation, distribution channel, and division.
 
 Following is the path to set up sales area
 
@@ -1003,7 +1003,7 @@ Steps to set up sales area:
 
 <ol>
 <li>
-  Select Sales Organization
+  Select Sales Organisation
 </li>
 <li>
   Click Assign
@@ -1023,7 +1023,7 @@ Steps to set up sales area:
 </ol>
 
 <h3>
-2.8.4      Assign sales organization - distribution channel – plant
+2.8.4      Assign sales organisation - distribution channel – plant
 </h3>
 
 IMG
@@ -1034,13 +1034,13 @@ Assignment
 
 Sales and Distribution
 
-Assign sales organization - distribution channel – plant
+Assign sales organisation - distribution channel – plant
 
-Steps to assign sales organization-distribution channel-plant:
+Steps to assign sales organisation-distribution channel-plant:
 
 <ol>
 <li>
-  Select Sales Organization
+  Select Sales Organisation
 </li>
 <li>
   Click Assign
@@ -1378,11 +1378,11 @@ Steps to create number ranges for customer accounts:
 
 <
 
-p align="center">
+p align="centre">
 
 <
 
-p align="center">
+p align="centre">
 
 <ol>
 <li>

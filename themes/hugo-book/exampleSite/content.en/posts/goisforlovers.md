@@ -311,7 +311,7 @@ January 1st, instead of hunting through your templates.
 
 ```
 {{if .Site.Params.CopyrightHTML}}<footer>
-<div class="text-center">{{.Site.Params.CopyrightHTML | safeHtml}}</div>
+<div class="text-centre">{{.Site.Params.CopyrightHTML | safeHtml}}</div>
 </footer>{{end}}
 ```
 

@@ -22,14 +22,14 @@ Software development is a complex and collaborative process that requires effect
 
 ## The Importance of Team Productivity
 
-According to Boehm, the COCOMO cost estimation model shows that the capability of the team has the greatest impact on software production. This means that the quality and efficiency of the software product depend largely on how well the team works together. Davis agrees with this conclusion and states that “optimizing the productivity of all individuals does not necessarily result in optimizing the productivity of the team”. In other words, having a team of highly skilled and productive individuals does not guarantee a successful software project. There are other factors that affect team productivity, such as communication, coordination, collaboration, motivation, and trust.
+According to Boehm, the COCOMO cost estimation model shows that the capability of the team has the greatest impact on software production. This means that the quality and efficiency of the software product depend largely on how well the team works together. Davis agrees with this conclusion and states that “optimising the productivity of all individuals does not necessarily result in optimising the productivity of the team”. In other words, having a team of highly skilled and productive individuals does not guarantee a successful software project. There are other factors that affect team productivity, such as communication, coordination, collaboration, motivation, and trust.
 
 ## The Challenges of Software Teamwork
 
 Software teamwork is not easy. It involves many challenges and difficulties that can hinder team productivity. Some of these challenges are:
 
 - Communication: Software teams need to communicate effectively with each other and with other stakeholders, such as customers, managers, and users. They need to share information, ideas, feedback, and opinions in a clear and timely manner. They also need to avoid misunderstandings, conflicts, and ambiguities that can cause confusion and delays.
-- Coordination: Software teams need to coordinate their tasks, roles, responsibilities, and schedules. They need to plan, organize, monitor, and control their work processes. They also need to synchronize their efforts and align their goals and expectations.
+- Coordination: Software teams need to coordinate their tasks, roles, responsibilities, and schedules. They need to plan, organise, monitor, and control their work processes. They also need to synchronize their efforts and align their goals and expectations.
 - Collaboration: Software teams need to collaborate with each other and with other teams. They need to cooperate, support, help, and learn from each other. They also need to integrate their work products and ensure consistency and compatibility.
 - Motivation: Software teams need to be motivated to work hard and perform well. They need to have a sense of purpose, ownership, and achievement. They also need to have incentives, rewards, recognition, and feedback.
 - Trust: Software teams need to trust each other and their leaders. They need to have confidence, respect, and honesty. They also need to have a positive and supportive team culture.
@@ -53,7 +53,7 @@ issues or concerns. You can also use feedback or review sessions to share your o
 - Coordination: Use clear coordination mechanisms that define your team's tasks,
 roles responsibilities or schedules. For example you can use task lists,
 Gantt charts, Kanban boards or Scrum boards to assign or track your
-work items or deadlines. You can also use agile methodologies such as Scrum or Kanban to organize your work processes or cycles.
+work items or deadlines. You can also use agile methodologies such as Scrum or Kanban to organise your work processes or cycles.
 - Collaboration: Use collaborative tools or techniques that facilitate your team's cooperation or integration. For example you can use version control systems, code review tools, testing tools or debugging tools to manage or improve your code quality or consistency. You can also use pair programming, mob programming or code katas to learn or practice your coding skills together.
 - Motivation: Use motivational strategies or practices that inspire or reward your team's efforts or achievements. For example you can use gamification, badges, leaderboards or points to make your work fun or competitive. You can also use praise, recognition, feedback or bonuses to acknowledge or appreciate your team's work or performance.
 - Trust: Use trust-building activities or exercises that strengthen your team's confidence, respect or honesty. For example you can use icebreakers, team building games, personality tests or trust falls to get to know each other better or bond with each other. You can also use transparency, accountability, delegation or empowerment to show your trust or support for each other.

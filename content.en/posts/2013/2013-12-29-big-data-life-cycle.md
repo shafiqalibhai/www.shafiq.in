@@ -13,7 +13,7 @@ In this post, we'll break down the big data life cycle into its essential compon
 
 ### The Eight Key Challenges
 
-1. **Capture**: This is where it all starts. You can't analyze what you don't have, so capturing relevant data from diverse sources is the initial step. The challenge here lies in determining what data is useful and then finding effective ways to collect it.
+1. **Capture**: This is where it all starts. You can't analyse what you don't have, so capturing relevant data from diverse sources is the initial step. The challenge here lies in determining what data is useful and then finding effective ways to collect it.
 
 2. **Curation**: Once the data is captured, it's time to clean and prepare it. This involves removing any inconsistencies, errors, or redundancies, making the dataset ready for analysis.
 
@@ -29,4 +29,4 @@ In this post, we'll break down the big data life cycle into its essential compon
 
 8. **Visualization**: Lastly, the information derived from analysis needs to be presented in a digestible manner. Good data visualization techniques help stakeholders understand the story your data is telling.
 
-Navigating the big data life cycle is not for the faint of heart, but understanding these challenges can make the journey considerably smoother. By being prepared and knowing what to expect, you can better equip your organization to make the most out of your big data endeavors.
+Navigating the big data life cycle is not for the faint of heart, but understanding these challenges can make the journey considerably smoother. By being prepared and knowing what to expect, you can better equip your organisation to make the most out of your big data endeavors.

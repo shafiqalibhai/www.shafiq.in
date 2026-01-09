@@ -1,5 +1,5 @@
 ---
-title: Some of my favorite cell phones
+title: Some of my favourite cell phones
 author: Shafiq Alibhai
 date: 2012-01-23T09:06:52+00:00
 categories:
@@ -61,7 +61,7 @@ The XPERIA Pureness caught eyes with its transparent display, making it a marvel
 
 ### Nokia 7900 Prism
 
-Known for its distinctive geometric patterns and customizable LED lights, the Nokia 7900 Prism stood out for its one-of-a-kind aesthetic.
+Known for its distinctive geometric patterns and customisable LED lights, the Nokia 7900 Prism stood out for its one-of-a-kind aesthetic.
 
 ### Samsung Serenata
 

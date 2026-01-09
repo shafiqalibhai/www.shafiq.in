@@ -50,4 +50,4 @@ You might be wondering why you'd want to hide a column but not remove it from th
 
 3. **Consistency**: Keeping the column in the DOM ensures that the table structure remains consistent, even when columns are toggled on or off.
 
-4. **User Preferences**: You might want to allow users to customize which columns they can see, without affecting the data integrity or table structure.
+4. **User Preferences**: You might want to allow users to customise which columns they can see, without affecting the data integrity or table structure.

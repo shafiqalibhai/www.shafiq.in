@@ -12,7 +12,7 @@ disableHLJS: false
 
 ## Key Features
 
-- **Optimized for Mobile Browsers:** Out-of-the-box settings designed for smooth mobile browser functionality.
+- **Optimised for Mobile Browsers:** Out-of-the-box settings designed for smooth mobile browser functionality.
   
 - **CSS Fixes and Normalizations:** Say goodbye to common CSS bugs and inconsistencies across different mobile browsers.
   

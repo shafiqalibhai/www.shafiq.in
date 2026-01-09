@@ -18,4 +18,4 @@ tags:
 
 disableHLJS: false
 ---
-To optimize your URL keywords, always use a hyphen (-) between words in your weblinks. Google recognizes hyphens as spaces, but not underscores. Slashes (/) are also treated as spaces, but they are not recommended for URLs. However, you can use slashes to separate keywords in your texts.
+To optimise your URL keywords, always use a hyphen (-) between words in your weblinks. Google recognizes hyphens as spaces, but not underscores. Slashes (/) are also treated as spaces, but they are not recommended for URLs. However, you can use slashes to separate keywords in your texts.

@@ -190,7 +190,7 @@ Notes on:
   - Visit a national park.
   - Go on a cruise.
   - Attend a music festival or cultural event.
-  - Try exotic foods while traveling.
+  - Try exotic foods while travelling.
   - Go on a safari.
   - Take a hot air balloon ride.
   - Attend a sporting event in a different city.

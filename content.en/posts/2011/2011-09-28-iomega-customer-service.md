@@ -16,9 +16,9 @@ tags:
 disableHLJS: false
 ---
 
-A few months ago, I invested in a Prestige portable hard drive from IT dot COM, a retailer based in Margao, Goa, India. However, my satisfaction was short-lived; the drive began malfunctioning out of the blue. The drive's indicator light would blink endlessly, and it failed to get recognized on multiple systems I tried it on.
+A few months ago, I invested in a Prestige portable hard drive from IT dot COM, a retailer based in Margao, Goa, India. However, my satisfaction was short-lived; the drive began malfunctioning out of the blue. The drive's indicator light would blink endlessly, and it failed to get recognised on multiple systems I tried it on.
 
-I happened to be in Hyderabad when I first encountered this issue. To my astonishment, there wasn't a single authorized service center in the entire twin cities of Hyderabad and Secunderabad. So, I waited until I returned to Goa and handed the problematic drive back to the retailer.
+I happened to be in Hyderabad when I first encountered this issue. To my astonishment, there wasn't a single authorised service centre in the entire twin cities of Hyderabad and Secunderabad. So, I waited until I returned to Goa and handed the problematic drive back to the retailer.
 
 After two weeks of radio silence from the store, I took it upon myself to follow up. Their response left me gobsmacked: they claimed the hard drive had "physical damage." They specifically noted the presence of Feviquick (an adhesive) and suggested that the hard drive had been tampered with, thereby voiding the warranty.
 

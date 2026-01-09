@@ -59,4 +59,3 @@ H (Hardened System) = Vos (Virtual OS Hardening) + B (Base Hardening) + C (Custo
 \]
 
 The addition of Virtual OS Hardening reflects the need to secure the virtual machine itself, alongside the base and custom hardening procedures.
-

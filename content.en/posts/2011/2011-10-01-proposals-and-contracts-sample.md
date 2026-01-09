@@ -14,7 +14,7 @@ disableHLJS: false
 
 **Version 1.0**
 
-| **S.No** | **Description** | **Version No** | **Requested By** | **Authorized By** |
+| **S.No** | **Description** | **Version No** | **Requested By** | **Authorised By** |
 | -------- | --------------- | -------------- | ---------------- | ----------------- |
 | 1.       | Initial         | 1.0            | NA               |                   |
 
@@ -53,15 +53,15 @@ disableHLJS: false
      - Preparation of project proposal, estimation and forward to the VP for review and approval
      - Coordinate between client and VP during proposal preparation
      - Initial project resource allocation
-     - Analyzing of Client requirements to a granular level before the start of a project.
-     - Collecting and Analyzing End-User Requirements for the project.
+     - Analysing of Client requirements to a granular level before the start of a project.
+     - Collecting and Analysing End-User Requirements for the project.
      - Handling Change Request from the clients during project execution.
      - Tracking of Project Profitability and submitting to the Management.
 
    - The VP prepares the contract based on inputs provided by the PM/PL and the BD Team
    - The Project Manager is responsible for appointing a [Project team] to be assigned for each customer project which is being executed.
    - During the contract period, VP/PM is responsible for collecting feedback from customer at regular intervals.
-   - Project core team should analyze the customer feedback and should report it to the concerned Lead or Project manager.
+   - Project core team should analyse the customer feedback and should report it to the concerned Lead or Project manager.
 
 6. **Inputs**
 
@@ -86,7 +86,7 @@ disableHLJS: false
      - Brief description of the current situation and business needs
      - Client's Acceptance Criteria for the project
      - List of known gaps, if any, major deviations, as compared to existing templates
-     - Price of development tool / software license used (runtime or development version as needed)
+     - Price of development tool / software licence used (runtime or development version as needed)
      - Price of hardware, operating system and other software if intended to be supplied by  the company
      - Free or charged training and price thereof
      - Free or charged implementation support, if required
@@ -104,7 +104,7 @@ disableHLJS: false
      - The extent of the study will depend upon the technologies and the risks involved (financial, technical human resource as well as time schedule).
      - It is necessary to carry out the feasibility cum business study before accepting the order, estimation methodology, in cases where the company does not have application templates.
      - The feasibility cum business study report should highlight
-       - Feasibility of executing the project/activity in the organization.
+       - Feasibility of executing the project/activity in the organisation.
        - Risk involved in the proposed project
        - New functionality's (those which are not available in the existing templates)
        - A hardware and/or software platform where experience within the company is judged to be inadequate and additional training is required.

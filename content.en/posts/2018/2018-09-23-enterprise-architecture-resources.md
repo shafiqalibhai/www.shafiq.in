@@ -43,7 +43,7 @@ Navigating the world of enterprise architecture can be a daunting task, especial
 
 **Cutter Consortium**
 
-- Specialized research centers offer various insights; note that most of the content is client-restricted.
+- Specialized research centres offer various insights; note that most of the content is client-restricted.
 - [Cutter Consortium](http://www.cutter.com/)
 
 ### Comprehensive Architecture

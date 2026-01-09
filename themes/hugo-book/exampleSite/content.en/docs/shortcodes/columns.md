@@ -1,6 +1,6 @@
 # Columns
 
-Columns help organize shorter pieces of content horizontally for readability. `columns` shortcode styles markdown list as up to 3 columns.
+Columns help organise shorter pieces of content horizontally for readability. `columns` shortcode styles markdown list as up to 3 columns.
 
 ## Example
 

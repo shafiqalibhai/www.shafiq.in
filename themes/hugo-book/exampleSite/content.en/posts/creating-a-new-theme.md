@@ -15,7 +15,7 @@ disableHLJS: false
 
 ## Introduction
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
+This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organise your templates to create a theme. I won't cover using CSS to style your theme.
 
 We'll start with creating a new site with a very basic template. Then we'll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.
 
@@ -56,13 +56,13 @@ There are a few concepts that you need to understand before creating a theme.
 
 ### Skins
 
-Skins are the files responsible for the look and feel of your site. It’s the CSS that controls colors and fonts, it’s the Javascript that determines actions and reactions. It’s also the rules that Hugo uses to transform your content into the HTML that the site will serve to visitors.
+Skins are the files responsible for the look and feel of your site. It’s the CSS that controls colours and fonts, it’s the Javascript that determines actions and reactions. It’s also the rules that Hugo uses to transform your content into the HTML that the site will serve to visitors.
 
-You have two ways to create a skin. The simplest way is to create it in the ```layouts/``` directory. If you do, then you don’t have to worry about configuring Hugo to recognize it. The first place that Hugo will look for rules and files is in the ```layouts/``` directory so it will always find the skin.
+You have two ways to create a skin. The simplest way is to create it in the ```layouts/``` directory. If you do, then you don’t have to worry about configuring Hugo to recognise it. The first place that Hugo will look for rules and files is in the ```layouts/``` directory so it will always find the skin.
 
 Your second choice is to create it in a sub-directory of the ```themes/``` directory. If you do, then you must always tell Hugo where to search for the skin. It’s extra work, though, so why bother with it?
 
-The difference between creating a skin in ```layouts/``` and creating it in ```themes/``` is very subtle. A skin in ```layouts/``` can’t be customized without updating the templates and static files that it is built from. A skin created in ```themes/```, on the other hand, can be and that makes it easier for other people to use it.
+The difference between creating a skin in ```layouts/``` and creating it in ```themes/``` is very subtle. A skin in ```layouts/``` can’t be customised without updating the templates and static files that it is built from. A skin created in ```themes/```, on the other hand, can be and that makes it easier for other people to use it.
 
 The rest of this tutorial will call a skin created in the ```themes/``` directory a theme.
 
@@ -114,7 +114,7 @@ The homepage template is a special type of list template. Hugo assumes that the 
 
 #### Partial Template
 
-A partial template is a template that can be included in other templates. Partial templates must be called using the “partial” template command. They are very handy for rolling up common behavior. For example, your site may have a banner that all pages use. Instead of copying the text of the banner into every single and list template, you could create a partial with the banner in it. That way if you decide to change the banner, you only have to change the partial template.
+A partial template is a template that can be included in other templates. Partial templates must be called using the “partial” template command. They are very handy for rolling up common behaviour. For example, your site may have a banner that all pages use. Instead of copying the text of the banner into every single and list template, you could create a partial with the banner in it. That way if you decide to change the banner, you only have to change the partial template.
 
 ## Create a New Site
 
@@ -273,15 +273,15 @@ $ find themes -type f | xargs ls -l
 $ 
 ```
 
-The skeleton includes templates (the files ending in .html), license file, a description of your theme (the theme.toml file), and an empty archetype.
+The skeleton includes templates (the files ending in .html), licence file, a description of your theme (the theme.toml file), and an empty archetype.
 
-Please take a minute to fill out the theme.toml and LICENSE.md files. They're optional, but if you're going to be distributing your theme, it tells the world who to praise (or blame). It's also nice to declare the license so that people will know how they can use the theme.
+Please take a minute to fill out the theme.toml and LICENSE.md files. They're optional, but if you're going to be distributing your theme, it tells the world who to praise (or blame). It's also nice to declare the licence so that people will know how they can use the theme.
 
 ```
 $ vi themes/zafta/theme.toml
 author = "michael d henderson"
 description = "a minimal working template"
-license = "MIT"
+licence = "MIT"
 name = "zafta"
 source_repo = ""
 tags = ["tags", "categories"]

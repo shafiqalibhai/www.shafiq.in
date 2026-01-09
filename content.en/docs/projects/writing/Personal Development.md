@@ -118,7 +118,7 @@ Notes on:
 - Practice self-reflection.
 - Start a YouTube channel.
 - Learn basic cooking skills.
-- Declutter and organize your living space.
+- Declutter and organise your living space.
 - Practice positive affirmations.
 - Develop networking skills.
 - Set boundaries in personal and professional relationships.
@@ -137,7 +137,7 @@ Notes on:
 - Technology and Productivity:
 
   - Limit screen time.
-  - Organize digital files and folders.
+  - Organise digital files and folders.
   - Implement a digital detox.
   - Learn keyboard shortcuts for productivity software.
   - Set up automatic bill payments.
@@ -149,7 +149,7 @@ Notes on:
 
 - Education and Learning:
 
-  - Enroll in a degree program.
+  - Enrol in a degree program.
   - Attend workshops or seminars.
   - Earn a professional certification.
   - Learn coding or programming languages.
