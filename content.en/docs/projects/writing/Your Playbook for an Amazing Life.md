@@ -72,7 +72,7 @@ rectangle "Well-being" {
 
   note bottom of Humanistic : Focuses on Self-Actualization
   note bottom of CognitiveBehavioral : Emphasizes Cognitive Processes
-  note bottom of Positive : Centers on Positive Emotions
+  note bottom of Positive : Centres on Positive Emotions
   note bottom of Psychoanalytic : Delves into the Unconscious
   note bottom of Biological : Considers Genetic and Neurological Factors
   note bottom of SocioCultural : Examines Social and Cultural Contexts
@@ -4010,7 +4010,7 @@ if (Is it a Legitimate Emergency?) then (Yes)
   end note
   : **Replenish and Optimise the Fund**;
   note right
-    Replenish quickly and consider optimization
+    Replenish quickly and consider optimisation
   end note
 else (No)
   : **Do Not Tap into the Fund**;
@@ -7210,7 +7210,7 @@ Two decades later, you'll find numerous engineers, doctors, teachers, and entrep
 
 Switching continents, we land in Thailand, where Emma, an Australian tourist, experienced the inexplicable joy of giving back. Emma, an elementary school teacher was on a six-month sabbatical, exploring the serene landscapes and breathtaking beauty of Thailand. During her travels, she found herself in a remote village where kids lacked access to basic education. The sight stirred Emma's heart and the edifying teacher within her.
 
-Emma decided to stay longer. She started a small class under a tree, teaching the kids English and Maths. Word traveled far, and soon, children from neighboring villages started joining her class. Emma extended her sabbatical indefinitely.
+Emma decided to stay longer. She started a small class under a tree, teaching the kids English and Maths. Word traveled far, and soon, children from neighbouring villages started joining her class. Emma extended her sabbatical indefinitely.
 
 Fast forward five years, Emma's makeshift class grew into a full-fledged school, teaching students not merely academic education but empowering them with life skills. Many of these students became the first-ever literates in their families, opening new doors of hope and possibilities for their future.
 
@@ -7422,7 +7422,7 @@ Even when she dealt with complicated cases, the awareness that she was contribut
 
 Dr. Pamela found that over time, her work's emotional benefits also translated into a more profound sense of her purpose in life, increased self-esteem, and a resilient approach to her challenges. This anecdotal relationship between her altruistic actions and her emotional wellbeing aligns with the findings in contemporary psychological literature discussed earlier.
 
-This does not suggest that one needs a profession explicitly centered on assisting others to reap emotional benefits. Every day provides opportunities for us to enact change in the lives of people around us.
+This does not suggest that one needs a profession explicitly centred on assisting others to reap emotional benefits. Every day provides opportunities for us to enact change in the lives of people around us.
 
 ## The Science Behind the Benefits
 

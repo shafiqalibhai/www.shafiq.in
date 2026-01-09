@@ -49,7 +49,7 @@ disableHLJS: false
 
 **Test Automation in ERP Applications**
 
-**Optimization and Enhancement**
+**Optimisation and Enhancement**
 
 Shafiq Alibhai
 
@@ -61,7 +61,7 @@ Bachelor of Technology in Computer Science and Engineering
 
 **Test Automation in ERP Applications**
 
-**Optimization and Enhancement**
+**Optimisation and Enhancement**
 
 **Abstract**
 

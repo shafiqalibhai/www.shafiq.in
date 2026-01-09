@@ -47,7 +47,7 @@
 4.6. Using SaltStack API for Automation
 4.7. SaltStack API Security Considerations
 4.8. Troubleshooting SaltStack API Issues
-4.9. SaltStack API Performance Optimization
+4.9. SaltStack API Performance Optimisation
 4.10. Advanced SaltStack API Topics
 
 **Chapter 5: SaltStack Formula and States**
@@ -59,7 +59,7 @@
 5.5. Writing SaltStack States
 5.6. Advanced SaltStack States Topics
 5.7. Troubleshooting SaltStack States Issues
-5.8. SaltStack States Performance Optimization
+5.8. SaltStack States Performance Optimisation
 5.9. Using SaltStack Formula with States
 5.10. Advanced SaltStack Formula and States Topics
 
@@ -73,7 +73,7 @@
 6.6. Advanced SaltStack Grains Topics
 6.7. Using SaltStack Pillars with Grains
 6.8. Troubleshooting SaltStack Pillars and Grains Issues
-6.9. SaltStack Pillars and Grains Performance Optimization
+6.9. SaltStack Pillars and Grains Performance Optimisation
 6.10. Advanced SaltStack Pillars and Grains Topics
 
 **Chapter 7: SaltStack Modules and Templates**
@@ -86,7 +86,7 @@
 7.6. Advanced SaltStack Templates Topics
 7.7. Using SaltStack Modules with Templates
 7.8. Troubleshooting SaltStack Modules and Templates Issues
-7.9. SaltStack Modules and Templates Performance Optimization
+7.9. SaltStack Modules and Templates Performance Optimisation
 7.10. Advanced SaltStack Modules and Templates Topics
 
 **Chapter 8: SaltStack Security and Authentication**
@@ -99,7 +99,7 @@
 8.6. Configuring SaltStack Encryption
 8.7. Advanced SaltStack Security Topics
 8.8. Troubleshooting SaltStack Security Issues
-8.9. SaltStack Security Performance Optimization
+8.9. SaltStack Security Performance Optimisation
 8.10. Advanced SaltStack Security Topics
 
 **Chapter 9: SaltStack Scalability and Performance**
@@ -108,7 +108,7 @@
 9.2. SaltStack Scalability Options
 9.3. Configuring SaltStack Scalability
 9.4. Best Practices for SaltStack Scalability
-9.5. SaltStack Performance Optimization
+9.5. SaltStack Performance Optimisation
 9.6. Advanced SaltStack Performance Topics
 9.7. Troubleshooting SaltStack Performance Issues
 9.8. SaltStack Performance Monitoring
@@ -125,7 +125,7 @@
 10.6. Configuring SaltStack Debugging
 10.7. Best Practices for SaltStack Debugging
 10.8. Troubleshooting SaltStack Debugging Issues
-10.9. SaltStack Debugging Performance Optimization
+10.9. SaltStack Debugging Performance Optimisation
 10.10. Advanced SaltStack Debugging Topics
 
 **Chapter 11: SaltStack Integration with Other Tools**
@@ -177,7 +177,7 @@
 15.6. Configuring SaltStack Firewall
 15.7. Advanced SaltStack Firewall Topics
 15.8. Troubleshooting SaltStack Network and Firewall Issues
-15.9. SaltStack Network and Firewall Performance Optimization
+15.9. SaltStack Network and Firewall Performance Optimisation
 15.10. Advanced SaltStack Network and Firewall Topics
 
 **Chapter 16: SaltStack Monitoring and Logging**
@@ -190,7 +190,7 @@
 16.6. Configuring SaltStack Logging
 16.7. Advanced SaltStack Logging Topics
 16.8. Troubleshooting SaltStack Monitoring and Logging Issues
-16.9. SaltStack Monitoring and Logging Performance Optimization
+16.9. SaltStack Monitoring and Logging Performance Optimisation
 16.10. Advanced SaltStack Monitoring and Logging Topics
 
 **Chapter 17: SaltStack Backup and Recovery**
@@ -203,7 +203,7 @@
 17.6. Configuring SaltStack Recovery
 17.7. Advanced SaltStack Recovery Topics
 17.8. Troubleshooting SaltStack Backup and Recovery Issues
-17.9. SaltStack Backup and Recovery Performance Optimization
+17.9. SaltStack Backup and Recovery Performance Optimisation
 17.10. Advanced SaltStack Backup and Recovery Topics
 
 **Chapter 18: SaltStack High Availability**
@@ -216,7 +216,7 @@
 18.6. Configuring SaltStack Load Balancing
 18.7. Advanced SaltStack Load Balancing Topics
 18.8. Troubleshooting SaltStack High Availability Issues
-18.9. SaltStack High Availability Performance Optimization
+18.9. SaltStack High Availability Performance Optimisation
 18.10. Advanced SaltStack High Availability Topics
 
 **Chapter 19: SaltStack Best Practices and Security**
@@ -228,7 +228,7 @@
 19.5. Salt Management Best Practices
 19.6. SaltStack Monitoring Best Practices
 19.7. SaltStack Troubleshooting Best Practices
-19.8. SaltStack Performance Optimization Best Practices
+19.8. SaltStack Performance Optimisation Best Practices
 19.9. SaltStack Security and Compliance
 19.10. Advanced SaltStack Best Practices and Security Topics
 
@@ -34822,7 +34822,7 @@ slsutil.banner:
     :param blockend: The character sequence to use at the end of a
         block comment. Should be used in conjunction with ``blockstart``
     :param title: The first field of the comment block. This field appears
-        centered at the top of the box.
+        centred at the top of the box.
     :param text: The second filed of the comment block. This field appears
         left-justified at the bottom of the box.
     :param newline: Boolean value to indicate whether the comment block should
@@ -35878,7 +35878,7 @@ state.apply:
 
             This flag is potentially dangerous. It is designed for use when
             multiple state runs can safely be run at the same time. Do *not*
-            use this flag for performance optimization.
+            use this flag for performance optimisation.
 
     saltenv
         Specify a salt fileserver environment to be used when applying states
@@ -36127,7 +36127,7 @@ state.highstate:
 
             This flag is potentially dangerous. It is designed for use when
             multiple state runs can safely be run at the same time. Do *not*
-            use this flag for performance optimization.
+            use this flag for performance optimisation.
 
     localconfig
         Optionally, instead of using the minion config, load minion opts from
@@ -36489,7 +36489,7 @@ state.sls:
 
             This flag is potentially dangerous. It is designed for use when
             multiple state runs can safely be run at the same time. Do *not*
-            use this flag for performance optimization.
+            use this flag for performance optimisation.
 
     saltenv
         Specify a salt fileserver environment to be used when applying states

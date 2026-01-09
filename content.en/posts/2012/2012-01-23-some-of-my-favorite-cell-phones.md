@@ -6,7 +6,7 @@ categories:
   - Uncategorized
 tags:
   - Mobile Phones
-  - Favorites
+  - Favourites
 
 disableHLJS: false
 ---

@@ -142,16 +142,16 @@
 - 11.9 DevOps Security and Governance with Terraform
 - 11.10 Using Terraform with Agile and Scrum Methodologies
 
-**Chapter 12: Terraform Cost Optimization and Management**
+**Chapter 12: Terraform Cost Optimisation and Management**
 
-- 12.1 Introduction to Terraform Cost Optimization and Management
+- 12.1 Introduction to Terraform Cost Optimisation and Management
 - 12.2 Understanding Cloud Costs and Pricing Models
 - 12.3 Using Terraform to Optimise Resource Utilization
 - 12.4 Rightsizing and Reserved Instances with Terraform
 - 12.5 Cost Estimation and Forecasting with Terraform
 - 12.6 Tagging and Cost Allocation with Terraform
 - 12.7 Common Cost-Related Issues and Solutions
-- 12.8 Advanced Cost Optimization Techniques
+- 12.8 Advanced Cost Optimisation Techniques
 - 12.9 Cost Governance and Policy Management with Terraform
 - 12.10 Using Terraform to Reduce Cloud Waste
 

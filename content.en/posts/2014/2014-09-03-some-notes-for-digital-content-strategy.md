@@ -29,7 +29,7 @@ Personalization is key. Tailor the user's experience based on location, time, an
 
 Adding a Facebook login feature can be an effective way to capture user information for more personalized interactions.
 
-### Platform Optimization
+### Platform Optimisation
 
 Your first priority should be to format your content in a way that makes it accessible on any device. The real challenge lies in establishing a multi-channel editorial workflow, especially if the content varies across platforms.
 

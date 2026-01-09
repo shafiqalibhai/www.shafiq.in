@@ -20,7 +20,7 @@ disableHLJS: false
   
 - **Multi-Platform Home Page Icons:** Tailored home icons for Android, iOS, and Nokia devices.
 
-- **Cross-Browser Viewport Optimization:** Enhanced viewport interaction for Android, iOS, Mobile IE, Nokia, and Blackberry.
+- **Cross-Browser Viewport Optimisation:** Enhanced viewport interaction for Android, iOS, Mobile IE, Nokia, and Blackberry.
 
 - **Mobile IE Enhancements:** Includes conditional switches and improved font rendering specifically for Mobile IE.
 
