@@ -6,6 +6,7 @@ date: 2011-06-14T22:13:37+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 
 Hello everyone! Today I want to share with you the first project I ever did: the college website! This was a very old project that I did with the help of Subhash Dasyam. It was a great learning experience for me and I'm excited to tell you more about it.

@@ -5,6 +5,7 @@ date: 2014-12-06T14:25:02+00:00
 categories:
   - Uncategorized
 
+disableHLJS: false
 ---
 I am reminded of the writings of an Anglican bishop:
 

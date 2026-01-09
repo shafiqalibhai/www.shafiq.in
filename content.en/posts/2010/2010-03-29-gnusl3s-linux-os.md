@@ -16,6 +16,7 @@ tags:
   - sed
   - Tools
 
+disableHLJS: false
 ---
 - **Description**: GNUSL3S LINUX OS is a versatile and comprehensive distribution that comes with a rich selection of pre-installed software for various purposes. Whether you are a molecular biologist, an IT security professional, a system administrator, or a home server user, you will find the tools and applications you need in this distribution. You can boot from the DVD and enjoy a user-friendly graphical interface, useful recovery tools, and current libraries. You can also access bioinformatics applications like EMBOSS and Primer3, security tools for penetration testing and vulnerability analysis, and unofficial network drivers that support many wired and wireless cards. If you want to develop or compile your own software, you will also find a full range of development tools and editors. GNUSL3S LINUX OS is designed to meet your needs and preferences with ease and flexibility.
 

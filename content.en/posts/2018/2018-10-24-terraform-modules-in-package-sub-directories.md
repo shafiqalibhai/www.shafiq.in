@@ -4,6 +4,7 @@ author: Shafiq Alibhai
 date: 2018-10-24T13:16:15+00:00
 categories:
   - Development
+disableHLJS: false
 ---
 
 In the realm of Infrastructure as Code, Terraform modules can play a significant role in making your life easier. Sometimes, however, these modules don't live at the root directory of their source package. Instead, they reside in sub-directories. Thankfully, Terraform has a smart way to help you access these nested modules.

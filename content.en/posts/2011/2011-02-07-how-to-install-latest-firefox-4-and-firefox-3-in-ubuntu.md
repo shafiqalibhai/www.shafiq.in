@@ -13,6 +13,7 @@ tags:
   - Ubuntu
   - Linux
 
+disableHLJS: false
 ---
 
 ### Step 1: Add the Mozilla Daily PPA Repository

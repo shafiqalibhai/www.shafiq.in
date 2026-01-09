@@ -11,6 +11,7 @@ tags:
   - Puppet
   - URL
 
+disableHLJS: false
 ---
 
 ## How to Solve the Puppet Error: Could not find class in namespace

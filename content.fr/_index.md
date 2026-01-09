@@ -2,6 +2,7 @@
 title: Blog
 type: docs
 bookToc: false
+disableHLJS: false
 ---
 
 ## Bonjour

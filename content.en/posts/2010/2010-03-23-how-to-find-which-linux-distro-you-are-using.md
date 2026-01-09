@@ -10,6 +10,7 @@ categories:
   - Development
 tags:
 
+disableHLJS: false
 ---
 If you are using a Linux-based operating system and you want to know which specific distribution and version you have installed, there is a simple command that can help you with that. Just open a terminal window and type the following:
 

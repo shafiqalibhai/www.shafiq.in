@@ -6,5 +6,6 @@ categories:
   - Architecture
 format: quote
 
+disableHLJS: false
 ---
 Enterprise architecture is the practice that tries to describe and control an organisation's structure, processes, applications, systems, and technology in an integrated way.

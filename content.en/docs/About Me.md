@@ -8,6 +8,7 @@ menu:
     weight: 9
     params:
       icon: user
+disableHLJS: false
 ---
 
 Goan in Birmingham UK, introvert, learns by doing, likes reading, writing and freedom.

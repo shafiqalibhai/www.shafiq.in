@@ -9,5 +9,6 @@ categories:
 tags:
   - Quote
 
+disableHLJS: false
 ---
 Every problem has a hidden opportunity waiting to be discovered. This is especially true in the IT industry, where one person's challenge is another person's chance to innovate. The key is to adopt a positive and creative perspective that sees problems as possibilities.

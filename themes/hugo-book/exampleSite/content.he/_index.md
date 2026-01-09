@@ -1,6 +1,7 @@
 ---
 title: Introduction
 type: docs
+disableHLJS: false
 ---
 
 # Example of RTL page

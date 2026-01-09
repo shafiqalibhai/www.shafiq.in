@@ -11,5 +11,6 @@ categories:
 tags:
   - Backdrop
   - Udbhav
+disableHLJS: false
 ---
 ![backdrop1-copy10009](https://www.shafiq.in/wp-content/uploads/2009/03/backdrop1-copy10009.jpg)

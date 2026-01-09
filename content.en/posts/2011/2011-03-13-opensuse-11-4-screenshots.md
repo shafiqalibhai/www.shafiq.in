@@ -9,6 +9,7 @@ tags:
 - opensuse 11.4
 - screenshots
 
+disableHLJS: false
 ---
 
 <a href='https://www.shafiq.in/2011/03/13/opensuse-11-4-screenshots/opensuse-64-bit-2011-03-13-10-33-52/'><img  src="https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-33-52.png"  srcset="https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-33-52.png 150w, https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-33-52.png 100w"/>

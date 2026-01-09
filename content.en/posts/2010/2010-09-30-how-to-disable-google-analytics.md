@@ -17,6 +17,7 @@ tags:
   - Google Analytics
   - Tools
 
+disableHLJS: false
 ---
 ### <span style="font-weight:normal;font-size:13px;">You don´t like Google Analytics?
 

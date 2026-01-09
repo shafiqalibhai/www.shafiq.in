@@ -15,6 +15,7 @@ tags:
   - MCollective
   - Capistrano
 
+disableHLJS: false
 ---
 
 # The Blueprint for a Smooth Release Engineering Process

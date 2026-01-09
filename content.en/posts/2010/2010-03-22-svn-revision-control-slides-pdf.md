@@ -22,6 +22,7 @@ tags:
   - shafiq
   - URL
 
+disableHLJS: false
 ---
 ### SVN - revision control
 

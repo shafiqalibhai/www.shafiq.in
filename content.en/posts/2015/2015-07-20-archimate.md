@@ -12,5 +12,6 @@ tags:
   - ERP
 format: quote
 
+disableHLJS: false
 ---
 Archimate enables the creation of fully integrated models of an organizations enterprise architecture, the motivation behind it, and the programs, projects and migration paths to implement it.

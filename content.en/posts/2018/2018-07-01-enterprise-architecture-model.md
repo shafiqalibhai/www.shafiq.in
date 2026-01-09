@@ -10,5 +10,6 @@ tags:
   - sed
 format: quote
 
+disableHLJS: false
 ---
 An architecture model is not just useful to provide insight into the current or future situation; it can also be used to evaluate the transition from ‘as is' to ‘to be'.

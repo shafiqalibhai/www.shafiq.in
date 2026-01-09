@@ -12,5 +12,6 @@ tags:
   - Requirements
   - software Requirements
 
+disableHLJS: false
 ---
 A set of requirements is complete if and only if it describes all significant requirements of concern to the user, including requirements associated with functionality, performance, design constraints, attributes, or external interfaces.

@@ -5,6 +5,7 @@ date: 2018-09-04T13:48:55+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 
 Are you stuck with two Git repositories or branches that have completely different histories, but you need to merge them? You may be hitting a roadblock because Git is designed to prevent this kind of operation by default. However, there's a workaround for this, and it's simpler than you might think.

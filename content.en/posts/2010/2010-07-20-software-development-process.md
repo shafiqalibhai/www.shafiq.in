@@ -17,6 +17,7 @@ tags:
   - spiral model
   - waterfall model
 
+disableHLJS: false
 ---
 The team's development process defines who is doing what, when, and how.  
 In the waterfall model, software activities proceed through a sequence of steps, with each step based on the activities of the previous step.  

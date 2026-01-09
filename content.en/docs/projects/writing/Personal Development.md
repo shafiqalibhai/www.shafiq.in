@@ -1,5 +1,6 @@
 ---
 weight: 4
+disableHLJS: false
 ---
 
 Notes on:

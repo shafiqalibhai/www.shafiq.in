@@ -12,6 +12,7 @@ tags:
   - HTML
   - Website
 
+disableHLJS: false
 ---
 
 ![bug on google chrome extension labs website](https://www.shafiq.in/wp-content/uploads/2010/12/google-bug.png)

@@ -5,6 +5,7 @@ date: 2018-09-19T15:32:11+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 ```bash
 sudo apt-get install flex

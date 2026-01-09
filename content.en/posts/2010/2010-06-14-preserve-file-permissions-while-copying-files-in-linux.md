@@ -14,6 +14,7 @@ tags:
   - file permissions command
   - preserve file permissions
 
+disableHLJS: false
 ---
 Following is the command :
 

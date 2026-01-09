@@ -15,6 +15,7 @@ tags:
   - private key
   - public certificate
 
+disableHLJS: false
 ---
 `privatekey -> openssl genrsa \[-out filename\] \[-passout arg\] \[-des\] \[-des3\] \[-idea\] \[-f4\] \[-3\] \[-rand file(s)\] [numbits]`
 

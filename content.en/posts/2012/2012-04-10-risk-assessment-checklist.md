@@ -5,6 +5,7 @@ date: 2012-04-10T07:51:08+00:00
 categories:
   - Management
 
+disableHLJS: false
 ---
 Download link : <a href="/wp-content/uploads/2012/04/risk-assessment-checklist.doc">Risk Assessment Checklist</a>
 

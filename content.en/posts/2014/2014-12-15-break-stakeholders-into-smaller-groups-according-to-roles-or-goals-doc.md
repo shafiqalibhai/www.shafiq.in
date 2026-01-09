@@ -8,6 +8,7 @@ tags:
   - Stakeholder Roles Groups
 format: link
 
+disableHLJS: false
 ---
 
 [Download Stakeholder Roles Groups Document](https://www.shafiq.in/wp-content/uploads/2014/12/stakeholder-roles-groups.docx)

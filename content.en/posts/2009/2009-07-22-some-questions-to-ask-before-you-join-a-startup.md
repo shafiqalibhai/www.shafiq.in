@@ -27,6 +27,7 @@ tags:
   - ships
   - tens
 
+disableHLJS: false
 ---
 
 Joining a startup can be an exciting and rewarding career move, but it also comes with risks and challenges. You need to do your homework and understand what you're signing up for. Here are 10 questions you should ask before accepting a job offer from a startup.

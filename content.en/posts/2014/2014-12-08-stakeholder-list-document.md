@@ -8,6 +8,7 @@ tags:
   - stakeholder analysis
   - stakeholder list
 
+disableHLJS: false
 ---
 Download -> [Stakeholder List Document][1]
 

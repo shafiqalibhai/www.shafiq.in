@@ -5,6 +5,7 @@ date: 2020-07-14T09:15:31+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 ```bash
 ls -l . | egrep -c '^-'

@@ -25,6 +25,7 @@ tags:
   - Sprint
   - Stand-up meeting
 
+disableHLJS: false
 ---
 Scrum is an agile development model that allows teams to deliver software products faster and with higher quality. Scrum involves breaking down the product into small and manageable pieces called backlog items, and working on them in short iterations called sprints. Here are the 8 steps you need to follow to implement Scrum successfully:
 

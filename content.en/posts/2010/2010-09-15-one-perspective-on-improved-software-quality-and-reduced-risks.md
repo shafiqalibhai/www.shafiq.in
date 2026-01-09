@@ -12,6 +12,7 @@ tags:
   - Quality Control and Tracking
   - Software engineering
 
+disableHLJS: false
 ---
 We talk endlessly about improved software quality and reduced risks, but deployable software is the most tangible asset to "outsiders"  
 such as clients or users. The importance of this point cannot be overstated.

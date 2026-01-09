@@ -2,6 +2,7 @@
 weight: 1
 bookFlatSection: true
 title: "Example Site"
+disableHLJS: false
 ---
 
 # Introduction

@@ -1,6 +1,7 @@
 ---
 title: 介绍
 type: docs
+disableHLJS: false
 ---
 
 # 中文索引页

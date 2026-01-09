@@ -15,5 +15,6 @@ tags:
   - shared database
   - Development
 
+disableHLJS: false
 ---
 Like many conveniences in software development, a shared database is a tar pit waiting to fossilize a project. Developers overwrite each other's changes. The changes I make on the server break the code on your development machine. Remote development is slow and difficult. Avoid using a shared database at all costs, as they ultimately waste time and help produce bugs.

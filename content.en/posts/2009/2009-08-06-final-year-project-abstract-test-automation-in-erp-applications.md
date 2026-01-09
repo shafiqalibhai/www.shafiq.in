@@ -44,6 +44,7 @@ tags:
   - Tools
   - vbscript
 
+disableHLJS: false
 ---
 
 **Test Automation in ERP Applications**

@@ -12,6 +12,7 @@ categories:
 tags:
   - Programming
 
+disableHLJS: false
 ---
 
 **Why Programmers Want to Start Over**

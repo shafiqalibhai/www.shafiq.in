@@ -5,6 +5,7 @@ date: 2018-10-24T15:57:34+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 The example below will import an AWS instance into a terraform module:
 

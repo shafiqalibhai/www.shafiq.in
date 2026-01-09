@@ -15,6 +15,7 @@ tags:
   - Royal Mail
   - XML
 
+disableHLJS: false
 ---
 
 ```xml

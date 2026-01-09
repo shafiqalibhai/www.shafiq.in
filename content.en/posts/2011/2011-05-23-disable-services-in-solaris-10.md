@@ -14,6 +14,7 @@ tags:
   - Sun Microsystems
   - unix
 
+disableHLJS: false
 ---
 To disable a service, you must be root or have sudo privileges.
 

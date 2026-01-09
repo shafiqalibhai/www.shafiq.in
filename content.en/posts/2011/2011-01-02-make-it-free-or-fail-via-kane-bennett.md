@@ -7,6 +7,7 @@ reddit:
 categories:
   - management
 
+disableHLJS: false
 ---
 
 As a project manager, I've seen the freemium model become increasingly popular in the software development community. The idea is simple: offer a basic version of your product for free, and then charge for premium features or additional functionality. This model has worked well for some companies, but I believe it's a risky proposition for most startups.

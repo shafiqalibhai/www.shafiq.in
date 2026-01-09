@@ -13,6 +13,7 @@ tags:
   - Iomega
   - Hard Drive
 
+disableHLJS: false
 ---
 
 A few months ago, I invested in a Prestige portable hard drive from IT dot COM, a retailer based in Margao, Goa, India. However, my satisfaction was short-lived; the drive began malfunctioning out of the blue. The drive's indicator light would blink endlessly, and it failed to get recognized on multiple systems I tried it on.

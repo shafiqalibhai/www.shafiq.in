@@ -13,6 +13,7 @@ tags:
   - new programming language
   - Programming
 
+disableHLJS: false
 ---
 
 Google came up with a new programming language called Go, which is supposed to be super fast and awesome and stuff.

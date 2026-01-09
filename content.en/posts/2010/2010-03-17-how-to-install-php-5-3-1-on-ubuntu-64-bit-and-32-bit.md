@@ -12,6 +12,7 @@ tags:
   - PHP
   - Ubuntu
 
+disableHLJS: false
 ---
 ## ...yes just 2 lines
 

@@ -12,6 +12,7 @@ tags:
   - gearman perl
   - Programming
 
+disableHLJS: false
 ---
 If you get the following error while running the client code :
 

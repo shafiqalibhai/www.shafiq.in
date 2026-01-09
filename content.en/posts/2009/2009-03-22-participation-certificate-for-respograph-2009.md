@@ -11,6 +11,7 @@ categories:
 tags:
   - Participation Certificate
 
+disableHLJS: false
 ---
 
 ![certificate-copy10011-respograph](https://www.shafiq.in/wp-content/uploads/2009/03/certificate-copy10011.jpg)

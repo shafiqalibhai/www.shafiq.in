@@ -17,5 +17,6 @@ tags:
   - launch
   - new release
 
+disableHLJS: false
 ---
 Scheduled for November 3rd, 2009, the new release of Mandriva Linux 2010 offers exceptional innovations. As simple to use as usual, you will find applications such as: KDE 4.3.1, GNOME 2.28, kernel 2.6.31.1, Xorg 1.6.4 RC 1 with the last driver for Intel graphical card. Moblin 2 can be tested on the new Mandriva's distribution.

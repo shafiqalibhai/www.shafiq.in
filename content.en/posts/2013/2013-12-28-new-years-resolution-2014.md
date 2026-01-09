@@ -9,6 +9,7 @@ tags:
   - New Year Resolution
   - Simplify
 
+disableHLJS: false
 ---
 
 ### My New Year's Resolution for 2014: Simplifying to Amplify

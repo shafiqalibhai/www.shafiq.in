@@ -8,6 +8,7 @@ tags:
   - Mobile Phones
   - Favorites
 
+disableHLJS: false
 ---
 
 ### Nokia 8800 Sirocco

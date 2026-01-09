@@ -15,6 +15,7 @@ tags:
   - Programming
   - Uptime
 
+disableHLJS: false
 ---
 To find the system load use the following perl snippet :
 

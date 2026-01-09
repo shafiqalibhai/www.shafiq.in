@@ -4,4 +4,5 @@ date: {{ .Date }}
 # bookComments: false
 # bookSearchExclude: false
 # bookPostThumbnail: thumbnail.*
+disableHLJS: false
 ---

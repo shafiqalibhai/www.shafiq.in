@@ -5,6 +5,7 @@ date: 2020-05-18T09:59:54+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 ```bash
 sed -i 's/geteuid/getppid/' /usr/bin/vlc

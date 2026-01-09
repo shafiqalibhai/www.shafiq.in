@@ -16,6 +16,7 @@ tags:
   - Virtual machine
   - VMware
 
+disableHLJS: false
 ---
 My friend JD uploaded a Vmware image of <a class="zem_slink" title="Ubuntu (operating system)" rel="homepage" href="http://www.ubuntu.com/">Ubuntu</a> 11.04 Alpha 1 so am sharing it here :
 

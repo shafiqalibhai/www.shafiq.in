@@ -10,6 +10,7 @@ tags:
   - Programming
   - Ubuntu
 
+disableHLJS: false
 ---
 
 **How to install PHP development files**

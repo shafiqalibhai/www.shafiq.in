@@ -4,6 +4,7 @@ author: Shafiq Alibhai
 date: 2018-09-26T11:55:38+00:00
 categories:
   - Development
+disableHLJS: false
 ---
 
 We've all heard the age-old saying: putting the cart before the horse. Unfortunately, in the world of DevOps, this is happening far more often than it should, and it's time we talk about it.

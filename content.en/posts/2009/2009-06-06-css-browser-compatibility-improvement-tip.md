@@ -15,6 +15,7 @@ tags:
   - IP
   - Padding
 
+disableHLJS: false
 ---
 To avoid inconsistencies across different browsers, always use the following CSS code unless you specify a different value for padding and margin. Some browsers do not set these properties to zero by default.
 

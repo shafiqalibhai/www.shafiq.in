@@ -5,6 +5,7 @@ draft: true
 date: 2013-09-05T08:47:24+00:00
 categories:
   - Development
+disableHLJS: false
 ---
 
 **Looking to craft a robust and fast mobile web application with minimal fuss? Drupal 7's Mobile Boilerplate theme has got you covered. This professional front-end template saves you time and energy by offering pre-configured solutions that make mobile development a breeze.**

@@ -27,6 +27,7 @@ tags:
   - Unix Timestamp
   - vbscript
 
+disableHLJS: false
 ---
 
 - Perl:

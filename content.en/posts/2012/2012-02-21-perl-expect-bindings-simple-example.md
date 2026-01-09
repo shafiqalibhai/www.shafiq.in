@@ -9,6 +9,7 @@ tags:
   - Perl
   - Automation
   - Beginners Guide
+disableHLJS: false
 ---
 
 ## Basic Perl "Hello World" Script (hello.pl)

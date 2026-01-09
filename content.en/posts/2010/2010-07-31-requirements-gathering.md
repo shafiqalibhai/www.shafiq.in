@@ -14,5 +14,6 @@ tags:
   - requirements managers
   - requirements writers
 
+disableHLJS: false
 ---
 Just as there is no one right programming language for every application, there is no one right way to develop the more detailed specifications. Different environments call for different techniques, and the requirements managers and requirements writers will probably need to develop a mix of skills suited to various circumstances.

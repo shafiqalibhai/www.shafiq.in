@@ -17,6 +17,7 @@ tags:
   - The "Yes But" Syndrome
   - Yes But Syndrome
 
+disableHLJS: false
 ---
 
 One of the most frustrating, pervasive, and seemingly downright sinister problems in all of application development is the "Yes, But" syndrome, being the observation of the users' reaction to every piece of software I have ever developed.

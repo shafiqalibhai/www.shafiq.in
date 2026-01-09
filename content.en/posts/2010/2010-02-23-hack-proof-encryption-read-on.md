@@ -11,5 +11,6 @@ categories:
 tags:
   - hackers
 
+disableHLJS: false
 ---
 The point of using encryption and other cryptographic methods isn't to create a 100-percent foolproof, uncrackable system. The only positively unhackable system is a computer that's turned off, and even that isn't a guarantee because someone might be able to physically walk up to it, turn it on, and hack it. The point of all this work is to make it so difficult to get at sensitive data that hackers don't even try, or they move on after a few failed attempts.

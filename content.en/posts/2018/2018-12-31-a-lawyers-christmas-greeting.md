@@ -5,6 +5,7 @@ date: 2018-12-31T09:55:37+00:00
 categories:
   - Uncategorized
 
+disableHLJS: false
 ---
 Please accept with no obligation, implied or implicit, my best wishes for an environmentally conscious, socially responsible, low stress, non-addictive, gender neutral celebration of the winter solstice holiday, practiced within the most enjoyable traditions of the religious persuasion of your choice, or secular practices of your choice, with respect for the religious/secular persuasions and/or traditions of others, or their choice not to practice religious or secular traditions at all… and a fiscally successful, personally fulfilling, and medically uncomplicated recognition of the onset of the generally accepted calendar year 2019, but not without due respect for the calendars of choice of other cultures whose contributions to society have helped make the United Kingdom great (not to imply that the United Kingdom is necessarily greater than any other country or is the only "United Kingdom" in the Northern hemisphere), and without regard to the race, creed, colour, age, physical ability, religious faith, or sexual orientation of the wishee.
 

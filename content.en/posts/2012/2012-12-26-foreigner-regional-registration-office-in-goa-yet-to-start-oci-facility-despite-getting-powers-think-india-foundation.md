@@ -11,5 +11,6 @@ tags:
   - Goa
   - India
 
+disableHLJS: false
 ---
 Foreigner regional registration office in Goa yet to start OCI facility despite getting powers - Think India Foundation.

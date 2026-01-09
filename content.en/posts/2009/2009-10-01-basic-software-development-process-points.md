@@ -20,6 +20,7 @@ tags:
   - Development process
   - template designs
 
+disableHLJS: false
 ---
 Basic Software Development Process:
 

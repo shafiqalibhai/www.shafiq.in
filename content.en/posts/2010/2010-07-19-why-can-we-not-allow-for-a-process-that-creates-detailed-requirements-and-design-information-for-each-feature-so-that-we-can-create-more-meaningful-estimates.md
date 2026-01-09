@@ -15,5 +15,6 @@ tags:
   - Requirement
   - Requirements
 
+disableHLJS: false
 ---
 Some people may think that the best way to estimate a project is to have detailed requirements and design information for each feature. They may argue that this is the most professional and accurate way to approach the problem. However, I disagree with this view. I think that it is more important to be able to make quick decisions about the scope of the project without spending too much time and resources on detailed estimates. Why? Because detailed estimates often turn out to be wrong or irrelevant later on, and they create "wasted inventory" that could have been used for more valuable activities. I'd suggest you only do detailed estimates when the schedule allows for it, and when you have a clear understanding of the value and priority of each feature.

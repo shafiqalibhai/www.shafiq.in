@@ -5,6 +5,7 @@ date: 2014-01-09T09:18:10+00:00
 categories:
   - Uncategorized
 
+disableHLJS: false
 ---
 The WordPress.com stats helper monkeys prepared a 2013 annual report for this blog.
 

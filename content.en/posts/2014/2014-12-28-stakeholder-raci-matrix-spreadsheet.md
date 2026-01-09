@@ -8,6 +8,7 @@ tags:
   - RACI Matrix
   - stakeholder analysis
 
+disableHLJS: false
 ---
 
 [Download Stakeholder RACI Matrix](https://www.shafiq.in/wp-content/uploads/2014/12/stakeholder-raci-matrix.xls)

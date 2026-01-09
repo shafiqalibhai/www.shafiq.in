@@ -1,5 +1,6 @@
 ---
 title: KaTeX
+disableHLJS: false
 ---
 
 # KaTeX

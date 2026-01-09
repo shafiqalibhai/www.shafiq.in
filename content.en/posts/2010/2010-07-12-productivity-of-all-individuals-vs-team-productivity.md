@@ -15,6 +15,7 @@ tags:
   - Productivity of all Individuals
   - Team Productivity
 
+disableHLJS: false
 ---
 
 Software development is a complex and collaborative process that requires effective teamwork and communication. However, many software teams struggle with productivity issues and fail to deliver high-quality products on time and within budget. In this post, I will discuss why team productivity is more important than individual productivity, and how you can improve your software team's performance by applying some proven strategies and best practices.

@@ -5,6 +5,7 @@ date: 2011-05-19T16:54:58+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 /var/svc/log/network-cswpuppetd:default.log  
 /var/svc/log/network-cswpuppetmasterd:default.log

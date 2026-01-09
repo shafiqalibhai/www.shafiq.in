@@ -11,6 +11,7 @@ tags:
   - jQuery
   - CSS
 
+disableHLJS: false
 ---
 
 There are times when you may want to hide a column from view without actually removing it from the DOM. This can be useful if you want to keep the data accessible for other operations but don't want it visible on the front end.

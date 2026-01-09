@@ -11,6 +11,7 @@ categories:
 tags:
   - College
 
+disableHLJS: false
 ---
 
 Many people wonder if college is a good investment for their future. They may have heard stories of graduates who struggle to find jobs or pay off their student loans. They may also have doubts about the quality and relevance of the education they receive in college. Is college really worth it?

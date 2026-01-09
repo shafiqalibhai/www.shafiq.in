@@ -6,7 +6,7 @@ theme: hugo-book
 BookMenuBundle: /menu
 disablePathToLower: false
 enableGitInfo: false
-min_version: "0.146.0" 
+min_version: "0.154.3"
 
 # Needed for mermaid/katex shortcodes
 markup:
@@ -169,7 +169,7 @@ params:
   tocopen: true
 
   #  assets:
-    # disableHLJS: true # to disable highlight.js
+
     # disableFingerprinting: true
     # favicon: "<link / abs url>"
     # favicon16x16: "<link / abs url>"

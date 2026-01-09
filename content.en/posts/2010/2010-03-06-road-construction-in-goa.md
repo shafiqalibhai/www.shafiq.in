@@ -11,6 +11,7 @@ categories:
 tags:
   - Goa
 
+disableHLJS: false
 ---
 I have been commuting from Margao to Bambolim for work every day, and I have to say that the road construction that is going on near Verna is driving me crazy. It has been four days since they started digging up the road, but I don't see any progress. What's worse, they seem to have no regard for the peak hours of traffic on that route. They start their work at around 9:30 am and continue till late evening, causing massive jams and delays for everyone.
 

@@ -11,6 +11,7 @@ categories:
 tags:
   - Mini Banners
   - Udbhav
+disableHLJS: false
 ---
 
 ![sound_of_music10025](https://www.shafiq.in/wp-content/uploads/2009/03/sound_of_music10025.jpg)

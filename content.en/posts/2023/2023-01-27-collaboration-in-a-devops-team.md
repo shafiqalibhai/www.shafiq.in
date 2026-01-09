@@ -8,6 +8,7 @@ tags:
   - Collaboration
   - Communication
 
+disableHLJS: false
 ---
 DevOps is a philosophy that emphasizes collaboration between development and operations teams. The goal of DevOps is to speed up the delivery of software while maintaining high levels of quality and security. Collaboration is key to the success of a DevOps team.
 

@@ -5,6 +5,7 @@ date: 2011-05-07T20:37:16+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 
 When it comes to software development, one of the key steps in making sure that your code transforms into a working application is the "build process." Every software platform, be it Unix, Windows, or something else, offers its own way to script this process. You might have heard of Unix shell scripts, Windows batch files, or make files that serve as build scripts. These scripts are essentially a checklist that the computer follows to compile your code into an executable program.

@@ -13,5 +13,6 @@ tags:
   - project scope
   - project success
 
+disableHLJS: false
 ---
 In many projects, in order to provide a reasonable probability of success, it will be necessary to reduce the scope by as much as a factor of two.

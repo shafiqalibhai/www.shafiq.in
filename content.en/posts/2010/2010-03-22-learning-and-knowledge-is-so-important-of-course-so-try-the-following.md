@@ -15,6 +15,7 @@ tags:
   - Website
   - YouTube
 
+disableHLJS: false
 ---
 
 Learning and knowledge are essential for your professional growth and career advancement. But how can you demonstrate your skills and expertise to potential employers? Here are some tips to help you showcase your lifelong learning on your resume:

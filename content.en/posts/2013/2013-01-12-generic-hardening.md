@@ -11,6 +11,7 @@ tags:
   - Operating Systems
   - Virtual Machine
   - Network Security
+disableHLJS: false
 ---
 
 # [Download the Complete Guide to System Hardening](https://www.shafiq.in/wp-content/uploads/2013/01/generic-hardening-doc.docx)

@@ -12,6 +12,7 @@ tags:
   - sed
   - unix
 
+disableHLJS: false
 ---
 Following one-liner will search for a ip address pattern in the specified file and replace it with the one provided :
 

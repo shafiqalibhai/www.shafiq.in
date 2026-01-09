@@ -7,5 +7,6 @@ categories:
   - Management
 format: quote
 
+disableHLJS: false
 ---
 Political Intelligence requires a thorough understanding of the dynamics of leverage, which simply means your ability to get others to do wh_at you want.

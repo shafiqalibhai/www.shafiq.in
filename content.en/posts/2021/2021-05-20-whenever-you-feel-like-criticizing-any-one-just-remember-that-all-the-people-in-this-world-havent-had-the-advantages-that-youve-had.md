@@ -6,6 +6,7 @@ categories:
   - Quote
 format: quote
 
+disableHLJS: false
 ---
 
 Whenever you feel like criticizing any one, just remember that all the people in this world haven't had the advantages that you've had.

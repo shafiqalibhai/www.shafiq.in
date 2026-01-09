@@ -11,5 +11,6 @@ categories:
 tags:
   - Banner
 
+disableHLJS: false
 ---
 ![welcome_freshers_shafiq_alibhai_080922](https://www.shafiq.in/wp-content/uploads/2009/03/welcome_freshers_shafiq_issani_080922.jpg)

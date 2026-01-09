@@ -12,6 +12,7 @@ tags:
   - professional growth
   - Learning
 
+disableHLJS: false
 ---
 
 Learning from your own experiences is priceless. We've all made our share of blunders, myself included. While sharing tales of our missteps might provide some comic relief, the real value lies in the lessons learned. You don't forget a mistake when you've had to deal with its consequences.

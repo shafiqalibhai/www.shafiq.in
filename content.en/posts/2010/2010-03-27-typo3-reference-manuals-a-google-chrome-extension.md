@@ -16,6 +16,7 @@ tags:
   - tens
   - Website
 
+disableHLJS: false
 ---
 I am happy to share with you my first Google Chrome extension.
 

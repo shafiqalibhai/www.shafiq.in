@@ -4,6 +4,7 @@ author: Shafiq Alibhai
 date: 2011-10-01T08:40:49+00:00
 categories:
   - Management
+disableHLJS: false
 ---
 Download Link : [scrum-tmpl-100212][1]
 

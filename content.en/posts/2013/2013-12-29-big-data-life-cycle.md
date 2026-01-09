@@ -6,6 +6,7 @@ categories:
   - Development
 format: article
 
+disableHLJS: false
 ---
 
 In this post, we'll break down the big data life cycle into its essential components, offering a roadmap for navigating this multifaceted landscape.

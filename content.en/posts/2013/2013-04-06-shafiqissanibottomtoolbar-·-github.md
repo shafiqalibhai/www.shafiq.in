@@ -5,6 +5,7 @@ author: Shafiq Alibhai
 date: 2013-04-06  
 categories:
   - Development
+disableHLJS: false
 ---
 
 ### Introducing BottomToolBar: A Customizable Tool for Your Website

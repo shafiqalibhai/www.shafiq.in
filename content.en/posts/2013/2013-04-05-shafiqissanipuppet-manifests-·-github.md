@@ -18,6 +18,7 @@ tags:
   - shafiq
   - Solaris
 
+disableHLJS: false
 ---
 shafiqAlibhai/Puppet-Manifests · GitHub.
 

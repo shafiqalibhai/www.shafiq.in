@@ -12,6 +12,7 @@ categories:
   - Design
 tags:
   - Logo Samples
+disableHLJS: false
 ---
 
 ![610007](https://www.shafiq.in/wp-content/uploads/2009/03/610007.jpg)

@@ -6,6 +6,7 @@ categories:
   - Quote
 format: quote
 
+disableHLJS: false
 ---
 
 "No good deed ever goes unpunished."

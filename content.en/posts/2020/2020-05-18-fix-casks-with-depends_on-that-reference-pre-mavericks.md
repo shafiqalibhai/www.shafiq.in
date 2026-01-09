@@ -5,6 +5,7 @@ date: 2020-05-18T10:01:16+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 If you get an error of the type `Error: Cask 'hex-fiend-beta' definition is invalid: invalid 'depends_on macos' value: ":lion"`, where `hex-fiend-beta` can be any cask name, and `:lion` any macOS release name, run the following command:
 

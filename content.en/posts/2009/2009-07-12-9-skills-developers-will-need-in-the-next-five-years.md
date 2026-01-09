@@ -51,6 +51,7 @@ tags:
   - Tools
   - web application
   - XML
+disableHLJS: false
 ---
 
 The economy is changing rapidly, and developers need to keep up with the latest trends and skills to stay relevant and competitive. Here is a list of 9 skills that every developer should master or at least be familiar with in the next five years. This list is not comprehensive, and it does not cover every niche or specialty in the industry. However, for most mainstream development scenarios, these skills will give you an edge over others and help you create better solutions. You should aim to learn at least seven of these skills well enough to use them confidently on the job and to demonstrate them in an interview.

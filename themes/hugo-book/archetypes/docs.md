@@ -9,4 +9,5 @@ weight: 1
 # bookSearchExclude: false
 # bookHref: ''
 # bookIcon: ''
+disableHLJS: false
 ---

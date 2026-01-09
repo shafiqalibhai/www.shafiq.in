@@ -18,6 +18,7 @@ tags:
   - root directory
   - Website
 
+disableHLJS: false
 ---
 
 As a CMS developer, I have learned some valuable lessons over the years. Here are some of the most important ones that I want to share with you:

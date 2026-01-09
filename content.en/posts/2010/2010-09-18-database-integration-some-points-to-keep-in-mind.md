@@ -14,6 +14,7 @@ tags:
   - IOS
   - IP
 
+disableHLJS: false
 ---
 **Always Have a Single, Authoritative Source For Your Schema  
 ** Everyone should know where the official schema resides, and have a frictionless experience in getting a fresh database setup. One should be able to walk up to a computer, get the latest from source control, build, and run a simple tool to setup the database (in many scenarios, the build process can even setup a database if none exists, so the process is one step shorter).

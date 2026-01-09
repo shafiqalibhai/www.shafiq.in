@@ -5,6 +5,7 @@ date: 2013-09-21T17:53:10+00:00
 categories:
   - Uncategorized
 
+disableHLJS: false
 ---
 
 The buzz is real, and the anticipation is palpable. We've been hearing whispers about Saahith Mothkuri's latest film, "KICHIDI," for months now. Today, we're finally blessed with a sneak peek and the official trailer, giving us our first substantial glimpse into what promises to be an intriguing cinematic experience.

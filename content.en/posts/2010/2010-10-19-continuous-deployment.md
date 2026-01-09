@@ -11,5 +11,6 @@ tags:
   - hudson
   - PHP
 
+disableHLJS: false
 ---
 [slideshare id=5345889&doc=continuousdeployment-101003140021-phpapp01]

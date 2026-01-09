@@ -13,6 +13,7 @@ tags:
   - WordPress Template
   - WordPress Theme
 
+disableHLJS: false
 ---
 
 ## Transform Your WordPress Site with an iOS-like Experience

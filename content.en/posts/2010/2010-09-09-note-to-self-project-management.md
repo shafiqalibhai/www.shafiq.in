@@ -13,5 +13,6 @@ tags:
   - Management
   - Quality Control and Tracking
 
+disableHLJS: false
 ---
 You can manage scopes of time, cost, and quality much more effectively by basing your decisions on working software with actual feedback and metrics, not just task items on a project schedule.

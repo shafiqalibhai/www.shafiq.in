@@ -1,5 +1,6 @@
 ---
 
+disableHLJS: false
 ---
 
 # Book Binding

@@ -15,5 +15,6 @@ tags:
   - job queue management
   - PHP
 
+disableHLJS: false
 ---
 [slideshare id=3028682&doc=gearman-100130043018-phpapp02]

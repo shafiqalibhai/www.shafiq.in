@@ -5,6 +5,7 @@ date: 2011-11-11T05:10:14+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 
 ## Navigating Methodologies in SAP Implementation

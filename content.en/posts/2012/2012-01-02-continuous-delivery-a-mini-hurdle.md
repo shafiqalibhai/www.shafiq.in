@@ -5,6 +5,7 @@ date: 2012-01-02T17:31:13+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 
 Mastering the art of Continuous Delivery is about more than just pushing code onto a server. It's a delicate balance of managing your technology and the people who interact with it. One major stumbling block? The tiny differences between machines that happen when someone decides to make ad-hoc changes. These may seem trivial, but they can cause massive headaches when it comes to debugging and troubleshooting.

@@ -6,6 +6,7 @@ date: 2018-09-23T15:25:01+00:00
 categories:
   - Architecture
 
+disableHLJS: false
 ---
 
 Navigating the world of enterprise architecture can be a daunting task, especially when you're not sure where to find reliable resources. Whether you're a seasoned pro or just dipping your toes into the architecture ocean, this curated list will help you stay ahead of the game.

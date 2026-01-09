@@ -1,3 +1,4 @@
 ---
 bookCollapseSection: true
+disableHLJS: false
 ---

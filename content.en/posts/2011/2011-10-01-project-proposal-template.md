@@ -5,6 +5,7 @@ date: 2011-10-01T07:18:20+00:00
 categories:
   - Management
 
+disableHLJS: false
 ---
 
 Download Link : [proposal-template.doc](/wp-content/uploads/2011/10/proposal-template.doc "Proposal Template")

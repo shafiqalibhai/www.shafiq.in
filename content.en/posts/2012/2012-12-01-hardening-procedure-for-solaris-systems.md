@@ -36,6 +36,7 @@ tags:
   - Tools
   - XML
 
+disableHLJS: false
 ---
 # DOWNLOAD - Hardening Procedure for Solaris Systems {.western}
 

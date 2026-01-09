@@ -14,6 +14,7 @@ tags:
   - Release Management
   - DevOps Tools
 
+disableHLJS: false
 ---
 
 Subversion is more than just a tool for tracking changes in your code. It can be a cornerstone of an effective release engineering strategy, offering features that facilitate a smooth transition of code from development to production. Here, we'll explore two techniques you can employ: utilizing revision numbers and creating tags.

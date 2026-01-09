@@ -12,6 +12,7 @@ tags:
   - virtual memory
   - vmstat
 
+disableHLJS: false
 ---
 ```bash
 vmstat -s -SM | grep "free memory" | awk -F" " '{print$1}'

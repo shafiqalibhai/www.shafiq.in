@@ -17,6 +17,7 @@ tags:
   - Programming
   - sed
 
+disableHLJS: false
 ---
 
 When it comes to software development, a robust and efficient build script can be a game-changer. Whether you're working on a Java project or any other type of application, the right build script can streamline the whole process and make life a whole lot easier for developers. Here's a rundown of some best practices to keep in mind when you're writing your build script:

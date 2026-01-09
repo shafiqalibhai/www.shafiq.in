@@ -19,6 +19,7 @@ tags:
   - param name
   - Parameters
 
+disableHLJS: false
 ---
 
 I had a problem with a javascript pull-down menu that overlapped with a flash movie. The menu always appeared BEHIND the flash movie, regardless of the z-order. I solved it by:

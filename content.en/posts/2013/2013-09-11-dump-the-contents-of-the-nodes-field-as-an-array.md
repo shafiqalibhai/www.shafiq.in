@@ -9,6 +9,7 @@ tags:
   - Debugging
   - PHP
   - Web Development
+disableHLJS: false
 ---
 
 When you're working with Drupal 6, it's sometimes necessary to inspect the data stored in a node's field. This is especially useful for debugging or when you're trying to understand the structure of the content better. One quick way to achieve this is by dumping the field contents as an array. In PHP, the `var_export()` function comes in handy for this purpose.

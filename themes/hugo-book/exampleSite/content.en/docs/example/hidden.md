@@ -1,5 +1,6 @@
 ---
 bookHidden: true
+disableHLJS: false
 ---
 
 # This page is hidden in menu

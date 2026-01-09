@@ -6,5 +6,6 @@ categories:
   - Architecture
 format: quote
 
+disableHLJS: false
 ---
 Most stakeholders of a system are not interested in its architecture, but only in the impact of this on their concerns.

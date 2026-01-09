@@ -11,6 +11,7 @@ tags:
   - sed
   - tens
 
+disableHLJS: false
 ---
 I'm excited to share with you _my first_ typo3 extension.
 

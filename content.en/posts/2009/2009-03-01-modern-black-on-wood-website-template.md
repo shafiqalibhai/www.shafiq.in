@@ -14,6 +14,7 @@ tags:
   - IP
   - PSD
   - Website
+disableHLJS: false
 ---
 ![slide1](https://www.shafiq.in/wp-content/uploads/2009/03/slide1.jpg)
 

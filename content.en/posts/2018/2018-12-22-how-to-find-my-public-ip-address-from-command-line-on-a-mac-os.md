@@ -5,6 +5,7 @@ date: 2018-12-22T09:45:30+00:00
 categories:
   - Development
 
+disableHLJS: false
 ---
 Run the following command in the terminal:  
 

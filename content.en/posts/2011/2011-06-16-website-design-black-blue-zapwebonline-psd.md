@@ -12,6 +12,7 @@ tags:
   - Website
   - website design
 
+disableHLJS: false
 ---
 Designed specifically for Joomla!
 But you can use it for anything.
