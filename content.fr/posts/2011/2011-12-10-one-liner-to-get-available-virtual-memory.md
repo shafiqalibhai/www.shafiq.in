@@ -1,0 +1,20 @@
+---
+lang: "fr"
+title: 'One liner: To get available virtual memory'
+author: Shafiq Alibhai
+date: 2011-12-10T12:43:02+00:00
+categories:
+  - Development
+tags:
+  - available virtual memory
+  - AWK
+  - Grep
+  - Programming
+  - virtual memory
+  - vmstat
+
+disableHLJS: false
+---
+```bash
+vmstat -s -SM | grep "mémoire libre" | awk -F" " '{print$1}'
+```

@@ -1,11 +1,11 @@
 BaseURL: "https://shafiq.in/"
-title: "A Blog"
-pagination.pageSsize: 50
+title: "Shafiq Alibhai — Blog"
+pagination.pageSize: 50
 # theme: hugo-theme-stack
 theme: hugo-book
 BookMenuBundle: /menu
 disablePathToLower: false
-enableGitInfo: false
+enableGitInfo: true
 min_version: "0.154.3"
 
 # Needed for mermaid/katex shortcodes
@@ -142,8 +142,8 @@ params:
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly: false
 
-  env: production # to enable google analytics, opengraph, twittetwitter-cardstwitter-cardsr-cards and schema.
-  title: "A Blog"
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "Shafiq Alibhai — Blog"
   description: "Welcome to my blog, where I share my thoughts, passion, curiosity, experiences and some randomness."
   keywords: [Blog]
   author: Shafiq Alibhai
@@ -244,8 +244,8 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
 
-languageCode: en-gb
-DefaultContentLanguage: "en"
+languageCode: en-GB
+defaultContentLanguage: "en"
 hasCJKLanguage: false
 
 enableRobotsTXT: true

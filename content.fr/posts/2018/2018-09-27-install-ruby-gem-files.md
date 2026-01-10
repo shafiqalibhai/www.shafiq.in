@@ -1,0 +1,16 @@
+---
+lang: "fr"
+title: Install ruby gem files
+author: Shafiq Alibhai
+date: 2018-09-27T10:16:03+00:00
+categories:
+  - Development
+
+disableHLJS: false
+---
+Installez les gems sur la machine de destination à partir des fichiers locaux :
+
+```
+cd /path/to/gems
+gem install --force --local *.gem
+```
