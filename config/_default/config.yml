@@ -81,7 +81,7 @@ params:
 
   # (Optional, default favicon.png) Set the path to a favicon file.
   # If the favicon is /static/favicon.png then the path would be favicon.png
-  # BookFavicon: "favicon.png"
+  BookFavicon: "favicon.svg"
 
   # (Optional, default none) Set the path to a logo for the book.
   # If the logo is /static/logo.png then the path would be logo.png
@@ -184,18 +184,20 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true
+    title: Shafiq Alibhai
+    subtitle: "Developer | Architect | Writer"
+    imageUrl: "https://github.com/shafiqalibhai.png"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: Shafiq Alibhai
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: Blog
+        url: /posts/
+      - name: Categories
+        url: /categories/
+      - name: GitHub
+        url: https://github.com/shafiqalibhai
 
   # home-info mode
   homeInfoParams:
@@ -203,14 +205,14 @@ params:
     Content: Welcome to my website, where I share my thoughts, passion, curiosity, and experiences in the form of blog posts and notes.
 
   socialIcons:
-    #- name: twitter
-    #  url: "https://twitter.com/shafiqalibhai"
+    - name: twitter
+      url: "https://twitter.com/shafiqalibhai"
     - name: facebook
       url: "https://facebook.com/shafiqalibhai0"
-    # - name: github
-    #   url: "https://github.com/shafiqalibhai"
-    # - name: linkedin
-    #   url: "https://linkedin.com/in/deployview"
+    - name: github
+      url: "https://github.com/shafiqalibhai"
+    - name: linkedin
+      url: "https://linkedin.com/in/deployview"
     - name: whatsapp
       url: "https://wa.me/+447440344860"
 
@@ -258,52 +260,20 @@ minify:
   disableXML: true
   minifyOutput: true
 
-# menu:
-#   main:
-#     - identifier: search
-#       name: search
-#       url: /search/
-#       weight: 9
-# - identifier: categories
-#   name: categories
-#   url: /categories/
-#   weight: 11
-# - identifier: tags
-#   name: tags
-#   url: /tags/
-#   weight: 20
-# - identifier: shop
-#   name: shop
-#   url: /shop/
-#   weight: 20
-# - identifier: about-shafiq/
-#   name: about
-#   url: /post/about-shafiq/
-#   weight: 10
-# - identifier: favourite-quotes/
-#   name: favourite quotes
-#   url: /categories/quote/
-#   weight: 40
-# - identifier: designs/
-#   name: design
-#   url: /categories/design/
-#   weight: 50
-# - identifier: development/
-#   name: development
-#   url: /categories/development/
-#   weight: 60
-# - identifier: architecture/
-#   name: architecture
-#   url: /categories/architecture/
-#   weight: 70
-# - identifier: management/
-#   name: management
-#   url: /categories/management/
-#   weight: 80
-# - identifier: contact-shafiq/
-#   name: contact
-#   url: /post/contact-shafiq/
-#   weight: 90
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 9
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 11
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 # markup:
@@ -319,7 +289,7 @@ outputs:
   home:
     - HTML
     - RSS
-    # - JSON # is necessary
+    - JSON
 
 related:
   includeNewer: true
