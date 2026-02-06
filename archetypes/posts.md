@@ -30,4 +30,9 @@ categories:
 #     caption: "<text>" # display caption under cover
 #     relative: false # when using page bundles set this to true
 #     hidden: true # only hide on current single page
+# Recommended SEO fields
+# description: "A short summary that will be used for meta description and social sharing."
+# image: "/images/posts/example.jpg"
+# canonical: ""
+# translationKey: ""
 ---

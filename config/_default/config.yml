@@ -1,5 +1,5 @@
 BaseURL: "https://shafiq.in/"
-title: "Shafiq Alibhai — Blog"
+title: "Shafiq Alibhai"
 pagination.pageSize: 50
 # theme: hugo-theme-stack
 theme: hugo-book
@@ -24,7 +24,7 @@ markup:
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 languages:
   en:
-    contentDir: content.en
+    contentDir: content/en
     languageCode: en-GB
     languageDirection: ltr
     languageName: English
@@ -34,7 +34,7 @@ languages:
     weight: 1
   fr:
     languageName: French
-    contentDir: content.fr
+    contentDir: content/fr
     languageDirection: ltr
     permalinks:
       posts: /blog/:title/
@@ -193,7 +193,7 @@ params:
     imageTitle: Shafiq Alibhai
     buttons:
       - name: Blog
-        url: /posts/
+        url: /blog/
       - name: Categories
         url: /categories/
       - name: GitHub
@@ -254,7 +254,21 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# googleAnalytics: UA-123-45
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.8
+
+googleAnalytics: G-XXXXXXXXXX
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+  youtube:
+    privacyEnhanced: true
 
 minify:
   disableXML: true

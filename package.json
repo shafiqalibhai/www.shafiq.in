@@ -1,0 +1,14 @@
+{
+  "name": "www-shafiq-in",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@lhci/cli": "^0.8.0",
+    "puppeteer": "^20.0.0",
+    "linkinator": "^4.7.0"
+  },
+  "scripts": {
+    "lhci": "lhci autorun --config=.lighthouserc.json",
+    "linkcheck": "linkinator http://localhost:1313 --skip '#' --quiet"
+  }
+}

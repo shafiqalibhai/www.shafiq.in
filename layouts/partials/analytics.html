@@ -1,0 +1,11 @@
+{{/* analytics partial - loads analytics only in production and when a GA id is provided */}}
+{{ $ga := .Site.Params.googleAnalytics | default "" }}
+{{ if and (eq (getenv "HUGO_ENV") "production") (ne $ga "") }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+  gtag('config', '{{ $ga }}', { 'anonymize_ip': true });
+</script>
+{{ end }}

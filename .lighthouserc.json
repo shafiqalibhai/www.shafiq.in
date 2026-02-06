@@ -1,0 +1,13 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 3,
+      "url": ["http://localhost:1313"],
+      "startServerCommand": "hugo server -D -p 1313"
+    },
+    "assert": {
+      "preset": "lighthouse:no-pwa",
+      "assertionResultsFilename": "lhci-report.json"
+    }
+  }
+}
