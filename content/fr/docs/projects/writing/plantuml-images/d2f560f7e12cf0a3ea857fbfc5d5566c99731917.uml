@@ -1,0 +1,40 @@
+@startuml
+!define RECTANGLE class
+!define DATABASE entity
+!define CIRCLE interface
+
+CIRCLE "Choose\nIndividual Path" as C
+RECTANGLE "Courage" as Courage
+RECTANGLE "Determination" as Determination
+RECTANGLE "Progress" as Progress
+DATABASE "Forward Steps" as F
+
+RECTANGLE "Fear" as Fear
+RECTANGLE "Reality Check" as Reality
+RECTANGLE "Taking Risks" as Risks
+
+RECTANGLE "Self-Discipline" as Discipline
+RECTANGLE "Goal-Setting" as Goals
+
+RECTANGLE "Growth" as Growth
+RECTANGLE "Continuous Learning" as Learning
+
+C --> Courage : contributes to
+C --> Determination : contributes to
+C --> Progress : contributes to
+
+Courage --> F : Filtered
+Determination --> F : Filtered
+Progress --> F : Filtered
+
+Courage --> Fear : acknowledges
+Courage --> Reality : assesses
+Courage --> Risks : calculates
+
+Determination --> Discipline : requires
+Determination --> Goals : targets
+
+Progress --> Growth : measures
+Progress --> Learning : facilitates
+
+@enduml

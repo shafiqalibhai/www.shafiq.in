@@ -1,0 +1,83 @@
+@startuml
+skinparam activity {
+  StartColor DarkGreen
+  EndColor DarkRed
+  BackgroundColor Beige
+  BorderColor Black
+}
+skinparam activityDiamond {
+  BackgroundColor Yellow
+  BorderColor Black
+}
+
+start
+
+: **Determine the Amount Needed**;
+note right
+  Assess Monthly Expenses,
+  Consider Job Stability,
+  Factor in Dependents
+end note
+
+if (Is Periodic Re-evaluation Time?) then (Yes)
+  : **Re-evaluate the Fund Amount**;
+else (No)
+endif
+
+: **Decide Where to Hold the Funds**;
+note right
+  Compare Interest Rates,
+  Evaluate Accessibility,
+  Consider Tax Implications
+end note
+
+if (Is it Time for an Account Review?) then (Yes)
+  : **Review and Possibly Switch Account Type**;
+else (No)
+endif
+
+: **Plan Regular Contributions**;
+note right
+  Set Frequency,
+  Automate Contributions,
+  Budget Accordingly
+end note
+
+if (Is Contribution Adjustment Needed?) then (Yes)
+  : **Adjust Contribution Amount**;
+else (No)
+endif
+
+if (Received Unexpected Income?) then (Yes)
+  : **Allocate Portion to Fund**;
+else (No)
+endif
+
+: **Set and Document Guidelines for Usage**;
+note right
+  Define What Constitutes an 'Emergency',
+  Outline Replenishment Strategy
+end note
+
+if (Is it a Legitimate Emergency?) then (Yes)
+  : **Use the Fund According to Guidelines**;
+  note right
+    Use responsibly
+  end note
+  : **Review Consequences of Using Fund**;
+  note right
+    Assess how usage affects financial stability
+  end note
+  : **Replenish and Optimize the Fund**;
+  note right
+    Replenish quickly and consider optimization
+  end note
+else (No)
+  : **Do Not Tap into the Fund**;
+  note right
+    Follow the established guidelines
+  end note
+endif
+
+stop
+@enduml

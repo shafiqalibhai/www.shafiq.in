@@ -1,0 +1,61 @@
+@startuml
+!define RECTANGLE class
+!define DATABASE entity
+skinparam class {
+    BackgroundColor LightYellow
+    ArrowColor SeaGreen
+    BorderColor Black
+}
+
+title Strategies to Manage Debt - Figure 4
+
+RECTANGLE "Examine\nDebt\nLandscape" as DebtLandscape {
+}
+
+DATABASE "Income\nStatement" as IncomeStatement
+DATABASE "Credit\nReports" as CreditReports
+DATABASE "Interest\nRates" as InterestRates
+
+RECTANGLE "Good Debt" as GoodDebt {
+    RECTANGLE "Investments" as GoodInvest
+    RECTANGLE "Education" as GoodEdu
+}
+
+RECTANGLE "Bad Debt" as BadDebt {
+    RECTANGLE "Credit Card" as BadCC
+    RECTANGLE "High-Interest\nLoans" as BadLoans
+}
+
+RECTANGLE "Strategies\nfor Good Debt" as StrategyGood {
+    RECTANGLE "Sustain\nPayments" as Sustain
+    RECTANGLE "Low-Risk\nInvestment" as LowRiskInvest
+}
+
+RECTANGLE "Strategies\nfor Bad Debt" as StrategyBad {
+    RECTANGLE "Debt\nConsolidation" as DebtConsolidation
+    RECTANGLE "Snowball\nMethod" as Snowball
+    RECTANGLE "Avalanche\nMethod" as Avalanche
+}
+
+DebtLandscape --> IncomeStatement
+DebtLandscape --> CreditReports
+DebtLandscape --> InterestRates
+DebtLandscape -down-> GoodDebt
+DebtLandscape -down-> BadDebt
+
+GoodDebt --> GoodInvest
+GoodDebt --> GoodEdu
+BadDebt --> BadCC
+BadDebt --> BadLoans
+
+GoodDebt --> StrategyGood
+BadDebt --> StrategyBad
+
+StrategyGood --> Sustain
+StrategyGood --> LowRiskInvest
+
+StrategyBad --> DebtConsolidation
+StrategyBad --> Snowball
+StrategyBad --> Avalanche
+
+@enduml

@@ -1,0 +1,78 @@
+@startuml
+
+!define STATE state
+
+skinparam state {
+  BackgroundColor<<error>> Red
+  BackgroundColor<<growth>> Green
+  BackgroundColor<<non_perf>> Yellow
+  BackgroundColor<<self_crit>> Pink
+  BackgroundColor<<defeat>> Orange
+  BackgroundColor<<pressure>> Blue
+  BackgroundColor<<resilience>> Cyan
+  BackgroundColor<<awareness>> Purple
+}
+
+legend top left
+  **Legend**
+  <<error>> = Negative Experience
+  <<growth>> = Growth
+  <<non_perf>> = Non-Perfection States
+  <<self_crit>> = Self-Criticism
+  <<defeat>> = Defeat
+  <<pressure>> = Social Pressure
+  <<resilience>> = Resilience
+  <<awareness>> = Self-Awareness
+endlegend
+
+title The Pursuit of Perfection: A Detailed View
+
+state "Pursuit of Perfection" as pursuit {
+  state "Tasks or Challenges" as task
+  state "Non-Perfection States" as non_perf <<non_perf>>
+  state "Defeat" as defeat <<defeat>>
+  state "Self-Criticism" as self_crit <<self_crit>>
+  state "Lessons & Growth" as lessons <<growth>>
+  state "Decrease in Life Quality" as decrease
+  state "Series of Experiences" as experiences
+  state "Living an Amazing Life" as life <<growth>>
+  state "Social Pressure" as pressure <<pressure>>
+  state "Building Resilience" as resilience <<resilience>>
+  state "Self-Awareness" as awareness <<awareness>>
+
+  task --> non_perf : Make mistakes or fail
+  
+  non_perf --> defeat : Respond with defeat
+  non_perf --> self_crit : Respond with self-criticism
+  non_perf --> lessons : Learn from experiences
+  non_perf --> pressure : Influenced by society
+  
+  pressure --> defeat : Amplifies defeat
+  pressure --> self_crit : Increases self-criticism
+  
+  defeat --> decrease : Long-term result
+  self_crit --> decrease : Long-term result
+  
+  lessons --> life : Leads to
+  lessons --> resilience : Builds resilience
+  
+  resilience --> life : Contributes to
+  resilience --> awareness : Develop self-awareness
+  
+  awareness --> life : Elevates quality
+  awareness --> lessons : Enables better learning
+  
+  pursuit --> experiences : Inherent Trials, Errors,\nSuccesses, and Failures
+  
+  experiences --> life : Leads to
+  
+  task --> experiences : Make mistakes or fail
+
+  experiences --> task : Continue trying
+  
+  note right of non_perf : The 'all-or-nothing' trap
+  note top of pressure : Externally imposed ideals
+  note bottom of resilience : Internal strength and adaptability
+}
+
+@enduml

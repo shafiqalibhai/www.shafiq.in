@@ -1,0 +1,33 @@
+@startuml
+
+!define CIRCLE class
+
+!define FONT_SIZE 18
+skinparam defaultFontSize 18
+skinparam handwritten true
+skinparam ClassBackgroundColor #FFFFFF
+skinparam class {
+  BackgroundColor white
+  BorderColor black
+}
+
+hide circle
+
+CIRCLE "Amazing Life" as amazingLife #Gold {
+  CIRCLE "Happiness\n&\nFulfillment" as happiness #SkyBlue
+  CIRCLE "Physical &\nMental Health" as health #Green
+  CIRCLE "Achieving\nPersonal Goals" as goals #Orange
+  CIRCLE "Balance" as balance #Purple
+}
+
+amazingLife -[hidden]-> happiness : contributes to
+amazingLife -[hidden]-> health : contributes to
+amazingLife -[hidden]-> goals : contributes to
+amazingLife -[hidden]-> balance : contributes to
+
+happiness --> health : is enhanced by
+health --> goals : enables
+goals --> balance : requires
+balance --> happiness : leads to
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml 
+title Emotional Health  
+partition Emotions {
+  :Express Your Feelings;
+  :Don't Bottle Up;
+}
+partition Self-Care {
+  :Prioritize Yourself;
+  :Indulge in Enjoyable Activities;
+}
+@enduml

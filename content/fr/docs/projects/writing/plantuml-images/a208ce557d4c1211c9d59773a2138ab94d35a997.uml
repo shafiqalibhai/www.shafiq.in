@@ -1,0 +1,19 @@
+@startuml 
+title Physical Health
+partition Nutrition {
+  :Incorporate Balanced Diet;
+  :Stay Hydrated;
+}
+partition Exercise {
+  :Find a Routine;
+  :150 Min/Week Minimum;
+}
+partition Sleep {
+  :7-9 Hrs/ Night;
+  :Maintain Regular Sleep Cycle;
+}
+partition Health Check-ups {
+  :Schedule Based on Age, Medical History;
+  :Early Detection is Key;
+}
+@enduml

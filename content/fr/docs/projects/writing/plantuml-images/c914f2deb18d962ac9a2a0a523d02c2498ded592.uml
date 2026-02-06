@@ -1,0 +1,77 @@
+@startuml
+
+!define RECTANGLE class
+
+skinparam class {
+  BackgroundColor White
+  BorderColor Black
+  ArrowColor Black
+}
+
+skinparam package {
+  BackgroundColor<<main>> MediumPurple
+  BackgroundColor<<sub>> LightBlue
+  FontColor White
+}
+
+package "Belief in Ability to Control Life Events" <<main>> {
+  RECTANGLE "Self-Reflection" as SelfReflection
+  RECTANGLE "Mindfulness" as Mindfulness
+  note bottom: 'The foundational belief system'
+}
+
+package "Internal Locus of Control" <<main>> {
+  RECTANGLE "Proactive Behavior" as ProactiveBehavior
+  RECTANGLE "Decision-Making" as DecisionMaking
+  note bottom: 'The core psychological trait'
+}
+
+package "2016 Study in Environmental Health and Preventive Medicine" <<main>> {
+  RECTANGLE "Psychological Metrics" as Metrics
+  RECTANGLE "Statistical Analysis" as Analysis
+  note bottom: 'Empirical evidence supporting the theory'
+}
+
+package "Higher Self-Efficacy and Health Outcomes" <<main>> {
+  RECTANGLE "Goal Setting" as GoalSetting
+  RECTANGLE "Healthy Eating" as HealthyEating
+  note bottom: 'Positive effects of an internal locus of control'
+}
+
+package "Acknowledgment of Actions Shaping Lives" <<main>> {
+  RECTANGLE "Accepting Responsibility" as AcceptResponsibility
+  RECTANGLE "Positive Reinforcement" as PosReinforcement
+  note bottom: 'Increased awareness and empowerment'
+}
+
+package "Nurturing Self-Love" <<main>> {
+  RECTANGLE "Self-Care" as SelfCare
+  RECTANGLE "Emotional Intelligence" as EmotionalIntelligence
+  note bottom: 'The emotional and psychological benefits'
+}
+
+package "Active Drivers of Life" <<main>> {
+  RECTANGLE "Taking Calculated Risks" as Risks
+  RECTANGLE "Pursuing Opportunities" as Opportunities
+  note bottom: 'Resulting behavior and life approach'
+}
+
+SelfReflection --> [Fosters] ProactiveBehavior
+Mindfulness --> [Fosters] ProactiveBehavior
+
+ProactiveBehavior --> [Substantiated by] Metrics
+DecisionMaking --> [Substantiated by] Analysis
+
+Metrics --> [Linked With] GoalSetting
+Analysis --> [Linked With] HealthyEating
+
+GoalSetting --> [Leads To] AcceptResponsibility
+HealthyEating --> [Leads To] PosReinforcement
+
+AcceptResponsibility --> [Cultivates] SelfCare
+PosReinforcement --> [Cultivates] EmotionalIntelligence
+
+SelfCare --> [Becomes] Risks
+EmotionalIntelligence --> [Becomes] Opportunities
+
+@enduml

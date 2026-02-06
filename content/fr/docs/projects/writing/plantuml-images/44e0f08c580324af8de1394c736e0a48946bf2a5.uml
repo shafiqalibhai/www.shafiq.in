@@ -1,0 +1,10 @@
+@startuml
+title The Smart Investment Choices
+rectangle "Savings" as save {
+rectangle "Emergency Fund" as E
+rectangle "Investments" as I
+}
+save --> E
+save --> I
+note right of I : Stocks, Bonds, Mutual Fund
+@enduml
