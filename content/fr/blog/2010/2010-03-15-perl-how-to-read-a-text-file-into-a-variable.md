@@ -2,14 +2,13 @@
 title: Perl – How to Read a Text File into a Variable – 6 ways to do it
 author: Shafiq Alibhai
 date: 2010-03-15T09:04:20+00:00
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1269438325";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1269438336";}'
 categories:
   - Development
 tags:
-  - Git
+  - perl
+  - file-handling
+  - tutorial
+  - code-snippet
 
 disableHLJS: false
 ---

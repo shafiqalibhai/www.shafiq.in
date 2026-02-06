@@ -5,8 +5,10 @@ date: 2012-01-23T09:06:52+00:00
 categories:
   - Uncategorized
 tags:
-  - Mobile Phones
-  - Favourites
+  - mobile
+  - technology
+  - review
+  - opinion
 
 disableHLJS: false
 ---

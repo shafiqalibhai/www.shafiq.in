@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2021-05-20T08:36:18+00:00
 categories:
   - Quote
+tags:
+  - quote
+  - inspiration
+  - wisdom
+  - empathy
 format: quote
 
 disableHLJS: false

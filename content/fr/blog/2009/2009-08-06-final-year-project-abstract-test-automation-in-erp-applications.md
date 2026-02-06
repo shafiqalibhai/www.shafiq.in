@@ -3,19 +3,16 @@ title: Final Year Project Abstract — Test Automation in ERP Applications
 author: Shafiq Alibhai
 draft: true
 date: 2009-08-06T06:09:53+00:00
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1249546049";}'
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1249546048";}'
 categories:
   - Development
 tags:
-  - arsin
-  - bachelor of technology
-  - Business
-  - business commitment
-  - computer science
-  - deployment platform
+  - testing
+  - erp
+  - automation
+  - academic
+
+disableHLJS: false
+---
   - development platform
   - ERP
   - erp applications

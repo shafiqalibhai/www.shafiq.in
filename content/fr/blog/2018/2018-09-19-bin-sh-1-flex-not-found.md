@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-09-19T15:32:11+00:00
 categories:
   - Development
+tags:
+  - flex
+  - compilation
+  - troubleshooting
+  - ubuntu
 
 disableHLJS: false
 ---

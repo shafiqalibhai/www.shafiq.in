@@ -2,20 +2,16 @@
 title: How to Implement Scrum Development Model in 8 Steps
 author: Shafiq Alibhai
 date: 2010-03-22T06:52:15+00:00
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1269438321";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1269451874";}'
-tagazine-media:
-  - 'a:6:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:7:"4390143";s:7:"blog_id";s:7:"4153392";}'
 categories:
   - Management
-  - Development
 tags:
-  - Agile
-  - Agile Development
-  - duration
-  - email
+  - scrum
+  - agile
+  - project-management
+  - tutorial
+
+disableHLJS: false
+---
   - Goa
   - Management
   - Requirement

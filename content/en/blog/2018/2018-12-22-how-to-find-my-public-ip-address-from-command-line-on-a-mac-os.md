@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-12-22T09:45:30+00:00
 categories:
   - Development
+tags:
+  - macos
+  - cli
+  - networking
+  - how-to
 
 disableHLJS: false
 ---

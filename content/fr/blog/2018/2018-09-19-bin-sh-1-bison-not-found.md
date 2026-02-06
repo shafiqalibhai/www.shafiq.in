@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-09-19T15:33:07+00:00
 categories:
   - Development
+tags:
+  - bison
+  - compilation
+  - troubleshooting
+  - ubuntu
 
 disableHLJS: false
 ---

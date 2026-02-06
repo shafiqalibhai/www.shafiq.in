@@ -2,8 +2,6 @@
 title: "Count number of directories in the current directory using Linux cli"
 author: Shafiq Alibhai
 date: 2020-07-14T09:17:02+00:00
-# author: "Me"
-# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
@@ -11,8 +9,11 @@ hidemeta: false
 comments: false
 categories:
     - Development
-# description: "Desc Text."
-# canonicalURL: "https://canonical.url/to/page"
+tags:
+  - linux
+  - cli
+  - bash
+  - how-to
 disableShare: false
 disableHLJS: false
 hideSummary: false

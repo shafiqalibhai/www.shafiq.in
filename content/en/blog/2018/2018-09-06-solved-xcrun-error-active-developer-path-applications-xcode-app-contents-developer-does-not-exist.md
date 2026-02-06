@@ -4,6 +4,10 @@ author: Shafiq Alibhai
 date: 2018-09-06T09:43:25+00:00
 categories:
   - Development
+tags:
+  - macos
+  - troubleshooting
+  - xcode
 
 disableHLJS: false
 ---

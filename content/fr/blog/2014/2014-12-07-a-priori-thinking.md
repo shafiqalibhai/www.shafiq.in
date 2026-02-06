@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2014-12-07T13:25:16+00:00
 categories:
   - Uncategorized
+tags:
+  - philosophy
+  - game-theory
+  - reflection
+  - strategy
 
 disableHLJS: false
 ---

@@ -5,11 +5,10 @@ date: 2012-11-24T12:02:39+00:00
 categories:
   - Development
 tags:
-  - Firefox
-  - firefox apps
-  - firefox linux
-  - firefox os
-  - Ubuntu
+  - firefox
+  - ubuntu
+  - mobile
+  - how-to
 
 disableHLJS: false
 ---

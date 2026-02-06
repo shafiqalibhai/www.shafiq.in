@@ -2,13 +2,13 @@
 title: How to Identify Your Linux Distribution and Version with Simple Commands
 author: Shafiq Alibhai
 date: 2010-03-23T05:10:33+00:00
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1269968925";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1269968930";}'
 categories:
   - Development
 tags:
+  - linux
+  - cli
+  - how-to
+  - tutorial
 
 disableHLJS: false
 ---

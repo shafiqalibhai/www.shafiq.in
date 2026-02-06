@@ -2,14 +2,13 @@
 title: Ajax Tabbed Google Search – A Typo3 Extension
 author: Shafiq Alibhai
 date: 2010-04-13T10:41:54+00:00
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1299623065";}'
 categories:
+  - Development
 tags:
+  - typo3
   - ajax
-  - Google
-  - sed
-  - tens
+  - search
+  - extension
 
 disableHLJS: false
 ---

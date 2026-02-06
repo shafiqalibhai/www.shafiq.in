@@ -5,10 +5,10 @@ date: 2011-01-17T06:51:05+00:00
 categories:
   - Development
 tags:
-  - FAQs Help and Tutorials
-  - PHP
-  - Programming
-  - Ubuntu
+  - php
+  - ubuntu
+  - troubleshooting
+  - how-to
 
 disableHLJS: false
 ---

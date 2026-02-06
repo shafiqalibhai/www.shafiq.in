@@ -4,6 +4,10 @@ author: Shafiq Alibhai
 date: 2018-07-01T10:49:47+00:00
 categories:
   - Architecture
+tags:
+  - architecture
+  - enterprise-architecture
+  - quote
 format: quote
 
 disableHLJS: false

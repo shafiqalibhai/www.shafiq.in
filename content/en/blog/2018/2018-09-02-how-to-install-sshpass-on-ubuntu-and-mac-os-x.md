@@ -4,6 +4,12 @@ author: Shafiq Alibhai
 date: 2018-09-02T10:33:49+00:00
 categories:
   - Development
+tags:
+  - ssh
+  - sshpass
+  - ubuntu
+  - macos
+  - tutorial
 disableHLJS: false
 ---
 

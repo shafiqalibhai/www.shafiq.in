@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2022-08-25T20:04:46+00:00
 categories:
   - Uncategorized
+tags:
+  - philosophy
+  - stoicism
+  - quote
+  - inspiration
 
 disableHLJS: false
 ---

@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-12-28T10:19:18+00:00
 categories:
   - Development
+tags:
+  - azure
+  - vm
+  - reference
+  - cloud
 
 disableHLJS: false
 ---

@@ -1,11 +1,7 @@
 ---
 title: "Shutdown Proxmox VM using CLI"
 date: 2023-10-17T01:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
 author: "Me"
-# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
@@ -13,8 +9,11 @@ hidemeta: false
 comments: false
 categories:
     - Development
-# description: "Desc Text."
-# canonicalURL: "https://canonical.url/to/page"
+tags:
+  - proxmox
+  - vm
+  - cli
+  - how-to
 disableShare: false
 disableHLJS: false
 hideSummary: false
@@ -25,16 +24,6 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-# cover:
-#     image: "<image path/url>" # image path/url
-#     alt: "<alt text>" # alt text
-#     caption: "<text>" # display caption under cover
-#     relative: false # when using page bundles set this to true
-#     hidden: true # only hide on current single page
-# editPost:
-#     URL: "https://github.com/<path_to_repo>/content"
-#     Text: "Suggest Changes" # edit text
-#     appendFilePath: true # to append file path to Edit link
 ---
 
 If you're looking to shut down a virtual machine running on a Proxmox Virtual Environment (PVE), you can use the Proxmox command-line interface (CLI) to accomplish this task quite effectively. The command for shutting down a VM in Proxmox is `qm shutdown`, followed by the ID of the virtual machine you'd like to shut down. Here's how to do it:

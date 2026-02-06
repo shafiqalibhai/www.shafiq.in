@@ -7,9 +7,9 @@ publicize_twitter_user:
 categories:
   - Architecture
 tags:
-  - Archimate
-  - Architecture
-  - ERP
+  - archimate
+  - architecture
+  - enterprise-architecture
 format: quote
 
 disableHLJS: false

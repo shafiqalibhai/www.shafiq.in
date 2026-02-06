@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2014-01-09T09:18:10+00:00
 categories:
   - Uncategorized
+tags:
+  - blogging
+  - review
+  - reflection
+  - writing
 
 disableHLJS: false
 ---

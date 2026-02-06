@@ -5,6 +5,11 @@ author: Shafiq Alibhai
 date: 2018-09-23T15:25:01+00:00
 categories:
   - Architecture
+tags:
+  - architecture
+  - enterprise-architecture
+  - resource
+  - reference
 
 disableHLJS: false
 ---

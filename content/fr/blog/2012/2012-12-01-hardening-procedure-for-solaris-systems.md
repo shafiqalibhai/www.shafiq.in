@@ -8,33 +8,10 @@ draft: true
 categories:
   - Development
 tags:
-  - AWK
-  - Browser
-  - copy
-  - cp
-  - Database
-  - database server
-  - ERP
-  - Grep
-  - Harden
-  - History
-  - HTML
-  - implementation
-  - intel
-  - IP
-  - Management
-  - Networks
-  - Requirement
-  - Requirements
-  - sed
-  - shell
-  - Solaris
-  - Sun
-  - Sun Microsystems
-  - Development
-  - tens
-  - Tools
-  - XML
+  - solaris
+  - security
+  - hardening
+  - administration
 
 disableHLJS: false
 ---

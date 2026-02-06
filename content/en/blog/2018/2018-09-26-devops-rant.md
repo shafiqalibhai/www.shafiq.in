@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-09-26T11:55:38+00:00
 categories:
   - Development
+tags:
+  - devops
+  - opinion
+  - technology
+  - best-practices
 disableHLJS: false
 ---
 

@@ -2,17 +2,13 @@
 title: Requirements Gathering
 author: Shafiq Alibhai
 date: 2010-07-31T11:02:19+00:00
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973446";}'
 categories:
   - Management
 tags:
-  - detailed specifications
-  - Programming
-  - Requirement
-  - Requirements
-  - requirements managers
-  - requirements writers
+  - requirements
+  - project-management
+  - specification
+  - planning
 
 disableHLJS: false
 ---

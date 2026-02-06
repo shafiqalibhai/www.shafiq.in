@@ -5,17 +5,13 @@ date: 2011-05-09T18:31:40+00:00
 categories:
   - Development
 tags:
-  - Build Management
-  - Building
-  - Developer
-  - HTML
-  - IP
-  - Java
-  - JavaScript
-  - JavaServer Pages
-  - Languages
-  - Programming
-  - sed
+  - build
+  - release-engineering
+  - best-practices
+  - tutorial
+
+disableHLJS: false
+---
 
 disableHLJS: false
 ---

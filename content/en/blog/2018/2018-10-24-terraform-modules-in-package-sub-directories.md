@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-10-24T13:16:15+00:00
 categories:
   - Development
+tags:
+  - terraform
+  - infrastructure
+  - how-to
+  - tutorial
 disableHLJS: false
 ---
 

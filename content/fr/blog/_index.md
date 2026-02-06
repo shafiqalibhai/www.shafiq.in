@@ -5,4 +5,5 @@ menu:
     weight: 1
 title: Blog
 disableHLJS: false
+type: blog
 ---

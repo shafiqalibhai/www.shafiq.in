@@ -3,13 +3,13 @@ title: Continuous Deployment
 author: Shafiq Alibhai
 date: 2010-10-19T09:07:45+00:00
 draft: true
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973442";}'
 categories:
   - Development
 tags:
-  - hudson
-  - PHP
+  - devops
+  - continuous-deployment
+  - php
+  - automation
 
 disableHLJS: false
 ---

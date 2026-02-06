@@ -2,16 +2,13 @@
 title: Go Programming Language - What's the Deal?
 author: Shafiq Alibhai
 date: 2009-11-13T06:32:38+00:00
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1275202510";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1275202511";}'
 categories:
   - Development
 tags:
-  - Google
-  - new programming language
-  - Programming
+  - go
+  - programming
+  - opinion
+  - technology
 
 disableHLJS: false
 ---

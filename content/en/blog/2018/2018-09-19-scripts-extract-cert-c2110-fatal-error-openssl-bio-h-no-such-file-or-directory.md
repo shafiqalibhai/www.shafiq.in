@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-09-19T15:44:02+00:00
 categories:
   - Development
+tags:
+  - openssl
+  - compilation
+  - troubleshooting
+  - ubuntu
 
 disableHLJS: false
 ---

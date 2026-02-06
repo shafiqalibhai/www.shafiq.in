@@ -5,12 +5,10 @@ date: 2011-04-04T04:36:59+00:00
 categories:
   - Uncategorized
 tags:
-  - administrator
-  - Business
-  - developer
-  - IT insights
-  - professional growth
-  - Learning
+  - career
+  - professional-development
+  - opinion
+  - management
 
 disableHLJS: false
 ---

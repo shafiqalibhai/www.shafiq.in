@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2021-05-21T13:25:56+00:00
 categories:
   - Quote
+tags:
+  - quote
+  - wisdom
+  - reflection
+  - irony
 format: quote
 
 disableHLJS: false

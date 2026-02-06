@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-09-26T11:55:38+00:00
 categories:
   - Development
+tags:
+  - devops
+  - opinion
+  - technology
+  - best-practices
 disableHLJS: false
 ---
 Nous avons tous entendu cette vieille maxime : mettre la charrette avant le cheval. Malheureusement, dans le monde du DevOps, cela se produit bien plus souvent qu’il ne devrait, et il est temps d’en parler.

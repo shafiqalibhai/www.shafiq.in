@@ -5,14 +5,10 @@ date: 2011-05-23T16:57:14+00:00
 categories:
   - Development
 tags:
-  - bash
-  - Grep
-  - Hosts (file)
-  - Network
-  - Puppet
-  - Solaris
-  - Sun Microsystems
-  - unix
+  - solaris
+  - puppet
+  - administration
+  - how-to
 
 disableHLJS: false
 ---

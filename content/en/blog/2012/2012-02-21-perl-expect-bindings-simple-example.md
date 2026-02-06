@@ -5,10 +5,10 @@ date: 2012-02-21T07:18:05+00:00
 categories:
   - Development
 tags:
-  - Expect
-  - Perl
-  - Automation
-  - Beginners Guide
+  - perl
+  - expect
+  - automation
+  - tutorial
 disableHLJS: false
 ---
 

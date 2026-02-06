@@ -2,20 +2,17 @@
 title: How To Get The Current Epoch Time (Unix Timestamp)
 author: Shafiq Alibhai
 date: 2010-09-30T04:56:45+00:00
-
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973442";}'
 categories:
   - Development
 tags:
   - bash
-  - Epoch Time
-  - erlang
-  - IP
+  - perl
   - java
-  - JavaScript shell
-  - MySQL
-  - oracle
+  - erlang
+  - how-to
+
+disableHLJS: false
+---
   - PHP
   - PostgreSQL
   - powershell

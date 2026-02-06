@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-12-22T09:38:39+00:00
 categories:
   - Development
+tags:
+  - azure
+  - troubleshooting
+  - how-to
+  - cloud
 disableHLJS: false
 ---
 

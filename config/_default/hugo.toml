@@ -1,3 +1,11 @@
+baseURL = "/"
+title = "Shafiq Alibhai"
+languageCode = "en-gb"
+defaultContentLanguage = "en"
+
+[pagination]
+pagerSize = 10
+
 [module]
 [module.hugoVersion]
   extended = true

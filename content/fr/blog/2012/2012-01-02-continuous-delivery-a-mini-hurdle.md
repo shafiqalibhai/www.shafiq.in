@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2012-01-02T17:31:13+00:00
 categories:
   - Development
+tags:
+  - devops
+  - continuous-deployment
+  - automation
+  - best-practices
 
 disableHLJS: false
 ---

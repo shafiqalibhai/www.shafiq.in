@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2018-09-04T13:48:55+00:00
 categories:
   - Development
+tags:
+  - git
+  - how-to
+  - tutorial
+  - troubleshooting
 
 disableHLJS: false
 ---

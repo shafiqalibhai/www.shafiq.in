@@ -5,9 +5,9 @@ date: 2018-07-01T10:49:02+00:00
 categories:
   - Architecture
 tags:
-  - Architecture
-  - ERP
-  - sed
+  - architecture
+  - enterprise-architecture
+  - quote
 format: quote
 
 disableHLJS: false

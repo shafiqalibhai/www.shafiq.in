@@ -2,20 +2,16 @@
 title: Productivity of all Individuals vs. Team Productivity
 author: Shafiq Alibhai
 date: 2010-07-12T08:14:38+00:00
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1279623363";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1299623063";}'
 categories:
   - Management
-  - Uncategorized
 tags:
-  - Cost
-  - Productivity
-  - Productivity of all Individuals
-  - Team Productivity
+  - productivity
+  - team-management
+  - leadership
+  - efficiency
 
 disableHLJS: false
+---
 ---
 
 Software development is a complex and collaborative process that requires effective teamwork and communication. However, many software teams struggle with productivity issues and fail to deliver high-quality products on time and within budget. In this post, I will discuss why team productivity is more important than individual productivity, and how you can improve your software team's performance by applying some proven strategies and best practices.

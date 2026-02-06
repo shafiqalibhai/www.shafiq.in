@@ -5,26 +5,13 @@ date: 2012-12-03T08:23:05+00:00
 draft: true
 publicize_twitter_user:
   - shafiqalibhai
-publicize_reach:
-  - 'a:3:{s:7:"twitter";a:1:{i:1937780;i:137;}s:2:"fb";a:1:{i:1937778;i:171;}s:2:"wp";a:1:{i:0;i:9;}}'
 categories:
   - Development
 tags:
-  - administrator
-  - Browser
-  - Business
-  - cp
-  - Harden
-  - implementation
-  - IP
-  - IP address
-  - logs
-  - Management
-  - Network
-  - promise
-  - Requirement
-  - sed
-  - URL
+  - juniper
+  - security
+  - hardening
+  - networking
 
 disableHLJS: false
 ---

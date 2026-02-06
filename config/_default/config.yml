@@ -34,6 +34,7 @@ languages:
     weight: 1
   fr:
     languageName: French
+    languageCode: fr-FR
     contentDir: content/fr
     languageDirection: ltr
     permalinks:

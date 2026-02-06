@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2012-04-10T07:51:08+00:00
 categories:
   - Management
+tags:
+  - risk
+  - project-management
+  - template
+  - documentation
 
 disableHLJS: false
 ---

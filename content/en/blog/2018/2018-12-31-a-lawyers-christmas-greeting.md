@@ -4,6 +4,10 @@ author: Shafiq Alibhai
 date: 2018-12-31T09:55:37+00:00
 categories:
   - Uncategorized
+tags:
+  - humor
+  - quote
+  - inspiration
 
 disableHLJS: false
 ---

@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2014-09-03T12:02:22+00:00
 categories:
   - Uncategorized
+tags:
+  - content-strategy
+  - digital
+  - marketing
+  - guide
 disableHLJS: false
 ---
 Voici quelques-éléments clés qui peuvent faire ou défaire votre stratégie de contenu numérique.

@@ -2,20 +2,13 @@
 title: Software Development Process
 author: Shafiq Alibhai
 date: 2010-07-20T08:26:25+00:00
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973446";}'
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1281408955";}'
 categories:
   - Management
-  - Uncategorized
 tags:
-  - iterative model
-  - sed
-  - Development
-  - Development process
-  - spiral model
-  - waterfall model
+  - software-development
+  - process
+  - management
+  - methodology
 
 disableHLJS: false
 ---

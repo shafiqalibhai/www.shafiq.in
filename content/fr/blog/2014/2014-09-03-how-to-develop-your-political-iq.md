@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2014-09-03T13:39:09+00:00
 categories:
   - Management
+tags:
+  - career
+  - workplace
+  - people-skills
+  - leadership
 
 disableHLJS: false
 ---

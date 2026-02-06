@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2021-01-21T13:00:41+00:00
 categories:
   - Development
+tags:
+  - linux
+  - bash
+  - how-to
+  - cli
 
 disableHLJS: false
 ---

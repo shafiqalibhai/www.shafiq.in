@@ -4,6 +4,10 @@ author: Shafiq Alibhai
 date: 2020-07-14T09:11:45+00:00
 categories:
   - Development
+tags:
+  - php
+  - tutorial
+  - debian
 
 disableHLJS: false
 ---

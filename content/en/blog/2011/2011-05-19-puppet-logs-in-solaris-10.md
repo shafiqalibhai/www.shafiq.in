@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2011-05-19T16:54:58+00:00
 categories:
   - Development
+tags:
+  - puppet
+  - solaris
+  - logging
+  - reference
 
 disableHLJS: false
 ---

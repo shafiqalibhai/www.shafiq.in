@@ -4,6 +4,11 @@ author: Shafiq Alibhai
 date: 2020-05-18T10:01:16+00:00
 categories:
   - Development
+tags:
+  - macos
+  - homebrew
+  - troubleshooting
+  - how-to
 
 disableHLJS: false
 ---

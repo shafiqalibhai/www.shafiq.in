@@ -5,8 +5,9 @@ date: 2023-01-27T11:08:20+00:00
 categories:
   - Management
 tags:
-  - Collaboration
-  - Communication
+  - devops
+  - collaboration
+  - communication
 
 disableHLJS: false
 ---

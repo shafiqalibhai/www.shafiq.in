@@ -4,7 +4,11 @@ author: Shafiq Alibhai
 date: 2018-10-12T09:49:17+00:00
 categories:
   - Development
-
+tags:
+  - nginx
+  - troubleshooting
+  - how-to
+  - git
 disableHLJS: false
 ---
 

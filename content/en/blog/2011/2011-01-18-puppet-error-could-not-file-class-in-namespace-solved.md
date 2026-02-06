@@ -5,11 +5,10 @@ date: 2011-01-18T07:03:39+00:00
 categories:
   - Development
 tags:
-  - Error message
-  - PHP
-  - Programming
-  - Puppet
-  - URL
+  - puppet
+  - troubleshooting
+  - error
+  - configuration
 
 disableHLJS: false
 ---

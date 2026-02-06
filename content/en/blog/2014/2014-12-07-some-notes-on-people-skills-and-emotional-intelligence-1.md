@@ -5,12 +5,10 @@ date: 2014-12-07T12:01:02+00:00
 categories:
   - Management
 tags:
+  - emotional-intelligence
+  - people-skills
   - assertiveness
-  - building
-  - emotional intelligence
-  - intel
-  - IOS
-  - people skills
+  - communication
 
 disableHLJS: false
 ---
