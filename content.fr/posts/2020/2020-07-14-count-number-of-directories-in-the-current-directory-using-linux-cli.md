@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "Count number of directories in the current directory using Linux cli"
 author: Shafiq Alibhai
 date: 2020-07-14T09:17:02+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Logo Samples for "We The Migrants"
 author: Shafiq Alibhai
 date: 2009-03-22T11:02:10+00:00

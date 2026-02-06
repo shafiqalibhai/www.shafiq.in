@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: A Beginner's Guide to Perl Expect Bindings - A Simple Walkthrough
 author: Shafiq Alibhai
 date: 2012-02-21T07:18:05+00:00

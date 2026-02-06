@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Ubuntu 11.04 Alpha 1 x64 Vmware Image
 author: Shafiq Alibhai
 draft: true

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: My email to Datawind… the company that supplies Aakash Ubislate tablets
 author: Shafiq Alibhai
 date: 2012-01-22T08:12:58+00:00

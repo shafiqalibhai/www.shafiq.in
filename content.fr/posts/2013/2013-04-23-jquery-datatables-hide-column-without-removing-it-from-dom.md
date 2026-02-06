@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How to Hide a Column in jQuery DataTables Without Removing It From the DOM
 author: Shafiq Alibhai
 date: 2013-04-23T10:11:33+00:00

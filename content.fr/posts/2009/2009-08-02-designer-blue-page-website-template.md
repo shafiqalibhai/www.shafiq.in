@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Designer Blue Page Website Template
 author: Shafiq Alibhai
 date: 2009-08-02T18:18:37+00:00

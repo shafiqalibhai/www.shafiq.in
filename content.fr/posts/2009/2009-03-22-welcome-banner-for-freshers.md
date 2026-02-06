@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Welcome Banner For Freshers
 author: Shafiq Alibhai
 date: 2009-03-22T10:37:06+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Book Cover for Udbhav 2009 Souvenir
 author: Shafiq Alibhai
 date: 2009-03-22T11:22:52+00:00

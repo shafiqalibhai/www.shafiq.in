@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Project Initiation Documentation RACI Chart
 author: Shafiq Alibhai
 date: 2014-12-30T15:56:13+00:00

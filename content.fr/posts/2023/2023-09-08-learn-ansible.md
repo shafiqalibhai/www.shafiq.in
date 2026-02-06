@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "Mastering Ansible: A Step-by-Step Tutorial"
 date: 2023-09-08T04:31:03+00:00
 # weight: 1

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'A passage to Goa: a generation and more later…'
 author: Shafiq Alibhai
 date: 2012-12-05T07:32:02+00:00

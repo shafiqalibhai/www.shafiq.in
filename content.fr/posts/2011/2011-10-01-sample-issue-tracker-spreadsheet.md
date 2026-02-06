@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Sample Issue Tracker Spreadsheet
 author: Shafiq Alibhai
 date: 2011-10-01T06:31:21+00:00

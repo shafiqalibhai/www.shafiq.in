@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Make it free or fail
 author: Shafiq Alibhai
 date: 2011-01-02T07:16:38+00:00

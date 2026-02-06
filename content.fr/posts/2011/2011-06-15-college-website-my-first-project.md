@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How I Built My First Website for My College
 author: Shafiq Alibhai
 draft: true

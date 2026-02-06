@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Effective human-computer interaction through cognitive biometrics
 author: Shafiq Alibhai
 date: 2011-11-11T05:58:31+00:00

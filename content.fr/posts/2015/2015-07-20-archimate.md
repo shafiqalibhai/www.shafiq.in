@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Archimate
 author: Shafiq Alibhai
 date: 2015-07-20T10:42:59+00:00

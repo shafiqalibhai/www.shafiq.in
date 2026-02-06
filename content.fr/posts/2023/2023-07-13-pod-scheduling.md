@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "How to avoid other pods from being scheduled on your node in Kubernetes"
 date: 2023-07-13T11:30:03+00:00
 # weight: 1

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How To Get The Current Epoch Time (Unix Timestamp)
 author: Shafiq Alibhai
 date: 2010-09-30T04:56:45+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'Decoding the Error: StatusCode=0 "ReferencedResourceNotProvisioned" in Azure'
 author: Shafiq Alibhai
 date: 2018-12-22T09:38:39+00:00

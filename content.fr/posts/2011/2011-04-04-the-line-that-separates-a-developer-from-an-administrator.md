@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: The Fine Line Between Developers and Administrators - A Balancing Act
 author: Shafiq Alibhai
 date: 2011-04-04T04:36:59+00:00

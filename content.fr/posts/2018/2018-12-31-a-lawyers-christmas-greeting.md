@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: A lawyers christmas greeting
 author: Shafiq Alibhai
 date: 2018-12-31T09:55:37+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: A Practical Guide to Release Engineering - Mastering Version Control with Subversion
 author: Shafiq Alibhai
 date: 2011-05-11T16:38:57+00:00

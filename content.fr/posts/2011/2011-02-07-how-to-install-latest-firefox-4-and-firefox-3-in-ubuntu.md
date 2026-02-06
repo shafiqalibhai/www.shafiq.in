@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: A Simple Guide to Installing Both Firefox 4 and Firefox 3 on Ubuntu
 author: Shafiq Alibhai
 date: 2011-02-07T07:03:39+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Why can we not allow for a process that creates detailed requirements and design information for each feature so that we can create more meaningful estimates?
 author: Shafiq Alibhai
 date: 2010-07-19T09:26:59+00:00

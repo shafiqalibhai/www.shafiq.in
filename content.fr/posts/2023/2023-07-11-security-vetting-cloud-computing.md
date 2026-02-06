@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "Security Clearance Vetting for Access to Cloud Production Environments"
 date: 2023-07-11T01:50:03+00:00
 # weight: 1

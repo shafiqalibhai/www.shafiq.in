@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Never use a shared database server for development work.
 author: Shafiq Alibhai
 date: 2010-09-15T08:39:58+00:00

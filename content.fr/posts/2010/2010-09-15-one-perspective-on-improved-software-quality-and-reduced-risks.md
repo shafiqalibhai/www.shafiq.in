@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: One Perspective on Improved Software Quality and Reduced Risks
 author: Shafiq Alibhai
 date: 2010-09-15T04:11:06+00:00

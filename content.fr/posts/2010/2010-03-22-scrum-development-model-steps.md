@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How to Implement Scrum Development Model in 8 Steps
 author: Shafiq Alibhai
 date: 2010-03-22T06:52:15+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Enterprise architecture
 author: Shafiq Alibhai
 date: 2018-07-01T10:49:47+00:00

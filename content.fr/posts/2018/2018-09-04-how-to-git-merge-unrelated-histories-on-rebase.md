@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Merging Unrelated Git Histories - A Simple Guide
 author: Shafiq Alibhai
 date: 2018-09-04T13:48:55+00:00

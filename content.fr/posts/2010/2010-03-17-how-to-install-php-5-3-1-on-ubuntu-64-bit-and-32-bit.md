@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How to Install PHP 5.3.1 on Ubuntu 64 bit and 32 bit
 author: Shafiq Alibhai
 date: 2010-03-17T07:33:06+00:00

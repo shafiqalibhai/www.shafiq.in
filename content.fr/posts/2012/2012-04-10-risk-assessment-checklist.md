@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Risk Assessment Checklist
 author: Shafiq Alibhai
 date: 2012-04-10T07:51:08+00:00

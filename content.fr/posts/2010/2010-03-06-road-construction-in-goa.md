@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Road construction in Goa - A nightmare for commuters
 author: Shafiq Alibhai
 date: 2010-03-06T05:14:15+00:00

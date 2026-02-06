@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: The Art of System Hardening - A Comprehensive Guide
 author: Shafiq Alibhai
 date: 2013-01-12

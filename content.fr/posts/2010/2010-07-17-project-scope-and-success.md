@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Project Scope and Success
 author: Shafiq Alibhai
 date: 2010-07-17T09:40:52+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How to Display the Contents of a Node's Field as an Array in Drupal 6
 author: Shafiq Alibhai
 date: 2013-09-11T09:32:05+00:00

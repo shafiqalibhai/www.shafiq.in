@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Unveiling the iOS-Inspired WordPress Theme You've Been Waiting For
 author: Shafiq Alibhai
 date: 2012-10-31T14:26:45+00:00

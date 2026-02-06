@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Replace all dots in filenames except the extension on Linux
 author: Shafiq Alibhai
 date: 2021-01-21T13:00:41+00:00

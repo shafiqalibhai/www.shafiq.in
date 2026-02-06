@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: No good deed ever goes unpunished.
 author: Shafiq Alibhai
 date: 2021-05-21T13:25:56+00:00

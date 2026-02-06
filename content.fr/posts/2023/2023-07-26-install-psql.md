@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "How to install Postgresql Client using Homebrew"
 date: 2023-07-26T11:30:03+00:00
 # weight: 1

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Choose your titles wisely for better URLs
 author: Shafiq Alibhai
 date: 2009-06-20T05:47:06+00:00

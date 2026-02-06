@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Third party assessment document
 author: Shafiq Alibhai
 date: 2012-12-01T16:13:45+00:00

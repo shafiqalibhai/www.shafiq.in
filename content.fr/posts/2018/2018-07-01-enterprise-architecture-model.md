@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Enterprise Architecture Model
 author: Shafiq Alibhai
 date: 2018-07-01T10:49:02+00:00

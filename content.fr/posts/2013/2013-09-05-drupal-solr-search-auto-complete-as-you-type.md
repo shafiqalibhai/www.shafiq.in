@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Recherche Drupal et complétion automatique en temps réel
 author: Shafiq Alibhai
 date: 2013-09-05T10:51:55+00:00

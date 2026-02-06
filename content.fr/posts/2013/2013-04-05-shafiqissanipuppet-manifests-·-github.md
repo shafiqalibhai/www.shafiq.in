@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: shafiqalibhai/Puppet-Manifests · GitHub
 author: Shafiq Alibhai
 date: 2013-04-05T15:07:11+00:00

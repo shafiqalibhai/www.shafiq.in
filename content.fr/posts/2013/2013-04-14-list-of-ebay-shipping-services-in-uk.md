@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: List of Ebay shipping services in UK
 author: Shafiq Alibhai
 date: 2013-04-14T08:36:44+00:00

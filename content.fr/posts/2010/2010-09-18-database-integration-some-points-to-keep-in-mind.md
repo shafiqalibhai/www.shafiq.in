@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Database Integration – some points to keep in mind
 author: Shafiq Alibhai
 date: 2010-09-18T07:19:26+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: A Simple Guide to Installing SSHPass on Ubuntu and macOS
 author: Shafiq Alibhai
 date: 2018-09-02T10:33:49+00:00

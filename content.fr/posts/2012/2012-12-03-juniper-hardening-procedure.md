@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Juniper Hardening Procedure
 author: Shafiq Alibhai
 date: 2012-12-03T08:23:05+00:00

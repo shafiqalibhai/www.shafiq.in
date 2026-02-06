@@ -42,32 +42,32 @@ languages:
     weight: 2
 
 # menu:
-  # home:
-    # - name: "Documentation"
-    #   pageRef: "/docs/example/"
-    #   weight: 1
-    # - pageRef: "/docs/example/"
-    #   weight: 10
-    #   parent: "Documentation"
-    # - name: "Shortcodes"
-    #   pageRef: "/docs/shortcodes/buttons/"
-    #   weight: 20
-    #   parent: "Documentation"
-    # - name: "Showcases"
-    #   pageRef: "/showcases/"
-    #   weight: 2
-    # - name: "Github"
-    #   url: "https://github.com/alex-shpak/hugo-book/"
-    #   weight: 3
+# home:
+# - name: "Documentation"
+#   pageRef: "/docs/example/"
+#   weight: 1
+# - pageRef: "/docs/example/"
+#   weight: 10
+#   parent: "Documentation"
+# - name: "Shortcodes"
+#   pageRef: "/docs/shortcodes/buttons/"
+#   weight: 20
+#   parent: "Documentation"
+# - name: "Showcases"
+#   pageRef: "/showcases/"
+#   weight: 2
+# - name: "Github"
+#   url: "https://github.com/alex-shpak/hugo-book/"
+#   weight: 3
 
-  # before: []
-  # after:
-    # - name: "Github"
-    #   url: "https://github.com/alex-shpak/hugo-book"
-    #   weight: 10
-    # - name: "Hugo Themes"
-    #   url: "https://themes.gohugo.io/themes/hugo-book/"
-    #   weight: 20
+# before: []
+# after:
+# - name: "Github"
+#   url: "https://github.com/alex-shpak/hugo-book"
+#   weight: 10
+# - name: "Hugo Themes"
+#   url: "https://themes.gohugo.io/themes/hugo-book/"
+#   weight: 20
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -143,9 +143,9 @@ params:
   BookTranslatedOnly: false
 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Shafiq Alibhai — Blog"
-  description: "Welcome to my blog, where I share my thoughts, passion, curiosity, experiences and some randomness."
-  keywords: [Blog]
+  title: "Blog"
+  description: "Welcome to my website, where I share my thoughts, passion, curiosity, and experiences in the form of blog posts and notes."
+  keywords: [Blog, Notes]
   author: Shafiq Alibhai
   # author: ["Me", "You"] # multiple authors
   #  images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -170,12 +170,12 @@ params:
 
   #  assets:
 
-    # disableFingerprinting: true
-    # favicon: "<link / abs url>"
-    # favicon16x16: "<link / abs url>"
-    # favicon32x32: "<link / abs url>"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
+  # disableFingerprinting: true
+  # favicon: "<link / abs url>"
+  # favicon16x16: "<link / abs url>"
+  # favicon32x32: "<link / abs url>"
+  # apple_touch_icon: "<link / abs url>"
+  # safari_pinned_tab: "<link / abs url>"
 
   # label:
   #   text: "Home"
@@ -200,7 +200,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to a blog.
+    Content: Welcome to my website, where I share my thoughts, passion, curiosity, and experiences in the form of blog posts and notes.
 
   socialIcons:
     #- name: twitter
@@ -243,7 +243,6 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-
 languageCode: en-GB
 defaultContentLanguage: "en"
 hasCJKLanguage: false
@@ -265,46 +264,46 @@ minify:
 #       name: search
 #       url: /search/
 #       weight: 9
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 11
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 20
-    # - identifier: shop
-    #   name: shop
-    #   url: /shop/
-    #   weight: 20
-    # - identifier: about-shafiq/
-    #   name: about
-    #   url: /post/about-shafiq/
-    #   weight: 10
-    # - identifier: favourite-quotes/
-    #   name: favourite quotes
-    #   url: /categories/quote/
-    #   weight: 40
-    # - identifier: designs/
-    #   name: design
-    #   url: /categories/design/
-    #   weight: 50
-    # - identifier: development/
-    #   name: development
-    #   url: /categories/development/
-    #   weight: 60
-    # - identifier: architecture/
-    #   name: architecture
-    #   url: /categories/architecture/
-    #   weight: 70
-    # - identifier: management/
-    #   name: management
-    #   url: /categories/management/
-    #   weight: 80
-    # - identifier: contact-shafiq/
-    #   name: contact
-    #   url: /post/contact-shafiq/
-    #   weight: 90
+# - identifier: categories
+#   name: categories
+#   url: /categories/
+#   weight: 11
+# - identifier: tags
+#   name: tags
+#   url: /tags/
+#   weight: 20
+# - identifier: shop
+#   name: shop
+#   url: /shop/
+#   weight: 20
+# - identifier: about-shafiq/
+#   name: about
+#   url: /post/about-shafiq/
+#   weight: 10
+# - identifier: favourite-quotes/
+#   name: favourite quotes
+#   url: /categories/quote/
+#   weight: 40
+# - identifier: designs/
+#   name: design
+#   url: /categories/design/
+#   weight: 50
+# - identifier: development/
+#   name: development
+#   url: /categories/development/
+#   weight: 60
+# - identifier: architecture/
+#   name: architecture
+#   url: /categories/architecture/
+#   weight: 70
+# - identifier: management/
+#   name: management
+#   url: /categories/management/
+#   weight: 80
+# - identifier: contact-shafiq/
+#   name: contact
+#   url: /post/contact-shafiq/
+#   weight: 90
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 # markup:
@@ -317,29 +316,29 @@ pygmentsUseClasses: true
 #     style: monokai
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        # - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    # - JSON # is necessary
 
 related:
-    includeNewer: true
-    threshold: 60
-    toLower: false
-    hidden: true
-    indices:
-        - name: tags
-          weight: 100
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  hidden: true
+  indices:
+    - name: tags
+      weight: 100
 
-        - name: categories
-          weight: 200
+    - name: categories
+      weight: 200
 
 security:
   funcs:
     getenv:
       allow:
-        - '^HUGO_'
-        - '^CI$'
-        - '^WC_POST_CSS$'
-        - 'WC_POST_CSS'
+        - "^HUGO_"
+        - "^CI$"
+        - "^WC_POST_CSS$"
+        - "WC_POST_CSS"
         - ^WC_

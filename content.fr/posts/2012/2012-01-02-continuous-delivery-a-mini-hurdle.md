@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'Navigating the Obstacles of Continuous Delivery'
 author: Shafiq Alibhai
 date: 2012-01-02T17:31:13+00:00

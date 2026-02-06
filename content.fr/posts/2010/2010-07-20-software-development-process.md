@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Software Development Process
 author: Shafiq Alibhai
 date: 2010-07-20T08:26:25+00:00

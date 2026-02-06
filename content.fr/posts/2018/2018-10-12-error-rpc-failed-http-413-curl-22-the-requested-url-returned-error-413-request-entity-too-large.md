@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'How to Fix the "RPC failed; HTTP 413 curl 22" Error in Nginx'
 author: Shafiq Alibhai
 date: 2018-10-12T09:49:17+00:00

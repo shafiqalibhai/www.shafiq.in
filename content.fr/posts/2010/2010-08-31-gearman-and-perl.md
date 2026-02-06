@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Gearman and Perl
 author: Shafiq Alibhai
 draft: true

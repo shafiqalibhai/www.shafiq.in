@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: A Comprehensive Guide to Drupal 7 Mobile Boilerplate Theme
 author: Shafiq Alibhai
 draft: true

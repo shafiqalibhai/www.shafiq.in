@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: The "Yes, But" Syndrome
 author: Shafiq Alibhai
 date: 2010-07-14T06:13:26+00:00

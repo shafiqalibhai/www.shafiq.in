@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Go Programming Language - What's the Deal?
 author: Shafiq Alibhai
 date: 2009-11-13T06:32:38+00:00

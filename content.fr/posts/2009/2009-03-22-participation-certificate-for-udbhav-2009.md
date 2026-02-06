@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Participation Certificate for Udbhav 2009
 author: Shafiq Alibhai
 date: 2009-03-22T11:14:03+00:00

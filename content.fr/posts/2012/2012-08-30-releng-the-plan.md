@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Navigating Release Engineering - A Step-by-Step Plan
 author: Shafiq Alibhai
 date: 2012-08-30T17:14:59+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Completeness of the Requirements Set
 author: Shafiq Alibhai
 date: 2010-08-18T06:40:13+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 menu:
   before:
     name: blog

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Lessons Learned – from a cms developer
 author: Shafiq Alibhai
 date: 2009-10-09T07:32:57+00:00

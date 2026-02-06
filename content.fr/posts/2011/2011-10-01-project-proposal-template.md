@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Project Proposal Template
 author: Shafiq Alibhai
 date: 2011-10-01T07:18:20+00:00

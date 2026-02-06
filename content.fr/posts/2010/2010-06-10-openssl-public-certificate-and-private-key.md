@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: OpenSSL – Public Certificate and Private key
 author: Shafiq Alibhai
 date: 2010-06-10T12:19:12+00:00

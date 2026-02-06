@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 
 title: Elevate Your Website Experience with BottomToolBar  
 author: Shafiq Alibhai  

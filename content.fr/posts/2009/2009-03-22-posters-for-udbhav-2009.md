@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Posters for Udbhav 2009
 author: Shafiq Alibhai
 date: 2009-03-22T11:17:26+00:00

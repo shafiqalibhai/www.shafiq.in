@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "How to count number of words in a pdf file from Linux cli"
 date: 2023-09-05T04:30:03+00:00
 # weight: 1

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Gearman – Can't call method "syswrite" on an undefined value at /usr/local/share/perl/5.10.1/Gearman/Taskset.pm line 202.
 author: Shafiq Alibhai
 date: 2010-08-31T09:37:09+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: The Cart Before the Horse - A DevOps Conundrum
 author: Shafiq Alibhai
 date: 2018-09-26T11:55:38+00:00

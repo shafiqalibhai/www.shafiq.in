@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: clean and modern black on wood website template that can be used for any type of business or personal portfolio site
 author: Shafiq Alibhai
 date: 2009-03-01T18:10:06+00:00

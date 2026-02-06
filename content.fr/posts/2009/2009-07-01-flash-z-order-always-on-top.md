@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Flash z-order — always on top?
 author: Shafiq Alibhai
 date: 2009-07-01T07:41:55+00:00

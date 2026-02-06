@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How To Disable Google Analytics
 author: Shafiq Alibhai
 date: 2010-09-30T06:27:57+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: '/bin/sh: 1: flex: not found'
 author: Shafiq Alibhai
 date: 2018-09-19T15:32:11+00:00

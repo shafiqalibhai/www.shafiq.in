@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Basic Software Development Process – Points
 author: Shafiq Alibhai
 date: 2009-10-01T16:38:48+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Continuous Deployment
 author: Shafiq Alibhai
 date: 2010-10-19T09:07:45+00:00

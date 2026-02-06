@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Continuous Delivery
 author: Shafiq Alibhai
 draft: true

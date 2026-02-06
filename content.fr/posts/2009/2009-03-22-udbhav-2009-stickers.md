@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Udbhav 2009 Stickers
 author: Shafiq Alibhai
 date: 2009-03-22T11:15:31+00:00

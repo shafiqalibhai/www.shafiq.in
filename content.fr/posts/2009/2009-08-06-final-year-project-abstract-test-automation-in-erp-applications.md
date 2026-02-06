@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Final Year Project Abstract — Test Automation in ERP Applications
 author: Shafiq Alibhai
 draft: true

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'How To Install PHP (7.4, 7.3 & 5.6) on Debian 9 Stretch'
 author: Shafiq Alibhai
 date: 2020-07-14T09:11:45+00:00

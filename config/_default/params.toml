@@ -111,23 +111,8 @@ clientId = ""
 clientSecret = ""
 autoCreateIssue = false
 
-[comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
-avatar = ""
-emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
-placeholder = ""
-
 [comments.waline.locale]
 admin = "Admin"
-
-[comments.twikoo]
-envId = ""
-region = ""
-path = ""
-lang = ""
 
 [comments.cactus]
 defaultHomeserverUrl = "https://matrix.cactus.chat:8448"

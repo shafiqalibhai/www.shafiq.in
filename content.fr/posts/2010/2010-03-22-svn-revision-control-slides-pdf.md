@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: SVN – revision control – slides – pdf
 author: Shafiq Alibhai
 draft: true

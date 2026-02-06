@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'Music & Melodies of the Persian Ismaili qasideh — Institute of Ismaili studies UK'
 author: Shafiq Alibhai
 draft: true

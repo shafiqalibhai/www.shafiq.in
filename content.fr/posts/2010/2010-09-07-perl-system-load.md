@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Perl – system load
 author: Shafiq Alibhai
 date: 2010-09-07T08:45:06+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Typo3 Reference Manuals – A Google Chrome Extension
 author: Shafiq Alibhai
 date: 2010-03-27T07:43:04+00:00

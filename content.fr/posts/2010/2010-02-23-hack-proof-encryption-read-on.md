@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Hack Proof Encryption ? read on…
 author: Shafiq Alibhai
 date: 2010-02-23T10:00:02+00:00

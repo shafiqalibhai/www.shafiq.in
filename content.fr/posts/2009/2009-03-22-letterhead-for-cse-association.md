@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Letterhead for C.S.E Association
 author: Shafiq Alibhai
 draft: true

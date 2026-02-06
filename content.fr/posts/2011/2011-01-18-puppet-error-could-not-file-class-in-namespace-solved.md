@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'Puppet Error – Could not file class in namespace – [solved]'
 author: Shafiq Alibhai
 date: 2011-01-18T07:03:39+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: The launch of Mandriva Linux 2010
 author: Shafiq Alibhai
 date: 2009-10-04T05:26:21+00:00

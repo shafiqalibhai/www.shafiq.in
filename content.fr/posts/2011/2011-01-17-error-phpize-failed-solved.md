@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'ERROR: phpize failed [solved]'
 author: Shafiq Alibhai
 date: 2011-01-17T06:51:05+00:00

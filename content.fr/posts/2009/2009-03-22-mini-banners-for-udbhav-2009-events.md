@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Mini Banners for Udbhav 2009 Events
 author: Shafiq Alibhai
 date: 2009-03-22T11:09:41+00:00

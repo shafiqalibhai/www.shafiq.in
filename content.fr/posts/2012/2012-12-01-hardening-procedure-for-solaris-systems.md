@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Hardening Procedure for Solaris Systems
 author: Shafiq Alibhai
 date: 2012-12-01T16:27:52+00:00

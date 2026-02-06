@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Too Much Change?
 author: Shafiq Alibhai
 date: 2009-11-15T17:18:41+00:00

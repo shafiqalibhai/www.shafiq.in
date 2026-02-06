@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Applicable values for AddItemRequest.Item.Country
 author: Shafiq Alibhai
 date: 2013-10-26T16:59:12+00:00

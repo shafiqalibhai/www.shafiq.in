@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 2013 blogs in review
 author: Shafiq Alibhai
 date: 2014-01-09T09:18:10+00:00

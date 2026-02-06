@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 
 title: Your Go-To Guide for Top Enterprise Architecture Resources
 author: Shafiq Alibhai

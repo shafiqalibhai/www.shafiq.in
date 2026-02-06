@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Collaboration in a DevOps Team
 author: Shafiq Alibhai
 date: 2023-01-27T11:08:20+00:00

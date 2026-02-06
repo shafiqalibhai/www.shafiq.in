@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Stakeholder List Document
 author: Shafiq Alibhai
 date: 2014-12-08T10:19:56+00:00

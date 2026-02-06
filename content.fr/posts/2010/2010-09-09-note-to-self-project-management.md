@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Note to Self – Project Management
 author: Shafiq Alibhai
 date: 2010-09-09T06:20:39+00:00

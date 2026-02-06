@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: '[solved] xcrun: error: active developer path ("/Applications/Xcode.app/Contents/Developer") does not exist'
 author: Shafiq Alibhai
 date: 2018-09-06T09:43:25+00:00

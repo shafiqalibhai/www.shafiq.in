@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Awesome ( and slightly hilarious ) email from Weebly
 author: Shafiq Alibhai
 date: 2010-12-16T18:31:22+00:00

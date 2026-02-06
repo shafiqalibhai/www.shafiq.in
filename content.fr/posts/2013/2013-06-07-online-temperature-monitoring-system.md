@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Online Temperature Monitoring System
 author: Shafiq Alibhai
 date: 2013-06-07T09:52:57+00:00

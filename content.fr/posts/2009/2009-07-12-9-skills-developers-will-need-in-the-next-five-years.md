@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 9 skills developers will need in the next five years
 author: Shafiq Alibhai
 date: 2009-07-12T07:40:57+00:00

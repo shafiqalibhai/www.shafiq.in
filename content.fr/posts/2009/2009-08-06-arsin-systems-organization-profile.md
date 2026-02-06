@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Arsin Systems — Organisation Profile
 author: Shafiq Alibhai
 draft: true

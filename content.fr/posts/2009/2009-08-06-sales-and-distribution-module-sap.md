@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Sales and Distribution module (SAP)
 author: Shafiq Alibhai
 date: 2009-08-06T06:12:49+00:00

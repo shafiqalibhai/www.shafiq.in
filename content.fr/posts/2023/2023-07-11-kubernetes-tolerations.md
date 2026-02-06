@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "Kubernetes Tolerations"
 date: 2023-07-11T01:30:03+00:00
 # weight: 1

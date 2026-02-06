@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Disable services in Solaris 10
 author: Shafiq Alibhai
 date: 2011-05-23T16:57:14+00:00

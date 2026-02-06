@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Foreigner regional registration office in Goa yet to start OCI facility despite getting powers – Think India Foundation
 author: Shafiq Alibhai
 draft: true

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: a priori thinking
 author: Shafiq Alibhai
 date: 2014-12-07T13:25:16+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: sample design for the ASTRA College Magazine
 author: Shafiq Alibhai
 date: 2009-03-01T17:39:59+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'Sneak Peek and Official Trailer - The Film "KICHIDI" by Director Saahith Mothkuri'
 author: Shafiq Alibhai
 date: 2013-09-21T17:53:10+00:00

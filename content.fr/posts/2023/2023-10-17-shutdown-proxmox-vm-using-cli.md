@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "Shutdown Proxmox VM using CLI"
 date: 2023-10-17T01:30:03+00:00
 # weight: 1

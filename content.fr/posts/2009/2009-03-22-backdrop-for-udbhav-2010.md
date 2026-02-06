@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: "Backdrop for Udbhav 2010"
 author: "Shafiq Alibhai"
 type: "post"

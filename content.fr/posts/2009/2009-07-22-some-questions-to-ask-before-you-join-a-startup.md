@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Some Questions to Ask Before You Join a Startup
 author: Shafiq Alibhai
 date: 2009-07-22T12:18:17+00:00

@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How to run VLC player as root user
 author: Shafiq Alibhai
 date: 2020-05-18T09:59:54+00:00

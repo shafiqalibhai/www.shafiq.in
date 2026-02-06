@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Requirements Gathering
 author: Shafiq Alibhai
 date: 2010-07-31T11:02:19+00:00

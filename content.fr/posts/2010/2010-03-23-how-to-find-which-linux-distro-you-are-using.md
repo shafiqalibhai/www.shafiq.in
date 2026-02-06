@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How to Identify Your Linux Distribution and Version with Simple Commands
 author: Shafiq Alibhai
 date: 2010-03-23T05:10:33+00:00

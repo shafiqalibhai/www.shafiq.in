@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'Website Design – Black Blue [PSD]'
 author: Shafiq Alibhai
 draft: true

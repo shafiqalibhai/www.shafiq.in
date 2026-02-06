@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Productivity of all Individuals vs. Team Productivity
 author: Shafiq Alibhai
 date: 2010-07-12T08:14:38+00:00

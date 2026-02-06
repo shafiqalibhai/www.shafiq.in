@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Bug found on Google Chrome Extension Labs Website
 author: Shafiq Alibhai
 date: 2010-12-08T15:05:35+00:00

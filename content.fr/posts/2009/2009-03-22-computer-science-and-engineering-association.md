@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Logos for Computer Science and Engineering Association
 author: Shafiq Alibhai
 date: 2009-03-22T10:47:27+00:00

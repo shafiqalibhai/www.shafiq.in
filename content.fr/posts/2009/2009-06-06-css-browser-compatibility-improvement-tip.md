@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: CSS Browser Compatibility Improvement Tip
 author: Shafiq Alibhai
 date: 2009-06-06T10:09:09+00:00

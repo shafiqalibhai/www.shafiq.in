@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How to Boost Your Resume with Lifelong Learning
 author: Shafiq Alibhai
 date: 2010-03-22T06:06:00+00:00

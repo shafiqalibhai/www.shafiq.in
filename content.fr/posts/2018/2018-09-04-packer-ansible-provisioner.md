@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: A Simple Guide to Using Ansible with Packer
 author: Shafiq Alibhai
 date: 2018-09-04T11:08:49+00:00

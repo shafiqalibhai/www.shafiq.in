@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: 'OpenSuse 11.4 [screenshots]'
 author: Shafiq Alibhai
 date: 2011-03-13T10:49:42+00:00

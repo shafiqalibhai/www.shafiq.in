@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Writings of an Anglican bishop
 author: Shafiq Alibhai
 date: 2014-12-06T14:25:02+00:00

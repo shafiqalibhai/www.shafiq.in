@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: Mastering Digital Content Strategy - A Comprehensive Guide 
 author: Shafiq Alibhai
 date: 2014-09-03T12:02:22+00:00

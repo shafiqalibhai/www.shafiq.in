@@ -1,5 +1,4 @@
 ---
-lang: "fr"
 title: How to tell the difference between slash and backslash
 author: Shafiq Alibhai
 date: 2010-04-02T08:40:48+00:00
