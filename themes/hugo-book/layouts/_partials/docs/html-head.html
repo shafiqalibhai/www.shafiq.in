@@ -11,22 +11,6 @@ https://github.com/alex-shpak/hugo-book
 <meta name="color-scheme" content="light dark">
 <script defer src="https://umami.deployview.com/script.js" data-website-id="44ef7c2f-250d-44a1-92e6-4614122ed902"></script>
 
-<script>
-  (function(d,t) {
-    var BASE_URL="http://192.168.1.83:30208/";
-    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=BASE_URL+"/packs/js/sdk.js";
-    g.async = true;
-    s.parentNode.insertBefore(g,s);
-    g.onload=function(){
-      window.chatwootSDK.run({
-        websiteToken: 'sNp1u4HRoBAdnr5UwQVpZrE8',
-        baseUrl: BASE_URL
-      })
-    }
-  })(document,"script");
-</script>
-
 {{- with .Page.Params.BookHref -}}
   <meta http-equiv="Refresh" content="0; url='{{ . }}'" />
 {{- end -}}

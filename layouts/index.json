@@ -1,0 +1,14 @@
+{{- $sections := .Site.Params.mainSections -}}
+[
+  {{- range $i, $e := where .Site.RegularPages "Section" "in" $sections -}}
+    {{- if $i }},{{ end }}
+    {
+      "content": {{ .Content | jsonify }},
+      "permalink": {{ .Permalink | jsonify }},
+      "summary": {{ .Summary | jsonify }},
+      "tags": {{ .Params.tags | jsonify }},
+      "title": {{ .Title | jsonify }},
+      "date": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }}
+    }
+  {{- end }}
+]

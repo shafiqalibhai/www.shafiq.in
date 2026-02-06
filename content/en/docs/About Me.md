@@ -11,66 +11,68 @@ menu:
 disableHLJS: false
 ---
 
+# About Me
+
 Goan in Birmingham UK, introvert, learns by doing, likes reading, writing and freedom.
 
-# My Likes
+## My Likes
 
-## Magazines
+### Magazines
 
-### Anime
+#### Anime
 
 - Otaku
 - Anime
 - Neo
 
-### Technology 
+#### Technology 
 
 - Digit
 - Chip
 
-## Hobbies
+### Hobbies
 
-### Book Binding
+#### Book Binding
 
-## Books
+### Books
 
-### Genres
+#### Genres
 
 - Reference
 - Self Help
 - Humour
 
-## Movies
+### Movies
 
-## TV Series
+### TV Series
 
-## Music
+### Music
 
-## Games
+### Games
 
 - Quake 3
 - Unreal Tournament
 - Road Rash
 - Need For Speed
 
-## Sports
+### Sports
 
 - Formula 1
 
-## Contribution
+### Contribution
 
 - Donates to Cancer Research UK, West Bromwich
 - Buys often from Salvation army, Oldbury
 
-## Politics
+### Politics
 
 I am interested in the following topics related to Politics:
 
-### European Union
+#### European Union
 
-### United Kingdom
+#### United Kingdom
 
-## Software
+### Software
 
 - write-good linter
 - Docker/Podman
