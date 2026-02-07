@@ -9,7 +9,7 @@ reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1277494968";}'
   - s:1:"1";
 categories:
-  - Design
+  - design
 tags:
   - Logo Samples
 disableHLJS: false

@@ -5,7 +5,7 @@ date: 2010-08-18T06:40:13+00:00
 reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973446";}'
 categories:
-  - Management
+  - management
 tags:
   - Design
   - Requirement

@@ -3,7 +3,7 @@ title: Some of my favourite cell phones
 author: Shafiq Alibhai
 date: 2012-01-23T09:06:52+00:00
 categories:
-  - Uncategorized
+  - development
 tags:
   - mobile
   - technology

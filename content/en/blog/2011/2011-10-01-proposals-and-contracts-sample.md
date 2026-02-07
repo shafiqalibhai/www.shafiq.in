@@ -3,7 +3,7 @@ title: 'Proposals and Contracts [Sample]'
 author: Shafiq Alibhai
 date: 2011-10-01T07:00:19+00:00
 categories:
-  - Management
+  - management
 
 disableHLJS: false
 ---

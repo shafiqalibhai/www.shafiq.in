@@ -1,11 +1,11 @@
 ---
 title: Book Binding
-description: A description of this category
+description: Bookbinding techniques, crafts, restoration, and book arts
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#8b6914"
+    colour: "#fff"
 disableHLJS: false
 ---

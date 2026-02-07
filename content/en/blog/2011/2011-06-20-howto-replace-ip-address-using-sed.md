@@ -3,7 +3,7 @@ title: '[HowTo] Replace ip address using sed'
 author: Shafiq Alibhai
 date: 2011-06-20T11:38:01+00:00
 categories:
-  - Development
+  - development
 tags:
   - sed
   - regex

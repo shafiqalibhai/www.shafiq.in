@@ -1,0 +1,35 @@
+# yamllint configuration
+# Install: brew install yamllint
+# Usage: yamllint config/
+
+---
+extends: relaxed
+
+rules:
+  # Line length - Hugo configs often have long values
+  line-length:
+    max: 200
+    level: warning
+
+  # Indentation - Must be 2 spaces
+  indentation:
+    spaces: 2
+    indent-sequences: true
+
+  # Comments - Must have space after #
+  comments:
+    min-spaces-from-content: 1
+
+  # Trailing spaces not allowed
+  trailing-spaces: enable
+
+  # Keys should be unique
+  key-duplicates: enable
+
+  # No tabs
+  tabs:
+    forbid-all: true
+
+  # Empty lines
+  empty-lines:
+    max: 2

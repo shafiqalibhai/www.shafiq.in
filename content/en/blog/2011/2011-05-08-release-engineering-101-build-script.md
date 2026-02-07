@@ -3,7 +3,7 @@ title: Demystifying Release Engineering - A Guide to Build Scripts
 author: Shafiq Alibhai
 date: 2011-05-07T20:37:16+00:00
 categories:
-  - Development
+  - development
 
 disableHLJS: false
 ---

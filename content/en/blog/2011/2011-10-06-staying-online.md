@@ -3,7 +3,7 @@ title: Staying Online
 author: Shafiq Alibhai
 date: 2011-10-06T05:30:40+00:00
 categories:
-  - uncategorized
+  - writing
 
 disableHLJS: false
 ---

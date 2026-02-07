@@ -1,11 +1,11 @@
 ---
 title: Board Games
-description: A description of this category
+description: Game reviews, strategies, mechanics, and tabletop gaming insights
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#ff6b35"
+    colour: "#fff"
 disableHLJS: false
 ---

@@ -3,7 +3,7 @@ title: "My 2014 New Year's Resolution - Less is More"
 author: Shafiq Alibhai
 date: 2013-12-28T22:53:04+00:00
 categories:
-  - Uncategorized
+  - productivity
 tags:
   - Design
   - New Year Resolution

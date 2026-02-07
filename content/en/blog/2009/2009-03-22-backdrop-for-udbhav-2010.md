@@ -3,7 +3,7 @@ title: "Backdrop for Udbhav 2010"
 author: "Shafiq Alibhai"
 type: "post"
 date: 2009-03-22T11:25:15+00:00
-categories: ["Design"]
+categories: ["design"]
 tags: ["Backdrop", "Udbhav"]
 disableHLJS: false
 ---

@@ -3,7 +3,7 @@ title: Navigating the Big Data Journey - Understanding its Life Cycle
 author: Shafiq Alibhai
 date: 2013-12-29T12:27:51+00:00
 categories:
-  - Development
+  - development
 format: article
 
 disableHLJS: false

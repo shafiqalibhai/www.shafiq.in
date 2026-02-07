@@ -14,7 +14,7 @@ Welcome to my personal website and digital garden. This is a Hugo-powered blog w
 
 ## Tech Stack
 
-- **Hugo**: Static site generator (v0.154.3+)
+- **Hugo**: Static site generator (v0.155.2+)
 - **Theme**: hugo-book
 - **Hosting**: GitHub Pages
 - **CI/CD**: GitHub Actions
@@ -23,7 +23,7 @@ Welcome to my personal website and digital garden. This is a Hugo-powered blog w
 
 ### Prerequisites
 
-- Hugo extended version 0.154.3 or higher
+- Hugo extended version 0.155.2 or higher
 - Dart Sass (optional, for custom styles)
 - Git
 

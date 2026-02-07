@@ -3,7 +3,7 @@ title: Running Firefox OS apps on Ubuntu linux
 author: Shafiq Alibhai
 date: 2012-11-24T12:02:39+00:00
 categories:
-  - Development
+  - development
 tags:
   - firefox
   - ubuntu

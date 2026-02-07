@@ -1,11 +1,11 @@
 ---
 title: History
-description: A description of this category
+description: Historical events, timelines, lessons from the past, and historical analysis
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#8b4513"
+    colour: "#fff"
 disableHLJS: false
 ---

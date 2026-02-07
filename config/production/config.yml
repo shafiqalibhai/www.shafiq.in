@@ -1,0 +1,181 @@
+# ============================================================================
+# HUGO PRODUCTION CONFIGURATION
+# ============================================================================
+# This file overrides default settings when building for production
+# Build with: hugo --environment production
+#
+# Production settings include:
+# - Enabled analytics and SEO
+# - All drafts and future posts hidden
+# - Minification enabled
+# - Security headers configured
+
+# ============================================================================
+# ENVIRONMENT
+# ============================================================================
+
+env: production
+
+# ============================================================================
+# CONTENT FILTERING
+# ============================================================================
+# Hide draft content and scheduled posts in production
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# ============================================================================
+# ANALYTICS & TRACKING
+# ============================================================================
+# Configure Google Analytics for production
+# Get your GA4 ID from: https://analytics.google.com/
+# Format: G-XXXXXXXXXX
+
+# Replace with your actual Google Analytics ID
+googleAnalytics: ""
+
+# ============================================================================
+# SEO & ROBOTS
+# ============================================================================
+
+# Generate robots.txt automatically
+enableRobotsTXT: true
+
+# ============================================================================
+# PRIVACY & COMPLIANCE SETTINGS
+# ============================================================================
+
+privacy:
+  # Disqus comments privacy (disable in production if not using)
+  disqus:
+    disable: true
+
+  # Google Analytics privacy compliance
+  googleAnalytics:
+    # Anonymize IP addresses for GDPR compliance
+    anonymizeIP: true
+    # Respect "Do Not Track" browser setting
+    respectDoNotTrack: true
+
+  # YouTube embed privacy enhancement
+  youtube:
+    # Use privacy-enhanced embed
+    privacyEnhanced: true
+
+# ============================================================================
+# PERFORMANCE & OPTIMIZATION
+# ============================================================================
+
+# Enable minification for production builds
+minify:
+  # Don't minify XML files (including RSS/sitemap)
+  disableXML: true
+  # Minify all other output (CSS, JS, HTML)
+  minifyOutput: true
+
+# ============================================================================
+# MARKUP & RENDERING
+# ============================================================================
+# Production rendering configuration (inherited from defaults)
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+  highlight:
+    style: base16-snazzy
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    tabWidth: 4
+
+# ============================================================================
+# RESOURCE CACHING
+# ============================================================================
+# Extend cache retention in production for better performance
+
+caches:
+  getjson:
+    maxAge: 48h
+  getcsv:
+    maxAge: 48h
+  images:
+    maxAge: 720h # 30 days for processed images
+  modules:
+    maxAge: 720h
+
+# ============================================================================
+# SECURITY HEADERS
+# ============================================================================
+# Note: These headers are set for the development server only.
+# For production deployment, configure headers in your hosting provider:
+#
+# GitHub Pages:
+#   - Add to Actions workflow or use custom domain with redirect rules
+#   - Some headers must be configured at GitHub repository settings
+#
+# Vercel:
+#   - Configure in vercel.json using "headers" array
+#
+# Netlify:
+#   - Configure in netlify.toml using [[headers]] sections
+#
+# Traditional hosting:
+#   - Configure in .htaccess, nginx.conf, or Apache config
+
+server:
+  headers:
+    # Security Headers
+    - for: "/**"
+      values:
+        X-Content-Type-Options: "nosniff"
+        X-Frame-Options: "SAMEORIGIN"
+        X-XSS-Protection: "1; mode=block"
+        Referrer-Policy: "strict-origin-when-cross-origin"
+        Permissions-Policy: "geolocation=(), microphone=(), camera=(), payment=()"
+        Strict-Transport-Security: "max-age=31536000; includeSubDomains"
+
+    # Aggressive caching for versioned assets (with content hash in filename)
+    - for: "/css/**"
+      values:
+        Cache-Control: "public, max-age=31536000, immutable"
+
+    - for: "/js/**"
+      values:
+        Cache-Control: "public, max-age=31536000, immutable"
+
+    - for: "/images/**"
+      values:
+        Cache-Control: "public, max-age=31536000, immutable"
+
+    # Moderate caching for HTML (allows updates)
+    - for: "/**/*.html"
+      values:
+        Cache-Control: "public, max-age=3600, must-revalidate"
+
+    # No cache for JSON search index and API endpoints
+    - for: "/search/**"
+      values:
+        Cache-Control: "no-cache, no-store, must-revalidate"
+
+# ============================================================================
+# PERFORMANCE TIPS FOR PRODUCTION
+# ============================================================================
+#
+# 1. Enable Gzip/Brotli compression on your host
+# 2. Use a CDN to serve static assets globally
+# 3. Enable HTTP/2 and HTTP/3 (QUIC) if possible
+# 4. Set Expires headers for static content
+# 5. Consider image optimization service for WebP conversion
+# 6. Monitor Core Web Vitals in Google Search Console
+# 7. Use Hugo's --gc flag during builds to clean unused resources
+#
+# Build command with all optimizations:
+#   HUGO_ENVIRONMENT=production hugo --minify --gc --enableGitInfo

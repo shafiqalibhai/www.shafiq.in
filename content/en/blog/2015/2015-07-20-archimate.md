@@ -5,7 +5,7 @@ date: 2015-07-20T10:42:59+00:00
 publicize_twitter_user:
   - shafiqalibhai
 categories:
-  - Architecture
+  - architecture
 tags:
   - archimate
   - architecture

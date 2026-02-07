@@ -3,7 +3,7 @@ title: A Simple Guide to Installing Docker CE on Ubuntu
 author: Shafiq Alibhai
 date: 2018-09-02T09:09:10+00:00
 categories:
-  - Development
+  - development
 tags:
   - docker
   - ubuntu

@@ -1,11 +1,11 @@
 ---
 title: Favourite Quotes
-description: A description of this category
+description: Inspirational quotes, wisdom from great minds, and daily motivation
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#c77dff"
+    colour: "#fff"
 disableHLJS: false
 ---

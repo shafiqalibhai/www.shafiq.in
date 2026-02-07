@@ -1,11 +1,11 @@
 ---
 title: Writing
-description: A description of this category
+description: Essays, storytelling, copywriting, and literary thoughts
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#3a86ff"
+    colour: "#fff"
 disableHLJS: false
 ---

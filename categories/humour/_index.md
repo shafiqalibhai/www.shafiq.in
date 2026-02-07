@@ -1,11 +1,11 @@
 ---
 title: Humour
-description: A description of this category
+description: Funny observations, witty anecdotes, and humorous perspectives on life
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#ffd700"
+    colour: "#000"
 disableHLJS: false
 ---

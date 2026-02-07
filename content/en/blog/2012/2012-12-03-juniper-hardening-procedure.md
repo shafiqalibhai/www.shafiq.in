@@ -6,7 +6,7 @@ draft: true
 publicize_twitter_user:
   - shafiqalibhai
 categories:
-  - Development
+  - development
 tags:
   - juniper
   - security

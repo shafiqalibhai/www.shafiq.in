@@ -1,11 +1,11 @@
 ---
 title: Children's
-description: A description of this category
+description: Parenting stories, childhood development, activities, and family moments
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#ff69b4"
+    colour: "#fff"
 disableHLJS: false
 ---

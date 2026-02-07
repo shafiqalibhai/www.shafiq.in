@@ -3,7 +3,7 @@ title: Stakeholders and EA
 author: Shafiq Alibhai
 date: 2018-07-01T10:48:09+00:00
 categories:
-  - Architecture
+  - architecture
 format: quote
 
 disableHLJS: false

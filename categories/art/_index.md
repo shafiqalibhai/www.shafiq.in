@@ -1,11 +1,11 @@
 ---
 title: Art
-description: My Drawings, paintings, etc
+description: Drawings, paintings, visual creations, and artistic expressions
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#9d4edd"
+    colour: "#fff"
 disableHLJS: false
 ---

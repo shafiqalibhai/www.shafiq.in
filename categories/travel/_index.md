@@ -1,11 +1,11 @@
 ---
 title: Travel
-description: A description of this category
+description: Adventures, destinations, travel tips, cultural experiences, and explorations
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#d4a373"
+    colour: "#fff"
 disableHLJS: false
 ---

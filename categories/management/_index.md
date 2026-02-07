@@ -1,11 +1,11 @@
 ---
 title: Management
-description: A description of this category
+description: Leadership, team dynamics, organizational culture, and management strategies
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#5a189a"
+    colour: "#fff"
 disableHLJS: false
 ---

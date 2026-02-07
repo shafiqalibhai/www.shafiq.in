@@ -4,7 +4,7 @@ title: Your Go-To Guide for Top Enterprise Architecture Resources
 author: Shafiq Alibhai
 date: 2018-09-23T15:25:01+00:00
 categories:
-  - Architecture
+  - architecture
 tags:
   - architecture
   - enterprise-architecture

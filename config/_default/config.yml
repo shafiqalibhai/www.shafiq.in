@@ -1,266 +1,275 @@
-BaseURL: "https://shafiq.in/"
+# ============================================================================
+# HUGO SITE CONFIGURATION
+# ============================================================================
+# Main configuration file for Shafiq's Digital Garden
+# Merged from: hugo.toml, params.toml, markup.toml, languages.toml,
+#             menu.toml, permalinks.toml, relates.toml, module.toml
+# See: https://gohugo.io/getting-started/configuration/
+
+# ============================================================================
+# BASIC SITE SETTINGS (from hugo.toml)
+# ============================================================================
+
+baseURL: "https://shafiq.in/"
 title: "Shafiq Alibhai"
-pagination.pageSize: 50
-# theme: hugo-theme-stack
-theme: hugo-book
-BookMenuBundle: /menu
-disablePathToLower: false
-enableGitInfo: true
-min_version: "0.154.3"
-
-# Needed for mermaid/katex shortcodes
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  tableOfContents:
-    startLevel: 1
-  highlight:
-    style: base16-snazzy
-
-# Multi-lingual mode config
-# There are different options to translate files
-# See https://gohugo.io/content-management/multilingual/#translation-by-filename
-# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-languages:
-  en:
-    contentDir: content/en
-    languageCode: en-GB
-    languageDirection: ltr
-    languageName: English
-    permalinks:
-      posts: /blog/:title/
-      blog: /blog/:title/
-    weight: 1
-  fr:
-    languageName: French
-    languageCode: fr-FR
-    contentDir: content/fr
-    languageDirection: ltr
-    permalinks:
-      posts: /blog/:title/
-      blog: /blog/:title/
-    weight: 2
-
-# menu:
-# home:
-# - name: "Documentation"
-#   pageRef: "/docs/example/"
-#   weight: 1
-# - pageRef: "/docs/example/"
-#   weight: 10
-#   parent: "Documentation"
-# - name: "Shortcodes"
-#   pageRef: "/docs/shortcodes/buttons/"
-#   weight: 20
-#   parent: "Documentation"
-# - name: "Showcases"
-#   pageRef: "/showcases/"
-#   weight: 2
-# - name: "Github"
-#   url: "https://github.com/alex-shpak/hugo-book/"
-#   weight: 3
-
-# before: []
-# after:
-# - name: "Github"
-#   url: "https://github.com/alex-shpak/hugo-book"
-#   weight: 10
-# - name: "Hugo Themes"
-#   url: "https://themes.gohugo.io/themes/hugo-book/"
-#   weight: 20
-
-params:
-  # (Optional, default light) Sets color theme: light, dark or auto.
-  # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme: "auto"
-
-  # (Optional, default true) Controls table of contents visibility on right side of pages.
-  # Start and end levels can be controlled with markup.tableOfContents setting.
-  # You can also specify this parameter per page in front matter.
-  BookToC: true
-
-  # (Optional, default favicon.png) Set the path to a favicon file.
-  # If the favicon is /static/favicon.png then the path would be favicon.png
-  BookFavicon: "favicon.svg"
-
-  # (Optional, default none) Set the path to a logo for the book.
-  # If the logo is /static/logo.png then the path would be logo.png
-  # BookLogo: /logo.png
-
-  # (Optional, default none) Set leaf bundle to render as side menu
-  # When not specified file structure and weights will be used
-  # BookMenuBundle: /menu
-
-  # (Optional, default docs) Specify root page to render child pages as menu.
-  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
-  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection: docs
-
-  # Set source repository location.
-  # Used for 'Last Modified' and 'Edit this page' links.
-  # BookRepo: https://github.com/alex-shpak/hugo-book
-
-  # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
-  # commit hash for 'doc' page type.
-  # Requires 'BookRepo' param.
-  # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
-  # Github uses 'commit', Bitbucket uses 'commits'
-  # BookCommitPath: commit
-
-  # Enable "Edit this page" links for 'doc' page type.
-  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
-  # Edit path must point to root directory of repo.
-  # BookEditPath: edit/main/exampleSite
-
-  # Configure the date format used on the pages
-  # - In git information
-  # - In blog posts
-  BookDateFormat: "2 January 2006"
-
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
-  # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch: true
-
-  # (Optional, default true) Enables comments template on pages
-  # By default partals/docs/comments.html includes Disqus template
-  # See https://gohugo.io/content-management/comments/#configure-disqus
-  # Can be overwritten by same param in page frontmatter
-  BookComments: true
-
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
-  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
-  # Theme will print warning if page referenced in markdown does not exists.
-  BookPortableLinks: true
-
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker: true
-
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
-  BookTranslatedOnly: false
-
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Blog"
-  description: "Welcome to my website, where I share my thoughts, passion, curiosity, and experiences in the form of blog posts and notes."
-  keywords: [Blog, Notes]
-  author: Shafiq Alibhai
-  # author: ["Me", "You"] # multiple authors
-  #  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  tocopen: true
-
-  #  assets:
-
-  # disableFingerprinting: true
-  # favicon: "<link / abs url>"
-  # favicon16x16: "<link / abs url>"
-  # favicon32x32: "<link / abs url>"
-  # apple_touch_icon: "<link / abs url>"
-  # safari_pinned_tab: "<link / abs url>"
-
-  # label:
-  #   text: "Home"
-  #   icon: /apple-touch-icon.png
-  #   iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: true
-    title: Shafiq Alibhai
-    subtitle: "Developer | Architect | Writer"
-    imageUrl: "https://github.com/shafiqalibhai.png"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: Shafiq Alibhai
-    buttons:
-      - name: Blog
-        url: /blog/
-      - name: Categories
-        url: /categories/
-      - name: GitHub
-        url: https://github.com/shafiqalibhai
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my website, where I share my thoughts, passion, curiosity, and experiences in the form of blog posts and notes.
-
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/shafiqalibhai"
-    - name: facebook
-      url: "https://facebook.com/shafiqalibhai0"
-    - name: github
-      url: "https://github.com/shafiqalibhai"
-    - name: linkedin
-      url: "https://linkedin.com/in/deployview"
-    - name: whatsapp
-      url: "https://wa.me/+447440344860"
-
-      #  analytics:
-      #google:
-      #SiteVerificationTag: "XYZabc"
-      #bing:
-      #SiteVerificationTag: "XYZabc"
-      #yandex:
-      #SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-
-  # editPost:
-  #   URL: "https://github.com/shafiqissani/www.shafiq.in/content"
-  #   Text: "" # edit text
-  #   appendFilePath: false # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
-languageCode: en-GB
+languageCode: "en-GB"
 defaultContentLanguage: "en"
+copyright: "© 2009-2026 Shafiq Alibhai. All rights reserved."
 hasCJKLanguage: false
 
-enableRobotsTXT: true
+# ============================================================================
+# CONTENT & BUILD SETTINGS
+# ============================================================================
+
+# Theme to use
+theme: hugo-book
+
+# Menu configuration bundle
+BookMenuBundle: /menu
+
+# Disable lowercase path conversion (useful for some URLs)
+disablePathToLower: false
+
+# Enable Git info for last modified dates
+enableGitInfo: true
+
+# Minimum Hugo version required
+min_version: "0.155.2"
+
+# Build settings
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+# ============================================================================
+# PAGINATION (from hugo.toml)
+# ============================================================================
+
+pagination:
+  pagerSize: 10
+
+# ============================================================================
+# MODULE CONFIGURATION (from hugo.toml & module.toml)
+# ============================================================================
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.155.2"
+
+# Uncomment to use hugo-theme-stack as a module instead of submodule:
+# imports:
+#   - path: "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+# ============================================================================
+# BUILD CONFIGURATION (from hugo.toml)
+# ============================================================================
+
+build:
+  useResourceCacheWhen: fallback
+  writeStats: true
+
+# ============================================================================
+# RESOURCE CACHING STRATEGY
+# ============================================================================
+# Configure how Hugo caches processed resources to improve build performance
+
+caches:
+  getjson:
+    maxAge: 24h
+  getcsv:
+    maxAge: 24h
+  images:
+    maxAge: 720h # 30 days for processed images
+  modules:
+    maxAge: 720h
+
+# ============================================================================
+# SERVER CONFIGURATION (from hugo.toml)
+# ============================================================================
+# Note: These headers are for the development server only.
+# For production, configure headers in your hosting provider or GitHub Actions workflow.
+
+server:
+  headers:
+    # Security Headers
+    - for: "/**"
+      values:
+        # Prevent browsers from MIME-sniffing
+        X-Content-Type-Options: "nosniff"
+        # Prevent clickjacking attacks
+        X-Frame-Options: "SAMEORIGIN"
+        # Legacy XSS protection (modern browsers use CSP)
+        X-XSS-Protection: "1; mode=block"
+        # Control referrer information
+        Referrer-Policy: "strict-origin-when-cross-origin"
+        # Permissions Policy (formerly Feature-Policy)
+        Permissions-Policy: "geolocation=(), microphone=(), camera=(), payment=()"
+        # HTTP Strict Transport Security (production should use higher max-age)
+        Strict-Transport-Security: "max-age=31536000; includeSubDomains"
+
+    # Cache control for static assets
+    - for: "/images/**"
+      values:
+        Cache-Control: "public, max-age=31536000, immutable"
+
+    - for: "/**/*.css"
+      values:
+        Cache-Control: "public, max-age=31536000, immutable"
+
+    - for: "/**/*.js"
+      values:
+        Cache-Control: "public, max-age=31536000, immutable"
+
+    # Short cache for HTML files
+    - for: "/**/*.html"
+      values:
+        Cache-Control: "public, max-age=3600"
+
+    # No cache for API endpoints
+    - for: "/search/**"
+      values:
+        Cache-Control: "no-cache, must-revalidate"
+
+# ============================================================================
+# IMAGE PROCESSING & OPTIMIZATION
+# ============================================================================
+# Configure image processing for better performance and responsive images
+
+imaging:
+  # JPEG quality (0-100, default 75)
+  quality: 75
+  # Anchor point for image cropping
+  anchor: smart
+  # Image processing filters
+  resampleFilter: box
+  # Enable WEBP format (modern browsers)
+  # Note: Requires extended Hugo
+  bgColor: "#ffffff"
+
+# ============================================================================
+# OUTPUT FORMATS & MEDIA TYPES (from hugo.toml)
+# ============================================================================
+
+outputs:
+  home:
+    - HTML
+    - JSON
+    - RSS
+  page:
+    - HTML
+  section:
+    - HTML
+    - RSS
+
+# ============================================================================
+# MARKUP & CODE RENDERING (from markup.toml)
+# ============================================================================
+
+markup:
+  # Table of Contents configuration
+  tableOfContents:
+    endLevel: 4
+    ordered: true
+    startLevel: 2
+
+  # Syntax highlighting with Chroma
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    tabWidth: 4
+    # Color scheme for code blocks
+    style: base16-snazzy
+
+  # Goldmark Markdown parser
+  goldmark:
+    # Rendering options
+    renderer:
+      unsafe: true # Allow raw HTML in markdown (required for shortcodes)
+      hardWraps: false
+
+    # Extended markdown features
+    extensions:
+      definitionList: true # Definition lists (DL/DT/DD)
+      footnote: true # Footnotes with [^1] syntax
+      linkify: false # Don't auto-linkify URLs
+      strikethrough: true # ~~strikethrough~~ syntax
+      table: true # Markdown tables
+      taskList: true # - [ ] Task list items
+      typographer: true # Smart typography (quotes, dashes)
+
+    # Parser options
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: "github" # GitHub-style heading IDs
+      wrapStandAloneImageWithinParagraph: false
+
+# ============================================================================
+# ASCIIDOC CONFIGURATION (from markup.toml)
+# ============================================================================
+
+asciidocExt:
+  backend: html5
+  extensions: []
+  failureLevel: fatal
+  noHeaderOrFooter: true
+  preserveTOC: false
+  safeMode: unsafe
+  sectionNumbers: false
+  trace: false
+  verbose: false
+  workingFolderCurrent: false
+
+# ============================================================================
+# LANGUAGES & LOCALIZATION (from languages.toml)
+# ============================================================================
+
+languages:
+  en:
+    languageName: "English"
+    languageDirection: "ltr"
+    languageCode: "en-GB"
+    contentDir: content/en
+    weight: 1
+    permalinks:
+      post: "/blog/:slug/"
+      page: "/:slug/"
+  fr:
+    languageName: "Français"
+    languageDirection: "ltr"
+    languageCode: "fr-FR"
+    contentDir: content/fr
+    weight: 2
+    permalinks:
+      post: "/blog/:slug/"
+      page: "/:slug/"
+
+# ============================================================================
+# PERMALINKS CONFIGURATION (from permalinks.toml)
+# ============================================================================
+
+permalinks:
+  post: "/blog/:slug/"
+  page: "/:slug/"
+
+# ============================================================================
+# SITEMAP & SEO
+# ============================================================================
 
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 0.8
 
-googleAnalytics: G-XXXXXXXXXX
+enableRobotsTXT: true
+
+# ============================================================================
+# SECURITY & PRIVACY
+# ============================================================================
 
 privacy:
   disqus:
@@ -271,52 +280,375 @@ privacy:
   youtube:
     privacyEnhanced: true
 
+# ============================================================================
+# ANALYTICS
+# ============================================================================
+
+# Replace with your Google Analytics ID
+googleAnalytics: ""
+
+# ============================================================================
+# BUILD & MINIFICATION
+# ============================================================================
+
 minify:
   disableXML: true
   minifyOutput: true
 
+# ============================================================================
+# MAIN NAVIGATION MENU (from menu.toml)
+# ============================================================================
+
 menu:
   main:
     - identifier: search
-      name: search
+      name: Search
       url: /search/
       weight: 9
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 11
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-# markup:
-#   highlight:
-#     noClasses: false
-#     anchorLineNos: true
-#     codeFences: true
-#     guessSyntax: true
-#     # lineNos: true
-#     style: monokai
+  # Uncomment social menu items below:
+  # social:
+  #   - identifier: github
+  #     name: GitHub
+  #     url: "https://github.com/yourprofile"
+  #     weight: 1
+  #     params:
+  #       icon: github
+  #       newtab: true
+  #   - identifier: twitter
+  #     name: Twitter/X
+  #     url: "https://twitter.com/yourhandle"
+  #     weight: 2
+  #     params:
+  #       icon: twitter
+  #       newtab: true
+  #   - identifier: linkedin
+  #     name: LinkedIn
+  #     url: "https://linkedin.com/in/yourprofile"
+  #     weight: 3
+  #     params:
+  #       icon: linkedin
+  #       newtab: true
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+# ============================================================================
+# RELATED CONTENT CONFIGURATION (from relates.toml)
+# ============================================================================
 
 related:
   includeNewer: true
-  threshold: 60
-  toLower: false
-  hidden: true
+  threshold: 40
+  toLower: true
   indices:
     - name: tags
       weight: 100
-
     - name: categories
       weight: 200
+
+# ============================================================================
+# THEME PARAMETERS (from params.toml)
+# ============================================================================
+
+params:
+  # ========================================================================
+  # ENVIRONMENT & BUILD INFO
+  # ========================================================================
+  # Set to 'production' when building for deployment
+  env: production
+
+  # ========================================================================
+  # SITE METADATA AND CONTENT
+  # ========================================================================
+
+  # Main sections to display on homepage
+  mainSections:
+    - blog
+
+  # Include full content in RSS feeds (not just summaries)
+  rssFullContent: true
+
+  # Site title (usually different from site name in Hugo config)
+  title: "Blog"
+
+  # Site description (used in meta tags and RSS)
+  description: "Welcome to my website, where I share my thoughts, passion, curiosity, and experiences in the form of blog posts and notes."
+
+  # Keywords for SEO
+  keywords:
+    - Blog
+    - Notes
+    - Technology
+    - Thoughts
+
+  # Author name (used in bylines and schema markup)
+  author: "Shafiq Alibhai"
+
+  # ========================================================================
+  # FOOTER CONFIGURATION
+  # ========================================================================
+
+  footer:
+    # Copyright year or range (e.g., "2009" or "2009-2026")
+    since: 2009
+    # Custom text to display in footer (optional)
+    customText: ""
+
+  # ========================================================================
+  # DATE & TIME FORMATTING
+  # ========================================================================
+
+  dateFormat:
+    # Format for published date in article lists
+    published: "Jan 02, 2006"
+    # Format for last updated timestamp in articles
+    lastUpdated: "Jan 02, 2006 15:04 MST"
+
+  # ========================================================================
+  # SIDEBAR CONFIGURATION
+  # ========================================================================
+
+  sidebar:
+    # Emoji or character to display next to site name
+    emoji: "🍥"
+    # Subtitle text in sidebar
+    subtitle: "Welcome to my blog, where I share my thoughts, passion, curiosity, experiences and some randomness."
+    # Optional avatar image
+    avatar:
+      enabled: false
+      local: true # Use local image instead of external URL
+      src: "img/avatar.png"
+
+  # ========================================================================
+  # ARTICLE DISPLAY OPTIONS
+  # ========================================================================
+
+  article:
+    # Enable math rendering (requires math library)
+    math: false
+    # Show reading time estimate
+    readingTime: true
+    # Article license information
+    license:
+      enabled: false
+      default: "Licensed under CC BY-NC-SA 4.0"
+
+  # ========================================================================
+  # HOMEPAGE WIDGETS
+  # ========================================================================
+
+  widgets:
+    homepage:
+      # Search widget
+      - type: search
+      # Categories widget showing all categories
+      - type: categories
+        params:
+          limit: 99
+      # Uncomment to add archives widget (posts by date):
+      # - type: archives
+      #   params:
+      #     limit: 99
+      # Uncomment to add tag cloud widget:
+      # - type: tag-cloud
+      #   params:
+      #     limit: 10
+
+  # ========================================================================
+  # OPEN GRAPH & SOCIAL SHARING
+  # ========================================================================
+
+  opengraph:
+    # Twitter card configuration
+    twitter:
+      # Twitter site handle (with @)
+      site: ""
+      # Card type: summary, summary_large_image, app, player
+      card: "summary_large_image"
+
+  # Default image for Open Graph when not specified per post
+  defaultImage:
+    opengraph:
+      enabled: false
+      local: false
+      src: ""
+
+  # ========================================================================
+  # APPEARANCE & COLOR SCHEME
+  # ========================================================================
+
+  # Allow users to toggle between light/dark mode
+  colorScheme:
+    toggle: true
+    # Options: "auto" (system preference), "light", "dark"
+    default: "auto"
+
+  # ========================================================================
+  # BOOK THEME SPECIFIC SETTINGS
+  # ========================================================================
+
+  BookTheme: "auto" # Theme mode for hugo-book
+  BookToC: true # Show table of contents
+  BookFavicon: "favicon.svg" # Favicon file
+  BookSection: docs # Default book section
+  BookDateFormat: "2 January 2006"
+  BookSearch: true # Enable search
+  BookComments: true # Show comment section
+  BookPortableLinks: true # Make links portable
+  BookServiceWorker: true # Enable service worker for offline support
+  BookTranslatedOnly: false # Show untranslated content
+
+  # ========================================================================
+  # PROFILE MODE (HOMEPAGE APPEARANCE)
+  # ========================================================================
+
+  profileMode:
+    enabled: true
+    # Main title on homepage
+    title: Shafiq Alibhai
+    # Subtitle text
+    subtitle: "Developer | Architect | Writer"
+    # Profile image URL (can be external or local)
+    imageUrl: "https://github.com/shafiqalibhai.png"
+    # Image dimensions
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Shafiq Alibhai
+    # Call-to-action buttons
+    buttons:
+      - name: Blog
+        url: /blog/
+      - name: Categories
+        url: /categories/
+      - name: GitHub
+        url: https://github.com/shafiqalibhai
+
+  # ========================================================================
+  # SOCIAL LINKS
+  # ========================================================================
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/shafiqalibhai"
+    - name: github
+      url: "https://github.com/shafiqalibhai"
+    - name: linkedin
+      url: "https://linkedin.com/in/deployview"
+
+  # ========================================================================
+  # CODE SYNTAX HIGHLIGHTING
+  # ========================================================================
+
+  # Use CSS classes for syntax highlighting (set to false for inline styles)
+  pygmentsUseClasses: true
+
+  # ========================================================================
+  # SEARCH CONFIGURATION (FlexSearch/Fuse.js Options)
+  # ========================================================================
+
+  fuseOpts:
+    # Case-sensitive search
+    isCaseSensitive: false
+    # Sort results by score
+    shouldSort: true
+    # Numeric location bias
+    location: 0
+    # Search range distance
+    distance: 1000
+    # Fuzziness threshold (0.0-1.0)
+    threshold: 0.4
+    # Minimum characters to trigger search
+    minMatchCharLength: 0
+    # Fields to search in
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+
+  # ========================================================================
+  # COMMENTS SYSTEM CONFIGURATION
+  # ========================================================================
+
+  comments:
+    # Enable/disable comment system
+    enabled: false
+    # Comment provider: disqus, utterances, remark42, vssue, waline, cactus, giscus, gitalk, cusdis
+    provider: disqus
+
+    # Disqus configuration
+    disqusjs:
+      shortname: ""
+      apiUrl: ""
+      apiKey: ""
+      admin: ""
+      adminLabel: ""
+
+    # Utterances (GitHub issues) configuration
+    utterances:
+      repo: ""
+      issueTerm: "pathname"
+      label: ""
+
+    # Remark42 configuration
+    remark42:
+      host: ""
+      site: ""
+      locale: ""
+
+    # Vssue (multi-platform) configuration
+    vssue:
+      platform: ""
+      owner: ""
+      repo: ""
+      clientId: ""
+      clientSecret: ""
+      autoCreateIssue: false
+
+    # Waline configuration
+    waline:
+      locale:
+        admin: "Admin"
+
+    # Cactus Comments configuration
+    cactus:
+      defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+      serverName: "cactus.chat"
+      siteName: ""
+
+    # Giscus (GitHub Discussions) configuration
+    giscus:
+      repo: ""
+      repoID: ""
+      category: ""
+      categoryID: ""
+      mapping: ""
+      lightTheme: ""
+      darkTheme: ""
+      reactionsEnabled: 1
+      emitMetadata: 0
+
+    # Gitalk (GitHub issues) configuration
+    gitalk:
+      owner: ""
+      admin: ""
+      repo: ""
+      clientID: ""
+      clientSecret: ""
+
+    # Cusdis configuration
+    cusdis:
+      host: ""
+      id: ""
+
+# ============================================================================
+# SECURITY
+# ============================================================================
 
 security:
   funcs:
@@ -326,4 +658,4 @@ security:
         - "^CI$"
         - "^WC_POST_CSS$"
         - "WC_POST_CSS"
-        - ^WC_
+        - "^WC_"

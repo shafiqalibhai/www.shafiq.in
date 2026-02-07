@@ -4,7 +4,7 @@ author: Shafiq Alibhai
 date: 2012-08-30T17:14:59+00:00
 
 categories:
-  - Development
+  - development
 tags:
   - email
   - Git

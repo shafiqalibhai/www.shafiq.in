@@ -3,7 +3,7 @@ title: How to turn problems into opportunities
 author: Shafiq Alibhai
 date: 2010-07-09T12:10:43+00:00
 categories:
-  - Quote
+  - quote
 tags:
   - quote
   - inspiration

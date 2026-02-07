@@ -3,7 +3,7 @@ title: Best Practices for Crafting an Efficient Build Script
 author: Shafiq Alibhai
 date: 2011-05-09T18:31:40+00:00
 categories:
-  - Development
+  - development
 tags:
   - build
   - release-engineering

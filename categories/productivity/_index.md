@@ -1,11 +1,11 @@
 ---
 title: Productivity
-description: A description of this category
+description: Time management, workflows, efficiency hacks, and getting things done
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#f4a261"
+    colour: "#fff"
 disableHLJS: false
 ---

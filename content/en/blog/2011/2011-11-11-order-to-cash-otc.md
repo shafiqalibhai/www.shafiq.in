@@ -3,7 +3,7 @@ title: The Comprehensive Guide to Order-to-Cash (OTC) Process
 author: Shafiq Alibhai
 date: 2011-11-11T05:15:24+00:00
 categories:
-  - Uncategorized
+  - management
 disableHLJS: false
 ---
 

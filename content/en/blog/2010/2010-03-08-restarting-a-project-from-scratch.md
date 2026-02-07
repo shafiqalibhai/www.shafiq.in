@@ -3,7 +3,7 @@ title: Restarting a Project from Scratch !
 author: Shafiq Alibhai
 date: 2010-03-08T05:40:13+00:00
 categories:
-  - Management
+  - management
 tags:
   - project-management
   - planning

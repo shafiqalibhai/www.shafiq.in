@@ -3,7 +3,7 @@ title: 'Sneak Peek and Official Trailer - The Film "KICHIDI" by Director Saahith
 author: Shafiq Alibhai
 date: 2013-09-21T17:53:10+00:00
 categories:
-  - Uncategorized
+  - art
 
 disableHLJS: false
 ---

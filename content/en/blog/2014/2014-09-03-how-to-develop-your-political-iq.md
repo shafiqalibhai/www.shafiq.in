@@ -3,7 +3,7 @@ title: How to Sharpen Your Political IQ for a Smoother Career Path
 author: Shafiq Alibhai
 date: 2014-09-03T13:39:09+00:00
 categories:
-  - Management
+  - management
 tags:
   - career
   - workplace

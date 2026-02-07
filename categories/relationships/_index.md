@@ -1,11 +1,11 @@
 ---
 title: Relationships
-description: A description of this category
+description: Communication, personal connections, social dynamics, and human relationships
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#ff1493"
+    colour: "#fff"
 disableHLJS: false
 ---

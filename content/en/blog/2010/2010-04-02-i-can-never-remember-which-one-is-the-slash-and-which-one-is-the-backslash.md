@@ -5,7 +5,7 @@ date: 2010-04-02T08:40:48+00:00
 tagazine-media:
   - 'a:6:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:7:"4390143";s:7:"blog_id";s:7:"4153392";}'
 categories:
-  - Uncategorized
+  - development
 tags:
   - Goa
   - sed

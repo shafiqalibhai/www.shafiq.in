@@ -3,7 +3,7 @@ title: Perl – How to Read a Text File into a Variable – 6 ways to do it
 author: Shafiq Alibhai
 date: 2010-03-15T09:04:20+00:00
 categories:
-  - Development
+  - development
 tags:
   - perl
   - file-handling

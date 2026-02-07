@@ -8,7 +8,7 @@ draft: true
 publicize_twitter_user:
   - shafiqalibhai
 categories:
-  - Uncategorized
+  - travel
 tags:
   - building
   - Cost

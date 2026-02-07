@@ -4,7 +4,7 @@ author: Shafiq Alibhai
 date: 2012-10-31T14:26:45+00:00
 featured_image: https://www.shafiq.in/wp-content/uploads/2012/10/screenshot_3.png
 categories:
-  - Design
+  - design
 tags:
   - Design
   - iOS

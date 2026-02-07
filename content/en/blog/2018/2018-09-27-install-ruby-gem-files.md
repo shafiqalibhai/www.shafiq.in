@@ -3,7 +3,7 @@ title: Install ruby gem files
 author: Shafiq Alibhai
 date: 2018-09-27T10:16:03+00:00
 categories:
-  - Development
+  - development
 tags:
   - ruby
   - gem

@@ -3,7 +3,7 @@ title: Project Initiation Documentation RACI Chart
 author: Shafiq Alibhai
 date: 2014-12-30T15:56:13+00:00
 categories:
-  - Management
+  - management
 tags:
   - Project Initiation Documentation RACI Chart
 format: image

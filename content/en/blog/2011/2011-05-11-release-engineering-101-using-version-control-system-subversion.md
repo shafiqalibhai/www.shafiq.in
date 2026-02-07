@@ -3,7 +3,7 @@ title: A Practical Guide to Release Engineering - Mastering Version Control with
 author: Shafiq Alibhai
 date: 2011-05-11T16:38:57+00:00
 categories:
-  - Development
+  - development
 tags:
   - Apache Subversion
   - Version Control

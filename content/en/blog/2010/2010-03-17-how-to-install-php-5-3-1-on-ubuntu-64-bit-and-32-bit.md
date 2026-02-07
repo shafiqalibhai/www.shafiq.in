@@ -7,7 +7,7 @@ delicious:
 reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1269438049";}'
 categories:
-  - Development
+  - development
 tags:
   - PHP
   - Ubuntu

@@ -1,11 +1,11 @@
 ---
 title: Parenting
-description: A description of this category
+description: Child development, parenting techniques, family dynamics, and parenting wisdom
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#ff8fab"
+    colour: "#fff"
 disableHLJS: false
 ---

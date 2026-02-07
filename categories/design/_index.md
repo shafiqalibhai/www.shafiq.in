@@ -1,11 +1,11 @@
 ---
 title: Design
-description: A description of this category
+description: UI/UX principles, design thinking, visual design, and creative innovation
 image:
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#e76f51"
     colour: "#fff"
 disableHLJS: false
 ---

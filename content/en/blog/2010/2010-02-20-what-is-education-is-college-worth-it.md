@@ -3,7 +3,7 @@ title: What is Education? Is College Worth It?
 author: Shafiq Alibhai
 date: 2010-02-20T05:26:10+00:00
 categories:
-  - Uncategorized
+  - self-help
 tags:
   - education
   - learning

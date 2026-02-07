@@ -24,7 +24,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 categories:
-    - Development
+    - development
 ---
 
 Kubernetes tolerations are a way of allowing pods to be scheduled on nodes that have taints, which are markers that repel pods by default. Tolerations let you control which pods can run on which nodes, based on the pod's requirements and the node's characteristics.

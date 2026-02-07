@@ -5,7 +5,7 @@ date: 2010-12-16T18:31:22+00:00
 reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973441";}'
 categories:
-  - Uncategorized
+  - writing
 tags:
   - blogger
   - Buildor

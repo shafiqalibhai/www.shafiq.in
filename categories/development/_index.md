@@ -1,11 +1,11 @@
 ---
 title: Software Development
-description: A description of this category
+description: Programming techniques, best practices, coding patterns, and development tools
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#2a9d8f"
+    colour: "#fff"
 disableHLJS: false
 ---

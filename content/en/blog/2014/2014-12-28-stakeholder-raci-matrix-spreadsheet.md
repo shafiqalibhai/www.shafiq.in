@@ -3,7 +3,7 @@ title: Stakeholder RACI Matrix Spreadsheet
 author: Shafiq Alibhai
 date: 2014-12-28T10:53:53+00:00
 categories:
-  - Management
+  - management
 tags:
   - stakeholder-management
   - project-management

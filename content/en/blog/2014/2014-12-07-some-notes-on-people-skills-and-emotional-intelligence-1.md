@@ -3,7 +3,7 @@ title: Some notes on people skills and emotional intelligence – 1
 author: Shafiq Alibhai
 date: 2014-12-07T12:01:02+00:00
 categories:
-  - Management
+  - management
 tags:
   - emotional-intelligence
   - people-skills

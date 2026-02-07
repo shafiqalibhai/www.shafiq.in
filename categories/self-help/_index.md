@@ -1,11 +1,11 @@
 ---
 title: Self Help
-description: A description of this category
+description: Personal growth, self-improvement, habits, and mental well-being
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#26c6da"
+    colour: "#000"
 disableHLJS: false
 ---

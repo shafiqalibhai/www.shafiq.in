@@ -8,7 +8,7 @@ publicize_twitter_user:
 publicize_reach:
   - 'a:3:{s:7:"twitter";a:1:{i:1937780;i:137;}s:2:"fb";a:1:{i:1937778;i:172;}s:2:"wp";a:1:{i:0;i:9;}}'
 categories:
-  - Management
+  - management
 tags:
   - administrator
   - Business

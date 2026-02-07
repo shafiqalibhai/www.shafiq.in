@@ -1,11 +1,11 @@
 ---
 title: Personal Finance
-description: A description of this category
+description: Investing, budgeting, financial planning, and wealth building
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#00b377"
+    colour: "#fff"
 disableHLJS: false
 ---

@@ -6,7 +6,7 @@ publicize_twitter_user:
   - shafiqalibhai
 draft: true
 categories:
-  - Development
+  - development
 tags:
   - AWK
   - Browser

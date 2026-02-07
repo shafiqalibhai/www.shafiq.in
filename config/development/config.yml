@@ -1,0 +1,114 @@
+# ============================================================================
+# HUGO DEVELOPMENT CONFIGURATION
+# ============================================================================
+# This file overrides default settings when building for development
+# Build with: hugo server -D (shorthand for --buildDrafts --buildFuture)
+# Or: HUGO_ENVIRONMENT=development hugo server
+#
+# Development settings include:
+# - All content visible (drafts, future, expired)
+# - Minification disabled for easier debugging
+# - Analytics disabled
+# - Verbose logging enabled
+
+# ============================================================================
+# ENVIRONMENT
+# ============================================================================
+
+env: development
+
+# ============================================================================
+# CONTENT FILTERING
+# ============================================================================
+# Show everything while developing to catch issues early
+
+buildDrafts: true # Show draft posts
+buildFuture: true # Show posts scheduled for future dates
+buildExpired: true # Show posts past their expiration date
+
+# ============================================================================
+# ANALYTICS (DISABLED IN DEVELOPMENT)
+# ============================================================================
+
+googleAnalytics: ""
+
+# ============================================================================
+# PERFORMANCE SETTINGS
+# ============================================================================
+# Disable minification to make generated code easier to debug
+
+minify:
+  disableXML: false
+  minifyOutput: false
+
+# ============================================================================
+# FAST RENDER MODE
+# ============================================================================
+# Note: When using 'hugo server -D' locally, rendering is already fast.
+# For even faster development builds, consider:
+#   hugo server -D --disableFastRender (to force full rebuild on each change)
+
+# ============================================================================
+# MARKUP & RENDERING
+# ============================================================================
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+  highlight:
+    style: base16-snazzy
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    tabWidth: 4
+
+# ============================================================================
+# RESOURCE CACHING
+# ============================================================================
+# Short cache retention in development to avoid stale assets
+
+caches:
+  getjson:
+    maxAge: 5s # Short cache for quick iterations
+  getcsv:
+    maxAge: 5s
+  images:
+    maxAge: 5s
+  modules:
+    maxAge: 5s
+
+# ============================================================================
+# LOGGING & DEBUGGING
+# ============================================================================
+# You can enable verbose logging during development if needed.
+# Uncomment the following to see more detailed build information:
+
+# logI18nWarnings: true     # Log localization warnings
+# logPathWarnings: true     # Log path warnings
+# logVerbose: true          # Enable verbose output (requires Hugo extended)
+
+# ============================================================================
+# DEVELOPMENT TIPS
+# ============================================================================
+#
+# 1. Start server with: hugo server -D
+# 2. Open: http://localhost:1313
+# 3. Hugo will watch for changes and live-reload
+# 4. Check console for warnings/errors
+# 5. Test multi-language: http://localhost:1313/fr/ for French content
+#
+# To run with specific environment:
+#   HUGO_ENVIRONMENT=development hugo server -D
+#
+# To run without fast render (full rebuild on each change):
+#   hugo server -D --disableFastRender
+#
+# To force a clean rebuild:
+#   rm -rf resources/ && hugo server -D

@@ -3,8 +3,7 @@ title: Political Intelligence requires a thorough understanding of the dynamics 
 author: Shafiq Alibhai
 date: 2014-09-03T14:02:56+00:00
 categories:
-  - Quote
-  - Management
+  - quote
 format: quote
 
 disableHLJS: false

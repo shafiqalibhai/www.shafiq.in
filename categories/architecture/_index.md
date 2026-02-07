@@ -1,11 +1,11 @@
 ---
 title: IT Architecture
-description: A description of this category
+description: Exploring system design, scalability, cloud architecture, and enterprise solutions
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#264653"
+    colour: "#fff"
 disableHLJS: false
 ---

@@ -6,7 +6,7 @@ date: 2010-08-31T09:37:09+00:00
 reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973445";}'
 categories:
-  - Development
+  - development
 tags:
   - gearman
   - gearman perl

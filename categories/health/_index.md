@@ -1,11 +1,11 @@
 ---
 title: Health And Fitness
-description: A description of this category
+description: Wellness, nutrition, exercise, mental health, and lifestyle optimization
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#06a77d"
+    colour: "#fff"
 disableHLJS: false
 ---

@@ -3,7 +3,7 @@ title: "Evaluating Modern Testing Practices: A Comprehensive Look"
 author: Shafiq Alibhai
 date: 2011-11-11T05:10:14+00:00
 categories:
-  - Development
+  - development
 
 disableHLJS: false
 ---

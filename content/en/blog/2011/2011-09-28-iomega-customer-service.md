@@ -3,7 +3,7 @@ title: The Ups and Downs of Iomega Customer Service in India
 author: Shafiq Alibhai
 date: 2011-09-28T10:41:34+00:00
 categories:
-  - Uncategorized
+  - writing
 tags:
   - Customer Service
   - Tech Support

@@ -7,7 +7,7 @@ delicious:
 reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1276059879";}'
 categories:
-  - Design
+  - design
 tags:
   - IP
   - Participation Certificate

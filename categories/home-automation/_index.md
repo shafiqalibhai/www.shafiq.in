@@ -1,11 +1,11 @@
 ---
 title: Home Automation
-description: A description of this category
+description: Smart home tech, IoT devices, automation workflows, and home tech setup
 image:
 
 # Badge style
-# style:
-#     background: "#2a9d8f"
-#     colour: "#fff"
+style:
+    background: "#00bfff"
+    colour: "#000"
 disableHLJS: false
 ---

@@ -4,7 +4,7 @@ author: Shafiq Alibhai
 draft: true
 date: 2012-01-02T17:23:29+00:00
 categories:
-  - Development
+  - development
 tags:
   - devops
   - continuous-deployment

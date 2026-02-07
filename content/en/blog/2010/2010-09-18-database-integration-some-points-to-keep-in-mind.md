@@ -6,7 +6,7 @@ date: 2010-09-18T07:19:26+00:00
 reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973443";}'
 categories:
-  - Development
+  - development
 tags:
   - Build Management
   - Database
