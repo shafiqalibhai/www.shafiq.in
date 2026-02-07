@@ -1,5 +1,6 @@
 ---
 title: {{ replace .Name "-" " " | title }}
+slug: "{{ .Name | urlize }}"
 date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]

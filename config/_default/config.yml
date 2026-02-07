@@ -236,7 +236,7 @@ languages:
     contentDir: content/en
     weight: 1
     permalinks:
-      post: "/blog/:slug/"
+      blog: "/blog/:slug/"
       page: "/:slug/"
   fr:
     languageName: "Français"
@@ -245,7 +245,7 @@ languages:
     contentDir: content/fr
     weight: 2
     permalinks:
-      post: "/blog/:slug/"
+      blog: "/blog/:slug/"
       page: "/:slug/"
 
 # ============================================================================
@@ -253,7 +253,7 @@ languages:
 # ============================================================================
 
 permalinks:
-  post: "/blog/:slug/"
+  blog: "/blog/:slug/"
   page: "/:slug/"
 
 # ============================================================================
