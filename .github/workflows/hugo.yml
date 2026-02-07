@@ -129,8 +129,7 @@ jobs:
             --minify \
             --gc \
             --enableGitInfo \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --verbose
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
           echo ""
           echo "📊 Build Statistics:"
