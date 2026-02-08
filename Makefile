@@ -36,7 +36,7 @@ dev:
 	@echo "Environment: development"
 	@echo "Features: Drafts enabled, Future posts visible, Minification disabled"
 	@echo ""
-	$(HUGO) server -D --disableFastRender --environment development
+	$(HUGO) server -D --disableFastRender --environment development -M --ignoreCache --gc
 
 prod: clean
 	@echo "Building production site..."

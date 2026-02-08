@@ -22,9 +22,9 @@ env: development
 # ============================================================================
 # Show everything while developing to catch issues early
 
-buildDrafts: true # Show draft posts
-buildFuture: true # Show posts scheduled for future dates
-buildExpired: true # Show posts past their expiration date
+buildDrafts: false # Show draft posts
+buildFuture: false # Show posts scheduled for future dates
+buildExpired: false # Show posts past their expiration date
 
 # ============================================================================
 # ANALYTICS (DISABLED IN DEVELOPMENT)

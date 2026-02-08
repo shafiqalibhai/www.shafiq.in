@@ -14,9 +14,9 @@ baseURL: "https://shafiq.in/"
 title: "Shafiq Alibhai"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
-copyright: "© 2009-2026 Shafiq Alibhai. All rights reserved."
+copyright: "© 2009-2026 All rights reserved."
 hasCJKLanguage: false
-
+ignorefiles: ["public"]
 # ============================================================================
 # CONTENT & BUILD SETTINGS
 # ============================================================================
@@ -31,7 +31,7 @@ BookMenuBundle: /menu
 disablePathToLower: false
 
 # Enable Git info for last modified dates
-enableGitInfo: true
+enableGitInfo: false
 
 # Minimum Hugo version required
 min_version: "0.155.2"
@@ -417,7 +417,7 @@ params:
     # Emoji or character to display next to site name
     emoji: "🍥"
     # Subtitle text in sidebar
-    subtitle: "Welcome to my blog, where I share my thoughts, passion, curiosity, experiences and some randomness."
+    subtitle: "Welcome to my website, where I share my thoughts, passion, curiosity, and experiences in the form of blog posts and notes."
     # Optional avatar image
     avatar:
       enabled: false
@@ -430,7 +430,7 @@ params:
 
   article:
     # Enable math rendering (requires math library)
-    math: false
+    math: true
     # Show reading time estimate
     readingTime: true
     # Article license information
