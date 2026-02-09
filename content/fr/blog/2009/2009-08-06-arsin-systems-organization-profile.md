@@ -1,7 +1,7 @@
 ---
 title: Arsin Systems — Organisation Profile
 author: Shafiq Alibhai
-draft: true
+draft: false
 date: 2009-08-06T06:13:53+00:00
 delicious:
   - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1253883329";}'

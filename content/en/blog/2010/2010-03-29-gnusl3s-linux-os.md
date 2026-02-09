@@ -29,8 +29,8 @@ disableHLJS: false
 - **Origin**: Goa, India
 - **Status**: Discontinued
 
-![GNUSL3S LINUX OS](https://www.shafiq.in/wp-content/uploads/2010/04/screenshot1.png "Alibhai GNUSL3S LINUX OS")
-![GNUSL3S LINUX OS](https://www.shafiq.in/wp-content/uploads/2010/04/screenshot-1.png "Alibhai GNUSL3S LINUX OS")
-![GNUSL3S LINUX OS](https://www.shafiq.in/wp-content/uploads/2010/04/screenshot-2.png "Alibhai GNUSL3S LINUX OS")
-![GNUSL3S LINUX OS](https://www.shafiq.in/wp-content/uploads/2010/04/screenshot-3.png "Alibhai GNUSL3S LINUX OS")
-![GNUSL3S LINUX OS](https://www.shafiq.in/wp-content/uploads/2010/04/screenshot-4.png "Alibhai GNUSL3S LINUX OS")
+{{< optimizedImage src="wp-content/uploads/2010/04/screenshot1.png 'Alibhai GNUSL3S LINUX OS'" alt="GNUSL3S LINUX OS" >}}
+{{< optimizedImage src="wp-content/uploads/2010/04/screenshot-1.png 'Alibhai GNUSL3S LINUX OS'" alt="GNUSL3S LINUX OS" >}}
+{{< optimizedImage src="wp-content/uploads/2010/04/screenshot-2.png 'Alibhai GNUSL3S LINUX OS'" alt="GNUSL3S LINUX OS" >}}
+{{< optimizedImage src="wp-content/uploads/2010/04/screenshot-3.png 'Alibhai GNUSL3S LINUX OS'" alt="GNUSL3S LINUX OS" >}}
+{{< optimizedImage src="wp-content/uploads/2010/04/screenshot-4.png 'Alibhai GNUSL3S LINUX OS'" alt="GNUSL3S LINUX OS" >}}

@@ -4,7 +4,7 @@ author: Shafiq Alibhai
 date: 2012-12-01T16:27:52+00:00
 publicize_twitter_user:
   - shafiqalibhai
-draft: true
+draft: false
 categories:
   - Development
 tags:

@@ -19,4 +19,4 @@ tags:
 
 disableHLJS: false
 ---
-![Designer Blue Page Website Template](https://www.shafiq.in/wp-content/uploads/2009/08/screenshot.png)
+{{< optimizedImage src="wp-content/uploads/2009/08/screenshot.png" alt="Designer Blue Page Website Template" >}}

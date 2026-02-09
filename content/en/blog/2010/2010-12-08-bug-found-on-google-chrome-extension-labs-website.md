@@ -15,7 +15,7 @@ tags:
 disableHLJS: false
 ---
 
-![bug on google chrome extension labs website](https://www.shafiq.in/wp-content/uploads/2010/12/google-bug.png)
+{{< optimizedImage src="wp-content/uploads/2010/12/google-bug.png" alt="bug on google chrome extension labs website" >}}
 
 You forgot to change the path google developers !
 

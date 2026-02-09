@@ -43,7 +43,7 @@ prod: clean
 	@echo "Environment: production"
 	@echo "Features: Minified, optimized, analytics enabled"
 	@echo ""
-	HUGO_ENVIRONMENT=production $(HUGO) --minify --gc --enableGitInfo
+	HUGO_ENVIRONMENT=production $(HUGO) --minify --gc
 	@echo "✓ Production build complete"
 	@du -sh public/
 

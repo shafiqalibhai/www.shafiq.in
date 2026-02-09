@@ -14,6 +14,6 @@ tags:
   - Logo Samples
 disableHLJS: false
 ---
-![610007](https://www.shafiq.in/wp-content/uploads/2009/03/610007.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/610007.jpg" alt="610007" >}}
 
-![110002](https://www.shafiq.in/wp-content/uploads/2009/03/110002.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/110002.jpg" alt="110002" >}}

@@ -19,4 +19,4 @@ tags:
 
 disableHLJS: false
 ---
-![Modèle de site web page bleue design](https://www.shafiq.in/wp-content/uploads/2009/08/screenshot.png)
+{{< optimizedImage src="wp-content/uploads/2009/08/screenshot.png" alt="Modèle de site web page bleue design" >}}

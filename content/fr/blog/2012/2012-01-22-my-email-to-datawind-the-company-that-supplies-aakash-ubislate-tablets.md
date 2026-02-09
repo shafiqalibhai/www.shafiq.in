@@ -2,7 +2,7 @@
 title: My email to Datawind… the company that supplies Aakash Ubislate tablets
 author: Shafiq Alibhai
 date: 2012-01-22T08:12:58+00:00
-draft: true
+draft: false
 reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1336541340";}'
 categories:

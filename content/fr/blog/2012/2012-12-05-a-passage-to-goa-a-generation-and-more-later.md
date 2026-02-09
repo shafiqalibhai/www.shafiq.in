@@ -4,7 +4,7 @@ author: Shafiq Alibhai
 date: 2012-12-05T07:32:02+00:00
 publicize_reach:
   - 'a:3:{s:7:"twitter";a:1:{i:1937780;i:136;}s:2:"fb";a:1:{i:1937778;i:170;}s:2:"wp";a:1:{i:0;i:9;}}'
-draft: true
+draft: false
 publicize_twitter_user:
   - shafiqalibhai
 categories:

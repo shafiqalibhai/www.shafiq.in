@@ -15,4 +15,4 @@ tags:
 
 disableHLJS: false
 ---
-![certi-4-copy10010](https://www.shafiq.in/wp-content/uploads/2009/03/certi-4-copy10010.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/certi-4-copy10010.jpg" alt="certi-4-copy10010" >}}

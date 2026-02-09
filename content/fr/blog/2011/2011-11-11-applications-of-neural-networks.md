@@ -1,7 +1,7 @@
 ---
 title: Applications of Neural Networks
 author: Shafiq Alibhai
-draft: true
+draft: false
 date: 2011-11-11T05:48:11+00:00
 categories:
   - Uncategorized

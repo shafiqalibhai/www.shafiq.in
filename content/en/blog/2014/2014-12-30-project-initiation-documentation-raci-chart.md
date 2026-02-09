@@ -10,4 +10,4 @@ format: image
 
 disableHLJS: false
 ---
-![9781118510582-tb1003](https://www.shafiq.in/wp-content/uploads/2014/12/9781118510582-tb1003.png)
+{{< optimizedImage src="wp-content/uploads/2014/12/9781118510582-tb1003.png" alt="9781118510582-tb1003" >}}

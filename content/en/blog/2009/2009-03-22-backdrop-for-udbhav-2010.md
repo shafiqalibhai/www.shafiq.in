@@ -7,4 +7,4 @@ categories: ["design"]
 tags: ["Backdrop", "Udbhav"]
 disableHLJS: false
 ---
-![udbhav2010_110030](https://www.shafiq.in/wp-content/uploads/2009/03/udbhav2010_110030.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/udbhav2010_110030.jpg" alt="udbhav2010_110030" >}}

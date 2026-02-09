@@ -16,7 +16,7 @@ tags:
   - Website
 disableHLJS: false
 ---
-![slide1](https://www.shafiq.in/wp-content/uploads/2009/03/slide1.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/slide1.jpg" alt="slide1" >}}
 
 <!-- Cliquez ici pour afficher le modèle de site web HTML.
 

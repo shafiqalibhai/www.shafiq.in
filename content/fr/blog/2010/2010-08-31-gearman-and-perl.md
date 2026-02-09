@@ -1,7 +1,7 @@
 ---
 title: Gearman and Perl
 author: Shafiq Alibhai
-draft: true
+draft: false
 date: 2010-08-31T09:20:17+00:00
 
 reddit:

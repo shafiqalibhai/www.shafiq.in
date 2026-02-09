@@ -18,7 +18,7 @@ disableHLJS: false
 
 ## Transform Your WordPress Site with an iOS-like Experience
 
-![iOS-inspired WordPress Theme](https://www.shafiq.in/wp-content/uploads/2012/10/screenshot_3.png)
+{{< optimizedImage src="wp-content/uploads/2012/10/screenshot_3.png" alt="iOS-inspired WordPress Theme" >}}
 
 If you've always admired the clean and intuitive design of iOS, you're in for a treat. I'm thrilled to introduce a WordPress theme that brings the look and feel of iOS right to your website.
 

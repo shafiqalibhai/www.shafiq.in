@@ -1,7 +1,7 @@
 ---
 title: Continuous Delivery
 author: Shafiq Alibhai
-draft: true
+draft: false
 date: 2012-01-02T17:23:29+00:00
 
 reddit:

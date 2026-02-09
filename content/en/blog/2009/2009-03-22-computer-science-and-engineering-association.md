@@ -14,25 +14,25 @@ tags:
 disableHLJS: false
 ---
 
- ![logo-logo_2010017](https://www.shafiq.in/wp-content/uploads/2009/03/logo-logo_2010017.jpg)
+ {{< optimizedImage src="wp-content/uploads/2009/03/logo-logo_2010017.jpg" alt="logo-logo_2010017" >}}
 
-![1100011](https://www.shafiq.in/wp-content/uploads/2009/03/1100011.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/1100011.jpg" alt="1100011" >}}
 
-![2100031](https://www.shafiq.in/wp-content/uploads/2009/03/2100031.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/2100031.jpg" alt="2100031" >}}
 
-![3100041](https://www.shafiq.in/wp-content/uploads/2009/03/3100041.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/3100041.jpg" alt="3100041" >}}
 
-![4100051](https://www.shafiq.in/wp-content/uploads/2009/03/4100051.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/4100051.jpg" alt="4100051" >}}
 
-![5100061](https://www.shafiq.in/wp-content/uploads/2009/03/5100061.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/5100061.jpg" alt="5100061" >}}
 
-![logo-logo_2110018](https://www.shafiq.in/wp-content/uploads/2009/03/logo-logo_2110018.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/logo-logo_2110018.jpg" alt="logo-logo_2110018" >}}
 
-![logo-logo_2310019](https://www.shafiq.in/wp-content/uploads/2009/03/logo-logo_2310019.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/logo-logo_2310019.jpg" alt="logo-logo_2310019" >}}
   
-![logo-logo_2410020](https://www.shafiq.in/wp-content/uploads/2009/03/logo-logo_2410020.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/logo-logo_2410020.jpg" alt="logo-logo_2410020" >}}
 
-![logo-logo_2810021](https://www.shafiq.in/wp-content/uploads/2009/03/logo-logo_2810021.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/logo-logo_2810021.jpg" alt="logo-logo_2810021" >}}
 
-![logo-logo_1010016](https://www.shafiq.in/wp-content/uploads/2009/03/logo-logo_1010016.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/logo-logo_1010016.jpg" alt="logo-logo_1010016" >}}
   

@@ -1,7 +1,7 @@
 ---
 title: A Comprehensive Guide to Drupal 7 Mobile Boilerplate Theme
 author: Shafiq Alibhai
-draft: true
+draft: false
 date: 2013-09-05T08:47:24+00:00
 categories:
   - Development

@@ -15,5 +15,5 @@ tags:
 disableHLJS: false
 ---
 
-![stiker_brown1-copy10026](https://www.shafiq.in/wp-content/uploads/2009/03/stiker_brown1-copy10026.jpg)
-![stiker_sanskrit1-copy10027](https://www.shafiq.in/wp-content/uploads/2009/03/stiker_sanskrit1-copy10027.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/stiker_brown1-copy10026.jpg" alt="stiker_brown1-copy10026" >}}
+{{< optimizedImage src="wp-content/uploads/2009/03/stiker_sanskrit1-copy10027.jpg" alt="stiker_sanskrit1-copy10027" >}}

@@ -2,7 +2,7 @@
 title: shafiqalibhai/Puppet-Manifests · GitHub
 author: Shafiq Alibhai
 date: 2013-04-05T15:07:11+00:00
-draft: true
+draft: false
 
 publicize_twitter_user:
   - shafiqalibhai

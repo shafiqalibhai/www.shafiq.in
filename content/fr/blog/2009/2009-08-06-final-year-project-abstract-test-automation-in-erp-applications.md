@@ -1,7 +1,7 @@
 ---
 title: Final Year Project Abstract — Test Automation in ERP Applications
 author: Shafiq Alibhai
-draft: true
+draft: false
 date: 2009-08-06T06:09:53+00:00
 categories:
   - Development

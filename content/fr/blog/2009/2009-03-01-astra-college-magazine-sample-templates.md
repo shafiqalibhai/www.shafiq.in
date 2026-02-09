@@ -12,10 +12,10 @@ tags:
   - college
 disableHLJS: false
 ---
-![astra_magazine_2009_2](https://www.shafiq.in/wp-content/uploads/2009/03/astra_magazine_2009_2.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/astra_magazine_2009_2.jpg" alt="astra_magazine_2009_2" >}}
 
-![Astra Magazine 2009 3](https://www.shafiq.in/wp-content/uploads/2009/03/astra_magazine_2009_3.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/astra_magazine_2009_3.jpg" alt="Astra Magazine 2009 3" >}}
 
-![Astra Magazine 2009 4](https://www.shafiq.in/wp-content/uploads/2009/03/astra_magazine_2009_4.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/astra_magazine_2009_4.jpg" alt="Astra Magazine 2009 4" >}}
 
-![Astra Magazine 2009 11](https://www.shafiq.in/wp-content/uploads/2009/03/astra_magazine_2009_11.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/astra_magazine_2009_11.jpg" alt="Astra Magazine 2009 11" >}}

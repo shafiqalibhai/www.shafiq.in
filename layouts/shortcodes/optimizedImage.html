@@ -1,23 +1,11 @@
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default "" }}
 {{ $class := .Get "class" | default "" }}
-{{ $sizes := .Get "sizes" | default "(max-width: 800px) 100vw, 800px" }}
 {{ $image := resources.Get $src }}
 {{ if not $image }}
   <!-- fallback to static file -->
   <img src="/{{ $src }}" alt="{{ $alt }}" loading="lazy" class="{{ $class }}" />
 {{ else }}
-  {{ $widths := (slice 360 720 1024 1440) }}
-  {{ $variants := dict }}
-  {{ range $i, $w := $widths }}
-    {{ $resized := $image.Fit (printf "%dx" $w) | resources.Quality 75 }}
-    {{ $webp := $resized | resources.Convert "image/webp" }}
-    {{ $avif := $resized | resources.Convert "image/avif" }}
-    {{ $variants = merge $variants (dict (printf "%d" $w) (dict "jpg" $resized.RelPermalink "webp" $webp.RelPermalink "avif" $avif.RelPermalink)) }}
-  {{ end }}
-  <picture>
-    <source type="image/avif" srcset="{{ range $i, $w := $widths }}{{ if $i }}, {{ end }}{{ index $variants (printf "%d" $w) "avif" }} {{ $w }}w{{ end }}" />
-    <source type="image/webp" srcset="{{ range $i, $w := $widths }}{{ if $i }}, {{ end }}{{ index $variants (printf "%d" $w) "webp" }} {{ $w }}w{{ end }}" />
-    <img src="{{ index (index $variants "720") "jpg" }}" srcset="{{ range $i, $w := $widths }}{{ if $i }}, {{ end }}{{ index $variants (printf "%d" $w) "jpg" }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}" alt="{{ $alt }}" loading="lazy" decoding="async" class="{{ $class }}" />
-  </picture>
+  {{ $resized := $image.Resize "800x" }}
+  <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" class="{{ $class }}" />
 {{ end }}

@@ -13,10 +13,10 @@ tags:
   - Udbhav
 disableHLJS: false
 ---
-![sound_of_music10025](https://www.shafiq.in/wp-content/uploads/2009/03/sound_of_music10025.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/sound_of_music10025.jpg" alt="sound_of_music10025" >}}
 
-![antakshari10008](https://www.shafiq.in/wp-content/uploads/2009/03/antakshari10008.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/antakshari10008.jpg" alt="antakshari10008" >}}
 
-![dance_rockers10012](https://www.shafiq.in/wp-content/uploads/2009/03/dance_rockers10012.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/dance_rockers10012.jpg" alt="dance_rockers10012" >}}
 
-![on_the_spot_events10022](https://www.shafiq.in/wp-content/uploads/2009/03/on_the_spot_events10022.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/on_the_spot_events10022.jpg" alt="on_the_spot_events10022" >}}

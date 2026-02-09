@@ -1,7 +1,7 @@
 ---
 title: Ubuntu 11.04 Alpha 1 x64 Vmware Image
 author: Shafiq Alibhai
-draft: true
+draft: false
 date: 2010-12-26T07:52:40+00:00
 reddit:
   - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1334973448";}'

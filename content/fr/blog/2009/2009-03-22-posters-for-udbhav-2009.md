@@ -14,7 +14,7 @@ tags:
 
 disableHLJS: false
 ---
-![red10024](https://www.shafiq.in/wp-content/uploads/2009/03/red10024.jpg)
-![udbhav_have_a_sip_shafiq_alibhai-copy10028](https://www.shafiq.in/wp-content/uploads/2009/03/udbhav_have_a_sip_shafiq_issani-copy10028.jpg)
-![havent_you_heard10013](https://www.shafiq.in/wp-content/uploads/2009/03/havent_you_heard10013.jpg)
-![orange10023](https://www.shafiq.in/wp-content/uploads/2009/03/orange10023.jpg)
+{{< optimizedImage src="wp-content/uploads/2009/03/red10024.jpg" alt="red10024" >}}
+{{< optimizedImage src="wp-content/uploads/2009/03/udbhav_have_a_sip_shafiq_issani-copy10028.jpg" alt="udbhav_have_a_sip_shafiq_alibhai-copy10028" >}}
+{{< optimizedImage src="wp-content/uploads/2009/03/havent_you_heard10013.jpg" alt="havent_you_heard10013" >}}
+{{< optimizedImage src="wp-content/uploads/2009/03/orange10023.jpg" alt="orange10023" >}}
