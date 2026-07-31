@@ -10,11 +10,12 @@
     <lastBuildDate>Sun, 07 Dec 2014 13:25:16 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/game-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>a priori thinking</title>
-      <link>https://www.shafiq.in/blog/a-priori-thinking/</link>
+      <title>Thinking Before the Move</title>
+      <link>https://www.shafiq.in/blog/thinking-before-the-move/</link>
       <pubDate>Sun, 07 Dec 2014 13:25:16 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-priori-thinking/</guid>
-      <description>&lt;p&gt;Nobel prize–winner and game theory pioneer Reinhard Selten observed that people work diligently to be rational ex post. That is, we commonly look back at how a situation played out to try and understand how a better outcome might have been achieved. This contrasts with a game theory approach in which the goal is to develop a strategy that will lead to that better outcome a priori.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/thinking-before-the-move/</guid>
+      <description>&lt;p&gt;Reinhard Selten, the Nobel prize-winning game theorist, noticed something about how we think: we spend most of our mental energy being rational after the fact. We replay conversations, revisit decisions, trace back through the chain of events and ask ourselves what we should have done differently. This is rationality ex post &amp;ndash; looking backwards, reconstructing the path we ought to have taken.&lt;/p&gt;
+&lt;p&gt;But game theory is concerned with something else entirely. It asks you to build a strategy before the game begins, to arrive at a good outcome a priori, without the luxury of hindsight. The gap between these two modes of thinking is where most of our failures live. We are brilliant historians of our own mistakes and terrible architects of our own choices.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

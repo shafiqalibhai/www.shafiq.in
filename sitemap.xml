@@ -1052,17 +1052,32 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/documentation/</loc>
+    <lastmod>2014-12-30T15:56:13+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/project-initiation/</loc>
+    <lastmod>2014-12-30T15:56:13+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/project-initiation-documentation-raci-chart/</loc>
     <lastmod>2014-12-30T15:56:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/project-initiation-documentation-raci-chart/</loc>
+    <loc>https://www.shafiq.in/tags/stakeholder-management/</loc>
     <lastmod>2014-12-30T15:56:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/documentation/</loc>
+    <loc>https://www.shafiq.in/tags/template/</loc>
+    <lastmod>2014-12-30T15:56:13+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/stakeholder-analysis/</loc>
     <lastmod>2014-12-28T10:53:53+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1072,28 +1087,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/stakeholder-management/</loc>
-    <lastmod>2014-12-28T10:53:53+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/template/</loc>
-    <lastmod>2014-12-28T10:53:53+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/blog/break-stakeholders-into-smaller-groups-according-to-roles-or-goals-doc/</loc>
+    <loc>https://www.shafiq.in/blog/break-stakeholders-into-smaller-groups-according-to-roles-or-goals/</loc>
     <lastmod>2014-12-15T14:06:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/stakeholder-roles-groups/</loc>
-    <lastmod>2014-12-15T14:06:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/stakeholder-analysis/</loc>
-    <lastmod>2014-12-08T10:19:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1107,7 +1102,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/a-priori-thinking/</loc>
+    <loc>https://www.shafiq.in/tags/decision-making/</loc>
     <lastmod>2014-12-07T13:25:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1117,7 +1112,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/categories/philosophy/</loc>
+    <lastmod>2014-12-07T13:25:16+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/reflection/</loc>
+    <lastmod>2014-12-07T13:25:16+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/tags/strategy/</loc>
+    <lastmod>2014-12-07T13:25:16+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/thinking-before-the-move/</loc>
     <lastmod>2014-12-07T13:25:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1132,12 +1142,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/some-notes-on-people-skills-and-emotional-intelligence-1/</loc>
+    <loc>https://www.shafiq.in/blog/some-notes-on-people-skills-and-emotional-intelligence/</loc>
     <lastmod>2014-12-07T12:01:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/writings-of-an-anglican-bishop/</loc>
+    <loc>https://www.shafiq.in/blog/start-with-yourself/</loc>
     <lastmod>2014-12-06T14:25:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

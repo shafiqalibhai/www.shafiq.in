@@ -11552,68 +11552,66 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</descr
       <link>https://www.shafiq.in/blog/project-initiation-documentation-raci-chart/</link>
       <pubDate>Tue, 30 Dec 2014 15:56:13 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/project-initiation-documentation-raci-chart/</guid>
-      <description>&lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2014/12/9781118510582-tb1003_hu_93833283d632d22b.png&#34; alt=&#34;9781118510582-tb1003&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;</description>
+      <description>&lt;p&gt;This is a RACI chart specifically for project initiation documentation — who&amp;rsquo;s responsible for producing each piece of the paperwork that kicks a project off.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s based on the chart from &lt;em&gt;Project Management for Dummies&lt;/em&gt; (Wiley, 2011), which is one of those books people laugh at but actually contains useful reference material. This particular chart maps out who does what during the initiation phase: the business case, the project brief, the risk register, the stakeholder analysis, and so on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stakeholder RACI Matrix Spreadsheet</title>
       <link>https://www.shafiq.in/blog/stakeholder-raci-matrix-spreadsheet/</link>
       <pubDate>Sun, 28 Dec 2014 10:53:53 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/stakeholder-raci-matrix-spreadsheet/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2014/12/stakeholder-raci-matrix.xls&#34;&gt;Download Stakeholder RACI Matrix&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;A RACI matrix stops the &amp;ldquo;I thought &lt;em&gt;you&lt;/em&gt; were doing that&amp;rdquo; conversation before it starts.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a grid. Down the left side, you list the tasks or decisions. Across the top, you list the people or roles. Where they cross, you mark what each person&amp;rsquo;s relationship is to that item:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;R&lt;/strong&gt; — Responsible. The person doing the work.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt; — Accountable. The person who owns the outcome and gets to say it&amp;rsquo;s done.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C&lt;/strong&gt; — Consulted. The person whose opinion matters before a decision is made.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;I&lt;/strong&gt; — Informed. The person who needs to know after the decision is made.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-it-matters&#34;&gt;Why it matters&lt;/h2&gt;
+&lt;p&gt;The most common failure mode on a project isn&amp;rsquo;t that nobody does the work. It&amp;rsquo;s that two people think they&amp;rsquo;re both responsible, or nobody thinks they&amp;rsquo;re responsible at all.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Break stakeholders into smaller groups according to roles or goals [doc]</title>
-      <link>https://www.shafiq.in/blog/break-stakeholders-into-smaller-groups-according-to-roles-or-goals-doc/</link>
+      <title>Break stakeholders into smaller groups according to roles or goals</title>
+      <link>https://www.shafiq.in/blog/break-stakeholders-into-smaller-groups-according-to-roles-or-goals/</link>
       <pubDate>Mon, 15 Dec 2014 14:06:04 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/break-stakeholders-into-smaller-groups-according-to-roles-or-goals-doc/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2014/12/stakeholder-roles-groups.docx&#34;&gt;Download Stakeholder Roles Groups Document&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/break-stakeholders-into-smaller-groups-according-to-roles-or-goals/</guid>
+      <description>&lt;p&gt;Once you&amp;rsquo;ve got your stakeholder list — the one from the &lt;a href=&#34;https://www.shafiq.in/2014/12/08/stakeholder-list-document/&#34;&gt;stakeholder list document&lt;/a&gt;, filled in with names, titles, and notes — the next step is to stop looking at it as a flat list and start grouping them.&lt;/p&gt;
+&lt;p&gt;A flat list of twenty names is hard to work with. You can&amp;rsquo;t send the same email to everyone. You can&amp;rsquo;t run the same meeting with everyone. You can&amp;rsquo;t make the same promises to everyone. So you split them up.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stakeholder List Document</title>
       <link>https://www.shafiq.in/blog/stakeholder-list-document/</link>
       <pubDate>Mon, 08 Dec 2014 10:19:56 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/stakeholder-list-document/</guid>
-      <description>&lt;p&gt;Download -&amp;gt; &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2014/12/stakeholder-list.docx&#34;&gt;Stakeholder List Document&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Every project has people who care about it, whether they&amp;rsquo;ve signed up for it or not. The trick is figuring out who they are before they start caring loudly.&lt;/p&gt;
+&lt;p&gt;I keep a simple stakeholder list document open from day one. It&amp;rsquo;s not fancy — six columns, thirty-six rows, nothing more. But it stops you from being surprised when someone you never considered shows up at a steering group demanding answers.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>a priori thinking</title>
-      <link>https://www.shafiq.in/blog/a-priori-thinking/</link>
+      <title>Thinking Before the Move</title>
+      <link>https://www.shafiq.in/blog/thinking-before-the-move/</link>
       <pubDate>Sun, 07 Dec 2014 13:25:16 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-priori-thinking/</guid>
-      <description>&lt;p&gt;Nobel prize–winner and game theory pioneer Reinhard Selten observed that people work diligently to be rational ex post. That is, we commonly look back at how a situation played out to try and understand how a better outcome might have been achieved. This contrasts with a game theory approach in which the goal is to develop a strategy that will lead to that better outcome a priori.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/thinking-before-the-move/</guid>
+      <description>&lt;p&gt;Reinhard Selten, the Nobel prize-winning game theorist, noticed something about how we think: we spend most of our mental energy being rational after the fact. We replay conversations, revisit decisions, trace back through the chain of events and ask ourselves what we should have done differently. This is rationality ex post &amp;ndash; looking backwards, reconstructing the path we ought to have taken.&lt;/p&gt;
+&lt;p&gt;But game theory is concerned with something else entirely. It asks you to build a strategy before the game begins, to arrive at a good outcome a priori, without the luxury of hindsight. The gap between these two modes of thinking is where most of our failures live. We are brilliant historians of our own mistakes and terrible architects of our own choices.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Some notes on people skills and emotional intelligence – 1</title>
-      <link>https://www.shafiq.in/blog/some-notes-on-people-skills-and-emotional-intelligence-1/</link>
+      <title>Some notes on people skills and emotional intelligence</title>
+      <link>https://www.shafiq.in/blog/some-notes-on-people-skills-and-emotional-intelligence/</link>
       <pubDate>Sun, 07 Dec 2014 12:01:02 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/some-notes-on-people-skills-and-emotional-intelligence-1/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Five essential people skills:
-&lt;ul&gt;
-&lt;li&gt;rapport building&lt;/li&gt;
-&lt;li&gt;curiosity&lt;/li&gt;
-&lt;li&gt;communication&lt;/li&gt;
-&lt;li&gt;ambition&lt;/li&gt;
-&lt;li&gt;and conflict resolution&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Assertiveness: the ability to speak and act in ways that naturally cause people to respond attentively and positively.&lt;/li&gt;
-&lt;li&gt;Use phrases like &amp;ldquo;You could be right about that. . . .&amp;rdquo; or &amp;ldquo;I understand how you feel. . . .&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Keep a diary of aggressive and passive behaviour on your part.&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>https://www.shafiq.in/blog/some-notes-on-people-skills-and-emotional-intelligence/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been reading up on emotional intelligence lately and collecting the bits that felt useful. Not the textbook definitions — the ones that actually change how you show up in a room.&lt;/p&gt;
+&lt;h2 id=&#34;the-five-things-that-matter&#34;&gt;The five things that matter&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s a framework that keeps coming up, and it boils down to five skills: rapport building, curiosity, communication, ambition, and conflict resolution. They&amp;rsquo;re not glamorous. They&amp;rsquo;re not the sort of things you put on a CV under &amp;ldquo;technical expertise&amp;rdquo;. But they&amp;rsquo;re the difference between being someone people want to work with and someone they tolerate.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Writings of an Anglican bishop</title>
-      <link>https://www.shafiq.in/blog/writings-of-an-anglican-bishop/</link>
+      <title>Start with yourself</title>
+      <link>https://www.shafiq.in/blog/start-with-yourself/</link>
       <pubDate>Sat, 06 Dec 2014 14:25:02 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/writings-of-an-anglican-bishop/</guid>
-      <description>&lt;p&gt;I am reminded of the writings of an Anglican bishop:&lt;/p&gt;
-&lt;p&gt;When I was young and free and my&lt;/p&gt;
-&lt;p&gt;imagination had no limits, I dreamed of changing the world;&lt;/p&gt;
-&lt;p&gt;As I grew older and wiser I realised the world would not change.&lt;/p&gt;
-&lt;p&gt;And I decided to shorten my sights somewhat and change only my country. But it too seemed immovable.&lt;/p&gt;
-&lt;p&gt;As I entered my twilight years, in one last desperate attempt, I sought to change only my family, those closest to me, but alas they would have none of it.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/start-with-yourself/</guid>
+      <description>&lt;p&gt;I came across this parable recently and it stuck with me. The attribution is disputed &amp;ndash; some say it was the German theologian Dietrich Bonhoeffer on his deathbed, others point to an Anglican bishop, and some claim it&amp;rsquo;s simply anonymous folklore that&amp;rsquo;s been circulating for decades. The origin doesn&amp;rsquo;t matter much. What matters is the shape of the thing.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When I was young, free, and my imagination had no limits, I dreamed of changing the world.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On leverage</title>
