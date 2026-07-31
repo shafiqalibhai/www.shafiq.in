@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Privacy on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/privacy/</link>
+    <description>Recent content in Privacy on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 30 Sep 2010 06:27:57 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disabling Google Analytics</title>
+      <link>https://www.shafiq.in/blog/disabling-google-analytics/</link>
+      <pubDate>Thu, 30 Sep 2010 06:27:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/disabling-google-analytics/</guid>
+      <description>&lt;p&gt;Google offers a browser plugin to opt out of Analytics tracking. Grab it from http://tools.google.com/dlpage/gaoptout&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

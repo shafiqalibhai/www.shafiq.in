@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Javascript on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/javascript/</link>
+    <description>Recent content in Javascript on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 22 Dec 2018 09:42:28 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NPM update all globally installed packages</title>
+      <link>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</link>
+      <pubDate>Sat, 22 Dec 2018 09:42:28 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm update -g
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Hiding a DataTables column without removing it from the DOM</title>
+      <link>https://www.shafiq.in/blog/hiding-a-datatables-column-without-removing-it-from-the-dom/</link>
+      <pubDate>Tue, 23 Apr 2013 10:11:33 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/hiding-a-datatables-column-without-removing-it-from-the-dom/</guid>
+      <description>&lt;p&gt;Sometimes you want to hide a column in a DataTable but keep its data in the DOM &amp;ndash; maybe you need it for export, for a tooltip, or for some other operation that happens after the table renders. Removing the column entirely means losing that data, which isn&amp;rsquo;t always an option.&lt;/p&gt;
+&lt;p&gt;The fix is embarrassingly simple: CSS.&lt;/p&gt;
+&lt;h2 id=&#34;the-setup&#34;&gt;The setup&lt;/h2&gt;
+&lt;p&gt;Add a class to the column you want to hide using the &lt;code&gt;sClass&lt;/code&gt; option in your DataTables initialisation:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BottomToolBar - a scrolling ticker for your website</title>
+      <link>https://www.shafiq.in/blog/bottomtoolbar-a-scrolling-ticker-for-your-website/</link>
+      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/bottomtoolbar-a-scrolling-ticker-for-your-website/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working on something called BottomToolBar. It&amp;rsquo;s a small piece of JavaScript that drops a scrolling bar into the bottom of your browser window &amp;ndash; the kind you see on news channels, the one that runs along the bottom of the screen with headlines and images.&lt;/p&gt;
+&lt;p&gt;I thought it might be useful for websites.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+&lt;p&gt;The bar sits at the bottom of the viewport, fixed in place, always on top of everything else. Content scrolls through it from right to left (or left to right, your call), separated by images &amp;ndash; usually a logo or icon. It pulls text and images from a server, so you can update what it shows without touching the page itself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>9 skills developers will need in the next five years</title>
+      <link>https://www.shafiq.in/blog/9-skills-developers-will-need-in-the-next-five-years/</link>
+      <pubDate>Sun, 12 Jul 2009 07:40:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/9-skills-developers-will-need-in-the-next-five-years/</guid>
+      <description>&lt;p&gt;I was reading through some job listings recently and noticed a pattern. The same skills keep appearing, and the ones that were important five years ago are shifting. Not disappearing entirely, but moving around. Here&amp;rsquo;s what I think developers should be focusing on right now if they want to stay employable over the next few years.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t exhaustive. There are plenty of specialisms and niches I&amp;rsquo;m ignoring deliberately. I&amp;rsquo;m thinking about mainstream development work, the kind most people do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

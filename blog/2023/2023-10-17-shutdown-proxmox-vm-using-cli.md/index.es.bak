@@ -1,0 +1,53 @@
+---
+title: "Apagar Proxmox VM usando CLI"
+date: 2023-10-17T01:30:03+00:00
+author: "Me'
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: true
+categories: Development
+tags: [proxmox, vm, cli, how-to]
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+
+---
+
+Si está buscando apagar una máquina virtual que se ejecuta en un entorno virtual Proxmox (PVE), puede usar la interfaz de línea de comandos (CLI) de Proxmox para realizar esta tarea de manera bastante efectiva. El comando para apagar una VM en Proxmox es `qm shutdown`, seguido del ID de la máquina virtual que desea apagar. He aquí cómo hacerlo:
+
+1. **Acceda al servidor**: Primero, inicie sesión en su servidor Proxmox a través de SSH.
+
+   ```bash
+   ssh username@your-proxmox-server-ip
+   ```
+
+2. **Localice el ID de la VM**: si no está seguro del ID de la VM, puede enumerar todas las VM ejecutando:
+
+   ```bash
+   qm list
+   ```
+
+   Esto mostrará una lista de máquinas virtuales junto con sus ID y estados.
+
+3. **Apague la VM**: una vez que tenga la ID de la VM, use el siguiente comando para apagar la VM correctamente:
+
+   ```bash
+   qm shutdown VM_ID
+   ```
+
+   Reemplace `VM_ID` con el ID de la máquina virtual que desea apagar. Por ejemplo, si su ID de VM es 101, el comando sería:
+
+   ```bash
+   qm shutdown 101
+   ```
+
+Tenga en cuenta que `qm shutdown` intentará apagar la VM correctamente, lo que significa que enviará una señal de apagado ACPI al sistema operativo. Si la VM no responde a esta señal, no se apagará por la fuerza. Si necesita forzar el apagado, puede usar `qm stop VM_ID`, aunque esto es similar a desconectar el sistema y debe usarse como último recurso.

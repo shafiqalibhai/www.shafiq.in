@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Startups on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/startups/</link>
+    <description>Recent content in Startups on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sun, 02 Jan 2011 07:16:38 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/startups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make it free or fail</title>
+      <link>https://www.shafiq.in/blog/make-it-free-or-fail/</link>
+      <pubDate>Sun, 02 Jan 2011 07:16:38 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/make-it-free-or-fail/</guid>
+      <description>&lt;p&gt;The freemium model has become all the rage in software circles. Offer a basic version of your product for free, then charge for the good stuff &amp;ndash; premium features, extra storage, advanced functionality. It sounds like a clever way to build a user base, and for a handful of companies it has worked. But as someone who has watched this approach play out across the industry, I have my doubts about whether it is the right strategy for most startups.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

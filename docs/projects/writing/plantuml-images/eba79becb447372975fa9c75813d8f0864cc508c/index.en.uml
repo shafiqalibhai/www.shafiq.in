@@ -1,0 +1,83 @@
+@startuml
+!define RECTANGLE class
+!define DATABASE entity
+!define startuml start
+!define enduml end
+
+skinparam class {
+  BackgroundColor LightYellow
+  BorderColor Gray
+  ArrowColor Gray
+}
+
+startuml
+
+start
+:Start;
+
+-> **Is the Goal Defined?**:;
+if (No) then (yes)
+  :Start;
+else (no)
+  -> **Specific**: Define a clear, focused goal;
+  note right
+    What exactly needs to be achieved?
+    Who is involved?
+    What resources are needed?
+  end note
+  -> **Is the Goal Specific Enough?**:;
+  if (No) then (yes)
+    :Refine Goal;
+    -> **Specific**;
+  else (no)
+    -> **Measurable**: Establish criteria for measuring progress;
+    note right
+      How much? How many?
+      How will you know it's complete?
+    end note
+    -> **Is the Goal Measurable?**:;
+    if (No) then (yes)
+      :Refine Goal;
+      -> **Measurable**;
+    else (no)
+      -> **Achievable**: Ensure the goal is realistic;
+      note right
+        Is the goal reasonable?
+        Do you have the necessary resources?
+      end note
+      -> **Is the Goal Achievable?**:;
+      if (No) then (yes)
+        :Refine Goal;
+        -> **Achievable**;
+      else (no)
+        -> **Relevant**: Make sure the goal aligns with broader objectives;
+        note right
+          How does it fit into long-term plans?
+          Is it beneficial and aligned with other goals?
+        end note
+        -> **Is the Goal Relevant?**:;
+        if (No) then (yes)
+          :Refine Goal;
+          -> **Relevant**;
+        else (no)
+          -> **Time-bound**: Specify a deadline for the goal;
+          note right
+            When will it be achieved?
+            Is there a timeline?
+          end note
+          -> **Is the Goal Time-bound?**:;
+          if (No) then (yes)
+            :Refine Goal;
+            -> **Time-bound**;
+          else (no)
+            :End;
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+
+stop
+
+enduml

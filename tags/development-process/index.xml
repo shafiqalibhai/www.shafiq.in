@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Development Process on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/development-process/</link>
+    <description>Recent content in Development Process on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 01 Oct 2009 16:38:48 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/development-process/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Software Development Process – Points</title>
+      <link>https://www.shafiq.in/blog/basic-software-development-process-points/</link>
+      <pubDate>Thu, 01 Oct 2009 16:38:48 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/basic-software-development-process-points/</guid>
+      <description>&lt;p&gt;This is the process I follow on projects. It&amp;rsquo;s not fancy, but it works for me.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Defining the requirements.&lt;/strong&gt; Write down what needs to be built. Be specific. Ambiguous requirements are the root cause of most problems later on.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Approval.&lt;/strong&gt; Get sign-off on the requirements before anything else. If the requirements change later, that&amp;rsquo;s fine, but do it deliberately, not by accident.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template designs.&lt;/strong&gt; Work out the structure and layout before writing code. For web projects this means mockups and wireframes. For other projects it means architecture diagrams and data models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template approval.&lt;/strong&gt; Get the designs signed off too. It&amp;rsquo;s cheaper to change a design than to change code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coding.&lt;/strong&gt; Build it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internal release.&lt;/strong&gt; Get it in front of the team first. Internal testing catches the obvious stuff before anyone external sees it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing.&lt;/strong&gt; Proper testing, not just &amp;ldquo;I clicked through it once.&amp;rdquo; Automated tests where possible, manual where necessary.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alpha release.&lt;/strong&gt; Early access for a small group. Expect bugs. The goal is to find them in a controlled environment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beta release.&lt;/strong&gt; Wider release. More users, more edge cases. This is where you learn what people actually do with the software versus what you thought they&amp;rsquo;d do.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project goes live.&lt;/strong&gt; Production. The real world.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The key thing is not to skip steps. I&amp;rsquo;ve seen projects that jump straight from requirements to coding and then spend three times as long fixing problems that a proper design phase would have caught.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

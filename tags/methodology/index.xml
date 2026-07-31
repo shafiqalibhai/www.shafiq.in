@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Methodology on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/methodology/</link>
+    <description>Recent content in Methodology on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Nov 2011 05:10:14 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/methodology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Status Quo — A Review of Some Testing Practices</title>
+      <link>https://www.shafiq.in/blog/status-quo-a-review-of-some-testing-practices/</link>
+      <pubDate>Fri, 11 Nov 2011 05:10:14 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/status-quo-a-review-of-some-testing-practices/</guid>
+      <description>&lt;p&gt;I spent a fair amount of time on SAP implementations, and testing was always one of those areas that people talked about in the project plan but never really thought through until something broke. So here is a review of some testing practices I encountered — what worked, what did not, and what I wish someone had told me earlier.&lt;/p&gt;
+&lt;h2 id=&#34;methodology-matters-even-if-you-think-it-does-not&#34;&gt;Methodology Matters (Even If You Think It Does Not)&lt;/h2&gt;
+&lt;p&gt;Every SAP project has a methodology. Sometimes it is a proper one — Deloitte&amp;rsquo;s Thread Manager, IBM&amp;rsquo;s Ascendant, SAP&amp;rsquo;s own Roadmap through Solution Manager. Sometimes it is &amp;ldquo;we did something similar last time, let&amp;rsquo;s do that again.&amp;rdquo; Sometimes it is nothing at all, and the project is winging it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

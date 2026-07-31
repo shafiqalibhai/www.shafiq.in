@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Logging on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/logging/</link>
+    <description>Recent content in Logging on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 19 May 2011 16:54:58 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Puppet logs on Solaris 10</title>
+      <link>https://www.shafiq.in/blog/puppet-logs-on-solaris-10/</link>
+      <pubDate>Thu, 19 May 2011 16:54:58 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/puppet-logs-on-solaris-10/</guid>
+      <description>&lt;p&gt;Puppet on Solaris 10 stores its logs in the SMF log directory, which is different from the &lt;code&gt;/var/log&lt;/code&gt; location you might be used to on Linux. If you are looking for the usual log files and cannot find them, this is probably why.&lt;/p&gt;
+&lt;h3 id=&#34;agent-logs&#34;&gt;Agent logs&lt;/h3&gt;
+&lt;p&gt;The Puppet agent (&lt;code&gt;puppetd&lt;/code&gt;) runs as an SMF service, and its log is at:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;svc&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;network&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cswpuppetd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;log&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To watch it in real time:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tail -f /var/svc/log/network-cswpuppetd:default.log
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;master-logs&#34;&gt;Master logs&lt;/h3&gt;
+&lt;p&gt;The Puppet master (&lt;code&gt;puppetmasterd&lt;/code&gt;) follows the same pattern:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

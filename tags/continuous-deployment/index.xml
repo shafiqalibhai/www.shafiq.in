@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Continuous-Deployment on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/continuous-deployment/</link>
+    <description>Recent content in Continuous-Deployment on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 02 Jan 2012 17:31:13 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous Delivery</title>
+      <link>https://www.shafiq.in/blog/continuous-delivery/</link>
+      <pubDate>Mon, 02 Jan 2012 17:31:13 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/continuous-delivery/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been thinking about continuous delivery a lot lately, and the thing that keeps coming back to me is how much of a pain it is when someone logs into a server and makes a change by hand.&lt;/p&gt;
+&lt;p&gt;You know the type. Production is down, someone jumps in, tweaks a config file, restarts a service, and everything works again. Great. Except now that server has a configuration that exists in no repository, no documentation, and no one else&amp;rsquo;s head. Next time something breaks, you&amp;rsquo;ll spend hours chasing a difference that nobody bothered to record.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stop Deploying by Hand</title>
+      <link>https://www.shafiq.in/blog/stop-deploying-by-hand/</link>
+      <pubDate>Tue, 19 Oct 2010 09:07:45 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/stop-deploying-by-hand/</guid>
+      <description>&lt;p&gt;The idea that you could push code to production without anyone touching a server, running a script, or holding their breath still sounds a bit mad to most developers.&lt;/p&gt;
+&lt;p&gt;Most teams deploy like this: someone merges code, someone else pulls it down on a staging server, runs the tests manually, fixes whatever broke, then schedules a deployment window. Someone SSHs into production, runs a script or types commands by hand, crosses their fingers, and hopes nothing catches fire. If something does go wrong, you roll back by remembering what the last working version was and praying your backups are current.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

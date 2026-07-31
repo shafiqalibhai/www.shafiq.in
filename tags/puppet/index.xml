@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Puppet on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/puppet/</link>
+    <description>Recent content in Puppet on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 30 Aug 2012 17:14:59 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/puppet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Engineering</title>
+      <link>https://www.shafiq.in/blog/release-engineering/</link>
+      <pubDate>Thu, 30 Aug 2012 17:14:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/release-engineering/</guid>
+      <description>&lt;h1 id=&#34;release-engineering&#34;&gt;Release Engineering&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve been thinking about how we get changes from a laptop into production without someone having to SSH in and type things by hand. The answer, as it turns out, is a pipeline. Nothing fancy. Just a chain of steps that each do one thing and pass the result to the next.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what we&amp;rsquo;re building.&lt;/p&gt;
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+&lt;p&gt;Everything starts in a Git repository. Puppet manifests, config files, deployment scripts — all of it. If it&amp;rsquo;s not in Git, it doesn&amp;rsquo;t exist. This is the part that matters most and the part people resist the most, because Git means your changes are visible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Disable services in Solaris 10</title>
+      <link>https://www.shafiq.in/blog/disable-services-in-solaris-10/</link>
+      <pubDate>Mon, 23 May 2011 16:57:14 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/disable-services-in-solaris-10/</guid>
+      <description>&lt;p&gt;Managing services on Solaris 10 is nothing like Linux. There are no &lt;code&gt;/etc/init.d/&lt;/code&gt; scripts, no &lt;code&gt;service&lt;/code&gt; command, no &lt;code&gt;chkconfig&lt;/code&gt;. Instead, Solaris uses SMF — the Service Management Facility — and everything goes through &lt;code&gt;svcadm&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you are new to Solaris, this can feel unnecessarily complicated. It is not, once you learn the pattern.&lt;/p&gt;
+&lt;h3 id=&#34;disabling-a-service&#34;&gt;Disabling a service&lt;/h3&gt;
+&lt;p&gt;You need root privileges or sudo access. The command is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;svcadm disable network/cswpuppetd:default
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The argument is the service FMRI (Fault Management Resource Identifier). For Puppet installed from OpenCSW, the FMRI is &lt;code&gt;network/cswpuppetd:default&lt;/code&gt;. The &lt;code&gt;:default&lt;/code&gt; part refers to the default instance of the service. Some services have multiple instances, but most only have one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Puppet logs on Solaris 10</title>
+      <link>https://www.shafiq.in/blog/puppet-logs-on-solaris-10/</link>
+      <pubDate>Thu, 19 May 2011 16:54:58 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/puppet-logs-on-solaris-10/</guid>
+      <description>&lt;p&gt;Puppet on Solaris 10 stores its logs in the SMF log directory, which is different from the &lt;code&gt;/var/log&lt;/code&gt; location you might be used to on Linux. If you are looking for the usual log files and cannot find them, this is probably why.&lt;/p&gt;
+&lt;h3 id=&#34;agent-logs&#34;&gt;Agent logs&lt;/h3&gt;
+&lt;p&gt;The Puppet agent (&lt;code&gt;puppetd&lt;/code&gt;) runs as an SMF service, and its log is at:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;svc&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;network&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cswpuppetd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;log&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To watch it in real time:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tail -f /var/svc/log/network-cswpuppetd:default.log
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;master-logs&#34;&gt;Master logs&lt;/h3&gt;
+&lt;p&gt;The Puppet master (&lt;code&gt;puppetmasterd&lt;/code&gt;) follows the same pattern:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>puppet &#34;could not find class in namespace&#34; — it&#39;s probably a missing brace</title>
+      <link>https://www.shafiq.in/blog/puppet-could-not-find-class-in-namespace-its-probably-a-missing-brace/</link>
+      <pubDate>Tue, 18 Jan 2011 07:03:39 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/puppet-could-not-find-class-in-namespace-its-probably-a-missing-brace/</guid>
+      <description>&lt;p&gt;Got this from Puppet?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;err: Could not retrieve catalogue: Could not find class php in namespaces standardbuild
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  at /etc/puppet/manifests/templates.pp:15 on domain.internal.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The error points at a missing class, but the real culprit is often a missing closing brace somewhere above that line. Puppet&amp;rsquo;s parser gets confused and reports the wrong thing.&lt;/p&gt;
+&lt;p&gt;Check your manifests for unmatched &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt;. A syntax highlighter helps — or just count your braces.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

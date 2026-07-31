@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software-Development on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/software-development/</link>
+    <description>Recent content in Software-Development on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 20 Jul 2010 08:26:25 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Development Process</title>
+      <link>https://www.shafiq.in/blog/software-development-process/</link>
+      <pubDate>Tue, 20 Jul 2010 08:26:25 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/software-development-process/</guid>
+      <description>&lt;p&gt;The team&amp;rsquo;s development process defines who does what, when, and how.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Waterfall&lt;/strong&gt; &amp;ndash; activities proceed through a fixed sequence, each step depending on the previous one.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spiral&lt;/strong&gt; &amp;ndash; starts with risk-driven prototypes, then follows a structured waterfall-like process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Iterative&lt;/strong&gt; &amp;ndash; a hybrid that decouples lifecycle phases from the activities within each phase.&lt;/p&gt;
+&lt;p&gt;Whichever model you choose, build at least one early prototype to get customer feedback before committing to a full implementation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The &#34;Yes, But&#34; Syndrome</title>
+      <link>https://www.shafiq.in/blog/the-yes-but-syndrome/</link>
+      <pubDate>Wed, 14 Jul 2010 06:13:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/the-yes-but-syndrome/</guid>
+      <description>&lt;p&gt;Every piece of software I&amp;rsquo;ve developed elicits the same two reactions when users see it for the first time:&lt;/p&gt;
+&lt;p&gt;First: &amp;ldquo;Wow, this is cool. We can really use this.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Then, immediately: &amp;ldquo;Yes, but&amp;hellip; now that I see it, what about this? Wouldn&amp;rsquo;t it be nice if&amp;hellip;? Whatever happened to&amp;hellip;?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;Yes, But&amp;rdquo; syndrome is universal. It comes from the nature of software as something intangible &amp;ndash; until users see it, they can&amp;rsquo;t fully articulate what they need. Seeing the implementation triggers new ideas, new concerns, new requirements that weren&amp;rsquo;t visible before.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

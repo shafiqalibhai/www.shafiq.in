@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Subversion on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/subversion/</link>
+    <description>Recent content in Subversion on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 11 May 2011 16:38:57 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/subversion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Engineering 101 — Using Version Control System (Subversion)</title>
+      <link>https://www.shafiq.in/blog/release-engineering-101-using-version-control-system-subversion/</link>
+      <pubDate>Wed, 11 May 2011 16:38:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/release-engineering-101-using-version-control-system-subversion/</guid>
+      <description>&lt;p&gt;The build script from the last post turns your source code into something runnable. But it does not tell you which version of the source code you are building. That is where version control comes in.&lt;/p&gt;
+&lt;p&gt;I am going to use Subversion for this post because that is what most of the projects I have worked on have used, and it is still the most common version control system in enterprise Java development. Git is fine for other kinds of projects, but the concepts here apply regardless of which system you choose.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

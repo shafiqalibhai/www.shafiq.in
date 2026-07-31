@@ -1,0 +1,70 @@
+@startuml
+
+!define ARROW -->
+
+skinparam class {
+  BackgroundColor PaleGreen
+  ArrowColor SeaGreen
+}
+
+skinparam note {
+  BackgroundColor Yellow
+}
+
+title Path to Cultivating Self-Discipline
+
+legend right
+  **Key:**
+  <&gear> Stage in Journey
+  <&arrow> Flow to Next Stage
+  <&lightbulb> Tips
+endlegend
+
+class ChangingBeliefs as "Changing\nBeliefs and Attitudes" {
+  +{field}<&gear> Identify Limiting Beliefs
+  +{field}<&gear> Challenge Negative Thoughts
+  +{field}<&gear> Develop a Growth Mindset
+  +{method}<&lightbulb> Reflect daily
+  +{method}<&lightbulb> Engage in positive affirmations
+}
+
+class SettingGoals as "Setting Goals" {
+  +{field}<&gear> Short-term Goals
+  +{field}<&gear> Long-term Goals
+  +{field}<&gear> SMART Goals
+  +{method}<&lightbulb> Use vision boards
+  +{method}<&lightbulb> Revisit and adjust goals
+}
+
+class TimeManagement as "Managing Time" {
+  +{field}<&gear> Prioritize Tasks
+  +{field}<&gear> Eliminate Distractions
+  +{field}<&gear> Create a Schedule
+  +{method}<&lightbulb> Use productivity tools
+  +{method}<&lightbulb> Take short breaks
+}
+
+class PositiveHabits as "Nurturing Positive Habits" {
+  +{field}<&gear> Identify Key Habits
+  +{field}<&gear> Implement Habit Loop
+  +{field}<&gear> Monitor Progress
+  +{method}<&lightbulb> Celebrate small wins
+  +{method}<&lightbulb> Find accountability partners
+}
+
+class BuildingResilience as "Building Resilience" {
+  +{field}<&gear> Emotional Awareness
+  +{field}<&gear> Healthy Coping Mechanisms
+  +{field}<&gear> Learning from Failures
+  +{method}<&lightbulb> Engage in self-care
+  +{method}<&lightbulb> Seek support networks
+}
+
+ChangingBeliefs --> SettingGoals : "Foundation for\nGoal Setting"
+SettingGoals --> TimeManagement : "Objectives for\nTime Allocation"
+TimeManagement --> PositiveHabits : "Time for\nHabit Formation"
+PositiveHabits --> BuildingResilience : "Habits Build\nResilience"
+
+note bottom: Each stage is integral and necessary in the journey of developing self-discipline.
+
+@enduml

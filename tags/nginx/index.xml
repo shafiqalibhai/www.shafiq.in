@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/nginx/</link>
+    <description>Recent content in Nginx on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 12 Oct 2018 09:49:17 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Fix the &#34;RPC failed; HTTP 413 curl 22&#34; Error in Nginx</title>
+      <link>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</link>
+      <pubDate>Fri, 12 Oct 2018 09:49:17 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</guid>
+      <description>&lt;h2 id=&#34;understanding-the-issue-rpc-failed-http-413-curl-22&#34;&gt;Understanding the Issue: &amp;lsquo;RPC failed; HTTP 413 curl 22&amp;rsquo;&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;ve stumbled upon the error message &amp;ldquo;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large,&amp;rdquo; you&amp;rsquo;re probably trying to push a rather hefty commit over HTTP to your server running Nginx. This error means that the size of the request you&amp;rsquo;re trying to send exceeds the limit that the server is willing to accept. So, how do you fix it?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

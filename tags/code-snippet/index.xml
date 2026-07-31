@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Code-Snippet on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/code-snippet/</link>
+    <description>Recent content in Code-Snippet on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 22 Dec 2018 09:42:28 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/code-snippet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NPM update all globally installed packages</title>
+      <link>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</link>
+      <pubDate>Sat, 22 Dec 2018 09:42:28 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm update -g
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Import a Resource to Terraform Module</title>
+      <link>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</link>
+      <pubDate>Wed, 24 Oct 2018 15:57:34 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</guid>
+      <description>&lt;p&gt;The example below will import an AWS instance into a terraform module:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;terraform import module.foo.aws_instance.bar i-abcd1234
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Install ruby gem files</title>
+      <link>https://www.shafiq.in/blog/install-ruby-gem-files/</link>
+      <pubDate>Thu, 27 Sep 2018 10:16:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/install-ruby-gem-files/</guid>
+      <description>&lt;p&gt;Install the gems on the destination machine from the local files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd /path/to/gems
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gem install --force --local *.gem
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>How much memory is actually free?</title>
+      <link>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</link>
+      <pubDate>Sat, 10 Dec 2011 12:43:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</guid>
+      <description>&lt;p&gt;I keep forgetting this one, so here it is.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vmstat -s -SM &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep &lt;span class=&#34;s2&#34;&gt;&amp;#34;free memory&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk -F&lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print$1}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It pipes &lt;code&gt;vmstat&lt;/code&gt; output through &lt;code&gt;grep&lt;/code&gt; and &lt;code&gt;awk&lt;/code&gt; to pull just the number &amp;ndash; no units, no labels, just the gigabytes sitting there doing nothing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

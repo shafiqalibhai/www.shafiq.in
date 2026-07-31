@@ -1,0 +1,114 @@
+@startuml
+!define RECTANGLE class
+
+' Define general style for all elements
+skinparam class {
+  BorderColor black
+  BackgroundColor #FFFFFF
+  ArrowColor black
+}
+
+title Comprehensive Personal Financial Analysis Diagram
+
+package "Income Streams" {
+  RECTANGLE ActiveIncome {
+    + Salary
+    + Freelance Work
+  }
+  
+  RECTANGLE PassiveIncome {
+    + Dividends
+    + Rental Income
+    + Annuities
+  }
+
+  RECTANGLE OtherIncome {
+    + Gifts
+    + Inheritance
+    + Government Benefits
+  }
+}
+
+package "Expense Categories" {
+  RECTANGLE EssentialExpenses {
+    + Housing
+      .. Rent/Mortgage
+    + Utilities
+      .. Electricity
+      .. Water
+      .. Internet
+    + Food
+      .. Groceries
+      .. Essential Dining
+  }
+  
+  RECTANGLE NonEssentialExpenses {
+    + Non-Essential Dining
+    + Entertainment
+    + Shopping
+  }
+  
+  RECTANGLE FutureExpenses {
+    + Planned Vacations
+    + Upcoming Events
+  }
+}
+
+package "Debt Management" {
+  RECTANGLE ShortTermDebt {
+    + Credit Cards
+    + Overdrafts
+  }
+
+  RECTANGLE LongTermDebt {
+    + Mortgage
+    + Student Loans
+    + Car Loans
+  }
+}
+
+package "Savings & Emergency" {
+  RECTANGLE EmergencySavings {
+    + Liquid Cash
+    + Short-term Investments
+  }
+
+  RECTANGLE TargetedSavings {
+    + Vacation Fund
+    + Home Renovation Fund
+  }
+}
+
+package "Investment Portfolio" {
+  RECTANGLE FinancialMarkets {
+    + Stocks
+    + Bonds
+    + Mutual Funds
+  }
+  
+  RECTANGLE RealAssets {
+    + Real Estate
+    + Precious Metals
+  }
+
+  RECTANGLE AlternativeInvestments {
+    + Cryptocurrency
+    + Art and Collectibles
+  }
+}
+
+' Relationships
+ActiveIncome -down-> EssentialExpenses : "Primary Funding->"
+PassiveIncome -down-> NonEssentialExpenses : "Secondary Funding->"
+OtherIncome -down-> FutureExpenses : "Occasional Funding->"
+
+EssentialExpenses -right-> ShortTermDebt : "Potential Increase->"
+NonEssentialExpenses -right-> LongTermDebt : "Optional Increase->"
+
+EmergencySavings -up-> EssentialExpenses : "Backup Coverage<-"
+TargetedSavings -down-> LongTermDebt : "Debt Reduction->"
+
+FinancialMarkets -up-> ActiveIncome : "Interest & Dividends<-"
+RealAssets -up-> PassiveIncome : "Rental & Appreciation<-"
+AlternativeInvestments -down-> TargetedSavings : "Potential Transfer->"
+@enduml

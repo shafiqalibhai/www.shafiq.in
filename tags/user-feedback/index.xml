@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>User-Feedback on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/user-feedback/</link>
+    <description>Recent content in User-Feedback on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 14 Jul 2010 06:13:26 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/user-feedback/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The &#34;Yes, But&#34; Syndrome</title>
+      <link>https://www.shafiq.in/blog/the-yes-but-syndrome/</link>
+      <pubDate>Wed, 14 Jul 2010 06:13:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/the-yes-but-syndrome/</guid>
+      <description>&lt;p&gt;Every piece of software I&amp;rsquo;ve developed elicits the same two reactions when users see it for the first time:&lt;/p&gt;
+&lt;p&gt;First: &amp;ldquo;Wow, this is cool. We can really use this.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Then, immediately: &amp;ldquo;Yes, but&amp;hellip; now that I see it, what about this? Wouldn&amp;rsquo;t it be nice if&amp;hellip;? Whatever happened to&amp;hellip;?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;Yes, But&amp;rdquo; syndrome is universal. It comes from the nature of software as something intangible &amp;ndash; until users see it, they can&amp;rsquo;t fully articulate what they need. Seeing the implementation triggers new ideas, new concerns, new requirements that weren&amp;rsquo;t visible before.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

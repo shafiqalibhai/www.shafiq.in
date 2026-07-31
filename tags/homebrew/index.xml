@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Homebrew on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/homebrew/</link>
+    <description>Recent content in Homebrew on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 18 May 2020 10:01:16 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix casks with `depends_on` that reference pre-Mavericks</title>
+      <link>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</link>
+      <pubDate>Mon, 18 May 2020 10:01:16 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</guid>
+      <description>&lt;p&gt;If you get an error of the type &lt;code&gt;Error: Cask &#39;hex-fiend-beta&#39; definition is invalid: invalid &#39;depends_on macos&#39; value: &amp;quot;:lion&amp;quot;&lt;/code&gt;, where &lt;code&gt;hex-fiend-beta&lt;/code&gt; can be any cask name, and &lt;code&gt;:lion&lt;/code&gt; any macOS release name, run the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/usr/bin/find &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;brew --prefix&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/Caskroom/&amp;#34;&lt;/span&gt;*&lt;span class=&#34;s1&#34;&gt;&amp;#39;/.metadata&amp;#39;&lt;/span&gt; -type f -name &lt;span class=&#34;s1&#34;&gt;&amp;#39;*.rb&amp;#39;&lt;/span&gt; -print0 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; /usr/bin/xargs -0 /usr/bin/perl -i -pe &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/depends_on macos: \[.*?\]//gsm;s/depends_on macos: .*//g&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will remove all &lt;code&gt;depends_on macos&lt;/code&gt; references of &lt;em&gt;installed&lt;/em&gt; casks.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

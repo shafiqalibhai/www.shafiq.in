@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Troubleshooting on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/troubleshooting/</link>
+    <description>Recent content in Troubleshooting on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 18 May 2020 10:01:16 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix casks with `depends_on` that reference pre-Mavericks</title>
+      <link>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</link>
+      <pubDate>Mon, 18 May 2020 10:01:16 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</guid>
+      <description>&lt;p&gt;If you get an error of the type &lt;code&gt;Error: Cask &#39;hex-fiend-beta&#39; definition is invalid: invalid &#39;depends_on macos&#39; value: &amp;quot;:lion&amp;quot;&lt;/code&gt;, where &lt;code&gt;hex-fiend-beta&lt;/code&gt; can be any cask name, and &lt;code&gt;:lion&lt;/code&gt; any macOS release name, run the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/usr/bin/find &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;brew --prefix&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/Caskroom/&amp;#34;&lt;/span&gt;*&lt;span class=&#34;s1&#34;&gt;&amp;#39;/.metadata&amp;#39;&lt;/span&gt; -type f -name &lt;span class=&#34;s1&#34;&gt;&amp;#39;*.rb&amp;#39;&lt;/span&gt; -print0 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; /usr/bin/xargs -0 /usr/bin/perl -i -pe &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/depends_on macos: \[.*?\]//gsm;s/depends_on macos: .*//g&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will remove all &lt;code&gt;depends_on macos&lt;/code&gt; references of &lt;em&gt;installed&lt;/em&gt; casks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure</title>
+      <link>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</link>
+      <pubDate>Sat, 22 Dec 2018 09:38:39 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re working with Azure, you might have encountered an error that looks something like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Failure sending request: StatusCode=0 — Original Error: Code=&amp;lsquo;ReferencedResourceNotProvisioned&amp;rsquo; Message=&amp;lsquo;Cannot proceed with operation because resource used by resource is not in Succeeded state. Resource is in Updating state and the last operation that updated/is updating the resource is PutSubnetOperation.&amp;rsquo;&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Though the error message can seem intimidating and cryptic at first, don&amp;rsquo;t worry. In this post, we&amp;rsquo;ll delve into what this error means and how you can resolve it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Fix the &#34;RPC failed; HTTP 413 curl 22&#34; Error in Nginx</title>
+      <link>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</link>
+      <pubDate>Fri, 12 Oct 2018 09:49:17 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</guid>
+      <description>&lt;h2 id=&#34;understanding-the-issue-rpc-failed-http-413-curl-22&#34;&gt;Understanding the Issue: &amp;lsquo;RPC failed; HTTP 413 curl 22&amp;rsquo;&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;ve stumbled upon the error message &amp;ldquo;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large,&amp;rdquo; you&amp;rsquo;re probably trying to push a rather hefty commit over HTTP to your server running Nginx. This error means that the size of the request you&amp;rsquo;re trying to send exceeds the limit that the server is willing to accept. So, how do you fix it?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory</title>
+      <link>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</link>
+      <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</guid>
+      <description>&lt;p&gt;&lt;code&gt;sudo apt-get install -y libssl-dev&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>/bin/sh: 1: bison: not found</title>
+      <link>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</link>
+      <pubDate>Wed, 19 Sep 2018 15:33:07 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install bison
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>/bin/sh: 1: flex: not found</title>
+      <link>https://www.shafiq.in/blog/bin/sh-1-flex-not-found/</link>
+      <pubDate>Wed, 19 Sep 2018 15:32:11 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/bin/sh-1-flex-not-found/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install flex
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist</title>
+      <link>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</link>
+      <pubDate>Thu, 06 Sep 2018 09:43:25 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</guid>
+      <description>&lt;p&gt;Error:&lt;/p&gt;
+&lt;p&gt;xcrun: error: active developer path (&amp;quot;/Applications/Xcode.app/Contents/Developer&amp;quot;) does not exist&lt;br&gt;
+Use &lt;code&gt;sudo xcode-select --switch path/to/Xcode.app&lt;/code&gt; to specify the Xcode that you wish to use for command line developer tools, or use &lt;code&gt;xcode-select --install&lt;/code&gt; to install the standalone command line developer tools.&lt;br&gt;
+See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;br&gt;
+xcrun: error: active developer path (&amp;quot;/Applications/Xcode.app/Contents/Developer&amp;quot;) does not exist&lt;br&gt;
+Use &lt;code&gt;sudo xcode-select --switch path/to/Xcode.app&lt;/code&gt; to specify the Xcode that you wish to use for command line developer tools, or use &lt;code&gt;xcode-select --install&lt;/code&gt; to install the standalone command line developer tools.&lt;br&gt;
+See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Merging Unrelated Git Histories - A Simple Guide</title>
+      <link>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</link>
+      <pubDate>Tue, 04 Sep 2018 13:48:55 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</guid>
+      <description>&lt;p&gt;Are you stuck with two Git repositories or branches that have completely different histories, but you need to merge them? You may be hitting a roadblock because Git is designed to prevent this kind of operation by default. However, there&amp;rsquo;s a workaround for this, and it&amp;rsquo;s simpler than you might think.&lt;/p&gt;
+&lt;h3 id=&#34;the-problem-unrelated-git-histories&#34;&gt;The Problem: Unrelated Git Histories&lt;/h3&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re working on a project where you have a &lt;code&gt;main&lt;/code&gt; branch, and someone else has a completely separate project with its own history. Now, you want to combine both projects into a single repository. If you try to perform a regular &lt;code&gt;git merge&lt;/code&gt; or &lt;code&gt;git rebase&lt;/code&gt;, Git will likely stop you with an error message, something like:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>puppet &#34;could not find class in namespace&#34; — it&#39;s probably a missing brace</title>
+      <link>https://www.shafiq.in/blog/puppet-could-not-find-class-in-namespace-its-probably-a-missing-brace/</link>
+      <pubDate>Tue, 18 Jan 2011 07:03:39 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/puppet-could-not-find-class-in-namespace-its-probably-a-missing-brace/</guid>
+      <description>&lt;p&gt;Got this from Puppet?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;err: Could not retrieve catalogue: Could not find class php in namespaces standardbuild
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  at /etc/puppet/manifests/templates.pp:15 on domain.internal.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The error points at a missing class, but the real culprit is often a missing closing brace somewhere above that line. Puppet&amp;rsquo;s parser gets confused and reports the wrong thing.&lt;/p&gt;
+&lt;p&gt;Check your manifests for unmatched &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt;. A syntax highlighter helps — or just count your braces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>phpize failed? install the dev files</title>
+      <link>https://www.shafiq.in/blog/phpize-failed-install-the-dev-files/</link>
+      <pubDate>Mon, 17 Jan 2011 06:51:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/phpize-failed-install-the-dev-files/</guid>
+      <description>&lt;p&gt;Hit &lt;code&gt;phpize&lt;/code&gt; and got a &amp;ldquo;not found&amp;rdquo; error? You&amp;rsquo;re missing the PHP development package.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sh: phpize: not found
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ERROR: &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;phpize&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt; failed
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;On Ubuntu or Debian, grab it with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install php5-dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s it. &lt;code&gt;phpize&lt;/code&gt; should work after that.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

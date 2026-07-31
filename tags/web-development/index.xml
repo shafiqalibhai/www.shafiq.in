@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web Development on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/web-development/</link>
+    <description>Recent content in Web Development on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 11 Sep 2013 09:32:05 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Display the Contents of a Node&#39;s Field as an Array in Drupal 6</title>
+      <link>https://www.shafiq.in/blog/how-to-display-the-contents-of-a-nodes-field-as-an-array-in-drupal-6/</link>
+      <pubDate>Wed, 11 Sep 2013 09:32:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-display-the-contents-of-a-nodes-field-as-an-array-in-drupal-6/</guid>
+      <description>&lt;p&gt;When you&amp;rsquo;re working with Drupal 6, it&amp;rsquo;s sometimes necessary to inspect the data stored in a node&amp;rsquo;s field. This is especially useful for debugging or when you&amp;rsquo;re trying to understand the structure of the content better. One quick way to achieve this is by dumping the field contents as an array. In PHP, the &lt;code&gt;var_export()&lt;/code&gt; function comes in handy for this purpose.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to do it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;var_export&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;content_fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;field_name_of_the_field&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;name_of_the_content_type&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this snippet, replace &lt;code&gt;&#39;field_name_of_the_field&#39;&lt;/code&gt; with the actual name of the field you&amp;rsquo;re interested in and &lt;code&gt;&#39;name_of_the_content_type&#39;&lt;/code&gt; with the specific content type containing that field.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BottomToolBar - a scrolling ticker for your website</title>
+      <link>https://www.shafiq.in/blog/bottomtoolbar-a-scrolling-ticker-for-your-website/</link>
+      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/bottomtoolbar-a-scrolling-ticker-for-your-website/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working on something called BottomToolBar. It&amp;rsquo;s a small piece of JavaScript that drops a scrolling bar into the bottom of your browser window &amp;ndash; the kind you see on news channels, the one that runs along the bottom of the screen with headlines and images.&lt;/p&gt;
+&lt;p&gt;I thought it might be useful for websites.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+&lt;p&gt;The bar sits at the bottom of the viewport, fixed in place, always on top of everything else. Content scrolls through it from right to left (or left to right, your call), separated by images &amp;ndash; usually a logo or icon. It pulls text and images from a server, so you can update what it shows without touching the page itself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lessons Learned – from a CMS developer</title>
+      <link>https://www.shafiq.in/blog/lessons-learned-from-a-cms-developer/</link>
+      <pubDate>Fri, 09 Oct 2009 07:32:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/lessons-learned-from-a-cms-developer/</guid>
+      <description>&lt;p&gt;After building and maintaining CMS sites for a while, here are the things I&amp;rsquo;ve learned the hard way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t run your site from the root directory.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Put the CMS in a subdirectory and forward requests there with .htaccess or whatever your server supports. It keeps the CMS files out of the way and makes it harder for someone to guess where things are. A small thing, but it helps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be careful about advertising what CMS you&amp;rsquo;re running.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>9 skills developers will need in the next five years</title>
+      <link>https://www.shafiq.in/blog/9-skills-developers-will-need-in-the-next-five-years/</link>
+      <pubDate>Sun, 12 Jul 2009 07:40:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/9-skills-developers-will-need-in-the-next-five-years/</guid>
+      <description>&lt;p&gt;I was reading through some job listings recently and noticed a pattern. The same skills keep appearing, and the ones that were important five years ago are shifting. Not disappearing entirely, but moving around. Here&amp;rsquo;s what I think developers should be focusing on right now if they want to stay employable over the next few years.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t exhaustive. There are plenty of specialisms and niches I&amp;rsquo;m ignoring deliberately. I&amp;rsquo;m thinking about mainstream development work, the kind most people do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

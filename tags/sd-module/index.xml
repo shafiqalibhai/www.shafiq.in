@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SD Module on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/sd-module/</link>
+    <description>Recent content in SD Module on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 06 Aug 2009 06:12:49 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/sd-module/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sales and Distribution module (SAP)</title>
+      <link>https://www.shafiq.in/blog/sales-and-distribution-module-sap/</link>
+      <pubDate>Thu, 06 Aug 2009 06:12:49 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/sales-and-distribution-module-sap/</guid>
+      <description>&lt;p&gt;Notes on the SAP SD (Sales and Distribution) module from an implementation project. Mostly for my own reference.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What SD does&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SD covers the sales process from order to cash. It handles customer master data, pricing, orders, deliveries, shipping, and billing. It&amp;rsquo;s integrated with other SAP modules — MM for materials, FI for finance, PP for production — so changes in SD ripple through the rest of the system.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organisational structure&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

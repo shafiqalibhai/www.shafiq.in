@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Terraform on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/terraform/</link>
+    <description>Recent content in Terraform on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 24 Oct 2018 15:57:34 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Import a Resource to Terraform Module</title>
+      <link>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</link>
+      <pubDate>Wed, 24 Oct 2018 15:57:34 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</guid>
+      <description>&lt;p&gt;The example below will import an AWS instance into a terraform module:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;terraform import module.foo.aws_instance.bar i-abcd1234
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Navigating Terraform Modules Stored in Package Subdirectories</title>
+      <link>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</link>
+      <pubDate>Wed, 24 Oct 2018 13:16:15 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</guid>
+      <description>&lt;p&gt;In the realm of Infrastructure as Code, Terraform modules can play a significant role in making your life easier. Sometimes, however, these modules don&amp;rsquo;t live at the root directory of their source package. Instead, they reside in sub-directories. Thankfully, Terraform has a smart way to help you access these nested modules.&lt;/p&gt;
+&lt;p&gt;Terraform employs a unique double-slash (&lt;code&gt;//&lt;/code&gt;) syntax to help pinpoint the exact sub-directory where the module is located. The path that follows this double-slash syntax is considered to be a sub-directory within the package or repository.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

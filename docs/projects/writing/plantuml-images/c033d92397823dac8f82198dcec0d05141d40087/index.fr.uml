@@ -1,0 +1,62 @@
+@startuml
+hide circle
+
+
+!define CIRCLE class
+
+CIRCLE ComfortZone {
+  ..Activities..
+  + Reading
+  + Watching TV
+  + Daily Job
+}
+
+CIRCLE LearningZone {
+  ..Skills..
+  + Time Management
+  + Communication
+  + New Languages
+}
+
+CIRCLE AdventureZone {
+  ..Experiences..
+  + Skydiving
+  + Starting a Business
+  + Solo Travel
+}
+
+ComfortZone -down-> ComfortZone : Involves\n+ Secure\n+ Relaxed\n+ Routine
+LearningZone -down-> LearningZone : Involves\n+ Curious\n+ Challenged\n+ Engaged
+AdventureZone -down-> AdventureZone : Involves\n+ Exhilarated\n+ Vulnerable\n+ Adventurous
+
+ComfortZone -[hidden]- LearningZone : Expand
+LearningZone -[hidden]- AdventureZone : Move Forward
+AdventureZone -[hidden]- LearningZone : Reflect & Learn
+LearningZone -[hidden]- ComfortZone : Integrate & Rest
+
+note right of ComfortZone
+  ==Notes==
+  Realm of habits and routines.
+  **Expand -> Learning Zone**
+end note
+
+note right of LearningZone
+  ==Notes==
+  Acquire new skills and knowledge.
+  **Expand -> Adventure Zone**
+  **<- Integrate & Rest from Comfort Zone**
+end note
+
+note right of AdventureZone
+  ==Notes==
+  Engage in novel experiences.
+  **<- Reflect & Learn from Learning Zone**
+end note
+
+skinparam class {
+  BackgroundColor<<ComfortZone>> Yellow
+  BackgroundColor<<LearningZone>> LightGreen
+  BackgroundColor<<AdventureZone>> LightBlue
+  BorderColor Black
+}
+@enduml

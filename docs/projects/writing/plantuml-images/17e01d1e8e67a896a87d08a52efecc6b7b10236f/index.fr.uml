@@ -1,0 +1,86 @@
+@startuml
+!define DARK_COLOR #1E90FF
+!define LIGHT_COLOR #ADD8E6
+!define NOTE_COLOR #F0E68C
+!define FONT_NAME "Arial"
+
+hide circle
+
+' General skin settings
+skinparam {
+    DefaultFontName FONT_NAME
+    BackgroundColor white
+    Shadowing false
+}
+
+' Class specific settings
+skinparam class {
+    BackgroundColor LIGHT_COLOR
+    BorderColor DARK_COLOR
+    ArrowColor DARK_COLOR
+    FontName FONT_NAME
+    Shadowing false
+}
+
+' Note specific settings
+skinparam note {
+    BackgroundColor NOTE_COLOR
+    FontName FONT_NAME
+}
+
+' Class definitions with stereotypes
+class "Purpose" as Purpose <<Planning>> {
+    +Define Personal Goals
+    +Identify Values
+    +Set a Vision
+    +Prioritize Objectives
+    +Consult Mentors
+}
+class "Action" as Action <<Execution>> {
+    +Take Steps Toward Goals
+    +Implement Plans
+    +Adjust Course as Needed
+    +Measure Progress
+    +Seek Feedback
+}
+class "Reflection" as Reflection <<Assessment>> {
+    +Analyze Results
+    +Evaluate Choices
+    +Contemplate on Experiences
+    +Recognize Achievements
+    +Identify Shortcomings
+}
+class "Learning" as Learning <<Adaptation>> {
+    +Acquire New Skills
+    +Gain Insight
+    +Adapt to Changes
+    +Mentor Others
+    +Seek Continuous Improvement
+}
+
+' Relationship definitions
+Purpose -down-> Action : "Inspires\n"
+Action -down-> Reflection : "Leads to\n"
+Reflection -down-> Learning : "Encourages\n"
+Learning -up-> Purpose : "Influences\n"
+
+' Note definitions
+note "The Eudaimonia Cycle" as N0
+note "A continuous process of personal growth and self-improvement.\nEach phase feeds into the next, creating a virtuous circle that helps individuals lead fulfilling lives." as N1
+
+' Note relationships
+N0 .. Purpose
+N0 .. Action
+N0 .. Reflection
+N0 .. Learning
+N1 .. N0
+
+' Legend
+legend
+  Note: 
+    <<Planning>> : Phase that involves defining and organizing goals.
+    <<Execution>> : Phase that focuses on the activities required to achieve objectives.
+    <<Assessment>> : Phase for reviewing actions, evaluating outcomes, and gaining insights.
+    <<Adaptation>> : Phase for implementing changes based on reflection and new knowledge.
+endlegend
+@enduml

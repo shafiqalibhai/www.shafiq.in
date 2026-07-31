@@ -1,0 +1,49 @@
+@startuml
+!define RECTANGLE class
+!define ARROW -->
+
+skinparam class {
+    BorderColor Black
+    FontName Arial
+    FontSize 16
+}
+
+title Brain Functions in the Context of Self-Discipline
+
+RECTANGLE "Prefrontal Cortex\n'Logical Brain'" as PFC {
+  + Decision-making
+  + Impulse Control
+  + Goal-directed Activity
+  + Rational Assessment of Outcomes
+}
+note left: Crucial for long-term vision and reasoned action
+
+RECTANGLE "Limbic System\n'Emotional Brain'" as LS {
+  + Immediate Gratification
+  + Pleasure-seeking
+  + Pain-avoidance
+  + Survival Instincts
+}
+note right: Drives immediate emotional responses and needs
+
+PFC -[hidden]-> LS
+LS -[hidden]-> PFC
+
+PFC --> LS : Tug-of-War
+note on link: Conflict with each other
+LS --> PFC : Tug-of-War
+note on link: Conflict with each other
+
+RECTANGLE "Self-Discipline" as SD {
+  + Mastery of Balance
+  + Resisting Temptations
+  + Achieving Long-term Goals
+}
+note top: The Art of Balancing Prefrontal Cortex and Limbic System
+
+PFC --> SD : Contributes Reason and Control
+note on link: Long-term goals and rational decision-making
+LS --> SD : Challenges with Impulse
+note on link: Short-term pleasures and emotional needs
+
+@enduml

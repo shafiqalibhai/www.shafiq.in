@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gearman on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/gearman/</link>
+    <description>Recent content in Gearman on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Aug 2010 09:37:09 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/gearman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gearman Perl &#34;syswrite on an undefined value&#34; Error</title>
+      <link>https://www.shafiq.in/blog/gearman-perl-syswrite-on-an-undefined-value-error/</link>
+      <pubDate>Tue, 31 Aug 2010 09:37:09 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/gearman-perl-syswrite-on-an-undefined-value-error/</guid>
+      <description>&lt;p&gt;If you get this error when running Gearman client code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Can&amp;#39;t call method &amp;#34;syswrite&amp;#34; on an undefined value at /usr/local/share/perl/5.10.1/Gearman/Taskset.pm line 202.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The fix is to specify the port explicitly. Change:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;$client&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;job_servers&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;127.0.0.1&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;$client&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;job_servers&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;127.0.0.1:4730&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Distributing Work with Gearman and Perl</title>
+      <link>https://www.shafiq.in/blog/distributing-work-with-gearman-and-perl/</link>
+      <pubDate>Tue, 31 Aug 2010 09:20:17 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/distributing-work-with-gearman-and-perl/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been playing with Gearman over the past few weeks and I&amp;rsquo;m impressed by how little friction there is between the idea of distributing work across machines and actually making it happen. The Perl module, Gearman::Client and Gearman::Worker, is straightforward enough that you can have a client and a worker talking to each other through a job server in under an hour.&lt;/p&gt;
+&lt;p&gt;The basic model is simple. You have a client that submits jobs, a worker that performs them, and a job server sitting in the middle dispatching work to whichever worker is free. The client and worker can be written in different languages, run on different machines, and you don&amp;rsquo;t need to worry about the networking yourself — Gearman handles all of that through TCP sockets to the job server.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+@startuml
+title Steps to Financial Security
+
+start
+
+:Budgeting;
+  note right
+  Knowing where your money goes
+  and planning expenses.
+  end note
+
+:Saving and Investing;
+  note right
+  Making your money work for you
+  through savings or investments.
+  end note
+  
+:Avoid Debt;
+  note right
+  Minimizing liabilities by avoiding
+  unnecessary loans and high-interest debt.
+  end note
+
+:Emergency Fund;
+  note right
+  Saving for unexpected expenses
+  to avoid financial stress.
+  end note
+
+:Retirement Planning;
+  note right
+  Preparing for future financial needs
+  for when you can't or don't want to work.
+  end note
+
+:Insurance;
+  note right
+  Protecting against unforeseen events
+  that can financially devastate you.
+  end note
+  
+stop
+
+@enduml

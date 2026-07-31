@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Management on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/management/</link>
+    <description>Recent content in Management on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 04 Apr 2011 04:36:59 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The line that separates a developer from an administrator</title>
+      <link>https://www.shafiq.in/blog/the-line-that-separates-a-developer-from-an-administrator/</link>
+      <pubDate>Mon, 04 Apr 2011 04:36:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/the-line-that-separates-a-developer-from-an-administrator/</guid>
+      <description>&lt;p&gt;You learn more from your mistakes than anything else, and I have made my fair share. The trick is to actually learn from them rather than just suffer through the consequences and call it experience.&lt;/p&gt;
+&lt;p&gt;I have watched developers push code to production on a Friday afternoon because the business was breathing down their necks. The deadline was immovable, the pressure was real, and the production environment was treated as an afterthought. I have seen it happen more times than I care to count, and each time the same thing goes wrong: someone breaks something, and nobody wants to own it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

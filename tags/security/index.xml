@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Security on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/security/</link>
+    <description>Recent content in Security on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 15 Jun 2021 08:21:21 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to get a remote server SSL certificate</title>
+      <link>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</link>
+      <pubDate>Tue, 15 Jun 2021 08:21:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openssl s_client -connect &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;HOSTNAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;PORT&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; -showcerts
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Generic Hardening - A Reference Guide</title>
+      <link>https://www.shafiq.in/blog/generic-hardening-a-reference-guide/</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/generic-hardening-a-reference-guide/</guid>
+      <description>&lt;p&gt;I put together this document as a reference for system hardening. It covers the basics &amp;ndash; what hardening actually means, the formula for building a hardened system, and how virtualisation changes the picture.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2013/01/generic-hardening-doc.docx&#34;&gt;download the full guide as a Word document&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-system-hardening&#34;&gt;What is System Hardening?&lt;/h2&gt;
+&lt;p&gt;Hardening is just the practice of making a system more resistant to attack. The guiding idea is least privilege: only what&amp;rsquo;s needed runs, only what&amp;rsquo;s needed is exposed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Juniper Hardening Procedure</title>
+      <link>https://www.shafiq.in/blog/juniper-hardening-procedure/</link>
+      <pubDate>Mon, 03 Dec 2012 08:23:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/juniper-hardening-procedure/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2012/12/juniper-device-hardening-1.pdf&#34;&gt;DOWNLOAD - Juniper device hardening&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;h2 id=&#34;rationale&#34;&gt;Rationale&lt;/h2&gt;
+&lt;p&gt;An out-of-box firewall implementation is not fully secure and needs to be hardened. This document details the various aspects of Juniper firewall security and standards implemented for securing Juniper firewalls.&lt;/p&gt;
+&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;This document is to define a baseline security standard for the Juniper Firewall implementations by firewall administrators.&lt;/p&gt;
+&lt;h2 id=&#34;scope&#34;&gt;Scope&lt;/h2&gt;
+&lt;p&gt;These security standards cover the Juniper Firewall Screen OS implementation.&lt;/p&gt;
+&lt;p&gt;However, for some setups, this minimum requirement and some features of these standards may not be practical for implementation. For exceptions, the system administrators must document the reasons for not complying fully with these standards and request an exemption from the Security department.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hardening Solaris Systems in Production</title>
+      <link>https://www.shafiq.in/blog/hardening-solaris-systems-in-production/</link>
+      <pubDate>Sat, 01 Dec 2012 16:27:52 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/hardening-solaris-systems-in-production/</guid>
+      <description>&lt;h1 id=&#34;hardening-solaris-systems-in-production&#34;&gt;Hardening Solaris Systems in Production&lt;/h1&gt;
+&lt;p&gt;When you&amp;rsquo;re running enterprise workloads on Solaris — databases, application servers, web fronts — the gap between &amp;ldquo;it works&amp;rdquo; and &amp;ldquo;it&amp;rsquo;s secure&amp;rdquo; is a lot wider than most people expect. I spent a good chunk of time working through hardening procedures for a fleet of Solaris boxes, and what follows is the procedure we landed on.&lt;/p&gt;
+&lt;p&gt;The scope covered four server types: database, web, application, and utility. Every one of them got the same four security layers, regardless of role.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Third party assessment document</title>
+      <link>https://www.shafiq.in/blog/third-party-assessment-document/</link>
+      <pubDate>Sat, 01 Dec 2012 16:13:45 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/third-party-assessment-document/</guid>
+      <description>&lt;h2 id=&#34;vendor-assessment&#34;&gt;Vendor Assessment&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Type:&lt;/strong&gt; Vendor Assessment&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-information&#34;&gt;Project Information&lt;/h3&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Field&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+					&lt;th&gt;Value&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Name&lt;/td&gt;
+					&lt;td&gt;Enter the name&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Project Name&lt;/td&gt;
+					&lt;td&gt;Whirlpool project name requesting third party or service provider connection&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Project Owner&lt;/td&gt;
+					&lt;td&gt;Whirlpool project owner requesting third party or service provider connection&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Business Area&lt;/td&gt;
+					&lt;td&gt;Whirlpool business area or process supported by the third party or service provider&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Service Provider Name&lt;/td&gt;
+					&lt;td&gt;Service provider company name&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Service Provider Contact&lt;/td&gt;
+					&lt;td&gt;Service provider or third party contact&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Target Implementation Date&lt;/td&gt;
+					&lt;td&gt;Target implementation date&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: CISO&lt;/td&gt;
+					&lt;td&gt;Vendor Chief Information Security Officer (CISO) or equivalent&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: User Directory&lt;/td&gt;
+					&lt;td&gt;Choose the user directory used to manage security and provisioning of access on your internal network&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: OS and database&lt;/td&gt;
+					&lt;td&gt;List the operating system and database used to manage Whirlpool data&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Datacenter location&lt;/td&gt;
+					&lt;td&gt;List the location of the datacenter that hosts Whirlpool data&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;OS/Database options:&lt;/strong&gt; Mainframe, Unix, AS400, Windows, Oracle, DB2/UDB, MS SQL, Other&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>There Is No Such Thing as Hack-Proof Encryption</title>
+      <link>https://www.shafiq.in/blog/there-is-no-such-thing-as-hack-proof-encryption/</link>
+      <pubDate>Tue, 23 Feb 2010 10:00:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/there-is-no-such-thing-as-hack-proof-encryption/</guid>
+      <description>&lt;p&gt;The goal of encryption isn&amp;rsquo;t to create something uncrackable. The only truly unhackable computer is one that&amp;rsquo;s turned off, unplugged, and locked in a vault &amp;ndash; and even then, someone could just carry the vault away.&lt;/p&gt;
+&lt;p&gt;Encryption is about making it difficult enough that attackers give up and move on to easier targets. It&amp;rsquo;s a cost calculation, not a guarantee.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lessons Learned – from a CMS developer</title>
+      <link>https://www.shafiq.in/blog/lessons-learned-from-a-cms-developer/</link>
+      <pubDate>Fri, 09 Oct 2009 07:32:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/lessons-learned-from-a-cms-developer/</guid>
+      <description>&lt;p&gt;After building and maintaining CMS sites for a while, here are the things I&amp;rsquo;ve learned the hard way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t run your site from the root directory.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Put the CMS in a subdirectory and forward requests there with .htaccess or whatever your server supports. It keeps the CMS files out of the way and makes it harder for someone to guess where things are. A small thing, but it helps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be careful about advertising what CMS you&amp;rsquo;re running.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

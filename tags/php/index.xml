@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Php on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/php/</link>
+    <description>Recent content in Php on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 14 Jul 2020 09:11:45 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Install PHP (7.4, 7.3 &amp; 5.6) on Debian 9 Stretch</title>
+      <link>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</link>
+      <pubDate>Tue, 14 Jul 2020 09:11:45 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</guid>
+      <description>&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Login to your Debian 9 system using shell access. For remote systems connect with SSH. Windows users can use Putty or other alternatives applications for SSH connection.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh root@debian9
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run below commands to upgrade the current packages to the latest version.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s execute the following commands to install the required packages first on your system. Then import packages signing key. After that configure PPA for the PHP packages on your system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Display the Contents of a Node&#39;s Field as an Array in Drupal 6</title>
+      <link>https://www.shafiq.in/blog/how-to-display-the-contents-of-a-nodes-field-as-an-array-in-drupal-6/</link>
+      <pubDate>Wed, 11 Sep 2013 09:32:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-display-the-contents-of-a-nodes-field-as-an-array-in-drupal-6/</guid>
+      <description>&lt;p&gt;When you&amp;rsquo;re working with Drupal 6, it&amp;rsquo;s sometimes necessary to inspect the data stored in a node&amp;rsquo;s field. This is especially useful for debugging or when you&amp;rsquo;re trying to understand the structure of the content better. One quick way to achieve this is by dumping the field contents as an array. In PHP, the &lt;code&gt;var_export()&lt;/code&gt; function comes in handy for this purpose.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to do it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;var_export&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;content_fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;field_name_of_the_field&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;name_of_the_content_type&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this snippet, replace &lt;code&gt;&#39;field_name_of_the_field&#39;&lt;/code&gt; with the actual name of the field you&amp;rsquo;re interested in and &lt;code&gt;&#39;name_of_the_content_type&#39;&lt;/code&gt; with the specific content type containing that field.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>phpize failed? install the dev files</title>
+      <link>https://www.shafiq.in/blog/phpize-failed-install-the-dev-files/</link>
+      <pubDate>Mon, 17 Jan 2011 06:51:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/phpize-failed-install-the-dev-files/</guid>
+      <description>&lt;p&gt;Hit &lt;code&gt;phpize&lt;/code&gt; and got a &amp;ldquo;not found&amp;rdquo; error? You&amp;rsquo;re missing the PHP development package.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sh: phpize: not found
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ERROR: &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;phpize&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt; failed
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;On Ubuntu or Debian, grab it with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install php5-dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s it. &lt;code&gt;phpize&lt;/code&gt; should work after that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing PHP 5.3.1 on Ubuntu</title>
+      <link>https://www.shafiq.in/blog/installing-php-5.3.1-on-ubuntu/</link>
+      <pubDate>Wed, 17 Mar 2010 07:33:06 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/installing-php-5.3.1-on-ubuntu/</guid>
+      <description>&lt;p&gt;Two lines. That&amp;rsquo;s all it takes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ubuntu x64:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo su
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /tmp &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; mkdir php53 &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; php53 &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; wget http://php53.dotdeb.org/dotdeb_all.deb &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; wget http://php53.dotdeb.org/dotdeb.2004.02.25.key &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-key add dotdeb.2004.02.25.key &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; dpkg -i dotdeb_all.deb &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; aptitude update &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; aptitude install php5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Ubuntu 32-bit (i386):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Same command. The dotdeb repository handles both architectures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>9 skills developers will need in the next five years</title>
+      <link>https://www.shafiq.in/blog/9-skills-developers-will-need-in-the-next-five-years/</link>
+      <pubDate>Sun, 12 Jul 2009 07:40:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/9-skills-developers-will-need-in-the-next-five-years/</guid>
+      <description>&lt;p&gt;I was reading through some job listings recently and noticed a pattern. The same skills keep appearing, and the ones that were important five years ago are shifting. Not disappearing entirely, but moving around. Here&amp;rsquo;s what I think developers should be focusing on right now if they want to stay employable over the next few years.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t exhaustive. There are plenty of specialisms and niches I&amp;rsquo;m ignoring deliberately. I&amp;rsquo;m thinking about mainstream development work, the kind most people do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

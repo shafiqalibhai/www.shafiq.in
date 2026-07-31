@@ -1,0 +1,12 @@
+@startuml
+:Start;
+:Understand your Message;
+:Think how it could be interpreted;
+if (Will it be received well?) then (yes)
+  :Communicate your Message;
+else (no)
+  :Reframe the Message;
+  :with Kindness and Empathy;
+endif
+:End;
+@enduml

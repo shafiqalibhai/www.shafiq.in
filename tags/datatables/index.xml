@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DataTables on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/datatables/</link>
+    <description>Recent content in DataTables on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 23 Apr 2013 10:11:33 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/datatables/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hiding a DataTables column without removing it from the DOM</title>
+      <link>https://www.shafiq.in/blog/hiding-a-datatables-column-without-removing-it-from-the-dom/</link>
+      <pubDate>Tue, 23 Apr 2013 10:11:33 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/hiding-a-datatables-column-without-removing-it-from-the-dom/</guid>
+      <description>&lt;p&gt;Sometimes you want to hide a column in a DataTable but keep its data in the DOM &amp;ndash; maybe you need it for export, for a tooltip, or for some other operation that happens after the table renders. Removing the column entirely means losing that data, which isn&amp;rsquo;t always an option.&lt;/p&gt;
+&lt;p&gt;The fix is embarrassingly simple: CSS.&lt;/p&gt;
+&lt;h2 id=&#34;the-setup&#34;&gt;The setup&lt;/h2&gt;
+&lt;p&gt;Add a class to the column you want to hide using the &lt;code&gt;sClass&lt;/code&gt; option in your DataTables initialisation:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

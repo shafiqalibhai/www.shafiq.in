@@ -1,0 +1,20 @@
+@startuml
+!define RECTANGLE class
+
+skinparam class {
+  BackgroundColor PaleGreen
+  ArrowColor SeaGreen
+  BorderColor SpringGreen
+}
+
+RECTANGLE "Establish Financial Goals" as Goal
+RECTANGLE "Assess Current Financial Status" as Assess
+RECTANGLE "Identify Strategies to Meet Goals" as Strategies
+RECTANGLE "Regular Reviews to Adjust Plans" as Reviews
+
+Goal --> Assess : "Proceed"
+Assess --> Strategies : "Analyze"
+Strategies --> Reviews : "Implement"
+Reviews --> Goal : "Revisit and Adjust"
+
+@enduml

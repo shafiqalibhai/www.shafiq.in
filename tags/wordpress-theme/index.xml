@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WordPress Theme on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/wordpress-theme/</link>
+    <description>Recent content in WordPress Theme on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 31 Oct 2012 14:26:45 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/wordpress-theme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I made a WordPress theme that looks like iOS</title>
+      <link>https://www.shafiq.in/blog/i-made-a-wordpress-theme-that-looks-like-ios/</link>
+      <pubDate>Wed, 31 Oct 2012 14:26:45 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/i-made-a-wordpress-theme-that-looks-like-ios/</guid>
+      <description>&lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2012/10/screenshot_3_hu_6517f295a7b9a53c.png&#34; alt=&#34;iOS-inspired WordPress Theme&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+
+
+&lt;p&gt;I&amp;rsquo;ve been staring at my iPhone all day and I got tired of how every WordPress blog looks the same &amp;ndash; flat headers, generic sidebars, the whole deal. So I spent the evening building a theme that actually looks like iOS, and I&amp;rsquo;m putting it up for anyone who wants it.&lt;/p&gt;
+&lt;p&gt;The whole thing is built around that familiar iOS table view look. Striped background, rounded white cells with the little chevron arrows, a search bar at the top that matches the system aesthetic. It&amp;rsquo;s not trying to be a 1:1 copy of the iPhone &amp;ndash; it&amp;rsquo;s just borrowing enough of the visual language that people who spend their days in iOS will feel at home.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

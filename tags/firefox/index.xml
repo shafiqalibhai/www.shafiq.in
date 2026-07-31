@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Firefox on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/firefox/</link>
+    <description>Recent content in Firefox on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 24 Nov 2012 17:30:00 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Firefox OS apps on Ubuntu Linux</title>
+      <link>https://www.shafiq.in/blog/running-firefox-os-apps-on-ubuntu-linux/</link>
+      <pubDate>Sat, 24 Nov 2012 17:30:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/running-firefox-os-apps-on-ubuntu-linux/</guid>
+      <description>&lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2012/11/2012-11-24-172842_1366x768_scrot_hu_527f33f3f3aa8973.png&#34; alt=&#34;Firefox OS Clock app running on Ubuntu with Firefox Marketplace in the background&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+
+
+&lt;p&gt;Mozilla announced Firefox OS back in 2011 under the codename Boot2Gecko, and since then the project has gone from a concept to something you can actually run on your desktop. I&amp;rsquo;ve been following it closely and finally got around to setting it up on my Ubuntu machine. Here&amp;rsquo;s how.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-firefox-os&#34;&gt;What is Firefox OS?&lt;/h2&gt;
+&lt;p&gt;Firefox OS is Mozilla&amp;rsquo;s attempt at building a mobile operating system entirely from web standards. There&amp;rsquo;s no Java, no native SDK, no proprietary frameworks. The entire user interface &amp;ndash; called Gaia &amp;ndash; is built in HTML, CSS, and JavaScript. The rendering engine underneath is Gecko, the same one that powers Firefox. And at the bottom, it runs on a Linux kernel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>running firefox 4 and firefox 3 side by side on ubuntu</title>
+      <link>https://www.shafiq.in/blog/running-firefox-4-and-firefox-3-side-by-side-on-ubuntu/</link>
+      <pubDate>Mon, 07 Feb 2011 07:03:39 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/running-firefox-4-and-firefox-3-side-by-side-on-ubuntu/</guid>
+      <description>&lt;p&gt;Firefox 4 just dropped and you want to try it without losing your current setup? You can run both versions at the same time.&lt;/p&gt;
+&lt;p&gt;Add the Mozilla Daily PPA, update, then install:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install firefox-4.0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Firefox 3 stays as &lt;code&gt;firefox&lt;/code&gt;. Firefox 4 runs as &lt;code&gt;firefox-4.0&lt;/code&gt;. Both show up in your applications menu, or you can launch them from the terminal whichever you need.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

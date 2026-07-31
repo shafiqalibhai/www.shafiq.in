@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Third-Party on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/third-party/</link>
+    <description>Recent content in Third-Party on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 01 Dec 2012 16:13:45 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/third-party/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Third party assessment document</title>
+      <link>https://www.shafiq.in/blog/third-party-assessment-document/</link>
+      <pubDate>Sat, 01 Dec 2012 16:13:45 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/third-party-assessment-document/</guid>
+      <description>&lt;h2 id=&#34;vendor-assessment&#34;&gt;Vendor Assessment&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Type:&lt;/strong&gt; Vendor Assessment&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-information&#34;&gt;Project Information&lt;/h3&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Field&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+					&lt;th&gt;Value&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Name&lt;/td&gt;
+					&lt;td&gt;Enter the name&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Project Name&lt;/td&gt;
+					&lt;td&gt;Whirlpool project name requesting third party or service provider connection&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Project Owner&lt;/td&gt;
+					&lt;td&gt;Whirlpool project owner requesting third party or service provider connection&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Business Area&lt;/td&gt;
+					&lt;td&gt;Whirlpool business area or process supported by the third party or service provider&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Service Provider Name&lt;/td&gt;
+					&lt;td&gt;Service provider company name&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Service Provider Contact&lt;/td&gt;
+					&lt;td&gt;Service provider or third party contact&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Target Implementation Date&lt;/td&gt;
+					&lt;td&gt;Target implementation date&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: CISO&lt;/td&gt;
+					&lt;td&gt;Vendor Chief Information Security Officer (CISO) or equivalent&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: User Directory&lt;/td&gt;
+					&lt;td&gt;Choose the user directory used to manage security and provisioning of access on your internal network&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: OS and database&lt;/td&gt;
+					&lt;td&gt;List the operating system and database used to manage Whirlpool data&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;TPA: Datacenter location&lt;/td&gt;
+					&lt;td&gt;List the location of the datacenter that hosts Whirlpool data&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;OS/Database options:&lt;/strong&gt; Mainframe, Unix, AS400, Windows, Oracle, DB2/UDB, MS SQL, Other&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

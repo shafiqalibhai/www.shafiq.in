@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Media-Player on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/media-player/</link>
+    <description>Recent content in Media-Player on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 18 May 2020 09:59:54 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/media-player/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to run VLC player as root user</title>
+      <link>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</link>
+      <pubDate>Mon, 18 May 2020 09:59:54 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/geteuid/getppid/&amp;#39;&lt;/span&gt; /usr/bin/vlc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; The initialization script check if the UID is equals to zero. Zero is reserved for the root user. Using &lt;code&gt;sed&lt;/code&gt; to replace &lt;code&gt;geteuid&lt;/code&gt; for &lt;code&gt;getppid&lt;/code&gt; fools the initialization script because it is always &lt;code&gt;&amp;gt; 0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;While running the VLC as root is not recommended, it works. Be aware of the risks and obviously do not do it for production environments.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ruby on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/ruby/</link>
+    <description>Recent content in Ruby on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 27 Sep 2018 10:16:03 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install ruby gem files</title>
+      <link>https://www.shafiq.in/blog/install-ruby-gem-files/</link>
+      <pubDate>Thu, 27 Sep 2018 10:16:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/install-ruby-gem-files/</guid>
+      <description>&lt;p&gt;Install the gems on the destination machine from the local files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd /path/to/gems
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gem install --force --local *.gem
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>9 skills developers will need in the next five years</title>
+      <link>https://www.shafiq.in/blog/9-skills-developers-will-need-in-the-next-five-years/</link>
+      <pubDate>Sun, 12 Jul 2009 07:40:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/9-skills-developers-will-need-in-the-next-five-years/</guid>
+      <description>&lt;p&gt;I was reading through some job listings recently and noticed a pattern. The same skills keep appearing, and the ones that were important five years ago are shifting. Not disappearing entirely, but moving around. Here&amp;rsquo;s what I think developers should be focusing on right now if they want to stay employable over the next few years.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t exhaustive. There are plenty of specialisms and niches I&amp;rsquo;m ignoring deliberately. I&amp;rsquo;m thinking about mainstream development work, the kind most people do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Archimate on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/archimate/</link>
+    <description>Recent content in Archimate on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 20 Jul 2015 10:42:59 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/archimate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archimate</title>
+      <link>https://www.shafiq.in/blog/archimate/</link>
+      <pubDate>Mon, 20 Jul 2015 10:42:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/archimate/</guid>
+      <description>&lt;p&gt;Archimate enables the creation of fully integrated models of an organizations enterprise architecture, the motivation behind it, and the programs, projects and migration paths to implement it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

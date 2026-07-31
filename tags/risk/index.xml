@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Risk on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/risk/</link>
+    <description>Recent content in Risk on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 10 Apr 2012 07:51:08 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/risk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Risk Assessment Checklist for Software Projects</title>
+      <link>https://www.shafiq.in/blog/a-risk-assessment-checklist-for-software-projects/</link>
+      <pubDate>Tue, 10 Apr 2012 07:51:08 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-risk-assessment-checklist-for-software-projects/</guid>
+      <description>&lt;p&gt;I picked this up a while back and it&amp;rsquo;s been sitting in my notes ever since. It&amp;rsquo;s a risk assessment checklist for software projects — the kind of thing you&amp;rsquo;d run through before committing to a contract or kicking off a big engagement.&lt;/p&gt;
+&lt;p&gt;The original is a ten-page Word document with checkboxes. I&amp;rsquo;ve reorganised it here so it&amp;rsquo;s easier to scan. The categories are roughly in order of how you&amp;rsquo;d work through them: start with requirements, move through design and implementation, then look at process, people, and external pressures.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

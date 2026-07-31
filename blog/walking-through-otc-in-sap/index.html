@@ -1,0 +1,83 @@
+<!doctype html><html lang=en dir=ltr data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Walking Through OTC in SAP | Shafiq Alibhai</title><meta name=keywords content><meta name=description content="Download Full Guide: OTC Flow Document
+Sales Order
+T-Code: VA01
+
+	
+			
+					Setting
+					Value
+			
+	
+	
+			
+					Company Code
+					4700
+			
+			
+					Sales Document Type
+					ZOR
+			
+			
+					Sales Area
+					4700/10/10
+			
+	
+
+Header level:
+
+Sold-to-party: 1000991
+Ship-to-party: 1000991
+PO Number: &lsquo;Test&rsquo;
+Payment term: 0001
+
+Item level:
+
+Material code: 1000309
+Order Quantity: 1
+Plant: 4702
+Press Enter
+
+Item billing:
+
+INCOTerms: CFR (Cost and Freight)
+Save
+
+Delivery
+T-Code: VL01N
+
+	
+			
+					Setting
+					Value
+			
+	
+	
+			
+					Delivery Document Type
+					ZLF
+			
+			
+					Shipping Point
+					4702
+			
+	
+
+Enter the Sales Document number from the previous step. Make sure the Delivery Date is set — it should pull through from the Schedule Lines in the Sales Order."><meta name=author content="Shafiq Alibhai"><link rel=canonical href=https://www.shafiq.in/blog/walking-through-otc-in-sap/><link crossorigin=anonymous href=/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as=style><link rel=icon href=https://www.shafiq.in/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.shafiq.in/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.shafiq.in/favicon-32x32.png><link rel=apple-touch-icon href=https://www.shafiq.in/apple-touch-icon.png><link rel=mask-icon href=https://www.shafiq.in/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://www.shafiq.in/blog/walking-through-otc-in-sap/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta http-equiv=Content-Security-Policy content="default-src 'self'; script-src 'self' 'unsafe-inline' https://remark.shafiq.in https://umami.deployview.com; style-src 'self' 'unsafe-inline' https://fastly.jsdelivr.net; img-src 'self' data: https:; font-src 'self' data: https://fastly.jsdelivr.net; connect-src 'self' https:; frame-src 'self' https://remark.shafiq.in; base-uri 'self'; form-action 'self';"><meta property="og:url" content="https://www.shafiq.in/blog/walking-through-otc-in-sap/"><meta property="og:site_name" content="Shafiq Alibhai"><meta property="og:title" content="Walking Through OTC in SAP"><meta property="og:description" content="Download Full Guide: OTC Flow Document
+Sales Order T-Code: VA01
+Setting Value Company Code 4700 Sales Document Type ZOR Sales Area 4700/10/10 Header level:
+Sold-to-party: 1000991 Ship-to-party: 1000991 PO Number: ‘Test’ Payment term: 0001 Item level:
+Material code: 1000309 Order Quantity: 1 Plant: 4702 Press Enter Item billing:
+INCOTerms: CFR (Cost and Freight) Save Delivery T-Code: VL01N
+Setting Value Delivery Document Type ZLF Shipping Point 4702 Enter the Sales Document number from the previous step. Make sure the Delivery Date is set — it should pull through from the Schedule Lines in the Sales Order."><meta property="og:locale" content="en_GB"><meta property="og:type" content="article"><meta property="article:section" content="blog"><meta property="article:published_time" content="2011-11-11T05:21:23+00:00"><meta property="article:modified_time" content="2011-11-11T05:21:23+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Walking Through OTC in SAP"><meta name=twitter:description content="Download Full Guide: OTC Flow Document
+Sales Order T-Code: VA01
+Setting Value Company Code 4700 Sales Document Type ZOR Sales Area 4700/10/10 Header level:
+Sold-to-party: 1000991 Ship-to-party: 1000991 PO Number: ‘Test’ Payment term: 0001 Item level:
+Material code: 1000309 Order Quantity: 1 Plant: 4702 Press Enter Item billing:
+INCOTerms: CFR (Cost and Freight) Save Delivery T-Code: VL01N
+Setting Value Delivery Document Type ZLF Shipping Point 4702 Enter the Sales Document number from the previous step. Make sure the Delivery Date is set — it should pull through from the Schedule Lines in the Sales Order."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog","item":"https://www.shafiq.in/blog/"},{"@type":"ListItem","position":2,"name":"Walking Through OTC in SAP","item":"https://www.shafiq.in/blog/walking-through-otc-in-sap/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Walking Through OTC in SAP","name":"Walking Through OTC in SAP","description":"Download Full Guide: OTC Flow Document\nSales Order T-Code: VA01\nSetting Value Company Code 4700 Sales Document Type ZOR Sales Area 4700/10/10 Header level:\nSold-to-party: 1000991 Ship-to-party: 1000991 PO Number: \u0026lsquo;Test\u0026rsquo; Payment term: 0001 Item level:\nMaterial code: 1000309 Order Quantity: 1 Plant: 4702 Press Enter Item billing:\nINCOTerms: CFR (Cost and Freight) Save Delivery T-Code: VL01N\nSetting Value Delivery Document Type ZLF Shipping Point 4702 Enter the Sales Document number from the previous step. Make sure the Delivery Date is set — it should pull through from the Schedule Lines in the Sales Order.\n","keywords":[],"articleBody":"Download Full Guide: OTC Flow Document\nSales Order T-Code: VA01\nSetting Value Company Code 4700 Sales Document Type ZOR Sales Area 4700/10/10 Header level:\nSold-to-party: 1000991 Ship-to-party: 1000991 PO Number: ‘Test’ Payment term: 0001 Item level:\nMaterial code: 1000309 Order Quantity: 1 Plant: 4702 Press Enter Item billing:\nINCOTerms: CFR (Cost and Freight) Save Delivery T-Code: VL01N\nSetting Value Delivery Document Type ZLF Shipping Point 4702 Enter the Sales Document number from the previous step. Make sure the Delivery Date is set — it should pull through from the Schedule Lines in the Sales Order.\nPress Enter, then enter the Picking Quantity and Storage Location. Click Post Goods Issue.\nBilling T-Code: VF01\nSetting Value Billing Document Type F2 Enter the Delivery Document number generated in the previous step. Press Enter, then Save.\nTo view the result, go to VF03, enter the Billing Document number, and check the Accounting Document tab.\n","wordCount":"150","inLanguage":"en","datePublished":"2011-11-11T05:21:23Z","dateModified":"2011-11-11T05:21:23Z","author":{"@type":"Person","name":"Shafiq Alibhai"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.shafiq.in/blog/walking-through-otc-in-sap/"},"publisher":{"@type":"Organization","name":"Shafiq Alibhai","logo":{"@type":"ImageObject","url":"https://www.shafiq.in/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=header-nav><div class=logo><a href=https://www.shafiq.in/ accesskey=h title="Shafiq Alibhai (Alt + H)">Shafiq Alibhai</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg class="moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://www.shafiq.in/blog/ title=Blog><span>Blog</span></a></li><li><a href=https://www.shafiq.in/docs/ title=Docs><span>Docs</span></a></li><li><a href=https://www.shafiq.in/docs/about-me/ title="About Me"><span>About Me</span></a></li><li><a href=https://www.shafiq.in/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://www.shafiq.in/categories/ title=Categories><span>Categories</span></a></li><li><a href=https://www.shafiq.in/tags/ title=Tags><span>Tags</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Walking Through OTC in SAP</h1><div class=post-meta><span title='2011-11-11 05:21:23 +0000 GMT'>11 November 2011</span>&nbsp;·&nbsp;<span>Shafiq Alibhai</span></div></header><div class="post-content md-content"><p>Download Full Guide: <a href=/wp-content/uploads/2011/11/otc-flow.doc>OTC Flow Document</a></p><h3 id=sales-order>Sales Order<a hidden class=anchor aria-hidden=true href=#sales-order>#</a></h3><p><strong>T-Code:</strong> VA01</p><table><thead><tr><th>Setting</th><th>Value</th></tr></thead><tbody><tr><td>Company Code</td><td>4700</td></tr><tr><td>Sales Document Type</td><td>ZOR</td></tr><tr><td>Sales Area</td><td>4700/10/10</td></tr></tbody></table><p><strong>Header level:</strong></p><ul><li>Sold-to-party: 1000991</li><li>Ship-to-party: 1000991</li><li>PO Number: &lsquo;Test&rsquo;</li><li>Payment term: 0001</li></ul><p><strong>Item level:</strong></p><ul><li>Material code: 1000309</li><li>Order Quantity: 1</li><li>Plant: 4702</li><li>Press Enter</li></ul><p><strong>Item billing:</strong></p><ul><li>INCOTerms: CFR (Cost and Freight)</li><li>Save</li></ul><h3 id=delivery>Delivery<a hidden class=anchor aria-hidden=true href=#delivery>#</a></h3><p><strong>T-Code:</strong> VL01N</p><table><thead><tr><th>Setting</th><th>Value</th></tr></thead><tbody><tr><td>Delivery Document Type</td><td>ZLF</td></tr><tr><td>Shipping Point</td><td>4702</td></tr></tbody></table><p>Enter the Sales Document number from the previous step. Make sure the Delivery Date is set — it should pull through from the Schedule Lines in the Sales Order.</p><p>Press Enter, then enter the Picking Quantity and Storage Location. Click <strong>Post Goods Issue</strong>.</p><h3 id=billing>Billing<a hidden class=anchor aria-hidden=true href=#billing>#</a></h3><p><strong>T-Code:</strong> VF01</p><table><thead><tr><th>Setting</th><th>Value</th></tr></thead><tbody><tr><td>Billing Document Type</td><td>F2</td></tr></tbody></table><p>Enter the Delivery Document number generated in the previous step. Press Enter, then Save.</p><p>To view the result, go to <strong>VF03</strong>, enter the Billing Document number, and check the Accounting Document tab.</p></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>© 2009-2026 All rights reserved.</span> ·
+<span>Powered by
+<a href="https://gohugo.io/?utm_source=papermod" rel=noopener target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>

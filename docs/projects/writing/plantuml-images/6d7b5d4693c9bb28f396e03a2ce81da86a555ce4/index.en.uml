@@ -1,0 +1,39 @@
+@startuml
+!pragma useVerticalIf on
+
+skinparam {
+  FontName Arial
+  FontSize 14
+  BackgroundColor LightYellow
+  BorderColor Black
+}
+
+title Financial Literacy Concepts
+
+rectangle "Financial Literacy" as FinancialLiteracy {
+}
+
+package "Basic Concepts" as BasicConcepts {
+  [Interest]
+  [Inflation]
+  [Taxes]
+}
+
+package "Intermediate Concepts" as IntermediateConcepts {
+  [Time Value of Money]
+  [Risk]
+  [Return]
+  [Diversification]
+}
+
+package "Advanced Concepts" as AdvancedConcepts {
+  [Strategic Investment]
+  [Retirement Planning]
+  [Estate Planning]
+}
+
+FinancialLiteracy -down-> BasicConcepts : includes
+FinancialLiteracy -down-> IntermediateConcepts : includes
+FinancialLiteracy -down-> AdvancedConcepts : includes
+
+@enduml

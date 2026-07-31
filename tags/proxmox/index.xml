@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Proxmox on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/proxmox/</link>
+    <description>Recent content in Proxmox on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 17 Oct 2023 01:30:03 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shutdown Proxmox VM using CLI</title>
+      <link>https://www.shafiq.in/blog/shutdown-proxmox-vm-using-cli/</link>
+      <pubDate>Tue, 17 Oct 2023 01:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/shutdown-proxmox-vm-using-cli/</guid>
+      <description>&lt;p&gt;SSH into the Proxmox host and run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qm shutdown &amp;lt;VMID&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This sends an ACPI shutdown signal to the guest OS for a graceful shutdown.&lt;/p&gt;
+&lt;p&gt;To find the VM ID:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qm list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If the VM doesn&amp;rsquo;t respond to the shutdown signal, force it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qm stop &amp;lt;VMID&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;qm stop&lt;/code&gt; is equivalent to pulling the power cable. Use it only when &lt;code&gt;qm shutdown&lt;/code&gt; hangs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

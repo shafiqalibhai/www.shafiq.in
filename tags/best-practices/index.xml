@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Best-Practices on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/best-practices/</link>
+    <description>Recent content in Best-Practices on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 26 Sep 2018 11:55:38 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Cart Before the Horse - A DevOps Conundrum</title>
+      <link>https://www.shafiq.in/blog/the-cart-before-the-horse-a-devops-conundrum/</link>
+      <pubDate>Wed, 26 Sep 2018 11:55:38 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/the-cart-before-the-horse-a-devops-conundrum/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all heard the age-old saying: putting the cart before the horse. Unfortunately, in the world of DevOps, this is happening far more often than it should, and it&amp;rsquo;s time we talk about it.&lt;/p&gt;
+&lt;p&gt;The crux of the issue is that, too often, the focus isn&amp;rsquo;t on solving actual problems; it&amp;rsquo;s on utilizing shiny new technologies. Picture this: A developer stumbles upon a cutting-edge piece of technology. They&amp;rsquo;re immediately enamored by its features, its capabilities, the way it&amp;rsquo;s touted as the &amp;rsquo;next big thing.&amp;rsquo; So, they start finding ways to incorporate it into their work, regardless of whether it&amp;rsquo;s actually the best fit for the problems at hand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuous Delivery</title>
+      <link>https://www.shafiq.in/blog/continuous-delivery/</link>
+      <pubDate>Mon, 02 Jan 2012 17:31:13 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/continuous-delivery/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been thinking about continuous delivery a lot lately, and the thing that keeps coming back to me is how much of a pain it is when someone logs into a server and makes a change by hand.&lt;/p&gt;
+&lt;p&gt;You know the type. Production is down, someone jumps in, tweaks a config file, restarts a service, and everything works again. Great. Except now that server has a configuration that exists in no repository, no documentation, and no one else&amp;rsquo;s head. Next time something breaks, you&amp;rsquo;ll spend hours chasing a difference that nobody bothered to record.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notes on Build Scripts — What I Learned the Hard Way</title>
+      <link>https://www.shafiq.in/blog/notes-on-build-scripts-what-i-learned-the-hard-way/</link>
+      <pubDate>Mon, 09 May 2011 18:31:40 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/notes-on-build-scripts-what-i-learned-the-hard-way/</guid>
+      <description>&lt;p&gt;I wrote my first build script in my second year of college. It was a shell script that compiled a few Java files and copied the output into a folder. It worked. For that project, at least.&lt;/p&gt;
+&lt;p&gt;Three years later, working on a team project with five other developers, I realised that script was useless. It assumed a specific directory layout. It assumed a specific version of the JDK. It assumed nobody had moved the source files. It assumed the build machine had the same libraries installed as my laptop. It assumed a lot of things, and every assumption was a potential failure point.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

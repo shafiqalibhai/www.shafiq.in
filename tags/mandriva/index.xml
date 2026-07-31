@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mandriva on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/mandriva/</link>
+    <description>Recent content in Mandriva on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sun, 04 Oct 2009 05:26:21 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/mandriva/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The launch of Mandriva Linux 2010</title>
+      <link>https://www.shafiq.in/blog/the-launch-of-mandriva-linux-2010/</link>
+      <pubDate>Sun, 04 Oct 2009 05:26:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/the-launch-of-mandriva-linux-2010/</guid>
+      <description>&lt;p&gt;Mandriva Linux 2010 is launching on November 3rd. Highlights from the announcement: KDE 4.3.1, GNOME 2.28, kernel 2.6.31.1, and Xorg 1.6.4 RC 1 with updated Intel graphics drivers. There&amp;rsquo;s also a Moblin 2 spin for netbooks.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve used Mandriva off and on over the years. The Control Centre has always been one of the better configuration tools in the Linux world. Worth keeping an eye on to see how this release shapes up.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

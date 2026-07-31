@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>UI on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/ui/</link>
+    <description>Recent content in UI on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 06 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/ui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BottomToolBar - a scrolling ticker for your website</title>
+      <link>https://www.shafiq.in/blog/bottomtoolbar-a-scrolling-ticker-for-your-website/</link>
+      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/bottomtoolbar-a-scrolling-ticker-for-your-website/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working on something called BottomToolBar. It&amp;rsquo;s a small piece of JavaScript that drops a scrolling bar into the bottom of your browser window &amp;ndash; the kind you see on news channels, the one that runs along the bottom of the screen with headlines and images.&lt;/p&gt;
+&lt;p&gt;I thought it might be useful for websites.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+&lt;p&gt;The bar sits at the bottom of the viewport, fixed in place, always on top of everything else. Content scrolls through it from right to left (or left to right, your call), separated by images &amp;ndash; usually a logo or icon. It pulls text and images from a server, so you can update what it shows without touching the page itself.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SEO on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/seo/</link>
+    <description>Recent content in SEO on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 20 Jun 2009 05:47:06 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choose your titles wisely for better URLs</title>
+      <link>https://www.shafiq.in/blog/choose-your-titles-wisely-for-better-urls/</link>
+      <pubDate>Sat, 20 Jun 2009 05:47:06 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/choose-your-titles-wisely-for-better-urls/</guid>
+      <description>&lt;p&gt;If your CMS generates URLs from page titles, choose those titles carefully. The slug becomes part of the URL and search engines use it as a ranking signal.&lt;/p&gt;
+&lt;p&gt;Use hyphens to separate words, not underscores. Google treats &lt;code&gt;my-page-title&lt;/code&gt; as three distinct words but reads &lt;code&gt;my_page_title&lt;/code&gt; as one mangled string.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Good:  /blog/choose-your-titles-wisely-for-better-urls
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Bad:   /blog/choose_your_titles_wisely_for_better_urls
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Keep titles short and descriptive. Avoid stop words where you can — &amp;ldquo;the&amp;rdquo;, &amp;ldquo;and&amp;rdquo;, &amp;ldquo;of&amp;rdquo; take up space in a URL without adding meaning. And watch out for special characters; they get mangled into ugly encoded strings.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

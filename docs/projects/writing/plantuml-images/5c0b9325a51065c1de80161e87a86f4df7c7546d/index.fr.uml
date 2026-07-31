@@ -1,0 +1,54 @@
+@startuml
+!define RECTANGLE class
+
+skinparam class {
+    BackgroundColor LightYellow
+    BorderColor Black
+    ArrowColor DeepSkyBlue
+    FontColor DarkSlateGray
+}
+
+RECTANGLE "Self-Discipline" as SelfDiscipline {
+  +Level of Self-Discipline
+}
+
+RECTANGLE "Personal Growth" as PersonalGrowth {
+  +Intellectual Development
+  +Skill Mastery
+  +Emotional Resilience
+}
+
+RECTANGLE "Relationships" as Relationships {
+  +Communication Skills
+  +Time Investment
+  +Conflict Resolution
+}
+
+RECTANGLE "Health" as Health {
+  +Physical Fitness
+  +Dietary Habits
+  +Mental Well-being
+}
+
+RECTANGLE "Goals Achievement" as GoalsAchievement {
+  +Task Completion
+  +Time Management
+  +Strategic Planning
+}
+
+note right of SelfDiscipline: Increasing the level of Self-Discipline\nhas a multiplier effect on improving\nall facets of life.
+
+SelfDiscipline -[#DeepSkyBlue]-> PersonalGrowth : ""\n"Significantly Improves"
+SelfDiscipline -[#DeepSkyBlue]-> Relationships : ""\n"Significantly Improves"
+SelfDiscipline -[#DeepSkyBlue]-> Health : ""\n"Significantly Improves"
+SelfDiscipline -[#DeepSkyBlue]-> GoalsAchievement : ""\n"Significantly Improves"
+
+legend
+This enhanced diagram further elucidates the extensive impact of self-discipline on life's various aspects. 
+Each attribute mentioned within the blocks is directly influenced by an improvement in self-discipline.
+- Personal Growth: Intellectual Development, Skill Mastery, Emotional Resilience
+- Relationships: Communication Skills, Time Investment, Conflict Resolution
+- Health: Physical Fitness, Dietary Habits, Mental Well-being
+- Goals Achievement: Task Completion, Time Management, Strategic Planning
+endlegend
+@enduml

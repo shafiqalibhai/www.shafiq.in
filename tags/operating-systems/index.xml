@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Operating Systems on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/operating-systems/</link>
+    <description>Recent content in Operating Systems on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 12 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generic Hardening - A Reference Guide</title>
+      <link>https://www.shafiq.in/blog/generic-hardening-a-reference-guide/</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/generic-hardening-a-reference-guide/</guid>
+      <description>&lt;p&gt;I put together this document as a reference for system hardening. It covers the basics &amp;ndash; what hardening actually means, the formula for building a hardened system, and how virtualisation changes the picture.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2013/01/generic-hardening-doc.docx&#34;&gt;download the full guide as a Word document&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-system-hardening&#34;&gt;What is System Hardening?&lt;/h2&gt;
+&lt;p&gt;Hardening is just the practice of making a system more resistant to attack. The guiding idea is least privilege: only what&amp;rsquo;s needed runs, only what&amp;rsquo;s needed is exposed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

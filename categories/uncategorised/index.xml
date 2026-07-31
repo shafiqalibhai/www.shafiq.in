@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Uncategorised on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/categories/uncategorised/</link>
+    <description>Recent content in Uncategorised on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 25 Nov 2024 09:25:31 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/categories/uncategorised/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 11 25 092531</title>
+      <link>https://www.shafiq.in/blog/2024-11-25-092531/</link>
+      <pubDate>Mon, 25 Nov 2024 09:25:31 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/2024-11-25-092531/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2024 11 25 092503</title>
+      <link>https://www.shafiq.in/blog/2024-11-25-092503/</link>
+      <pubDate>Mon, 25 Nov 2024 09:25:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/2024-11-25-092503/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How To Get BIOS Serial Numbers On Linux</title>
+      <link>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</link>
+      <pubDate>Mon, 25 Nov 2024 09:24:43 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</guid>
+      <description>&lt;p&gt;The quickest way to get a BIOS serial number on Linux:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dmidecode -s system-serial-number
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s usually all you need. &lt;code&gt;dmidecode&lt;/code&gt; reads the DMI/SMBIOS table and prints the serial number directly.&lt;/p&gt;
+&lt;h2 id=&#34;other-options&#34;&gt;Other options&lt;/h2&gt;
+&lt;p&gt;If &lt;code&gt;dmidecode&lt;/code&gt; isn&amp;rsquo;t available or doesn&amp;rsquo;t return what you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# lshw&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo lshw -C bios &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep serial
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# /sys class interface (no sudo needed)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat /sys/class/dmi/id/product_serial
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;/sys/class/dmi/id/&lt;/code&gt; path is the cleanest option if you want to avoid sudo. It exposes several DMI fields:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

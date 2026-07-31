@@ -1,0 +1,64 @@
+@startuml
+!define RECTANGLE class
+!define SUBRECTANGLE class
+!define CIRCLE interface
+
+title Financial Health
+
+package "Assets" as assets {
+  SUBRECTANGLE "Liquid Assets" as liquid_assets {
+    + Cash
+    + Savings Account
+  }
+  SUBRECTANGLE "Illiquid Assets" as illiquid_assets {
+    + Real Estate
+    + Investments
+  }
+}
+
+package "Liabilities" as liabilities {
+  SUBRECTANGLE "Short-term Liabilities" as short_term_liabilities {
+    + Credit Card Debt
+    + Overdraft
+  }
+  SUBRECTANGLE "Long-term Liabilities" as long_term_liabilities {
+    + Mortgage
+    + Student Loan
+  }
+}
+
+package "Income" as income {
+  SUBRECTANGLE "Guaranteed Income" as guaranteed_income {
+    + Salary
+    + Pension
+  }
+  SUBRECTANGLE "Variable Income" as variable_income {
+    + Freelance Work
+    + Dividends
+  }
+}
+
+package "Expenses" as expenses {
+  SUBRECTANGLE "Fixed Expenses" as fixed_expenses {
+    + Rent/Mortgage
+    + Utilities
+  }
+  SUBRECTANGLE "Variable Expenses" as variable_expenses {
+    + Groceries
+    + Entertainment
+  }
+}
+
+CIRCLE "Net Worth" as net_worth
+CIRCLE "Budget" as budget
+CIRCLE "Financial Health" as financial_health
+
+assets -down-> net_worth : > Liabilities
+liabilities -down-> net_worth : < Assets
+income -down-> budget : > Expenses
+expenses -down-> budget : < Income
+
+net_worth -down-> financial_health : Positive / Negative
+budget -down-> financial_health : Surplus / Deficit
+
+@enduml

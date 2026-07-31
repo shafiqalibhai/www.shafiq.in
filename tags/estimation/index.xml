@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Estimation on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/estimation/</link>
+    <description>Recent content in Estimation on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 19 Jul 2010 09:26:59 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/estimation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detailed Estimates Are Often a Waste</title>
+      <link>https://www.shafiq.in/blog/detailed-estimates-are-often-a-waste/</link>
+      <pubDate>Mon, 19 Jul 2010 09:26:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/detailed-estimates-are-often-a-waste/</guid>
+      <description>&lt;p&gt;Some people believe the best way to estimate a project is to produce detailed requirements and design documents for every feature before writing a line of code. It sounds professional. It sounds thorough.&lt;/p&gt;
+&lt;p&gt;In practice, it usually turns out to be wrong. Requirements change. Priorities shift. The detailed estimate you spent weeks producing becomes irrelevant halfway through the project.&lt;/p&gt;
+&lt;p&gt;That effort becomes wasted inventory &amp;ndash; time and resources that could have been spent building something useful instead.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>How-To on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/how-to/</link>
+    <description>Recent content in How-To on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 17 Oct 2023 01:30:03 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shutdown Proxmox VM using CLI</title>
+      <link>https://www.shafiq.in/blog/shutdown-proxmox-vm-using-cli/</link>
+      <pubDate>Tue, 17 Oct 2023 01:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/shutdown-proxmox-vm-using-cli/</guid>
+      <description>&lt;p&gt;SSH into the Proxmox host and run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qm shutdown &amp;lt;VMID&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This sends an ACPI shutdown signal to the guest OS for a graceful shutdown.&lt;/p&gt;
+&lt;p&gt;To find the VM ID:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qm list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If the VM doesn&amp;rsquo;t respond to the shutdown signal, force it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qm stop &amp;lt;VMID&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;qm stop&lt;/code&gt; is equivalent to pulling the power cable. Use it only when &lt;code&gt;qm shutdown&lt;/code&gt; hangs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to count words in a PDF from the Linux command line</title>
+      <link>https://www.shafiq.in/blog/how-to-count-words-in-a-pdf-from-the-linux-command-line/</link>
+      <pubDate>Tue, 05 Sep 2023 04:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-count-words-in-a-pdf-from-the-linux-command-line/</guid>
+      <description>&lt;p&gt;The simplest approach:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pdftotext input.pdf - &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; wc -w
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;pdftotext&lt;/code&gt; is in the &lt;code&gt;poppler-utils&lt;/code&gt; package (&lt;code&gt;sudo apt install poppler-utils&lt;/code&gt; or &lt;code&gt;sudo yum install poppler-utils&lt;/code&gt;). The &lt;code&gt;-&lt;/code&gt; sends output to stdout instead of a file.&lt;/p&gt;
+&lt;h2 id=&#34;other-options&#34;&gt;Other options&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;pdfminer:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pdf2txt.py input.pdf &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; wc -w
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Install with &lt;code&gt;pip install pdfminer.six&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python with PyPDF2:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;PyPDF2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;input.pdf&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;rb&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;reader&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PyPDF2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PdfReader&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;total&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;page&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;extract_text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;split&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;page&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;reader&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;total&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note: PyPDF2&amp;rsquo;s &lt;code&gt;PdfFileReader&lt;/code&gt; and &lt;code&gt;getPage()&lt;/code&gt; are deprecated in newer versions — use &lt;code&gt;PdfReader&lt;/code&gt; and index into &lt;code&gt;reader.pages&lt;/code&gt; instead.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to avoid other pods from being scheduled on your node in Kubernetes</title>
+      <link>https://www.shafiq.in/blog/how-to-avoid-other-pods-from-being-scheduled-on-your-node-in-kubernetes/</link>
+      <pubDate>Thu, 13 Jul 2023 11:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-avoid-other-pods-from-being-scheduled-on-your-node-in-kubernetes/</guid>
+      <description>&lt;p&gt;Taints on nodes repel pods. Tolerations on pods let them ignore specific taints. Together they give you control over scheduling.&lt;/p&gt;
+&lt;h2 id=&#34;taint-effects&#34;&gt;Taint effects&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NoSchedule&lt;/strong&gt; — pods without a matching toleration won&amp;rsquo;t be scheduled on the node.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PreferNoSchedule&lt;/strong&gt; — the scheduler avoids the node but will use it if there&amp;rsquo;s nowhere else.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NoExecute&lt;/strong&gt; — pods without a matching toleration are evicted and won&amp;rsquo;t be rescheduled there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applying-a-taint&#34;&gt;Applying a taint&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;kubectl taint nodes node1 &lt;span class=&#34;nv&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;db:NoSchedule
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This prevents any pod from being scheduled on &lt;code&gt;node1&lt;/code&gt; unless it has a toleration for &lt;code&gt;type=db&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to get a remote server SSL certificate</title>
+      <link>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</link>
+      <pubDate>Tue, 15 Jun 2021 08:21:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openssl s_client -connect &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;HOSTNAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;PORT&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; -showcerts
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Replace all dots in filenames except the extension on Linux</title>
+      <link>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</link>
+      <pubDate>Thu, 21 Jan 2021 13:00:41 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; f in .&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;%.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; mv -i -f -- &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//./_&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Count number of directories in the current directory using Linux cli</title>
+      <link>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</link>
+      <pubDate>Tue, 14 Jul 2020 09:17:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -1 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; wc -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Count number of files in a directory using Linux cli</title>
+      <link>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</link>
+      <pubDate>Tue, 14 Jul 2020 09:15:31 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -l . &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; egrep -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;^-&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Fix casks with `depends_on` that reference pre-Mavericks</title>
+      <link>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</link>
+      <pubDate>Mon, 18 May 2020 10:01:16 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</guid>
+      <description>&lt;p&gt;If you get an error of the type &lt;code&gt;Error: Cask &#39;hex-fiend-beta&#39; definition is invalid: invalid &#39;depends_on macos&#39; value: &amp;quot;:lion&amp;quot;&lt;/code&gt;, where &lt;code&gt;hex-fiend-beta&lt;/code&gt; can be any cask name, and &lt;code&gt;:lion&lt;/code&gt; any macOS release name, run the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/usr/bin/find &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;brew --prefix&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/Caskroom/&amp;#34;&lt;/span&gt;*&lt;span class=&#34;s1&#34;&gt;&amp;#39;/.metadata&amp;#39;&lt;/span&gt; -type f -name &lt;span class=&#34;s1&#34;&gt;&amp;#39;*.rb&amp;#39;&lt;/span&gt; -print0 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; /usr/bin/xargs -0 /usr/bin/perl -i -pe &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/depends_on macos: \[.*?\]//gsm;s/depends_on macos: .*//g&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will remove all &lt;code&gt;depends_on macos&lt;/code&gt; references of &lt;em&gt;installed&lt;/em&gt; casks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to run VLC player as root user</title>
+      <link>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</link>
+      <pubDate>Mon, 18 May 2020 09:59:54 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/geteuid/getppid/&amp;#39;&lt;/span&gt; /usr/bin/vlc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; The initialization script check if the UID is equals to zero. Zero is reserved for the root user. Using &lt;code&gt;sed&lt;/code&gt; to replace &lt;code&gt;geteuid&lt;/code&gt; for &lt;code&gt;getppid&lt;/code&gt; fools the initialization script because it is always &lt;code&gt;&amp;gt; 0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;While running the VLC as root is not recommended, it works. Be aware of the risks and obviously do not do it for production environments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NPM update all globally installed packages</title>
+      <link>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</link>
+      <pubDate>Sat, 22 Dec 2018 09:42:28 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm update -g
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure</title>
+      <link>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</link>
+      <pubDate>Sat, 22 Dec 2018 09:38:39 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re working with Azure, you might have encountered an error that looks something like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Failure sending request: StatusCode=0 — Original Error: Code=&amp;lsquo;ReferencedResourceNotProvisioned&amp;rsquo; Message=&amp;lsquo;Cannot proceed with operation because resource used by resource is not in Succeeded state. Resource is in Updating state and the last operation that updated/is updating the resource is PutSubnetOperation.&amp;rsquo;&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Though the error message can seem intimidating and cryptic at first, don&amp;rsquo;t worry. In this post, we&amp;rsquo;ll delve into what this error means and how you can resolve it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Import a Resource to Terraform Module</title>
+      <link>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</link>
+      <pubDate>Wed, 24 Oct 2018 15:57:34 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</guid>
+      <description>&lt;p&gt;The example below will import an AWS instance into a terraform module:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;terraform import module.foo.aws_instance.bar i-abcd1234
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Navigating Terraform Modules Stored in Package Subdirectories</title>
+      <link>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</link>
+      <pubDate>Wed, 24 Oct 2018 13:16:15 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</guid>
+      <description>&lt;p&gt;In the realm of Infrastructure as Code, Terraform modules can play a significant role in making your life easier. Sometimes, however, these modules don&amp;rsquo;t live at the root directory of their source package. Instead, they reside in sub-directories. Thankfully, Terraform has a smart way to help you access these nested modules.&lt;/p&gt;
+&lt;p&gt;Terraform employs a unique double-slash (&lt;code&gt;//&lt;/code&gt;) syntax to help pinpoint the exact sub-directory where the module is located. The path that follows this double-slash syntax is considered to be a sub-directory within the package or repository.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Fix the &#34;RPC failed; HTTP 413 curl 22&#34; Error in Nginx</title>
+      <link>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</link>
+      <pubDate>Fri, 12 Oct 2018 09:49:17 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</guid>
+      <description>&lt;h2 id=&#34;understanding-the-issue-rpc-failed-http-413-curl-22&#34;&gt;Understanding the Issue: &amp;lsquo;RPC failed; HTTP 413 curl 22&amp;rsquo;&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;ve stumbled upon the error message &amp;ldquo;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large,&amp;rdquo; you&amp;rsquo;re probably trying to push a rather hefty commit over HTTP to your server running Nginx. This error means that the size of the request you&amp;rsquo;re trying to send exceeds the limit that the server is willing to accept. So, how do you fix it?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install ruby gem files</title>
+      <link>https://www.shafiq.in/blog/install-ruby-gem-files/</link>
+      <pubDate>Thu, 27 Sep 2018 10:16:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/install-ruby-gem-files/</guid>
+      <description>&lt;p&gt;Install the gems on the destination machine from the local files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd /path/to/gems
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gem install --force --local *.gem
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>/bin/sh: 1: flex: not found</title>
+      <link>https://www.shafiq.in/blog/bin/sh-1-flex-not-found/</link>
+      <pubDate>Wed, 19 Sep 2018 15:32:11 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/bin/sh-1-flex-not-found/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install flex
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Merging Unrelated Git Histories - A Simple Guide</title>
+      <link>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</link>
+      <pubDate>Tue, 04 Sep 2018 13:48:55 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</guid>
+      <description>&lt;p&gt;Are you stuck with two Git repositories or branches that have completely different histories, but you need to merge them? You may be hitting a roadblock because Git is designed to prevent this kind of operation by default. However, there&amp;rsquo;s a workaround for this, and it&amp;rsquo;s simpler than you might think.&lt;/p&gt;
+&lt;h3 id=&#34;the-problem-unrelated-git-histories&#34;&gt;The Problem: Unrelated Git Histories&lt;/h3&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re working on a project where you have a &lt;code&gt;main&lt;/code&gt; branch, and someone else has a completely separate project with its own history. Now, you want to combine both projects into a single repository. If you try to perform a regular &lt;code&gt;git merge&lt;/code&gt; or &lt;code&gt;git rebase&lt;/code&gt;, Git will likely stop you with an error message, something like:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running Firefox OS apps on Ubuntu Linux</title>
+      <link>https://www.shafiq.in/blog/running-firefox-os-apps-on-ubuntu-linux/</link>
+      <pubDate>Sat, 24 Nov 2012 17:30:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/running-firefox-os-apps-on-ubuntu-linux/</guid>
+      <description>&lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2012/11/2012-11-24-172842_1366x768_scrot_hu_527f33f3f3aa8973.png&#34; alt=&#34;Firefox OS Clock app running on Ubuntu with Firefox Marketplace in the background&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+
+
+&lt;p&gt;Mozilla announced Firefox OS back in 2011 under the codename Boot2Gecko, and since then the project has gone from a concept to something you can actually run on your desktop. I&amp;rsquo;ve been following it closely and finally got around to setting it up on my Ubuntu machine. Here&amp;rsquo;s how.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-firefox-os&#34;&gt;What is Firefox OS?&lt;/h2&gt;
+&lt;p&gt;Firefox OS is Mozilla&amp;rsquo;s attempt at building a mobile operating system entirely from web standards. There&amp;rsquo;s no Java, no native SDK, no proprietary frameworks. The entire user interface &amp;ndash; called Gaia &amp;ndash; is built in HTML, CSS, and JavaScript. The rendering engine underneath is Gecko, the same one that powers Firefox. And at the bottom, it runs on a Linux kernel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Replacing an IP address with sed</title>
+      <link>https://www.shafiq.in/blog/replacing-an-ip-address-with-sed/</link>
+      <pubDate>Mon, 20 Jun 2011 11:38:01 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/replacing-an-ip-address-with-sed/</guid>
+      <description>&lt;p&gt;Sometimes you need to swap an IP address out of a file. Maybe you are moving a server to a new host, updating a config, or just tired of grepping through logs to find the old address. Whatever the reason, &lt;code&gt;sed&lt;/code&gt; makes it trivial.&lt;/p&gt;
+&lt;p&gt;The trick is matching the dotted-decimal pattern. An IP address is four groups of numbers separated by dots, so the regex needs to capture that structure. Here is the one-liner:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Disable services in Solaris 10</title>
+      <link>https://www.shafiq.in/blog/disable-services-in-solaris-10/</link>
+      <pubDate>Mon, 23 May 2011 16:57:14 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/disable-services-in-solaris-10/</guid>
+      <description>&lt;p&gt;Managing services on Solaris 10 is nothing like Linux. There are no &lt;code&gt;/etc/init.d/&lt;/code&gt; scripts, no &lt;code&gt;service&lt;/code&gt; command, no &lt;code&gt;chkconfig&lt;/code&gt;. Instead, Solaris uses SMF — the Service Management Facility — and everything goes through &lt;code&gt;svcadm&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you are new to Solaris, this can feel unnecessarily complicated. It is not, once you learn the pattern.&lt;/p&gt;
+&lt;h3 id=&#34;disabling-a-service&#34;&gt;Disabling a service&lt;/h3&gt;
+&lt;p&gt;You need root privileges or sudo access. The command is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;svcadm disable network/cswpuppetd:default
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The argument is the service FMRI (Fault Management Resource Identifier). For Puppet installed from OpenCSW, the FMRI is &lt;code&gt;network/cswpuppetd:default&lt;/code&gt;. The &lt;code&gt;:default&lt;/code&gt; part refers to the default instance of the service. Some services have multiple instances, but most only have one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Puppet logs on Solaris 10</title>
+      <link>https://www.shafiq.in/blog/puppet-logs-on-solaris-10/</link>
+      <pubDate>Thu, 19 May 2011 16:54:58 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/puppet-logs-on-solaris-10/</guid>
+      <description>&lt;p&gt;Puppet on Solaris 10 stores its logs in the SMF log directory, which is different from the &lt;code&gt;/var/log&lt;/code&gt; location you might be used to on Linux. If you are looking for the usual log files and cannot find them, this is probably why.&lt;/p&gt;
+&lt;h3 id=&#34;agent-logs&#34;&gt;Agent logs&lt;/h3&gt;
+&lt;p&gt;The Puppet agent (&lt;code&gt;puppetd&lt;/code&gt;) runs as an SMF service, and its log is at:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;svc&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;network&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cswpuppetd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;log&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To watch it in real time:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tail -f /var/svc/log/network-cswpuppetd:default.log
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;master-logs&#34;&gt;Master logs&lt;/h3&gt;
+&lt;p&gt;The Puppet master (&lt;code&gt;puppetmasterd&lt;/code&gt;) follows the same pattern:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

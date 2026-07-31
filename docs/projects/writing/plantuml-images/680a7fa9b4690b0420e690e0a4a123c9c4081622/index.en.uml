@@ -1,0 +1,45 @@
+@startuml
+!define RECTANGLE class
+!define DATABASE entity
+
+skinparam {
+  arrowColor Black
+  actorBorderColor Black
+  usecaseBorderColor Black
+  usecaseBackgroundColor LightYellow
+  actorBackgroundColor LightYellow
+  classBackgroundColor LightYellow
+  databaseBackgroundColor LightYellow
+  classBorderColor Black
+  classArrowColor Black
+}
+
+RECTANGLE "Your Family" as family {
+  DATABASE "Open Communication" as openComm
+  DATABASE "Quality Time" as qualityTime
+  DATABASE "Resolve Conflicts Rationally" as resolveConflict
+  DATABASE "Respect Individuality" as respectInd
+  DATABASE "Show Appreciation" as showAppreciation
+}
+
+family -[hidden]- openComm
+family -[hidden]- qualityTime
+family -[hidden]- resolveConflict
+family -[hidden]- respectInd
+family -[hidden]- showAppreciation
+
+family <---> openComm : Two-way effort
+family <---> qualityTime : Two-way effort
+family <---> resolveConflict : Two-way effort
+family <---> respectInd : Two-way effort
+family <---> showAppreciation : Two-way effort
+
+note top of family : Central Node
+
+note right of openComm : Gear in Family Machinery
+note right of qualityTime : Gear in Family Machinery
+note right of resolveConflict : Gear in Family Machinery
+note right of respectInd : Gear in Family Machinery
+note right of showAppreciation : Gear in Family Machinery
+
+@enduml

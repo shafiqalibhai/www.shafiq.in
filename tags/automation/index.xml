@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Automation on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/automation/</link>
+    <description>Recent content in Automation on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 21 Feb 2012 07:18:05 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perl Expect Bindings - A Simple Example</title>
+      <link>https://www.shafiq.in/blog/perl-expect-bindings-a-simple-example/</link>
+      <pubDate>Tue, 21 Feb 2012 07:18:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/perl-expect-bindings-a-simple-example/</guid>
+      <description>&lt;p&gt;I ran into a situation recently where I needed a Perl script to launch another program, wait for it to finish, and move on. Nothing fancy. A simple spawn-and-wait. But doing it the naive way — backticks, pipe reads, polling — felt like overkill for what should be a two-liner.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s where the &lt;code&gt;Expect&lt;/code&gt; module comes in. It&amp;rsquo;s been around since the 90s, originally ported from the Tcl expect tool, and it does exactly what you&amp;rsquo;d expect: it spawns a process, talks to its stdin, reads its stdout, and waits for specific patterns. For simple cases it&amp;rsquo;s overkill. For anything that involves an interactive prompt or a non-trivial exit condition, it saves you from writing your own state machine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuous Delivery</title>
+      <link>https://www.shafiq.in/blog/continuous-delivery/</link>
+      <pubDate>Mon, 02 Jan 2012 17:31:13 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/continuous-delivery/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been thinking about continuous delivery a lot lately, and the thing that keeps coming back to me is how much of a pain it is when someone logs into a server and makes a change by hand.&lt;/p&gt;
+&lt;p&gt;You know the type. Production is down, someone jumps in, tweaks a config file, restarts a service, and everything works again. Great. Except now that server has a configuration that exists in no repository, no documentation, and no one else&amp;rsquo;s head. Next time something breaks, you&amp;rsquo;ll spend hours chasing a difference that nobody bothered to record.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Status Quo — A Review of Some Testing Practices</title>
+      <link>https://www.shafiq.in/blog/status-quo-a-review-of-some-testing-practices/</link>
+      <pubDate>Fri, 11 Nov 2011 05:10:14 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/status-quo-a-review-of-some-testing-practices/</guid>
+      <description>&lt;p&gt;I spent a fair amount of time on SAP implementations, and testing was always one of those areas that people talked about in the project plan but never really thought through until something broke. So here is a review of some testing practices I encountered — what worked, what did not, and what I wish someone had told me earlier.&lt;/p&gt;
+&lt;h2 id=&#34;methodology-matters-even-if-you-think-it-does-not&#34;&gt;Methodology Matters (Even If You Think It Does Not)&lt;/h2&gt;
+&lt;p&gt;Every SAP project has a methodology. Sometimes it is a proper one — Deloitte&amp;rsquo;s Thread Manager, IBM&amp;rsquo;s Ascendant, SAP&amp;rsquo;s own Roadmap through Solution Manager. Sometimes it is &amp;ldquo;we did something similar last time, let&amp;rsquo;s do that again.&amp;rdquo; Sometimes it is nothing at all, and the project is winging it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stop Deploying by Hand</title>
+      <link>https://www.shafiq.in/blog/stop-deploying-by-hand/</link>
+      <pubDate>Tue, 19 Oct 2010 09:07:45 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/stop-deploying-by-hand/</guid>
+      <description>&lt;p&gt;The idea that you could push code to production without anyone touching a server, running a script, or holding their breath still sounds a bit mad to most developers.&lt;/p&gt;
+&lt;p&gt;Most teams deploy like this: someone merges code, someone else pulls it down on a staging server, runs the tests manually, fixes whatever broke, then schedules a deployment window. Someone SSHs into production, runs a script or types commands by hand, crosses their fingers, and hopes nothing catches fire. If something does go wrong, you roll back by remembering what the last working version was and praying your backups are current.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

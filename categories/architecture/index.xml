@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Architecture on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/categories/architecture/</link>
+    <description>Recent content in Architecture on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sun, 28 Sep 2025 07:05:57 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/categories/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing TOGAF using SCRUM methodology</title>
+      <link>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</link>
+      <pubDate>Sun, 28 Sep 2025 07:05:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</guid>
+      <description>&lt;p&gt;TOGAF is documentation-heavy and linear. Scrum is iterative and lightweight. Running them together means breaking the Architecture Development Method into sprint-sized chunks instead of treating it as a single pass from Phase A to Phase H.&lt;/p&gt;
+&lt;h2 id=&#34;mapping-adm-phases-to-sprints&#34;&gt;Mapping ADM phases to sprints&lt;/h2&gt;
+&lt;p&gt;The ADM doesn&amp;rsquo;t have to run in one direction. You can treat each phase as a backlog item and pull work through in sprints.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;TOGAF Phase&lt;/th&gt;
+					&lt;th&gt;Scrum equivalent&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Preliminary&lt;/td&gt;
+					&lt;td&gt;Sprint 0 — governance, tools, team setup&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase A: Vision&lt;/td&gt;
+					&lt;td&gt;Product backlog epics for the EA vision&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phases B-D: Business, Data, Application, Technology&lt;/td&gt;
+					&lt;td&gt;One domain per sprint&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase E: Opportunities &amp;amp; Solutions&lt;/td&gt;
+					&lt;td&gt;Backlog refinement for implementation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase F: Migration Planning&lt;/td&gt;
+					&lt;td&gt;Roadmap prioritisation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase G: Implementation&lt;/td&gt;
+					&lt;td&gt;Delivery sprints&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase H: Change Management&lt;/td&gt;
+					&lt;td&gt;Sprint retrospectives&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;roles&#34;&gt;Roles&lt;/h2&gt;
+&lt;p&gt;The Enterprise Architect maps closest to Product Owner — they prioritise the architecture backlog. The Architecture Board shows up at sprint reviews. The Scrum Master facilitates the process and removes blockers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Your Go-To Guide for Top Enterprise Architecture Resources</title>
+      <link>https://www.shafiq.in/blog/your-go-to-guide-for-top-enterprise-architecture-resources/</link>
+      <pubDate>Sun, 23 Sep 2018 15:25:01 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/your-go-to-guide-for-top-enterprise-architecture-resources/</guid>
+      <description>&lt;p&gt;Navigating the world of enterprise architecture can be a daunting task, especially when you&amp;rsquo;re not sure where to find reliable resources. Whether you&amp;rsquo;re a seasoned pro or just dipping your toes into the architecture ocean, this curated list will help you stay ahead of the game.&lt;/p&gt;
+&lt;h3 id=&#34;agile-enthusiasts&#34;&gt;Agile Enthusiasts&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Agile Architect by Andrew Johnston&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Questa Computing Ltd. runs this insightful blog, focusing on agile methodology within enterprise architecture.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.agilearchitect.org&#34;&gt;Agile Architect Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;development-and-trends&#34;&gt;Development and Trends&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Application Development Trends - Enterprise Architect Section&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise architecture</title>
+      <link>https://www.shafiq.in/blog/enterprise-architecture/</link>
+      <pubDate>Sun, 01 Jul 2018 10:49:47 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/enterprise-architecture/</guid>
+      <description>&lt;p&gt;Enterprise architecture is the practice that tries to describe and control an organisation&amp;rsquo;s structure, processes, applications, systems, and technology in an integrated way.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise Architecture Model</title>
+      <link>https://www.shafiq.in/blog/enterprise-architecture-model/</link>
+      <pubDate>Sun, 01 Jul 2018 10:49:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/enterprise-architecture-model/</guid>
+      <description>&lt;p&gt;An architecture model is not just useful to provide insight into the current or future situation; it can also be used to evaluate the transition from ‘as is&amp;rsquo; to ‘to be&#39;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stakeholders and EA</title>
+      <link>https://www.shafiq.in/blog/stakeholders-and-ea/</link>
+      <pubDate>Sun, 01 Jul 2018 10:48:09 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/stakeholders-and-ea/</guid>
+      <description>&lt;p&gt;Most stakeholders of a system are not interested in its architecture, but only in the impact of this on their concerns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise Architecture is the structure and the operational blueprint of a company</title>
+      <link>https://www.shafiq.in/blog/enterprise-architecture-is-the-structure-and-the-operational-blueprint-of-a-company/</link>
+      <pubDate>Sun, 06 Mar 2016 12:08:06 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/enterprise-architecture-is-the-structure-and-the-operational-blueprint-of-a-company/</guid>
+      <description>&lt;p&gt;Enterprise Architecture is the structure and the operational blueprint of a company.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Archimate</title>
+      <link>https://www.shafiq.in/blog/archimate/</link>
+      <pubDate>Mon, 20 Jul 2015 10:42:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/archimate/</guid>
+      <description>&lt;p&gt;Archimate enables the creation of fully integrated models of an organizations enterprise architecture, the motivation behind it, and the programs, projects and migration paths to implement it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,80 @@
+@startuml
+
+skinparam rectangle {
+  backgroundColor LightGray
+  borderColor Black
+  borderWidth 1
+  roundCorner 25
+}
+
+skinparam diamond {
+  backgroundColor White
+  borderColor Black
+}
+
+title Detailed Problem Solving Flow Diagram
+
+start
+
+:Start;
+
+rectangle "Identify the Problem" as Identify {
+  :1. Recognize symptoms;
+  :2. Determine the scale;
+  :3. Consult stakeholders;
+  :4. Clarify the problem statement;
+  :5. Prioritize urgency;
+}
+
+:Identify the Problem;
+
+:Clarify problem with stakeholders?;
+if (Is problem clear?) then (yes)
+  :Proceed to Analysis;
+else (no)
+  :Consult more stakeholders;
+  :Clarify problem again;
+endif
+
+rectangle "Analyze the Problem" as Analyze {
+  :1. Gather relevant data;
+  :2. Identify possible causes;
+  :3. Evaluate evidence;
+  :4. Consult experts;
+  :5. Perform SWOT analysis;
+  :6. Weigh pros and cons;
+}
+
+:Analyze the Problem;
+
+:Collect more data?;
+if (Is data sufficient?) then (yes)
+  :Proceed to Reframe;
+else (no)
+  :Collect more data;
+  :Re-analyze problem;
+endif
+
+rectangle "Reframe as Opportunity" as Reframe {
+  :1. Identify potential benefits;
+  :2. Discover new perspectives;
+  :3. Seek innovative solutions;
+  :4. Create an action plan;
+  :5. Set milestones;
+  :6. Build a contingency plan;
+}
+
+:Reframe as Opportunity;
+
+:Re-analyze problem?;
+if (Is reframe possible?) then (yes)
+  :End;
+else (no)
+  :Re-analyze problem;
+  :Try to Reframe Again;
+endif
+
+:End;
+
+stop
+@enduml

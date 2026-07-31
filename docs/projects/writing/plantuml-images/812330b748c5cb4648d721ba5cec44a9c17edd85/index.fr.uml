@@ -1,0 +1,99 @@
+@startuml
+!define RECTANGLE class
+!define DIAMOND class
+
+RECTANGLE "Amazing Life" as AmazingLife {
+  +Path to Achieve
+  +Personal Goals
+  +Professional Goals
+  +Emotional Well-being
+  +Physical Well-being
+}
+RECTANGLE "Self-Discipline" as SelfDiscipline {
+  +Willpower
+  +Time Management
+  +Emotional Intelligence
+  +Consistency
+  +Accountability
+}
+RECTANGLE "Procrastination" as Procrastination {
+  +Fear of Failure
+  +Perfectionism
+  +Decisional Procrastination
+  +Avoidance
+}
+RECTANGLE "Distractions" as Distractions {
+  +Social Media
+  +Entertainment
+  +Noise
+  +Interpersonal Relationships
+}
+RECTANGLE "Lack of Focus" as LackOfFocus {
+  +Mental Fatigue
+  +Physical Fatigue
+  +Unstructured Environment
+  +Multi-tasking
+}
+
+DIAMOND "Obstacles" as Obstacles {
+}
+
+RECTANGLE "Willpower" as Willpower {
+  +Control Impulses
+  +Delay Gratification
+}
+
+RECTANGLE "Time Management" as TimeManagement {
+  +Pomodoro Technique
+  +To-Do Lists
+  +Prioritization
+}
+
+RECTANGLE "Emotional Intelligence" as EmotionalIntelligence {
+  +Self-Awareness
+  +Empathy
+  +Self-Regulation
+}
+
+RECTANGLE "Accountability" as Accountability {
+  +Self-Checks
+  +Accountability Partners
+}
+
+RECTANGLE "Consistency" as Consistency {
+  +Routine Building
+  +Follow-Through
+}
+
+AmazingLife -down-> SelfDiscipline : "Guarded By"
+SelfDiscipline -down-> Procrastination : "Overcomes"
+SelfDiscipline -down-> Distractions : "Overcomes"
+SelfDiscipline -down-> LackOfFocus : "Overcomes"
+
+SelfDiscipline -right-> Willpower : "Employs"
+SelfDiscipline -right-> TimeManagement : "Employs"
+SelfDiscipline -right-> EmotionalIntelligence : "Employs"
+SelfDiscipline -right-> Accountability : "Employs"
+SelfDiscipline -right-> Consistency : "Employs"
+
+Willpower -down-> Procrastination : "Tackles"
+TimeManagement -down-> Distractions : "Mitigates"
+EmotionalIntelligence -down-> LackOfFocus : "Enhances Focus"
+Accountability -down-> Procrastination : "Keeps In Check"
+Consistency -down-> AllObstacles : "Stabilizes"
+
+DIAMOND "All Obstacles" as AllObstacles {
+}
+
+Procrastination -right-> Obstacles : "Is A"
+Distractions -right-> Obstacles : "Is A"
+LackOfFocus -right-> Obstacles : "Is A"
+
+AmazingLife -up-> Obstacles : "Impacted By"
+
+Willpower -up-> SelfDiscipline : "Reinforces"
+TimeManagement -up-> SelfDiscipline : "Reinforces"
+EmotionalIntelligence -up-> SelfDiscipline : "Reinforces"
+Accountability -up-> SelfDiscipline : "Reinforces"
+Consistency -up-> SelfDiscipline : "Reinforces"
+@enduml

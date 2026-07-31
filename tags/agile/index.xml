@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agile on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/agile/</link>
+    <description>Recent content in Agile on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 22 Mar 2010 06:52:15 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrum in 8 Steps</title>
+      <link>https://www.shafiq.in/blog/scrum-in-8-steps/</link>
+      <pubDate>Mon, 22 Mar 2010 06:52:15 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/scrum-in-8-steps/</guid>
+      <description>&lt;p&gt;Scrum breaks a product into small pieces (backlog items) and works on them in short iterations (sprints). Here&amp;rsquo;s how it works in practice:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Prepare the product backlog.&lt;/strong&gt; List the features and requirements. Involve stakeholders to prioritise. The product owner is responsible for the vision and goals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Estimate the backlog.&lt;/strong&gt; As a team, give a rough estimate for each item. Planning poker or t-shirt sizes work well here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Plan the sprint.&lt;/strong&gt; A sprint is a fixed period &amp;ndash; usually one or two weeks. In the sprint planning meeting, decide the duration, goal, which backlog items to tackle, the tasks for each item, and the hours per task. The result is the sprint backlog.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

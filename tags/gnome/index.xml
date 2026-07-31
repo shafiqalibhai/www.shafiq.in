@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gnome on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/gnome/</link>
+    <description>Recent content in Gnome on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sun, 26 Dec 2010 07:52:40 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 11.04 Alpha 1, VMware Image for x64</title>
+      <link>https://www.shafiq.in/blog/ubuntu-11.04-alpha-1-vmware-image-for-x64/</link>
+      <pubDate>Sun, 26 Dec 2010 07:52:40 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/ubuntu-11.04-alpha-1-vmware-image-for-x64/</guid>
+      <description>&lt;p&gt;A friend sent me a VMware image of Ubuntu 11.04 Alpha 1, so I&amp;rsquo;m sharing it here in case anyone wants to try the new release without installing it.&lt;/p&gt;
+&lt;p&gt;The image is a fresh install with GNOME on a 64-bit system. VMware Tools are included, and it was built on VMware Workstation 7.1.2 (build 301548) under Windows. No software updates have been applied, so it&amp;rsquo;s a clean snapshot of the alpha as it shipped.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

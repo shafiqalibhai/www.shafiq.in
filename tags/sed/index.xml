@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sed on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/sed/</link>
+    <description>Recent content in Sed on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 20 Jun 2011 11:38:01 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/sed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Replacing an IP address with sed</title>
+      <link>https://www.shafiq.in/blog/replacing-an-ip-address-with-sed/</link>
+      <pubDate>Mon, 20 Jun 2011 11:38:01 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/replacing-an-ip-address-with-sed/</guid>
+      <description>&lt;p&gt;Sometimes you need to swap an IP address out of a file. Maybe you are moving a server to a new host, updating a config, or just tired of grepping through logs to find the old address. Whatever the reason, &lt;code&gt;sed&lt;/code&gt; makes it trivial.&lt;/p&gt;
+&lt;p&gt;The trick is matching the dotted-decimal pattern. An IP address is four groups of numbers separated by dots, so the regex needs to capture that structure. Here is the one-liner:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

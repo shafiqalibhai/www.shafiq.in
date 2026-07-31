@@ -1,0 +1,78 @@
+@startuml
+
+!define RECTANGLE class
+!define DATABASE entity
+!define COLLECTION participant
+
+skinparam defaultFontName Arial
+skinparam defaultFontSize 16
+
+title Self-Care in Different Life Domains
+skinparam package {
+  BorderColor DarkSlateGray
+  FontColor DarkSlateGray
+  BackgroundColor LightGoldenRodYellow
+}
+
+package "Physical Health" as Physical {
+  (Exercise) --> (Nutrition)
+  (Nutrition) --> (Sleep)
+  (Sleep) --> (Exercise)
+  note "Regular exercise,\nbalanced diet,\nand proper rest" as N1
+}
+
+package "Mental Health" as Mental {
+  (Mindfulness) --> (Stress Management)
+  (Stress Management) --> (Therapy)
+  (Therapy) --> (Mindfulness)
+  note "Techniques for\na healthy mind" as N2
+}
+
+package "Emotional Health" as Emotional {
+  (Emotional Awareness) --> (Coping Mechanisms)
+  (Coping Mechanisms) --> (Relationships)
+  (Relationships) --> (Emotional Awareness)
+  note "Understanding and\nexpressing feelings" as N3
+}
+
+package "Social Health" as Social {
+  (Friendship) --> (Family)
+  (Family) --> (Community)
+  (Community) --> (Friendship)
+  note "Building strong\nsocial connections" as N4
+}
+
+package "Financial Health" as Financial {
+  (Budgeting) --> (Savings)
+  (Savings) --> (Investment)
+  (Investment) --> (Budgeting)
+  note "Effective money\nmanagement" as N5
+}
+
+package "Spiritual Health" as Spiritual {
+  (Faith) --> (Mindfulness)
+  (Mindfulness) --> (Values)
+  (Values) --> (Faith)
+  note "Exploring meaning\nand purpose" as N6
+}
+
+Physical -[hidden]-> Mental
+Mental -[hidden]-> Emotional
+Emotional -[hidden]-> Social
+Social -[hidden]-> Financial
+Financial -[hidden]-> Spiritual
+
+note "Ripple Effect: Taking care\nof one domain leads to\nimprovements in all areas\nof life, achieving a sense\nof balance and well-being." as N7
+skinparam note {
+  BorderColor DarkSlateGray
+  FontColor DarkSlateGray
+  BackgroundColor LightSkyBlue
+}
+
+Physical ..> N7 : Influences
+Mental ..> N7 : Influences
+Emotional ..> N7 : Influences
+Social ..> N7 : Influences
+Financial ..> N7 : Influences
+
+@enduml

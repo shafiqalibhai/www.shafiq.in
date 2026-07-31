@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Developer on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/developer/</link>
+    <description>Recent content in Developer on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 22 Mar 2010 06:54:55 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/developer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SVN revision control – slides</title>
+      <link>https://www.shafiq.in/blog/svn-revision-control-slides/</link>
+      <pubDate>Mon, 22 Mar 2010 06:54:55 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/svn-revision-control-slides/</guid>
+      <description>&lt;p&gt;I put together a presentation on Subversion for a class this semester. The slides cover the basics of revision control and why you should be using it for any project with more than one developer.&lt;/p&gt;
+&lt;p&gt;The problem is simple: how do you coordinate code between multiple people without everything falling apart? You could work on the same machine and take turns. You could email files back and forth. You could dump everything on a shared drive. None of these approaches scale past two people, and even then they&amp;rsquo;re fragile.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sun on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/sun/</link>
+    <description>Recent content in Sun on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 01 Dec 2012 16:27:52 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/sun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardening Solaris Systems in Production</title>
+      <link>https://www.shafiq.in/blog/hardening-solaris-systems-in-production/</link>
+      <pubDate>Sat, 01 Dec 2012 16:27:52 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/hardening-solaris-systems-in-production/</guid>
+      <description>&lt;h1 id=&#34;hardening-solaris-systems-in-production&#34;&gt;Hardening Solaris Systems in Production&lt;/h1&gt;
+&lt;p&gt;When you&amp;rsquo;re running enterprise workloads on Solaris — databases, application servers, web fronts — the gap between &amp;ldquo;it works&amp;rdquo; and &amp;ldquo;it&amp;rsquo;s secure&amp;rdquo; is a lot wider than most people expect. I spent a good chunk of time working through hardening procedures for a fleet of Solaris boxes, and what follows is the procedure we landed on.&lt;/p&gt;
+&lt;p&gt;The scope covered four server types: database, web, application, and utility. Every one of them got the same four security layers, regardless of role.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

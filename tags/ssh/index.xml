@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ssh on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/ssh/</link>
+    <description>Recent content in Ssh on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sun, 02 Sep 2018 10:33:49 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Simple Guide to Installing SSHPass on Ubuntu and macOS</title>
+      <link>https://www.shafiq.in/blog/a-simple-guide-to-installing-sshpass-on-ubuntu-and-macos/</link>
+      <pubDate>Sun, 02 Sep 2018 10:33:49 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-simple-guide-to-installing-sshpass-on-ubuntu-and-macos/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;SSHPass is a nifty little tool that lets you automate SSH login by bypassing the usual password prompt. While it&amp;rsquo;s super convenient for scripting, bear in mind that it&amp;rsquo;s not ideal for a multi-user setup due to security concerns. However, if you&amp;rsquo;re using it on your personal development machine, it&amp;rsquo;s pretty harmless.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-install-sshpass-on-ubuntu&#34;&gt;How to Install SSHPass on Ubuntu&lt;/h2&gt;
+&lt;p&gt;Installing SSHPass on Ubuntu is as straightforward as it gets. All you need to do is open up your terminal and run the following command:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

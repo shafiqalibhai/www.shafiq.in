@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Productivity on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/productivity/</link>
+    <description>Recent content in Productivity on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 11 Sep 2024 10:50:01 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on Second Brain</title>
+      <link>https://www.shafiq.in/blog/notes-on-second-brain/</link>
+      <pubDate>Wed, 11 Sep 2024 10:50:01 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/notes-on-second-brain/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PARA (Projects, Areas, Resources, Archive) framework&lt;/li&gt;
+&lt;li&gt;PKM (Personal Knowledge Management) eventually turns into a book&lt;/li&gt;
+&lt;li&gt;Capture, Organise, Distill, Express - the CODE framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key Concepts&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organise based on actionable projects&lt;/li&gt;
+&lt;li&gt;Distill information for sharing with others&lt;/li&gt;
+&lt;li&gt;Express ideas to create something new, rather than just consuming&lt;/li&gt;
+&lt;li&gt;Use Obsidian folder for &amp;ldquo;Read Later&amp;rdquo; or &amp;ldquo;Inbox&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Capture voice memos using transcription apps&lt;/li&gt;
+&lt;li&gt;Projects have checks to finalise&lt;/li&gt;
+&lt;li&gt;Hollywood model for project management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;PARA Areas Suggestions&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Productivity of all Individuals vs. Team Productivity</title>
+      <link>https://www.shafiq.in/blog/productivity-of-all-individuals-vs.-team-productivity/</link>
+      <pubDate>Mon, 12 Jul 2010 08:14:38 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/productivity-of-all-individuals-vs.-team-productivity/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;Software development is a complex and collaborative process that requires effective teamwork and communication. However, many software teams struggle with productivity issues and fail to deliver high-quality products on time and within budget. In this post, I will discuss why team productivity is more important than individual productivity, and how you can improve your software team&amp;rsquo;s performance by applying some proven strategies and best practices.&lt;/p&gt;
+&lt;h2 id=&#34;the-importance-of-team-productivity&#34;&gt;The Importance of Team Productivity&lt;/h2&gt;
+&lt;p&gt;According to Boehm, the COCOMO cost estimation model shows that the capability of the team has the greatest impact on software production. This means that the quality and efficiency of the software product depend largely on how well the team works together. Davis agrees with this conclusion and states that “optimising the productivity of all individuals does not necessarily result in optimising the productivity of the team”. In other words, having a team of highly skilled and productive individuals does not guarantee a successful software project. There are other factors that affect team productivity, such as communication, coordination, collaboration, motivation, and trust.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

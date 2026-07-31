@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bash on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/bash/</link>
+    <description>Recent content in Bash on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 21 Jan 2021 13:00:41 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Replace all dots in filenames except the extension on Linux</title>
+      <link>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</link>
+      <pubDate>Thu, 21 Jan 2021 13:00:41 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; f in .&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;%.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; mv -i -f -- &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//./_&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Count number of directories in the current directory using Linux cli</title>
+      <link>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</link>
+      <pubDate>Tue, 14 Jul 2020 09:17:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -1 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; wc -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Count number of files in a directory using Linux cli</title>
+      <link>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</link>
+      <pubDate>Tue, 14 Jul 2020 09:15:31 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -l . &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; egrep -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;^-&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>How much memory is actually free?</title>
+      <link>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</link>
+      <pubDate>Sat, 10 Dec 2011 12:43:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</guid>
+      <description>&lt;p&gt;I keep forgetting this one, so here it is.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vmstat -s -SM &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep &lt;span class=&#34;s2&#34;&gt;&amp;#34;free memory&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk -F&lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print$1}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It pipes &lt;code&gt;vmstat&lt;/code&gt; output through &lt;code&gt;grep&lt;/code&gt; and &lt;code&gt;awk&lt;/code&gt; to pull just the number &amp;ndash; no units, no labels, just the gigabytes sitting there doing nothing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Replacing an IP address with sed</title>
+      <link>https://www.shafiq.in/blog/replacing-an-ip-address-with-sed/</link>
+      <pubDate>Mon, 20 Jun 2011 11:38:01 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/replacing-an-ip-address-with-sed/</guid>
+      <description>&lt;p&gt;Sometimes you need to swap an IP address out of a file. Maybe you are moving a server to a new host, updating a config, or just tired of grepping through logs to find the old address. Whatever the reason, &lt;code&gt;sed&lt;/code&gt; makes it trivial.&lt;/p&gt;
+&lt;p&gt;The trick is matching the dotted-decimal pattern. An IP address is four groups of numbers separated by dots, so the regex needs to capture that structure. Here is the one-liner:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

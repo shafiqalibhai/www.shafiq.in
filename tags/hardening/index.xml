@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hardening on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/hardening/</link>
+    <description>Recent content in Hardening on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 03 Dec 2012 08:23:05 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/hardening/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Juniper Hardening Procedure</title>
+      <link>https://www.shafiq.in/blog/juniper-hardening-procedure/</link>
+      <pubDate>Mon, 03 Dec 2012 08:23:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/juniper-hardening-procedure/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2012/12/juniper-device-hardening-1.pdf&#34;&gt;DOWNLOAD - Juniper device hardening&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;h2 id=&#34;rationale&#34;&gt;Rationale&lt;/h2&gt;
+&lt;p&gt;An out-of-box firewall implementation is not fully secure and needs to be hardened. This document details the various aspects of Juniper firewall security and standards implemented for securing Juniper firewalls.&lt;/p&gt;
+&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;This document is to define a baseline security standard for the Juniper Firewall implementations by firewall administrators.&lt;/p&gt;
+&lt;h2 id=&#34;scope&#34;&gt;Scope&lt;/h2&gt;
+&lt;p&gt;These security standards cover the Juniper Firewall Screen OS implementation.&lt;/p&gt;
+&lt;p&gt;However, for some setups, this minimum requirement and some features of these standards may not be practical for implementation. For exceptions, the system administrators must document the reasons for not complying fully with these standards and request an exemption from the Security department.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hardening Solaris Systems in Production</title>
+      <link>https://www.shafiq.in/blog/hardening-solaris-systems-in-production/</link>
+      <pubDate>Sat, 01 Dec 2012 16:27:52 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/hardening-solaris-systems-in-production/</guid>
+      <description>&lt;h1 id=&#34;hardening-solaris-systems-in-production&#34;&gt;Hardening Solaris Systems in Production&lt;/h1&gt;
+&lt;p&gt;When you&amp;rsquo;re running enterprise workloads on Solaris — databases, application servers, web fronts — the gap between &amp;ldquo;it works&amp;rdquo; and &amp;ldquo;it&amp;rsquo;s secure&amp;rdquo; is a lot wider than most people expect. I spent a good chunk of time working through hardening procedures for a fleet of Solaris boxes, and what follows is the procedure we landed on.&lt;/p&gt;
+&lt;p&gt;The scope covered four server types: database, web, application, and utility. Every one of them got the same four security layers, regardless of role.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

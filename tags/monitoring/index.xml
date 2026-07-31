@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Monitoring on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/monitoring/</link>
+    <description>Recent content in Monitoring on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 07 Sep 2010 08:45:06 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting System Load in Perl</title>
+      <link>https://www.shafiq.in/blog/getting-system-load-in-perl/</link>
+      <pubDate>Tue, 07 Sep 2010 08:45:06 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/getting-system-load-in-perl/</guid>
+      <description>&lt;p&gt;Use &lt;code&gt;qx()&lt;/code&gt; to capture the output of &lt;code&gt;uptime&lt;/code&gt; and parse the load averages:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 1-minute load average&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;my&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$load1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sx&#34;&gt;qx(uptime | awk -F &amp;#34;load average: &amp;#34; &amp;#39;{ print $2 }&amp;#39; | cut -d, -f1)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 5-minute load average&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;my&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$load5&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sx&#34;&gt;qx(uptime | awk -F &amp;#34;load average: &amp;#34; &amp;#39;{ print $2 }&amp;#39; | cut -d, -f2)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 15-minute load average&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;my&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$load15&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sx&#34;&gt;qx(uptime | awk -F &amp;#34;load average: &amp;#34; &amp;#39;{ print $2 }&amp;#39; | cut -d, -f3)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note: use &lt;code&gt;qx()&lt;/code&gt; not &lt;code&gt;exec()&lt;/code&gt; &amp;ndash; &lt;code&gt;exec&lt;/code&gt; replaces the current process and doesn&amp;rsquo;t return.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

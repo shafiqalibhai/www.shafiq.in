@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Go on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/go/</link>
+    <description>Recent content in Go on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 13 Nov 2009 06:32:38 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Programming Language - What&#39;s the Deal?</title>
+      <link>https://www.shafiq.in/blog/go-programming-language-whats-the-deal/</link>
+      <pubDate>Fri, 13 Nov 2009 06:32:38 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/go-programming-language-whats-the-deal/</guid>
+      <description>&lt;p&gt;Google announced a new programming language called Go on November 10th. It&amp;rsquo;s from Robert Griesemer, Rob Pike, and Ken Thompson. That last name should tell you something — Ken Thompson co-designed Unix and invented the C programming language.&lt;/p&gt;
+&lt;p&gt;The pitch was simple: a compiled language that feels as quick to write as a scripting language, with built-in concurrency and garbage collection. It&amp;rsquo;s aimed at the kind of problems that C was always used for, but without the pain of manual memory management and with better support for multi-core processors.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

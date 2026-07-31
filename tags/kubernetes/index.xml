@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kubernetes on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 13 Jul 2023 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to avoid other pods from being scheduled on your node in Kubernetes</title>
+      <link>https://www.shafiq.in/blog/how-to-avoid-other-pods-from-being-scheduled-on-your-node-in-kubernetes/</link>
+      <pubDate>Thu, 13 Jul 2023 11:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-avoid-other-pods-from-being-scheduled-on-your-node-in-kubernetes/</guid>
+      <description>&lt;p&gt;Taints on nodes repel pods. Tolerations on pods let them ignore specific taints. Together they give you control over scheduling.&lt;/p&gt;
+&lt;h2 id=&#34;taint-effects&#34;&gt;Taint effects&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NoSchedule&lt;/strong&gt; — pods without a matching toleration won&amp;rsquo;t be scheduled on the node.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PreferNoSchedule&lt;/strong&gt; — the scheduler avoids the node but will use it if there&amp;rsquo;s nowhere else.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NoExecute&lt;/strong&gt; — pods without a matching toleration are evicted and won&amp;rsquo;t be rescheduled there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applying-a-taint&#34;&gt;Applying a taint&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;kubectl taint nodes node1 &lt;span class=&#34;nv&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;db:NoSchedule
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This prevents any pod from being scheduled on &lt;code&gt;node1&lt;/code&gt; unless it has a toleration for &lt;code&gt;type=db&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

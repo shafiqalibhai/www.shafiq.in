@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Expect on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/expect/</link>
+    <description>Recent content in Expect on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 21 Feb 2012 07:18:05 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/expect/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perl Expect Bindings - A Simple Example</title>
+      <link>https://www.shafiq.in/blog/perl-expect-bindings-a-simple-example/</link>
+      <pubDate>Tue, 21 Feb 2012 07:18:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/perl-expect-bindings-a-simple-example/</guid>
+      <description>&lt;p&gt;I ran into a situation recently where I needed a Perl script to launch another program, wait for it to finish, and move on. Nothing fancy. A simple spawn-and-wait. But doing it the naive way — backticks, pipe reads, polling — felt like overkill for what should be a two-liner.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s where the &lt;code&gt;Expect&lt;/code&gt; module comes in. It&amp;rsquo;s been around since the 90s, originally ported from the Tcl expect tool, and it does exactly what you&amp;rsquo;d expect: it spawns a process, talks to its stdin, reads its stdout, and waits for specific patterns. For simple cases it&amp;rsquo;s overkill. For anything that involves an interactive prompt or a non-trivial exit condition, it saves you from writing your own state machine.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

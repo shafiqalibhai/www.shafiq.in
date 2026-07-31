@@ -1,0 +1,55 @@
+@startuml
+
+!define RECTANGLE class
+
+rectangle "SMART Goals\nFramework" as SMART {
+}
+
+class Specific {
+  +Who
+  +What
+  +When
+  +Where
+  +Why
+}
+
+class Measurable {
+  +Metrics
+  +KPIs
+  +Quantifiable Outcomes
+}
+
+class Achievable {
+  +Resources
+  +Constraints
+  +Skillset
+}
+
+class Relevant {
+  +Alignment
+  +Importance
+  +Value
+}
+
+class "Time-bound" {
+  +Deadlines
+  +Milestones
+  +Timelines
+}
+
+class Iteration {
+  +Review
+  +Modify
+  +Restart
+}
+
+Specific --> SMART : constitutes
+Measurable --> SMART : constitutes
+Achievable --> SMART : constitutes
+Relevant --> SMART : constitutes
+"Time-bound" --> SMART : constitutes
+
+SMART --> Iteration : reviews and\nmodifies
+Iteration --> Specific : informs
+
+@enduml

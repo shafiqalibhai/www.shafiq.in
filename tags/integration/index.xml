@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Integration on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/integration/</link>
+    <description>Recent content in Integration on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 18 Sep 2010 07:19:26 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/integration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database Integration -- Points to Keep in Mind</title>
+      <link>https://www.shafiq.in/blog/database-integration--points-to-keep-in-mind/</link>
+      <pubDate>Sat, 18 Sep 2010 07:19:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/database-integration--points-to-keep-in-mind/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Have a single authoritative source for your schema.&lt;/strong&gt; Everyone should know where the official schema lives. You should be able to walk up to a fresh machine, pull from source control, build, and run a simple tool to set up the database. Ideally the build process handles it automatically.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Version your database.&lt;/strong&gt; The goal is to propagate changes from development to test to production in a controlled way. You should also be able to recreate the database at any point in time. If someone reports a bug in build 20100612.1, you need to reproduce the exact database state from that build.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,122 @@
+@startuml
+
+!define RECTANGLE class
+
+title <b>Detailed Guide for Setting S.M.A.R.T Financial Goals</b>
+
+' Define the boxes
+rectangle "<b>Financial Goals</b>" as FinancialGoals {
+    rectangle "<u>Align with Long-term Life Objectives</u>" as LifeObjectives {
+        RECTANGLE "Career"
+        RECTANGLE "Family"
+        RECTANGLE "Retirement"
+        RECTANGLE "Personal Development"
+    }
+}
+
+rectangle "<b>S.M.A.R.T Criteria</b>" as SMART {
+    rectangle "<u>Specific</u>" as Specific {
+        RECTANGLE "What?"
+        RECTANGLE "Why?"
+        RECTANGLE "How?"
+    }
+    rectangle "<u>Measurable</u>" as Measurable {
+        RECTANGLE "Metrics"
+        RECTANGLE "Milestones"
+    }
+    rectangle "<u>Attainable</u>" as Attainable {
+        RECTANGLE "Skills"
+        RECTANGLE "Resources"
+    }
+    rectangle "<u>Relevant</u>" as Relevant {
+        RECTANGLE "Alignment with Life Goals"
+        RECTANGLE "Immediate Impact"
+    }
+    rectangle "<u>Time-bound</u>" as Timebound {
+        RECTANGLE "Deadline"
+        RECTANGLE "Review Points"
+    }
+}
+
+rectangle "<b>Time-frame Categories</b>" as Timeframe {
+    rectangle "<u>Short-term (< 3 years)</u>" as Shortterm {
+        RECTANGLE "Vacation Fund"
+        RECTANGLE "Debt Clearance"
+    }
+    rectangle "<u>Mid-term (3-7 years)</u>" as Midterm {
+        RECTANGLE "Down Payment for Home"
+        RECTANGLE "Children's Education"
+    }
+    rectangle "<u>Long-term (> 7 years)</u>" as Longterm {
+        RECTANGLE "Retirement"
+        RECTANGLE "Investment Growth"
+    }
+}
+
+rectangle "<b>Financial Decisions</b>" as FinancialDecisions {
+    rectangle "<u>Spending Choices</u>" as Spending {
+        RECTANGLE "Essentials"
+        RECTANGLE "Non-essentials"
+    }
+    rectangle "<u>Saving Choices</u>" as Saving {
+        RECTANGLE "Emergency"
+        RECTANGLE "Investment"
+    }
+    rectangle "<u>Investment Choices</u>" as Investment {
+        RECTANGLE "Risk Level"
+        RECTANGLE "Investment Type"
+    }
+}
+
+' Define relationships
+FinancialGoals -down-> SMART: "Is Governed By\n<u>S.M.A.R.T Criteria</u>"
+SMART -down-> Specific: "Incorporates"
+Specific -down-> "What?"
+Specific -down-> "Why?"
+Specific -down-> "How?"
+
+SMART -down-> Measurable: "Incorporates"
+Measurable -down-> "Metrics"
+Measurable -down-> "Milestones"
+
+SMART -down-> Attainable: "Incorporates"
+Attainable -down-> "Skills"
+Attainable -down-> "Resources"
+
+SMART -down-> Relevant: "Incorporates"
+Relevant -down-> "Alignment with Life Goals"
+Relevant -down-> "Immediate Impact"
+
+SMART -down-> Timebound: "Incorporates"
+Timebound -down-> "Deadline"
+Timebound -down-> "Review Points"
+
+FinancialGoals -right-> Timeframe: "Is Divided Into\n<u>Time-frame Categories</u>"
+Timeframe -down-> Shortterm: "Incorporates"
+Shortterm -down-> "Vacation Fund"
+Shortterm -down-> "Debt Clearance"
+
+Timeframe -down-> Midterm: "Incorporates"
+Midterm -down-> "Down Payment for Home"
+Midterm -down-> "Children's Education"
+
+Timeframe -down-> Longterm: "Incorporates"
+Longterm -down-> "Retirement"
+Longterm -down-> "Investment Growth"
+
+FinancialGoals -left-> FinancialDecisions: "Guides\n<u>Financial Decisions</u>"
+FinancialDecisions -down-> Spending: "Impacts"
+Spending -down-> "Essentials"
+Spending -down-> "Non-essentials"
+
+FinancialDecisions -down-> Saving: "Impacts"
+Saving -down-> "Emergency"
+Saving -down-> "Investment"
+
+FinancialDecisions -down-> Investment: "Impacts"
+Investment -down-> "Risk Level"
+Investment -down-> "Investment Type"
+
+LifeObjectives -up-> FinancialGoals: "Guides\n<u>Financial Goals</u>"
+
+@enduml

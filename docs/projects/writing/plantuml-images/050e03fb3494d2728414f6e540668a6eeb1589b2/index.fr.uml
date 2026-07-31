@@ -1,0 +1,65 @@
+@startuml
+!define RECTANGLE class
+!define ARROW -->
+
+skinparam class {
+  BackgroundColor LightYellow
+  BorderColor Gray
+  FontName Arial
+}
+
+RECTANGLE "Various Life Experiences" as lifeExperiences
+RECTANGLE "Amazing Life" as amazingLife
+RECTANGLE "Perfect Life" as perfectLife
+RECTANGLE "Work: Decision Point" as workDecision
+RECTANGLE "Relationships: Decision Point" as relationshipsDecision
+RECTANGLE "Personal Development: Decision Point" as personalDevelopmentDecision
+RECTANGLE "Social Life: Decision Point" as socialLifeDecision
+
+' Emotional states, coping mechanisms and outcomes
+RECTANGLE "Adaptability & Resilience" as adaptAmazing
+RECTANGLE "Frustration & Anxiety" as frustrationPerfect
+RECTANGLE "Community & Support" as communityAmazing
+RECTANGLE "Isolation & Loneliness" as isolationPerfect
+RECTANGLE "Continuous Learning" as learningAmazing
+RECTANGLE "Static Knowledge" as staticPerfect
+RECTANGLE "Dynamic Interactions" as dynamicAmazing
+RECTANGLE "Limited Social Exposure" as limitedPerfect
+
+' Connect experiences to decision points
+lifeExperiences -down-> workDecision
+lifeExperiences -down-> relationshipsDecision
+lifeExperiences -down-> personalDevelopmentDecision
+lifeExperiences -down-> socialLifeDecision
+
+' Decision points to either Amazing or Perfect paths
+workDecision --> amazingLife : Choose Amazing
+workDecision --> perfectLife : Choose Perfect
+relationshipsDecision --> amazingLife : Choose Amazing
+relationshipsDecision --> perfectLife : Choose Perfect
+personalDevelopmentDecision --> amazingLife : Choose Amazing
+personalDevelopmentDecision --> perfectLife : Choose Perfect
+socialLifeDecision --> amazingLife : Choose Amazing
+socialLifeDecision --> perfectLife : Choose Perfect
+
+' Connect experiences to emotional states and coping mechanisms
+amazingLife --> adaptAmazing : Flexibility in Career Choices
+perfectLife --> frustrationPerfect : Strict Career Goals, Less Flexibility
+amazingLife --> communityAmazing : Forgiving & Supportive Relationships
+perfectLife --> isolationPerfect : High Standards Leading to Isolation
+amazingLife --> learningAmazing : Open to New Skills & Experiences
+perfectLife --> staticPerfect : Sticking to What You Know
+amazingLife --> dynamicAmazing : Open & Varied Social Circles
+perfectLife --> limitedPerfect : Restricted by Social Standards
+
+' Connect emotional states to long-term outcomes
+adaptAmazing --> amazingLife : Builds Resilience & Coping Skills
+frustrationPerfect --> perfectLife : Increases Anxiety & Doubt
+communityAmazing --> amazingLife : Enhanced Emotional Well-Being
+isolationPerfect --> perfectLife : Reinforces Loneliness & Discontent
+learningAmazing --> amazingLife : Lifelong Learning & Adaptability
+staticPerfect --> perfectLife : Limited Growth & Development
+dynamicAmazing --> amazingLife : Rich Social Experiences & Networking
+limitedPerfect --> perfectLife : Narrow Social Interactions & Missed Opportunities
+
+@enduml

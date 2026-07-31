@@ -1,0 +1,7 @@
+@startuml
+participant "Mindset" as M
+participant "Gratitude" as G
+participant "Resilience" as R
+M -> G : Channels Energy into Gratitude
+G -> R : Cultivates emotional resilience
+@enduml

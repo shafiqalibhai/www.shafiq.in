@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Development on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/development/</link>
+    <description>Recent content in Development on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 15 Sep 2010 08:39:58 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Never Use a Shared Database for Development</title>
+      <link>https://www.shafiq.in/blog/never-use-a-shared-database-for-development/</link>
+      <pubDate>Wed, 15 Sep 2010 08:39:58 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/never-use-a-shared-database-for-development/</guid>
+      <description>&lt;p&gt;A shared database server is a convenience that turns into a trap. Developers overwrite each other&amp;rsquo;s changes. My changes on the server break your code on your machine. Remote development is slow.&lt;/p&gt;
+&lt;p&gt;Avoid shared databases. The time you save setting up individual databases is nothing compared to the time you&amp;rsquo;ll waste debugging conflicts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

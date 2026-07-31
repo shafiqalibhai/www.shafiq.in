@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Debugging on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/debugging/</link>
+    <description>Recent content in Debugging on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 11 Sep 2013 09:32:05 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Display the Contents of a Node&#39;s Field as an Array in Drupal 6</title>
+      <link>https://www.shafiq.in/blog/how-to-display-the-contents-of-a-nodes-field-as-an-array-in-drupal-6/</link>
+      <pubDate>Wed, 11 Sep 2013 09:32:05 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-display-the-contents-of-a-nodes-field-as-an-array-in-drupal-6/</guid>
+      <description>&lt;p&gt;When you&amp;rsquo;re working with Drupal 6, it&amp;rsquo;s sometimes necessary to inspect the data stored in a node&amp;rsquo;s field. This is especially useful for debugging or when you&amp;rsquo;re trying to understand the structure of the content better. One quick way to achieve this is by dumping the field contents as an array. In PHP, the &lt;code&gt;var_export()&lt;/code&gt; function comes in handy for this purpose.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to do it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;var_export&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;content_fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;field_name_of_the_field&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;name_of_the_content_type&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this snippet, replace &lt;code&gt;&#39;field_name_of_the_field&#39;&lt;/code&gt; with the actual name of the field you&amp;rsquo;re interested in and &lt;code&gt;&#39;name_of_the_content_type&#39;&lt;/code&gt; with the specific content type containing that field.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

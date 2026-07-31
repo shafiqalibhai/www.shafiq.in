@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Architecture on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/architecture/</link>
+    <description>Recent content in Architecture on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sun, 23 Sep 2018 15:25:01 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Go-To Guide for Top Enterprise Architecture Resources</title>
+      <link>https://www.shafiq.in/blog/your-go-to-guide-for-top-enterprise-architecture-resources/</link>
+      <pubDate>Sun, 23 Sep 2018 15:25:01 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/your-go-to-guide-for-top-enterprise-architecture-resources/</guid>
+      <description>&lt;p&gt;Navigating the world of enterprise architecture can be a daunting task, especially when you&amp;rsquo;re not sure where to find reliable resources. Whether you&amp;rsquo;re a seasoned pro or just dipping your toes into the architecture ocean, this curated list will help you stay ahead of the game.&lt;/p&gt;
+&lt;h3 id=&#34;agile-enthusiasts&#34;&gt;Agile Enthusiasts&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Agile Architect by Andrew Johnston&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Questa Computing Ltd. runs this insightful blog, focusing on agile methodology within enterprise architecture.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.agilearchitect.org&#34;&gt;Agile Architect Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;development-and-trends&#34;&gt;Development and Trends&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Application Development Trends - Enterprise Architect Section&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise architecture</title>
+      <link>https://www.shafiq.in/blog/enterprise-architecture/</link>
+      <pubDate>Sun, 01 Jul 2018 10:49:47 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/enterprise-architecture/</guid>
+      <description>&lt;p&gt;Enterprise architecture is the practice that tries to describe and control an organisation&amp;rsquo;s structure, processes, applications, systems, and technology in an integrated way.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise Architecture Model</title>
+      <link>https://www.shafiq.in/blog/enterprise-architecture-model/</link>
+      <pubDate>Sun, 01 Jul 2018 10:49:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/enterprise-architecture-model/</guid>
+      <description>&lt;p&gt;An architecture model is not just useful to provide insight into the current or future situation; it can also be used to evaluate the transition from ‘as is&amp;rsquo; to ‘to be&#39;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise Architecture is the structure and the operational blueprint of a company</title>
+      <link>https://www.shafiq.in/blog/enterprise-architecture-is-the-structure-and-the-operational-blueprint-of-a-company/</link>
+      <pubDate>Sun, 06 Mar 2016 12:08:06 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/enterprise-architecture-is-the-structure-and-the-operational-blueprint-of-a-company/</guid>
+      <description>&lt;p&gt;Enterprise Architecture is the structure and the operational blueprint of a company.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Archimate</title>
+      <link>https://www.shafiq.in/blog/archimate/</link>
+      <pubDate>Mon, 20 Jul 2015 10:42:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/archimate/</guid>
+      <description>&lt;p&gt;Archimate enables the creation of fully integrated models of an organizations enterprise architecture, the motivation behind it, and the programs, projects and migration paths to implement it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

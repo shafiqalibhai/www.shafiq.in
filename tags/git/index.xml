@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/git/</link>
+    <description>Recent content in Git on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 12 Oct 2018 09:49:17 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Fix the &#34;RPC failed; HTTP 413 curl 22&#34; Error in Nginx</title>
+      <link>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</link>
+      <pubDate>Fri, 12 Oct 2018 09:49:17 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</guid>
+      <description>&lt;h2 id=&#34;understanding-the-issue-rpc-failed-http-413-curl-22&#34;&gt;Understanding the Issue: &amp;lsquo;RPC failed; HTTP 413 curl 22&amp;rsquo;&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;ve stumbled upon the error message &amp;ldquo;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large,&amp;rdquo; you&amp;rsquo;re probably trying to push a rather hefty commit over HTTP to your server running Nginx. This error means that the size of the request you&amp;rsquo;re trying to send exceeds the limit that the server is willing to accept. So, how do you fix it?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Merging Unrelated Git Histories - A Simple Guide</title>
+      <link>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</link>
+      <pubDate>Tue, 04 Sep 2018 13:48:55 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</guid>
+      <description>&lt;p&gt;Are you stuck with two Git repositories or branches that have completely different histories, but you need to merge them? You may be hitting a roadblock because Git is designed to prevent this kind of operation by default. However, there&amp;rsquo;s a workaround for this, and it&amp;rsquo;s simpler than you might think.&lt;/p&gt;
+&lt;h3 id=&#34;the-problem-unrelated-git-histories&#34;&gt;The Problem: Unrelated Git Histories&lt;/h3&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re working on a project where you have a &lt;code&gt;main&lt;/code&gt; branch, and someone else has a completely separate project with its own history. Now, you want to combine both projects into a single repository. If you try to perform a regular &lt;code&gt;git merge&lt;/code&gt; or &lt;code&gt;git rebase&lt;/code&gt;, Git will likely stop you with an error message, something like:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Release Engineering</title>
+      <link>https://www.shafiq.in/blog/release-engineering/</link>
+      <pubDate>Thu, 30 Aug 2012 17:14:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/release-engineering/</guid>
+      <description>&lt;h1 id=&#34;release-engineering&#34;&gt;Release Engineering&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve been thinking about how we get changes from a laptop into production without someone having to SSH in and type things by hand. The answer, as it turns out, is a pipeline. Nothing fancy. Just a chain of steps that each do one thing and pass the result to the next.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what we&amp;rsquo;re building.&lt;/p&gt;
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+&lt;p&gt;Everything starts in a Git repository. Puppet manifests, config files, deployment scripts — all of it. If it&amp;rsquo;s not in Git, it doesn&amp;rsquo;t exist. This is the part that matters most and the part people resist the most, because Git means your changes are visible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

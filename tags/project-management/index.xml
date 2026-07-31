@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Project-Management on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/project-management/</link>
+    <description>Recent content in Project-Management on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 05 Sep 2023 04:31:03 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 most popular books on soft skills for project managers</title>
+      <link>https://www.shafiq.in/blog/10-most-popular-books-on-soft-skills-for-project-managers/</link>
+      <pubDate>Tue, 05 Sep 2023 04:31:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/10-most-popular-books-on-soft-skills-for-project-managers/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;How to Win Friends and Influence People&amp;rdquo; by Dale Carnegie&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This classic book offers timeless advice on communication, relationship-building, and influence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Emotional Intelligence 2.0&amp;rdquo; by Travis Bradberry and Jean Greaves&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This book provides insights into understanding and improving emotional intelligence, crucial for effective leadership.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Crucial Conversations: Tools for Talking When Stakes Are High&amp;rdquo; by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This book offers techniques for handling high-stakes conversations where outcomes can impact project success.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Drive: The Surprising Truth About What Motivates Us&amp;rdquo; by Daniel H. Pink&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stakeholder RACI Matrix Spreadsheet</title>
+      <link>https://www.shafiq.in/blog/stakeholder-raci-matrix-spreadsheet/</link>
+      <pubDate>Sun, 28 Dec 2014 10:53:53 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/stakeholder-raci-matrix-spreadsheet/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2014/12/stakeholder-raci-matrix.xls&#34;&gt;Download Stakeholder RACI Matrix&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Risk Assessment Checklist for Software Projects</title>
+      <link>https://www.shafiq.in/blog/a-risk-assessment-checklist-for-software-projects/</link>
+      <pubDate>Tue, 10 Apr 2012 07:51:08 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-risk-assessment-checklist-for-software-projects/</guid>
+      <description>&lt;p&gt;I picked this up a while back and it&amp;rsquo;s been sitting in my notes ever since. It&amp;rsquo;s a risk assessment checklist for software projects — the kind of thing you&amp;rsquo;d run through before committing to a contract or kicking off a big engagement.&lt;/p&gt;
+&lt;p&gt;The original is a ten-page Word document with checkboxes. I&amp;rsquo;ve reorganised it here so it&amp;rsquo;s easier to scan. The categories are roughly in order of how you&amp;rsquo;d work through them: start with requirements, move through design and implementation, then look at process, people, and external pressures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Note to Self -- Project Management</title>
+      <link>https://www.shafiq.in/blog/note-to-self--project-management/</link>
+      <pubDate>Thu, 09 Sep 2010 06:20:39 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/note-to-self--project-management/</guid>
+      <description>&lt;p&gt;You can manage scope, time, cost, and quality much more effectively by basing decisions on working software with actual feedback and metrics, not just task items on a project schedule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Requirements Gathering</title>
+      <link>https://www.shafiq.in/blog/requirements-gathering/</link>
+      <pubDate>Sat, 31 Jul 2010 11:02:19 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/requirements-gathering/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s no single right way to develop detailed specifications, just as there&amp;rsquo;s no single right programming language for every application. Different projects demand different techniques. Requirements managers need a mix of skills to adapt to whatever circumstances they&amp;rsquo;re working in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Detailed Estimates Are Often a Waste</title>
+      <link>https://www.shafiq.in/blog/detailed-estimates-are-often-a-waste/</link>
+      <pubDate>Mon, 19 Jul 2010 09:26:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/detailed-estimates-are-often-a-waste/</guid>
+      <description>&lt;p&gt;Some people believe the best way to estimate a project is to produce detailed requirements and design documents for every feature before writing a line of code. It sounds professional. It sounds thorough.&lt;/p&gt;
+&lt;p&gt;In practice, it usually turns out to be wrong. Requirements change. Priorities shift. The detailed estimate you spent weeks producing becomes irrelevant halfway through the project.&lt;/p&gt;
+&lt;p&gt;That effort becomes wasted inventory &amp;ndash; time and resources that could have been spent building something useful instead.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Scope and Success</title>
+      <link>https://www.shafiq.in/blog/project-scope-and-success/</link>
+      <pubDate>Sat, 17 Jul 2010 09:40:52 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/project-scope-and-success/</guid>
+      <description>&lt;p&gt;In many projects, in order to provide a reasonable probability of success, it will be necessary to reduce the scope by as much as a factor of two.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve learned this the hard way. Every project starts with an ambitious list of features and an optimistic timeline. Reality intervenes quickly &amp;ndash; resources are tighter than expected, technical problems emerge, and deadlines don&amp;rsquo;t move.&lt;/p&gt;
+&lt;p&gt;Cutting scope feels like failure. It&amp;rsquo;s the difference between shipping something that works and shipping nothing at all.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scrum in 8 Steps</title>
+      <link>https://www.shafiq.in/blog/scrum-in-8-steps/</link>
+      <pubDate>Mon, 22 Mar 2010 06:52:15 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/scrum-in-8-steps/</guid>
+      <description>&lt;p&gt;Scrum breaks a product into small pieces (backlog items) and works on them in short iterations (sprints). Here&amp;rsquo;s how it works in practice:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Prepare the product backlog.&lt;/strong&gt; List the features and requirements. Involve stakeholders to prioritise. The product owner is responsible for the vision and goals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Estimate the backlog.&lt;/strong&gt; As a team, give a rough estimate for each item. Planning poker or t-shirt sizes work well here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Plan the sprint.&lt;/strong&gt; A sprint is a fixed period &amp;ndash; usually one or two weeks. In the sprint planning meeting, decide the duration, goal, which backlog items to tackle, the tasks for each item, and the hours per task. The result is the sprint backlog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Restarting a Project from Scratch</title>
+      <link>https://www.shafiq.in/blog/restarting-a-project-from-scratch/</link>
+      <pubDate>Mon, 08 Mar 2010 05:40:13 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/restarting-a-project-from-scratch/</guid>
+      <description>&lt;p&gt;Every programmer knows the urge: scrap everything and rewrite it from scratch.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not that the existing code is bad. It&amp;rsquo;s that it&amp;rsquo;s hard to understand. Reading code is harder than writing it &amp;ndash; you wrote the new code in your head, but the old code belongs to someone else (or to past you, who might as well be someone else).&lt;/p&gt;
+&lt;p&gt;This is why every developer on your team has their own favourite way of splitting strings into arrays. Writing a new function is simpler and more enjoyable than learning how the existing one works.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

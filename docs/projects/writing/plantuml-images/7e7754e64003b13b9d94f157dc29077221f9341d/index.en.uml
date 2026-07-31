@@ -1,0 +1,30 @@
+@startuml
+!define RECTANGLE class
+
+title Journey to Achievement: Exploring New Flora and Fauna
+
+start
+
+:Start;
+
+if (New Experiences?) then (yes)
+  :Discover Plant Species;
+  :Discover Animal Species;
+  note right
+    Magical and Enlightening 
+    Experience
+  end note
+else (no)
+  :Continue on Journey;
+endif
+
+:Frequent Checkpoints;
+:Circuit A;
+-> Achievement;
+note right
+  Reach the Moorland
+end note
+
+stop
+
+@enduml

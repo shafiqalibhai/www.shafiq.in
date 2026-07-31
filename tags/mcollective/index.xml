@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MCollective on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/mcollective/</link>
+    <description>Recent content in MCollective on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 30 Aug 2012 17:14:59 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/mcollective/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Engineering</title>
+      <link>https://www.shafiq.in/blog/release-engineering/</link>
+      <pubDate>Thu, 30 Aug 2012 17:14:59 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/release-engineering/</guid>
+      <description>&lt;h1 id=&#34;release-engineering&#34;&gt;Release Engineering&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve been thinking about how we get changes from a laptop into production without someone having to SSH in and type things by hand. The answer, as it turns out, is a pipeline. Nothing fancy. Just a chain of steps that each do one thing and pass the result to the next.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what we&amp;rsquo;re building.&lt;/p&gt;
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+&lt;p&gt;Everything starts in a Git repository. Puppet manifests, config files, deployment scripts — all of it. If it&amp;rsquo;s not in Git, it doesn&amp;rsquo;t exist. This is the part that matters most and the part people resist the most, because Git means your changes are visible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

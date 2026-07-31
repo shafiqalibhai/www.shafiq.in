@@ -1,0 +1,80 @@
+@startuml
+!define RECTANGLE class
+!define DATABASE entity
+
+hide circle
+
+title Stages of Goal-Setting to Tracking Method Selection
+
+RECTANGLE "Identifying Goals" as Identify {
+  + Brainstorm Goals
+  ++ Personal Goals
+  ++ Career Goals
+  ++ Relationship Goals
+  + Consider Long-term & Short-term Goals
+  ++ 1-Year Plan
+  ++ 5-Year Plan
+  + Align with Personal Values
+  ++ Core Beliefs
+  ++ Life Vision
+}
+
+RECTANGLE "Laying Down Goals" as LayDown {
+  + Write Down Goals
+  ++ Physical Notebook
+  ++ Digital Document
+  + Make them S.M.A.R.T
+  ++ Specificity
+  ++ Measurability
+  ++ Achievability
+  ++ Relevance
+  ++ Time-bound
+  + Categorize Goals
+  ++ Health
+  ++ Financial
+  ++ Personal Development
+}
+
+RECTANGLE "Prioritizing Goals" as Prioritize {
+  + Determine Importance
+  ++ Impact Scale
+  ++ Growth Potential
+  + Assess Urgency
+  ++ Deadlines
+  ++ Time Sensitivity
+  + Allocate Resources
+  ++ Time
+  ++ Money
+  ++ Skills
+}
+
+RECTANGLE "Defining Goals" as Define {
+  + Set Deadlines
+  ++ Short-term Goals Deadline
+  ++ Long-term Goals Deadline
+  + Break Down into Milestones
+  ++ Monthly Targets
+  ++ Quarterly Targets
+  + Identify Obstacles
+  ++ Internal Barriers
+  ++ External Barriers
+}
+
+RECTANGLE "Choosing Tracking Method" as Choose {
+  + Digital Tools
+  ++ Mobile Apps
+  ++ Web-based Platforms
+  + Paper Journal
+  ++ Weekly Planner
+  ++ Monthly Planner
+  + Accountability Partner
+  ++ Friend
+  ++ Mentor
+  ++ Coach
+}
+
+Identify --> LayDown : Refine & List
+LayDown --> Prioritize : Assess & Sort
+Prioritize --> Define : Detail Out
+Define --> Choose : Finalize & Plan
+@enduml

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Compilation on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/compilation/</link>
+    <description>Recent content in Compilation on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 19 Sep 2018 15:44:02 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/compilation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory</title>
+      <link>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</link>
+      <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</guid>
+      <description>&lt;p&gt;&lt;code&gt;sudo apt-get install -y libssl-dev&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>/bin/sh: 1: bison: not found</title>
+      <link>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</link>
+      <pubDate>Wed, 19 Sep 2018 15:33:07 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install bison
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

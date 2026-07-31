@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CSS on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/css/</link>
+    <description>Recent content in CSS on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 23 Apr 2013 10:11:33 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hiding a DataTables column without removing it from the DOM</title>
+      <link>https://www.shafiq.in/blog/hiding-a-datatables-column-without-removing-it-from-the-dom/</link>
+      <pubDate>Tue, 23 Apr 2013 10:11:33 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/hiding-a-datatables-column-without-removing-it-from-the-dom/</guid>
+      <description>&lt;p&gt;Sometimes you want to hide a column in a DataTable but keep its data in the DOM &amp;ndash; maybe you need it for export, for a tooltip, or for some other operation that happens after the table renders. Removing the column entirely means losing that data, which isn&amp;rsquo;t always an option.&lt;/p&gt;
+&lt;p&gt;The fix is embarrassingly simple: CSS.&lt;/p&gt;
+&lt;h2 id=&#34;the-setup&#34;&gt;The setup&lt;/h2&gt;
+&lt;p&gt;Add a class to the column you want to hide using the &lt;code&gt;sClass&lt;/code&gt; option in your DataTables initialisation:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flash z-order — always on top?</title>
+      <link>https://www.shafiq.in/blog/flash-z-order-always-on-top/</link>
+      <pubDate>Wed, 01 Jul 2009 07:41:55 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/flash-z-order-always-on-top/</guid>
+      <description>&lt;p&gt;I had a JavaScript pull-down menu that overlapped with a Flash movie. No matter what z-index I set, the menu always rendered behind the Flash content. Classic problem.&lt;/p&gt;
+&lt;p&gt;The fix is to set &lt;code&gt;wmode&lt;/code&gt; to &lt;code&gt;transparent&lt;/code&gt; on both the &lt;code&gt;&amp;lt;object&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;embed&amp;gt;&lt;/code&gt; tags:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;object&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;param&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;wmode&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;transparent&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;embed&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;...&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;wmode&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;transparent&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;embed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This tells the Flash player to respect the browser&amp;rsquo;s stacking context instead of rendering in its own window layer. The menu displays correctly over the Flash movie after that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSS Browser Compatibility Improvement Tip</title>
+      <link>https://www.shafiq.in/blog/css-browser-compatibility-improvement-tip/</link>
+      <pubDate>Sat, 06 Jun 2009 10:09:09 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/css-browser-compatibility-improvement-tip/</guid>
+      <description>&lt;p&gt;Different browsers apply different default padding and margin to the &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; elements. If you don&amp;rsquo;t reset them, you&amp;rsquo;ll get unexpected whitespace that varies from one browser to another.&lt;/p&gt;
+&lt;p&gt;The fix is to simply zero them out at the top of your stylesheet:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;margin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;margin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is the first rule I add to any new project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSS fail</title>
+      <link>https://www.shafiq.in/blog/css-fail/</link>
+      <pubDate>Mon, 11 May 2009 16:21:14 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/css-fail/</guid>
+      <description>&lt;p&gt;Never do this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;absolute&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;99px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It feels like a handy quick fix to shove an element where you want it, but it never actually works. The layout breaks as soon as the content changes, the screen resizes, or anyone else touches the code. I learned this the hard way more times than I&amp;rsquo;d like to admit.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

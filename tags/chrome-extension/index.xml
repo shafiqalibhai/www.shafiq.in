@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chrome-Extension on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/chrome-extension/</link>
+    <description>Recent content in Chrome-Extension on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 27 Mar 2010 07:43:04 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/chrome-extension/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Typo3 Reference Manuals as a Chrome Extension</title>
+      <link>https://www.shafiq.in/blog/typo3-reference-manuals-as-a-chrome-extension/</link>
+      <pubDate>Sat, 27 Mar 2010 07:43:04 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/typo3-reference-manuals-as-a-chrome-extension/</guid>
+      <description>&lt;p&gt;My first Google Chrome extension. It&amp;rsquo;s a collection of Typo3 reference manuals compiled from typo3.org.&lt;/p&gt;
+&lt;p&gt;Useful if you have a slow or unreliable internet connection (looking at you, India), or if you prefer to stay in the browser while searching the Typo3 swx reference manuals.&lt;/p&gt;
+&lt;p&gt;I wanted to publish it on the Chrome Extension Directory, but the file is 19.86 MB and Google has a 10 MB limit. If anyone knows a workaround, let me know.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

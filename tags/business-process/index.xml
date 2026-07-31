@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Business-Process on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/business-process/</link>
+    <description>Recent content in Business-Process on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Nov 2011 05:15:24 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/business-process/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Order to Cash — What It Actually Means</title>
+      <link>https://www.shafiq.in/blog/order-to-cash-what-it-actually-means/</link>
+      <pubDate>Fri, 11 Nov 2011 05:15:24 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/order-to-cash-what-it-actually-means/</guid>
+      <description>&lt;p&gt;I spent a fair amount of time working on SAP implementations back in the day, and one of the modules that came up again and again was Order to Cash. People throw the term around in meetings like it means something obvious, but if you ask five people what OTC actually covers, you will get five different answers. So here is my take on it — not a textbook definition, but what it looks like from the inside.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

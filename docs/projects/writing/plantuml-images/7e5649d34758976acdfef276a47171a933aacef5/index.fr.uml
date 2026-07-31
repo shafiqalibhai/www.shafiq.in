@@ -1,0 +1,33 @@
+@startuml
+!define RECTANGLE class
+!define DIAMOND class
+
+RECTANGLE "Calculate Monthly Income\n--Sub-Components--\nSalary\nInvestment Returns\nOther Sources" as Income
+DIAMOND "Is Income Stable?" as IncomeCheck
+RECTANGLE "List Down All Expenses\n--Sub-Components--\nNeeds\nWants" as Expenses
+DIAMOND "Expenses <= Income?" as ExpenseCheck
+RECTANGLE "Calculate Essential Expenses\n--Sub-Components--\nRent/Mortgage\nUtilities\nGroceries\nTransportation\nHealthcare" as Needs
+RECTANGLE "Calculate Non-Essential Expenses\n--Sub-Components--\nEntertainment\nDining Out\nShopping" as Wants
+RECTANGLE "Calculate Savings\n--Sub-Components--\nRetirement Funds\nInvestments\nGeneral Savings" as Savings
+DIAMOND "Savings >= 20% of Income?" as SavingsCheck
+RECTANGLE "Maintain Emergency Fund\n--Sub-Components--\nMedical Contingency\nJob Loss Security\nUnexpected Repairs" as EmergencyFund
+DIAMOND "Emergency Fund >= 3 months of expenses?" as EmergencyCheck
+RECTANGLE "Avoid Credit and Loans\n--Sub-Components--\nCredit Cards\nPersonal Loans\nMortgages" as CreditLoans
+DIAMOND "Are you living within your means?\n--Sub-Components--\nMonthly Assessment\nQuarterly Assessment\nAnnual Assessment" as FinalDecision
+
+Income --> IncomeCheck
+IncomeCheck --> Expenses : Yes
+IncomeCheck --> FinalDecision : No
+Expenses --> Needs
+Expenses --> Wants
+Expenses --> ExpenseCheck
+ExpenseCheck --> Savings : Yes
+ExpenseCheck --> FinalDecision : No
+Savings --> SavingsCheck
+SavingsCheck --> EmergencyFund : Yes
+SavingsCheck --> FinalDecision : No
+EmergencyFund --> EmergencyCheck
+EmergencyCheck --> FinalDecision : Yes
+EmergencyCheck --> FinalDecision : No
+
+@enduml

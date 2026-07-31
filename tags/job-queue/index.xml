@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Job-Queue on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/job-queue/</link>
+    <description>Recent content in Job-Queue on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Aug 2010 09:20:17 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/job-queue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributing Work with Gearman and Perl</title>
+      <link>https://www.shafiq.in/blog/distributing-work-with-gearman-and-perl/</link>
+      <pubDate>Tue, 31 Aug 2010 09:20:17 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/distributing-work-with-gearman-and-perl/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been playing with Gearman over the past few weeks and I&amp;rsquo;m impressed by how little friction there is between the idea of distributing work across machines and actually making it happen. The Perl module, Gearman::Client and Gearman::Worker, is straightforward enough that you can have a client and a worker talking to each other through a job server in under an hour.&lt;/p&gt;
+&lt;p&gt;The basic model is simple. You have a client that submits jobs, a worker that performs them, and a job server sitting in the middle dispatching work to whichever worker is free. The client and worker can be written in different languages, run on different machines, and you don&amp;rsquo;t need to worry about the networking yourself — Gearman handles all of that through TCP sockets to the job server.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

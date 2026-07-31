@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Misc on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/categories/misc/</link>
+    <description>Recent content in Misc on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 02 Apr 2010 08:40:48 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slash vs Backslash</title>
+      <link>https://www.shafiq.in/blog/slash-vs-backslash/</link>
+      <pubDate>Fri, 02 Apr 2010 08:40:48 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/slash-vs-backslash/</guid>
+      <description>&lt;p&gt;A thread on Hacker News about the eternal confusion between / and :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;jordanlund&lt;/strong&gt;: Confession time&amp;hellip; I always get confused about which one is the slash and which one is the backslash. I end up calling them &amp;ldquo;the one on the question mark&amp;rdquo; and &amp;ldquo;the one not on the question mark&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;zem&lt;/strong&gt;: Here&amp;rsquo;s a simple trick: \ leans back, / leans forward.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;grantrules&lt;/strong&gt;: _ is a slash that got tired and lay down.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docs on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/docs/</link>
+    <description>Recent content in Docs on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 17 Jun 2009 04:37:54 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://www.shafiq.in/docs/about-me/</link>
+      <pubDate>Wed, 17 Jun 2009 04:37:54 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/about-me/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Shafiq Alibhai. This site is where I keep my notes, rants, and the occasional useful thing I&amp;rsquo;ve figured out.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been running a homelab since before it was a thing to talk about, I bind my own books when I can&amp;rsquo;t find the edition I want, and I spend far too much time tweaking Linux distributions like they&amp;rsquo;re collectible cards.&lt;/p&gt;
+&lt;p&gt;Here are some things I enjoy:&lt;/p&gt;
+&lt;h2 id=&#34;reading&#34;&gt;Reading&lt;/h2&gt;
+&lt;p&gt;I read reference material, self-help books, and anything funny enough to make me snort in public. &lt;em&gt;Digit&lt;/em&gt; and &lt;em&gt;Chip&lt;/em&gt; magazines used to be my monthly ritual. &lt;em&gt;Writing&lt;/em&gt; and &lt;em&gt;Writers Digest&lt;/em&gt; taught me that most writing advice is just common sense wearing a tie.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

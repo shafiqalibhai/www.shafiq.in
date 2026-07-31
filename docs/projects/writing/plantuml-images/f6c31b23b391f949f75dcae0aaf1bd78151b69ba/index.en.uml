@@ -1,0 +1,153 @@
+@startuml
+
+!define RECTANGLE class
+!define ARROW -->
+
+skinparam class {
+  BorderColor Black
+  BorderThickness 2
+  BackgroundColor Yellow
+}
+
+skinparam note {
+  BackgroundColor LightYellow
+}
+
+RECTANGLE "Positive Emotion" as PE {
+  -- Sub-Components --
+  Happiness
+  Joy
+  Gratitude
+  Love
+  Optimism
+  -- Indicators --
+  Smile Frequency
+  Positive Language Use
+  -- Influencers --
+  Physical Activity
+  Quality Sleep
+  Diet
+  -- Related Concepts --
+  Affective Forecasting
+  Emotional Regulation
+}
+
+note right of PE
+  - Enhances resilience
+  - Boosts immune system
+  - Expands thinking
+  - Interventions: Mindfulness, Gratitude Journal, Positive Affirmations
+  - Measurement Tools: PANAS Scale, Experience Sampling
+end note
+
+RECTANGLE "Engagement" as E {
+  -- Sub-Components --
+  Flow
+  Interest
+  Absorption
+  Curiosity
+  Intrinsic Motivation
+  -- Indicators --
+  Time Perception Altered
+  High Focus Levels
+  -- Influencers --
+  Skill-Challenge Balance
+  Goal Clarity
+  -- Related Concepts --
+  Cognitive Absorption
+  Task Engagement
+}
+
+note right of E
+  - Enhances creativity
+  - Increases problem-solving ability
+  - Builds skills
+  - Interventions: Goal-setting, Skill Development, Mindful Engagement
+  - Measurement Tools: Flow State Scale, Engagement Surveys
+end note
+
+RECTANGLE "Relationships" as R {
+  -- Sub-Components --
+  Social Support
+  Connection
+  Love
+  Trust
+  Empathy
+  -- Indicators --
+  Social Interaction Frequency
+  Emotional Support Availability
+  -- Influencers --
+  Communication Skills
+  Emotional Intelligence
+  -- Related Concepts --
+  Social Capital
+  Attachment Theory
+}
+
+note right of R
+  - Reduces stress
+  - Increases happiness
+  - Offers emotional & practical support
+  - Interventions: Active Listening, Conflict Resolution, Social Skills Training
+  - Measurement Tools: Relationship Quality Index, Social Network Analysis
+end note
+
+RECTANGLE "Meaning" as M {
+  -- Sub-Components --
+  Purpose
+  Values
+  Contribution
+  Legacy
+  Altruism
+  -- Indicators --
+  Value Alignment
+  Sense of Contribution
+  -- Influencers --
+  Spiritual Beliefs
+  Community Involvement
+  -- Related Concepts --
+  Existentialism
+  Self-Transcendence
+}
+
+note right of M
+  - Enhances self-worth
+  - Provides direction
+  - Increases life satisfaction
+  - Interventions: Value Identification, Altruistic Actions, Life Story Exercise
+  - Measurement Tools: Meaning in Life Questionnaire, Self-Report Measures
+end note
+
+RECTANGLE "Accomplishment" as A {
+  -- Sub-Components --
+  Goals
+  Mastery
+  Achievements
+  Self-Efficacy
+  Progress
+  -- Indicators --
+  Goal Completion Rate
+  Skill Level Improvements
+  -- Influencers --
+  Discipline
+  Time Management
+  -- Related Concepts --
+  Grit
+  Self-Determination Theory
+}
+
+note right of A
+  - Builds confidence
+  - Offers a sense of fulfillment
+  - Enhances motivation
+  - Interventions: SMART Goals, Time Management Techniques, Self-Compassion Practices
+  - Measurement Tools: Goal Attainment Scaling, Self-Efficacy Scales
+end note
+
+PE -d- E : contributes to
+E -d- R : contributes to
+R -d- M : contributes to
+M -d- A : contributes to
+A -l- PE : contributes to
+
+@enduml

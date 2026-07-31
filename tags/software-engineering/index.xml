@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software-Engineering on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/software-engineering/</link>
+    <description>Recent content in Software-Engineering on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 18 Aug 2010 06:40:13 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Completeness of the Requirements Set</title>
+      <link>https://www.shafiq.in/blog/completeness-of-the-requirements-set/</link>
+      <pubDate>Wed, 18 Aug 2010 06:40:13 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/completeness-of-the-requirements-set/</guid>
+      <description>&lt;p&gt;A set of requirements is complete when it describes all significant concerns of the user &amp;ndash; functionality, performance, design constraints, attributes, and external interfaces. If any of these are missing, the requirements are incomplete.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Administration on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/administration/</link>
+    <description>Recent content in Administration on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 23 May 2011 16:57:14 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/administration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disable services in Solaris 10</title>
+      <link>https://www.shafiq.in/blog/disable-services-in-solaris-10/</link>
+      <pubDate>Mon, 23 May 2011 16:57:14 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/disable-services-in-solaris-10/</guid>
+      <description>&lt;p&gt;Managing services on Solaris 10 is nothing like Linux. There are no &lt;code&gt;/etc/init.d/&lt;/code&gt; scripts, no &lt;code&gt;service&lt;/code&gt; command, no &lt;code&gt;chkconfig&lt;/code&gt;. Instead, Solaris uses SMF — the Service Management Facility — and everything goes through &lt;code&gt;svcadm&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you are new to Solaris, this can feel unnecessarily complicated. It is not, once you learn the pattern.&lt;/p&gt;
+&lt;h3 id=&#34;disabling-a-service&#34;&gt;Disabling a service&lt;/h3&gt;
+&lt;p&gt;You need root privileges or sudo access. The command is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;svcadm disable network/cswpuppetd:default
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The argument is the service FMRI (Fault Management Resource Identifier). For Puppet installed from OpenCSW, the FMRI is &lt;code&gt;network/cswpuppetd:default&lt;/code&gt;. The &lt;code&gt;:default&lt;/code&gt; part refers to the default instance of the service. Some services have multiple instances, but most only have one.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
