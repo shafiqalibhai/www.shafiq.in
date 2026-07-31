@@ -346,7 +346,7 @@
       <description></description>
     </item>
     <item>
-      <title>Php</title>
+      <title>PHP</title>
       <link>https://www.shafiq.in/tags/php/</link>
       <pubDate>Tue, 14 Jul 2020 09:11:45 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/php/</guid>
@@ -416,7 +416,7 @@
       <description></description>
     </item>
     <item>
-      <title>Javascript</title>
+      <title>JavaScript</title>
       <link>https://www.shafiq.in/tags/javascript/</link>
       <pubDate>Sat, 22 Dec 2018 09:42:28 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/javascript/</guid>
@@ -696,38 +696,10 @@
       <description></description>
     </item>
     <item>
-      <title>Guide</title>
-      <link>https://www.shafiq.in/tags/guide/</link>
-      <pubDate>Wed, 03 Sep 2014 12:02:22 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/guide/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Marketing</title>
       <link>https://www.shafiq.in/tags/marketing/</link>
       <pubDate>Wed, 03 Sep 2014 12:02:22 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/marketing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blogging</title>
-      <link>https://www.shafiq.in/tags/blogging/</link>
-      <pubDate>Thu, 09 Jan 2014 09:18:10 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/blogging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Review</title>
-      <link>https://www.shafiq.in/tags/review/</link>
-      <pubDate>Thu, 09 Jan 2014 09:18:10 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Writing</title>
-      <link>https://www.shafiq.in/tags/writing/</link>
-      <pubDate>Thu, 09 Jan 2014 09:18:10 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/writing/</guid>
       <description></description>
     </item>
     <item>
@@ -752,10 +724,31 @@
       <description></description>
     </item>
     <item>
-      <title>Debugging</title>
-      <link>https://www.shafiq.in/tags/debugging/</link>
-      <pubDate>Wed, 11 Sep 2013 09:32:05 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/debugging/</guid>
+      <title>API</title>
+      <link>https://www.shafiq.in/tags/api/</link>
+      <pubDate>Sat, 26 Oct 2013 16:59:12 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EBay</title>
+      <link>https://www.shafiq.in/tags/ebay/</link>
+      <pubDate>Sat, 26 Oct 2013 16:59:12 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/ebay/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trading API</title>
+      <link>https://www.shafiq.in/tags/trading-api/</link>
+      <pubDate>Sat, 26 Oct 2013 16:59:12 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/trading-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XML</title>
+      <link>https://www.shafiq.in/tags/xml/</link>
+      <pubDate>Sat, 26 Oct 2013 16:59:12 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/xml/</guid>
       <description></description>
     </item>
     <item>
@@ -766,31 +759,45 @@
       <description></description>
     </item>
     <item>
-      <title>Web Development</title>
-      <link>https://www.shafiq.in/tags/web-development/</link>
-      <pubDate>Wed, 11 Sep 2013 09:32:05 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/web-development/</guid>
+      <title>8051</title>
+      <link>https://www.shafiq.in/tags/8051/</link>
+      <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/8051/</guid>
       <description></description>
     </item>
     <item>
-      <title>Drupal</title>
-      <link>https://www.shafiq.in/tags/drupal/</link>
-      <pubDate>Thu, 05 Sep 2013 10:51:55 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/drupal/</guid>
+      <title>ADC</title>
+      <link>https://www.shafiq.in/tags/adc/</link>
+      <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/adc/</guid>
       <description></description>
     </item>
     <item>
-      <title>Search</title>
-      <link>https://www.shafiq.in/tags/search/</link>
-      <pubDate>Thu, 05 Sep 2013 10:51:55 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/search/</guid>
+      <title>Embedded Systems</title>
+      <link>https://www.shafiq.in/tags/embedded-systems/</link>
+      <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/embedded-systems/</guid>
       <description></description>
     </item>
     <item>
-      <title>Solr</title>
-      <link>https://www.shafiq.in/tags/solr/</link>
-      <pubDate>Thu, 05 Sep 2013 10:51:55 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/solr/</guid>
+      <title>I2C</title>
+      <link>https://www.shafiq.in/tags/i2c/</link>
+      <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/i2c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microcontrollers</title>
+      <link>https://www.shafiq.in/tags/microcontrollers/</link>
+      <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/microcontrollers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RS-232</title>
+      <link>https://www.shafiq.in/tags/rs-232/</link>
+      <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/rs-232/</guid>
       <description></description>
     </item>
     <item>
@@ -819,13 +826,6 @@
       <link>https://www.shafiq.in/tags/collect&#43;/</link>
       <pubDate>Sun, 14 Apr 2013 08:36:44 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/collect&#43;/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ebay</title>
-      <link>https://www.shafiq.in/tags/ebay/</link>
-      <pubDate>Sun, 14 Apr 2013 08:36:44 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/ebay/</guid>
       <description></description>
     </item>
     <item>
@@ -899,6 +899,13 @@
       <description></description>
     </item>
     <item>
+      <title>Web Development</title>
+      <link>https://www.shafiq.in/tags/web-development/</link>
+      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Network Security</title>
       <link>https://www.shafiq.in/tags/network-security/</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
@@ -920,7 +927,7 @@
       <description></description>
     </item>
     <item>
-      <title>Virtual Machine</title>
+      <title>Virtual-Machine</title>
       <link>https://www.shafiq.in/tags/virtual-machine/</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/virtual-machine/</guid>
@@ -1193,6 +1200,13 @@
       <description></description>
     </item>
     <item>
+      <title>Review</title>
+      <link>https://www.shafiq.in/tags/review/</link>
+      <pubDate>Mon, 23 Jan 2012 09:06:52 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>College</title>
       <link>https://www.shafiq.in/tags/college/</link>
       <pubDate>Sun, 22 Jan 2012 08:12:58 +0000</pubDate>
@@ -1235,7 +1249,7 @@
       <description></description>
     </item>
     <item>
-      <title>Erp</title>
+      <title>ERP</title>
       <link>https://www.shafiq.in/tags/erp/</link>
       <pubDate>Fri, 11 Nov 2011 05:15:24 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/erp/</guid>
@@ -1249,7 +1263,7 @@
       <description></description>
     </item>
     <item>
-      <title>Sap</title>
+      <title>SAP</title>
       <link>https://www.shafiq.in/tags/sap/</link>
       <pubDate>Fri, 11 Nov 2011 05:15:24 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/sap/</guid>

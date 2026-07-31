@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>8051 on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/8051/</link>
+    <description>Recent content in 8051 on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 07 Jun 2013 09:52:57 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/8051/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Online Temperature Monitoring System</title>
+      <link>https://www.shafiq.in/blog/building-an-online-temperature-monitoring-system/</link>
+      <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/building-an-online-temperature-monitoring-system/</guid>
+      <description>&lt;p&gt;I built this as a final year project — an embedded system that reads temperature from sensors, stores the data, and makes it available over a serial connection. Nothing fancy, but it was a useful exercise in getting hardware and software to talk to each other.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2013/06/proj_format_.doc&#34;&gt;download the project report&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;/h2&gt;
+&lt;p&gt;The system reads temperature from external sensors, converts the analog signal to digital, logs the readings with timestamps, and exposes the data over a serial link so a PC can pull it. A 16x2 LCD shows the current state locally.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
