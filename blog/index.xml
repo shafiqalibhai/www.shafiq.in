@@ -11152,14 +11152,16 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</descr
       <link>https://www.shafiq.in/blog/enterprise-architecture/</link>
       <pubDate>Sun, 01 Jul 2018 10:49:47 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/enterprise-architecture/</guid>
-      <description>&lt;p&gt;Enterprise architecture is the practice that tries to describe and control an organisation&amp;rsquo;s structure, processes, applications, systems, and technology in an integrated way.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Enterprise architecture is the practice that tries to describe and control an organisation&amp;rsquo;s structure, processes, applications, systems, and technology in an integrated way.&lt;/p&gt;
+&lt;p&gt;The word &amp;ldquo;tries&amp;rdquo; does a lot of work in that sentence. Most organisations never actually achieve integration. They accumulate systems, outgrow their documentation, and hire someone to draw boxes and arrows.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enterprise Architecture Model</title>
       <link>https://www.shafiq.in/blog/enterprise-architecture-model/</link>
       <pubDate>Sun, 01 Jul 2018 10:49:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/enterprise-architecture-model/</guid>
-      <description>&lt;p&gt;An architecture model is not just useful to provide insight into the current or future situation; it can also be used to evaluate the transition from ‘as is&amp;rsquo; to ‘to be&#39;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;An architecture model is not just useful to provide insight into the current or future situation; it can also be used to evaluate the transition from &amp;lsquo;as is&amp;rsquo; to &amp;rsquo;to be&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;The hard part is mapping the gap between where you are and where you want to be, and being honest about which parts of the journey are actually feasible.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stakeholders and EA</title>
