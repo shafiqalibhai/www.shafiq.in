@@ -60,49 +60,46 @@
 &lt;p&gt;Terraform employs a unique double-slash (&lt;code&gt;//&lt;/code&gt;) syntax to help pinpoint the exact sub-directory where the module is located. The path that follows this double-slash syntax is considered to be a sub-directory within the package or repository.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Merging Unrelated Git Histories - A Simple Guide</title>
-      <link>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</link>
+      <title>Merging Unrelated Git Histories</title>
+      <link>https://www.shafiq.in/blog/merging-unrelated-git-histories/</link>
       <pubDate>Tue, 04 Sep 2018 13:48:55 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</guid>
-      <description>&lt;p&gt;Are you stuck with two Git repositories or branches that have completely different histories, but you need to merge them? You may be hitting a roadblock because Git is designed to prevent this kind of operation by default. However, there&amp;rsquo;s a workaround for this, and it&amp;rsquo;s simpler than you might think.&lt;/p&gt;
-&lt;h3 id=&#34;the-problem-unrelated-git-histories&#34;&gt;The Problem: Unrelated Git Histories&lt;/h3&gt;
-&lt;p&gt;Imagine you&amp;rsquo;re working on a project where you have a &lt;code&gt;main&lt;/code&gt; branch, and someone else has a completely separate project with its own history. Now, you want to combine both projects into a single repository. If you try to perform a regular &lt;code&gt;git merge&lt;/code&gt; or &lt;code&gt;git rebase&lt;/code&gt;, Git will likely stop you with an error message, something like:&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/merging-unrelated-git-histories/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ve got two repositories with completely separate histories, and you need to bring them together. Maybe it&amp;rsquo;s an old project you&amp;rsquo;re absorbing into a new one, or a submodule that started life as its own thing. You try a standard &lt;code&gt;git merge&lt;/code&gt; and Git immediately shuts you down:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fatal: refusing to merge unrelated histories
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This isn&amp;rsquo;t a bug &amp;ndash; it&amp;rsquo;s Git being cautious. When two branches share no common ancestor, Git assumes you&amp;rsquo;ve made a mistake and refuses to play along. But sometimes you genuinely want this merge, and there&amp;rsquo;s a flag for that.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Simple Guide to Using Ansible with Packer</title>
-      <link>https://www.shafiq.in/blog/a-simple-guide-to-using-ansible-with-packer/</link>
+      <title>Using Ansible with Packer</title>
+      <link>https://www.shafiq.in/blog/using-ansible-with-packer/</link>
       <pubDate>Tue, 04 Sep 2018 11:08:49 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-simple-guide-to-using-ansible-with-packer/</guid>
-      <description>&lt;h1 id=&#34;what-is-the-ansible-provisioner-in-packer&#34;&gt;What is the Ansible Provisioner in Packer?&lt;/h1&gt;
-&lt;p&gt;If you&amp;rsquo;re dabbling in the DevOps world, chances are you&amp;rsquo;ve come across Ansible and Packer. But how about combining them? The Ansible provisioner in Packer lets you run Ansible playbooks while creating your machine images. In simpler terms, it helps you set up your server environment automatically, just the way you like it, while Packer goes about its business creating a machine image.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/using-ansible-with-packer/</guid>
+      <description>&lt;p&gt;Packer builds machine images. Ansible configures servers. Together, they let you bake your configuration straight into the image &amp;ndash; no manual setup required after deployment.&lt;/p&gt;
+&lt;p&gt;The Ansible provisioner in Packer runs your playbooks during the image build process. You write a normal Ansible playbook, point Packer at it, and when the image is ready, your software is already installed and configured.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: If you specify a &lt;code&gt;remote_user&lt;/code&gt; in your Ansible tasks, Packer will ignore it. The provisioner connects using the username from Packer&amp;rsquo;s own configuration.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Simple Guide to Installing SSHPass on Ubuntu and macOS</title>
-      <link>https://www.shafiq.in/blog/a-simple-guide-to-installing-sshpass-on-ubuntu-and-macos/</link>
+      <title>Installing SSHPass on Ubuntu and macOS</title>
+      <link>https://www.shafiq.in/blog/installing-sshpass-on-ubuntu-and-macos/</link>
       <pubDate>Sun, 02 Sep 2018 10:33:49 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-simple-guide-to-installing-sshpass-on-ubuntu-and-macos/</guid>
-      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;SSHPass is a nifty little tool that lets you automate SSH login by bypassing the usual password prompt. While it&amp;rsquo;s super convenient for scripting, bear in mind that it&amp;rsquo;s not ideal for a multi-user setup due to security concerns. However, if you&amp;rsquo;re using it on your personal development machine, it&amp;rsquo;s pretty harmless.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-install-sshpass-on-ubuntu&#34;&gt;How to Install SSHPass on Ubuntu&lt;/h2&gt;
-&lt;p&gt;Installing SSHPass on Ubuntu is as straightforward as it gets. All you need to do is open up your terminal and run the following command:&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/installing-sshpass-on-ubuntu-and-macos/</guid>
+      <description>&lt;p&gt;SSHPass is a small command-line utility that lets you pass a password directly to an SSH connection, which means no interactive password prompt. Useful when you&amp;rsquo;re writing scripts that need to connect to remote machines without manual intervention.&lt;/p&gt;
+&lt;p&gt;A word of warning before you go ahead: SSHPass is not secure. The password gets passed as a command-line argument, which means it can show up in process listings and shell history. It&amp;rsquo;s fine for personal automation on your own machines, but don&amp;rsquo;t use it in shared environments or anything that touches production systems.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Simple Guide to Installing Docker CE on Ubuntu</title>
-      <link>https://www.shafiq.in/blog/a-simple-guide-to-installing-docker-ce-on-ubuntu/</link>
+      <title>Installing Docker CE on Ubuntu</title>
+      <link>https://www.shafiq.in/blog/installing-docker-ce-on-ubuntu/</link>
       <pubDate>Sun, 02 Sep 2018 09:09:10 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-simple-guide-to-installing-docker-ce-on-ubuntu/</guid>
+      <guid>https://www.shafiq.in/blog/installing-docker-ce-on-ubuntu/</guid>
       <description>&lt;h2 id=&#34;what-you-need-before-you-begin&#34;&gt;What You Need Before You Begin&lt;/h2&gt;
-&lt;h3 id=&#34;operating-system-requirements&#34;&gt;Operating System Requirements&lt;/h3&gt;
-&lt;p&gt;First things first, make sure you&amp;rsquo;re running one of the following 64-bit Ubuntu versions to install Docker CE:&lt;/p&gt;
+&lt;p&gt;Docker CE runs on a handful of 64-bit Ubuntu releases, so check you&amp;rsquo;re on one of these before carrying on:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ubuntu 18.04 (Bionic) - LTS&lt;/li&gt;
 &lt;li&gt;Ubuntu 17.10 (Artful)&lt;/li&gt;
 &lt;li&gt;Ubuntu 16.04 (Xenial) - LTS&lt;/li&gt;
 &lt;li&gt;Ubuntu 14.04 (Trusty) - LTS&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Docker CE is compatible with these architectures: &lt;code&gt;x86_64&lt;/code&gt;, &lt;code&gt;armhf&lt;/code&gt;, &lt;code&gt;s390x&lt;/code&gt; (IBM Z), and &lt;code&gt;ppc64le&lt;/code&gt; (IBM Power).&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: For IBM Z and Power architectures, you&amp;rsquo;ll need at least Ubuntu 16.04 (Xenial) or higher.&lt;/p&gt;</description>
+&lt;p&gt;The supported architectures are &lt;code&gt;x86_64&lt;/code&gt;, &lt;code&gt;armhf&lt;/code&gt;, &lt;code&gt;s390x&lt;/code&gt; (IBM Z), and &lt;code&gt;ppc64le&lt;/code&gt; (IBM Power). If you&amp;rsquo;re on IBM Z or Power, you&amp;rsquo;ll need at least Ubuntu 16.04 (Xenial).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Release Engineering 101 — Build Scripts</title>

@@ -867,12 +867,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/best-practices/</loc>
+    <loc>https://www.shafiq.in/tags/opinion/</loc>
     <lastmod>2018-09-26T11:55:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/opinion/</loc>
+    <loc>https://www.shafiq.in/blog/stop-buying-tools-start-solving-problems/</loc>
     <lastmod>2018-09-26T11:55:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -882,22 +882,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/the-cart-before-the-horse-a-devops-conundrum/</loc>
-    <lastmod>2018-09-26T11:55:38+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/architecture/</loc>
     <lastmod>2018-09-23T15:25:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/enterprise-architecture/</loc>
+    <loc>https://www.shafiq.in/blog/enterprise-architecture-resources/</loc>
     <lastmod>2018-09-23T15:25:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/your-go-to-guide-for-top-enterprise-architecture-resources/</loc>
+    <loc>https://www.shafiq.in/tags/enterprise-architecture/</loc>
     <lastmod>2018-09-23T15:25:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -927,16 +922,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/bin/sh-1-flex-not-found/</loc>
-    <lastmod>2018-09-19T15:32:11+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/flex/</loc>
-    <lastmod>2018-09-19T15:32:11+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</loc>
     <lastmod>2018-09-06T09:43:25+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -947,13 +932,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</loc>
+    <loc>https://www.shafiq.in/blog/merging-unrelated-git-histories/</loc>
     <lastmod>2018-09-04T13:48:55+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/blog/a-simple-guide-to-using-ansible-with-packer/</loc>
-    <lastmod>2018-09-04T11:08:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -967,7 +947,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/a-simple-guide-to-installing-sshpass-on-ubuntu-and-macos/</loc>
+    <loc>https://www.shafiq.in/blog/using-ansible-with-packer/</loc>
+    <lastmod>2018-09-04T11:08:49+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/installing-sshpass-on-ubuntu-and-macos/</loc>
     <lastmod>2018-09-02T10:33:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -982,37 +967,37 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/a-simple-guide-to-installing-docker-ce-on-ubuntu/</loc>
-    <lastmod>2018-09-02T09:09:10+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/docker/</loc>
     <lastmod>2018-09-02T09:09:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/installation/</loc>
+    <loc>https://www.shafiq.in/blog/installing-docker-ce-on-ubuntu/</loc>
     <lastmod>2018-09-02T09:09:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/looking-at-the-architecture-required-by-a-project-in-isolation-can-be-misleading-and-hides-the-need-for-a-longer-term-product-level-architecture-which-is-more-strategic-in-nature-than-the-project-level-architecture/</loc>
+    <loc>https://www.shafiq.in/blog/project-architecture-is-not-product-architecture/</loc>
     <lastmod>2018-08-27T09:22:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/it-seems-that-perfection-would-be-attained-not-when-there-is-no-longer-anything-to-add-but-when-there-is-no-longer-anything-to-take-away/</loc>
+    <loc>https://www.shafiq.in/blog/perfection-is-subtraction/</loc>
     <lastmod>2018-08-26T19:12:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/ultimately-devops-is-an-organizational-transformation/</loc>
+    <loc>https://www.shafiq.in/categories/thoughts/</loc>
+    <lastmod>2018-08-26T19:12:13+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/ultimately-devops-is-an-organisational-transformation/</loc>
     <lastmod>2018-08-26T10:30:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/we-are-called-to-be-architects-of-the-future-not-its-victims/</loc>
+    <loc>https://www.shafiq.in/blog/being-an-architect-of-the-future/</loc>
     <lastmod>2018-08-26T06:38:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1709,6 +1694,11 @@
   </url><url>
     <loc>https://www.shafiq.in/blog/my-email-to-datawind-the-company-behind-the-aakash-ubislate-tablet/</loc>
     <lastmod>2012-01-22T08:12:58+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/best-practices/</loc>
+    <lastmod>2012-01-02T17:31:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>

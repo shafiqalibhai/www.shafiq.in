@@ -10,12 +10,20 @@
     <lastBuildDate>Wed, 26 Sep 2018 11:55:38 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Cart Before the Horse - A DevOps Conundrum</title>
-      <link>https://www.shafiq.in/blog/the-cart-before-the-horse-a-devops-conundrum/</link>
+      <title>Stop buying tools, start solving problems</title>
+      <link>https://www.shafiq.in/blog/stop-buying-tools-start-solving-problems/</link>
       <pubDate>Wed, 26 Sep 2018 11:55:38 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/the-cart-before-the-horse-a-devops-conundrum/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve all heard the age-old saying: putting the cart before the horse. Unfortunately, in the world of DevOps, this is happening far more often than it should, and it&amp;rsquo;s time we talk about it.&lt;/p&gt;
-&lt;p&gt;The crux of the issue is that, too often, the focus isn&amp;rsquo;t on solving actual problems; it&amp;rsquo;s on utilizing shiny new technologies. Picture this: A developer stumbles upon a cutting-edge piece of technology. They&amp;rsquo;re immediately enamored by its features, its capabilities, the way it&amp;rsquo;s touted as the &amp;rsquo;next big thing.&amp;rsquo; So, they start finding ways to incorporate it into their work, regardless of whether it&amp;rsquo;s actually the best fit for the problems at hand.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/stop-buying-tools-start-solving-problems/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been watching a pattern repeat itself for years, and it&amp;rsquo;s starting to grate. Someone at a conference hears about a new tool — some Kubernetes operator, or service mesh, or GitOps platform that&amp;rsquo;s supposedly going to fix everything — and they come back convinced their team needs it yesterday.&lt;/p&gt;
+&lt;p&gt;Not because there&amp;rsquo;s a problem that needs solving. Because the tool exists.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t about being anti-technology. I love good tools. But somewhere along the line, DevOps culture got it backwards. We&amp;rsquo;re picking solutions first and frantically searching for problems they might address, instead of looking at what&amp;rsquo;s actually broken and finding the simplest thing that fixes it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ultimately DevOps is an organisational transformation</title>
+      <link>https://www.shafiq.in/blog/ultimately-devops-is-an-organisational-transformation/</link>
+      <pubDate>Sun, 26 Aug 2018 10:30:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/ultimately-devops-is-an-organisational-transformation/</guid>
+      <description>&lt;p&gt;Ultimately DevOps is an organisational transformation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Some of my favourite cell phones</title>

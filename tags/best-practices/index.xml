@@ -7,16 +7,8 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Wed, 26 Sep 2018 11:55:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jan 2012 17:31:13 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Cart Before the Horse - A DevOps Conundrum</title>
-      <link>https://www.shafiq.in/blog/the-cart-before-the-horse-a-devops-conundrum/</link>
-      <pubDate>Wed, 26 Sep 2018 11:55:38 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/the-cart-before-the-horse-a-devops-conundrum/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve all heard the age-old saying: putting the cart before the horse. Unfortunately, in the world of DevOps, this is happening far more often than it should, and it&amp;rsquo;s time we talk about it.&lt;/p&gt;
-&lt;p&gt;The crux of the issue is that, too often, the focus isn&amp;rsquo;t on solving actual problems; it&amp;rsquo;s on utilizing shiny new technologies. Picture this: A developer stumbles upon a cutting-edge piece of technology. They&amp;rsquo;re immediately enamored by its features, its capabilities, the way it&amp;rsquo;s touted as the &amp;rsquo;next big thing.&amp;rsquo; So, they start finding ways to incorporate it into their work, regardless of whether it&amp;rsquo;s actually the best fit for the problems at hand.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Continuous Delivery</title>
       <link>https://www.shafiq.in/blog/continuous-delivery/</link>

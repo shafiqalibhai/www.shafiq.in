@@ -10,12 +10,14 @@
     <lastBuildDate>Tue, 04 Sep 2018 11:08:49 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/packer/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Simple Guide to Using Ansible with Packer</title>
-      <link>https://www.shafiq.in/blog/a-simple-guide-to-using-ansible-with-packer/</link>
+      <title>Using Ansible with Packer</title>
+      <link>https://www.shafiq.in/blog/using-ansible-with-packer/</link>
       <pubDate>Tue, 04 Sep 2018 11:08:49 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-simple-guide-to-using-ansible-with-packer/</guid>
-      <description>&lt;h1 id=&#34;what-is-the-ansible-provisioner-in-packer&#34;&gt;What is the Ansible Provisioner in Packer?&lt;/h1&gt;
-&lt;p&gt;If you&amp;rsquo;re dabbling in the DevOps world, chances are you&amp;rsquo;ve come across Ansible and Packer. But how about combining them? The Ansible provisioner in Packer lets you run Ansible playbooks while creating your machine images. In simpler terms, it helps you set up your server environment automatically, just the way you like it, while Packer goes about its business creating a machine image.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/using-ansible-with-packer/</guid>
+      <description>&lt;p&gt;Packer builds machine images. Ansible configures servers. Together, they let you bake your configuration straight into the image &amp;ndash; no manual setup required after deployment.&lt;/p&gt;
+&lt;p&gt;The Ansible provisioner in Packer runs your playbooks during the image build process. You write a normal Ansible playbook, point Packer at it, and when the image is ready, your software is already installed and configured.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: If you specify a &lt;code&gt;remote_user&lt;/code&gt; in your Ansible tasks, Packer will ignore it. The provisioner connects using the username from Packer&amp;rsquo;s own configuration.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

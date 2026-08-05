@@ -18,13 +18,13 @@
 &lt;p&gt;If you&amp;rsquo;ve stumbled upon the error message &amp;ldquo;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large,&amp;rdquo; you&amp;rsquo;re probably trying to push a rather hefty commit over HTTP to your server running Nginx. This error means that the size of the request you&amp;rsquo;re trying to send exceeds the limit that the server is willing to accept. So, how do you fix it?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Merging Unrelated Git Histories - A Simple Guide</title>
-      <link>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</link>
+      <title>Merging Unrelated Git Histories</title>
+      <link>https://www.shafiq.in/blog/merging-unrelated-git-histories/</link>
       <pubDate>Tue, 04 Sep 2018 13:48:55 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</guid>
-      <description>&lt;p&gt;Are you stuck with two Git repositories or branches that have completely different histories, but you need to merge them? You may be hitting a roadblock because Git is designed to prevent this kind of operation by default. However, there&amp;rsquo;s a workaround for this, and it&amp;rsquo;s simpler than you might think.&lt;/p&gt;
-&lt;h3 id=&#34;the-problem-unrelated-git-histories&#34;&gt;The Problem: Unrelated Git Histories&lt;/h3&gt;
-&lt;p&gt;Imagine you&amp;rsquo;re working on a project where you have a &lt;code&gt;main&lt;/code&gt; branch, and someone else has a completely separate project with its own history. Now, you want to combine both projects into a single repository. If you try to perform a regular &lt;code&gt;git merge&lt;/code&gt; or &lt;code&gt;git rebase&lt;/code&gt;, Git will likely stop you with an error message, something like:&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/merging-unrelated-git-histories/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ve got two repositories with completely separate histories, and you need to bring them together. Maybe it&amp;rsquo;s an old project you&amp;rsquo;re absorbing into a new one, or a submodule that started life as its own thing. You try a standard &lt;code&gt;git merge&lt;/code&gt; and Git immediately shuts you down:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fatal: refusing to merge unrelated histories
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This isn&amp;rsquo;t a bug &amp;ndash; it&amp;rsquo;s Git being cautious. When two branches share no common ancestor, Git assumes you&amp;rsquo;ve made a mistake and refuses to play along. But sometimes you genuinely want this merge, and there&amp;rsquo;s a flag for that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Release Engineering</title>

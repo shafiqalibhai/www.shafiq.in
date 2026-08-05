@@ -164,7 +164,7 @@
       <description></description>
     </item>
     <item>
-      <title>Project Management</title>
+      <title>Project-Management</title>
       <link>https://www.shafiq.in/tags/project-management/</link>
       <pubDate>Tue, 05 Sep 2023 04:31:03 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/project-management/</guid>
@@ -416,7 +416,7 @@
       <description></description>
     </item>
     <item>
-      <title>Javascript</title>
+      <title>JavaScript</title>
       <link>https://www.shafiq.in/tags/javascript/</link>
       <pubDate>Sat, 22 Dec 2018 09:42:28 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/javascript/</guid>
@@ -472,13 +472,6 @@
       <description></description>
     </item>
     <item>
-      <title>Best-Practices</title>
-      <link>https://www.shafiq.in/tags/best-practices/</link>
-      <pubDate>Wed, 26 Sep 2018 11:55:38 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/best-practices/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Opinion</title>
       <link>https://www.shafiq.in/tags/opinion/</link>
       <pubDate>Wed, 26 Sep 2018 11:55:38 +0000</pubDate>
@@ -528,13 +521,6 @@
       <description></description>
     </item>
     <item>
-      <title>Flex</title>
-      <link>https://www.shafiq.in/tags/flex/</link>
-      <pubDate>Wed, 19 Sep 2018 15:32:11 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/flex/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Xcode</title>
       <link>https://www.shafiq.in/tags/xcode/</link>
       <pubDate>Thu, 06 Sep 2018 09:43:25 +0000</pubDate>
@@ -574,13 +560,6 @@
       <link>https://www.shafiq.in/tags/docker/</link>
       <pubDate>Sun, 02 Sep 2018 09:09:10 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Installation</title>
-      <link>https://www.shafiq.in/tags/installation/</link>
-      <pubDate>Sun, 02 Sep 2018 09:09:10 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/installation/</guid>
       <description></description>
     </item>
     <item>
@@ -731,7 +710,7 @@
       <description></description>
     </item>
     <item>
-      <title>EBay</title>
+      <title>Ebay</title>
       <link>https://www.shafiq.in/tags/ebay/</link>
       <pubDate>Sat, 26 Oct 2013 16:59:12 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/ebay/</guid>
@@ -1232,6 +1211,13 @@
       <link>https://www.shafiq.in/tags/launch/</link>
       <pubDate>Sun, 22 Jan 2012 08:12:58 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/launch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best-Practices</title>
+      <link>https://www.shafiq.in/tags/best-practices/</link>
+      <pubDate>Mon, 02 Jan 2012 17:31:13 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>

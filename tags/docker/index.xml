@@ -10,22 +10,19 @@
     <lastBuildDate>Sun, 02 Sep 2018 09:09:10 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Simple Guide to Installing Docker CE on Ubuntu</title>
-      <link>https://www.shafiq.in/blog/a-simple-guide-to-installing-docker-ce-on-ubuntu/</link>
+      <title>Installing Docker CE on Ubuntu</title>
+      <link>https://www.shafiq.in/blog/installing-docker-ce-on-ubuntu/</link>
       <pubDate>Sun, 02 Sep 2018 09:09:10 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-simple-guide-to-installing-docker-ce-on-ubuntu/</guid>
+      <guid>https://www.shafiq.in/blog/installing-docker-ce-on-ubuntu/</guid>
       <description>&lt;h2 id=&#34;what-you-need-before-you-begin&#34;&gt;What You Need Before You Begin&lt;/h2&gt;
-&lt;h3 id=&#34;operating-system-requirements&#34;&gt;Operating System Requirements&lt;/h3&gt;
-&lt;p&gt;First things first, make sure you&amp;rsquo;re running one of the following 64-bit Ubuntu versions to install Docker CE:&lt;/p&gt;
+&lt;p&gt;Docker CE runs on a handful of 64-bit Ubuntu releases, so check you&amp;rsquo;re on one of these before carrying on:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ubuntu 18.04 (Bionic) - LTS&lt;/li&gt;
 &lt;li&gt;Ubuntu 17.10 (Artful)&lt;/li&gt;
 &lt;li&gt;Ubuntu 16.04 (Xenial) - LTS&lt;/li&gt;
 &lt;li&gt;Ubuntu 14.04 (Trusty) - LTS&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Docker CE is compatible with these architectures: &lt;code&gt;x86_64&lt;/code&gt;, &lt;code&gt;armhf&lt;/code&gt;, &lt;code&gt;s390x&lt;/code&gt; (IBM Z), and &lt;code&gt;ppc64le&lt;/code&gt; (IBM Power).&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: For IBM Z and Power architectures, you&amp;rsquo;ll need at least Ubuntu 16.04 (Xenial) or higher.&lt;/p&gt;</description>
+&lt;p&gt;The supported architectures are &lt;code&gt;x86_64&lt;/code&gt;, &lt;code&gt;armhf&lt;/code&gt;, &lt;code&gt;s390x&lt;/code&gt; (IBM Z), and &lt;code&gt;ppc64le&lt;/code&gt; (IBM Power). If you&amp;rsquo;re on IBM Z or Power, you&amp;rsquo;ll need at least Ubuntu 16.04 (Xenial).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

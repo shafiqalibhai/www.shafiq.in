@@ -59,19 +59,23 @@
 &lt;p&gt;The Enterprise Architect maps closest to Product Owner — they prioritise the architecture backlog. The Architecture Board shows up at sprint reviews. The Scrum Master facilitates the process and removes blockers.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Your Go-To Guide for Top Enterprise Architecture Resources</title>
-      <link>https://www.shafiq.in/blog/your-go-to-guide-for-top-enterprise-architecture-resources/</link>
+      <title>Enterprise Architecture Resources</title>
+      <link>https://www.shafiq.in/blog/enterprise-architecture-resources/</link>
       <pubDate>Sun, 23 Sep 2018 15:25:01 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/your-go-to-guide-for-top-enterprise-architecture-resources/</guid>
-      <description>&lt;p&gt;Navigating the world of enterprise architecture can be a daunting task, especially when you&amp;rsquo;re not sure where to find reliable resources. Whether you&amp;rsquo;re a seasoned pro or just dipping your toes into the architecture ocean, this curated list will help you stay ahead of the game.&lt;/p&gt;
-&lt;h3 id=&#34;agile-enthusiasts&#34;&gt;Agile Enthusiasts&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Agile Architect by Andrew Johnston&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Questa Computing Ltd. runs this insightful blog, focusing on agile methodology within enterprise architecture.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.agilearchitect.org&#34;&gt;Agile Architect Website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;development-and-trends&#34;&gt;Development and Trends&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Application Development Trends - Enterprise Architect Section&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/enterprise-architecture-resources/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been collecting these over the years. Some are worth more than others, and a few have gone stale, but they&amp;rsquo;re the ones I keep coming back to.&lt;/p&gt;
+&lt;h3 id=&#34;agile-architect&#34;&gt;Agile Architect&lt;/h3&gt;
+&lt;p&gt;Andrew Johnston&amp;rsquo;s blog is one of the few places that actually talks about agile in enterprise architecture without treating the two as separate worlds. &lt;a href=&#34;http://www.agilearchitect.org&#34;&gt;agilearchitect.org&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;application-development-trends&#34;&gt;Application Development Trends&lt;/h3&gt;
+&lt;p&gt;ADT Magazine has an enterprise section that covers the news and trends. It&amp;rsquo;s not EA-specific but it&amp;rsquo;s useful for keeping an eye on what&amp;rsquo;s moving. &lt;a href=&#34;https://adtmag.com/articles/list/agile-architect.aspx&#34;&gt;adtmag.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project architecture is not product architecture</title>
+      <link>https://www.shafiq.in/blog/project-architecture-is-not-product-architecture/</link>
+      <pubDate>Mon, 27 Aug 2018 09:22:18 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/project-architecture-is-not-product-architecture/</guid>
+      <description>&lt;p&gt;I spent a good chunk of last week designing the architecture for a new service. On paper it was clean — well separated concerns, sensible boundaries, tests covering the happy paths. I felt good about it.&lt;/p&gt;
+&lt;p&gt;Then someone asked what this service was going to become in two years time, and I realised I had no idea. Not because the design was bad, but because I had never really thought about it beyond the project itself. I had optimised for getting something built, not for where it was going.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enterprise architecture</title>
@@ -94,7 +98,9 @@
       <link>https://www.shafiq.in/blog/stakeholders-and-ea/</link>
       <pubDate>Sun, 01 Jul 2018 10:48:09 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/stakeholders-and-ea/</guid>
-      <description>&lt;p&gt;Most stakeholders of a system are not interested in its architecture, but only in the impact of this on their concerns.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Most stakeholders of a system are not interested in its architecture, but only in the impact of this on their concerns.&lt;/p&gt;
+&lt;p&gt;Which is fair enough. The CFO doesn&amp;rsquo;t care about your service mesh. The marketing lead doesn&amp;rsquo;t care about your data model. They care about cost, risk, speed, and whether the thing they asked for actually works.&lt;/p&gt;
+&lt;p&gt;The mistake architects make is trying to sell the architecture itself. You don&amp;rsquo;t lead with diagrams. You lead with outcomes: this change reduces downtime, this pattern cuts deployment time in half, this split lets your team ship independently.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enterprise Architecture is the structure and the operational blueprint of a company</title>

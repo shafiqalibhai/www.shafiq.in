@@ -54,14 +54,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>/bin/sh: 1: flex: not found</title>
-      <link>https://www.shafiq.in/blog/bin/sh-1-flex-not-found/</link>
-      <pubDate>Wed, 19 Sep 2018 15:32:11 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/bin/sh-1-flex-not-found/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install flex
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
       <title>[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist</title>
       <link>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</link>
       <pubDate>Thu, 06 Sep 2018 09:43:25 +0000</pubDate>
@@ -73,15 +65,6 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;br&gt;
 xcrun: error: active developer path (&amp;quot;/Applications/Xcode.app/Contents/Developer&amp;quot;) does not exist&lt;br&gt;
 Use &lt;code&gt;sudo xcode-select --switch path/to/Xcode.app&lt;/code&gt; to specify the Xcode that you wish to use for command line developer tools, or use &lt;code&gt;xcode-select --install&lt;/code&gt; to install the standalone command line developer tools.&lt;br&gt;
 See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Merging Unrelated Git Histories - A Simple Guide</title>
-      <link>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</link>
-      <pubDate>Tue, 04 Sep 2018 13:48:55 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/merging-unrelated-git-histories-a-simple-guide/</guid>
-      <description>&lt;p&gt;Are you stuck with two Git repositories or branches that have completely different histories, but you need to merge them? You may be hitting a roadblock because Git is designed to prevent this kind of operation by default. However, there&amp;rsquo;s a workaround for this, and it&amp;rsquo;s simpler than you might think.&lt;/p&gt;
-&lt;h3 id=&#34;the-problem-unrelated-git-histories&#34;&gt;The Problem: Unrelated Git Histories&lt;/h3&gt;
-&lt;p&gt;Imagine you&amp;rsquo;re working on a project where you have a &lt;code&gt;main&lt;/code&gt; branch, and someone else has a completely separate project with its own history. Now, you want to combine both projects into a single repository. If you try to perform a regular &lt;code&gt;git merge&lt;/code&gt; or &lt;code&gt;git rebase&lt;/code&gt;, Git will likely stop you with an error message, something like:&lt;/p&gt;</description>
     </item>
     <item>
       <title>puppet &#34;could not find class in namespace&#34; — it&#39;s probably a missing brace</title>

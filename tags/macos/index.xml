@@ -45,14 +45,12 @@ Use &lt;code&gt;sudo xcode-select --switch path/to/Xcode.app&lt;/code&gt; to spe
 See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Simple Guide to Installing SSHPass on Ubuntu and macOS</title>
-      <link>https://www.shafiq.in/blog/a-simple-guide-to-installing-sshpass-on-ubuntu-and-macos/</link>
+      <title>Installing SSHPass on Ubuntu and macOS</title>
+      <link>https://www.shafiq.in/blog/installing-sshpass-on-ubuntu-and-macos/</link>
       <pubDate>Sun, 02 Sep 2018 10:33:49 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-simple-guide-to-installing-sshpass-on-ubuntu-and-macos/</guid>
-      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;SSHPass is a nifty little tool that lets you automate SSH login by bypassing the usual password prompt. While it&amp;rsquo;s super convenient for scripting, bear in mind that it&amp;rsquo;s not ideal for a multi-user setup due to security concerns. However, if you&amp;rsquo;re using it on your personal development machine, it&amp;rsquo;s pretty harmless.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-install-sshpass-on-ubuntu&#34;&gt;How to Install SSHPass on Ubuntu&lt;/h2&gt;
-&lt;p&gt;Installing SSHPass on Ubuntu is as straightforward as it gets. All you need to do is open up your terminal and run the following command:&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/installing-sshpass-on-ubuntu-and-macos/</guid>
+      <description>&lt;p&gt;SSHPass is a small command-line utility that lets you pass a password directly to an SSH connection, which means no interactive password prompt. Useful when you&amp;rsquo;re writing scripts that need to connect to remote machines without manual intervention.&lt;/p&gt;
+&lt;p&gt;A word of warning before you go ahead: SSHPass is not secure. The password gets passed as a command-line argument, which means it can show up in process listings and shell history. It&amp;rsquo;s fine for personal automation on your own machines, but don&amp;rsquo;t use it in shared environments or anything that touches production systems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
