@@ -767,7 +767,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/humor/</loc>
+    <loc>https://www.shafiq.in/tags/christmas/</loc>
+    <lastmod>2018-12-31T09:55:37+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/humour/</loc>
+    <lastmod>2018-12-31T09:55:37+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/law/</loc>
     <lastmod>2018-12-31T09:55:37+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -807,7 +817,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</loc>
+    <loc>https://www.shafiq.in/blog/update-all-globally-installed-npm-packages-at-once/</loc>
     <lastmod>2018-12-22T09:42:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -817,7 +827,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</loc>
+    <loc>https://www.shafiq.in/blog/import-a-resource-to-a-terraform-module/</loc>
     <lastmod>2018-10-24T15:57:34+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -832,17 +842,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</loc>
+    <loc>https://www.shafiq.in/blog/terraform-modules-in-subdirectories/</loc>
     <lastmod>2018-10-24T13:16:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/git/</loc>
+    <loc>https://www.shafiq.in/blog/fixing-rpc-failed-http-413-curl-22-in-nginx/</loc>
     <lastmod>2018-10-12T09:49:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</loc>
+    <loc>https://www.shafiq.in/tags/git/</loc>
     <lastmod>2018-10-12T09:49:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -857,7 +867,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/install-ruby-gem-files/</loc>
+    <loc>https://www.shafiq.in/blog/installing-gems-from-local-files/</loc>
     <lastmod>2018-09-27T10:16:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2259,11 +2269,6 @@
   </url><url>
     <loc>https://www.shafiq.in/tags/typo3/</loc>
     <lastmod>2010-04-13T10:41:54+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/humour/</loc>
-    <lastmod>2010-04-02T08:40:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>

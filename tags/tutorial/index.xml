@@ -52,14 +52,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s execute the following commands to install the required packages first on your system. Then import packages signing key. After that configure PPA for the PHP packages on your system.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Navigating Terraform Modules Stored in Package Subdirectories</title>
-      <link>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</link>
-      <pubDate>Wed, 24 Oct 2018 13:16:15 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</guid>
-      <description>&lt;p&gt;In the realm of Infrastructure as Code, Terraform modules can play a significant role in making your life easier. Sometimes, however, these modules don&amp;rsquo;t live at the root directory of their source package. Instead, they reside in sub-directories. Thankfully, Terraform has a smart way to help you access these nested modules.&lt;/p&gt;
-&lt;p&gt;Terraform employs a unique double-slash (&lt;code&gt;//&lt;/code&gt;) syntax to help pinpoint the exact sub-directory where the module is located. The path that follows this double-slash syntax is considered to be a sub-directory within the package or repository.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Merging Unrelated Git Histories</title>
       <link>https://www.shafiq.in/blog/merging-unrelated-git-histories/</link>
       <pubDate>Tue, 04 Sep 2018 13:48:55 +0000</pubDate>

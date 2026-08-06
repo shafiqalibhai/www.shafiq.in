@@ -10,31 +10,24 @@
     <lastBuildDate>Sat, 22 Dec 2018 09:42:28 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/code-snippet/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>NPM update all globally installed packages</title>
-      <link>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</link>
+      <title>Update all globally installed npm packages at once</title>
+      <link>https://www.shafiq.in/blog/update-all-globally-installed-npm-packages-at-once/</link>
       <pubDate>Sat, 22 Dec 2018 09:42:28 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm update -g
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/update-all-globally-installed-npm-packages-at-once/</guid>
+      <description>&lt;p&gt;I keep meaning to run this but always forget the flag. There&amp;rsquo;s no &lt;code&gt;npm update-all&lt;/code&gt; or anything &amp;ndash; it&amp;rsquo;s just:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm update -g
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;-g&lt;/code&gt; tells npm to operate on the global package registry instead of the local &lt;code&gt;node_modules&lt;/code&gt;. Without it, &lt;code&gt;npm update&lt;/code&gt; only touches packages listed in your project&amp;rsquo;s &lt;code&gt;package.json&lt;/code&gt;, which is the default behaviour and what you want most of the time.&lt;/p&gt;
+&lt;p&gt;One thing to bear in mind: &lt;code&gt;npm update&lt;/code&gt; won&amp;rsquo;t bump you to a new major version, even if one&amp;rsquo;s available. It respects the semver range in whatever pinned your package &amp;ndash; so if you installed &lt;code&gt;commander@2.x&lt;/code&gt; and &lt;code&gt;4.x&lt;/code&gt; is out, you&amp;rsquo;ll stay on &lt;code&gt;2.x&lt;/code&gt;. If you actually want to upgrade majors, you need to be explicit:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Import a Resource to Terraform Module</title>
-      <link>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</link>
+      <title>Import a Resource to a Terraform Module</title>
+      <link>https://www.shafiq.in/blog/import-a-resource-to-a-terraform-module/</link>
       <pubDate>Wed, 24 Oct 2018 15:57:34 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</guid>
-      <description>&lt;p&gt;The example below will import an AWS instance into a terraform module:&lt;/p&gt;
+      <guid>https://www.shafiq.in/blog/import-a-resource-to-a-terraform-module/</guid>
+      <description>&lt;p&gt;Importing an existing AWS instance into a Terraform module is straightforward, but the syntax trips people up because you need to specify the full module path.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;terraform import module.foo.aws_instance.bar i-abcd1234
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Install ruby gem files</title>
-      <link>https://www.shafiq.in/blog/install-ruby-gem-files/</link>
-      <pubDate>Thu, 27 Sep 2018 10:16:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/install-ruby-gem-files/</guid>
-      <description>&lt;p&gt;Install the gems on the destination machine from the local files:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /path/to/gems
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gem install --force --local *.gem
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The format is &lt;code&gt;module.&amp;lt;module_name&amp;gt;.&amp;lt;resource_type&amp;gt;.&amp;lt;resource_name&amp;gt;&lt;/code&gt;, followed by the resource ID. In this case, &lt;code&gt;foo&lt;/code&gt; is the module name, &lt;code&gt;aws_instance&lt;/code&gt; is the resource type, &lt;code&gt;bar&lt;/code&gt; is the resource name inside that module, and &lt;code&gt;i-abcd1234&lt;/code&gt; is the AWS instance ID.&lt;/p&gt;
+&lt;p&gt;Once imported, Terraform will manage the instance and track any configuration drift going forward.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How much memory is actually free?</title>

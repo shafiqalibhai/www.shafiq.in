@@ -8596,11 +8596,13 @@
       <pubDate>Sat, 22 Dec 2018 09:38:39 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;If you&amp;rsquo;re working with Azure, you might have encountered an error that looks something like this:&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re working with Azure, you might have seen an error like this:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Failure sending request: StatusCode=0 — Original Error: Code=&amp;lsquo;ReferencedResourceNotProvisioned&amp;rsquo; Message=&amp;lsquo;Cannot proceed with operation because resource used by resource is not in Succeeded state. Resource is in Updating state and the last operation that updated/is updating the resource is PutSubnetOperation.&amp;rsquo;&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Though the error message can seem intimidating and cryptic at first, don&amp;rsquo;t worry. In this post, we&amp;rsquo;ll delve into what this error means and how you can resolve it.&lt;/p&gt;</description>
+&lt;p&gt;It looks worse than it is. Here&amp;rsquo;s what it means and how to fix it.&lt;/p&gt;
+&lt;h2 id=&#34;why-does-this-error-occur&#34;&gt;Why Does This Error Occur?&lt;/h2&gt;
+&lt;p&gt;A related resource is stuck in an &amp;lsquo;Updating&amp;rsquo; state, so Azure won&amp;rsquo;t let the operation proceed. This usually means another operation is still running on that resource or one it depends on.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

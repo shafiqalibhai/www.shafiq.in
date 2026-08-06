@@ -2357,9 +2357,9 @@
       <link>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</link>
       <pubDate>Mon, 18 May 2020 10:01:16 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</guid>
-      <description>&lt;p&gt;If you get an error of the type &lt;code&gt;Error: Cask &#39;hex-fiend-beta&#39; definition is invalid: invalid &#39;depends_on macos&#39; value: &amp;quot;:lion&amp;quot;&lt;/code&gt;, where &lt;code&gt;hex-fiend-beta&lt;/code&gt; can be any cask name, and &lt;code&gt;:lion&lt;/code&gt; any macOS release name, run the following command:&lt;/p&gt;
+      <description>&lt;p&gt;If you get an error like &lt;code&gt;Error: Cask &#39;hex-fiend-beta&#39; definition is invalid: invalid &#39;depends_on macos&#39; value: &amp;quot;:lion&amp;quot;&lt;/code&gt;, where &lt;code&gt;hex-fiend-beta&lt;/code&gt; can be any cask name and &lt;code&gt;:lion&lt;/code&gt; any macOS release name, run the following command:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/usr/bin/find &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;brew --prefix&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/Caskroom/&amp;#34;&lt;/span&gt;*&lt;span class=&#34;s1&#34;&gt;&amp;#39;/.metadata&amp;#39;&lt;/span&gt; -type f -name &lt;span class=&#34;s1&#34;&gt;&amp;#39;*.rb&amp;#39;&lt;/span&gt; -print0 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; /usr/bin/xargs -0 /usr/bin/perl -i -pe &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/depends_on macos: \[.*?\]//gsm;s/depends_on macos: .*//g&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will remove all &lt;code&gt;depends_on macos&lt;/code&gt; references of &lt;em&gt;installed&lt;/em&gt; casks.&lt;/p&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This strips out all &lt;code&gt;depends_on macos&lt;/code&gt; references from installed casks. It&amp;rsquo;s a blunt instrument &amp;ndash; you&amp;rsquo;re editing Homebrew&amp;rsquo;s metadata files directly &amp;ndash; but it gets things working again.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to run VLC player as root user</title>
@@ -2371,11 +2371,11 @@
 &lt;p&gt;While running the VLC as root is not recommended, it works. Be aware of the risks and obviously do not do it for production environments.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A lawyers christmas greeting</title>
+      <title>A lawyer&#39;s Christmas greeting</title>
       <link>https://www.shafiq.in/blog/a-lawyers-christmas-greeting/</link>
       <pubDate>Mon, 31 Dec 2018 09:55:37 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/a-lawyers-christmas-greeting/</guid>
-      <description>&lt;p&gt;Please accept with no obligation, implied or implicit, my best wishes for an environmentally conscious, socially responsible, low stress, non-addictive, gender neutral celebration of the winter solstice holiday, practiced within the most enjoyable traditions of the religious persuasion of your choice, or secular practices of your choice, with respect for the religious/secular persuasions and/or traditions of others, or their choice not to practice religious or secular traditions at all… and a fiscally successful, personally fulfilling, and medically uncomplicated recognition of the onset of the generally accepted calendar year 2019, but not without due respect for the calendars of choice of other cultures whose contributions to society have helped make the United Kingdom great (not to imply that the United Kingdom is necessarily greater than any other country or is the only &amp;ldquo;United Kingdom&amp;rdquo; in the Northern hemisphere), and without regard to the race, creed, colour, age, physical ability, religious faith, or sexual orientation of the wishee.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Please accept with no obligation, implied or implicit, my best wishes for an environmentally conscious, socially responsible, low-stress, non-addictive, gender-neutral celebration of the winter solstice holiday, practiced within the most enjoyable traditions of the religious persuasion of your choice, or secular practices of your choice, with respect for the religious/secular persuasions and/or traditions of others, or their choice not to practice religious or secular traditions at all… and a fiscally successful, personally fulfilling, and medically uncomplicated recognition of the onset of the generally accepted calendar year 2019, but not without due respect for the calendars of choice of other cultures whose contributions to society have helped make the United Kingdom great (not to imply that the United Kingdom is necessarily greater than any other country or is the only &amp;ldquo;United Kingdom&amp;rdquo; in the Northern hemisphere), and without regard to the race, creed, colour, age, physical ability, religious faith, or sexual orientation of the wishee.&lt;/p&gt;</description>
     </item>
     <item>
       <title>List all Azure VM extensions</title>
@@ -10959,12 +10959,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>NPM update all globally installed packages</title>
-      <link>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</link>
+      <title>Update all globally installed npm packages at once</title>
+      <link>https://www.shafiq.in/blog/update-all-globally-installed-npm-packages-at-once/</link>
       <pubDate>Sat, 22 Dec 2018 09:42:28 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/npm-update-all-globally-installed-packages/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm update -g
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/update-all-globally-installed-npm-packages-at-once/</guid>
+      <description>&lt;p&gt;I keep meaning to run this but always forget the flag. There&amp;rsquo;s no &lt;code&gt;npm update-all&lt;/code&gt; or anything &amp;ndash; it&amp;rsquo;s just:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm update -g
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;-g&lt;/code&gt; tells npm to operate on the global package registry instead of the local &lt;code&gt;node_modules&lt;/code&gt;. Without it, &lt;code&gt;npm update&lt;/code&gt; only touches packages listed in your project&amp;rsquo;s &lt;code&gt;package.json&lt;/code&gt;, which is the default behaviour and what you want most of the time.&lt;/p&gt;
+&lt;p&gt;One thing to bear in mind: &lt;code&gt;npm update&lt;/code&gt; won&amp;rsquo;t bump you to a new major version, even if one&amp;rsquo;s available. It respects the semver range in whatever pinned your package &amp;ndash; so if you installed &lt;code&gt;commander@2.x&lt;/code&gt; and &lt;code&gt;4.x&lt;/code&gt; is out, you&amp;rsquo;ll stay on &lt;code&gt;2.x&lt;/code&gt;. If you actually want to upgrade majors, you need to be explicit:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure</title>
@@ -10972,46 +10974,57 @@
       <pubDate>Sat, 22 Dec 2018 09:38:39 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;If you&amp;rsquo;re working with Azure, you might have encountered an error that looks something like this:&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re working with Azure, you might have seen an error like this:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Failure sending request: StatusCode=0 — Original Error: Code=&amp;lsquo;ReferencedResourceNotProvisioned&amp;rsquo; Message=&amp;lsquo;Cannot proceed with operation because resource used by resource is not in Succeeded state. Resource is in Updating state and the last operation that updated/is updating the resource is PutSubnetOperation.&amp;rsquo;&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Though the error message can seem intimidating and cryptic at first, don&amp;rsquo;t worry. In this post, we&amp;rsquo;ll delve into what this error means and how you can resolve it.&lt;/p&gt;</description>
+&lt;p&gt;It looks worse than it is. Here&amp;rsquo;s what it means and how to fix it.&lt;/p&gt;
+&lt;h2 id=&#34;why-does-this-error-occur&#34;&gt;Why Does This Error Occur?&lt;/h2&gt;
+&lt;p&gt;A related resource is stuck in an &amp;lsquo;Updating&amp;rsquo; state, so Azure won&amp;rsquo;t let the operation proceed. This usually means another operation is still running on that resource or one it depends on.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Import a Resource to Terraform Module</title>
-      <link>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</link>
+      <title>Import a Resource to a Terraform Module</title>
+      <link>https://www.shafiq.in/blog/import-a-resource-to-a-terraform-module/</link>
       <pubDate>Wed, 24 Oct 2018 15:57:34 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/import-a-resource-to-terraform-module/</guid>
-      <description>&lt;p&gt;The example below will import an AWS instance into a terraform module:&lt;/p&gt;
+      <guid>https://www.shafiq.in/blog/import-a-resource-to-a-terraform-module/</guid>
+      <description>&lt;p&gt;Importing an existing AWS instance into a Terraform module is straightforward, but the syntax trips people up because you need to specify the full module path.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;terraform import module.foo.aws_instance.bar i-abcd1234
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The format is &lt;code&gt;module.&amp;lt;module_name&amp;gt;.&amp;lt;resource_type&amp;gt;.&amp;lt;resource_name&amp;gt;&lt;/code&gt;, followed by the resource ID. In this case, &lt;code&gt;foo&lt;/code&gt; is the module name, &lt;code&gt;aws_instance&lt;/code&gt; is the resource type, &lt;code&gt;bar&lt;/code&gt; is the resource name inside that module, and &lt;code&gt;i-abcd1234&lt;/code&gt; is the AWS instance ID.&lt;/p&gt;
+&lt;p&gt;Once imported, Terraform will manage the instance and track any configuration drift going forward.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Navigating Terraform Modules Stored in Package Subdirectories</title>
-      <link>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</link>
+      <title>Terraform Modules in Subdirectories</title>
+      <link>https://www.shafiq.in/blog/terraform-modules-in-subdirectories/</link>
       <pubDate>Wed, 24 Oct 2018 13:16:15 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/navigating-terraform-modules-stored-in-package-subdirectories/</guid>
-      <description>&lt;p&gt;In the realm of Infrastructure as Code, Terraform modules can play a significant role in making your life easier. Sometimes, however, these modules don&amp;rsquo;t live at the root directory of their source package. Instead, they reside in sub-directories. Thankfully, Terraform has a smart way to help you access these nested modules.&lt;/p&gt;
-&lt;p&gt;Terraform employs a unique double-slash (&lt;code&gt;//&lt;/code&gt;) syntax to help pinpoint the exact sub-directory where the module is located. The path that follows this double-slash syntax is considered to be a sub-directory within the package or repository.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/terraform-modules-in-subdirectories/</guid>
+      <description>&lt;p&gt;Terraform modules are usually at the root of a repository. Sometimes they&amp;rsquo;re nested in a subdirectory, and you need to point Terraform at the right one.&lt;/p&gt;
+&lt;p&gt;Terraform handles this with a double-slash (&lt;code&gt;//&lt;/code&gt;) in the source path. Everything after the &lt;code&gt;//&lt;/code&gt; is treated as a subdirectory within the package.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;
+&lt;p&gt;The syntax is straightforward:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-hcl&#34; data-lang=&#34;hcl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;module&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;consul&amp;#34;&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;  source&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;hashicorp/consul/aws//modules/consul-cluster&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;hashicorp/consul/aws&lt;/code&gt; part is the module registry path. The &lt;code&gt;//modules/consul-cluster&lt;/code&gt; tells Terraform to look inside that package for the actual module.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to Fix the &#34;RPC failed; HTTP 413 curl 22&#34; Error in Nginx</title>
-      <link>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</link>
+      <title>Fixing &#34;RPC failed; HTTP 413 curl 22&#34; in Nginx</title>
+      <link>https://www.shafiq.in/blog/fixing-rpc-failed-http-413-curl-22-in-nginx/</link>
       <pubDate>Fri, 12 Oct 2018 09:49:17 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</guid>
-      <description>&lt;h2 id=&#34;understanding-the-issue-rpc-failed-http-413-curl-22&#34;&gt;Understanding the Issue: &amp;lsquo;RPC failed; HTTP 413 curl 22&amp;rsquo;&lt;/h2&gt;
-&lt;p&gt;If you&amp;rsquo;ve stumbled upon the error message &amp;ldquo;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large,&amp;rdquo; you&amp;rsquo;re probably trying to push a rather hefty commit over HTTP to your server running Nginx. This error means that the size of the request you&amp;rsquo;re trying to send exceeds the limit that the server is willing to accept. So, how do you fix it?&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/fixing-rpc-failed-http-413-curl-22-in-nginx/</guid>
+      <description>&lt;p&gt;You get this when you try to push a large commit over HTTP and Nginx decides your request is too big:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The fix is adding one line to your Nginx config. Open &lt;code&gt;/etc/nginx/nginx.conf&lt;/code&gt; and find the &lt;code&gt;http&lt;/code&gt;, &lt;code&gt;server&lt;/code&gt;, or &lt;code&gt;location&lt;/code&gt; block you want to change, then add:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;client_max_body_size&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;50m&lt;/code&gt; is 50 megabytes. Change it if you need more or less. Then reload Nginx:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Install ruby gem files</title>
-      <link>https://www.shafiq.in/blog/install-ruby-gem-files/</link>
+      <title>Installing gems from local files</title>
+      <link>https://www.shafiq.in/blog/installing-gems-from-local-files/</link>
       <pubDate>Thu, 27 Sep 2018 10:16:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/install-ruby-gem-files/</guid>
-      <description>&lt;p&gt;Install the gems on the destination machine from the local files:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /path/to/gems
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gem install --force --local *.gem
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/installing-gems-from-local-files/</guid>
+      <description>&lt;p&gt;Picked up a server that needed gems but had no internet access. Copied the &lt;code&gt;.gem&lt;/code&gt; files across and ran this to install them all in one go:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gem install --force --local *.gem
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;--force&lt;/code&gt; flag is what does the trick here. Without it, gem will skip any files that are already installed, even if they&amp;rsquo;re older versions. With &lt;code&gt;--local&lt;/code&gt;, it looks only in the current directory instead of trying to reach out to rubygems.org.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stop buying tools, start solving problems</title>

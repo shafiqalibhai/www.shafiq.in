@@ -10,12 +10,15 @@
     <lastBuildDate>Fri, 12 Oct 2018 09:49:17 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Fix the &#34;RPC failed; HTTP 413 curl 22&#34; Error in Nginx</title>
-      <link>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</link>
+      <title>Fixing &#34;RPC failed; HTTP 413 curl 22&#34; in Nginx</title>
+      <link>https://www.shafiq.in/blog/fixing-rpc-failed-http-413-curl-22-in-nginx/</link>
       <pubDate>Fri, 12 Oct 2018 09:49:17 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-fix-the-rpc-failed-http-413-curl-22-error-in-nginx/</guid>
-      <description>&lt;h2 id=&#34;understanding-the-issue-rpc-failed-http-413-curl-22&#34;&gt;Understanding the Issue: &amp;lsquo;RPC failed; HTTP 413 curl 22&amp;rsquo;&lt;/h2&gt;
-&lt;p&gt;If you&amp;rsquo;ve stumbled upon the error message &amp;ldquo;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large,&amp;rdquo; you&amp;rsquo;re probably trying to push a rather hefty commit over HTTP to your server running Nginx. This error means that the size of the request you&amp;rsquo;re trying to send exceeds the limit that the server is willing to accept. So, how do you fix it?&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/fixing-rpc-failed-http-413-curl-22-in-nginx/</guid>
+      <description>&lt;p&gt;You get this when you try to push a large commit over HTTP and Nginx decides your request is too big:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The fix is adding one line to your Nginx config. Open &lt;code&gt;/etc/nginx/nginx.conf&lt;/code&gt; and find the &lt;code&gt;http&lt;/code&gt;, &lt;code&gt;server&lt;/code&gt;, or &lt;code&gt;location&lt;/code&gt; block you want to change, then add:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;client_max_body_size&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;50m&lt;/code&gt; is 50 megabytes. Change it if you need more or less. Then reload Nginx:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

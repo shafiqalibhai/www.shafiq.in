@@ -10,14 +10,13 @@
     <lastBuildDate>Thu, 27 Sep 2018 10:16:03 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/gem/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Install ruby gem files</title>
-      <link>https://www.shafiq.in/blog/install-ruby-gem-files/</link>
+      <title>Installing gems from local files</title>
+      <link>https://www.shafiq.in/blog/installing-gems-from-local-files/</link>
       <pubDate>Thu, 27 Sep 2018 10:16:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/install-ruby-gem-files/</guid>
-      <description>&lt;p&gt;Install the gems on the destination machine from the local files:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /path/to/gems
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gem install --force --local *.gem
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/installing-gems-from-local-files/</guid>
+      <description>&lt;p&gt;Picked up a server that needed gems but had no internet access. Copied the &lt;code&gt;.gem&lt;/code&gt; files across and ran this to install them all in one go:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gem install --force --local *.gem
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;--force&lt;/code&gt; flag is what does the trick here. Without it, gem will skip any files that are already installed, even if they&amp;rsquo;re older versions. With &lt;code&gt;--local&lt;/code&gt;, it looks only in the current directory instead of trying to reach out to rubygems.org.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
