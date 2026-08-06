@@ -19,7 +19,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This strips out all &lt;code&gt;depends_on macos&lt;/code&gt; references from installed casks. It&amp;rsquo;s a blunt instrument &amp;ndash; you&amp;rsquo;re editing Homebrew&amp;rsquo;s metadata files directly &amp;ndash; but it gets things working again.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure</title>
+      <title>&#39;Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure&#39;</title>
       <link>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</link>
       <pubDate>Sat, 22 Dec 2018 09:38:39 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</guid>
@@ -44,14 +44,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;50m&lt;/code&gt; is 50 megabytes. Change it if you need more or less. Then reload Nginx:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory</title>
+      <title>&#39;scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory&#39;</title>
       <link>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</link>
       <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</guid>
       <description>&lt;p&gt;&lt;code&gt;sudo apt-get install -y libssl-dev&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>/bin/sh: 1: bison: not found</title>
+      <title>&#39;/bin/sh: 1: bison: not found&#39;</title>
       <link>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</link>
       <pubDate>Wed, 19 Sep 2018 15:33:07 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</guid>
@@ -59,7 +59,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist</title>
+      <title>&#39;[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist&#39;</title>
       <link>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</link>
       <pubDate>Thu, 06 Sep 2018 09:43:25 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</guid>

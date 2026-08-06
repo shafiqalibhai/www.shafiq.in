@@ -55,6 +55,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/categories/technology/</loc>
+    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</loc>
     <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -72,6 +77,11 @@
   </url><url>
     <loc>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</loc>
     <lastmod>2025-09-29T14:50:26+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/personal/</loc>
+    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -315,7 +325,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/day-trading-styles/</loc>
+    <loc>https://www.shafiq.in/blog/the-ten-ways-people-try-to-make-money-from-moving-prices/</loc>
     <lastmod>2024-03-30T09:03:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -396,11 +406,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</loc>
-    <lastmod>2024-03-01T08:16:26+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/technology/</loc>
     <lastmod>2024-03-01T08:16:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -565,22 +570,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/headless-browser/</loc>
-    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</loc>
-    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/phantomjs/</loc>
-    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/ubuntu/</loc>
     <lastmod>2023-04-27T17:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -730,12 +720,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/debian/</loc>
+    <loc>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</loc>
     <lastmod>2020-07-14T09:11:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</loc>
+    <loc>https://www.shafiq.in/tags/debian/</loc>
     <lastmod>2020-07-14T09:11:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -925,12 +915,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</loc>
+    <lastmod>2018-09-19T15:44:02+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/tags/compilation/</loc>
     <lastmod>2018-09-19T15:44:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</loc>
+    <loc>https://www.shafiq.in/tags/ubuntu/</loc>
     <lastmod>2018-09-19T15:44:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1245,12 +1240,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/art/</loc>
+    <loc>https://www.shafiq.in/blog/first-look-the-artical-trailer-for-kichidi/</loc>
     <lastmod>2013-09-21T17:53:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/first-look-the-artical-trailer-for-kichidi/</loc>
+    <loc>https://www.shafiq.in/categories/art/</loc>
     <lastmod>2013-09-21T17:53:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1955,22 +1950,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/opensuse/</loc>
-    <lastmod>2011-03-13T10:49:42+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/opensuse-11.4/</loc>
-    <lastmod>2011-03-13T10:49:42+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/opensuse-11.4--first-look/</loc>
-    <lastmod>2011-03-13T10:49:42+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/screenshots/</loc>
     <lastmod>2011-03-13T10:49:42+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

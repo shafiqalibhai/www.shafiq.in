@@ -7,8 +7,158 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Fri, 01 Mar 2024 08:16:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 22:06:39 +0100</lastBuildDate>
     <atom:link href="https://www.shafiq.in/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homebrew has outsourced its gatekeeping to Apple</title>
+      <link>https://www.shafiq.in/blog/homebrew-has-outsourced-its-gatekeeping-to-apple/</link>
+      <pubDate>Wed, 13 May 2026 22:06:39 +0100</pubDate>
+      <guid>https://www.shafiq.in/blog/homebrew-has-outsourced-its-gatekeeping-to-apple/</guid>
+      <description>Open-source Mac casks keep getting deprecated from Homebrew. The cause is Apple&amp;#39;s $99/year signing requirement, enforced through brew audit.</description>
+    </item>
+    <item>
+      <title>Hiding YouTube Shorts on a self-hosted Invidious</title>
+      <link>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</link>
+      <pubDate>Wed, 13 May 2026 14:18:11 +0100</pubDate>
+      <guid>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</guid>
+      <description>Upstream Invidious won&amp;#39;t add a Shorts toggle, so I wrote a pair of uBlock Origin filters that read the Invidious DOM directly.</description>
+    </item>
+    <item>
+      <title>Running your own Mastodon instance with Docker Compose</title>
+      <link>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</link>
+      <pubDate>Mon, 29 Sep 2025 14:50:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running a Mastodon instance for a while now, and every time I set one up from scratch I end up digging through documentation that&amp;rsquo;s either outdated or assumes you already know what you&amp;rsquo;re doing. This is the guide I wish I&amp;rsquo;d had.&lt;/p&gt;
+&lt;h2 id=&#34;what-you-need&#34;&gt;What you need&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A server with Docker and Docker Compose installed&lt;/li&gt;
+&lt;li&gt;A domain name that points to your server&amp;rsquo;s IP address&lt;/li&gt;
+&lt;li&gt;Somewhere to send email (Mailgun, SendGrid, or your own SMTP server)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s it. No Kubernetes, no systemd fiddling, no compiling from source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WHPH vs Super Productivity</title>
+      <link>https://www.shafiq.in/blog/whph-vs-super-productivity/</link>
+      <pubDate>Mon, 29 Sep 2025 11:53:23 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/whph-vs-super-productivity/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been trying to figure out which productivity app actually fits my workflow. Both WHPH (Work Hard Play Hard) and Super Productivity keep coming up, so I thought it was worth comparing them properly.&lt;/p&gt;
+&lt;h2 id=&#34;whph-work-hard-play-hard&#34;&gt;WHPH (Work Hard Play Hard)&lt;/h2&gt;
+&lt;p&gt;WHPH is a general-purpose productivity app. It does several things: tracks your tasks, monitors which apps you use and for how long, helps you build habits, and gives you a basic sense of where your time goes. The sync between desktop and mobile happens over your local network &amp;ndash; no cloud, no account, just devices talking to each other.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to test AA and AAA batteries using a multimeter</title>
+      <link>https://www.shafiq.in/blog/how-to-test-aa-and-aaa-batteries-using-a-multimeter/</link>
+      <pubDate>Mon, 29 Sep 2025 11:53:17 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-test-aa-and-aaa-batteries-using-a-multimeter/</guid>
+      <description>&lt;p&gt;I have a drawer full of spare AA and AAA batteries. Some are fresh, some are from remote controls that died last winter, some I found in a toy. Before tossing them or putting them to use, I check the voltage with a multimeter. It takes thirty seconds and saves you from guessing.&lt;/p&gt;
+&lt;h2 id=&#34;what-you-need&#34;&gt;What you need&lt;/h2&gt;
+&lt;p&gt;A cheap multimeter is all you need. Any digital one will do — I&amp;rsquo;ve used the same £8 model from Amazon for years. The probes should be intact and the battery in the multimeter itself should have charge (if it beeps when you turn it on, you&amp;rsquo;re good).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Iceraven and Ironfox browser comparison</title>
+      <link>https://www.shafiq.in/blog/iceraven-and-ironfox-browser-comparison/</link>
+      <pubDate>Mon, 29 Sep 2025 11:53:12 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/iceraven-and-ironfox-browser-comparison/</guid>
+      <description>&lt;p&gt;Both are Firefox forks for Android. Both strip out telemetry. They diverge on what to do after that.&lt;/p&gt;
+&lt;p&gt;Iceraven is built around customisation. It exposes about:config, supports a wider range of add-ons than stock Firefox for Android, and tries to replicate the desktop Firefox experience on mobile. Updates come through GitHub releases. It&amp;rsquo;s aimed at people who want to tweak their browser.&lt;/p&gt;
+&lt;p&gt;IronFox comes from Mull, which itself is a privacy-hardened Firefox fork. It removes more telemetry than Iceraven, disables features that leak data by default (WebGL, for example), and keeps the interface stripped down. It&amp;rsquo;s on F-Droid and Accrescent as well as GitHub. The trade-off is that some websites break because of the aggressive defaults.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Implementing TOGAF using SCRUM methodology</title>
+      <link>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</link>
+      <pubDate>Sun, 28 Sep 2025 07:05:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</guid>
+      <description>&lt;p&gt;TOGAF is documentation-heavy and linear. Scrum is iterative and lightweight. Running them together means breaking the Architecture Development Method into sprint-sized chunks instead of treating it as a single pass from Phase A to Phase H.&lt;/p&gt;
+&lt;h2 id=&#34;mapping-adm-phases-to-sprints&#34;&gt;Mapping ADM phases to sprints&lt;/h2&gt;
+&lt;p&gt;The ADM doesn&amp;rsquo;t have to run in one direction. You can treat each phase as a backlog item and pull work through in sprints.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;TOGAF Phase&lt;/th&gt;
+					&lt;th&gt;Scrum equivalent&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Preliminary&lt;/td&gt;
+					&lt;td&gt;Sprint 0 — governance, tools, team setup&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase A: Vision&lt;/td&gt;
+					&lt;td&gt;Product backlog epics for the EA vision&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phases B-D: Business, Data, Application, Technology&lt;/td&gt;
+					&lt;td&gt;One domain per sprint&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase E: Opportunities &amp;amp; Solutions&lt;/td&gt;
+					&lt;td&gt;Backlog refinement for implementation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase F: Migration Planning&lt;/td&gt;
+					&lt;td&gt;Roadmap prioritisation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase G: Implementation&lt;/td&gt;
+					&lt;td&gt;Delivery sprints&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase H: Change Management&lt;/td&gt;
+					&lt;td&gt;Sprint retrospectives&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;roles&#34;&gt;Roles&lt;/h2&gt;
+&lt;p&gt;The Enterprise Architect maps closest to Product Owner — they prioritise the architecture backlog. The Architecture Board shows up at sprint reviews. The Scrum Master facilitates the process and removes blockers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When a Problem Is Worth Solving</title>
+      <link>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</link>
+      <pubDate>Thu, 22 May 2025 12:04:38 +0200</pubDate>
+      <guid>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</guid>
+      <description>&lt;p&gt;I used to take on any project that came my way. That was a mistake.&lt;/p&gt;
+&lt;p&gt;Not every problem deserves your time, and not every client is worth working with. Over the years I&amp;rsquo;ve learned to filter opportunities through a simple set of questions before committing to anything.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can they fix it themselves?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If the answer is yes &amp;ndash; or if a decent blog post could solve it &amp;ndash; then it&amp;rsquo;s not a consulting engagement. It&amp;rsquo;s a homework assignment. The value of consulting lies in the gap between what the client knows and what they need to know. Close that gap and you&amp;rsquo;ve got nothing to sell.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&#39;How To Get BIOS Serial Numbers On Linux&#39;</title>
+      <link>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</link>
+      <pubDate>Mon, 25 Nov 2024 09:24:43 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</guid>
+      <description>&lt;p&gt;The quickest way to get a BIOS serial number on Linux:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dmidecode -s system-serial-number
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s usually all you need. &lt;code&gt;dmidecode&lt;/code&gt; reads the DMI/SMBIOS table and prints the serial number directly.&lt;/p&gt;
+&lt;h2 id=&#34;other-options&#34;&gt;Other options&lt;/h2&gt;
+&lt;p&gt;If &lt;code&gt;dmidecode&lt;/code&gt; isn&amp;rsquo;t available or doesn&amp;rsquo;t return what you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# lshw&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo lshw -C bios &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep serial
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# /sys class interface (no sudo needed)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat /sys/class/dmi/id/product_serial
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;/sys/class/dmi/id/&lt;/code&gt; path is the cleanest option if you want to avoid sudo. It exposes several DMI fields:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self-hosted services worth running on your homelab</title>
+      <link>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</link>
+      <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running a small homelab for a few years now, mostly just to tinker and escape the subscription treadmill. Over time I&amp;rsquo;ve collected a bunch of services that actually earn their keep, and this is a running list of the ones I&amp;rsquo;d recommend to someone starting out or looking to fill gaps in their setup.&lt;/p&gt;
+&lt;p&gt;Nothing fancy. Just stuff that works, runs quietly, and gives you back control of your own data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shrinking PDFs with Ghostscript on the command line</title>
+      <link>https://www.shafiq.in/blog/shrinking-pdfs-with-ghostscript-on-the-command-line/</link>
+      <pubDate>Mon, 01 Apr 2024 13:27:06 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/shrinking-pdfs-with-ghostscript-on-the-command-line/</guid>
+      <description>&lt;p&gt;I needed to shrink a PDF last week — something I don&amp;rsquo;t do often enough to remember the flags. Ghostscript is the tool, and it&amp;rsquo;s already on most Linux machines or a quick &lt;code&gt;apt install ghostscript&lt;/code&gt; away.&lt;/p&gt;
+&lt;p&gt;The command is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gs -sDEVICE&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;pdfwrite -dCompatibilityLevel&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1.4 -dPDFSETTINGS&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/screen &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   -dNOPAUSE -dQUIET -dBATCH -sOutputFile&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;output.pdf input.pdf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The bit that actually matters is &lt;code&gt;-dPDFSETTINGS=/screen&lt;/code&gt;. That&amp;rsquo;s the quality dial. &lt;code&gt;/screen&lt;/code&gt; gives you the smallest file — fine for emailing or uploading, rubbish if you need to print anything.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How I set up a data pipeline that actually works</title>
       <link>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</link>

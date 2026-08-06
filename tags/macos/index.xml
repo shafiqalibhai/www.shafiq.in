@@ -32,7 +32,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This strips out all &lt;code&gt;depends_on macos&lt;/code&gt; references from installed casks. It&amp;rsquo;s a blunt instrument &amp;ndash; you&amp;rsquo;re editing Homebrew&amp;rsquo;s metadata files directly &amp;ndash; but it gets things working again.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist</title>
+      <title>&#39;[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist&#39;</title>
       <link>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</link>
       <pubDate>Thu, 06 Sep 2018 09:43:25 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</guid>

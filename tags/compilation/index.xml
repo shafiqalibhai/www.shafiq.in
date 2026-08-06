@@ -10,14 +10,14 @@
     <lastBuildDate>Wed, 19 Sep 2018 15:44:02 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/compilation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory</title>
+      <title>&#39;scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory&#39;</title>
       <link>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</link>
       <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</guid>
       <description>&lt;p&gt;&lt;code&gt;sudo apt-get install -y libssl-dev&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>/bin/sh: 1: bison: not found</title>
+      <title>&#39;/bin/sh: 1: bison: not found&#39;</title>
       <link>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</link>
       <pubDate>Wed, 19 Sep 2018 15:33:07 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</guid>

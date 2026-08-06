@@ -20,7 +20,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;{HOSTNAME}&lt;/code&gt; with the server address and &lt;code&gt;{PORT}&lt;/code&gt; with the port (usually 443 for HTTPS). The &lt;code&gt;-showcerts&lt;/code&gt; flag dumps the full certificate chain rather than just the leaf certificate.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory</title>
+      <title>&#39;scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory&#39;</title>
       <link>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</link>
       <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</guid>

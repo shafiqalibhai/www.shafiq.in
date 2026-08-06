@@ -99,7 +99,7 @@
 &lt;p&gt;It works, but it&amp;rsquo;s a bit of a trick and relies on understanding &lt;code&gt;ls&lt;/code&gt; output format. A more straightforward approach uses &lt;code&gt;find&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How much memory is actually free?</title>
+      <title>&#39;How much memory is actually free?&#39;</title>
       <link>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</link>
       <pubDate>Sat, 10 Dec 2011 12:43:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</guid>

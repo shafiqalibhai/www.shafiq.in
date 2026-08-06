@@ -171,14 +171,6 @@
 &lt;p&gt;&lt;code&gt;find . -name &amp;quot;*.md&amp;quot; -type f&lt;/code&gt; does the walking. The &lt;code&gt;-type f&lt;/code&gt; bit is important &amp;ndash; without it, &lt;code&gt;find&lt;/code&gt; would also match directories and pass them to &lt;code&gt;sed&lt;/code&gt;, which would error out. The &lt;code&gt;-exec ... \;&lt;/code&gt; at the end runs the command for each file individually.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Installing PhantomJS on Ubuntu 22.10</title>
-      <link>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</link>
-      <pubDate>Thu, 27 Apr 2023 17:30:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</guid>
-      <description>&lt;p&gt;PhantomJS is a headless browser, which means it runs without a graphical interface and lets you automate web page interactions through scripting. I needed it for some automated testing at work and ran into a few things worth writing down, mostly because half the guides out there are either outdated or assume you already know what you&amp;rsquo;re doing.&lt;/p&gt;
-&lt;p&gt;The version we&amp;rsquo;re installing is 2.1.1, which is the last release. The project has been unmaintained since 2017, but it still does what it needs to do for basic scraping and screenshot tasks.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Deleting files by content match in Linux</title>
       <link>https://www.shafiq.in/blog/deleting-files-by-content-match-in-linux/</link>
       <pubDate>Thu, 27 Apr 2023 11:30:03 +0000</pubDate>
@@ -244,7 +236,7 @@
 &lt;p&gt;It works, but it&amp;rsquo;s a bit of a trick and relies on understanding &lt;code&gt;ls&lt;/code&gt; output format. A more straightforward approach uses &lt;code&gt;find&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Installing Multiple PHP Versions on Debian 9</title>
+      <title>&#39;Installing Multiple PHP Versions on Debian 9&#39;</title>
       <link>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</link>
       <pubDate>Tue, 14 Jul 2020 09:11:45 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</guid>
@@ -8862,7 +8854,7 @@
 &lt;p&gt;One thing to bear in mind: &lt;code&gt;npm update&lt;/code&gt; won&amp;rsquo;t bump you to a new major version, even if one&amp;rsquo;s available. It respects the semver range in whatever pinned your package &amp;ndash; so if you installed &lt;code&gt;commander@2.x&lt;/code&gt; and &lt;code&gt;4.x&lt;/code&gt; is out, you&amp;rsquo;ll stay on &lt;code&gt;2.x&lt;/code&gt;. If you actually want to upgrade majors, you need to be explicit:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure</title>
+      <title>&#39;Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure&#39;</title>
       <link>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</link>
       <pubDate>Sat, 22 Dec 2018 09:38:39 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</guid>
@@ -8929,14 +8921,14 @@
 &lt;p&gt;This isn&amp;rsquo;t about being anti-technology. I love good tools. But somewhere along the line, DevOps culture got it backwards. We&amp;rsquo;re picking solutions first and frantically searching for problems they might address, instead of looking at what&amp;rsquo;s actually broken and finding the simplest thing that fixes it.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory</title>
+      <title>&#39;scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory&#39;</title>
       <link>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</link>
       <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</guid>
       <description>&lt;p&gt;&lt;code&gt;sudo apt-get install -y libssl-dev&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>/bin/sh: 1: bison: not found</title>
+      <title>&#39;/bin/sh: 1: bison: not found&#39;</title>
       <link>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</link>
       <pubDate>Wed, 19 Sep 2018 15:33:07 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</guid>
@@ -8944,7 +8936,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist</title>
+      <title>&#39;[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist&#39;</title>
       <link>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</link>
       <pubDate>Thu, 06 Sep 2018 09:43:25 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</guid>
@@ -11053,7 +11045,7 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</descr
 &lt;p&gt;You know the type. Production is down, someone jumps in, tweaks a config file, restarts a service, and everything works again. Great. Except now that server has a configuration that exists in no repository, no documentation, and no one else&amp;rsquo;s head. Next time something breaks, you&amp;rsquo;ll spend hours chasing a difference that nobody bothered to record.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How much memory is actually free?</title>
+      <title>&#39;How much memory is actually free?&#39;</title>
       <link>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</link>
       <pubDate>Sat, 10 Dec 2011 12:43:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</guid>
@@ -11225,42 +11217,6 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</descr
       <guid>https://www.shafiq.in/blog/release-engineering-101-build-scripts/</guid>
       <description>&lt;p&gt;Every project I have worked on, from small college assignments to larger team efforts, has eventually hit the same wall: someone runs the build, something breaks, and nobody knows why. The code was fine five minutes ago. The build server is down. The classpath is wrong. The compiled output is three versions behind. It is frustrating, it is wasteful, and it is entirely preventable.&lt;/p&gt;
 &lt;p&gt;The fix is a build script.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OpenSUSE 11.4 -- first look</title>
-      <link>https://www.shafiq.in/blog/opensuse-11.4--first-look/</link>
-      <pubDate>Sun, 13 Mar 2011 10:49:42 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/opensuse-11.4--first-look/</guid>
-      <description>&lt;p&gt;I grabbed the openSUSE 11.4 64-bit ISO last night and spent the afternoon installing it in a VM. Here&amp;rsquo;s the full walkthrough, screenshots and all.&lt;/p&gt;
-
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-33-52_hu_67ea9c7eedff478a.png&#34; alt=&#34;OpenSUSE installer boot menu&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
-
-
-&lt;p&gt;Boot menu. Standard options &amp;ndash; Installation, Rescue System, media check. Nothing fancy, but it gets the job done.&lt;/p&gt;
-
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-36-48_hu_f8e4ae8fc41bfbc2.png&#34; alt=&#34;ISOLINUX boot screen&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
-
-
-
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-36-51_hu_d6fc51f70e473247.png&#34; alt=&#34;OpenSUSE welcome screen with CD graphic&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
-
-
-&lt;p&gt;Welcome screen. The green chameleon is back, and so is the striped wallpaper that&amp;rsquo;s become the distro&amp;rsquo;s signature look.&lt;/p&gt;</description>
     </item>
     <item>
       <title>running firefox 4 and firefox 3 side by side on ubuntu</title>

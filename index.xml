@@ -733,7 +733,7 @@
 &lt;p&gt;Start with a concept, do the research, outline the structure, then draft. The first draft doesn&amp;rsquo;t need to be good — it needs to exist. Revision comes after. Get feedback from beta readers or a critique group before you consider the manuscript finished.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How To Get BIOS Serial Numbers On Linux</title>
+      <title>&#39;How To Get BIOS Serial Numbers On Linux&#39;</title>
       <link>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</link>
       <pubDate>Mon, 25 Nov 2024 09:24:43 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</guid>
@@ -812,9 +812,9 @@
     </item>
     <item>
       <title>The ten ways people try to make money from moving prices</title>
-      <link>https://www.shafiq.in/blog/day-trading-styles/</link>
+      <link>https://www.shafiq.in/blog/the-ten-ways-people-try-to-make-money-from-moving-prices/</link>
       <pubDate>Sat, 30 Mar 2024 09:03:56 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/day-trading-styles/</guid>
+      <guid>https://www.shafiq.in/blog/the-ten-ways-people-try-to-make-money-from-moving-prices/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent enough time watching people trade to notice that everyone has a style, and most of them picked it without really thinking about why. Trading styles aren&amp;rsquo;t just technical classifications — they&amp;rsquo;re reflections of personality, patience, and how much time someone is willing to sacrifice to a screen.&lt;/p&gt;
 &lt;p&gt;Here are the ones I&amp;rsquo;ve actually seen people use, with a bit of context about what each one demands.&lt;/p&gt;
 &lt;h2 id=&#34;scalping&#34;&gt;Scalping&lt;/h2&gt;
@@ -1227,7 +1227,7 @@
 &lt;p&gt;It works, but it&amp;rsquo;s a bit of a trick and relies on understanding &lt;code&gt;ls&lt;/code&gt; output format. A more straightforward approach uses &lt;code&gt;find&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Installing Multiple PHP Versions on Debian 9</title>
+      <title>&#39;Installing Multiple PHP Versions on Debian 9&#39;</title>
       <link>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</link>
       <pubDate>Tue, 14 Jul 2020 09:11:45 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</guid>
@@ -9852,7 +9852,7 @@
 &lt;p&gt;One thing to bear in mind: &lt;code&gt;npm update&lt;/code&gt; won&amp;rsquo;t bump you to a new major version, even if one&amp;rsquo;s available. It respects the semver range in whatever pinned your package &amp;ndash; so if you installed &lt;code&gt;commander@2.x&lt;/code&gt; and &lt;code&gt;4.x&lt;/code&gt; is out, you&amp;rsquo;ll stay on &lt;code&gt;2.x&lt;/code&gt;. If you actually want to upgrade majors, you need to be explicit:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure</title>
+      <title>&#39;Decoding the Error: StatusCode=0 &#34;ReferencedResourceNotProvisioned&#34; in Azure&#39;</title>
       <link>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</link>
       <pubDate>Sat, 22 Dec 2018 09:38:39 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/decoding-the-error-statuscode0-referencedresourcenotprovisioned-in-azure/</guid>
@@ -9930,14 +9930,14 @@
 &lt;p&gt;ADT Magazine has an enterprise section that covers the news and trends. It&amp;rsquo;s not EA-specific but it&amp;rsquo;s useful for keeping an eye on what&amp;rsquo;s moving. &lt;a href=&#34;https://adtmag.com/articles/list/agile-architect.aspx&#34;&gt;adtmag.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory</title>
+      <title>&#39;scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory&#39;</title>
       <link>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</link>
       <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</guid>
       <description>&lt;p&gt;&lt;code&gt;sudo apt-get install -y libssl-dev&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>/bin/sh: 1: bison: not found</title>
+      <title>&#39;/bin/sh: 1: bison: not found&#39;</title>
       <link>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</link>
       <pubDate>Wed, 19 Sep 2018 15:33:07 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</guid>
@@ -9945,7 +9945,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist</title>
+      <title>&#39;[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist&#39;</title>
       <link>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</link>
       <pubDate>Thu, 06 Sep 2018 09:43:25 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</guid>
@@ -11455,7 +11455,7 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</descr
 &lt;/table&gt;</description>
     </item>
     <item>
-      <title>First Look: The Artical Trailer for Kichidi</title>
+      <title>&#39;First Look: The Artical Trailer for Kichidi&#39;</title>
       <link>https://www.shafiq.in/blog/first-look-the-artical-trailer-for-kichidi/</link>
       <pubDate>Sat, 21 Sep 2013 17:53:10 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/first-look-the-artical-trailer-for-kichidi/</guid>
@@ -12190,7 +12190,7 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</descr
 &lt;p&gt;That contradiction has defined the situation ever since.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Passage to Goa: A Generation and More Later</title>
+      <title>&#39;A Passage to Goa: A Generation and More Later&#39;</title>
       <link>https://www.shafiq.in/blog/a-passage-to-goa-a-generation-and-more-later/</link>
       <pubDate>Wed, 05 Dec 2012 07:32:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/a-passage-to-goa-a-generation-and-more-later/</guid>
@@ -12380,7 +12380,7 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</descr
 &lt;p&gt;You know the type. Production is down, someone jumps in, tweaks a config file, restarts a service, and everything works again. Great. Except now that server has a configuration that exists in no repository, no documentation, and no one else&amp;rsquo;s head. Next time something breaks, you&amp;rsquo;ll spend hours chasing a difference that nobody bothered to record.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How much memory is actually free?</title>
+      <title>&#39;How much memory is actually free?&#39;</title>
       <link>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</link>
       <pubDate>Sat, 10 Dec 2011 12:43:02 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-much-memory-is-actually-free/</guid>
@@ -12628,7 +12628,7 @@ See &lt;code&gt;man xcode-select&lt;/code&gt; for more details.&lt;/p&gt;</descr
 &lt;p&gt;I have watched developers push code to production on a Friday afternoon because the business was breathing down their necks. The deadline was immovable, the pressure was real, and the production environment was treated as an afterthought. I have seen it happen more times than I care to count, and each time the same thing goes wrong: someone breaks something, and nobody wants to own it.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenSUSE 11.4 -- first look</title>
+      <title>&#39;OpenSUSE 11.4 -- first look&#39;</title>
       <link>https://www.shafiq.in/blog/opensuse-11.4--first-look/</link>
       <pubDate>Sun, 13 Mar 2011 10:49:42 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/opensuse-11.4--first-look/</guid>

@@ -325,27 +325,6 @@
       <description></description>
     </item>
     <item>
-      <title>Headless-Browser</title>
-      <link>https://www.shafiq.in/tags/headless-browser/</link>
-      <pubDate>Thu, 27 Apr 2023 17:30:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/headless-browser/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Phantomjs</title>
-      <link>https://www.shafiq.in/tags/phantomjs/</link>
-      <pubDate>Thu, 27 Apr 2023 17:30:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/phantomjs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ubuntu</title>
-      <link>https://www.shafiq.in/tags/ubuntu/</link>
-      <pubDate>Thu, 27 Apr 2023 17:30:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Collaboration</title>
       <link>https://www.shafiq.in/tags/collaboration/</link>
       <pubDate>Fri, 27 Jan 2023 11:08:20 +0000</pubDate>
@@ -549,7 +528,7 @@
       <description></description>
     </item>
     <item>
-      <title>JavaScript</title>
+      <title>Javascript</title>
       <link>https://www.shafiq.in/tags/javascript/</link>
       <pubDate>Sat, 22 Dec 2018 09:42:28 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/javascript/</guid>
@@ -637,6 +616,13 @@
       <link>https://www.shafiq.in/tags/compilation/</link>
       <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/compilation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>https://www.shafiq.in/tags/ubuntu/</link>
+      <pubDate>Wed, 19 Sep 2018 15:44:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/ubuntu/</guid>
       <description></description>
     </item>
     <item>
@@ -843,14 +829,14 @@
       <description></description>
     </item>
     <item>
-      <title>Trading API</title>
+      <title>Trading Api</title>
       <link>https://www.shafiq.in/tags/trading-api/</link>
       <pubDate>Sat, 26 Oct 2013 16:59:12 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/trading-api/</guid>
       <description></description>
     </item>
     <item>
-      <title>XML</title>
+      <title>Xml</title>
       <link>https://www.shafiq.in/tags/xml/</link>
       <pubDate>Sat, 26 Oct 2013 16:59:12 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/xml/</guid>
@@ -871,7 +857,7 @@
       <description></description>
     </item>
     <item>
-      <title>ADC</title>
+      <title>Adc</title>
       <link>https://www.shafiq.in/tags/adc/</link>
       <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/adc/</guid>
@@ -885,7 +871,7 @@
       <description></description>
     </item>
     <item>
-      <title>I2C</title>
+      <title>I2c</title>
       <link>https://www.shafiq.in/tags/i2c/</link>
       <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/i2c/</guid>
@@ -899,28 +885,28 @@
       <description></description>
     </item>
     <item>
-      <title>RS-232</title>
+      <title>Rs-232</title>
       <link>https://www.shafiq.in/tags/rs-232/</link>
       <pubDate>Fri, 07 Jun 2013 09:52:57 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/rs-232/</guid>
       <description></description>
     </item>
     <item>
-      <title>CSS</title>
+      <title>Css</title>
       <link>https://www.shafiq.in/tags/css/</link>
       <pubDate>Tue, 23 Apr 2013 10:11:33 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/css/</guid>
       <description></description>
     </item>
     <item>
-      <title>DataTables</title>
+      <title>Datatables</title>
       <link>https://www.shafiq.in/tags/datatables/</link>
       <pubDate>Tue, 23 Apr 2013 10:11:33 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/datatables/</guid>
       <description></description>
     </item>
     <item>
-      <title>JQuery</title>
+      <title>Jquery</title>
       <link>https://www.shafiq.in/tags/jquery/</link>
       <pubDate>Tue, 23 Apr 2013 10:11:33 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/jquery/</guid>
@@ -997,7 +983,7 @@
       <description></description>
     </item>
     <item>
-      <title>UI</title>
+      <title>Ui</title>
       <link>https://www.shafiq.in/tags/ui/</link>
       <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/ui/</guid>
@@ -1032,7 +1018,7 @@
       <description></description>
     </item>
     <item>
-      <title>Virtual Machine</title>
+      <title>Virtual-Machine</title>
       <link>https://www.shafiq.in/tags/virtual-machine/</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/virtual-machine/</guid>
@@ -1095,21 +1081,21 @@
       <description></description>
     </item>
     <item>
-      <title>BSM</title>
+      <title>Bsm</title>
       <link>https://www.shafiq.in/tags/bsm/</link>
       <pubDate>Sat, 01 Dec 2012 16:27:52 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/bsm/</guid>
       <description></description>
     </item>
     <item>
-      <title>JASS</title>
+      <title>Jass</title>
       <link>https://www.shafiq.in/tags/jass/</link>
       <pubDate>Sat, 01 Dec 2012 16:27:52 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/jass/</guid>
       <description></description>
     </item>
     <item>
-      <title>RSA</title>
+      <title>Rsa</title>
       <link>https://www.shafiq.in/tags/rsa/</link>
       <pubDate>Sat, 01 Dec 2012 16:27:52 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/rsa/</guid>
@@ -1165,7 +1151,7 @@
       <description></description>
     </item>
     <item>
-      <title>Risk Management</title>
+      <title>Risk-Management</title>
       <link>https://www.shafiq.in/tags/risk-management/</link>
       <pubDate>Sat, 01 Dec 2012 16:13:45 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/risk-management/</guid>
@@ -1207,21 +1193,21 @@
       <description></description>
     </item>
     <item>
-      <title>IOS</title>
+      <title>Ios</title>
       <link>https://www.shafiq.in/tags/ios/</link>
       <pubDate>Wed, 31 Oct 2012 14:26:45 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/ios/</guid>
       <description></description>
     </item>
     <item>
-      <title>WordPress</title>
+      <title>Wordpress</title>
       <link>https://www.shafiq.in/tags/wordpress/</link>
       <pubDate>Wed, 31 Oct 2012 14:26:45 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/wordpress/</guid>
       <description></description>
     </item>
     <item>
-      <title>WordPress Theme</title>
+      <title>Wordpress Theme</title>
       <link>https://www.shafiq.in/tags/wordpress-theme/</link>
       <pubDate>Wed, 31 Oct 2012 14:26:45 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/wordpress-theme/</guid>
@@ -1235,7 +1221,7 @@
       <description></description>
     </item>
     <item>
-      <title>CI/CD</title>
+      <title>Ci/Cd</title>
       <link>https://www.shafiq.in/tags/ci/cd/</link>
       <pubDate>Thu, 30 Aug 2012 17:14:59 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/ci/cd/</guid>
@@ -1256,7 +1242,7 @@
       <description></description>
     </item>
     <item>
-      <title>MCollective</title>
+      <title>Mcollective</title>
       <link>https://www.shafiq.in/tags/mcollective/</link>
       <pubDate>Thu, 30 Aug 2012 17:14:59 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/mcollective/</guid>
@@ -1326,7 +1312,7 @@
       <description></description>
     </item>
     <item>
-      <title>IP</title>
+      <title>Ip</title>
       <link>https://www.shafiq.in/tags/ip/</link>
       <pubDate>Sun, 22 Jan 2012 08:12:58 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/ip/</guid>
@@ -1361,7 +1347,7 @@
       <description></description>
     </item>
     <item>
-      <title>Erp</title>
+      <title>ERP</title>
       <link>https://www.shafiq.in/tags/erp/</link>
       <pubDate>Fri, 11 Nov 2011 05:15:24 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/erp/</guid>
@@ -1452,7 +1438,7 @@
       <description></description>
     </item>
     <item>
-      <title>PSD</title>
+      <title>Psd</title>
       <link>https://www.shafiq.in/tags/psd/</link>
       <pubDate>Thu, 16 Jun 2011 13:47:19 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/psd/</guid>
@@ -1526,27 +1512,6 @@
       <link>https://www.shafiq.in/tags/professional-development/</link>
       <pubDate>Mon, 04 Apr 2011 04:36:59 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/professional-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Opensuse</title>
-      <link>https://www.shafiq.in/tags/opensuse/</link>
-      <pubDate>Sun, 13 Mar 2011 10:49:42 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/opensuse/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Opensuse 11.4</title>
-      <link>https://www.shafiq.in/tags/opensuse-11.4/</link>
-      <pubDate>Sun, 13 Mar 2011 10:49:42 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/opensuse-11.4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Screenshots</title>
-      <link>https://www.shafiq.in/tags/screenshots/</link>
-      <pubDate>Sun, 13 Mar 2011 10:49:42 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/screenshots/</guid>
       <description></description>
     </item>
     <item>
@@ -1879,7 +1844,7 @@
       <description></description>
     </item>
     <item>
-      <title>CMS</title>
+      <title>Cms</title>
       <link>https://www.shafiq.in/tags/cms/</link>
       <pubDate>Fri, 09 Oct 2009 07:32:57 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/cms/</guid>
@@ -1921,7 +1886,7 @@
       <description></description>
     </item>
     <item>
-      <title>SD Module</title>
+      <title>Sd Module</title>
       <link>https://www.shafiq.in/tags/sd-module/</link>
       <pubDate>Thu, 06 Aug 2009 06:12:49 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/sd-module/</guid>
@@ -1935,7 +1900,7 @@
       <description></description>
     </item>
     <item>
-      <title>HTML</title>
+      <title>Html</title>
       <link>https://www.shafiq.in/tags/html/</link>
       <pubDate>Sun, 02 Aug 2009 18:18:37 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/html/</guid>
@@ -1956,7 +1921,7 @@
       <description></description>
     </item>
     <item>
-      <title>.NET</title>
+      <title>.Net</title>
       <link>https://www.shafiq.in/tags/.net/</link>
       <pubDate>Sun, 12 Jul 2009 07:40:57 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/.net/</guid>
@@ -2012,14 +1977,14 @@
       <description></description>
     </item>
     <item>
-      <title>SEO</title>
+      <title>Seo</title>
       <link>https://www.shafiq.in/tags/seo/</link>
       <pubDate>Sat, 20 Jun 2009 05:47:06 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/seo/</guid>
       <description></description>
     </item>
     <item>
-      <title>URLs</title>
+      <title>Urls</title>
       <link>https://www.shafiq.in/tags/urls/</link>
       <pubDate>Sat, 20 Jun 2009 05:47:06 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/urls/</guid>
