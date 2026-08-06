@@ -161,172 +161,337 @@
 &lt;p&gt;Quantified Self:&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Self Care</title>
+      <link>https://www.shafiq.in/docs/projects/writing/self-care/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/projects/writing/self-care/</guid>
+      <description>&lt;p&gt;Notes on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fashion: Developing a personal style, curating a wardrobe, and exploring fashion trends.&lt;/li&gt;
+&lt;li&gt;Grooming: Hair care, skincare, makeup, and personal hygiene routines.&lt;/li&gt;
+&lt;li&gt;Self-presentation: Body language, posture, and non-verbal communication.&lt;/li&gt;
+&lt;li&gt;Personal branding: Creating a consistent and authentic personal brand across online and offline platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quantified-self&#34;&gt;Quantified Self&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Outfits worn per week&lt;/li&gt;
+&lt;li&gt;Items purchased (clothing, accessories, grooming products)&lt;/li&gt;
+&lt;li&gt;Money spent on fashion and grooming&lt;/li&gt;
+&lt;li&gt;Skincare routine consistency (days followed)&lt;/li&gt;
+&lt;li&gt;Haircare products used&lt;/li&gt;
+&lt;li&gt;Gym clothes vs. casual clothes ratio&lt;/li&gt;
+&lt;li&gt;Outfit changes per day&lt;/li&gt;
+&lt;li&gt;Laundry cycles completed&lt;/li&gt;
+&lt;li&gt;Dry cleaning visits&lt;/li&gt;
+&lt;li&gt;Tailoring or alterations done&lt;/li&gt;
+&lt;li&gt;Perfume/cologne bottles owned&lt;/li&gt;
+&lt;li&gt;Shoes owned vs. shoes worn&lt;/li&gt;
+&lt;li&gt;Capsules or coordinated outfits created&lt;/li&gt;
+&lt;li&gt;Seasonal wardrobe updates completed&lt;/li&gt;
+&lt;li&gt;Thrifted or second-hand items purchased&lt;/li&gt;
+&lt;li&gt;Impulse fashion purchases tracked&lt;/li&gt;
+&lt;li&gt;Clothing returns made&lt;/li&gt;
+&lt;li&gt;Donation boxes filled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fashion&#34;&gt;Fashion&lt;/h2&gt;
+&lt;h3 id=&#34;developing-a-personal-style&#34;&gt;Developing a Personal Style&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Identifying colour palettes that suit your skin tone&lt;/li&gt;
+&lt;li&gt;Understanding body types and what flatters them&lt;/li&gt;
+&lt;li&gt;Building a capsule wardrobe&lt;/li&gt;
+&lt;li&gt;Mixing high and low street pieces&lt;/li&gt;
+&lt;li&gt;Learning when to follow trends and when to ignore them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;wardrobe-essentials&#34;&gt;Wardrobe Essentials&lt;/h3&gt;
+&lt;h4 id=&#34;the-basics&#34;&gt;The Basics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Well-fitting white t-shirts&lt;/li&gt;
+&lt;li&gt;Dark denim jeans&lt;/li&gt;
+&lt;li&gt;Black or navy chinos&lt;/li&gt;
+&lt;li&gt;A fitted blazer&lt;/li&gt;
+&lt;li&gt;A quality leather jacket&lt;/li&gt;
+&lt;li&gt;White sneakers&lt;/li&gt;
+&lt;li&gt;Black boots&lt;/li&gt;
+&lt;li&gt;A neutral knit sweater&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;seasonal-additions&#34;&gt;Seasonal Additions&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Lightweight coat for spring&lt;/li&gt;
+&lt;li&gt;Waterproof jacket for rain&lt;/li&gt;
+&lt;li&gt;Wool overcoat for winter&lt;/li&gt;
+&lt;li&gt;Linen shirts for summer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;shopping-smart&#34;&gt;Shopping Smart&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Buying less, buying better&lt;/li&gt;
+&lt;li&gt;Knowing your measurements before shopping online&lt;/li&gt;
+&lt;li&gt;Checking fabric composition (natural fibres tend to last longer)&lt;/li&gt;
+&lt;li&gt;Looking for sales and end-of-season clearances&lt;/li&gt;
+&lt;li&gt;Investing in tailoring — a £20 alteration can transform a £50 garment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;caring-for-your-clothes&#34;&gt;Caring for Your Clothes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Washing less frequently (jeans, knitwear)&lt;/li&gt;
+&lt;li&gt;Using garment bags for storage&lt;/li&gt;
+&lt;li&gt;Learning basic sewing — button replacement, hemming&lt;/li&gt;
+&lt;li&gt;Proper shoe care (polishing, waterproofing)&lt;/li&gt;
+&lt;li&gt;Rotating shoes to extend their life&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grooming&#34;&gt;Grooming&lt;/h2&gt;
+&lt;h3 id=&#34;skincare&#34;&gt;Skincare&lt;/h3&gt;
+&lt;h4 id=&#34;the-basics-1&#34;&gt;The Basics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Cleanser — morning and night&lt;/li&gt;
+&lt;li&gt;Moisturiser — suited to your skin type&lt;/li&gt;
+&lt;li&gt;Sunscreen — every day, even when it&amp;rsquo;s cloudy&lt;/li&gt;
+&lt;li&gt;Exfoliator — once or twice a week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;going-further&#34;&gt;Going Further&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Serums (vitamin C, retinol, hyaluronic acid)&lt;/li&gt;
+&lt;li&gt;Eye cream&lt;/li&gt;
+&lt;li&gt;Face mask (clay, hydrating, exfoliating)&lt;/li&gt;
+&lt;li&gt;Lip balm&lt;/li&gt;
+&lt;li&gt;Hand cream&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;skin-types-and-what-works&#34;&gt;Skin Types and What Works&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Oily skin: gel-based cleansers, oil-free moisturisers&lt;/li&gt;
+&lt;li&gt;Dry skin: cream cleansers, richer moisturisers, facial oils&lt;/li&gt;
+&lt;li&gt;Combination skin: balancing products, targeted treatment&lt;/li&gt;
+&lt;li&gt;Sensitive skin: fragrance-free, minimal ingredient lists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;haircare&#34;&gt;Haircare&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Finding a barber or stylist you trust&lt;/li&gt;
+&lt;li&gt;Understanding your hair type (straight, wavy, curly, coily)&lt;/li&gt;
+&lt;li&gt;Washing frequency — most people wash too often&lt;/li&gt;
+&lt;li&gt;Conditioner is not optional&lt;/li&gt;
+&lt;li&gt;Scalp health matters — dry scalp means itchy scalp&lt;/li&gt;
+&lt;li&gt;Trimming regularly even if you&amp;rsquo;re growing it out&lt;/li&gt;
+&lt;li&gt;Product selection — pomade, clay, cream, sea salt spray&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;personal-hygiene&#34;&gt;Personal Hygiene&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Daily shower or bath&lt;/li&gt;
+&lt;li&gt;Deodorant — clinical strength if needed&lt;/li&gt;
+&lt;li&gt;Nail care — trimmed, clean, under control&lt;/li&gt;
+&lt;li&gt;Nose and ear hair trimming&lt;/li&gt;
+&lt;li&gt;Oral hygiene — flossing, tongue scraping, mouthwash&lt;/li&gt;
+&lt;li&gt;Foot care — exfoliation, moisturising, proper socks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;makeup-for-those-who-wear-it&#34;&gt;Makeup (for Those Who Wear It)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Skincare first — makeup sits better on healthy skin&lt;/li&gt;
+&lt;li&gt;Less is more for everyday&lt;/li&gt;
+&lt;li&gt;Setting spray extends wear&lt;/li&gt;
+&lt;li&gt;Removing makeup properly before bed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;self-presentation&#34;&gt;Self-Presentation&lt;/h2&gt;
+&lt;h3 id=&#34;posture&#34;&gt;Posture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Shoulders back, chin level&lt;/li&gt;
+&lt;li&gt;Standing with weight evenly distributed&lt;/li&gt;
+&lt;li&gt;Sitting without slouching — core engaged&lt;/li&gt;
+&lt;li&gt;The wall test: heels, calves, shoulders, head against a wall&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;body-language&#34;&gt;Body Language&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Eye contact — confident but not staring&lt;/li&gt;
+&lt;li&gt;Open gestures — avoid crossing arms defensively&lt;/li&gt;
+&lt;li&gt;Handshakes — firm, brief, dry&lt;/li&gt;
+&lt;li&gt;Mirroring — subtly matching the other person&amp;rsquo;s energy&lt;/li&gt;
+&lt;li&gt;Personal space — respecting boundaries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;voice-and-speech&#34;&gt;Voice and Speech&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Speaking clearly and at a moderate pace&lt;/li&gt;
+&lt;li&gt;Avoiding vocal fry and uptalk&lt;/li&gt;
+&lt;li&gt;Pausing instead of filling silence with &amp;ldquo;um&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Matching your tone to the situation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dressing-for-the-occasion&#34;&gt;Dressing for the Occasion&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Knowing the dress code before you arrive&lt;/li&gt;
+&lt;li&gt;When in doubt, slightly overdressed beats underdressed&lt;/li&gt;
+&lt;li&gt;Fit matters more than brand&lt;/li&gt;
+&lt;li&gt;Clean, intact shoes go a long way&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;personal-branding&#34;&gt;Personal Branding&lt;/h2&gt;
+&lt;h3 id=&#34;online-presence&#34;&gt;Online Presence&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LinkedIn — professional, updated, with a proper photo&lt;/li&gt;
+&lt;li&gt;Social media — what would you want a potential employer to find?&lt;/li&gt;
+&lt;li&gt;Consistent name and photo across platforms&lt;/li&gt;
+&lt;li&gt;A personal website or portfolio if relevant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;offline-presence&#34;&gt;Offline Presence&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;How you introduce yourself&lt;/li&gt;
+&lt;li&gt;Your email signature&lt;/li&gt;
+&lt;li&gt;Business cards (yes, still)&lt;/li&gt;
+&lt;li&gt;Consistency between what you say and how you present yourself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-throughline&#34;&gt;The Throughline&lt;/h3&gt;
+&lt;p&gt;Your personal brand isn&amp;rsquo;t something you manufacture — it&amp;rsquo;s the consistent thread between who you are and how you show up. It emerges from repeated actions, not a single curated moment.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Social</title>
       <link>https://www.shafiq.in/docs/projects/writing/social/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/projects/writing/social/</guid>
       <description>&lt;p&gt;Notes on:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Communication: Effective communication strategies with partners, family, and friends.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Conflict resolution: Techniques for managing disagreements and strengthening relationships.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Support systems: Identifying and nurturing supportive relationships and social networks.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Quantified Self:&lt;/p&gt;
+&lt;li&gt;Communication: Effective communication strategies with partners, family, and friends.&lt;/li&gt;
+&lt;li&gt;Conflict resolution: Techniques for managing disagreements and strengthening relationships.&lt;/li&gt;
+&lt;li&gt;Support systems: Identifying and nurturing supportive relationships and social networks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quantified-self&#34;&gt;Quantified Self&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Time spent with family members&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Quality time with spouse or partner&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dates or outings with friends&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Social events attended&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Phone calls made or received&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Text messages sent or received&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Video calls made or received&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Gifts given or received&lt;/p&gt;</description>
+&lt;li&gt;Time spent with family members&lt;/li&gt;
+&lt;li&gt;Quality time with spouse or partner&lt;/li&gt;
+&lt;li&gt;Dates or outings with friends&lt;/li&gt;
+&lt;li&gt;Social events attended&lt;/li&gt;
+&lt;li&gt;Phone calls made or received&lt;/li&gt;
+&lt;li&gt;Text messages sent or received&lt;/li&gt;
+&lt;li&gt;Video calls made or received&lt;/li&gt;
+&lt;li&gt;Gifts given or received&lt;/li&gt;
+&lt;li&gt;Acts of kindness performed&lt;/li&gt;
+&lt;li&gt;Social media interactions (likes, comments, shares)&lt;/li&gt;
+&lt;li&gt;New friendships formed&lt;/li&gt;
+&lt;li&gt;Relationship conflicts or disagreements&lt;/li&gt;
+&lt;li&gt;Resolved conflicts with loved ones&lt;/li&gt;
+&lt;li&gt;Family traditions upheld&lt;/li&gt;
+&lt;li&gt;Relationship goals progress&lt;/li&gt;
+&lt;li&gt;Love languages identified and practised&lt;/li&gt;
+&lt;li&gt;Personal boundaries maintained&lt;/li&gt;
+&lt;li&gt;Emotional support provided to others&lt;/li&gt;
+&lt;li&gt;Social skills practised or improved&lt;/li&gt;
+&lt;li&gt;Loneliness levels assessed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;family-and-parenting&#34;&gt;Family and Parenting&lt;/h2&gt;
+&lt;h3 id=&#34;quality-time&#34;&gt;Quality Time&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Quality time with children, spouse, parents, siblings&lt;/li&gt;
+&lt;li&gt;Family outings or activities planned&lt;/li&gt;
+&lt;li&gt;Family meetings held&lt;/li&gt;
+&lt;li&gt;Family traditions maintained&lt;/li&gt;
+&lt;li&gt;Parent-child bonding activities&lt;/li&gt;
+&lt;li&gt;Family meals enjoyed together&lt;/li&gt;
+&lt;li&gt;Household responsibilities shared&lt;/li&gt;
+&lt;li&gt;Family memories captured or recorded&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;parenting&#34;&gt;Parenting&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Parenting challenges overcome&lt;/li&gt;
+&lt;li&gt;Parenting victories celebrated&lt;/li&gt;
+&lt;li&gt;Parenting goals progress&lt;/li&gt;
+&lt;li&gt;Family communication improved&lt;/li&gt;
+&lt;li&gt;Child development milestones tracked&lt;/li&gt;
+&lt;li&gt;Parenting resources consumed (books, podcasts, workshops)&lt;/li&gt;
+&lt;li&gt;Parenting philosophies explored&lt;/li&gt;
+&lt;li&gt;Parenting support networks engaged with&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;positive-discipline&#34;&gt;Positive Discipline&lt;/h3&gt;
+&lt;h4 id=&#34;natural-consequences&#34;&gt;Natural Consequences&lt;/h4&gt;
+&lt;h4 id=&#34;time-out&#34;&gt;Time-out&lt;/h4&gt;
+&lt;h3 id=&#34;bonding-activities&#34;&gt;Bonding Activities&lt;/h3&gt;
+&lt;h4 id=&#34;family-dinners&#34;&gt;Family Dinners&lt;/h4&gt;
+&lt;h4 id=&#34;movie-nights&#34;&gt;Movie Nights&lt;/h4&gt;
+&lt;h3 id=&#34;communication-skills&#34;&gt;Communication Skills&lt;/h3&gt;
+&lt;h4 id=&#34;small-talk-topics&#34;&gt;Small Talk Topics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Recent movies or TV shows you&amp;rsquo;ve watched and enjoyed&lt;/li&gt;
+&lt;li&gt;Books you&amp;rsquo;ve read recently or your favourite authors&lt;/li&gt;
+&lt;li&gt;Hobbies or interests you both share, such as cooking, hiking, or painting&lt;/li&gt;
+&lt;li&gt;Current events or news stories that have caught your attention&lt;/li&gt;
+&lt;li&gt;Travel experiences or dream destinations you&amp;rsquo;d like to visit&lt;/li&gt;
+&lt;li&gt;Personal goals or aspirations you&amp;rsquo;re working towards&lt;/li&gt;
+&lt;li&gt;Funny anecdotes or memorable experiences from your past&lt;/li&gt;
+&lt;li&gt;Music you&amp;rsquo;ve been listening to lately or concerts you&amp;rsquo;ve attended&lt;/li&gt;
+&lt;li&gt;Food preferences or new recipes you&amp;rsquo;ve tried&lt;/li&gt;
+&lt;li&gt;Technology trends or gadgets you find interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;active-listening&#34;&gt;Active Listening&lt;/h4&gt;
+&lt;h4 id=&#34;empathy&#34;&gt;Empathy&lt;/h4&gt;
+&lt;h3 id=&#34;conflict-resolution&#34;&gt;Conflict Resolution&lt;/h3&gt;
+&lt;h4 id=&#34;fair-fighting-rules&#34;&gt;Fair Fighting Rules&lt;/h4&gt;
+&lt;h4 id=&#34;compromise&#34;&gt;Compromise&lt;/h4&gt;
+&lt;h2 id=&#34;sibling-dynamics&#34;&gt;Sibling Dynamics&lt;/h2&gt;
+&lt;h3 id=&#34;conflict-resolution-1&#34;&gt;Conflict Resolution&lt;/h3&gt;
+&lt;h3 id=&#34;sharing-responsibilities&#34;&gt;Sharing Responsibilities&lt;/h3&gt;
+&lt;h3 id=&#34;compromise-1&#34;&gt;Compromise&lt;/h3&gt;
+&lt;h3 id=&#34;sibling-bonding&#34;&gt;Sibling Bonding&lt;/h3&gt;
+&lt;h4 id=&#34;shared-hobbies&#34;&gt;Shared Hobbies&lt;/h4&gt;
+&lt;h4 id=&#34;sibling-retreats&#34;&gt;Sibling Retreats&lt;/h4&gt;
+&lt;h3 id=&#34;mutual-support&#34;&gt;Mutual Support&lt;/h3&gt;
+&lt;h4 id=&#34;emotional-support&#34;&gt;Emotional Support&lt;/h4&gt;
+&lt;h4 id=&#34;practical-support&#34;&gt;Practical Support&lt;/h4&gt;
+&lt;h2 id=&#34;friends&#34;&gt;Friends&lt;/h2&gt;
+&lt;h2 id=&#34;social-support&#34;&gt;Social Support&lt;/h2&gt;
+&lt;h3 id=&#34;emotional-support-1&#34;&gt;Emotional Support&lt;/h3&gt;
+&lt;h3 id=&#34;empathy-1&#34;&gt;Empathy&lt;/h3&gt;
+&lt;h3 id=&#34;validation&#34;&gt;Validation&lt;/h3&gt;
+&lt;h3 id=&#34;practical-support-1&#34;&gt;Practical Support&lt;/h3&gt;
+&lt;h4 id=&#34;helping-with-tasks&#34;&gt;Helping with Tasks&lt;/h4&gt;
+&lt;h4 id=&#34;offering-advice&#34;&gt;Offering Advice&lt;/h4&gt;
+&lt;h3 id=&#34;recreational-activities&#34;&gt;Recreational Activities&lt;/h3&gt;
+&lt;h4 id=&#34;sports-games&#34;&gt;Sports Games&lt;/h4&gt;
+&lt;h4 id=&#34;board-game-nights&#34;&gt;Board Game Nights&lt;/h4&gt;
+&lt;h2 id=&#34;communication&#34;&gt;Communication&lt;/h2&gt;
+&lt;h3 id=&#34;active-listening-1&#34;&gt;Active Listening&lt;/h3&gt;
+&lt;h3 id=&#34;reflective-listening&#34;&gt;Reflective Listening&lt;/h3&gt;
+&lt;h3 id=&#34;clarification&#34;&gt;Clarification&lt;/h3&gt;
+&lt;h3 id=&#34;assertiveness&#34;&gt;Assertiveness&lt;/h3&gt;
+&lt;h3 id=&#34;setting-boundaries&#34;&gt;Setting Boundaries&lt;/h3&gt;
+&lt;h3 id=&#34;expressing-needs&#34;&gt;Expressing Needs&lt;/h3&gt;
+&lt;h3 id=&#34;conflict-resolution-2&#34;&gt;Conflict Resolution&lt;/h3&gt;
+&lt;h3 id=&#34;negotiation&#34;&gt;Negotiation&lt;/h3&gt;
+&lt;h3 id=&#34;problem-solving&#34;&gt;Problem-solving&lt;/h3&gt;
+&lt;h3 id=&#34;apology-and-forgiveness&#34;&gt;Apology and Forgiveness&lt;/h3&gt;
+&lt;h2 id=&#34;romantic&#34;&gt;Romantic&lt;/h2&gt;
+&lt;h2 id=&#34;intimacy&#34;&gt;Intimacy&lt;/h2&gt;
+&lt;h3 id=&#34;emotional-intimacy&#34;&gt;Emotional Intimacy&lt;/h3&gt;
+&lt;h4 id=&#34;sharing-feelings&#34;&gt;Sharing Feelings&lt;/h4&gt;
+&lt;h4 id=&#34;vulnerability&#34;&gt;Vulnerability&lt;/h4&gt;
+&lt;h3 id=&#34;physical-intimacy&#34;&gt;Physical Intimacy&lt;/h3&gt;
+&lt;h4 id=&#34;sensual-touch&#34;&gt;Sensual Touch&lt;/h4&gt;
+&lt;h4 id=&#34;sexual-activity&#34;&gt;Sexual Activity&lt;/h4&gt;
+&lt;h3 id=&#34;open-communication&#34;&gt;Open Communication&lt;/h3&gt;
+&lt;h4 id=&#34;transparency&#34;&gt;Transparency&lt;/h4&gt;
+&lt;h4 id=&#34;vulnerability-1&#34;&gt;Vulnerability&lt;/h4&gt;
+&lt;h3 id=&#34;trust-building&#34;&gt;Trust Building&lt;/h3&gt;
+&lt;h4 id=&#34;consistency&#34;&gt;Consistency&lt;/h4&gt;
+&lt;h4 id=&#34;reliability&#34;&gt;Reliability&lt;/h4&gt;
+&lt;h3 id=&#34;conflict-resolution-3&#34;&gt;Conflict Resolution&lt;/h3&gt;
+&lt;h3 id=&#34;active-listening-2&#34;&gt;Active Listening&lt;/h3&gt;
+&lt;h3 id=&#34;compromise-2&#34;&gt;Compromise&lt;/h3&gt;</description>
     </item>
     <item>
       <title>Personal Development</title>
       <link>https://www.shafiq.in/docs/projects/writing/personal-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/projects/writing/personal-development/</guid>
-      <description>&lt;p&gt;Notes on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Self-awareness: Understanding your strengths, weaknesses, and personal boundaries.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Personal development: Setting goals for self-improvement and tracking progress.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mindset: Cultivating a positive attitude, resilience, and a growth mindset.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Self-care practices: Establishing routines for physical, mental, and emotional well-being.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;setting and achieving personal goals, skill development plans, self-reflection exercises, and some inspirational quotes to keep me motivated.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Quantified Self:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Productivity and Time Management:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Daily to-do list items completed&lt;/li&gt;
-&lt;li&gt;Time spent on specific tasks or projects&lt;/li&gt;
-&lt;li&gt;Procrastination episodes&lt;/li&gt;
-&lt;li&gt;Pomodoro or time-blocking sessions completed&lt;/li&gt;
-&lt;li&gt;Distractions encountered during work/study time&lt;/li&gt;
-&lt;li&gt;Break frequency and duration&lt;/li&gt;
-&lt;li&gt;Peak productivity hours identified&lt;/li&gt;
-&lt;li&gt;Multitasking instances&lt;/li&gt;
-&lt;li&gt;Meetings attended or scheduled&lt;/li&gt;
-&lt;li&gt;Emails sent and received&lt;/li&gt;
-&lt;li&gt;Inbox zero achieved&lt;/li&gt;
-&lt;li&gt;Goals set for the day/week/month&lt;/li&gt;
-&lt;li&gt;Goal progress tracked (percentage completed)&lt;/li&gt;
-&lt;li&gt;Time spent commuting&lt;/li&gt;
-&lt;li&gt;Commute-related activities (e.g., listening to podcasts, reading)&lt;/li&gt;
-&lt;li&gt;Learning activities undertaken (e.g., courses, reading)&lt;/li&gt;
-&lt;li&gt;Skills acquired or improved&lt;/li&gt;
-&lt;li&gt;Personal development goals progress&lt;/li&gt;
-&lt;li&gt;Books read or audiobooks listened to&lt;/li&gt;
-&lt;li&gt;Screen time (on devices such as smartphones, computers, tablets)&lt;/li&gt;
-&lt;li&gt;Social media usage (time spent, frequency of visits)&lt;/li&gt;
-&lt;li&gt;Apps or websites visited (productivity vs. leisure)&lt;/li&gt;
-&lt;li&gt;Screen-free time allocated&lt;/li&gt;
-&lt;li&gt;TV shows or movies watched&lt;/li&gt;
-&lt;li&gt;News consumption (sources, frequency)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Career and Professional Development:&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is where I keep notes on the things I&amp;rsquo;m trying to figure out about myself. Self-awareness, goal-setting, habits that actually stick, the occasional crisis of direction — all of it.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not a particularly polished collection. Some entries are finished thoughts, others are just fragments I&amp;rsquo;m sitting with. That&amp;rsquo;s fine by me.&lt;/p&gt;
+&lt;h2 id=&#34;self-awareness&#34;&gt;Self-Awareness&lt;/h2&gt;
+&lt;p&gt;Understanding yourself isn&amp;rsquo;t about grand revelations. It&amp;rsquo;s usually the small, inconvenient things you notice about yourself when you&amp;rsquo;re not paying attention — the way you react when someone interrupts you, the tasks you consistently avoid, the people who drain you without you realising it until later.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self Promotion at Work</title>
+      <link>https://www.shafiq.in/docs/projects/writing/self-promotion-at-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/projects/writing/self-promotion-at-work/</guid>
+      <description>&lt;p&gt;I used to think self-promotion meant bragging. Turns out it just means making sure the right people know what you&amp;rsquo;ve done. There&amp;rsquo;s a difference, and learning it changed how I move through my career.&lt;/p&gt;
+&lt;p&gt;The people who get promoted aren&amp;rsquo;t always the best workers. They&amp;rsquo;re the ones whose work gets seen. That&amp;rsquo;s not a conspiracy — it&amp;rsquo;s just how organisations work. If nobody knows you shipped the thing that saved the quarter, you&amp;rsquo;re not going to get the promotion.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spirituality</title>
       <link>https://www.shafiq.in/docs/projects/writing/spirituality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/projects/writing/spirituality/</guid>
-      <description>&lt;p&gt;Notes on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Spirituality: Religious or spiritual practices, meditation, prayer&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mindfulness: Mindfulness practices, presence, awareness&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Purpose and meaning: Life purpose, personal mission, legacy&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Philosophy.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Quantified Self:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Spirituality and Mindfulness:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Time spent in prayer or meditation&lt;/li&gt;
-&lt;li&gt;Spiritual texts read or studied&lt;/li&gt;
-&lt;li&gt;Religious or spiritual rituals observed&lt;/li&gt;
-&lt;li&gt;Acts of kindness towards others&lt;/li&gt;
-&lt;li&gt;Gratitude expressed&lt;/li&gt;
-&lt;li&gt;Moments of awe or wonder experienced&lt;/li&gt;
-&lt;li&gt;Volunteer work done for charitable causes&lt;/li&gt;
-&lt;li&gt;Compassionate actions taken&lt;/li&gt;
-&lt;li&gt;Forgiveness practices&lt;/li&gt;
-&lt;li&gt;Spiritual growth milestones achieved&lt;/li&gt;
-&lt;li&gt;Connection to nature nurtured&lt;/li&gt;
-&lt;li&gt;Spiritual community involvement (church, temple, mosque)&lt;/li&gt;
-&lt;li&gt;Mindfulness exercises practiced throughout the day&lt;/li&gt;
-&lt;li&gt;Moments of reflection on life&amp;rsquo;s purpose or meaning&lt;/li&gt;
-&lt;li&gt;Connection with one&amp;rsquo;s inner self explored&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;beliefs&#34;&gt;Beliefs&lt;/h2&gt;
-&lt;h2 id=&#34;religion&#34;&gt;Religion&lt;/h2&gt;
-&lt;h3 id=&#34;shia-islam&#34;&gt;Shia Islam&lt;/h3&gt;
-&lt;h4 id=&#34;shia-imami-ismaili-muslim&#34;&gt;Shia Imami Ismaili Muslim&lt;/h4&gt;
-&lt;h4 id=&#34;ginans&#34;&gt;Ginans&lt;/h4&gt;
-&lt;h4 id=&#34;quasidahs&#34;&gt;Quasidahs&lt;/h4&gt;
-&lt;h4 id=&#34;nandi&#34;&gt;Nandi&lt;/h4&gt;
-&lt;h4 id=&#34;awal-sufro&#34;&gt;Awal Sufro&lt;/h4&gt;
-&lt;h4 id=&#34;festivals&#34;&gt;Festivals&lt;/h4&gt;
-&lt;h4 id=&#34;miraj&#34;&gt;Miraj&lt;/h4&gt;
-&lt;h4 id=&#34;yawm-e-ali&#34;&gt;Yawm e ali&lt;/h4&gt;
-&lt;h4 id=&#34;waez&#34;&gt;Waez&lt;/h4&gt;
-&lt;h4 id=&#34;khidma&#34;&gt;Khidma&lt;/h4&gt;
-&lt;h4 id=&#34;month-of-rajab&#34;&gt;Month of rajab&lt;/h4&gt;
-&lt;h4 id=&#34;shukravari-beej&#34;&gt;Shukravari beej&lt;/h4&gt;
-&lt;h4 id=&#34;laylat-al-qadr&#34;&gt;Laylat al-Qadr&lt;/h4&gt;
-&lt;h4 id=&#34;salgirah&#34;&gt;Salgirah&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Why do Ismailis celebrate their Imams birthday?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Birthdays are generally seen as a time to celebrate and be thankful for those whom we care about. In this spirit, Ismailis celebrate the birthday of the living Imam-of-the-Time as a way of expressing their love, devotion, obedience, and gratitude to him.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been thinking a lot about spirituality lately. Not in the abstract, philosophical sense — more like the practical, daily kind. The kind that shows up when you&amp;rsquo;re sitting in a room full of people and feel completely alone, or when you&amp;rsquo;re walking through a forest and suddenly remember to breathe.&lt;/p&gt;
+&lt;p&gt;This page is where I&amp;rsquo;m collecting my thoughts on the subject. It covers religion, philosophy, meditation, and everything in between. Some of it is personal, some of it is research, and some of it is just me trying to figure things out as I go.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hobbies and Leisure</title>
@@ -499,29 +664,6 @@
 2.10. Advanced SaltStack Configuration Options&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Self Care</title>
-      <link>https://www.shafiq.in/docs/projects/writing/self-care/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/projects/writing/self-care/</guid>
-      <description>&lt;p&gt;Notes on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fashion: Developing a personal style, curating a wardrobe, and exploring fashion trends.&lt;/li&gt;
-&lt;li&gt;Grooming: Hair care, skincare, makeup, and personal hygiene routines.&lt;/li&gt;
-&lt;li&gt;Self-presentation: Body language, posture, and non-verbal communication.&lt;/li&gt;
-&lt;li&gt;Personal branding: Creating a consistent and authentic personal brand across online and offline platforms.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Self Promotion at Work</title>
-      <link>https://www.shafiq.in/docs/projects/writing/self-promotion-at-work/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/projects/writing/self-promotion-at-work/</guid>
-      <description>&lt;p&gt;1: Introduction&lt;/p&gt;
-&lt;p&gt;Self-promotion is one of the key ingredients of success in the workplace. This guide will provide you with tips and tricks to help you sell yourself and advance in your career.&lt;/p&gt;
-&lt;p&gt;2: Pronouns and Communication&lt;/p&gt;
-&lt;p&gt;Using the right pronouns in conversation can be a subtle yet effective way of self-promoting. Taking credit for your work and avoiding the use of &amp;ldquo;we&amp;rdquo; when discussing individual accomplishments can help you get the recognition you deserve.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Terraform</title>
       <link>https://www.shafiq.in/docs/projects/writing/terraform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -553,20 +695,6 @@
 &lt;li&gt;2.10 Debugging and Troubleshooting Terraform&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Chapter 3: Terraform Configuration&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>writing</title>
-      <link>https://www.shafiq.in/docs/projects/writing/_index.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/projects/writing/_index.fr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>writing</title>
-      <link>https://www.shafiq.in/docs/projects/writing/_index.hi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/projects/writing/_index.hi/</guid>
-      <description></description>
     </item>
     <item>
       <title>Your Playbook for an Amazing Life</title>

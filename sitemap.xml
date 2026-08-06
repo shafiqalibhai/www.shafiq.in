@@ -6,11 +6,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/docs/projects/writing/self-care/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/docs/projects/writing/social/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/docs/projects/writing/personal-development/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/docs/projects/writing/self-promotion-at-work/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -2778,22 +2786,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/_index.fr/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/_index.gu/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/_index.hi/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/_index.ko/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/docs/projects/writing/saltstack/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2802,23 +2794,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/self-care/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/self-promotion-at-work/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/docs/projects/software/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/software/_index.fr/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/software/_index.hi/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -2827,14 +2803,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/docs/projects/writing/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/_index.fr/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/_index.hi/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
