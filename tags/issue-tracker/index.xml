@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Issue-Tracker on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/issue-tracker/</link>
+    <description>Recent content in Issue-Tracker on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 01 Oct 2011 06:31:21 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/issue-tracker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Sample Issue Tracker Spreadsheet</title>
+      <link>https://www.shafiq.in/blog/a-sample-issue-tracker-spreadsheet/</link>
+      <pubDate>Sat, 01 Oct 2011 06:31:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-sample-issue-tracker-spreadsheet/</guid>
+      <description>&lt;p&gt;I put together a simple issue tracker spreadsheet for a project I was working on. Nothing fancy &amp;ndash; just something to keep track of bugs, tasks, and sub-tasks without the overhead of setting up a full issue tracking system.&lt;/p&gt;
+&lt;p&gt;The idea was to have something lightweight that anyone on the team could open and update without needing special software. You can grab it here: &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2011/10/sample-issue-tracker-spreadsheet1.xls&#34;&gt;sample issue tracker spreadsheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s got the basics: issue type, status, priority, resolution, assignee, reporter, dates, and an SLA column. The sample data shows what it looks like with a mix of open, verified, and closed issues at different priority levels.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

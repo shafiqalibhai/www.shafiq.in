@@ -7,8 +7,17 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Wed, 11 Sep 2024 10:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Sep 2025 11:53:23 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WHPH vs Super Productivity</title>
+      <link>https://www.shafiq.in/blog/whph-vs-super-productivity/</link>
+      <pubDate>Mon, 29 Sep 2025 11:53:23 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/whph-vs-super-productivity/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been trying to figure out which productivity app actually fits my workflow. Both WHPH (Work Hard Play Hard) and Super Productivity keep coming up, so I thought it was worth comparing them properly.&lt;/p&gt;
+&lt;h2 id=&#34;whph-work-hard-play-hard&#34;&gt;WHPH (Work Hard Play Hard)&lt;/h2&gt;
+&lt;p&gt;WHPH is a general-purpose productivity app. It does several things: tracks your tasks, monitors which apps you use and for how long, helps you build habits, and gives you a basic sense of where your time goes. The sync between desktop and mobile happens over your local network &amp;ndash; no cloud, no account, just devices talking to each other.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Building a Second Brain</title>
       <link>https://www.shafiq.in/blog/building-a-second-brain/</link>

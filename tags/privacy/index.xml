@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Thu, 30 Sep 2010 06:27:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 14:18:11 +0100</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hiding YouTube Shorts on a self-hosted Invidious</title>
+      <link>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</link>
+      <pubDate>Wed, 13 May 2026 14:18:11 +0100</pubDate>
+      <guid>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</guid>
+      <description>Upstream Invidious won&amp;#39;t add a Shorts toggle, so I wrote a pair of uBlock Origin filters that read the Invidious DOM directly.</description>
+    </item>
     <item>
       <title>Disabling Google Analytics</title>
       <link>https://www.shafiq.in/blog/disabling-google-analytics/</link>

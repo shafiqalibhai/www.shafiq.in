@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Youtube on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/youtube/</link>
+    <description>Recent content in Youtube on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 13 May 2026 14:18:11 +0100</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hiding YouTube Shorts on a self-hosted Invidious</title>
+      <link>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</link>
+      <pubDate>Wed, 13 May 2026 14:18:11 +0100</pubDate>
+      <guid>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</guid>
+      <description>Upstream Invidious won&amp;#39;t add a Shorts toggle, so I wrote a pair of uBlock Origin filters that read the Invidious DOM directly.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vetting on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/vetting/</link>
+    <description>Recent content in Vetting on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 11 Jul 2023 01:50:03 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/vetting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Clearance Vetting for Access to Cloud Production Environments</title>
+      <link>https://www.shafiq.in/blog/security-clearance-vetting-for-access-to-cloud-production-environments/</link>
+      <pubDate>Tue, 11 Jul 2023 01:50:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/security-clearance-vetting-for-access-to-cloud-production-environments/</guid>
+      <description>&lt;p&gt;Access to cloud production environments should require security clearance vetting. Production systems hold live data and applications, and the consequences of compromise are direct.&lt;/p&gt;
+&lt;h2 id=&#34;uk-clearance-levels&#34;&gt;UK clearance levels&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Level&lt;/th&gt;
+					&lt;th&gt;What it covers&lt;/th&gt;
+					&lt;th&gt;Checks included&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;BPSS&lt;/td&gt;
+					&lt;td&gt;Pre-employment screening for government asset access&lt;/td&gt;
+					&lt;td&gt;Identity, employment history, immigration status, unspent criminal record&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;AC&lt;/td&gt;
+					&lt;td&gt;Unescorted access to UK airport security areas&lt;/td&gt;
+					&lt;td&gt;Identity, employment history, criminal record, government agency records&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CTC / Level 1B&lt;/td&gt;
+					&lt;td&gt;UK OFFICIAL assets, occasional SECRET access&lt;/td&gt;
+					&lt;td&gt;Identity, employment, criminal record, financial situation, personal circumstances&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;SC&lt;/td&gt;
+					&lt;td&gt;Substantial unsupervised SECRET access&lt;/td&gt;
+					&lt;td&gt;Everything in CTC plus credit reference and MI5 record checks&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;DV&lt;/td&gt;
+					&lt;td&gt;Substantial unsupervised TOP SECRET access&lt;/td&gt;
+					&lt;td&gt;Everything in SC plus detailed interview and referee enquiries&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;the-process&#34;&gt;The process&lt;/h2&gt;
+&lt;p&gt;You need a sponsor — usually HR or a company security controller. They confirm your role requires vetting and that BPSS checks are complete (unless you&amp;rsquo;re doing AC). You then fill out a security questionnaire online covering personal details, employment history, finances, criminal record, foreign travel, and contacts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

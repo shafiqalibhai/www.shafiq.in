@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Personal-Finance on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/personal-finance/</link>
+    <description>Recent content in Personal-Finance on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 22 May 2025 11:12:47 +0200</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/personal-finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on Personal Finance</title>
+      <link>https://www.shafiq.in/blog/notes-on-personal-finance/</link>
+      <pubDate>Thu, 22 May 2025 11:12:47 +0200</pubDate>
+      <guid>https://www.shafiq.in/blog/notes-on-personal-finance/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been slowly getting my head around personal finance over the last few years. Nothing dramatic — just trying to understand where money goes, how to save it, and what to do with it once you&amp;rsquo;ve saved some. Here&amp;rsquo;s a collection of frameworks, tools, and resources that have helped.&lt;/p&gt;
+&lt;h2 id=&#34;budgeting&#34;&gt;Budgeting&lt;/h2&gt;
+&lt;p&gt;The first step is knowing what you actually spend. Most people guess and are wrong.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://monarchmoney.com&#34;&gt;Monarch Money&lt;/a&gt; &amp;ndash; A budgeting app that connects to your accounts and categorises spending automatically. I&amp;rsquo;ve found it useful for seeing where money leaks out each month.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youneedabudget.com&#34;&gt;YNAB (You Need A Budget)&lt;/a&gt; &amp;ndash; The most aggressive budgeting method I&amp;rsquo;ve tried. Every pound gets assigned a job before you spend it. Steep learning curve but changes how you think about money.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pocketguard.com&#34;&gt;PocketGuard&lt;/a&gt; &amp;ndash; Simpler than YNAB. Tells you how much &amp;ldquo;spendable&amp;rdquo; cash you have after bills and savings are accounted for.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=budget&amp;#43;template&amp;#43;spreadsheet&#34;&gt;Google Sheets budget templates&lt;/a&gt; &amp;ndash; If you prefer manual control, a spreadsheet gives you full visibility without linking bank accounts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tracking-and-the-quantified-self&#34;&gt;Tracking and the Quantified Self&lt;/h2&gt;
+&lt;p&gt;Once you&amp;rsquo;re budgeting, tracking specific metrics helps you see progress.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

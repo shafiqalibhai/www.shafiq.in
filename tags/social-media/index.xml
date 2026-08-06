@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Social-Media on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/social-media/</link>
+    <description>Recent content in Social-Media on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 29 Sep 2025 14:50:26 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running your own Mastodon instance with Docker Compose</title>
+      <link>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</link>
+      <pubDate>Mon, 29 Sep 2025 14:50:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running a Mastodon instance for a while now, and every time I set one up from scratch I end up digging through documentation that&amp;rsquo;s either outdated or assumes you already know what you&amp;rsquo;re doing. This is the guide I wish I&amp;rsquo;d had.&lt;/p&gt;
+&lt;h2 id=&#34;what-you-need&#34;&gt;What you need&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A server with Docker and Docker Compose installed&lt;/li&gt;
+&lt;li&gt;A domain name that points to your server&amp;rsquo;s IP address&lt;/li&gt;
+&lt;li&gt;Somewhere to send email (Mailgun, SendGrid, or your own SMTP server)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s it. No Kubernetes, no systemd fiddling, no compiling from source.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Self-Hosted on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/self-hosted/</link>
+    <description>Recent content in Self-Hosted on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Wed, 13 May 2026 14:18:11 +0100</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/self-hosted/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hiding YouTube Shorts on a self-hosted Invidious</title>
+      <link>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</link>
+      <pubDate>Wed, 13 May 2026 14:18:11 +0100</pubDate>
+      <guid>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</guid>
+      <description>Upstream Invidious won&amp;#39;t add a Shorts toggle, so I wrote a pair of uBlock Origin filters that read the Invidious DOM directly.</description>
+    </item>
+    <item>
+      <title>Running your own Mastodon instance with Docker Compose</title>
+      <link>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</link>
+      <pubDate>Mon, 29 Sep 2025 14:50:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running a Mastodon instance for a while now, and every time I set one up from scratch I end up digging through documentation that&amp;rsquo;s either outdated or assumes you already know what you&amp;rsquo;re doing. This is the guide I wish I&amp;rsquo;d had.&lt;/p&gt;
+&lt;h2 id=&#34;what-you-need&#34;&gt;What you need&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A server with Docker and Docker Compose installed&lt;/li&gt;
+&lt;li&gt;A domain name that points to your server&amp;rsquo;s IP address&lt;/li&gt;
+&lt;li&gt;Somewhere to send email (Mailgun, SendGrid, or your own SMTP server)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s it. No Kubernetes, no systemd fiddling, no compiling from source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self-hosted services worth running on your homelab</title>
+      <link>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</link>
+      <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running a small homelab for a few years now, mostly just to tinker and escape the subscription treadmill. Over time I&amp;rsquo;ve collected a bunch of services that actually earn their keep, and this is a running list of the ones I&amp;rsquo;d recommend to someone starting out or looking to fill gaps in their setup.&lt;/p&gt;
+&lt;p&gt;Nothing fancy. Just stuff that works, runs quietly, and gives you back control of your own data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

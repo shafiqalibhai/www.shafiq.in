@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Machine-Learning on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/machine-learning/</link>
+    <description>Recent content in Machine-Learning on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Nov 2011 05:48:11 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applications of Neural Networks</title>
+      <link>https://www.shafiq.in/blog/applications-of-neural-networks/</link>
+      <pubDate>Fri, 11 Nov 2011 05:48:11 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/applications-of-neural-networks/</guid>
+      <description>&lt;p&gt;This is a collection of research projects and applications I worked on using neural networks. Most of the video demos linked below are no longer available — the servers they lived on have been dead for years. I&amp;rsquo;m keeping the descriptions because they capture what the work was about.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-neural-network&#34;&gt;What is a Neural Network?&lt;/h2&gt;
+&lt;p&gt;An artificial neural network (ANN) is an information processing system inspired by biological nervous systems. It&amp;rsquo;s made up of a large number of interconnected processing elements — neurons — that work together to solve problems. Like people, ANNs learn by example. You configure them for a task, whether that&amp;rsquo;s pattern recognition or data classification, and they figure out the solution through a learning process. In biological systems, learning means adjusting synaptic connections between neurons. Neural networks do the same thing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

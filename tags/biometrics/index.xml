@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Biometrics on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/biometrics/</link>
+    <description>Recent content in Biometrics on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Nov 2011 05:58:31 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/biometrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effective human-computer interaction through cognitive biometrics</title>
+      <link>https://www.shafiq.in/blog/effective-human-computer-interaction-through-cognitive-biometrics/</link>
+      <pubDate>Fri, 11 Nov 2011 05:58:31 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/effective-human-computer-interaction-through-cognitive-biometrics/</guid>
+      <description>&lt;p&gt;This is a paper I wrote exploring how brain-machine interfaces could change the way we interact with computers. The core idea was simple: most interfaces still demand motor work — hands on a keyboard, fingers on a mouse. What if you could skip that entirely?&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
+&lt;p&gt;Human-computer interaction has come a long way. Touchscreens let you bypass the mouse. But you still need hands. For some people — those with motor impairments, for example — that&amp;rsquo;s a real barrier. Even for everyone else, there&amp;rsquo;s something inherently slower about translating a thought into a hand movement, then into a keystroke or click.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

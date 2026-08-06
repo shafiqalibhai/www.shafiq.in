@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>First-Project on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/first-project/</link>
+    <description>Recent content in First-Project on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 14 Jun 2011 22:13:37 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/first-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Built My First Website for My College</title>
+      <link>https://www.shafiq.in/blog/how-i-built-my-first-website-for-my-college/</link>
+      <pubDate>Tue, 14 Jun 2011 22:13:37 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-i-built-my-first-website-for-my-college/</guid>
+      <description>&lt;p&gt;Hello everyone! Today I want to share with you the first project I ever did: the college website! This was a very old project that I did with the help of Subhash Dasyam. It was a great learning experience for me and I&amp;rsquo;m excited to tell you more about it.&lt;/p&gt;
+&lt;h2 id=&#34;the-project&#34;&gt;The Project&lt;/h2&gt;
+&lt;p&gt;The college website was a simple static website that showcased the information and achievements of our college, ASTRA. It had pages for the departments, faculty, students, events, gallery, and contact. It also had a login system for the admin and the students.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

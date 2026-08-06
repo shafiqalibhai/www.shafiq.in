@@ -7,8 +7,17 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Mar 2010 06:52:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Oct 2011 08:40:49 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Sample Scrum Template</title>
+      <link>https://www.shafiq.in/blog/a-sample-scrum-template/</link>
+      <pubDate>Sat, 01 Oct 2011 08:40:49 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-sample-scrum-template/</guid>
+      <description>&lt;p&gt;I needed a simple way to track a scrum project without investing in a tool, so I built a spreadsheet template. It&amp;rsquo;s not meant to replace anything serious &amp;ndash; just something to get the structure down on paper before things get messy.&lt;/p&gt;
+&lt;p&gt;You can grab it here: &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2011/10/scrum-tmpl-100212.xls&#34;&gt;scrum-tmpl-100212&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s got three sheets. The first is basic project info &amp;ndash; organisation, project name, scrum master, product owner, start date. The second is the product backlog, laid out by sprint with room to track effort against each release. The third is an impediments log, so when something blocks the team you write it down with a category, date, and who raised it instead of letting it get lost in a standup conversation.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Scrum in 8 Steps</title>
       <link>https://www.shafiq.in/blog/scrum-in-8-steps/</link>

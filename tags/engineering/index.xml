@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Engineering on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/engineering/</link>
+    <description>Recent content in Engineering on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 22 May 2025 12:04:38 +0200</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When a Problem Is Worth Solving</title>
+      <link>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</link>
+      <pubDate>Thu, 22 May 2025 12:04:38 +0200</pubDate>
+      <guid>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</guid>
+      <description>&lt;p&gt;I used to take on any project that came my way. That was a mistake.&lt;/p&gt;
+&lt;p&gt;Not every problem deserves your time, and not every client is worth working with. Over the years I&amp;rsquo;ve learned to filter opportunities through a simple set of questions before committing to anything.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can they fix it themselves?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If the answer is yes &amp;ndash; or if a decent blog post could solve it &amp;ndash; then it&amp;rsquo;s not a consulting engagement. It&amp;rsquo;s a homework assignment. The value of consulting lies in the gap between what the client knows and what they need to know. Close that gap and you&amp;rsquo;ve got nothing to sell.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I set up a data pipeline that actually works</title>
+      <link>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</link>
+      <pubDate>Fri, 01 Mar 2024 08:16:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</guid>
+      <description>&lt;p&gt;I spent three months building a data pipeline last year and another two months fixing the things I got wrong. What follows is the architecture I ended up with, and more importantly the decisions that shaped it.&lt;/p&gt;
+&lt;h2 id=&#34;where-the-data-comes-from&#34;&gt;Where the data comes from&lt;/h2&gt;
+&lt;p&gt;We pull from three kinds of sources. Internal databases, mostly PostgreSQL instances running on our own infrastructure. Third-party APIs for things we don&amp;rsquo;t control, like payment providers and analytics platforms. And CSV files that land in an S3 bucket whenever someone exports a report from a legacy system that nobody knows how to update.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -62,6 +62,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/apple/</loc>
+    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/</loc>
     <lastmod>2026-05-13T22:06:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -77,12 +82,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/categories/cos/</loc>
+    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/homebrew/</loc>
+    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/homebrew-has-outsourced-its-gatekeeping-to-apple/</loc>
     <lastmod>2026-05-13T22:06:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/macos/</loc>
+    <loc>https://www.shafiq.in/tags/macos/</loc>
+    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/</loc>
     <lastmod>2026-05-13T22:06:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -92,12 +112,37 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/technology/</loc>
+    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</loc>
     <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/selfhosted/</loc>
+    <loc>https://www.shafiq.in/tags/invidious/</loc>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/lfhosted/</loc>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/privacy/</loc>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/self-hosted/</loc>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/youtube/</loc>
     <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -107,17 +152,47 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/docker/</loc>
+    <lastmod>2025-09-29T14:50:26+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/mastodon/</loc>
+    <lastmod>2025-09-29T14:50:26+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</loc>
     <lastmod>2025-09-29T14:50:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/personal/</loc>
+    <loc>https://www.shafiq.in/tags/social-media/</loc>
+    <lastmod>2025-09-29T14:50:26+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/advice/</loc>
+    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/career/</loc>
+    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/rsonal/</loc>
     <lastmod>2025-09-29T14:50:22+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/categories/self-help/</loc>
+    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/self-help/</loc>
     <lastmod>2025-09-29T14:50:22+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -132,8 +207,38 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/productivity/</loc>
+    <lastmod>2025-09-29T11:53:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/super-productivity/</loc>
+    <lastmod>2025-09-29T11:53:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/tools/</loc>
+    <lastmod>2025-09-29T11:53:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/whph/</loc>
+    <lastmod>2025-09-29T11:53:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/whph-vs-super-productivity/</loc>
     <lastmod>2025-09-29T11:53:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/batteries/</loc>
+    <lastmod>2025-09-29T11:53:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/hardware/</loc>
+    <lastmod>2025-09-29T11:53:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -142,7 +247,37 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/how-to/</loc>
+    <lastmod>2025-09-29T11:53:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/multimeter/</loc>
+    <lastmod>2025-09-29T11:53:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/browser/</loc>
+    <lastmod>2025-09-29T11:53:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/firefox/</loc>
+    <lastmod>2025-09-29T11:53:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/iceraven/</loc>
+    <lastmod>2025-09-29T11:53:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/iceraven-and-ironfox-browser-comparison/</loc>
+    <lastmod>2025-09-29T11:53:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/ironfox/</loc>
     <lastmod>2025-09-29T11:53:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -152,18 +287,63 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/enterprise-architecture/</loc>
+    <lastmod>2025-09-28T07:05:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</loc>
     <lastmod>2025-09-28T07:05:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/management/</loc>
+    <loc>https://www.shafiq.in/tags/methodology/</loc>
+    <lastmod>2025-09-28T07:05:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/scrum/</loc>
+    <lastmod>2025-09-28T07:05:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/togaf/</loc>
+    <lastmod>2025-09-28T07:05:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/contract/</loc>
+    <lastmod>2025-05-22T12:07:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/nagement/</loc>
     <lastmod>2025-05-22T12:07:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</loc>
     <lastmod>2025-05-22T12:07:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/work/</loc>
+    <lastmod>2025-05-22T12:07:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/engineering/</loc>
+    <lastmod>2025-05-22T12:04:38+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/philosophy/</loc>
+    <lastmod>2025-05-22T12:04:38+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/problem-solving/</loc>
+    <lastmod>2025-05-22T12:04:38+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -177,7 +357,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/book-binding/</loc>
+    <loc>https://www.shafiq.in/tags/book-binding/</loc>
+    <lastmod>2025-05-22T11:53:25+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/books/</loc>
+    <lastmod>2025-05-22T11:53:25+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/craft/</loc>
+    <lastmod>2025-05-22T11:53:25+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/ok-binding/</loc>
     <lastmod>2025-05-22T11:53:25+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -187,13 +382,53 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/investing/</loc>
+    <lastmod>2025-05-22T11:12:47+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/money/</loc>
+    <lastmod>2025-05-22T11:12:47+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/notes-on-personal-finance/</loc>
     <lastmod>2025-05-22T11:12:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/personal-finance/</loc>
+    <lastmod>2025-05-22T11:12:47+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/international-trade/</loc>
+    <lastmod>2025-05-15T14:33:28+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/resources/</loc>
+    <lastmod>2025-05-15T14:33:28+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/resources-for-international-trade-in-the-uk/</loc>
     <lastmod>2025-05-15T14:33:28+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/trade/</loc>
+    <lastmod>2025-05-15T14:33:28+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/uk/</loc>
+    <lastmod>2025-05-15T14:33:28+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/self-promotion/</loc>
+    <lastmod>2025-05-15T14:30:04+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -207,8 +442,33 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/writing/</loc>
+    <loc>https://www.shafiq.in/tags/book-publishing/</loc>
     <lastmod>2024-12-04T09:24:49+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/iting/</loc>
+    <lastmod>2024-12-04T09:24:49+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/publishing/</loc>
+    <lastmod>2024-12-04T09:24:49+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/bios/</loc>
+    <lastmod>2024-11-25T09:24:43+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/categorised/</loc>
+    <lastmod>2024-11-25T09:24:43+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/command-line/</loc>
+    <lastmod>2024-11-25T09:24:43+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -217,7 +477,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/uncategorised/</loc>
+    <loc>https://www.shafiq.in/tags/linux/</loc>
     <lastmod>2024-11-25T09:24:43+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -227,7 +487,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/culture/</loc>
+    <loc>https://www.shafiq.in/tags/bathukamma/</loc>
     <lastmod>2024-10-12T10:50:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -237,18 +497,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/</loc>
-    <lastmod>2024-10-12T10:50:01+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/telangana/</loc>
+    <loc>https://www.shafiq.in/tags/india/</loc>
     <lastmod>2024-10-12T10:50:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/tradition/</loc>
     <lastmod>2024-10-12T10:50:01+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/architecture/</loc>
+    <lastmod>2024-10-11T10:50:01+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/design/</loc>
+    <lastmod>2024-10-11T10:50:01+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/house/</loc>
+    <lastmod>2024-10-11T10:50:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -267,32 +537,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/learning/</loc>
+    <loc>https://www.shafiq.in/categories/personal/</loc>
     <lastmod>2024-09-11T10:50:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/organization/</loc>
-    <lastmod>2024-09-11T10:50:01+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/productivity/</loc>
+    <loc>https://www.shafiq.in/tags/second-brain/</loc>
     <lastmod>2024-09-11T10:50:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/activities/</loc>
-    <lastmod>2024-04-01T15:07:01+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/art/</loc>
-    <lastmod>2024-04-01T15:07:01+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/children/</loc>
     <lastmod>2024-04-01T15:07:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -307,28 +562,33 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/categories/ildren/</loc>
+    <lastmod>2024-04-01T15:07:01+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/tags/toddlers/</loc>
     <lastmod>2024-04-01T15:07:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/homelab/</loc>
+    <loc>https://www.shafiq.in/tags/homelab/</loc>
+    <lastmod>2024-04-01T13:30:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/infrastructure/</loc>
+    <lastmod>2024-04-01T13:30:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/melab/</loc>
     <lastmod>2024-04-01T13:30:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</loc>
     <lastmod>2024-04-01T13:30:21+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/command-line/</loc>
-    <lastmod>2024-04-01T13:27:06+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/linux/</loc>
-    <lastmod>2024-04-01T13:27:06+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -342,7 +602,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/markets/</loc>
+    <loc>https://www.shafiq.in/tags/stocks/</loc>
     <lastmod>2024-03-30T09:08:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -357,12 +617,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/markets/</loc>
+    <lastmod>2024-03-30T09:03:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/the-ten-ways-people-try-to-make-money-from-moving-prices/</loc>
     <lastmod>2024-03-30T09:03:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/business/</loc>
+    <loc>https://www.shafiq.in/tags/property/</loc>
     <lastmod>2024-03-12T15:03:27+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -377,8 +642,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/uk/</loc>
-    <lastmod>2024-03-12T15:03:27+00:00</lastmod>
+    <loc>https://www.shafiq.in/tags/negotiation/</loc>
+    <lastmod>2024-03-11T13:33:58+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -387,7 +652,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/affirmations/</loc>
+    <lastmod>2024-03-07T12:15:39+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/affirmations-that-actually-helped-me/</loc>
+    <lastmod>2024-03-07T12:15:39+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/mindset/</loc>
     <lastmod>2024-03-07T12:15:39+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -397,12 +672,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/income/</loc>
-    <lastmod>2024-03-06T11:42:58+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/investing/</loc>
+    <loc>https://www.shafiq.in/tags/finance/</loc>
     <lastmod>2024-03-06T11:42:58+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -412,8 +682,23 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/gossip/</loc>
+    <lastmod>2024-03-05T11:37:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/how-i-stopped-participating-in-gossip/</loc>
     <lastmod>2024-03-05T11:37:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/workplace/</loc>
+    <lastmod>2024-03-05T11:37:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/negativity/</loc>
+    <lastmod>2024-03-04T08:56:27+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -422,17 +707,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/airflow/</loc>
+    <loc>https://www.shafiq.in/tags/data-pipeline/</loc>
     <lastmod>2024-03-01T08:16:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/architecture/</loc>
-    <lastmod>2024-03-01T08:16:26+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/data-engineering/</loc>
+    <loc>https://www.shafiq.in/tags/devops/</loc>
     <lastmod>2024-03-01T08:16:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -443,11 +723,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/cli/</loc>
-    <lastmod>2023-10-17T01:30:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/how-to/</loc>
     <lastmod>2023-10-17T01:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -467,13 +742,18 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/learn-ansible/</loc>
+    <loc>https://www.shafiq.in/tags/ansible/</loc>
     <lastmod>2023-09-08T04:31:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/books/</loc>
-    <lastmod>2023-09-05T04:31:03+00:00</lastmod>
+    <loc>https://www.shafiq.in/tags/automation/</loc>
+    <lastmod>2023-09-08T04:31:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/learn-ansible/</loc>
+    <lastmod>2023-09-08T04:31:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -482,17 +762,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/leadership/</loc>
-    <lastmod>2023-09-05T04:31:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/people-skills/</loc>
-    <lastmod>2023-09-05T04:31:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/project-management/</loc>
+    <lastmod>2023-09-05T04:31:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/recommendations/</loc>
     <lastmod>2023-09-05T04:31:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -508,11 +783,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/install-psql-on-macos-with-homebrew/</loc>
-    <lastmod>2023-07-26T11:30:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/macos/</loc>
     <lastmod>2023-07-26T11:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -542,8 +812,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/cloud/</loc>
+    <lastmod>2023-07-11T01:50:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/security/</loc>
+    <lastmod>2023-07-11T01:50:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/security-clearance-vetting-for-access-to-cloud-production-environments/</loc>
     <lastmod>2023-07-11T01:50:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/vetting/</loc>
+    <lastmod>2023-07-11T01:50:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/containers/</loc>
+    <lastmod>2023-07-11T01:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -587,6 +877,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/goals/</loc>
+    <lastmod>2023-05-06T11:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/vision-board/</loc>
+    <lastmod>2023-05-06T11:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/what-is-a-vision-board/</loc>
     <lastmod>2023-05-06T11:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -597,12 +897,47 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/inner-child/</loc>
+    <lastmod>2023-05-03T11:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/psychology/</loc>
+    <lastmod>2023-05-03T11:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/therapy/</loc>
+    <lastmod>2023-05-03T11:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/bash/</loc>
+    <lastmod>2023-04-27T18:00:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</loc>
     <lastmod>2023-04-27T18:00:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</loc>
+    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/nodejs/</loc>
+    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/phantomjs/</loc>
+    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/testing/</loc>
     <lastmod>2023-04-27T17:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -622,7 +957,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/devops/</loc>
+    <loc>https://www.shafiq.in/categories/management/</loc>
     <lastmod>2023-01-27T11:08:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -633,16 +968,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/memento-mori/</loc>
-    <lastmod>2022-08-25T20:04:46+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/mindset/</loc>
-    <lastmod>2022-08-25T20:04:46+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/philosophy/</loc>
     <lastmod>2022-08-25T20:04:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -667,7 +992,47 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/creativity/</loc>
+    <lastmod>2022-07-20T11:59:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/flection/</loc>
+    <lastmod>2022-07-20T11:59:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/madness/</loc>
+    <lastmod>2022-07-20T11:59:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/reflection/</loc>
+    <lastmod>2022-07-20T11:59:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/how-to-resolve-cannot-unregister-the-machine-while-it-is-locked-error-in-vagrant/</loc>
+    <lastmod>2022-02-01T09:05:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/troubleshooting/</loc>
+    <lastmod>2022-02-01T09:05:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/vagrant/</loc>
+    <lastmod>2022-02-01T09:05:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/virtual-machine/</loc>
+    <lastmod>2022-02-01T09:05:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/virtualbox/</loc>
     <lastmod>2022-02-01T09:05:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -678,11 +1043,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/openssl/</loc>
-    <lastmod>2021-06-15T08:21:21+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/security/</loc>
     <lastmod>2021-06-15T08:21:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -732,11 +1092,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/bash/</loc>
-    <lastmod>2021-01-21T13:00:41+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</loc>
     <lastmod>2021-01-21T13:00:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -768,16 +1123,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/fix-casks-with-depends_on-that-reference-pre-mavericks/</loc>
-    <lastmod>2020-05-18T10:01:16+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/homebrew/</loc>
-    <lastmod>2020-05-18T10:01:16+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/troubleshooting/</loc>
     <lastmod>2020-05-18T10:01:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -827,11 +1172,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/cloud/</loc>
-    <lastmod>2018-12-28T10:19:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/list-all-azure-vm-extensions/</loc>
     <lastmod>2018-12-28T10:19:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -868,11 +1208,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/import-a-resource-to-a-terraform-module/</loc>
-    <lastmod>2018-10-24T15:57:34+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/infrastructure/</loc>
     <lastmod>2018-10-24T15:57:34+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -927,17 +1262,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/technology/</loc>
-    <lastmod>2018-09-26T11:55:38+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/enterprise-architecture-resources/</loc>
-    <lastmod>2018-09-23T15:25:01+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/enterprise-architecture/</loc>
     <lastmod>2018-09-23T15:25:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -987,11 +1312,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/ansible/</loc>
-    <lastmod>2018-09-04T11:08:49+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/packer/</loc>
     <lastmod>2018-09-04T11:08:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1017,11 +1337,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/docker/</loc>
-    <lastmod>2018-09-02T09:09:10+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/installing-docker-ce-on-ubuntu/</loc>
     <lastmod>2018-09-02T09:09:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1032,13 +1347,33 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/software-development/</loc>
+    <lastmod>2018-08-27T09:22:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/minimalism/</loc>
+    <lastmod>2018-08-26T19:12:13+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/oughts/</loc>
+    <lastmod>2018-08-26T19:12:13+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/perfection/</loc>
+    <lastmod>2018-08-26T19:12:13+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/perfection-is-subtraction/</loc>
     <lastmod>2018-08-26T19:12:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/categories/thoughts/</loc>
-    <lastmod>2018-08-26T19:12:13+00:00</lastmod>
+    <lastmod>2018-08-26T10:30:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1048,6 +1383,11 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/being-an-architect-of-the-future/</loc>
+    <lastmod>2018-08-26T06:38:48+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/future/</loc>
     <lastmod>2018-08-26T06:38:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1068,6 +1408,11 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/architecture-is-helpful-in-guarding-the-essentials-of-the-business-while-still-allowing-for-maximal-flexibility-and-adaptability/</loc>
+    <lastmod>2018-07-01T10:47:16+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/business/</loc>
     <lastmod>2018-07-01T10:47:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1172,8 +1517,33 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/people-skills/</loc>
+    <lastmod>2014-12-07T12:01:02+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/some-notes-on-people-skills-and-emotional-intelligence/</loc>
     <lastmod>2014-12-07T12:01:02+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/anglican/</loc>
+    <lastmod>2014-12-06T14:25:02+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/faith/</loc>
+    <lastmod>2014-12-06T14:25:02+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/ote/</loc>
+    <lastmod>2014-12-06T14:25:02+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/spirituality/</loc>
+    <lastmod>2014-12-06T14:25:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1182,13 +1552,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/writing/</loc>
+    <lastmod>2014-12-06T14:25:02+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/influence/</loc>
+    <lastmod>2014-09-03T14:02:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/leverage/</loc>
+    <lastmod>2014-09-03T14:02:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/on-leverage/</loc>
     <lastmod>2014-09-03T14:02:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/career/</loc>
-    <lastmod>2014-09-03T13:39:09+00:00</lastmod>
+    <loc>https://www.shafiq.in/tags/political-intelligence/</loc>
+    <lastmod>2014-09-03T14:02:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1197,7 +1582,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/workplace/</loc>
+    <loc>https://www.shafiq.in/tags/leadership/</loc>
     <lastmod>2014-09-03T13:39:09+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1222,13 +1607,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/the-big-data-life-cycle/</loc>
+    <loc>https://www.shafiq.in/categories/writing/</loc>
+    <lastmod>2014-09-03T12:02:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/big-data/</loc>
     <lastmod>2013-12-29T12:27:51+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/design/</loc>
-    <lastmod>2013-12-28T22:53:04+00:00</lastmod>
+    <loc>https://www.shafiq.in/tags/data-engineering/</loc>
+    <lastmod>2013-12-29T12:27:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/development/</loc>
+    <lastmod>2013-12-29T12:27:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/the-big-data-life-cycle/</loc>
+    <lastmod>2013-12-29T12:27:51+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1272,12 +1672,32 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/cinema/</loc>
+    <lastmod>2013-09-21T17:53:10+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/film/</loc>
+    <lastmod>2013-09-21T17:53:10+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/first-look-the-artical-trailer-for-kichidi/</loc>
     <lastmod>2013-09-21T17:53:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/art/</loc>
+    <loc>https://www.shafiq.in/tags/kichidi/</loc>
+    <lastmod>2013-09-21T17:53:10+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/t/</loc>
+    <lastmod>2013-09-21T17:53:10+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/trailer/</loc>
     <lastmod>2013-09-21T17:53:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1292,7 +1712,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/drupal/</loc>
+    <lastmod>2013-09-05T08:47:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/drupal-7/</loc>
+    <lastmod>2013-09-05T08:47:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/drupal-7-mobile-boilerplate-theme/</loc>
+    <lastmod>2013-09-05T08:47:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/mobile/</loc>
+    <lastmod>2013-09-05T08:47:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/theming/</loc>
     <lastmod>2013-09-05T08:47:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1442,22 +1882,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/virtual-machine/</loc>
-    <lastmod>2013-01-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/goa/</loc>
     <lastmod>2012-12-26T11:41:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/goas-frro-got-oci-powers-in-october-2012/</loc>
-    <lastmod>2012-12-26T11:41:48+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/india/</loc>
     <lastmod>2012-12-26T11:41:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1587,17 +2017,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/firefox/</loc>
-    <lastmod>2012-11-24T17:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/firefox-os/</loc>
-    <lastmod>2012-11-24T17:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/mobile/</loc>
     <lastmod>2012-11-24T17:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1682,11 +2102,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/automation/</loc>
-    <lastmod>2012-02-21T07:18:05+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/expect/</loc>
     <lastmod>2012-02-21T07:18:05+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1757,8 +2172,33 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/biometrics/</loc>
+    <lastmod>2011-11-11T05:58:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/brain-machine-interface/</loc>
+    <lastmod>2011-11-11T05:58:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/effective-human-computer-interaction-through-cognitive-biometrics/</loc>
     <lastmod>2011-11-11T05:58:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/hci/</loc>
+    <lastmod>2011-11-11T05:58:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/research/</loc>
+    <lastmod>2011-11-11T05:58:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/ai/</loc>
+    <lastmod>2011-11-11T05:48:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1767,18 +2207,38 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/walking-through-otc-in-sap/</loc>
-    <lastmod>2011-11-11T05:21:23+00:00</lastmod>
+    <loc>https://www.shafiq.in/tags/machine-learning/</loc>
+    <lastmod>2011-11-11T05:48:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/neural-networks/</loc>
+    <lastmod>2011-11-11T05:48:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/business-process/</loc>
-    <lastmod>2011-11-11T05:15:24+00:00</lastmod>
+    <lastmod>2011-11-11T05:21:23+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/erp/</loc>
-    <lastmod>2011-11-11T05:15:24+00:00</lastmod>
+    <lastmod>2011-11-11T05:21:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/otc/</loc>
+    <lastmod>2011-11-11T05:21:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/sap/</loc>
+    <lastmod>2011-11-11T05:21:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/walking-through-otc-in-sap/</loc>
+    <lastmod>2011-11-11T05:21:23+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1787,28 +2247,18 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/otc/</loc>
-    <lastmod>2011-11-11T05:15:24+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/sap/</loc>
-    <lastmod>2011-11-11T05:15:24+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/methodology/</loc>
-    <lastmod>2011-11-11T05:10:14+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/status-quo-a-review-of-some-testing-practices/</loc>
     <lastmod>2011-11-11T05:10:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/testing/</loc>
-    <lastmod>2011-11-11T05:10:14+00:00</lastmod>
+    <loc>https://www.shafiq.in/tags/connectivity/</loc>
+    <lastmod>2011-10-06T05:30:40+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/internet/</loc>
+    <lastmod>2011-10-06T05:30:40+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1822,8 +2272,23 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/agile/</loc>
+    <lastmod>2011-10-01T08:40:49+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/a-project-proposal-template-i-keep-coming-back-to/</loc>
     <lastmod>2011-10-01T07:18:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/proposal/</loc>
+    <lastmod>2011-10-01T07:18:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/contracts/</loc>
+    <lastmod>2011-10-01T07:00:19+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1832,7 +2297,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/proposals/</loc>
+    <lastmod>2011-10-01T07:00:19+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/a-sample-issue-tracker-spreadsheet/</loc>
+    <lastmod>2011-10-01T06:31:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/issue-tracker/</loc>
+    <lastmod>2011-10-01T06:31:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/spreadsheet/</loc>
     <lastmod>2011-10-01T06:31:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1904,6 +2384,11 @@
   </url><url>
     <loc>https://www.shafiq.in/tags/website-design/</loc>
     <lastmod>2011-06-16T13:47:19+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/first-project/</loc>
+    <lastmod>2011-06-14T22:13:37+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -1982,7 +2467,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/opensuse/</loc>
+    <lastmod>2011-03-13T10:49:42+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/opensuse-11.4--first-look/</loc>
+    <lastmod>2011-03-13T10:49:42+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/screenshots/</loc>
     <lastmod>2011-03-13T10:49:42+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2077,11 +2572,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/privacy/</loc>
-    <lastmod>2010-09-30T06:27:57+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/getting-the-current-unix-timestamp/</loc>
     <lastmod>2010-09-30T04:56:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2099,11 +2589,6 @@
   </url><url>
     <loc>https://www.shafiq.in/tags/integration/</loc>
     <lastmod>2010-09-18T07:19:26+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/development/</loc>
-    <lastmod>2010-09-15T08:39:58+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -2192,11 +2677,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/software-development/</loc>
-    <lastmod>2010-07-20T08:26:25+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/detailed-estimates-are-often-a-waste/</loc>
     <lastmod>2010-07-19T09:26:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2239,11 +2719,6 @@
   </url><url>
     <loc>https://www.shafiq.in/tags/team-management/</loc>
     <lastmod>2010-07-12T08:14:38+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/apple/</loc>
-    <lastmod>2010-07-10T08:56:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -2342,16 +2817,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/agile/</loc>
-    <lastmod>2010-03-22T06:52:15+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/scrum/</loc>
-    <lastmod>2010-03-22T06:52:15+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/scrum-in-8-steps/</loc>
     <lastmod>2010-03-22T06:52:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2363,6 +2828,11 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/career-development/</loc>
+    <lastmod>2010-03-22T06:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/learning/</loc>
     <lastmod>2010-03-22T06:06:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2759,6 +3229,11 @@
   </url><url>
     <loc>https://www.shafiq.in/tags/free/</loc>
     <lastmod>2009-03-01T18:10:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/art/</loc>
+    <lastmod>2009-03-01T17:39:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>

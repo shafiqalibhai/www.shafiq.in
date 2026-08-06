@@ -20,6 +20,15 @@
 &lt;p&gt;The bar sits at the bottom of the viewport, fixed in place, always on top of everything else. Content scrolls through it from right to left (or left to right, your call), separated by images &amp;ndash; usually a logo or icon. It pulls text and images from a server, so you can update what it shows without touching the page itself.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>How I Built My First Website for My College</title>
+      <link>https://www.shafiq.in/blog/how-i-built-my-first-website-for-my-college/</link>
+      <pubDate>Tue, 14 Jun 2011 22:13:37 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-i-built-my-first-website-for-my-college/</guid>
+      <description>&lt;p&gt;Hello everyone! Today I want to share with you the first project I ever did: the college website! This was a very old project that I did with the help of Subhash Dasyam. It was a great learning experience for me and I&amp;rsquo;m excited to tell you more about it.&lt;/p&gt;
+&lt;h2 id=&#34;the-project&#34;&gt;The Project&lt;/h2&gt;
+&lt;p&gt;The college website was a simple static website that showcased the information and achievements of our college, ASTRA. It had pages for the departments, faculty, students, events, gallery, and contact. It also had a login system for the admin and the students.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Lessons Learned – from a CMS developer</title>
       <link>https://www.shafiq.in/blog/lessons-learned-from-a-cms-developer/</link>
       <pubDate>Fri, 09 Oct 2009 07:32:57 +0000</pubDate>

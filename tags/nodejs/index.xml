@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nodejs on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/nodejs/</link>
+    <description>Recent content in Nodejs on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 27 Apr 2023 17:30:03 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing PhantomJS on Ubuntu 22.10</title>
+      <link>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</link>
+      <pubDate>Thu, 27 Apr 2023 17:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</guid>
+      <description>&lt;p&gt;PhantomJS is a headless browser, which means it runs without a graphical interface and lets you automate web page interactions through scripting. I needed it for some automated testing at work and ran into a few things worth writing down, mostly because half the guides out there are either outdated or assume you already know what you&amp;rsquo;re doing.&lt;/p&gt;
+&lt;p&gt;The version we&amp;rsquo;re installing is 2.1.1, which is the last release. The project has been unmaintained since 2017, but it still does what it needs to do for basic scraping and screenshot tasks.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

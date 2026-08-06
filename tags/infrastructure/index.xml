@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Wed, 24 Oct 2018 15:57:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2024 13:30:21 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-hosted services worth running on your homelab</title>
+      <link>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</link>
+      <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running a small homelab for a few years now, mostly just to tinker and escape the subscription treadmill. Over time I&amp;rsquo;ve collected a bunch of services that actually earn their keep, and this is a running list of the ones I&amp;rsquo;d recommend to someone starting out or looking to fill gaps in their setup.&lt;/p&gt;
+&lt;p&gt;Nothing fancy. Just stuff that works, runs quietly, and gives you back control of your own data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Learn Ansible</title>
+      <link>https://www.shafiq.in/blog/learn-ansible/</link>
+      <pubDate>Fri, 08 Sep 2023 04:31:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/learn-ansible/</guid>
+      <description>&lt;p&gt;Ansible manages remote machines over SSH. No agents needed. You write playbooks in YAML that describe what the target state should be, and Ansible makes it happen.&lt;/p&gt;
+&lt;h2 id=&#34;ssh-setup&#34;&gt;SSH setup&lt;/h2&gt;
+&lt;p&gt;Generate a key pair on the control node and copy it to your targets:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t rsa
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-copy-id username@target_host
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;inventory&#34;&gt;Inventory&lt;/h2&gt;
+&lt;p&gt;An inventory file lists your hosts and groups them:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# my_inventory.ini&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;[web]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;192.168.1.2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;[db]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;192.168.1.3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can also use dynamic inventory scripts that output JSON.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Import a Resource to a Terraform Module</title>
       <link>https://www.shafiq.in/blog/import-a-resource-to-a-terraform-module/</link>

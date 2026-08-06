@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Iceraven on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/iceraven/</link>
+    <description>Recent content in Iceraven on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 29 Sep 2025 11:53:12 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/iceraven/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iceraven and Ironfox browser comparison</title>
+      <link>https://www.shafiq.in/blog/iceraven-and-ironfox-browser-comparison/</link>
+      <pubDate>Mon, 29 Sep 2025 11:53:12 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/iceraven-and-ironfox-browser-comparison/</guid>
+      <description>&lt;p&gt;Both are Firefox forks for Android. Both strip out telemetry. They diverge on what to do after that.&lt;/p&gt;
+&lt;p&gt;Iceraven is built around customisation. It exposes about:config, supports a wider range of add-ons than stock Firefox for Android, and tries to replicate the desktop Firefox experience on mobile. Updates come through GitHub releases. It&amp;rsquo;s aimed at people who want to tweak their browser.&lt;/p&gt;
+&lt;p&gt;IronFox comes from Mull, which itself is a privacy-hardened Firefox fork. It removes more telemetry than Iceraven, disables features that leak data by default (WebGL, for example), and keeps the interface stripped down. It&amp;rsquo;s on F-Droid and Accrescent as well as GitHub. The trade-off is that some websites break because of the aggressive defaults.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -7,8 +7,25 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Mon, 01 Apr 2024 13:27:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 09:24:43 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Get BIOS Serial Numbers On Linux</title>
+      <link>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</link>
+      <pubDate>Mon, 25 Nov 2024 09:24:43 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</guid>
+      <description>&lt;p&gt;The quickest way to get a BIOS serial number on Linux:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dmidecode -s system-serial-number
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s usually all you need. &lt;code&gt;dmidecode&lt;/code&gt; reads the DMI/SMBIOS table and prints the serial number directly.&lt;/p&gt;
+&lt;h2 id=&#34;other-options&#34;&gt;Other options&lt;/h2&gt;
+&lt;p&gt;If &lt;code&gt;dmidecode&lt;/code&gt; isn&amp;rsquo;t available or doesn&amp;rsquo;t return what you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# lshw&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo lshw -C bios &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep serial
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# /sys class interface (no sudo needed)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat /sys/class/dmi/id/product_serial
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;/sys/class/dmi/id/&lt;/code&gt; path is the cleanest option if you want to avoid sudo. It exposes several DMI fields:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Shrinking PDFs with Ghostscript on the command line</title>
       <link>https://www.shafiq.in/blog/shrinking-pdfs-with-ghostscript-on-the-command-line/</link>
@@ -19,6 +36,16 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gs -sDEVICE&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;pdfwrite -dCompatibilityLevel&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1.4 -dPDFSETTINGS&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/screen &lt;span class=&#34;se&#34;&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   -dNOPAUSE -dQUIET -dBATCH -sOutputFile&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;output.pdf input.pdf
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The bit that actually matters is &lt;code&gt;-dPDFSETTINGS=/screen&lt;/code&gt;. That&amp;rsquo;s the quality dial. &lt;code&gt;/screen&lt;/code&gt; gives you the smallest file — fine for emailing or uploading, rubbish if you need to print anything.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Remove lines matching a pattern from files recursively in Linux</title>
+      <link>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</link>
+      <pubDate>Thu, 27 Apr 2023 18:00:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;*.md&amp;#34;&lt;/span&gt; -type f -exec sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/pattern/d&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This one-liner walks the directory tree, finds every &lt;code&gt;.md&lt;/code&gt; file, and strips out any line that matches the given pattern. The &lt;code&gt;sed -i&lt;/code&gt; edits each file in place, and the &lt;code&gt;{}&lt;/code&gt; gets swapped out for whatever path &lt;code&gt;find&lt;/code&gt; hands it.&lt;/p&gt;
+&lt;h2 id=&#34;breaking-it-down&#34;&gt;Breaking it down&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;find . -name &amp;quot;*.md&amp;quot; -type f&lt;/code&gt; does the walking. The &lt;code&gt;-type f&lt;/code&gt; bit is important &amp;ndash; without it, &lt;code&gt;find&lt;/code&gt; would also match directories and pass them to &lt;code&gt;sed&lt;/code&gt;, which would error out. The &lt;code&gt;-exec ... \;&lt;/code&gt; at the end runs the command for each file individually.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

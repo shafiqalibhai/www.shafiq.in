@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hardware on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/hardware/</link>
+    <description>Recent content in Hardware on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 29 Sep 2025 11:53:17 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to test AA and AAA batteries using a multimeter</title>
+      <link>https://www.shafiq.in/blog/how-to-test-aa-and-aaa-batteries-using-a-multimeter/</link>
+      <pubDate>Mon, 29 Sep 2025 11:53:17 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-test-aa-and-aaa-batteries-using-a-multimeter/</guid>
+      <description>&lt;p&gt;I have a drawer full of spare AA and AAA batteries. Some are fresh, some are from remote controls that died last winter, some I found in a toy. Before tossing them or putting them to use, I check the voltage with a multimeter. It takes thirty seconds and saves you from guessing.&lt;/p&gt;
+&lt;h2 id=&#34;what-you-need&#34;&gt;What you need&lt;/h2&gt;
+&lt;p&gt;A cheap multimeter is all you need. Any digital one will do — I&amp;rsquo;ve used the same £8 model from Amazon for years. The probes should be intact and the battery in the multimeter itself should have charge (if it beeps when you turn it on, you&amp;rsquo;re good).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

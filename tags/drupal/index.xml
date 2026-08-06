@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Drupal on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/drupal/</link>
+    <description>Recent content in Drupal on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Thu, 05 Sep 2013 08:47:24 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drupal 7 Mobile Boilerplate Theme</title>
+      <link>https://www.shafiq.in/blog/drupal-7-mobile-boilerplate-theme/</link>
+      <pubDate>Thu, 05 Sep 2013 08:47:24 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/drupal-7-mobile-boilerplate-theme/</guid>
+      <description>&lt;p&gt;Mobile web development in 2013 is a mess of browser quirks, viewport headaches, and CSS bugs that multiply with every platform you touch. I built the Mobile Boilerplate theme for Drupal 7 to stop reinventing the wheel every time I needed a mobile-ready starting point. It&amp;rsquo;s a collection of fixes, polyfills, and sensible defaults that handle the boring stuff so you can focus on building something that works.&lt;/p&gt;
+&lt;h2 id=&#34;whats-in-it&#34;&gt;What&amp;rsquo;s in it&lt;/h2&gt;
+&lt;p&gt;The theme ships with a bunch of things you&amp;rsquo;d otherwise spend an afternoon Googling:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

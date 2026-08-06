@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Containers on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/containers/</link>
+    <description>Recent content in Containers on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Tue, 11 Jul 2023 01:30:03 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/containers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Tolerations</title>
+      <link>https://www.shafiq.in/blog/kubernetes-tolerations/</link>
+      <pubDate>Tue, 11 Jul 2023 01:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/kubernetes-tolerations/</guid>
+      <description>&lt;p&gt;Taints and tolerations work together to control which pods land on which nodes. Taints go on nodes and repel pods. Tolerations go on pods and let them ignore specific taints.&lt;/p&gt;
+&lt;h2 id=&#34;taint-effects&#34;&gt;Taint effects&lt;/h2&gt;
+&lt;p&gt;There are three effects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NoSchedule&lt;/strong&gt; — pods without a matching toleration won&amp;rsquo;t be scheduled on the node. Existing pods are unaffected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PreferNoSchedule&lt;/strong&gt; — the scheduler avoids the node but will use it if there&amp;rsquo;s nowhere else.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NoExecute&lt;/strong&gt; — pods without a matching toleration are evicted from the node and won&amp;rsquo;t be rescheduled there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applying-taints&#34;&gt;Applying taints&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Add a taint&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;kubectl taint nodes node1 example-key&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;example-value:NoSchedule
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Remove a taint&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;kubectl taint nodes node1 example-key&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;example-value:NoSchedule-
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Multiple taints at once&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;kubectl taint nodes node1 &lt;span class=&#34;nv&#34;&gt;key1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;value1:NoSchedule &lt;span class=&#34;nv&#34;&gt;key2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;value2:PreferNoSchedule
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;View taints on a node:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

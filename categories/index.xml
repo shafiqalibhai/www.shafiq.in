@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 13 May 2026 22:06:39 +0100</lastBuildDate>
     <atom:link href="https://www.shafiq.in/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Macos</title>
-      <link>https://www.shafiq.in/categories/macos/</link>
+      <title>Cos</title>
+      <link>https://www.shafiq.in/categories/cos/</link>
       <pubDate>Wed, 13 May 2026 22:06:39 +0100</pubDate>
-      <guid>https://www.shafiq.in/categories/macos/</guid>
+      <guid>https://www.shafiq.in/categories/cos/</guid>
       <description></description>
     </item>
     <item>
@@ -24,10 +24,10 @@
       <description></description>
     </item>
     <item>
-      <title>Selfhosted</title>
-      <link>https://www.shafiq.in/categories/selfhosted/</link>
+      <title>Lfhosted</title>
+      <link>https://www.shafiq.in/categories/lfhosted/</link>
       <pubDate>Wed, 13 May 2026 14:18:11 +0100</pubDate>
-      <guid>https://www.shafiq.in/categories/selfhosted/</guid>
+      <guid>https://www.shafiq.in/categories/lfhosted/</guid>
       <description></description>
     </item>
     <item>
@@ -38,10 +38,10 @@
       <description></description>
     </item>
     <item>
-      <title>Personal</title>
-      <link>https://www.shafiq.in/categories/personal/</link>
+      <title>Rsonal</title>
+      <link>https://www.shafiq.in/categories/rsonal/</link>
       <pubDate>Mon, 29 Sep 2025 14:50:22 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/personal/</guid>
+      <guid>https://www.shafiq.in/categories/rsonal/</guid>
       <description></description>
     </item>
     <item>
@@ -66,17 +66,17 @@
       <description></description>
     </item>
     <item>
-      <title>Management</title>
-      <link>https://www.shafiq.in/categories/management/</link>
+      <title>Nagement</title>
+      <link>https://www.shafiq.in/categories/nagement/</link>
       <pubDate>Thu, 22 May 2025 12:07:12 +0200</pubDate>
-      <guid>https://www.shafiq.in/categories/management/</guid>
+      <guid>https://www.shafiq.in/categories/nagement/</guid>
       <description></description>
     </item>
     <item>
-      <title>Book-Binding</title>
-      <link>https://www.shafiq.in/categories/book-binding/</link>
+      <title>Ok-Binding</title>
+      <link>https://www.shafiq.in/categories/ok-binding/</link>
       <pubDate>Thu, 22 May 2025 11:53:25 +0200</pubDate>
-      <guid>https://www.shafiq.in/categories/book-binding/</guid>
+      <guid>https://www.shafiq.in/categories/ok-binding/</guid>
       <description></description>
     </item>
     <item>
@@ -87,31 +87,45 @@
       <description></description>
     </item>
     <item>
-      <title>Writing</title>
-      <link>https://www.shafiq.in/categories/writing/</link>
+      <title>Iting</title>
+      <link>https://www.shafiq.in/categories/iting/</link>
       <pubDate>Wed, 04 Dec 2024 09:24:49 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/writing/</guid>
+      <guid>https://www.shafiq.in/categories/iting/</guid>
       <description></description>
     </item>
     <item>
-      <title>Uncategorised</title>
-      <link>https://www.shafiq.in/categories/uncategorised/</link>
+      <title>Categorised</title>
+      <link>https://www.shafiq.in/categories/categorised/</link>
       <pubDate>Mon, 25 Nov 2024 09:24:43 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/uncategorised/</guid>
+      <guid>https://www.shafiq.in/categories/categorised/</guid>
       <description></description>
     </item>
     <item>
-      <title>Children</title>
-      <link>https://www.shafiq.in/categories/children/</link>
+      <title>Personal</title>
+      <link>https://www.shafiq.in/categories/personal/</link>
+      <pubDate>Wed, 11 Sep 2024 10:50:01 +0000</pubDate>
+      <guid>https://www.shafiq.in/categories/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ildren</title>
+      <link>https://www.shafiq.in/categories/ildren/</link>
       <pubDate>Mon, 01 Apr 2024 15:07:01 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/children/</guid>
+      <guid>https://www.shafiq.in/categories/ildren/</guid>
       <description></description>
     </item>
     <item>
-      <title>Homelab</title>
-      <link>https://www.shafiq.in/categories/homelab/</link>
+      <title>Melab</title>
+      <link>https://www.shafiq.in/categories/melab/</link>
       <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/homelab/</guid>
+      <guid>https://www.shafiq.in/categories/melab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Management</title>
+      <link>https://www.shafiq.in/categories/management/</link>
+      <pubDate>Fri, 27 Jan 2023 11:08:20 +0000</pubDate>
+      <guid>https://www.shafiq.in/categories/management/</guid>
       <description></description>
     </item>
     <item>
@@ -122,6 +136,13 @@
       <description></description>
     </item>
     <item>
+      <title>Flection</title>
+      <link>https://www.shafiq.in/categories/flection/</link>
+      <pubDate>Wed, 20 Jul 2022 11:59:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/categories/flection/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Quote</title>
       <link>https://www.shafiq.in/categories/quote/</link>
       <pubDate>Mon, 31 Dec 2018 09:55:37 +0000</pubDate>
@@ -129,9 +150,16 @@
       <description></description>
     </item>
     <item>
+      <title>Oughts</title>
+      <link>https://www.shafiq.in/categories/oughts/</link>
+      <pubDate>Sun, 26 Aug 2018 19:12:13 +0000</pubDate>
+      <guid>https://www.shafiq.in/categories/oughts/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Thoughts</title>
       <link>https://www.shafiq.in/categories/thoughts/</link>
-      <pubDate>Sun, 26 Aug 2018 19:12:13 +0000</pubDate>
+      <pubDate>Sun, 26 Aug 2018 10:30:26 +0000</pubDate>
       <guid>https://www.shafiq.in/categories/thoughts/</guid>
       <description></description>
     </item>
@@ -143,10 +171,24 @@
       <description></description>
     </item>
     <item>
-      <title>Art</title>
-      <link>https://www.shafiq.in/categories/art/</link>
+      <title>Ote</title>
+      <link>https://www.shafiq.in/categories/ote/</link>
+      <pubDate>Sat, 06 Dec 2014 14:25:02 +0000</pubDate>
+      <guid>https://www.shafiq.in/categories/ote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>https://www.shafiq.in/categories/writing/</link>
+      <pubDate>Wed, 03 Sep 2014 12:02:22 +0000</pubDate>
+      <guid>https://www.shafiq.in/categories/writing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>T</title>
+      <link>https://www.shafiq.in/categories/t/</link>
       <pubDate>Sat, 21 Sep 2013 17:53:10 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/art/</guid>
+      <guid>https://www.shafiq.in/categories/t/</guid>
       <description></description>
     </item>
     <item>

@@ -45,16 +45,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note: PyPDF2&amp;rsquo;s &lt;code&gt;PdfFileReader&lt;/code&gt; and &lt;code&gt;getPage()&lt;/code&gt; are deprecated in newer versions — use &lt;code&gt;PdfReader&lt;/code&gt; and index into &lt;code&gt;reader.pages&lt;/code&gt; instead.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Remove lines matching a pattern from files recursively in Linux</title>
-      <link>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</link>
-      <pubDate>Thu, 27 Apr 2023 18:00:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;*.md&amp;#34;&lt;/span&gt; -type f -exec sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/pattern/d&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This one-liner walks the directory tree, finds every &lt;code&gt;.md&lt;/code&gt; file, and strips out any line that matches the given pattern. The &lt;code&gt;sed -i&lt;/code&gt; edits each file in place, and the &lt;code&gt;{}&lt;/code&gt; gets swapped out for whatever path &lt;code&gt;find&lt;/code&gt; hands it.&lt;/p&gt;
-&lt;h2 id=&#34;breaking-it-down&#34;&gt;Breaking it down&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;find . -name &amp;quot;*.md&amp;quot; -type f&lt;/code&gt; does the walking. The &lt;code&gt;-type f&lt;/code&gt; bit is important &amp;ndash; without it, &lt;code&gt;find&lt;/code&gt; would also match directories and pass them to &lt;code&gt;sed&lt;/code&gt;, which would error out. The &lt;code&gt;-exec ... \;&lt;/code&gt; at the end runs the command for each file individually.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Deleting files by content match in Linux</title>
       <link>https://www.shafiq.in/blog/deleting-files-by-content-match-in-linux/</link>
       <pubDate>Thu, 27 Apr 2023 11:30:03 +0000</pubDate>
