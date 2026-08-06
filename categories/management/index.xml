@@ -10,67 +10,23 @@
     <lastBuildDate>Thu, 22 May 2025 12:07:12 +0200</lastBuildDate>
     <atom:link href="https://www.shafiq.in/categories/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Things to do and questions to ask when starting a new contract</title>
-      <link>https://www.shafiq.in/blog/things-to-do-and-questions-to-ask-when-starting-a-new-contract/</link>
+      <title>Starting a new contract — what I wish I&#39;d asked sooner</title>
+      <link>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</link>
       <pubDate>Thu, 22 May 2025 12:07:12 +0200</pubDate>
-      <guid>https://www.shafiq.in/blog/things-to-do-and-questions-to-ask-when-starting-a-new-contract/</guid>
-      <description>&lt;p&gt;Before starting a contract, consider the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Is a &lt;strong&gt;BPSS check&lt;/strong&gt; necessary?&lt;/li&gt;
-&lt;li&gt;Is a &lt;strong&gt;DBS check&lt;/strong&gt; necessary?&lt;/li&gt;
-&lt;li&gt;Is the start date dependent on the client providing a laptop and completing setup?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Red Flags and Lessons Learned&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Be cautious when:
-&lt;ul&gt;
-&lt;li&gt;Code reviews are done by someone not actively working with you or partially working with you.&lt;/li&gt;
-&lt;li&gt;Organizations use ServiceNow for project requests instead of support/change tickets.&lt;/li&gt;
-&lt;li&gt;There are no operational tasks done in a squad/team.&lt;/li&gt;
-&lt;li&gt;The lead engineer is not working on your project.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Best practices:
-&lt;ul&gt;
-&lt;li&gt;Get to know all ongoing projects before focusing on one.&lt;/li&gt;
-&lt;li&gt;Create a onboarding Jira ticket if possible.&lt;/li&gt;
-&lt;li&gt;Conduct 1-to-1 meetings with all team members.&lt;/li&gt;
-&lt;li&gt;Focus on making a positive impact and building workplace relationships rather than just performance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Questions to Ask the Client&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been on enough contracts now that I&amp;rsquo;ve started noticing patterns. Some good, some not so good. This is a collection of the things I check before signing, and the things I wish someone had told me about earlier.&lt;/p&gt;
+&lt;h2 id=&#34;before-you-sign&#34;&gt;Before you sign&lt;/h2&gt;
+&lt;p&gt;There are three administrative questions that can catch you out if you don&amp;rsquo;t sort them early. The first two are about checks — whether the client needs a BPSS or DBS check done, and whether they&amp;rsquo;re going to organise it. The third is about timing. Some start dates are real, others depend on the client actually getting you a laptop and sorting your access. If their setup process is slow, your start date slides whether they realise it or not.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Consulting Framework</title>
-      <link>https://www.shafiq.in/blog/consulting-framework/</link>
+      <title>When a Problem Is Worth Solving</title>
+      <link>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</link>
       <pubDate>Thu, 22 May 2025 12:04:38 +0200</pubDate>
-      <guid>https://www.shafiq.in/blog/consulting-framework/</guid>
-      <description>&lt;p&gt;To determine the viability of a consulting project, consider the following factors:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Can the client easily find a solution online?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Ideally, the answer should be &amp;ldquo;no&amp;rdquo;, indicating that the problem requires specialized expertise.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;strong&gt;What are the consequences of a failed solution?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;The cost of failure should be significant, but not catastrophic. This could include financial losses, reputational damage, or operational disruptions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;strong&gt;How quickly can you deliver a solution?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;The faster you can deliver a working solution, the better. This demonstrates your value to the client and helps build trust.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;strong&gt;How confident are you in your ability to deliver a great solution?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;You should be 100% confident in your ability to deliver a high-quality solution. Anything less may undermine the client&amp;rsquo;s trust and make it harder to close the deal.&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</guid>
+      <description>&lt;p&gt;I used to take on any project that came my way. That was a mistake.&lt;/p&gt;
+&lt;p&gt;Not every problem deserves your time, and not every client is worth working with. Over the years I&amp;rsquo;ve learned to filter opportunities through a simple set of questions before committing to anything.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can they fix it themselves?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If the answer is yes &amp;ndash; or if a decent blog post could solve it &amp;ndash; then it&amp;rsquo;s not a consulting engagement. It&amp;rsquo;s a homework assignment. The value of consulting lies in the gap between what the client knows and what they need to know. Close that gap and you&amp;rsquo;ve got nothing to sell.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-Promotion at Work</title>

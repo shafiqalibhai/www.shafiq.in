@@ -10,69 +10,35 @@
     <lastBuildDate>Thu, 22 May 2025 11:12:47 +0200</lastBuildDate>
     <atom:link href="https://www.shafiq.in/categories/financial/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Incomplete notes on Personal Finance</title>
-      <link>https://www.shafiq.in/blog/incomplete-notes-on-personal-finance/</link>
+      <title>Notes on Personal Finance</title>
+      <link>https://www.shafiq.in/blog/notes-on-personal-finance/</link>
       <pubDate>Thu, 22 May 2025 11:12:47 +0200</pubDate>
-      <guid>https://www.shafiq.in/blog/incomplete-notes-on-personal-finance/</guid>
-      <description>&lt;p&gt;Notes on budgeting strategies, savings goals, Investments: Stocks, bonds, real estate, retirement planning etc and Financial literacy: personal finance, taxes, insurance, and financial planning.&lt;/p&gt;
+      <guid>https://www.shafiq.in/blog/notes-on-personal-finance/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been slowly getting my head around personal finance over the last few years. Nothing dramatic — just trying to understand where money goes, how to save it, and what to do with it once you&amp;rsquo;ve saved some. Here&amp;rsquo;s a collection of frameworks, tools, and resources that have helped.&lt;/p&gt;
+&lt;h2 id=&#34;budgeting&#34;&gt;Budgeting&lt;/h2&gt;
+&lt;p&gt;The first step is knowing what you actually spend. Most people guess and are wrong.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Quantified Self:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Income sources (salary, freelance work, investments)&lt;/li&gt;
-&lt;li&gt;Expenses (fixed and variable)&lt;/li&gt;
-&lt;li&gt;Budget allocations (groceries, utilities, entertainment, etc.)&lt;/li&gt;
-&lt;li&gt;Savings rate&lt;/li&gt;
-&lt;li&gt;Debt payments (credit cards, loans, mortgages)&lt;/li&gt;
-&lt;li&gt;Credit score&lt;/li&gt;
-&lt;li&gt;Net worth calculation&lt;/li&gt;
-&lt;li&gt;Investment portfolio value&lt;/li&gt;
-&lt;li&gt;Investment contributions&lt;/li&gt;
-&lt;li&gt;Investment returns or losses&lt;/li&gt;
-&lt;li&gt;Retirement savings progress&lt;/li&gt;
-&lt;li&gt;Emergency fund balance&lt;/li&gt;
-&lt;li&gt;Insurance premiums paid&lt;/li&gt;
-&lt;li&gt;Tax-related activities (filing deadlines, documentation)&lt;/li&gt;
-&lt;li&gt;Financial goals progress&lt;/li&gt;
-&lt;li&gt;Money-saving strategies implemented&lt;/li&gt;
-&lt;li&gt;Cash flow management&lt;/li&gt;
-&lt;li&gt;Charity or donations made&lt;/li&gt;
-&lt;li&gt;Subscription services (cost, frequency of use)&lt;/li&gt;
-&lt;li&gt;Cost-cutting measures taken (e.g., negotiating bills, cancelling unused subscriptions)&lt;/li&gt;
-&lt;li&gt;Income earned&lt;/li&gt;
-&lt;li&gt;Expenses tracked&lt;/li&gt;
-&lt;li&gt;Budget adhered to&lt;/li&gt;
-&lt;li&gt;Savings accumulated&lt;/li&gt;
-&lt;li&gt;Investments made&lt;/li&gt;
-&lt;li&gt;Debt paid off&lt;/li&gt;
-&lt;li&gt;Credit score monitored&lt;/li&gt;
-&lt;li&gt;Financial goals set&lt;/li&gt;
-&lt;li&gt;Financial independence progress&lt;/li&gt;
-&lt;li&gt;Retirement planning undertaken&lt;/li&gt;
-&lt;li&gt;Emergency fund maintained&lt;/li&gt;
-&lt;li&gt;Insurance coverage assessed&lt;/li&gt;
-&lt;li&gt;Taxes filed&lt;/li&gt;
-&lt;li&gt;Estate planning considered&lt;/li&gt;
-&lt;li&gt;Financial literacy efforts made&lt;/li&gt;
-&lt;li&gt;Philanthropy or charitable giving practiced&lt;/li&gt;
-&lt;li&gt;Financial setbacks overcome&lt;/li&gt;
-&lt;li&gt;Financial milestones celebrated&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://monarchmoney.com&#34;&gt;Monarch Money&lt;/a&gt; &amp;ndash; A budgeting app that connects to your accounts and categorises spending automatically. I&amp;rsquo;ve found it useful for seeing where money leaks out each month.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youneedabudget.com&#34;&gt;YNAB (You Need A Budget)&lt;/a&gt; &amp;ndash; The most aggressive budgeting method I&amp;rsquo;ve tried. Every pound gets assigned a job before you spend it. Steep learning curve but changes how you think about money.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pocketguard.com&#34;&gt;PocketGuard&lt;/a&gt; &amp;ndash; Simpler than YNAB. Tells you how much &amp;ldquo;spendable&amp;rdquo; cash you have after bills and savings are accounted for.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=budget&amp;#43;template&amp;#43;spreadsheet&#34;&gt;Google Sheets budget templates&lt;/a&gt; &amp;ndash; If you prefer manual control, a spreadsheet gives you full visibility without linking bank accounts.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Invest in stocks, mutual funds, or other assets.&lt;/p&gt;</description>
+&lt;h2 id=&#34;tracking-and-the-quantified-self&#34;&gt;Tracking and the Quantified Self&lt;/h2&gt;
+&lt;p&gt;Once you&amp;rsquo;re budgeting, tracking specific metrics helps you see progress.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Some Links for International Trade in the UK</title>
-      <link>https://www.shafiq.in/blog/some-links-for-international-trade-in-the-uk/</link>
+      <title>Resources for International Trade in the UK</title>
+      <link>https://www.shafiq.in/blog/resources-for-international-trade-in-the-uk/</link>
       <pubDate>Thu, 15 May 2025 14:33:28 +0200</pubDate>
-      <guid>https://www.shafiq.in/blog/some-links-for-international-trade-in-the-uk/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://falsum.typeform.com/to/TuNPRxd5?typeform-source=www.thinksandwell.com&#34;&gt;https://falsum.typeform.com/to/TuNPRxd5?typeform-source=www.thinksandwell.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.chambercustoms.co.uk/&#34;&gt;https://www.chambercustoms.co.uk/#&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.blackcountrychamber.co.uk/training-courses/international-trade/&#34;&gt;https://www.blackcountrychamber.co.uk/training-courses/international-trade/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.blackcountrychamber.co.uk/international-trade/&#34;&gt;https://www.blackcountrychamber.co.uk/international-trade/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yLyBHQIKzI0&amp;amp;list=PLcJN_NYPGILyK3bjY_rleg_aMz0-vDhmx&#34;&gt;https://www.youtube.com/watch?v=yLyBHQIKzI0&amp;list=PLcJN_NYPGILyK3bjY_rleg_aMz0-vDhmx&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.gov.uk/guidance/hmrc-email-alerts-videos-and-webinars-about-importing-and-exporting&#34;&gt;https://www.gov.uk/guidance/hmrc-email-alerts-videos-and-webinars-about-importing-and-exporting&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/resources-for-international-trade-in-the-uk/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been looking into international trade for the UK and collected a few useful resources along the way. Nothing original, just links that might help someone starting out.&lt;/p&gt;
+&lt;h2 id=&#34;training-and-courses&#34;&gt;Training and courses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://falsum.typeform.com/to/TuNPRxd5?typeform-source=www.thinksandwell.com&#34;&gt;Think Sandwell &amp;ndash; International Trade&lt;/a&gt; &amp;ndash; A Typeform questionnaire from the Think Sandwell programme. Seems aimed at businesses in the West Midlands looking to get into export.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.blackcountrychamber.co.uk/training-courses/international-trade/&#34;&gt;Black Country Chamber &amp;ndash; International Trade Training&lt;/a&gt; &amp;ndash; Structured courses on the mechanics of trading internationally. Covers things like documentation, shipping, and compliance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What I wish someone told me before I started picking stocks to day trade</title>

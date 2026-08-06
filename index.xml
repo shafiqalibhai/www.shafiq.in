@@ -382,221 +382,43 @@
       <description>Upstream Invidious won&amp;#39;t add a Shorts toggle, so I wrote a pair of uBlock Origin filters that read the Invidious DOM directly.</description>
     </item>
     <item>
-      <title>How to set up Mastodon using Docker Compose</title>
-      <link>https://www.shafiq.in/blog/how-to-set-up-mastodon-using-docker-compose/</link>
+      <title>Running your own Mastodon instance with Docker Compose</title>
+      <link>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</link>
       <pubDate>Mon, 29 Sep 2025 14:50:26 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-set-up-mastodon-using-docker-compose/</guid>
-      <description>&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+      <guid>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running a Mastodon instance for a while now, and every time I set one up from scratch I end up digging through documentation that&amp;rsquo;s either outdated or assumes you already know what you&amp;rsquo;re doing. This is the guide I wish I&amp;rsquo;d had.&lt;/p&gt;
+&lt;h2 id=&#34;what-you-need&#34;&gt;What you need&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Docker and Docker Compose installed&lt;/li&gt;
-&lt;li&gt;Domain name pointing to your server&lt;/li&gt;
+&lt;li&gt;A server with Docker and Docker Compose installed&lt;/li&gt;
+&lt;li&gt;A domain name that points to your server&amp;rsquo;s IP address&lt;/li&gt;
+&lt;li&gt;Somewhere to send email (Mailgun, SendGrid, or your own SMTP server)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;1-create-project-directory&#34;&gt;1. Create Project Directory&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir mastodon
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; mastodon
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-create-docker-compose-file&#34;&gt;2. Create Docker Compose File&lt;/h2&gt;
-&lt;p&gt;Create a &lt;code&gt;docker-compose.yml&lt;/code&gt; file:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;3&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;services&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;always&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;postgres:14-alpine&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;shm_size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;256mb&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;networks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;internal_network&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;healthcheck&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;CMD&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;pg_isready&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;-U&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;postgres&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;volumes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;postgres_data:/var/lib/postgresql/data&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;environment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;POSTGRES_HOST_AUTH_METHOD=trust&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;redis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;always&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;redis:7-alpine&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;networks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;internal_network&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;healthcheck&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;CMD&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;redis-cli&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ping&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;volumes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;redis_data:/data&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;web&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;always&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;tootsuite/mastodon:latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;networks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;external_network&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;internal_network&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;healthcheck&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;CMD-SHELL&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;wget -q --spider http://localhost:3000/health || exit 1&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;timeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;10s&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;depends_on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;redis&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;environment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_HOST=db&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_USER=postgres&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_NAME=postgres&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_PASS=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;REDIS_HOST=redis&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;LOCAL_DOMAIN=your-domain.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SINGLE_USER_MODE=false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SMTP_SERVER=smtp.mailgun.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SMTP_PORT=587&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SMTP_LOGIN=your-smtp-login&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SMTP_PASSWORD=your-smtp-password&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SMTP_FROM_ADDRESS=notifications@your-domain.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;volumes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;./public/system:/mastodon/public/system&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ports&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;3000:3000&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;command&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;bash -c &amp;#34;rm -f /mastodon/tmp/pids/server.pid &amp;amp;&amp;amp; bundle exec rails s -p 3000&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;streaming&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;always&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;tootsuite/mastodon:latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;networks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;external_network&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;internal_network&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;depends_on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;redis&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;environment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_HOST=db&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_USER=postgres&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_NAME=postgres&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_PASS=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;REDIS_HOST=redis&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;LOCAL_DOMAIN=your-domain.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;volumes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;./public/system:/mastodon/public/system&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ports&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;4000:4000&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;command&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;node ./streaming&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;sidekiq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;always&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;tootsuite/mastodon:latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;networks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;internal_network&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;depends_on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;redis&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;environment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_HOST=db&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_USER=postgres&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_NAME=postgres&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;DB_PASS=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;REDIS_HOST=redis&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;LOCAL_DOMAIN=your-domain.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;volumes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;./public/system:/mastodon/public/system&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;command&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;bundle exec sidekiq&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;networks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;external_network&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;internal_network&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;internal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;volumes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;postgres_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;redis_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-create-environment-file&#34;&gt;3. Create Environment File&lt;/h2&gt;
-&lt;p&gt;Create a &lt;code&gt;.env.production&lt;/code&gt; file with your configuration:&lt;/p&gt;</description>
+&lt;p&gt;That&amp;rsquo;s it. No Kubernetes, no systemd fiddling, no compiling from source.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Key Life Advice from People in Their 40s to Those in Their 20s</title>
-      <link>https://www.shafiq.in/blog/key-life-advice-from-people-in-their-40s-to-those-in-their-20s/</link>
+      <title>What people in their 40s wish they&#39;d known at 25</title>
+      <link>https://www.shafiq.in/blog/what-people-in-their-40s-wish-theyd-known-at-25/</link>
       <pubDate>Mon, 29 Sep 2025 14:50:22 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/key-life-advice-from-people-in-their-40s-to-those-in-their-20s/</guid>
-      <description>&lt;h2 id=&#34;key-life-advice-from-people-in-their-40s-to-those-in-their-20s&#34;&gt;Key Life Advice from People in Their 40s to Those in Their 20s&lt;/h2&gt;
-&lt;h3 id=&#34;physical-health--self-care&#34;&gt;&lt;strong&gt;Physical Health &amp;amp; Self-Care&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Take care of your teeth - they&amp;rsquo;re the only set you&amp;rsquo;ll ever have&lt;/li&gt;
-&lt;li&gt;Take care of your knees and back&lt;/li&gt;
-&lt;li&gt;Stretch every day or at least more than never - stay limber because once flexibility is gone, it&amp;rsquo;s almost impossible to get back&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t wait to get in shape - start working out now in whatever way you enjoy&lt;/li&gt;
-&lt;li&gt;Use sunscreen and drink plenty of water&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;mental-health--self-perception&#34;&gt;&lt;strong&gt;Mental Health &amp;amp; Self-Perception&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Stop caring what other people think - this was one of the most emphasized points&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re not special, no one cares what you do, and the sooner you accept it, the sooner you can be at peace with yourself&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t take yourself too seriously - you&amp;rsquo;ll probably look back ten years later mildly mortified at how deep you thought you were&lt;/li&gt;
-&lt;li&gt;It&amp;rsquo;s okay and healthy to sit in silence - put down your phone and just be&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;time--life-perspective&#34;&gt;&lt;strong&gt;Time &amp;amp; Life Perspective&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Time goes by very fast - never waste a day&lt;/li&gt;
-&lt;li&gt;Chase your dreams! You don&amp;rsquo;t want to be 80 years old regretting not travelling or pursuing your passion&lt;/li&gt;
-&lt;li&gt;You don&amp;rsquo;t have as much time as you think you do - do something every day, even if it&amp;rsquo;s just for yourself&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;social-comparisons--life-timelines&#34;&gt;&lt;strong&gt;Social Comparisons &amp;amp; Life Timelines&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Don&amp;rsquo;t fall into the trap of thinking everyone else your age has something you don&amp;rsquo;t&lt;/li&gt;
-&lt;li&gt;Once you&amp;rsquo;re out of school, there are no timelines anymore - you&amp;rsquo;re not supposed to do anything by any particular point in your life&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t worry about high school - once you&amp;rsquo;re done, no one cares except for getting your diploma&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;relationships--social-life&#34;&gt;&lt;strong&gt;Relationships &amp;amp; Social Life&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Choose friends wisely - don&amp;rsquo;t keep friends who bring you down, only call when they need something, or discourage your growth&lt;/li&gt;
-&lt;li&gt;Just ask - whether it&amp;rsquo;s the person who gets your heart beating or the pay raise you deserve, things won&amp;rsquo;t come to you by themselves&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;financial-wisdom&#34;&gt;&lt;strong&gt;Financial Wisdom&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Save money and invest - investments roughly double every decade&lt;/li&gt;
-&lt;li&gt;Doing something you like for a living is more rewarding than doing something that pays exceptionally well&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;personal-growth&#34;&gt;&lt;strong&gt;Personal Growth&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Fail more - failure is not a catastrophe but part of the process of getting better&lt;/li&gt;
-&lt;li&gt;Deprogram yourself from societal lies and examine your beliefs thoroughly&lt;/li&gt;
-&lt;li&gt;Learn to live in the present - the past is just memory and the future is imagination&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Source: Reddit comments&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/what-people-in-their-40s-wish-theyd-known-at-25/</guid>
+      <description>&lt;p&gt;I was reading through some Reddit threads the other day — you know the ones, where people ask &amp;ldquo;what do you wish you&amp;rsquo;d known at 25?&amp;rdquo; — and I found myself nodding along to a lot of it. There&amp;rsquo;s something oddly comforting about reading advice from people who actually lived through the decade you&amp;rsquo;re currently in. Not theorists, not podcasters, just regular folks who figured some stuff out the hard way.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Comparison of WHPH and Super Productivity Apps</title>
-      <link>https://www.shafiq.in/blog/comparison-of-whph-and-super-productivity-apps/</link>
+      <title>WHPH vs Super Productivity</title>
+      <link>https://www.shafiq.in/blog/whph-vs-super-productivity/</link>
       <pubDate>Mon, 29 Sep 2025 11:53:23 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/comparison-of-whph-and-super-productivity-apps/</guid>
-      <description>&lt;h2 id=&#34;whph-work-hard-play-hard&#34;&gt;WHPH (Work Hard Play Hard)&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Task Management: Organise and track your daily tasks efficiently&lt;/li&gt;
-&lt;li&gt;Habit Tracking: Build and maintain positive habits with progress monitoring&lt;/li&gt;
-&lt;li&gt;Application Usage Tracking: Monitor how you spend time on different applications&lt;/li&gt;
-&lt;li&gt;Time Optimisation: Analyse your time usage patterns and improve productivity&lt;/li&gt;
-&lt;li&gt;Optional data synchronization between your desktop and mobile devices over your local network&lt;/li&gt;
-&lt;li&gt;Available for Android, Windows, and Linux platforms&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Privacy &amp;amp; Sync:&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/whph-vs-super-productivity/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been trying to figure out which productivity app actually fits my workflow. Both WHPH (Work Hard Play Hard) and Super Productivity keep coming up, so I thought it was worth comparing them properly.&lt;/p&gt;
+&lt;h2 id=&#34;whph-work-hard-play-hard&#34;&gt;WHPH (Work Hard Play Hard)&lt;/h2&gt;
+&lt;p&gt;WHPH is a general-purpose productivity app. It does several things: tracks your tasks, monitors which apps you use and for how long, helps you build habits, and gives you a basic sense of where your time goes. The sync between desktop and mobile happens over your local network &amp;ndash; no cloud, no account, just devices talking to each other.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to test AA and AAA batteries using a multimeter</title>
       <link>https://www.shafiq.in/blog/how-to-test-aa-and-aaa-batteries-using-a-multimeter/</link>
       <pubDate>Mon, 29 Sep 2025 11:53:17 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-to-test-aa-and-aaa-batteries-using-a-multimeter/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Turn the dial to a higher voltage setting&lt;/strong&gt; - Try the &amp;ldquo;200&amp;rdquo; setting in the DC voltage (V⎓) section. This will handle voltages up to 200V.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Check your connections&lt;/strong&gt; - Make sure:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The black probe is firmly in the &amp;ldquo;COM&amp;rdquo; port&lt;/li&gt;
-&lt;li&gt;The red probe is firmly in the &amp;ldquo;VΩmA&amp;rdquo; port&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re making good contact with the battery terminals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Verify the battery orientation&lt;/strong&gt; - Make sure you&amp;rsquo;re touching:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Black probe to the negative (-) end of the battery&lt;/li&gt;
-&lt;li&gt;Red probe to the positive (+) end of the battery&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description>&lt;p&gt;I have a drawer full of spare AA and AAA batteries. Some are fresh, some are from remote controls that died last winter, some I found in a toy. Before tossing them or putting them to use, I check the voltage with a multimeter. It takes thirty seconds and saves you from guessing.&lt;/p&gt;
+&lt;h2 id=&#34;what-you-need&#34;&gt;What you need&lt;/h2&gt;
+&lt;p&gt;A cheap multimeter is all you need. Any digital one will do — I&amp;rsquo;ve used the same £8 model from Amazon for years. The probes should be intact and the battery in the multimeter itself should have charge (if it beeps when you turn it on, you&amp;rsquo;re good).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Iceraven and Ironfox browser comparison</title>
@@ -657,67 +479,23 @@
 &lt;p&gt;The Enterprise Architect maps closest to Product Owner — they prioritise the architecture backlog. The Architecture Board shows up at sprint reviews. The Scrum Master facilitates the process and removes blockers.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Things to do and questions to ask when starting a new contract</title>
-      <link>https://www.shafiq.in/blog/things-to-do-and-questions-to-ask-when-starting-a-new-contract/</link>
+      <title>Starting a new contract — what I wish I&#39;d asked sooner</title>
+      <link>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</link>
       <pubDate>Thu, 22 May 2025 12:07:12 +0200</pubDate>
-      <guid>https://www.shafiq.in/blog/things-to-do-and-questions-to-ask-when-starting-a-new-contract/</guid>
-      <description>&lt;p&gt;Before starting a contract, consider the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Is a &lt;strong&gt;BPSS check&lt;/strong&gt; necessary?&lt;/li&gt;
-&lt;li&gt;Is a &lt;strong&gt;DBS check&lt;/strong&gt; necessary?&lt;/li&gt;
-&lt;li&gt;Is the start date dependent on the client providing a laptop and completing setup?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Red Flags and Lessons Learned&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Be cautious when:
-&lt;ul&gt;
-&lt;li&gt;Code reviews are done by someone not actively working with you or partially working with you.&lt;/li&gt;
-&lt;li&gt;Organizations use ServiceNow for project requests instead of support/change tickets.&lt;/li&gt;
-&lt;li&gt;There are no operational tasks done in a squad/team.&lt;/li&gt;
-&lt;li&gt;The lead engineer is not working on your project.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Best practices:
-&lt;ul&gt;
-&lt;li&gt;Get to know all ongoing projects before focusing on one.&lt;/li&gt;
-&lt;li&gt;Create a onboarding Jira ticket if possible.&lt;/li&gt;
-&lt;li&gt;Conduct 1-to-1 meetings with all team members.&lt;/li&gt;
-&lt;li&gt;Focus on making a positive impact and building workplace relationships rather than just performance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Questions to Ask the Client&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been on enough contracts now that I&amp;rsquo;ve started noticing patterns. Some good, some not so good. This is a collection of the things I check before signing, and the things I wish someone had told me about earlier.&lt;/p&gt;
+&lt;h2 id=&#34;before-you-sign&#34;&gt;Before you sign&lt;/h2&gt;
+&lt;p&gt;There are three administrative questions that can catch you out if you don&amp;rsquo;t sort them early. The first two are about checks — whether the client needs a BPSS or DBS check done, and whether they&amp;rsquo;re going to organise it. The third is about timing. Some start dates are real, others depend on the client actually getting you a laptop and sorting your access. If their setup process is slow, your start date slides whether they realise it or not.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Consulting Framework</title>
-      <link>https://www.shafiq.in/blog/consulting-framework/</link>
+      <title>When a Problem Is Worth Solving</title>
+      <link>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</link>
       <pubDate>Thu, 22 May 2025 12:04:38 +0200</pubDate>
-      <guid>https://www.shafiq.in/blog/consulting-framework/</guid>
-      <description>&lt;p&gt;To determine the viability of a consulting project, consider the following factors:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Can the client easily find a solution online?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Ideally, the answer should be &amp;ldquo;no&amp;rdquo;, indicating that the problem requires specialized expertise.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;strong&gt;What are the consequences of a failed solution?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;The cost of failure should be significant, but not catastrophic. This could include financial losses, reputational damage, or operational disruptions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;strong&gt;How quickly can you deliver a solution?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;The faster you can deliver a working solution, the better. This demonstrates your value to the client and helps build trust.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;strong&gt;How confident are you in your ability to deliver a great solution?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;You should be 100% confident in your ability to deliver a high-quality solution. Anything less may undermine the client&amp;rsquo;s trust and make it harder to close the deal.&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</guid>
+      <description>&lt;p&gt;I used to take on any project that came my way. That was a mistake.&lt;/p&gt;
+&lt;p&gt;Not every problem deserves your time, and not every client is worth working with. Over the years I&amp;rsquo;ve learned to filter opportunities through a simple set of questions before committing to anything.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can they fix it themselves?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If the answer is yes &amp;ndash; or if a decent blog post could solve it &amp;ndash; then it&amp;rsquo;s not a consulting engagement. It&amp;rsquo;s a homework assignment. The value of consulting lies in the gap between what the client knows and what they need to know. Close that gap and you&amp;rsquo;ve got nothing to sell.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Book Binding</title>
@@ -730,69 +508,35 @@
 &lt;p&gt;&lt;strong&gt;PVA glue&lt;/strong&gt; — Artway Strong PVA, 1 litre. White, works on fabric and paper. From Amazon UK.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Incomplete notes on Personal Finance</title>
-      <link>https://www.shafiq.in/blog/incomplete-notes-on-personal-finance/</link>
+      <title>Notes on Personal Finance</title>
+      <link>https://www.shafiq.in/blog/notes-on-personal-finance/</link>
       <pubDate>Thu, 22 May 2025 11:12:47 +0200</pubDate>
-      <guid>https://www.shafiq.in/blog/incomplete-notes-on-personal-finance/</guid>
-      <description>&lt;p&gt;Notes on budgeting strategies, savings goals, Investments: Stocks, bonds, real estate, retirement planning etc and Financial literacy: personal finance, taxes, insurance, and financial planning.&lt;/p&gt;
+      <guid>https://www.shafiq.in/blog/notes-on-personal-finance/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been slowly getting my head around personal finance over the last few years. Nothing dramatic — just trying to understand where money goes, how to save it, and what to do with it once you&amp;rsquo;ve saved some. Here&amp;rsquo;s a collection of frameworks, tools, and resources that have helped.&lt;/p&gt;
+&lt;h2 id=&#34;budgeting&#34;&gt;Budgeting&lt;/h2&gt;
+&lt;p&gt;The first step is knowing what you actually spend. Most people guess and are wrong.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Quantified Self:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Income sources (salary, freelance work, investments)&lt;/li&gt;
-&lt;li&gt;Expenses (fixed and variable)&lt;/li&gt;
-&lt;li&gt;Budget allocations (groceries, utilities, entertainment, etc.)&lt;/li&gt;
-&lt;li&gt;Savings rate&lt;/li&gt;
-&lt;li&gt;Debt payments (credit cards, loans, mortgages)&lt;/li&gt;
-&lt;li&gt;Credit score&lt;/li&gt;
-&lt;li&gt;Net worth calculation&lt;/li&gt;
-&lt;li&gt;Investment portfolio value&lt;/li&gt;
-&lt;li&gt;Investment contributions&lt;/li&gt;
-&lt;li&gt;Investment returns or losses&lt;/li&gt;
-&lt;li&gt;Retirement savings progress&lt;/li&gt;
-&lt;li&gt;Emergency fund balance&lt;/li&gt;
-&lt;li&gt;Insurance premiums paid&lt;/li&gt;
-&lt;li&gt;Tax-related activities (filing deadlines, documentation)&lt;/li&gt;
-&lt;li&gt;Financial goals progress&lt;/li&gt;
-&lt;li&gt;Money-saving strategies implemented&lt;/li&gt;
-&lt;li&gt;Cash flow management&lt;/li&gt;
-&lt;li&gt;Charity or donations made&lt;/li&gt;
-&lt;li&gt;Subscription services (cost, frequency of use)&lt;/li&gt;
-&lt;li&gt;Cost-cutting measures taken (e.g., negotiating bills, cancelling unused subscriptions)&lt;/li&gt;
-&lt;li&gt;Income earned&lt;/li&gt;
-&lt;li&gt;Expenses tracked&lt;/li&gt;
-&lt;li&gt;Budget adhered to&lt;/li&gt;
-&lt;li&gt;Savings accumulated&lt;/li&gt;
-&lt;li&gt;Investments made&lt;/li&gt;
-&lt;li&gt;Debt paid off&lt;/li&gt;
-&lt;li&gt;Credit score monitored&lt;/li&gt;
-&lt;li&gt;Financial goals set&lt;/li&gt;
-&lt;li&gt;Financial independence progress&lt;/li&gt;
-&lt;li&gt;Retirement planning undertaken&lt;/li&gt;
-&lt;li&gt;Emergency fund maintained&lt;/li&gt;
-&lt;li&gt;Insurance coverage assessed&lt;/li&gt;
-&lt;li&gt;Taxes filed&lt;/li&gt;
-&lt;li&gt;Estate planning considered&lt;/li&gt;
-&lt;li&gt;Financial literacy efforts made&lt;/li&gt;
-&lt;li&gt;Philanthropy or charitable giving practiced&lt;/li&gt;
-&lt;li&gt;Financial setbacks overcome&lt;/li&gt;
-&lt;li&gt;Financial milestones celebrated&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://monarchmoney.com&#34;&gt;Monarch Money&lt;/a&gt; &amp;ndash; A budgeting app that connects to your accounts and categorises spending automatically. I&amp;rsquo;ve found it useful for seeing where money leaks out each month.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youneedabudget.com&#34;&gt;YNAB (You Need A Budget)&lt;/a&gt; &amp;ndash; The most aggressive budgeting method I&amp;rsquo;ve tried. Every pound gets assigned a job before you spend it. Steep learning curve but changes how you think about money.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pocketguard.com&#34;&gt;PocketGuard&lt;/a&gt; &amp;ndash; Simpler than YNAB. Tells you how much &amp;ldquo;spendable&amp;rdquo; cash you have after bills and savings are accounted for.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=budget&amp;#43;template&amp;#43;spreadsheet&#34;&gt;Google Sheets budget templates&lt;/a&gt; &amp;ndash; If you prefer manual control, a spreadsheet gives you full visibility without linking bank accounts.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Invest in stocks, mutual funds, or other assets.&lt;/p&gt;</description>
+&lt;h2 id=&#34;tracking-and-the-quantified-self&#34;&gt;Tracking and the Quantified Self&lt;/h2&gt;
+&lt;p&gt;Once you&amp;rsquo;re budgeting, tracking specific metrics helps you see progress.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Some Links for International Trade in the UK</title>
-      <link>https://www.shafiq.in/blog/some-links-for-international-trade-in-the-uk/</link>
+      <title>Resources for International Trade in the UK</title>
+      <link>https://www.shafiq.in/blog/resources-for-international-trade-in-the-uk/</link>
       <pubDate>Thu, 15 May 2025 14:33:28 +0200</pubDate>
-      <guid>https://www.shafiq.in/blog/some-links-for-international-trade-in-the-uk/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://falsum.typeform.com/to/TuNPRxd5?typeform-source=www.thinksandwell.com&#34;&gt;https://falsum.typeform.com/to/TuNPRxd5?typeform-source=www.thinksandwell.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.chambercustoms.co.uk/&#34;&gt;https://www.chambercustoms.co.uk/#&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.blackcountrychamber.co.uk/training-courses/international-trade/&#34;&gt;https://www.blackcountrychamber.co.uk/training-courses/international-trade/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.blackcountrychamber.co.uk/international-trade/&#34;&gt;https://www.blackcountrychamber.co.uk/international-trade/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yLyBHQIKzI0&amp;amp;list=PLcJN_NYPGILyK3bjY_rleg_aMz0-vDhmx&#34;&gt;https://www.youtube.com/watch?v=yLyBHQIKzI0&amp;list=PLcJN_NYPGILyK3bjY_rleg_aMz0-vDhmx&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.gov.uk/guidance/hmrc-email-alerts-videos-and-webinars-about-importing-and-exporting&#34;&gt;https://www.gov.uk/guidance/hmrc-email-alerts-videos-and-webinars-about-importing-and-exporting&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/resources-for-international-trade-in-the-uk/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been looking into international trade for the UK and collected a few useful resources along the way. Nothing original, just links that might help someone starting out.&lt;/p&gt;
+&lt;h2 id=&#34;training-and-courses&#34;&gt;Training and courses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://falsum.typeform.com/to/TuNPRxd5?typeform-source=www.thinksandwell.com&#34;&gt;Think Sandwell &amp;ndash; International Trade&lt;/a&gt; &amp;ndash; A Typeform questionnaire from the Think Sandwell programme. Seems aimed at businesses in the West Midlands looking to get into export.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.blackcountrychamber.co.uk/training-courses/international-trade/&#34;&gt;Black Country Chamber &amp;ndash; International Trade Training&lt;/a&gt; &amp;ndash; Structured courses on the mechanics of trading internationally. Covers things like documentation, shipping, and compliance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-Promotion at Work</title>

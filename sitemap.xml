@@ -62,13 +62,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/how-to-set-up-mastodon-using-docker-compose/</loc>
+    <loc>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</loc>
     <lastmod>2025-09-29T14:50:26+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/blog/key-life-advice-from-people-in-their-40s-to-those-in-their-20s/</loc>
-    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -77,12 +72,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/comparison-of-whph-and-super-productivity-apps/</loc>
-    <lastmod>2025-09-29T11:53:23+00:00</lastmod>
+    <loc>https://www.shafiq.in/blog/what-people-in-their-40s-wish-theyd-known-at-25/</loc>
+    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/categories/productivity/</loc>
+    <lastmod>2025-09-29T11:53:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/whph-vs-super-productivity/</loc>
     <lastmod>2025-09-29T11:53:23+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -112,12 +112,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/things-to-do-and-questions-to-ask-when-starting-a-new-contract/</loc>
+    <loc>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</loc>
     <lastmod>2025-05-22T12:07:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/consulting-framework/</loc>
+    <loc>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</loc>
     <lastmod>2025-05-22T12:04:38+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -137,12 +137,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/incomplete-notes-on-personal-finance/</loc>
+    <loc>https://www.shafiq.in/blog/notes-on-personal-finance/</loc>
     <lastmod>2025-05-22T11:12:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/some-links-for-international-trade-in-the-uk/</loc>
+    <loc>https://www.shafiq.in/blog/resources-for-international-trade-in-the-uk/</loc>
     <lastmod>2025-05-15T14:33:28+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
