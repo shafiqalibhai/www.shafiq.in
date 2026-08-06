@@ -10,27 +10,12 @@
     <lastBuildDate>Wed, 11 Sep 2024 10:50:01 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/knowledge-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Notes on Second Brain</title>
-      <link>https://www.shafiq.in/blog/notes-on-second-brain/</link>
+      <title>Building a Second Brain</title>
+      <link>https://www.shafiq.in/blog/building-a-second-brain/</link>
       <pubDate>Wed, 11 Sep 2024 10:50:01 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/notes-on-second-brain/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PARA (Projects, Areas, Resources, Archive) framework&lt;/li&gt;
-&lt;li&gt;PKM (Personal Knowledge Management) eventually turns into a book&lt;/li&gt;
-&lt;li&gt;Capture, Organise, Distill, Express - the CODE framework&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Key Concepts&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Organise based on actionable projects&lt;/li&gt;
-&lt;li&gt;Distill information for sharing with others&lt;/li&gt;
-&lt;li&gt;Express ideas to create something new, rather than just consuming&lt;/li&gt;
-&lt;li&gt;Use Obsidian folder for &amp;ldquo;Read Later&amp;rdquo; or &amp;ldquo;Inbox&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Capture voice memos using transcription apps&lt;/li&gt;
-&lt;li&gt;Projects have checks to finalise&lt;/li&gt;
-&lt;li&gt;Hollywood model for project management&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;PARA Areas Suggestions&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/building-a-second-brain/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been reading Tiago Forte&amp;rsquo;s &lt;em&gt;Building a Second Brain&lt;/em&gt;, and it&amp;rsquo;s one of those books that makes you immediately want to reorganise your entire digital life. The central idea is straightforward enough: your brain is for having ideas, not storing them. Everything else &amp;ndash; notes, articles, voice memos, half-finished projects &amp;ndash; should live somewhere external that you can trust and search.&lt;/p&gt;
+&lt;p&gt;The framework he proposes is called CODE: Capture, Organise, Distill, Express. It&amp;rsquo;s simple, and that&amp;rsquo;s the point. Most people I know (myself included) are terrible at the first two steps. We capture everything &amp;ndash; screenshots, highlights, random thoughts &amp;ndash; and then we never look at it again because there&amp;rsquo;s no system for getting it out.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

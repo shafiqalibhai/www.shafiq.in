@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Command-Line on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/command-line/</link>
+    <description>Recent content in Command-Line on Shafiq Alibhai</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Apr 2024 13:27:06 +0000</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shrinking PDFs with Ghostscript on the command line</title>
+      <link>https://www.shafiq.in/blog/shrinking-pdfs-with-ghostscript-on-the-command-line/</link>
+      <pubDate>Mon, 01 Apr 2024 13:27:06 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/shrinking-pdfs-with-ghostscript-on-the-command-line/</guid>
+      <description>&lt;p&gt;I needed to shrink a PDF last week — something I don&amp;rsquo;t do often enough to remember the flags. Ghostscript is the tool, and it&amp;rsquo;s already on most Linux machines or a quick &lt;code&gt;apt install ghostscript&lt;/code&gt; away.&lt;/p&gt;
+&lt;p&gt;The command is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gs -sDEVICE&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;pdfwrite -dCompatibilityLevel&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1.4 -dPDFSETTINGS&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/screen &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   -dNOPAUSE -dQUIET -dBATCH -sOutputFile&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;output.pdf input.pdf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The bit that actually matters is &lt;code&gt;-dPDFSETTINGS=/screen&lt;/code&gt;. That&amp;rsquo;s the quality dial. &lt;code&gt;/screen&lt;/code&gt; gives you the smallest file — fine for emailing or uploading, rubbish if you need to print anything.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
