@@ -457,7 +457,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/10-most-popular-books-on-soft-skills-for-project-managers/</loc>
+    <loc>https://www.shafiq.in/tags/books/</loc>
+    <lastmod>2023-09-05T04:31:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/books-that-actually-helped-me-with-the-people-side-of-project-management/</loc>
     <lastmod>2023-09-05T04:31:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -473,11 +478,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/project-management/</loc>
-    <lastmod>2023-09-05T04:31:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/resource/</loc>
     <lastmod>2023-09-05T04:31:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -547,13 +547,38 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/list-of-emotions/</loc>
-    <lastmod>2023-05-15T11:30:03+00:00</lastmod>
+    <loc>https://www.shafiq.in/blog/a-list-of-emotions-i-keep-coming-back-to/</loc>
+    <lastmod>2023-05-15T12:59:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/vision-board-markdown-template/</loc>
-    <lastmod>2023-05-06T12:18:03+00:00</lastmod>
+    <loc>https://www.shafiq.in/tags/emotions/</loc>
+    <lastmod>2023-05-15T12:59:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/feelings/</loc>
+    <lastmod>2023-05-15T12:59:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/self-awareness/</loc>
+    <lastmod>2023-05-15T12:59:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/goal-setting/</loc>
+    <lastmod>2023-05-06T12:19:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/how-to-make-a-vision-board-that-youll-actually-use/</loc>
+    <lastmod>2023-05-06T12:19:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/planning/</loc>
+    <lastmod>2023-05-06T12:19:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -567,27 +592,37 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/how-to-erase-line-in-files-containing-string-recursively-in-linux/</loc>
+    <loc>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</loc>
     <lastmod>2023-04-27T18:00:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/how-to-install-phantomjs-on-ubuntu-22.10/</loc>
+    <loc>https://www.shafiq.in/tags/headless-browser/</loc>
     <lastmod>2023-04-27T17:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/how-to-delete-all-files-containing-string-in-linux/</loc>
+    <loc>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</loc>
+    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/phantomjs/</loc>
+    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/ubuntu/</loc>
+    <lastmod>2023-04-27T17:30:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/deleting-files-by-content-match-in-linux/</loc>
     <lastmod>2023-04-27T11:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/collaboration/</loc>
-    <lastmod>2023-01-27T11:08:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/blog/collaboration-in-a-devops-team/</loc>
     <lastmod>2023-01-27T11:08:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -602,12 +637,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/inspiration/</loc>
-    <lastmod>2022-08-25T20:04:46+00:00</lastmod>
+    <loc>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</loc>
+    <lastmod>2023-01-27T11:08:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/memento-mori/</loc>
+    <lastmod>2022-08-25T20:04:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/mindset/</loc>
     <lastmod>2022-08-25T20:04:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -617,12 +657,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/quote/</loc>
-    <lastmod>2022-08-25T20:04:46+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/quote/</loc>
+    <loc>https://www.shafiq.in/categories/reflection/</loc>
     <lastmod>2022-08-25T20:04:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -637,7 +672,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/you-dont-have-to-be-crazy-to-live-on-earth.-but-to-some-it-helps-to-be./</loc>
+    <loc>https://www.shafiq.in/blog/a-bit-of-madness-goes-a-long-way/</loc>
     <lastmod>2022-07-20T11:59:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -647,7 +682,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</loc>
+    <loc>https://www.shafiq.in/blog/grabbing-an-ssl-certificate-from-a-remote-server/</loc>
     <lastmod>2021-06-15T08:21:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -667,22 +702,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/family/</loc>
+    <lastmod>2021-05-21T13:25:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/tags/irony/</loc>
     <lastmod>2021-05-21T13:25:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/no-good-deed-ever-goes-unpunished./</loc>
+    <loc>https://www.shafiq.in/blog/no-good-deed-ever-goes-unpunished/</loc>
     <lastmod>2021-05-21T13:25:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/reflection/</loc>
-    <lastmod>2021-05-21T13:25:56+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/wisdom/</loc>
+    <loc>https://www.shafiq.in/tags/quote/</loc>
     <lastmod>2021-05-21T13:25:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -692,7 +727,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/whenever-you-feel-like-criticizing-any-one-just-remember-that-all-the-people-in-this-world-havent-had-the-advantages-that-youve-had./</loc>
+    <loc>https://www.shafiq.in/tags/judgment/</loc>
+    <lastmod>2021-05-20T08:36:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/privilege/</loc>
+    <lastmod>2021-05-20T08:36:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/the-advantages-youve-had/</loc>
     <lastmod>2021-05-20T08:36:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -707,12 +752,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</loc>
+    <loc>https://www.shafiq.in/blog/count-directories-in-the-current-folder-with-a-one-liner/</loc>
     <lastmod>2020-07-14T09:17:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</loc>
+    <loc>https://www.shafiq.in/blog/count-files-in-a-directory-with-a-one-liner/</loc>
     <lastmod>2020-07-14T09:15:31+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -722,7 +767,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</loc>
+    <loc>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</loc>
     <lastmod>2020-07-14T09:11:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -778,6 +823,11 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/law/</loc>
+    <lastmod>2018-12-31T09:55:37+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/quote/</loc>
     <lastmod>2018-12-31T09:55:37+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -907,17 +957,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/resource/</loc>
+    <lastmod>2018-09-23T15:25:01+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/tags/compilation/</loc>
     <lastmod>2018-09-19T15:44:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</loc>
-    <lastmod>2018-09-19T15:44:02+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/ubuntu/</loc>
     <lastmod>2018-09-19T15:44:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1108,11 +1158,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/categories/philosophy/</loc>
-    <lastmod>2014-12-07T13:25:16+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/reflection/</loc>
     <lastmod>2014-12-07T13:25:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2239,11 +2284,6 @@
   </url><url>
     <loc>https://www.shafiq.in/blog/what-is-the-ipad/</loc>
     <lastmod>2010-07-10T08:56:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/mindset/</loc>
-    <lastmod>2010-07-09T12:10:43+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>

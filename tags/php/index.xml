@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Php on Shafiq Alibhai</title>
+    <title>PHP on Shafiq Alibhai</title>
     <link>https://www.shafiq.in/tags/php/</link>
-    <description>Recent content in Php on Shafiq Alibhai</description>
+    <description>Recent content in PHP on Shafiq Alibhai</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
     <lastBuildDate>Tue, 14 Jul 2020 09:11:45 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How To Install PHP (7.4, 7.3 &amp; 5.6) on Debian 9 Stretch</title>
-      <link>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</link>
+      <title>Installing Multiple PHP Versions on Debian 9</title>
+      <link>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</link>
       <pubDate>Tue, 14 Jul 2020 09:11:45 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</guid>
-      <description>&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;Login to your Debian 9 system using shell access. For remote systems connect with SSH. Windows users can use Putty or other alternatives applications for SSH connection.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh root@debian9
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run below commands to upgrade the current packages to the latest version.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt upgrade
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s execute the following commands to install the required packages first on your system. Then import packages signing key. After that configure PPA for the PHP packages on your system.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</guid>
+      <description>&lt;p&gt;Sometimes you need more than one PHP version on the same server. Maybe an old project still runs on 5.6, another one needs 7.2, and you want to test something on 7.4 before committing. Debian&amp;rsquo;s default repositories only ship one version, so you need a third-party source.&lt;/p&gt;
+&lt;p&gt;The Sury repository is the standard way to get multiple PHP versions on Debian. Ondrej Surý has maintained it for years and it&amp;rsquo;s trusted by most people running PHP on Debian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dumping a node field as an array in Drupal 6</title>

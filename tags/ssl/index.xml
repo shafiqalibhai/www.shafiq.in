@@ -10,12 +10,14 @@
     <lastBuildDate>Tue, 15 Jun 2021 08:21:21 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to get a remote server SSL certificate</title>
-      <link>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</link>
+      <title>Grabbing an SSL certificate from a remote server</title>
+      <link>https://www.shafiq.in/blog/grabbing-an-ssl-certificate-from-a-remote-server/</link>
       <pubDate>Tue, 15 Jun 2021 08:21:21 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openssl s_client -connect &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;HOSTNAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;PORT&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; -showcerts
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/grabbing-an-ssl-certificate-from-a-remote-server/</guid>
+      <description>&lt;p&gt;There are moments when you need to inspect the certificate a remote server is presenting &amp;ndash; maybe it&amp;rsquo;s expired and you&amp;rsquo;re trying to work out why things are breaking, or maybe you need the raw certificate data for some other reason and don&amp;rsquo;t have access to the server&amp;rsquo;s configuration.&lt;/p&gt;
+&lt;p&gt;The quickest way is with &lt;code&gt;openssl s_client&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openssl s_client -connect &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;HOSTNAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;PORT&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; -showcerts
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;{HOSTNAME}&lt;/code&gt; with the server address and &lt;code&gt;{PORT}&lt;/code&gt; with the port (usually 443 for HTTPS). The &lt;code&gt;-showcerts&lt;/code&gt; flag dumps the full certificate chain rather than just the leaf certificate.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -39,19 +39,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This prevents any pod from being scheduled on &lt;code&gt;node1&lt;/code&gt; unless it has a toleration for &lt;code&gt;type=db&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How To Install PHP (7.4, 7.3 &amp; 5.6) on Debian 9 Stretch</title>
-      <link>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</link>
-      <pubDate>Tue, 14 Jul 2020 09:11:45 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</guid>
-      <description>&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;Login to your Debian 9 system using shell access. For remote systems connect with SSH. Windows users can use Putty or other alternatives applications for SSH connection.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh root@debian9
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run below commands to upgrade the current packages to the latest version.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt upgrade
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s execute the following commands to install the required packages first on your system. Then import packages signing key. After that configure PPA for the PHP packages on your system.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Merging Unrelated Git Histories</title>
       <link>https://www.shafiq.in/blog/merging-unrelated-git-histories/</link>
       <pubDate>Tue, 04 Sep 2018 13:48:55 +0000</pubDate>

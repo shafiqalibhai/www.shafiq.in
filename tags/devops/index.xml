@@ -10,12 +10,12 @@
     <lastBuildDate>Fri, 27 Jan 2023 11:08:20 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Collaboration in a DevOps Team</title>
-      <link>https://www.shafiq.in/blog/collaboration-in-a-devops-team/</link>
+      <title>What DevOps Collaboration Actually Looks Like</title>
+      <link>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</link>
       <pubDate>Fri, 27 Jan 2023 11:08:20 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/collaboration-in-a-devops-team/</guid>
-      <description>&lt;p&gt;DevOps is a philosophy that emphasizes collaboration between development and operations teams. The goal of DevOps is to speed up the delivery of software while maintaining high levels of quality and security. Collaboration is key to the success of a DevOps team.&lt;/p&gt;
-&lt;p&gt;One of the most important ways in which development and operations teams can collaborate is through the use of shared tools and platforms. These tools and platforms allow teams to share information and communicate effectively, which is critical for achieving the goals of DevOps. For example, a common platform for development and operations teams is a source code management system, such as Git. This system allows teams to collaborate on code and track changes, making it easier to identify and resolve issues.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</guid>
+      <description>&lt;p&gt;I spent years watching development and operations teams sit on opposite sides of every incident. Developers pushed code over the wall. Operations inherited the fires. DevOps was supposed to fix that, but most teams just gave it a new name and kept doing the same thing.&lt;/p&gt;
+&lt;p&gt;Real collaboration isn&amp;rsquo;t a poster on the breakroom wall. It&amp;rsquo;s the unglamorous daily work of making sure two groups who think differently about problems end up solving them together.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stop buying tools, start solving problems</title>

@@ -31,37 +31,84 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note: PyPDF2&amp;rsquo;s &lt;code&gt;PdfFileReader&lt;/code&gt; and &lt;code&gt;getPage()&lt;/code&gt; are deprecated in newer versions — use &lt;code&gt;PdfReader&lt;/code&gt; and index into &lt;code&gt;reader.pages&lt;/code&gt; instead.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Remove lines matching a pattern from files recursively in Linux</title>
+      <link>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</link>
+      <pubDate>Thu, 27 Apr 2023 18:00:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;*.md&amp;#34;&lt;/span&gt; -type f -exec sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/pattern/d&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This one-liner walks the directory tree, finds every &lt;code&gt;.md&lt;/code&gt; file, and strips out any line that matches the given pattern. The &lt;code&gt;sed -i&lt;/code&gt; edits each file in place, and the &lt;code&gt;{}&lt;/code&gt; gets swapped out for whatever path &lt;code&gt;find&lt;/code&gt; hands it.&lt;/p&gt;
+&lt;h2 id=&#34;breaking-it-down&#34;&gt;Breaking it down&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;find . -name &amp;quot;*.md&amp;quot; -type f&lt;/code&gt; does the walking. The &lt;code&gt;-type f&lt;/code&gt; bit is important &amp;ndash; without it, &lt;code&gt;find&lt;/code&gt; would also match directories and pass them to &lt;code&gt;sed&lt;/code&gt;, which would error out. The &lt;code&gt;-exec ... \;&lt;/code&gt; at the end runs the command for each file individually.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing PhantomJS on Ubuntu 22.10</title>
+      <link>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</link>
+      <pubDate>Thu, 27 Apr 2023 17:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</guid>
+      <description>&lt;p&gt;PhantomJS is a headless browser, which means it runs without a graphical interface and lets you automate web page interactions through scripting. I needed it for some automated testing at work and ran into a few things worth writing down, mostly because half the guides out there are either outdated or assume you already know what you&amp;rsquo;re doing.&lt;/p&gt;
+&lt;p&gt;The version we&amp;rsquo;re installing is 2.1.1, which is the last release. The project has been unmaintained since 2017, but it still does what it needs to do for basic scraping and screenshot tasks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deleting files by content match in Linux</title>
+      <link>https://www.shafiq.in/blog/deleting-files-by-content-match-in-linux/</link>
+      <pubDate>Thu, 27 Apr 2023 11:30:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/deleting-files-by-content-match-in-linux/</guid>
+      <description>&lt;p&gt;There are two ways to interpret this question, and the answer changes completely depending on which one you mean.&lt;/p&gt;
+&lt;h2 id=&#34;deleting-files-by-filename&#34;&gt;Deleting files by filename&lt;/h2&gt;
+&lt;p&gt;If you want to nuke every file whose name contains a particular string:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -name &lt;span class=&#34;s1&#34;&gt;&amp;#39;*string*&amp;#39;&lt;/span&gt; -delete
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;-type f&lt;/code&gt; keeps it from touching directories. The &lt;code&gt;-delete&lt;/code&gt; flag removes whatever &lt;code&gt;find&lt;/code&gt; matches. Simple enough.&lt;/p&gt;
+&lt;p&gt;A word of caution: test without &lt;code&gt;-delete&lt;/code&gt; first. Run the same command and replace it with &lt;code&gt;-print&lt;/code&gt; to see what would actually get deleted. I&amp;rsquo;ve lost files to typos in wildcard patterns more times than I care to admit.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Replace all dots in filenames except the extension on Linux</title>
       <link>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</link>
       <pubDate>Thu, 21 Jan 2021 13:00:41 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; f in .&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;%.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; mv -i -f -- &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//./_&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;p&gt;Had a directory full of files with dots in the names and needed them all cleaned up. Something like &lt;code&gt;my.report.final.pdf&lt;/code&gt; should become &lt;code&gt;my_report_final.pdf&lt;/code&gt;, not &lt;code&gt;my_report_final..pdf&lt;/code&gt; or worse.&lt;/p&gt;
+&lt;p&gt;This one-liner does the job:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; f in *&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;%.*&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##*.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; mv -i -- &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//./_&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here&amp;rsquo;s what each part does. &lt;code&gt;${f%.*}&lt;/code&gt; strips everything from the last dot onwards, giving you the filename without its extension. &lt;code&gt;${f##*.}&lt;/code&gt; grabs just the extension by stripping everything up to and including the final dot. Then &lt;code&gt;${pre//./_}&lt;/code&gt; replaces every dot in the base name with an underscore.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Count number of directories in the current directory using Linux cli</title>
-      <link>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</link>
+      <title>Count directories in the current folder with a one-liner</title>
+      <link>https://www.shafiq.in/blog/count-directories-in-the-current-folder-with-a-one-liner/</link>
       <pubDate>Tue, 14 Jul 2020 09:17:02 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -1 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; wc -l
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/count-directories-in-the-current-folder-with-a-one-liner/</guid>
+      <description>&lt;p&gt;A common question that comes up when you&amp;rsquo;re first getting comfortable with the command line: how do you count just the directories in your current folder?&lt;/p&gt;
+&lt;p&gt;The quick answer is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -1 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; wc -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This pipes a one-per-line listing of everything in the current directory into &lt;code&gt;wc -l&lt;/code&gt;, which counts lines. Simple enough.&lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s a catch. This counts &lt;em&gt;everything&lt;/em&gt; &amp;ndash; files, symlinks, hidden items, the lot. If you only want directories, you need to be a bit more selective.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Count number of files in a directory using Linux cli</title>
-      <link>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</link>
+      <title>Count files in a directory with a one-liner</title>
+      <link>https://www.shafiq.in/blog/count-files-in-a-directory-with-a-one-liner/</link>
       <pubDate>Tue, 14 Jul 2020 09:15:31 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -l . &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; egrep -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;^-&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/count-files-in-a-directory-with-a-one-liner/</guid>
+      <description>&lt;p&gt;Another quick command line question: how do you count just the files in a directory, excluding subdirectories and other stuff?&lt;/p&gt;
+&lt;p&gt;The classic answer:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -l . &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; egrep -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;^-&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This lists everything in long format (&lt;code&gt;ls -l&lt;/code&gt;), then counts lines that start with a hyphen &amp;ndash; which is how &lt;code&gt;ls&lt;/code&gt; marks regular files. Directories show up as &lt;code&gt;d&lt;/code&gt;, symlinks as &lt;code&gt;l&lt;/code&gt;, and so on, so the regex filters them out.&lt;/p&gt;
+&lt;p&gt;It works, but it&amp;rsquo;s a bit of a trick and relies on understanding &lt;code&gt;ls&lt;/code&gt; output format. A more straightforward approach uses &lt;code&gt;find&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing Multiple PHP Versions on Debian 9</title>
+      <link>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</link>
+      <pubDate>Tue, 14 Jul 2020 09:11:45 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</guid>
+      <description>&lt;p&gt;Sometimes you need more than one PHP version on the same server. Maybe an old project still runs on 5.6, another one needs 7.2, and you want to test something on 7.4 before committing. Debian&amp;rsquo;s default repositories only ship one version, so you need a third-party source.&lt;/p&gt;
+&lt;p&gt;The Sury repository is the standard way to get multiple PHP versions on Debian. Ondrej Surý has maintained it for years and it&amp;rsquo;s trusted by most people running PHP on Debian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to run VLC player as root user</title>
       <link>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</link>
       <pubDate>Mon, 18 May 2020 09:59:54 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/geteuid/getppid/&amp;#39;&lt;/span&gt; /usr/bin/vlc
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; The initialization script check if the UID is equals to zero. Zero is reserved for the root user. Using &lt;code&gt;sed&lt;/code&gt; to replace &lt;code&gt;geteuid&lt;/code&gt; for &lt;code&gt;getppid&lt;/code&gt; fools the initialization script because it is always &lt;code&gt;&amp;gt; 0&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;While running the VLC as root is not recommended, it works. Be aware of the risks and obviously do not do it for production environments.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I ran into this a while back when I needed VLC running as root on a headless server, and the usual &lt;code&gt;--no-sandbox&lt;/code&gt; flag didn&amp;rsquo;t cut it. VLC refuses to start as root by default, which makes sense from a security standpoint but is annoying when you actually need it.&lt;/p&gt;
+&lt;p&gt;The fix is brutal and hacky, but it works:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/geteuid/getppid/&amp;#39;&lt;/span&gt; /usr/bin/vlc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;What&amp;rsquo;s actually happening here? VLC&amp;rsquo;s startup script checks whether the effective user ID is zero (root). If it is, it bails out. By swapping &lt;code&gt;geteuid&lt;/code&gt; with &lt;code&gt;getppid&lt;/code&gt;, we&amp;rsquo;re telling the script to check the parent process ID instead of the effective UID. Since &lt;code&gt;getppid()&lt;/code&gt; returns a number way bigger than zero, the check passes and VLC starts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How much memory is actually free?</title>

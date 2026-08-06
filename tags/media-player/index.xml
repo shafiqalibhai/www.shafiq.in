@@ -14,9 +14,10 @@
       <link>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</link>
       <pubDate>Mon, 18 May 2020 09:59:54 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/geteuid/getppid/&amp;#39;&lt;/span&gt; /usr/bin/vlc
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; The initialization script check if the UID is equals to zero. Zero is reserved for the root user. Using &lt;code&gt;sed&lt;/code&gt; to replace &lt;code&gt;geteuid&lt;/code&gt; for &lt;code&gt;getppid&lt;/code&gt; fools the initialization script because it is always &lt;code&gt;&amp;gt; 0&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;While running the VLC as root is not recommended, it works. Be aware of the risks and obviously do not do it for production environments.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I ran into this a while back when I needed VLC running as root on a headless server, and the usual &lt;code&gt;--no-sandbox&lt;/code&gt; flag didn&amp;rsquo;t cut it. VLC refuses to start as root by default, which makes sense from a security standpoint but is annoying when you actually need it.&lt;/p&gt;
+&lt;p&gt;The fix is brutal and hacky, but it works:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/geteuid/getppid/&amp;#39;&lt;/span&gt; /usr/bin/vlc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;What&amp;rsquo;s actually happening here? VLC&amp;rsquo;s startup script checks whether the effective user ID is zero (root). If it is, it bails out. By swapping &lt;code&gt;geteuid&lt;/code&gt; with &lt;code&gt;getppid&lt;/code&gt;, we&amp;rsquo;re telling the script to check the parent process ID instead of the effective UID. Since &lt;code&gt;getppid()&lt;/code&gt; returns a number way bigger than zero, the check passes and VLC starts.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

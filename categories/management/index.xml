@@ -84,31 +84,12 @@
 &lt;p&gt;If your organisation does annual reviews, prepare a list of accomplishments before the meeting. Don&amp;rsquo;t rely on your manager to remember everything you did over twelve months.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>10 most popular books on soft skills for project managers</title>
-      <link>https://www.shafiq.in/blog/10-most-popular-books-on-soft-skills-for-project-managers/</link>
+      <title>Books that actually helped me with the people side of project management</title>
+      <link>https://www.shafiq.in/blog/books-that-actually-helped-me-with-the-people-side-of-project-management/</link>
       <pubDate>Tue, 05 Sep 2023 04:31:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/10-most-popular-books-on-soft-skills-for-project-managers/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;How to Win Friends and Influence People&amp;rdquo; by Dale Carnegie&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This classic book offers timeless advice on communication, relationship-building, and influence.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;Emotional Intelligence 2.0&amp;rdquo; by Travis Bradberry and Jean Greaves&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This book provides insights into understanding and improving emotional intelligence, crucial for effective leadership.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;Crucial Conversations: Tools for Talking When Stakes Are High&amp;rdquo; by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This book offers techniques for handling high-stakes conversations where outcomes can impact project success.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;Drive: The Surprising Truth About What Motivates Us&amp;rdquo; by Daniel H. Pink&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/books-that-actually-helped-me-with-the-people-side-of-project-management/</guid>
+      <description>&lt;p&gt;I spent a chunk of last year reading my way through the soft-skills section of the bookshop. Not because I&amp;rsquo;d suddenly become interested in personal development — more because I was struggling with a project where the technical bits were fine but everything around it kept falling apart. Miscommunications. Teams that wouldn&amp;rsquo;t align. Stakeholders who seemed to be operating in a different reality.&lt;/p&gt;
+&lt;p&gt;So I started reading. Not the textbook stuff, but the books people actually recommend when they&amp;rsquo;re being honest. Here&amp;rsquo;s what stuck.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Security Clearance Vetting for Access to Cloud Production Environments</title>
@@ -157,12 +138,12 @@
 &lt;p&gt;You need a sponsor — usually HR or a company security controller. They confirm your role requires vetting and that BPSS checks are complete (unless you&amp;rsquo;re doing AC). You then fill out a security questionnaire online covering personal details, employment history, finances, criminal record, foreign travel, and contacts.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Collaboration in a DevOps Team</title>
-      <link>https://www.shafiq.in/blog/collaboration-in-a-devops-team/</link>
+      <title>What DevOps Collaboration Actually Looks Like</title>
+      <link>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</link>
       <pubDate>Fri, 27 Jan 2023 11:08:20 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/collaboration-in-a-devops-team/</guid>
-      <description>&lt;p&gt;DevOps is a philosophy that emphasizes collaboration between development and operations teams. The goal of DevOps is to speed up the delivery of software while maintaining high levels of quality and security. Collaboration is key to the success of a DevOps team.&lt;/p&gt;
-&lt;p&gt;One of the most important ways in which development and operations teams can collaborate is through the use of shared tools and platforms. These tools and platforms allow teams to share information and communicate effectively, which is critical for achieving the goals of DevOps. For example, a common platform for development and operations teams is a source code management system, such as Git. This system allows teams to collaborate on code and track changes, making it easier to identify and resolve issues.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</guid>
+      <description>&lt;p&gt;I spent years watching development and operations teams sit on opposite sides of every incident. Developers pushed code over the wall. Operations inherited the fires. DevOps was supposed to fix that, but most teams just gave it a new name and kept doing the same thing.&lt;/p&gt;
+&lt;p&gt;Real collaboration isn&amp;rsquo;t a poster on the breakroom wall. It&amp;rsquo;s the unglamorous daily work of making sure two groups who think differently about problems end up solving them together.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project Initiation Documentation RACI Chart</title>

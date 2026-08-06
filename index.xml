@@ -1582,31 +1582,12 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can also use dynamic inventory scripts that output JSON.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>10 most popular books on soft skills for project managers</title>
-      <link>https://www.shafiq.in/blog/10-most-popular-books-on-soft-skills-for-project-managers/</link>
+      <title>Books that actually helped me with the people side of project management</title>
+      <link>https://www.shafiq.in/blog/books-that-actually-helped-me-with-the-people-side-of-project-management/</link>
       <pubDate>Tue, 05 Sep 2023 04:31:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/10-most-popular-books-on-soft-skills-for-project-managers/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;How to Win Friends and Influence People&amp;rdquo; by Dale Carnegie&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This classic book offers timeless advice on communication, relationship-building, and influence.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;Emotional Intelligence 2.0&amp;rdquo; by Travis Bradberry and Jean Greaves&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This book provides insights into understanding and improving emotional intelligence, crucial for effective leadership.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;Crucial Conversations: Tools for Talking When Stakes Are High&amp;rdquo; by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This book offers techniques for handling high-stakes conversations where outcomes can impact project success.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;Drive: The Surprising Truth About What Motivates Us&amp;rdquo; by Daniel H. Pink&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/books-that-actually-helped-me-with-the-people-side-of-project-management/</guid>
+      <description>&lt;p&gt;I spent a chunk of last year reading my way through the soft-skills section of the bookshop. Not because I&amp;rsquo;d suddenly become interested in personal development — more because I was struggling with a project where the technical bits were fine but everything around it kept falling apart. Miscommunications. Teams that wouldn&amp;rsquo;t align. Stakeholders who seemed to be operating in a different reality.&lt;/p&gt;
+&lt;p&gt;So I started reading. Not the textbook stuff, but the books people actually recommend when they&amp;rsquo;re being honest. Here&amp;rsquo;s what stuck.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to count words in a PDF from the Linux command line</title>
@@ -1729,831 +1710,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;View taints on a node:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>List of Emotions</title>
-      <link>https://www.shafiq.in/blog/list-of-emotions/</link>
-      <pubDate>Mon, 15 May 2023 11:30:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/list-of-emotions/</guid>
-      <description>&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Emotion&lt;/th&gt;
-					&lt;th&gt;Summary&lt;/th&gt;
-					&lt;th&gt;Emoji&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Acceptance&lt;/td&gt;
-					&lt;td&gt;Feeling content or happy&lt;/td&gt;
-					&lt;td&gt;🙏️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Admiration&lt;/td&gt;
-					&lt;td&gt;Admiring someone/something&lt;/td&gt;
-					&lt;td&gt;😍&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Afraid&lt;/td&gt;
-					&lt;td&gt;Fearful or scared&lt;/td&gt;
-					&lt;td&gt;⚡️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Aggression&lt;/td&gt;
-					&lt;td&gt;Hostile behaviour&lt;/td&gt;
-					&lt;td&gt;💢&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Amazement&lt;/td&gt;
-					&lt;td&gt;Being astonished&lt;/td&gt;
-					&lt;td&gt;🤯&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Anger&lt;/td&gt;
-					&lt;td&gt;Irritated or enraged&lt;/td&gt;
-					&lt;td&gt;😠&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Anticipation&lt;/td&gt;
-					&lt;td&gt;Expecting something to happen&lt;/td&gt;
-					&lt;td&gt;🎉&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Apathy&lt;/td&gt;
-					&lt;td&gt;Lack of interest&lt;/td&gt;
-					&lt;td&gt;🌚&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Appreciation&lt;/td&gt;
-					&lt;td&gt;Gratefulness&lt;/td&gt;
-					&lt;td&gt;👏&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Arrogant&lt;/td&gt;
-					&lt;td&gt;Overly confident&lt;/td&gt;
-					&lt;td&gt;🥵&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Ashamed&lt;/td&gt;
-					&lt;td&gt;Feelings of guilt, regret&lt;/td&gt;
-					&lt;td&gt;🤦🏻‍♂️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Awkward&lt;/td&gt;
-					&lt;td&gt;Uncomfortable situation&lt;/td&gt;
-					&lt;td&gt;😬&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Boredom&lt;/td&gt;
-					&lt;td&gt;Feeling uninterested&lt;/td&gt;
-					&lt;td&gt;😩&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Brave&lt;/td&gt;
-					&lt;td&gt;Courageous&lt;/td&gt;
-					&lt;td&gt;💪&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Calm&lt;/td&gt;
-					&lt;td&gt;Peaceful&lt;/td&gt;
-					&lt;td&gt;🙂&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Carefree&lt;/td&gt;
-					&lt;td&gt;Relaxed and worry-free&lt;/td&gt;
-					&lt;td&gt;🍾&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Caring&lt;/td&gt;
-					&lt;td&gt;Showing concern for others&lt;/td&gt;
-					&lt;td&gt;🧡&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Cheerful&lt;/td&gt;
-					&lt;td&gt;Joyful and happy&lt;/td&gt;
-					&lt;td&gt;😊&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Clueless&lt;/td&gt;
-					&lt;td&gt;Confused or unsure&lt;/td&gt;
-					&lt;td&gt;🤷🏼‍♀️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Coldness&lt;/td&gt;
-					&lt;td&gt;Emotionless&lt;/td&gt;
-					&lt;td&gt;❄️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Compassion&lt;/td&gt;
-					&lt;td&gt;Empathy towards others&lt;/td&gt;
-					&lt;td&gt;🌈&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Concern&lt;/td&gt;
-					&lt;td&gt;Worried about someone/something&lt;/td&gt;
-					&lt;td&gt;👀&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Contentment&lt;/td&gt;
-					&lt;td&gt;Satisfied with life&lt;/td&gt;
-					&lt;td&gt;😎&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Contempt&lt;/td&gt;
-					&lt;td&gt;Disdain, disrespect or scorn&lt;/td&gt;
-					&lt;td&gt;🖕&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Cooperation&lt;/td&gt;
-					&lt;td&gt;Working together&lt;/td&gt;
-					&lt;td&gt;🤝&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Coolness&lt;/td&gt;
-					&lt;td&gt;Unfazed by pressure&lt;/td&gt;
-					&lt;td&gt;🥶&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Courageous&lt;/td&gt;
-					&lt;td&gt;Brave&lt;/td&gt;
-					&lt;td&gt;💪&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Cowardice&lt;/td&gt;
-					&lt;td&gt;Lack of courage&lt;/td&gt;
-					&lt;td&gt;🐮&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Crazy&lt;/td&gt;
-					&lt;td&gt;Mad or insane&lt;/td&gt;
-					&lt;td&gt;🍆&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Curiosity&lt;/td&gt;
-					&lt;td&gt;Desire to learn&lt;/td&gt;
-					&lt;td&gt;🧐&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Daring&lt;/td&gt;
-					&lt;td&gt;Bold and adventurous&lt;/td&gt;
-					&lt;td&gt;🚁&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Defeatism&lt;/td&gt;
-					&lt;td&gt;Feeling hopeless&lt;/td&gt;
-					&lt;td&gt;🙅‍♂️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Defensive&lt;/td&gt;
-					&lt;td&gt;Protective&lt;/td&gt;
-					&lt;td&gt;🛡&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Delighted&lt;/td&gt;
-					&lt;td&gt;Very happy&lt;/td&gt;
-					&lt;td&gt;😊&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Despair&lt;/td&gt;
-					&lt;td&gt;Hopelessness&lt;/td&gt;
-					&lt;td&gt;🌫&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Determined&lt;/td&gt;
-					&lt;td&gt;Resolute&lt;/td&gt;
-					&lt;td&gt;👊&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Devotion&lt;/td&gt;
-					&lt;td&gt;Loyalty&lt;/td&gt;
-					&lt;td&gt;✨&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Disappointment&lt;/td&gt;
-					&lt;td&gt;Sadness about an outcome&lt;/td&gt;
-					&lt;td&gt;😔&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Discouragement&lt;/td&gt;
-					&lt;td&gt;Losing hope, motivation&lt;/td&gt;
-					&lt;td&gt;🤷🏻‍♀️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Disgust&lt;/td&gt;
-					&lt;td&gt;Repulsion&lt;/td&gt;
-					&lt;td&gt;🤢&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Distress&lt;/td&gt;
-					&lt;td&gt;Anxiety or distraught&lt;/td&gt;
-					&lt;td&gt;💀&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Doubtful&lt;/td&gt;
-					&lt;td&gt;Uncertain of something&lt;/td&gt;
-					&lt;td&gt;🤞🏼&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Eagerness&lt;/td&gt;
-					&lt;td&gt;Excitement to do something&lt;/td&gt;
-					&lt;td&gt;🦅&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Embarrassment&lt;/td&gt;
-					&lt;td&gt;Shame or discomfort&lt;/td&gt;
-					&lt;td&gt;🙈&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Empathy&lt;/td&gt;
-					&lt;td&gt;Understanding others&amp;rsquo; feelings&lt;/td&gt;
-					&lt;td&gt;🧠&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Envy&lt;/td&gt;
-					&lt;td&gt;Jealousy&lt;/td&gt;
-					&lt;td&gt;🐍&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Euphoria&lt;/td&gt;
-					&lt;td&gt;Extreme happiness&lt;/td&gt;
-					&lt;td&gt;🥳&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Fearless&lt;/td&gt;
-					&lt;td&gt;Brave and courageous&lt;/td&gt;
-					&lt;td&gt;🚫&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Frustration&lt;/td&gt;
-					&lt;td&gt;Irritated&lt;/td&gt;
-					&lt;td&gt;😡&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Friendly&lt;/td&gt;
-					&lt;td&gt;Kind and approachable&lt;/td&gt;
-					&lt;td&gt;👋&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Gratefulness&lt;/td&gt;
-					&lt;td&gt;Thankful for someone/something&lt;/td&gt;
-					&lt;td&gt;🙇🏽‍♂️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Guilt&lt;/td&gt;
-					&lt;td&gt;Feeling responsible for wrongdoing&lt;/td&gt;
-					&lt;td&gt;🌾&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Happiness&lt;/td&gt;
-					&lt;td&gt;Joy, pleasure&lt;/td&gt;
-					&lt;td&gt;😊&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Hatred&lt;/td&gt;
-					&lt;td&gt;Intensely disliking&lt;/td&gt;
-					&lt;td&gt;❄️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Heartbreak&lt;/td&gt;
-					&lt;td&gt;Sadness after losing love&lt;/td&gt;
-					&lt;td&gt;💔&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Helplessness&lt;/td&gt;
-					&lt;td&gt;Unable to do anything&lt;/td&gt;
-					&lt;td&gt;🤷🏻‍♀️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Hope&lt;/td&gt;
-					&lt;td&gt;Optimistic expectation&lt;/td&gt;
-					&lt;td&gt;🎉&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Horror&lt;/td&gt;
-					&lt;td&gt;Shocked or scared&lt;/td&gt;
-					&lt;td&gt;😨&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Humiliation&lt;/td&gt;
-					&lt;td&gt;Shame&lt;/td&gt;
-					&lt;td&gt;😩&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Impatience&lt;/td&gt;
-					&lt;td&gt;Losing patience&lt;/td&gt;
-					&lt;td&gt;🕰&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Indifference&lt;/td&gt;
-					&lt;td&gt;Apathy&lt;/td&gt;
-					&lt;td&gt;🧬&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Insecure&lt;/td&gt;
-					&lt;td&gt;Unsure of oneself&lt;/td&gt;
-					&lt;td&gt;🥺&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Interest&lt;/td&gt;
-					&lt;td&gt;Curiosity&lt;/td&gt;
-					&lt;td&gt;👀&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Irritability&lt;/td&gt;
-					&lt;td&gt;Annoyed and frustrated&lt;/td&gt;
-					&lt;td&gt;🙅‍♂️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Jealousy&lt;/td&gt;
-					&lt;td&gt;Envy&lt;/td&gt;
-					&lt;td&gt;🐍&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Kindness&lt;/td&gt;
-					&lt;td&gt;Friendliness&lt;/td&gt;
-					&lt;td&gt;🌸&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Loneliness&lt;/td&gt;
-					&lt;td&gt;Feeling alone&lt;/td&gt;
-					&lt;td&gt;😢&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Love&lt;/td&gt;
-					&lt;td&gt;Affection&lt;/td&gt;
-					&lt;td&gt;❤️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Malice&lt;/td&gt;
-					&lt;td&gt;Wicked intentions&lt;/td&gt;
-					&lt;td&gt;💁🏽‍♂️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Melancholy&lt;/td&gt;
-					&lt;td&gt;Sadness, depression&lt;/td&gt;
-					&lt;td&gt;😔&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Miserable&lt;/td&gt;
-					&lt;td&gt;Very unhappy&lt;/td&gt;
-					&lt;td&gt;😭&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Misery&lt;/td&gt;
-					&lt;td&gt;Extreme sadness&lt;/td&gt;
-					&lt;td&gt;😓&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Modesty&lt;/td&gt;
-					&lt;td&gt;Humility&lt;/td&gt;
-					&lt;td&gt;🎶&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Nervousness&lt;/td&gt;
-					&lt;td&gt;Fearful or anxious&lt;/td&gt;
-					&lt;td&gt;😨&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Neutral&lt;/td&gt;
-					&lt;td&gt;Indifferent&lt;/td&gt;
-					&lt;td&gt;🚫&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Obsession&lt;/td&gt;
-					&lt;td&gt;Preoccupation with something&lt;/td&gt;
-					&lt;td&gt;🧠&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Optimism&lt;/td&gt;
-					&lt;td&gt;Hope for a good outcome&lt;/td&gt;
-					&lt;td&gt;👀&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Panic&lt;/td&gt;
-					&lt;td&gt;Frightened and overwhelmed&lt;/td&gt;
-					&lt;td&gt;🙅‍♀️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Passionate&lt;/td&gt;
-					&lt;td&gt;Intense emotion&lt;/td&gt;
-					&lt;td&gt;🔥&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Patience&lt;/td&gt;
-					&lt;td&gt;Waiting calmly&lt;/td&gt;
-					&lt;td&gt;🌿&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Peaceful&lt;/td&gt;
-					&lt;td&gt;Calm and serene&lt;/td&gt;
-					&lt;td&gt;✈️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Persecution&lt;/td&gt;
-					&lt;td&gt;Feeling oppressed&lt;/td&gt;
-					&lt;td&gt;💢&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Playful&lt;/td&gt;
-					&lt;td&gt;Lighthearted&lt;/td&gt;
-					&lt;td&gt;🤡&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Pleasure&lt;/td&gt;
-					&lt;td&gt;Joy, happiness&lt;/td&gt;
-					&lt;td&gt;🍻&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Poise&lt;/td&gt;
-					&lt;td&gt;Grace under pressure&lt;/td&gt;
-					&lt;td&gt;🕊&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Praising&lt;/td&gt;
-					&lt;td&gt;Complimentary&lt;/td&gt;
-					&lt;td&gt;🏆&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Proud&lt;/td&gt;
-					&lt;td&gt;Satisfaction in achievement&lt;/td&gt;
-					&lt;td&gt;🎉&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Regret&lt;/td&gt;
-					&lt;td&gt;Sadness about past actions&lt;/td&gt;
-					&lt;td&gt;😞&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Relaxation&lt;/td&gt;
-					&lt;td&gt;Rest or leisure&lt;/td&gt;
-					&lt;td&gt;🛋&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Remorse&lt;/td&gt;
-					&lt;td&gt;Guilt for wrongdoings&lt;/td&gt;
-					&lt;td&gt;👁&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Repulsive&lt;/td&gt;
-					&lt;td&gt;Disgust&lt;/td&gt;
-					&lt;td&gt;🦀&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Respect&lt;/td&gt;
-					&lt;td&gt;Esteem towards someone/something&lt;/td&gt;
-					&lt;td&gt;🙇🏽‍♂️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Resentment&lt;/td&gt;
-					&lt;td&gt;Anger at an offense&lt;/td&gt;
-					&lt;td&gt;🔥&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Romantic&lt;/td&gt;
-					&lt;td&gt;Love and affection&lt;/td&gt;
-					&lt;td&gt;❣️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Safety&lt;/td&gt;
-					&lt;td&gt;Security&lt;/td&gt;
-					&lt;td&gt;🚨&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Sadness&lt;/td&gt;
-					&lt;td&gt;Grief or despair&lt;/td&gt;
-					&lt;td&gt;💔&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Sarcasm&lt;/td&gt;
-					&lt;td&gt;Irony, mocking humour&lt;/td&gt;
-					&lt;td&gt;🤷🏻‍♀️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Scared&lt;/td&gt;
-					&lt;td&gt;Fearful&lt;/td&gt;
-					&lt;td&gt;😱&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Secrecy&lt;/td&gt;
-					&lt;td&gt;Keeping something hidden&lt;/td&gt;
-					&lt;td&gt;🕵️‍♀️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Self-control&lt;/td&gt;
-					&lt;td&gt;Controlling emotions&lt;/td&gt;
-					&lt;td&gt;🧠&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Shame&lt;/td&gt;
-					&lt;td&gt;Embarrassed&lt;/td&gt;
-					&lt;td&gt;🙈&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Shock&lt;/td&gt;
-					&lt;td&gt;Surprise and disbelief&lt;/td&gt;
-					&lt;td&gt;😲&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Sorrow&lt;/td&gt;
-					&lt;td&gt;Grieving&lt;/td&gt;
-					&lt;td&gt;🌾&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Stress&lt;/td&gt;
-					&lt;td&gt;Tension&lt;/td&gt;
-					&lt;td&gt;😩&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Success&lt;/td&gt;
-					&lt;td&gt;Achievement&lt;/td&gt;
-					&lt;td&gt;🎉&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Suspicion&lt;/td&gt;
-					&lt;td&gt;Doubt about someone/something&lt;/td&gt;
-					&lt;td&gt;👁&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Sympathetic&lt;/td&gt;
-					&lt;td&gt;Understanding others&amp;rsquo; feelings&lt;/td&gt;
-					&lt;td&gt;🧠&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Thankfulness&lt;/td&gt;
-					&lt;td&gt;Appreciation&lt;/td&gt;
-					&lt;td&gt;🙇🏽‍♂️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Thirsty&lt;/td&gt;
-					&lt;td&gt;Desire for water&lt;/td&gt;
-					&lt;td&gt;💦&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Timidity&lt;/td&gt;
-					&lt;td&gt;Shyness or fear&lt;/td&gt;
-					&lt;td&gt;🐮&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Trust&lt;/td&gt;
-					&lt;td&gt;Confidence in someone/something&lt;/td&gt;
-					&lt;td&gt;🤝&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Uncertainty&lt;/td&gt;
-					&lt;td&gt;Doubts&lt;/td&gt;
-					&lt;td&gt;⚪️&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Unease&lt;/td&gt;
-					&lt;td&gt;Discomfort&lt;/td&gt;
-					&lt;td&gt;🥶&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Vulnerable&lt;/td&gt;
-					&lt;td&gt;Exposed to harm&lt;/td&gt;
-					&lt;td&gt;🔫&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Warmth&lt;/td&gt;
-					&lt;td&gt;Friendliness, kindness&lt;/td&gt;
-					&lt;td&gt;🍂&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Weakness&lt;/td&gt;
-					&lt;td&gt;Lack of strength&lt;/td&gt;
-					&lt;td&gt;🆕&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Wistful&lt;/td&gt;
-					&lt;td&gt;Nostalgic&lt;/td&gt;
-					&lt;td&gt;🌿&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Wonderment&lt;/td&gt;
-					&lt;td&gt;Amazement&lt;/td&gt;
-					&lt;td&gt;😲&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Worried&lt;/td&gt;
-					&lt;td&gt;Anxious and concerned&lt;/td&gt;
-					&lt;td&gt;👀&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Yearning&lt;/td&gt;
-					&lt;td&gt;Longing for something&lt;/td&gt;
-					&lt;td&gt;🎉&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Zest&lt;/td&gt;
-					&lt;td&gt;Enjoying life&lt;/td&gt;
-					&lt;td&gt;🧡&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;</description>
+      <title>A list of emotions I keep coming back to</title>
+      <link>https://www.shafiq.in/blog/a-list-of-emotions-i-keep-coming-back-to/</link>
+      <pubDate>Mon, 15 May 2023 12:59:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-list-of-emotions-i-keep-coming-back-to/</guid>
+      <description>&lt;p&gt;I started keeping a list of emotions because I realised I didn&amp;rsquo;t have names for half the things I was feeling. Not clinical names — just everyday words that would let me say &amp;ldquo;I&amp;rsquo;m feeling X&amp;rdquo; instead of &amp;ldquo;I don&amp;rsquo;t know what&amp;rsquo;s wrong but something is.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;It sounds simple, but most people never build that vocabulary. We grow up with maybe twenty or thirty emotion words and then we just reuse them forever. Happy, sad, angry, stressed. That&amp;rsquo;s it. When something more specific comes up — like the particular flavour of disappointment you get when someone forgets your birthday but you pretend it didn&amp;rsquo;t matter — you don&amp;rsquo;t have a word for it. So you just sit with it, unnamed, and it gets heavier.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Vision Board markdown template</title>
-      <link>https://www.shafiq.in/blog/vision-board-markdown-template/</link>
-      <pubDate>Sat, 06 May 2023 12:18:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/vision-board-markdown-template/</guid>
-      <description>&lt;h1 id=&#34;my-vision-board&#34;&gt;My Vision Board&lt;/h1&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Health and Fitness&lt;/th&gt;
-					&lt;th&gt;Career and Education&lt;/th&gt;
-					&lt;th&gt;Family, Relationships and Social Life&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;img alt=&#34;concert&#34; loading=&#34;lazy&#34; src=&#34;https://www.shafiq.in/uploads/2023/male-gb1b5f11d9_640.jpg&#34;&gt;&lt;/td&gt;
-					&lt;td&gt;
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/speaking-g588168bdf_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
-&lt;/td&gt;
-					&lt;td&gt;
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/team-spirit-ga8af212c9_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
-&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;- Exercise regularly. &lt;br&gt; - Feel energetic and confident. &lt;br&gt; - Drink 8 glasses of water a day. &lt;br&gt; - Gain 10 kg. &lt;br&gt; - Eat more fruits and vegetables. &lt;br&gt; - Sleep 8 hours a night.&lt;/td&gt;
-					&lt;td&gt;- Learn new skills and improve my knowledge. &lt;br&gt; - Advance in my current job or find a better one. &lt;br&gt; - Earn more money and achieve financial stability. &lt;br&gt; - Get a promotion at work.&lt;/td&gt;
-					&lt;td&gt;- Spend more quality time with my family and friends. &lt;br&gt; - Meet new people and expand my network. &lt;br&gt; - Make new friends at work. &lt;br&gt; - Go on a romantic getaway with my partner.&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Personal Growth&lt;/th&gt;
-					&lt;th&gt;Travel&lt;/th&gt;
-					&lt;th&gt;Finances&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/yes-g70262ea79_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
-&lt;/td&gt;
-					&lt;td&gt;
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/passport-g2a6b9c0e6_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
-&lt;/td&gt;
-					&lt;td&gt;
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/house-g7729f11ba_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
-&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;- Learn to meditate. &lt;br&gt; - Read 12 books this year. &lt;br&gt; - Learn to play the guitar. &lt;br&gt; - Volunteer at a local charity.&lt;/td&gt;
-					&lt;td&gt;- Visit Japan. &lt;br&gt; - Visit Paris. &lt;br&gt; - Go on a road trip across the US. &lt;br&gt; - Explore a new city every quarter.&lt;/td&gt;
-					&lt;td&gt;- Save £50k for an emergency fund. &lt;br&gt; - Invest in the stock market.&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Hobbies&lt;/th&gt;
-					&lt;th&gt;Fun&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/reading-g2ab59f61c_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
-&lt;/td&gt;
-					&lt;td&gt;
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/concert-g66033c9b7_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
-&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;- Blog. &lt;br&gt; - Join a book club.&lt;/td&gt;
-					&lt;td&gt;- Attend a concert. &lt;br&gt; - Watch a movie. &lt;br&gt; - Play video games. &lt;br&gt; - Go shopping.&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;markdown-template&#34;&gt;Markdown Template&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# My Vision Board
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Health and Fitness | Career and Education | Family, Relationships and Social Life |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|--------------------|----------------------|---------------------------------------|
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/male-gb1b5f11d9_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
- | 
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/speaking-g588168bdf_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
- | 
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/team-spirit-ga8af212c9_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
- |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| - Exercise regularly. &amp;lt;br&amp;gt; - Feel energetic and confident. &amp;lt;br&amp;gt; - Drink 8 glasses of water a day. &amp;lt;br&amp;gt; - Gain 10 kg. &amp;lt;br&amp;gt; - Eat more fruits and vegetables. &amp;lt;br&amp;gt; - Sleep 8 hours a night. | - Learn new skills and improve my knowledge. &amp;lt;br&amp;gt; - Advance in my current job or find a better one. &amp;lt;br&amp;gt; - Earn more money and achieve financial stability. &amp;lt;br&amp;gt; - Get a promotion at work. | - Spend more quality time with my family and friends. &amp;lt;br&amp;gt; - Meet new people and expand my network. &amp;lt;br&amp;gt; - Make new friends at work. &amp;lt;br&amp;gt; - Go on a romantic getaway with my partner. |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Personal Growth | Travel | Finances |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|-----------------|--------|----------|
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/yes-g70262ea79_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
- | 
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/passport-g2a6b9c0e6_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
- | 
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/house-g7729f11ba_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
- |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| - Learn to meditate. &amp;lt;br&amp;gt; - Read 12 books this year. &amp;lt;br&amp;gt; - Learn to play the guitar. &amp;lt;br&amp;gt; - Volunteer at a local charity. | - Visit Japan. &amp;lt;br&amp;gt; - Visit Paris. &amp;lt;br&amp;gt; - Go on a road trip across the US. &amp;lt;br&amp;gt; - Explore a new city every quarter. | - Save £50k for an emergency fund. &amp;lt;br&amp;gt; - Invest in the stock market. |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Hobbies | Fun |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|---------|-----|
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/reading-g2ab59f61c_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
- | 
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2023/concert-g66033c9b7_640.jpg&#34; alt=&#34;concert&#34; loading=&#34;lazy&#34; class=&#34;&#34; /&gt;
-
- |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| - Blog. &amp;lt;br&amp;gt; - Join a book club. | - Attend a concert. &amp;lt;br&amp;gt; - Watch a movie. &amp;lt;br&amp;gt; - Play video games. &amp;lt;br&amp;gt; - Go shopping. |
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <title>How to make a vision board (that you&#39;ll actually use)</title>
+      <link>https://www.shafiq.in/blog/how-to-make-a-vision-board-that-youll-actually-use/</link>
+      <pubDate>Sat, 06 May 2023 12:19:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-make-a-vision-board-that-youll-actually-use/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve tried vision boards before. Like most people, I made a nice collage, pinned it somewhere visible, and then promptly forgot it existed. The problem wasn&amp;rsquo;t the board — it was that I never actually sat down and thought about what I wanted. I just pasted random pictures of beaches and sports cars and called it a day.&lt;/p&gt;
+&lt;p&gt;This time I wanted to do it properly. Not the Pinterest aesthetic kind, but the kind where you actually force yourself to decide what matters across different areas of your life. So I built a markdown template instead. It&amp;rsquo;s simpler, it lives in my notes, and it forces structure onto the chaos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is a vision board</title>
@@ -2577,66 +1747,66 @@
 &lt;p&gt;The therapy aims to identify those old wounds, give them space to be expressed, and respond to them with the compassion they didn&amp;rsquo;t receive originally. Techniques include guided imagery, journaling, letter writing to your younger self, and dialogue exercises.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to erase line in files containing string recursively in Linux</title>
-      <link>https://www.shafiq.in/blog/how-to-erase-line-in-files-containing-string-recursively-in-linux/</link>
+      <title>Remove lines matching a pattern from files recursively in Linux</title>
+      <link>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</link>
       <pubDate>Thu, 27 Apr 2023 18:00:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-erase-line-in-files-containing-string-recursively-in-linux/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;*.md&amp;#34;&lt;/span&gt; -type f -exec sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/line of text/d&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command uses &lt;code&gt;find&lt;/code&gt; to locate all &lt;code&gt;.md&lt;/code&gt; files in the current directory and its subdirectories recursively. The &lt;code&gt;-exec&lt;/code&gt; option is used to execute the &lt;code&gt;sed&lt;/code&gt; command on each file found. The &lt;code&gt;{}&lt;/code&gt; is replaced by the name of each file found, and the &lt;code&gt;\;&lt;/code&gt; is used to terminate the &lt;code&gt;-exec&lt;/code&gt; option.&lt;/p&gt;
-&lt;p&gt;The &lt;code&gt;sed&lt;/code&gt; command removes any line containing the string &amp;ldquo;line of text&amp;rdquo; from each file found.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/remove-lines-matching-a-pattern-from-files-recursively-in-linux/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;*.md&amp;#34;&lt;/span&gt; -type f -exec sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/pattern/d&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This one-liner walks the directory tree, finds every &lt;code&gt;.md&lt;/code&gt; file, and strips out any line that matches the given pattern. The &lt;code&gt;sed -i&lt;/code&gt; edits each file in place, and the &lt;code&gt;{}&lt;/code&gt; gets swapped out for whatever path &lt;code&gt;find&lt;/code&gt; hands it.&lt;/p&gt;
+&lt;h2 id=&#34;breaking-it-down&#34;&gt;Breaking it down&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;find . -name &amp;quot;*.md&amp;quot; -type f&lt;/code&gt; does the walking. The &lt;code&gt;-type f&lt;/code&gt; bit is important &amp;ndash; without it, &lt;code&gt;find&lt;/code&gt; would also match directories and pass them to &lt;code&gt;sed&lt;/code&gt;, which would error out. The &lt;code&gt;-exec ... \;&lt;/code&gt; at the end runs the command for each file individually.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to install PhantomJS on Ubuntu 22.10</title>
-      <link>https://www.shafiq.in/blog/how-to-install-phantomjs-on-ubuntu-22.10/</link>
+      <title>Installing PhantomJS on Ubuntu 22.10</title>
+      <link>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</link>
       <pubDate>Thu, 27 Apr 2023 17:30:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-install-phantomjs-on-ubuntu-22.10/</guid>
-      <description>&lt;p&gt;PhantomJS is a headless web browser for automating web page interactions.&lt;/p&gt;
-&lt;p&gt;To install PhantomJS on Ubuntu 22.10, you can follow these steps:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Update your system packages with &lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Install the required packages with &lt;code&gt;sudo apt install build-essential chrpath libssl-dev libxft-dev libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Download the PhantomJS binary file from its official website with &lt;code&gt;wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Extract the file to &lt;code&gt;/usr/local/share/&lt;/code&gt; with &lt;code&gt;sudo tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Create a symbolic link to the binary file with &lt;code&gt;sudo ln -sf /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Verify the installation with &lt;code&gt;phantomjs --version&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</guid>
+      <description>&lt;p&gt;PhantomJS is a headless browser, which means it runs without a graphical interface and lets you automate web page interactions through scripting. I needed it for some automated testing at work and ran into a few things worth writing down, mostly because half the guides out there are either outdated or assume you already know what you&amp;rsquo;re doing.&lt;/p&gt;
+&lt;p&gt;The version we&amp;rsquo;re installing is 2.1.1, which is the last release. The project has been unmaintained since 2017, but it still does what it needs to do for basic scraping and screenshot tasks.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to delete all files containing string in Linux</title>
-      <link>https://www.shafiq.in/blog/how-to-delete-all-files-containing-string-in-linux/</link>
+      <title>Deleting files by content match in Linux</title>
+      <link>https://www.shafiq.in/blog/deleting-files-by-content-match-in-linux/</link>
       <pubDate>Thu, 27 Apr 2023 11:30:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-delete-all-files-containing-string-in-linux/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find -type f -name &lt;span class=&#34;s1&#34;&gt;&amp;#39;*string*&amp;#39;&lt;/span&gt; -delete
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will delete all files whose filenames contain the string &lt;code&gt;string&lt;/code&gt;. The &lt;code&gt;*&lt;/code&gt; character is a wildcard that matches any number of characters. The &lt;code&gt;-type f&lt;/code&gt; option tells &lt;code&gt;find&lt;/code&gt; to only look for files, not directories. The &lt;code&gt;-delete&lt;/code&gt; option tells &lt;code&gt;find&lt;/code&gt; to delete the files it finds.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/deleting-files-by-content-match-in-linux/</guid>
+      <description>&lt;p&gt;There are two ways to interpret this question, and the answer changes completely depending on which one you mean.&lt;/p&gt;
+&lt;h2 id=&#34;deleting-files-by-filename&#34;&gt;Deleting files by filename&lt;/h2&gt;
+&lt;p&gt;If you want to nuke every file whose name contains a particular string:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -name &lt;span class=&#34;s1&#34;&gt;&amp;#39;*string*&amp;#39;&lt;/span&gt; -delete
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;-type f&lt;/code&gt; keeps it from touching directories. The &lt;code&gt;-delete&lt;/code&gt; flag removes whatever &lt;code&gt;find&lt;/code&gt; matches. Simple enough.&lt;/p&gt;
+&lt;p&gt;A word of caution: test without &lt;code&gt;-delete&lt;/code&gt; first. Run the same command and replace it with &lt;code&gt;-print&lt;/code&gt; to see what would actually get deleted. I&amp;rsquo;ve lost files to typos in wildcard patterns more times than I care to admit.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Collaboration in a DevOps Team</title>
-      <link>https://www.shafiq.in/blog/collaboration-in-a-devops-team/</link>
+      <title>What DevOps Collaboration Actually Looks Like</title>
+      <link>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</link>
       <pubDate>Fri, 27 Jan 2023 11:08:20 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/collaboration-in-a-devops-team/</guid>
-      <description>&lt;p&gt;DevOps is a philosophy that emphasizes collaboration between development and operations teams. The goal of DevOps is to speed up the delivery of software while maintaining high levels of quality and security. Collaboration is key to the success of a DevOps team.&lt;/p&gt;
-&lt;p&gt;One of the most important ways in which development and operations teams can collaborate is through the use of shared tools and platforms. These tools and platforms allow teams to share information and communicate effectively, which is critical for achieving the goals of DevOps. For example, a common platform for development and operations teams is a source code management system, such as Git. This system allows teams to collaborate on code and track changes, making it easier to identify and resolve issues.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</guid>
+      <description>&lt;p&gt;I spent years watching development and operations teams sit on opposite sides of every incident. Developers pushed code over the wall. Operations inherited the fires. DevOps was supposed to fix that, but most teams just gave it a new name and kept doing the same thing.&lt;/p&gt;
+&lt;p&gt;Real collaboration isn&amp;rsquo;t a poster on the breakroom wall. It&amp;rsquo;s the unglamorous daily work of making sure two groups who think differently about problems end up solving them together.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Memento Mori</title>
       <link>https://www.shafiq.in/blog/memento-mori/</link>
       <pubDate>Thu, 25 Aug 2022 20:04:46 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/memento-mori/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Memento Mori&lt;/strong&gt; refers to the philosophical reminder of death&amp;rsquo;s inevitability. You could leave life right now. Let that determine what you do and say and think. It helps you remember the good things without arrogance and to let the bad things go with indifference. You control whether you waste time getting upset by things. And whether you waste time taking things personally.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Memento Mori&lt;/strong&gt; &amp;ndash; remember you must die. The oldest trick in the Stoic toolbox, and still the one that cuts deepest when you actually let it land.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not meant to be morbid. The point isn&amp;rsquo;t to sit around thinking about corpses, it&amp;rsquo;s to use the fact of your mortality as a filter for what actually matters. You could leave life right now &amp;ndash; not today necessarily, but at some point, and probably sooner than you think. Knowing that changes the weight of things. Most of the stuff you&amp;rsquo;re worrying about right now will not matter in a year, let alone at the end. That&amp;rsquo;s not depressing, it&amp;rsquo;s liberating.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Amor Fati</title>
       <link>https://www.shafiq.in/blog/amor-fati/</link>
       <pubDate>Wed, 24 Aug 2022 19:45:03 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/amor-fati/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Amor fati&lt;/strong&gt; is a phrase that may be translated as &amp;ldquo;love of one&amp;rsquo;s fate&amp;rdquo;. It is used to describe an attitude in which one sees everything that happens in one&amp;rsquo;s life, including suffering and loss, as good or, at the very least, necessary. You take what you can from life. You use it as fuel. You become better from it. You become improved by it. Make the most of it. Be better for it having happened.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Amor fati&lt;/strong&gt; &amp;ndash; love of one&amp;rsquo;s fate. Nietzsche&amp;rsquo;s phrase for the attitude that everything that happens to you, including the awful bits, is not just bearable but necessary, and ideally something you can welcome rather than merely endure.&lt;/p&gt;
+&lt;p&gt;I keep coming back to it because it&amp;rsquo;s the harder half of the Stoic pair. Memento Mori tells you to remember you will die, which is useful for cutting through nonsense. Amor Fati tells you to love what happens to you, which is useful for not going mad while it&amp;rsquo;s happening. One without the other feels incomplete &amp;ndash; mortality without fate is just anxiety, and fate without mortality is just fatalism.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>You don&#39;t have to be crazy to live on Earth. But to some it helps to be.</title>
-      <link>https://www.shafiq.in/blog/you-dont-have-to-be-crazy-to-live-on-earth.-but-to-some-it-helps-to-be./</link>
+      <title>A bit of madness goes a long way</title>
+      <link>https://www.shafiq.in/blog/a-bit-of-madness-goes-a-long-way/</link>
       <pubDate>Wed, 20 Jul 2022 11:59:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/you-dont-have-to-be-crazy-to-live-on-earth.-but-to-some-it-helps-to-be./</guid>
-      <description>&lt;p&gt;You don&amp;rsquo;t have to be crazy to live on Earth. But to some it helps to be.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/a-bit-of-madness-goes-a-long-way/</guid>
+      <description>&lt;p&gt;You don&amp;rsquo;t have to be crazy to live on Earth. But to some it helps to be.&lt;/p&gt;
+&lt;p&gt;I saw this somewhere and it stuck because it is quietly true in a way that has nothing to do with clinical anything and everything to do with the simple fact that normal is a setting on a washing machine, not a lifestyle. The people who get anywhere &amp;ndash; not necessarily successfully, just somewhere worth being &amp;ndash; are the ones who are slightly unhinged about something. Obsessed in a way that makes other people uncomfortable. Willing to look foolish because the alternative is looking exactly like everyone else and going exactly where everyone else is going.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Resolve &#34;Cannot Unregister the Machine While It Is Locked&#34; Error in Vagrant</title>
@@ -2650,65 +1820,72 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;killall -9 VBoxHeadless&lt;/code&gt; force-kills any running VirtualBox headless instances. The &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; runs &lt;code&gt;vagrant destroy&lt;/code&gt; only if that succeeds.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to get a remote server SSL certificate</title>
-      <link>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</link>
+      <title>Grabbing an SSL certificate from a remote server</title>
+      <link>https://www.shafiq.in/blog/grabbing-an-ssl-certificate-from-a-remote-server/</link>
       <pubDate>Tue, 15 Jun 2021 08:21:21 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-get-a-remote-server-ssl-certificate/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openssl s_client -connect &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;HOSTNAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;PORT&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; -showcerts
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/grabbing-an-ssl-certificate-from-a-remote-server/</guid>
+      <description>&lt;p&gt;There are moments when you need to inspect the certificate a remote server is presenting &amp;ndash; maybe it&amp;rsquo;s expired and you&amp;rsquo;re trying to work out why things are breaking, or maybe you need the raw certificate data for some other reason and don&amp;rsquo;t have access to the server&amp;rsquo;s configuration.&lt;/p&gt;
+&lt;p&gt;The quickest way is with &lt;code&gt;openssl s_client&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openssl s_client -connect &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;HOSTNAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;PORT&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; -showcerts
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;{HOSTNAME}&lt;/code&gt; with the server address and &lt;code&gt;{PORT}&lt;/code&gt; with the port (usually 443 for HTTPS). The &lt;code&gt;-showcerts&lt;/code&gt; flag dumps the full certificate chain rather than just the leaf certificate.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>No good deed ever goes unpunished.</title>
-      <link>https://www.shafiq.in/blog/no-good-deed-ever-goes-unpunished./</link>
+      <title>No good deed ever goes unpunished</title>
+      <link>https://www.shafiq.in/blog/no-good-deed-ever-goes-unpunished/</link>
       <pubDate>Fri, 21 May 2021 13:25:56 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/no-good-deed-ever-goes-unpunished./</guid>
+      <guid>https://www.shafiq.in/blog/no-good-deed-ever-goes-unpunished/</guid>
       <description>&lt;p&gt;&amp;ldquo;No good deed ever goes unpunished.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Sometimes when you try to do something good or helpful, it can backfire and you end up in trouble or face negative consequences, sadly, even when you have the best intentions.&lt;/p&gt;
-&lt;p&gt;This can happen even when you are trying to be kind or helpful towards those closest to us, such as our parents. It’s an unfortunate reality that good deeds don’t always result in positive outcomes.&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;ve said this more times than I care to admit, usually in the aftermath of trying to help someone and ending up with more problems than I started with.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a peculiar thing &amp;ndash; the people you&amp;rsquo;d expect to be grateful are often the ones who punish you most for trying. I think about my parents sometimes, how every time I offer to sort something out or take on a burden, it somehow spirals into getting used. The intention is never in doubt but the outcome always ends up feeling used.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Whenever you feel like criticizing any one, just remember that all the people in this world haven&#39;t had the advantages that you&#39;ve had.</title>
-      <link>https://www.shafiq.in/blog/whenever-you-feel-like-criticizing-any-one-just-remember-that-all-the-people-in-this-world-havent-had-the-advantages-that-youve-had./</link>
+      <title>The advantages you&#39;ve had</title>
+      <link>https://www.shafiq.in/blog/the-advantages-youve-had/</link>
       <pubDate>Thu, 20 May 2021 08:36:18 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/whenever-you-feel-like-criticizing-any-one-just-remember-that-all-the-people-in-this-world-havent-had-the-advantages-that-youve-had./</guid>
-      <description>&lt;p&gt;Whenever you feel like criticizing any one, just remember that all the people in this world haven&amp;rsquo;t had the advantages that you&amp;rsquo;ve had.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/the-advantages-youve-had/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Whenever you feel like criticizing any one, just remember that all the people in this world haven&amp;rsquo;t had the advantages that you&amp;rsquo;ve had.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ndash; F. Scott Fitzgerald, &lt;em&gt;The Great Gatsby&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I read this somewhere and it stuck with me because it&amp;rsquo;s true in a way that feels obvious until you actually try to live by it, and even then it&amp;rsquo;s hard. We all have advantages we never asked for and rarely notice &amp;ndash; the kind of things that just make life slightly easier, like being born into a family that didn&amp;rsquo;t struggle to put food on the table, or having parents who went to university and could help you with homework without feeling lost themselves, or arriving in a country where you speak the language and look like most of the people around you. None of these things were earned. They just happened. And they add up in ways that are impossible to quantify but impossible to ignore.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Replace all dots in filenames except the extension on Linux</title>
       <link>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</link>
       <pubDate>Thu, 21 Jan 2021 13:00:41 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/replace-all-dots-in-filenames-except-the-extension-on-linux/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; f in .&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;%.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; mv -i -f -- &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//./_&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;p&gt;Had a directory full of files with dots in the names and needed them all cleaned up. Something like &lt;code&gt;my.report.final.pdf&lt;/code&gt; should become &lt;code&gt;my_report_final.pdf&lt;/code&gt;, not &lt;code&gt;my_report_final..pdf&lt;/code&gt; or worse.&lt;/p&gt;
+&lt;p&gt;This one-liner does the job:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; f in *&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;%.*&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##*.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; mv -i -- &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//./_&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;suf&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here&amp;rsquo;s what each part does. &lt;code&gt;${f%.*}&lt;/code&gt; strips everything from the last dot onwards, giving you the filename without its extension. &lt;code&gt;${f##*.}&lt;/code&gt; grabs just the extension by stripping everything up to and including the final dot. Then &lt;code&gt;${pre//./_}&lt;/code&gt; replaces every dot in the base name with an underscore.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Count number of directories in the current directory using Linux cli</title>
-      <link>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</link>
+      <title>Count directories in the current folder with a one-liner</title>
+      <link>https://www.shafiq.in/blog/count-directories-in-the-current-folder-with-a-one-liner/</link>
       <pubDate>Tue, 14 Jul 2020 09:17:02 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/count-number-of-directories-in-the-current-directory-using-linux-cli/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -1 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; wc -l
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/count-directories-in-the-current-folder-with-a-one-liner/</guid>
+      <description>&lt;p&gt;A common question that comes up when you&amp;rsquo;re first getting comfortable with the command line: how do you count just the directories in your current folder?&lt;/p&gt;
+&lt;p&gt;The quick answer is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -1 &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; wc -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This pipes a one-per-line listing of everything in the current directory into &lt;code&gt;wc -l&lt;/code&gt;, which counts lines. Simple enough.&lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s a catch. This counts &lt;em&gt;everything&lt;/em&gt; &amp;ndash; files, symlinks, hidden items, the lot. If you only want directories, you need to be a bit more selective.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Count number of files in a directory using Linux cli</title>
-      <link>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</link>
+      <title>Count files in a directory with a one-liner</title>
+      <link>https://www.shafiq.in/blog/count-files-in-a-directory-with-a-one-liner/</link>
       <pubDate>Tue, 14 Jul 2020 09:15:31 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/count-number-of-files-in-a-directory-using-linux-cli/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -l . &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; egrep -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;^-&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://www.shafiq.in/blog/count-files-in-a-directory-with-a-one-liner/</guid>
+      <description>&lt;p&gt;Another quick command line question: how do you count just the files in a directory, excluding subdirectories and other stuff?&lt;/p&gt;
+&lt;p&gt;The classic answer:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -l . &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; egrep -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;^-&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This lists everything in long format (&lt;code&gt;ls -l&lt;/code&gt;), then counts lines that start with a hyphen &amp;ndash; which is how &lt;code&gt;ls&lt;/code&gt; marks regular files. Directories show up as &lt;code&gt;d&lt;/code&gt;, symlinks as &lt;code&gt;l&lt;/code&gt;, and so on, so the regex filters them out.&lt;/p&gt;
+&lt;p&gt;It works, but it&amp;rsquo;s a bit of a trick and relies on understanding &lt;code&gt;ls&lt;/code&gt; output format. A more straightforward approach uses &lt;code&gt;find&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How To Install PHP (7.4, 7.3 &amp; 5.6) on Debian 9 Stretch</title>
-      <link>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</link>
+      <title>Installing Multiple PHP Versions on Debian 9</title>
+      <link>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</link>
       <pubDate>Tue, 14 Jul 2020 09:11:45 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-to-install-php-7.4-7.3-5.6-on-debian-9-stretch/</guid>
-      <description>&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;Login to your Debian 9 system using shell access. For remote systems connect with SSH. Windows users can use Putty or other alternatives applications for SSH connection.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh root@debian9
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run below commands to upgrade the current packages to the latest version.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt upgrade
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s execute the following commands to install the required packages first on your system. Then import packages signing key. After that configure PPA for the PHP packages on your system.&lt;/p&gt;</description>
+      <guid>https://www.shafiq.in/blog/installing-multiple-php-versions-on-debian-9/</guid>
+      <description>&lt;p&gt;Sometimes you need more than one PHP version on the same server. Maybe an old project still runs on 5.6, another one needs 7.2, and you want to test something on 7.4 before committing. Debian&amp;rsquo;s default repositories only ship one version, so you need a third-party source.&lt;/p&gt;
+&lt;p&gt;The Sury repository is the standard way to get multiple PHP versions on Debian. Ondrej Surý has maintained it for years and it&amp;rsquo;s trusted by most people running PHP on Debian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fix casks with `depends_on` that reference pre-Mavericks</title>
@@ -2724,9 +1901,10 @@
       <link>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</link>
       <pubDate>Mon, 18 May 2020 09:59:54 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-to-run-vlc-player-as-root-user/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/geteuid/getppid/&amp;#39;&lt;/span&gt; /usr/bin/vlc
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; The initialization script check if the UID is equals to zero. Zero is reserved for the root user. Using &lt;code&gt;sed&lt;/code&gt; to replace &lt;code&gt;geteuid&lt;/code&gt; for &lt;code&gt;getppid&lt;/code&gt; fools the initialization script because it is always &lt;code&gt;&amp;gt; 0&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;While running the VLC as root is not recommended, it works. Be aware of the risks and obviously do not do it for production environments.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I ran into this a while back when I needed VLC running as root on a headless server, and the usual &lt;code&gt;--no-sandbox&lt;/code&gt; flag didn&amp;rsquo;t cut it. VLC refuses to start as root by default, which makes sense from a security standpoint but is annoying when you actually need it.&lt;/p&gt;
+&lt;p&gt;The fix is brutal and hacky, but it works:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/geteuid/getppid/&amp;#39;&lt;/span&gt; /usr/bin/vlc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;What&amp;rsquo;s actually happening here? VLC&amp;rsquo;s startup script checks whether the effective user ID is zero (root). If it is, it bails out. By swapping &lt;code&gt;geteuid&lt;/code&gt; with &lt;code&gt;getppid&lt;/code&gt;, we&amp;rsquo;re telling the script to check the parent process ID instead of the effective UID. Since &lt;code&gt;getppid()&lt;/code&gt; returns a number way bigger than zero, the check passes and VLC starts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A lawyer&#39;s Christmas greeting</title>
