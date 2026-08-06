@@ -18,14 +18,5 @@
 &lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
 &lt;p&gt;Human-computer interaction has come a long way. Touchscreens let you bypass the mouse. But you still need hands. For some people — those with motor impairments, for example — that&amp;rsquo;s a real barrier. Even for everyone else, there&amp;rsquo;s something inherently slower about translating a thought into a hand movement, then into a keystroke or click.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Applications of Neural Networks</title>
-      <link>https://www.shafiq.in/blog/applications-of-neural-networks/</link>
-      <pubDate>Fri, 11 Nov 2011 05:48:11 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/applications-of-neural-networks/</guid>
-      <description>&lt;p&gt;This is a collection of research projects and applications I worked on using neural networks. Most of the video demos linked below are no longer available — the servers they lived on have been dead for years. I&amp;rsquo;m keeping the descriptions because they capture what the work was about.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-a-neural-network&#34;&gt;What is a Neural Network?&lt;/h2&gt;
-&lt;p&gt;An artificial neural network (ANN) is an information processing system inspired by biological nervous systems. It&amp;rsquo;s made up of a large number of interconnected processing elements — neurons — that work together to solve problems. Like people, ANNs learn by example. You configure them for a task, whether that&amp;rsquo;s pattern recognition or data classification, and they figure out the solution through a learning process. In biological systems, learning means adjusting synaptic connections between neurons. Neural networks do the same thing.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

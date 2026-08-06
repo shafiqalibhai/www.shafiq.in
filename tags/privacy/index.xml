@@ -17,6 +17,15 @@
       <description>Upstream Invidious won&amp;#39;t add a Shorts toggle, so I wrote a pair of uBlock Origin filters that read the Invidious DOM directly.</description>
     </item>
     <item>
+      <title>Iceraven and Ironfox browser comparison</title>
+      <link>https://www.shafiq.in/blog/iceraven-and-ironfox-browser-comparison/</link>
+      <pubDate>Mon, 29 Sep 2025 11:53:12 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/iceraven-and-ironfox-browser-comparison/</guid>
+      <description>&lt;p&gt;Both are Firefox forks for Android. Both strip out telemetry. They diverge on what to do after that.&lt;/p&gt;
+&lt;p&gt;Iceraven is built around customisation. It exposes about:config, supports a wider range of add-ons than stock Firefox for Android, and tries to replicate the desktop Firefox experience on mobile. Updates come through GitHub releases. It&amp;rsquo;s aimed at people who want to tweak their browser.&lt;/p&gt;
+&lt;p&gt;IronFox comes from Mull, which itself is a privacy-hardened Firefox fork. It removes more telemetry than Iceraven, disables features that leak data by default (WebGL, for example), and keeps the interface stripped down. It&amp;rsquo;s on F-Droid and Accrescent as well as GitHub. The trade-off is that some websites break because of the aggressive defaults.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Disabling Google Analytics</title>
       <link>https://www.shafiq.in/blog/disabling-google-analytics/</link>
       <pubDate>Thu, 30 Sep 2010 06:27:57 +0000</pubDate>

@@ -7,8 +7,57 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Tue, 05 Sep 2023 04:31:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2025 07:05:57 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing TOGAF using SCRUM methodology</title>
+      <link>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</link>
+      <pubDate>Sun, 28 Sep 2025 07:05:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</guid>
+      <description>&lt;p&gt;TOGAF is documentation-heavy and linear. Scrum is iterative and lightweight. Running them together means breaking the Architecture Development Method into sprint-sized chunks instead of treating it as a single pass from Phase A to Phase H.&lt;/p&gt;
+&lt;h2 id=&#34;mapping-adm-phases-to-sprints&#34;&gt;Mapping ADM phases to sprints&lt;/h2&gt;
+&lt;p&gt;The ADM doesn&amp;rsquo;t have to run in one direction. You can treat each phase as a backlog item and pull work through in sprints.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;TOGAF Phase&lt;/th&gt;
+					&lt;th&gt;Scrum equivalent&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Preliminary&lt;/td&gt;
+					&lt;td&gt;Sprint 0 — governance, tools, team setup&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase A: Vision&lt;/td&gt;
+					&lt;td&gt;Product backlog epics for the EA vision&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phases B-D: Business, Data, Application, Technology&lt;/td&gt;
+					&lt;td&gt;One domain per sprint&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase E: Opportunities &amp;amp; Solutions&lt;/td&gt;
+					&lt;td&gt;Backlog refinement for implementation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase F: Migration Planning&lt;/td&gt;
+					&lt;td&gt;Roadmap prioritisation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase G: Implementation&lt;/td&gt;
+					&lt;td&gt;Delivery sprints&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase H: Change Management&lt;/td&gt;
+					&lt;td&gt;Sprint retrospectives&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;roles&#34;&gt;Roles&lt;/h2&gt;
+&lt;p&gt;The Enterprise Architect maps closest to Product Owner — they prioritise the architecture backlog. The Architecture Board shows up at sprint reviews. The Scrum Master facilitates the process and removes blockers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Books that actually helped me with the people side of project management</title>
       <link>https://www.shafiq.in/blog/books-that-actually-helped-me-with-the-people-side-of-project-management/</link>
@@ -65,23 +114,6 @@
       <description>&lt;p&gt;I needed a simple way to track a scrum project without investing in a tool, so I built a spreadsheet template. It&amp;rsquo;s not meant to replace anything serious &amp;ndash; just something to get the structure down on paper before things get messy.&lt;/p&gt;
 &lt;p&gt;You can grab it here: &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2011/10/scrum-tmpl-100212.xls&#34;&gt;scrum-tmpl-100212&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s got three sheets. The first is basic project info &amp;ndash; organisation, project name, scrum master, product owner, start date. The second is the product backlog, laid out by sprint with room to track effort against each release. The third is an impediments log, so when something blocks the team you write it down with a category, date, and who raised it instead of letting it get lost in a standup conversation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A project proposal template I keep coming back to</title>
-      <link>https://www.shafiq.in/blog/a-project-proposal-template-i-keep-coming-back-to/</link>
-      <pubDate>Sat, 01 Oct 2011 07:18:20 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/a-project-proposal-template-i-keep-coming-back-to/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve written enough project proposals over the years to know that the hardest part is usually the first page. You sit down with a blank document, a client&amp;rsquo;s RFP, and a deadline that&amp;rsquo;s already too tight, and you wonder where to start.&lt;/p&gt;
-&lt;p&gt;So I made a template. Not because it&amp;rsquo;s brilliant, but because it stops me from spinning my wheels every time.&lt;/p&gt;
-&lt;p&gt;You can grab the Word file here: &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2011/10/proposal-template.doc&#34; title=&#34;Proposal Template&#34;&gt;proposal-template.doc&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How we handle proposals and contracts</title>
-      <link>https://www.shafiq.in/blog/how-we-handle-proposals-and-contracts/</link>
-      <pubDate>Sat, 01 Oct 2011 07:00:19 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-we-handle-proposals-and-contracts/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve seen too many teams treat proposals and contracts as paperwork &amp;ndash; something you rush through on the way to the &amp;ldquo;real work&amp;rdquo;. That attitude costs money. I&amp;rsquo;ve watched deals fall apart because someone skipped a step, or signed something they didn&amp;rsquo;t understand, or assumed the other side was on the same page.&lt;/p&gt;
-&lt;p&gt;So we wrote a procedure. Not because we&amp;rsquo;re a big company with a compliance department, but because we kept making the same mistakes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Sample Issue Tracker Spreadsheet</title>

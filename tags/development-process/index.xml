@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Thu, 01 Oct 2009 16:38:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2013 12:27:51 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/development-process/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The big data life cycle</title>
+      <link>https://www.shafiq.in/blog/the-big-data-life-cycle/</link>
+      <pubDate>Sun, 29 Dec 2013 12:27:51 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/the-big-data-life-cycle/</guid>
+      <description>&lt;p&gt;I keep coming back to the same problem: everyone talks about big data as if it&amp;rsquo;s a thing you &lt;em&gt;have&lt;/em&gt;, when really it&amp;rsquo;s a process you go through. There&amp;rsquo;s no single tool or platform that solves it. What you end up with is a series of messy stages, each with its own set of headaches, and most organisations I&amp;rsquo;ve spoken to are stuck somewhere in the middle without a clear picture of what comes next.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Basic Software Development Process – Points</title>
       <link>https://www.shafiq.in/blog/basic-software-development-process-points/</link>

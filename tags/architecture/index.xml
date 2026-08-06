@@ -7,16 +7,65 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Fri, 11 Oct 2024 10:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2025 07:05:57 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The House That Bends</title>
-      <link>https://www.shafiq.in/blog/the-house-that-bends/</link>
-      <pubDate>Fri, 11 Oct 2024 10:50:01 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/the-house-that-bends/</guid>
-      <description>&lt;h2 id=&#34;introduction-to-maison-horta&#34;&gt;Introduction to Maison Horta&lt;/h2&gt;
-&lt;p&gt;Maison Horta is one of those buildings that makes you stop and stare. It&amp;rsquo;s on a quiet street in Brussels, tucked away behind what looks like an ordinary façade, but step inside and the whole thing opens up into something that feels almost impossible — a house made of curves, light, and ironwork that looks like it&amp;rsquo;s growing out of the walls.&lt;/p&gt;
-&lt;p&gt;Victor Horta built it in 1893, right at the tail end of what we now call Art Nouveau. The style is easy to recognise: flowing lines, organic shapes, a deliberate break from the stiff, symmetrical architecture that came before it. Horta didn&amp;rsquo;t just adopt the style — he helped invent it. Maison Horta is his first major work, and it&amp;rsquo;s still one of the best examples of what Art Nouveau could be.&lt;/p&gt;</description>
+      <title>Implementing TOGAF using SCRUM methodology</title>
+      <link>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</link>
+      <pubDate>Sun, 28 Sep 2025 07:05:57 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/implementing-togaf-using-scrum-methodology/</guid>
+      <description>&lt;p&gt;TOGAF is documentation-heavy and linear. Scrum is iterative and lightweight. Running them together means breaking the Architecture Development Method into sprint-sized chunks instead of treating it as a single pass from Phase A to Phase H.&lt;/p&gt;
+&lt;h2 id=&#34;mapping-adm-phases-to-sprints&#34;&gt;Mapping ADM phases to sprints&lt;/h2&gt;
+&lt;p&gt;The ADM doesn&amp;rsquo;t have to run in one direction. You can treat each phase as a backlog item and pull work through in sprints.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;TOGAF Phase&lt;/th&gt;
+					&lt;th&gt;Scrum equivalent&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Preliminary&lt;/td&gt;
+					&lt;td&gt;Sprint 0 — governance, tools, team setup&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase A: Vision&lt;/td&gt;
+					&lt;td&gt;Product backlog epics for the EA vision&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phases B-D: Business, Data, Application, Technology&lt;/td&gt;
+					&lt;td&gt;One domain per sprint&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase E: Opportunities &amp;amp; Solutions&lt;/td&gt;
+					&lt;td&gt;Backlog refinement for implementation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase F: Migration Planning&lt;/td&gt;
+					&lt;td&gt;Roadmap prioritisation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase G: Implementation&lt;/td&gt;
+					&lt;td&gt;Delivery sprints&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Phase H: Change Management&lt;/td&gt;
+					&lt;td&gt;Sprint retrospectives&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;roles&#34;&gt;Roles&lt;/h2&gt;
+&lt;p&gt;The Enterprise Architect maps closest to Product Owner — they prioritise the architecture backlog. The Architecture Board shows up at sprint reviews. The Scrum Master facilitates the process and removes blockers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I set up a data pipeline that actually works</title>
+      <link>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</link>
+      <pubDate>Fri, 01 Mar 2024 08:16:26 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</guid>
+      <description>&lt;p&gt;I spent three months building a data pipeline last year and another two months fixing the things I got wrong. What follows is the architecture I ended up with, and more importantly the decisions that shaped it.&lt;/p&gt;
+&lt;h2 id=&#34;where-the-data-comes-from&#34;&gt;Where the data comes from&lt;/h2&gt;
+&lt;p&gt;We pull from three kinds of sources. Internal databases, mostly PostgreSQL instances running on our own infrastructure. Third-party APIs for things we don&amp;rsquo;t control, like payment providers and analytics platforms. And CSV files that land in an S3 bucket whenever someone exports a report from a legacy system that nobody knows how to update.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enterprise Architecture Resources</title>
@@ -36,15 +85,6 @@
       <guid>https://www.shafiq.in/blog/project-architecture-is-not-product-architecture/</guid>
       <description>&lt;p&gt;I spent a good chunk of last week designing the architecture for a new service. On paper it was clean — well separated concerns, sensible boundaries, tests covering the happy paths. I felt good about it.&lt;/p&gt;
 &lt;p&gt;Then someone asked what this service was going to become in two years time, and I realised I had no idea. Not because the design was bad, but because I had never really thought about it beyond the project itself. I had optimised for getting something built, not for where it was going.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Being an architect of the future</title>
-      <link>https://www.shafiq.in/blog/being-an-architect-of-the-future/</link>
-      <pubDate>Sun, 26 Aug 2018 06:38:48 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/being-an-architect-of-the-future/</guid>
-      <description>&lt;p&gt;&amp;ldquo;We are called to be architects of the future, not its victims.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;I came across this quote from Buckminster Fuller a few days ago and it has been sitting with me ever since. Not because it is profound in some new way — I have heard variations of it before — but because it feels increasingly urgent to actually live by it rather than just nod along.&lt;/p&gt;
-&lt;p&gt;The way I read it now, trying to figure out what to do with my life, is less about grand architectural visions and more about the small daily choices that add up to whatever kind of future I end up with. It is easy to drift. It is easy to let other people&amp;rsquo;s plans for you, or the general momentum of things, carry you somewhere you did not choose. And then one day you look up and you are somewhere you never intended to be and you wonder how that happened.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enterprise architecture</title>

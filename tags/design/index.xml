@@ -7,25 +7,8 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Fri, 11 Oct 2024 10:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2013 22:53:04 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/design/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The House That Bends</title>
-      <link>https://www.shafiq.in/blog/the-house-that-bends/</link>
-      <pubDate>Fri, 11 Oct 2024 10:50:01 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/the-house-that-bends/</guid>
-      <description>&lt;h2 id=&#34;introduction-to-maison-horta&#34;&gt;Introduction to Maison Horta&lt;/h2&gt;
-&lt;p&gt;Maison Horta is one of those buildings that makes you stop and stare. It&amp;rsquo;s on a quiet street in Brussels, tucked away behind what looks like an ordinary façade, but step inside and the whole thing opens up into something that feels almost impossible — a house made of curves, light, and ironwork that looks like it&amp;rsquo;s growing out of the walls.&lt;/p&gt;
-&lt;p&gt;Victor Horta built it in 1893, right at the tail end of what we now call Art Nouveau. The style is easy to recognise: flowing lines, organic shapes, a deliberate break from the stiff, symmetrical architecture that came before it. Horta didn&amp;rsquo;t just adopt the style — he helped invent it. Maison Horta is his first major work, and it&amp;rsquo;s still one of the best examples of what Art Nouveau could be.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Project architecture is not product architecture</title>
-      <link>https://www.shafiq.in/blog/project-architecture-is-not-product-architecture/</link>
-      <pubDate>Mon, 27 Aug 2018 09:22:18 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/project-architecture-is-not-product-architecture/</guid>
-      <description>&lt;p&gt;I spent a good chunk of last week designing the architecture for a new service. On paper it was clean — well separated concerns, sensible boundaries, tests covering the happy paths. I felt good about it.&lt;/p&gt;
-&lt;p&gt;Then someone asked what this service was going to become in two years time, and I realised I had no idea. Not because the design was bad, but because I had never really thought about it beyond the project itself. I had optimised for getting something built, not for where it was going.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>One resolution for 2014</title>
       <link>https://www.shafiq.in/blog/one-resolution-for-2014/</link>

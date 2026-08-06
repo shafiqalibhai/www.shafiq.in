@@ -7,17 +7,8 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Fri, 01 Mar 2024 08:16:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Sep 2023 04:31:03 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/devops/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How I set up a data pipeline that actually works</title>
-      <link>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</link>
-      <pubDate>Fri, 01 Mar 2024 08:16:26 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</guid>
-      <description>&lt;p&gt;I spent three months building a data pipeline last year and another two months fixing the things I got wrong. What follows is the architecture I ended up with, and more importantly the decisions that shaped it.&lt;/p&gt;
-&lt;h2 id=&#34;where-the-data-comes-from&#34;&gt;Where the data comes from&lt;/h2&gt;
-&lt;p&gt;We pull from three kinds of sources. Internal databases, mostly PostgreSQL instances running on our own infrastructure. Third-party APIs for things we don&amp;rsquo;t control, like payment providers and analytics platforms. And CSV files that land in an S3 bucket whenever someone exports a report from a legacy system that nobody knows how to update.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Learn Ansible</title>
       <link>https://www.shafiq.in/blog/learn-ansible/</link>
@@ -69,6 +60,17 @@
       <guid>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</guid>
       <description>&lt;p&gt;I spent years watching development and operations teams sit on opposite sides of every incident. Developers pushed code over the wall. Operations inherited the fires. DevOps was supposed to fix that, but most teams just gave it a new name and kept doing the same thing.&lt;/p&gt;
 &lt;p&gt;Real collaboration isn&amp;rsquo;t a poster on the breakroom wall. It&amp;rsquo;s the unglamorous daily work of making sure two groups who think differently about problems end up solving them together.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Resolve &#34;Cannot Unregister the Machine While It Is Locked&#34; Error in Vagrant</title>
+      <link>https://www.shafiq.in/blog/how-to-resolve-cannot-unregister-the-machine-while-it-is-locked-error-in-vagrant/</link>
+      <pubDate>Tue, 01 Feb 2022 09:05:56 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-to-resolve-cannot-unregister-the-machine-while-it-is-locked-error-in-vagrant/</guid>
+      <description>&lt;p&gt;Running &lt;code&gt;vagrant destroy&lt;/code&gt; sometimes fails with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;VBoxManage: error: Cannot unregister the machine &amp;#39;CnC_default_1643660523119_45689&amp;#39; while it is locked
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The VM is locked because a VirtualBox process is still holding onto it. Kill the headless process and try again:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;killall -9 VBoxHeadless &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; vagrant destroy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;killall -9 VBoxHeadless&lt;/code&gt; force-kills any running VirtualBox headless instances. The &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; runs &lt;code&gt;vagrant destroy&lt;/code&gt; only if that succeeds.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stop buying tools, start solving problems</title>

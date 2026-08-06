@@ -7,16 +7,8 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Mon, 27 Aug 2018 09:22:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jul 2010 08:26:25 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Project architecture is not product architecture</title>
-      <link>https://www.shafiq.in/blog/project-architecture-is-not-product-architecture/</link>
-      <pubDate>Mon, 27 Aug 2018 09:22:18 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/project-architecture-is-not-product-architecture/</guid>
-      <description>&lt;p&gt;I spent a good chunk of last week designing the architecture for a new service. On paper it was clean — well separated concerns, sensible boundaries, tests covering the happy paths. I felt good about it.&lt;/p&gt;
-&lt;p&gt;Then someone asked what this service was going to become in two years time, and I realised I had no idea. Not because the design was bad, but because I had never really thought about it beyond the project itself. I had optimised for getting something built, not for where it was going.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Software Development Process</title>
       <link>https://www.shafiq.in/blog/software-development-process/</link>

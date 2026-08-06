@@ -6,7 +6,7 @@
 open my $fh, '&lt;', 'myfile' or die "Couldn't open file: $!"; my $string = join('', &lt;$fh>); close $fh; Append in a loop:
 open my $fh, '&lt;', 'myfile' or die "Couldn't open file: $!"; my $string; while (&lt;$fh>) { $string .= $_; } close $fh; Read a fixed number of bytes:
 open my $fh, '&lt;', 'sample.txt' or die "Error: $!\n"; read($fh, my $data, 2000); close $fh; The read function takes a filehandle, a destination variable, and the number of bytes to read. The example above reads 2000 bytes into $data.
-...</p></div><footer class=entry-footer><span title='2010-03-15 09:04:20 +0000 GMT'>15 March 2010</span>&nbsp;·&nbsp;<span>Shafiq Alibhai</span></footer><a class=entry-link aria-label="post link to Reading a File into a Variable in Perl" href=https://www.shafiq.in/blog/reading-a-file-into-a-variable-in-perl/></a></article></main><footer class=footer><span>© 2009-2026 All rights reserved.</span> ·
+...</p></div><a class=entry-link aria-label="post link to Reading a File into a Variable in Perl" href=https://www.shafiq.in/blog/reading-a-file-into-a-variable-in-perl/></a></article></main><footer class=footer><span>© 2009-2026 All rights reserved.</span> ·
 <span>Powered by
 <a href="https://gohugo.io/?utm_source=papermod" rel=noopener target=_blank>Hugo</a> &
 <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>

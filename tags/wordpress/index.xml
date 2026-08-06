@@ -20,5 +20,14 @@
 &lt;p&gt;I&amp;rsquo;ve been staring at my iPhone all day and I got tired of how every WordPress blog looks the same &amp;ndash; flat headers, generic sidebars, the whole deal. So I spent the evening building a theme that actually looks like iOS, and I&amp;rsquo;m putting it up for anyone who wants it.&lt;/p&gt;
 &lt;p&gt;The whole thing is built around that familiar iOS table view look. Striped background, rounded white cells with the little chevron arrows, a search bar at the top that matches the system aesthetic. It&amp;rsquo;s not trying to be a 1:1 copy of the iPhone &amp;ndash; it&amp;rsquo;s just borrowing enough of the visual language that people who spend their days in iOS will feel at home.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>How I Built My First Website for My College</title>
+      <link>https://www.shafiq.in/blog/how-i-built-my-first-website-for-my-college/</link>
+      <pubDate>Tue, 14 Jun 2011 22:13:37 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-i-built-my-first-website-for-my-college/</guid>
+      <description>&lt;p&gt;Hello everyone! Today I want to share with you the first project I ever did: the college website! This was a very old project that I did with the help of Subhash Dasyam. It was a great learning experience for me and I&amp;rsquo;m excited to tell you more about it.&lt;/p&gt;
+&lt;h2 id=&#34;the-project&#34;&gt;The Project&lt;/h2&gt;
+&lt;p&gt;The college website was a simple static website that showcased the information and achievements of our college, ASTRA. It had pages for the departments, faculty, students, events, gallery, and contact. It also had a login system for the admin and the students.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

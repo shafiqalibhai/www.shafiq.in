@@ -124,7 +124,7 @@
 &lt;p&gt;If the answer is yes &amp;ndash; or if a decent blog post could solve it &amp;ndash; then it&amp;rsquo;s not a consulting engagement. It&amp;rsquo;s a homework assignment. The value of consulting lies in the gap between what the client knows and what they need to know. Close that gap and you&amp;rsquo;ve got nothing to sell.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How To Get BIOS Serial Numbers On Linux</title>
+      <title>&#39;How To Get BIOS Serial Numbers On Linux&#39;</title>
       <link>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</link>
       <pubDate>Mon, 25 Nov 2024 09:24:43 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/how-to-get-bios-serial-numbers-on-linux/</guid>
@@ -141,42 +141,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;/sys/class/dmi/id/&lt;/code&gt; path is the cleanest option if you want to avoid sudo. It exposes several DMI fields:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Self-hosted services worth running on your homelab</title>
-      <link>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</link>
-      <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/self-hosted-services-worth-running-on-your-homelab/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been running a small homelab for a few years now, mostly just to tinker and escape the subscription treadmill. Over time I&amp;rsquo;ve collected a bunch of services that actually earn their keep, and this is a running list of the ones I&amp;rsquo;d recommend to someone starting out or looking to fill gaps in their setup.&lt;/p&gt;
-&lt;p&gt;Nothing fancy. Just stuff that works, runs quietly, and gives you back control of your own data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Shrinking PDFs with Ghostscript on the command line</title>
-      <link>https://www.shafiq.in/blog/shrinking-pdfs-with-ghostscript-on-the-command-line/</link>
-      <pubDate>Mon, 01 Apr 2024 13:27:06 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/shrinking-pdfs-with-ghostscript-on-the-command-line/</guid>
-      <description>&lt;p&gt;I needed to shrink a PDF last week — something I don&amp;rsquo;t do often enough to remember the flags. Ghostscript is the tool, and it&amp;rsquo;s already on most Linux machines or a quick &lt;code&gt;apt install ghostscript&lt;/code&gt; away.&lt;/p&gt;
-&lt;p&gt;The command is:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gs -sDEVICE&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;pdfwrite -dCompatibilityLevel&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1.4 -dPDFSETTINGS&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/screen &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   -dNOPAUSE -dQUIET -dBATCH -sOutputFile&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;output.pdf input.pdf
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The bit that actually matters is &lt;code&gt;-dPDFSETTINGS=/screen&lt;/code&gt;. That&amp;rsquo;s the quality dial. &lt;code&gt;/screen&lt;/code&gt; gives you the smallest file — fine for emailing or uploading, rubbish if you need to print anything.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How I set up a data pipeline that actually works</title>
-      <link>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</link>
-      <pubDate>Fri, 01 Mar 2024 08:16:26 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/how-i-set-up-a-data-pipeline-that-actually-works/</guid>
-      <description>&lt;p&gt;I spent three months building a data pipeline last year and another two months fixing the things I got wrong. What follows is the architecture I ended up with, and more importantly the decisions that shaped it.&lt;/p&gt;
-&lt;h2 id=&#34;where-the-data-comes-from&#34;&gt;Where the data comes from&lt;/h2&gt;
-&lt;p&gt;We pull from three kinds of sources. Internal databases, mostly PostgreSQL instances running on our own infrastructure. Third-party APIs for things we don&amp;rsquo;t control, like payment providers and analytics platforms. And CSV files that land in an S3 bucket whenever someone exports a report from a legacy system that nobody knows how to update.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Installing PhantomJS on Ubuntu 22.10</title>
-      <link>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</link>
-      <pubDate>Thu, 27 Apr 2023 17:30:03 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/installing-phantomjs-on-ubuntu-22.10/</guid>
-      <description>&lt;p&gt;PhantomJS is a headless browser, which means it runs without a graphical interface and lets you automate web page interactions through scripting. I needed it for some automated testing at work and ran into a few things worth writing down, mostly because half the guides out there are either outdated or assume you already know what you&amp;rsquo;re doing.&lt;/p&gt;
-&lt;p&gt;The version we&amp;rsquo;re installing is 2.1.1, which is the last release. The project has been unmaintained since 2017, but it still does what it needs to do for basic scraping and screenshot tasks.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Some of my favourite cell phones</title>
       <link>https://www.shafiq.in/blog/some-of-my-favourite-cell-phones/</link>
       <pubDate>Mon, 23 Jan 2012 09:06:52 +0000</pubDate>
@@ -186,40 +150,12 @@
 &lt;p&gt;This was the one that started it for me. Stainless steel body, a sliding mechanism that felt like opening a luxury watch case, and a weight to it that told you it was built from something real. The Nokia 8800 Sirocco wasn&amp;rsquo;t trying to be a smartphone. It was trying to be a thing you pulled out of your pocket and knew, immediately, was expensive. It worked.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenSUSE 11.4 -- first look</title>
-      <link>https://www.shafiq.in/blog/opensuse-11.4--first-look/</link>
-      <pubDate>Sun, 13 Mar 2011 10:49:42 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/opensuse-11.4--first-look/</guid>
-      <description>&lt;p&gt;I grabbed the openSUSE 11.4 64-bit ISO last night and spent the afternoon installing it in a VM. Here&amp;rsquo;s the full walkthrough, screenshots and all.&lt;/p&gt;
-
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-33-52_hu_67ea9c7eedff478a.png&#34; alt=&#34;OpenSUSE installer boot menu&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
-
-
-&lt;p&gt;Boot menu. Standard options &amp;ndash; Installation, Rescue System, media check. Nothing fancy, but it gets the job done.&lt;/p&gt;
-
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-36-48_hu_f8e4ae8fc41bfbc2.png&#34; alt=&#34;ISOLINUX boot screen&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
-
-
-
-
-
-
-
-  
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2011/03/opensuse-64-bit-2011-03-13-10-36-51_hu_d6fc51f70e473247.png&#34; alt=&#34;OpenSUSE welcome screen with CD graphic&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
-
-
-&lt;p&gt;Welcome screen. The green chameleon is back, and so is the striped wallpaper that&amp;rsquo;s become the distro&amp;rsquo;s signature look.&lt;/p&gt;</description>
+      <title>Ubuntu 11.04 Alpha 1, VMware Image for x64</title>
+      <link>https://www.shafiq.in/blog/ubuntu-11.04-alpha-1-vmware-image-for-x64/</link>
+      <pubDate>Sun, 26 Dec 2010 07:52:40 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/ubuntu-11.04-alpha-1-vmware-image-for-x64/</guid>
+      <description>&lt;p&gt;A friend sent me a VMware image of Ubuntu 11.04 Alpha 1, so I&amp;rsquo;m sharing it here in case anyone wants to try the new release without installing it.&lt;/p&gt;
+&lt;p&gt;The image is a fresh install with GNOME on a 64-bit system. VMware Tools are included, and it was built on VMware Workstation 7.1.2 (build 301548) under Windows. No software updates have been applied, so it&amp;rsquo;s a clean snapshot of the alpha as it shipped.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What Is the iPad?</title>
@@ -238,6 +174,87 @@
 &lt;p&gt;Steve Jobs unveiled the iPad yesterday. A tablet. Bigger than a phone, smaller than a laptop. No keyboard, no trackpad, no USB ports worth mentioning.&lt;/p&gt;
 &lt;p&gt;The internet is already divided. Some call it a giant iPhone. Others call it a toy. A few are excited.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t have one yet, but the idea of a device that&amp;rsquo;s comfortable to hold for reading, browsing, and watching videos while on the couch appeals to me. It fills a gap that neither phones nor laptops really cover.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GNUSL3S Linux</title>
+      <link>https://www.shafiq.in/blog/gnusl3s-linux/</link>
+      <pubDate>Mon, 29 Mar 2010 10:35:51 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/gnusl3s-linux/</guid>
+      <description>&lt;p&gt;GNUSL3S Linux is a distribution built in Goa. It bundles a wide range of pre-installed software spanning bioinformatics (EMBOSS, Primer3), security tools for penetration testing, system administration utilities, and development editors. Boot from the DVD for a graphical interface with KDE, XFce, Fluxbox, or IceWM.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Based on&lt;/strong&gt;: Slackware, SLAX, Alixe, Davix&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Version&lt;/strong&gt;: 10.05.xx&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: i486 (32-bit)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Origin&lt;/strong&gt;: Goa, India&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Discontinued&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+  
+  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2010/04/screenshot1_hu_fef182bbaaa8273d.png&#34; alt=&#34;GNUSL3S LINUX OS&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+
+
+
+
+
+
+
+  
+  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2010/04/screenshot-1_hu_4d17d33e1bfffc6.png&#34; alt=&#34;GNUSL3S LINUX OS&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+
+
+
+
+
+
+
+  
+  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2010/04/screenshot-2_hu_a6617904439e6bcb.png&#34; alt=&#34;GNUSL3S LINUX OS&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+
+
+
+
+
+
+
+  
+  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2010/04/screenshot-3_hu_ded34948b9efffbe.png&#34; alt=&#34;GNUSL3S LINUX OS&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+
+
+
+
+
+
+
+  
+  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2010/04/screenshot-4_hu_209d096e2d3334c7.png&#34; alt=&#34;GNUSL3S LINUX OS&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identifying Your Linux Distribution</title>
+      <link>https://www.shafiq.in/blog/identifying-your-linux-distribution/</link>
+      <pubDate>Tue, 23 Mar 2010 05:10:33 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/identifying-your-linux-distribution/</guid>
+      <description>&lt;p&gt;Not sure which Linux distribution you&amp;rsquo;re running? Open a terminal and type:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat /etc/issue
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;On Debian 4.0, for example, this outputs:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Debian GNU/Linux 4.0 \n \l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;\n&lt;/code&gt; and &lt;code&gt;\l&lt;/code&gt; are escape sequences for the hostname and terminal device &amp;ndash; they&amp;rsquo;re not part of the distribution name.&lt;/p&gt;
+&lt;p&gt;This works on most distributions. Some also have &lt;code&gt;/etc/os-release&lt;/code&gt; with more detail:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat /etc/os-release
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>The launch of Mandriva Linux 2010</title>
+      <link>https://www.shafiq.in/blog/the-launch-of-mandriva-linux-2010/</link>
+      <pubDate>Sun, 04 Oct 2009 05:26:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/the-launch-of-mandriva-linux-2010/</guid>
+      <description>&lt;p&gt;Mandriva Linux 2010 is launching on November 3rd. Highlights from the announcement: KDE 4.3.1, GNOME 2.28, kernel 2.6.31.1, and Xorg 1.6.4 RC 1 with updated Intel graphics drivers. There&amp;rsquo;s also a Moblin 2 spin for netbooks.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve used Mandriva off and on over the years. The Control Centre has always been one of the better configuration tools in the Linux world. Worth keeping an eye on to see how this release shapes up.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

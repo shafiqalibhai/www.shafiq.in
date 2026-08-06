@@ -7,79 +7,8 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Fri, 11 Nov 2011 05:21:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Nov 2011 05:15:24 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/otc/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Walking Through OTC in SAP</title>
-      <link>https://www.shafiq.in/blog/walking-through-otc-in-sap/</link>
-      <pubDate>Fri, 11 Nov 2011 05:21:23 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/walking-through-otc-in-sap/</guid>
-      <description>&lt;p&gt;Download Full Guide: &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2011/11/otc-flow.doc&#34;&gt;OTC Flow Document&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;sales-order&#34;&gt;Sales Order&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;T-Code:&lt;/strong&gt; VA01&lt;/p&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Setting&lt;/th&gt;
-					&lt;th&gt;Value&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Company Code&lt;/td&gt;
-					&lt;td&gt;4700&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Sales Document Type&lt;/td&gt;
-					&lt;td&gt;ZOR&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Sales Area&lt;/td&gt;
-					&lt;td&gt;4700/10/10&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Header level:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Sold-to-party: 1000991&lt;/li&gt;
-&lt;li&gt;Ship-to-party: 1000991&lt;/li&gt;
-&lt;li&gt;PO Number: &amp;lsquo;Test&amp;rsquo;&lt;/li&gt;
-&lt;li&gt;Payment term: 0001&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Item level:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Material code: 1000309&lt;/li&gt;
-&lt;li&gt;Order Quantity: 1&lt;/li&gt;
-&lt;li&gt;Plant: 4702&lt;/li&gt;
-&lt;li&gt;Press Enter&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Item billing:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;INCOTerms: CFR (Cost and Freight)&lt;/li&gt;
-&lt;li&gt;Save&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;delivery&#34;&gt;Delivery&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;T-Code:&lt;/strong&gt; VL01N&lt;/p&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Setting&lt;/th&gt;
-					&lt;th&gt;Value&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Delivery Document Type&lt;/td&gt;
-					&lt;td&gt;ZLF&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Shipping Point&lt;/td&gt;
-					&lt;td&gt;4702&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Enter the Sales Document number from the previous step. Make sure the Delivery Date is set — it should pull through from the Schedule Lines in the Sales Order.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Order to Cash — What It Actually Means</title>
       <link>https://www.shafiq.in/blog/order-to-cash-what-it-actually-means/</link>

@@ -7,8 +7,92 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Fri, 27 Jan 2023 11:08:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 May 2025 12:07:12 +0200</lastBuildDate>
     <atom:link href="https://www.shafiq.in/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Starting a new contract — what I wish I&#39;d asked sooner</title>
+      <link>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</link>
+      <pubDate>Thu, 22 May 2025 12:07:12 +0200</pubDate>
+      <guid>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been on enough contracts now that I&amp;rsquo;ve started noticing patterns. Some good, some not so good. This is a collection of the things I check before signing, and the things I wish someone had told me about earlier.&lt;/p&gt;
+&lt;h2 id=&#34;before-you-sign&#34;&gt;Before you sign&lt;/h2&gt;
+&lt;p&gt;There are three administrative questions that can catch you out if you don&amp;rsquo;t sort them early. The first two are about checks — whether the client needs a BPSS or DBS check done, and whether they&amp;rsquo;re going to organise it. The third is about timing. Some start dates are real, others depend on the client actually getting you a laptop and sorting your access. If their setup process is slow, your start date slides whether they realise it or not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When a Problem Is Worth Solving</title>
+      <link>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</link>
+      <pubDate>Thu, 22 May 2025 12:04:38 +0200</pubDate>
+      <guid>https://www.shafiq.in/blog/when-a-problem-is-worth-solving/</guid>
+      <description>&lt;p&gt;I used to take on any project that came my way. That was a mistake.&lt;/p&gt;
+&lt;p&gt;Not every problem deserves your time, and not every client is worth working with. Over the years I&amp;rsquo;ve learned to filter opportunities through a simple set of questions before committing to anything.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can they fix it themselves?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If the answer is yes &amp;ndash; or if a decent blog post could solve it &amp;ndash; then it&amp;rsquo;s not a consulting engagement. It&amp;rsquo;s a homework assignment. The value of consulting lies in the gap between what the client knows and what they need to know. Close that gap and you&amp;rsquo;ve got nothing to sell.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self-Promotion at Work</title>
+      <link>https://www.shafiq.in/blog/self-promotion-at-work/</link>
+      <pubDate>Thu, 15 May 2025 14:30:04 +0200</pubDate>
+      <guid>https://www.shafiq.in/blog/self-promotion-at-work/</guid>
+      <description>&lt;p&gt;Self-promotion gets a bad reputation because people confuse it with boasting. Done well, it&amp;rsquo;s just making sure the right people know what you&amp;rsquo;ve done.&lt;/p&gt;
+&lt;h2 id=&#34;use-i-when-its-your-work&#34;&gt;Use &amp;ldquo;I&amp;rdquo; when it&amp;rsquo;s your work&lt;/h2&gt;
+&lt;p&gt;If you led the project, say &amp;ldquo;I led the project.&amp;rdquo; Saving &amp;ldquo;we&amp;rdquo; for genuinely collaborative work means your individual contributions stand out when they matter.&lt;/p&gt;
+&lt;h2 id=&#34;performance-reviews-are-your-moment&#34;&gt;Performance reviews are your moment&lt;/h2&gt;
+&lt;p&gt;If your organisation does annual reviews, prepare a list of accomplishments before the meeting. Don&amp;rsquo;t rely on your manager to remember everything you did over twelve months.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Books that actually helped me with the people side of project management</title>
+      <link>https://www.shafiq.in/blog/books-that-actually-helped-me-with-the-people-side-of-project-management/</link>
+      <pubDate>Tue, 05 Sep 2023 04:31:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/books-that-actually-helped-me-with-the-people-side-of-project-management/</guid>
+      <description>&lt;p&gt;I spent a chunk of last year reading my way through the soft-skills section of the bookshop. Not because I&amp;rsquo;d suddenly become interested in personal development — more because I was struggling with a project where the technical bits were fine but everything around it kept falling apart. Miscommunications. Teams that wouldn&amp;rsquo;t align. Stakeholders who seemed to be operating in a different reality.&lt;/p&gt;
+&lt;p&gt;So I started reading. Not the textbook stuff, but the books people actually recommend when they&amp;rsquo;re being honest. Here&amp;rsquo;s what stuck.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Security Clearance Vetting for Access to Cloud Production Environments</title>
+      <link>https://www.shafiq.in/blog/security-clearance-vetting-for-access-to-cloud-production-environments/</link>
+      <pubDate>Tue, 11 Jul 2023 01:50:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/security-clearance-vetting-for-access-to-cloud-production-environments/</guid>
+      <description>&lt;p&gt;Access to cloud production environments should require security clearance vetting. Production systems hold live data and applications, and the consequences of compromise are direct.&lt;/p&gt;
+&lt;h2 id=&#34;uk-clearance-levels&#34;&gt;UK clearance levels&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Level&lt;/th&gt;
+					&lt;th&gt;What it covers&lt;/th&gt;
+					&lt;th&gt;Checks included&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;BPSS&lt;/td&gt;
+					&lt;td&gt;Pre-employment screening for government asset access&lt;/td&gt;
+					&lt;td&gt;Identity, employment history, immigration status, unspent criminal record&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;AC&lt;/td&gt;
+					&lt;td&gt;Unescorted access to UK airport security areas&lt;/td&gt;
+					&lt;td&gt;Identity, employment history, criminal record, government agency records&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CTC / Level 1B&lt;/td&gt;
+					&lt;td&gt;UK OFFICIAL assets, occasional SECRET access&lt;/td&gt;
+					&lt;td&gt;Identity, employment, criminal record, financial situation, personal circumstances&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;SC&lt;/td&gt;
+					&lt;td&gt;Substantial unsupervised SECRET access&lt;/td&gt;
+					&lt;td&gt;Everything in CTC plus credit reference and MI5 record checks&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;DV&lt;/td&gt;
+					&lt;td&gt;Substantial unsupervised TOP SECRET access&lt;/td&gt;
+					&lt;td&gt;Everything in SC plus detailed interview and referee enquiries&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;the-process&#34;&gt;The process&lt;/h2&gt;
+&lt;p&gt;You need a sponsor — usually HR or a company security controller. They confirm your role requires vetting and that BPSS checks are complete (unless you&amp;rsquo;re doing AC). You then fill out a security questionnaire online covering personal details, employment history, finances, criminal record, foreign travel, and contacts.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>What DevOps Collaboration Actually Looks Like</title>
       <link>https://www.shafiq.in/blog/what-devops-collaboration-actually-looks-like/</link>
@@ -180,6 +264,41 @@
       <pubDate>Fri, 11 Nov 2011 05:15:24 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/order-to-cash-what-it-actually-means/</guid>
       <description>&lt;p&gt;I spent a fair amount of time working on SAP implementations back in the day, and one of the modules that came up again and again was Order to Cash. People throw the term around in meetings like it means something obvious, but if you ask five people what OTC actually covers, you will get five different answers. So here is my take on it — not a textbook definition, but what it looks like from the inside.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Sample Scrum Template</title>
+      <link>https://www.shafiq.in/blog/a-sample-scrum-template/</link>
+      <pubDate>Sat, 01 Oct 2011 08:40:49 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-sample-scrum-template/</guid>
+      <description>&lt;p&gt;I needed a simple way to track a scrum project without investing in a tool, so I built a spreadsheet template. It&amp;rsquo;s not meant to replace anything serious &amp;ndash; just something to get the structure down on paper before things get messy.&lt;/p&gt;
+&lt;p&gt;You can grab it here: &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2011/10/scrum-tmpl-100212.xls&#34;&gt;scrum-tmpl-100212&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s got three sheets. The first is basic project info &amp;ndash; organisation, project name, scrum master, product owner, start date. The second is the product backlog, laid out by sprint with room to track effort against each release. The third is an impediments log, so when something blocks the team you write it down with a category, date, and who raised it instead of letting it get lost in a standup conversation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A project proposal template I keep coming back to</title>
+      <link>https://www.shafiq.in/blog/a-project-proposal-template-i-keep-coming-back-to/</link>
+      <pubDate>Sat, 01 Oct 2011 07:18:20 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-project-proposal-template-i-keep-coming-back-to/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve written enough project proposals over the years to know that the hardest part is usually the first page. You sit down with a blank document, a client&amp;rsquo;s RFP, and a deadline that&amp;rsquo;s already too tight, and you wonder where to start.&lt;/p&gt;
+&lt;p&gt;So I made a template. Not because it&amp;rsquo;s brilliant, but because it stops me from spinning my wheels every time.&lt;/p&gt;
+&lt;p&gt;You can grab the Word file here: &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2011/10/proposal-template.doc&#34; title=&#34;Proposal Template&#34;&gt;proposal-template.doc&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How we handle proposals and contracts</title>
+      <link>https://www.shafiq.in/blog/how-we-handle-proposals-and-contracts/</link>
+      <pubDate>Sat, 01 Oct 2011 07:00:19 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/how-we-handle-proposals-and-contracts/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve seen too many teams treat proposals and contracts as paperwork &amp;ndash; something you rush through on the way to the &amp;ldquo;real work&amp;rdquo;. That attitude costs money. I&amp;rsquo;ve watched deals fall apart because someone skipped a step, or signed something they didn&amp;rsquo;t understand, or assumed the other side was on the same page.&lt;/p&gt;
+&lt;p&gt;So we wrote a procedure. Not because we&amp;rsquo;re a big company with a compliance department, but because we kept making the same mistakes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Sample Issue Tracker Spreadsheet</title>
+      <link>https://www.shafiq.in/blog/a-sample-issue-tracker-spreadsheet/</link>
+      <pubDate>Sat, 01 Oct 2011 06:31:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/blog/a-sample-issue-tracker-spreadsheet/</guid>
+      <description>&lt;p&gt;I put together a simple issue tracker spreadsheet for a project I was working on. Nothing fancy &amp;ndash; just something to keep track of bugs, tasks, and sub-tasks without the overhead of setting up a full issue tracking system.&lt;/p&gt;
+&lt;p&gt;The idea was to have something lightweight that anyone on the team could open and update without needing special software. You can grab it here: &lt;a href=&#34;https://www.shafiq.in/wp-content/uploads/2011/10/sample-issue-tracker-spreadsheet1.xls&#34;&gt;sample issue tracker spreadsheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s got the basics: issue type, status, priority, resolution, assignee, reporter, dates, and an SLA column. The sample data shows what it looks like with a mix of open, verified, and closed issues at different priority levels.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The line that separates a developer from an administrator</title>
