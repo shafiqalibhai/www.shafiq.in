@@ -2,63 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.shafiq.in/docs/projects/writing/fitness/</loc>
+    <loc>https://www.shafiq.in/docs/fitness/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/software/linux-os/</loc>
+    <loc>https://www.shafiq.in/docs/self-care/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/</loc>
+    <loc>https://www.shafiq.in/docs/ansible-for-windows/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/self-care/</loc>
+    <loc>https://www.shafiq.in/docs/saltstack/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/software/</loc>
+    <loc>https://www.shafiq.in/docs/social/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/ansible-for-windows/</loc>
+    <loc>https://www.shafiq.in/docs/terraform/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/saltstack/</loc>
+    <loc>https://www.shafiq.in/docs/personal-development/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/social/</loc>
+    <loc>https://www.shafiq.in/docs/self-promotion-at-work/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/terraform/</loc>
+    <loc>https://www.shafiq.in/docs/spirituality/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/personal-development/</loc>
+    <loc>https://www.shafiq.in/docs/hobbies-and-leisure/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/self-promotion-at-work/</loc>
+    <loc>https://www.shafiq.in/docs/book-binding/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/spirituality/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/hobbies-and-leisure/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/book-binding/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/projects/writing/your-playbook-for-an-amazing-life/</loc>
+    <loc>https://www.shafiq.in/docs/your-playbook-for-an-amazing-life/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -2897,12 +2885,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/about-me/</loc>
-    <lastmod>2009-06-17T04:37:54+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/docs/</loc>
+    <loc>https://www.shafiq.in/about-me/</loc>
     <lastmod>2009-06-17T04:37:54+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3062,7 +3045,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/docs/projects/</loc>
+    <loc>https://www.shafiq.in/docs/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
