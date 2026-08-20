@@ -28,14 +28,9 @@
       <link>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</link>
       <pubDate>Mon, 29 Sep 2025 14:50:26 +0000</pubDate>
       <guid>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been running a Mastodon instance for a while now, and every time I set one up from scratch I end up digging through documentation that&amp;rsquo;s either outdated or assumes you already know what you&amp;rsquo;re doing. This is the guide I wish I&amp;rsquo;d had.&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;ve set up a Mastodon instance probably four or five times now, and each time I go through the same ritual of hunting down documentation that&amp;rsquo;s either six months out of date or assumes you already know which files go where. So here&amp;rsquo;s the thing I keep meaning to write.&lt;/p&gt;
 &lt;h2 id=&#34;what-you-need&#34;&gt;What you need&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;A server with Docker and Docker Compose installed&lt;/li&gt;
-&lt;li&gt;A domain name that points to your server&amp;rsquo;s IP address&lt;/li&gt;
-&lt;li&gt;Somewhere to send email (Mailgun, SendGrid, or your own SMTP server)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&amp;rsquo;s it. No Kubernetes, no systemd fiddling, no compiling from source.&lt;/p&gt;</description>
+&lt;p&gt;A server with Docker and Docker Compose, a domain name pointing at it, and an SMTP provider — Mailgun, SendGrid, or your own mail server. That&amp;rsquo;s the whole list. No Kubernetes, no systemd, no compiling from source.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WHPH vs Super Productivity</title>

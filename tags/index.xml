@@ -52,10 +52,10 @@
       <description></description>
     </item>
     <item>
-      <title>Docker</title>
-      <link>https://www.shafiq.in/tags/docker/</link>
+      <title>Docker Compose</title>
+      <link>https://www.shafiq.in/tags/docker-compose/</link>
       <pubDate>Mon, 29 Sep 2025 14:50:26 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/docker/</guid>
+      <guid>https://www.shafiq.in/tags/docker-compose/</guid>
       <description></description>
     </item>
     <item>
@@ -66,10 +66,10 @@
       <description></description>
     </item>
     <item>
-      <title>Self-Hosted</title>
-      <link>https://www.shafiq.in/tags/self-hosted/</link>
+      <title>Self-Hosting</title>
+      <link>https://www.shafiq.in/tags/self-hosting/</link>
       <pubDate>Mon, 29 Sep 2025 14:50:26 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/self-hosted/</guid>
+      <guid>https://www.shafiq.in/tags/self-hosting/</guid>
       <description></description>
     </item>
     <item>
@@ -402,10 +402,24 @@
       <description></description>
     </item>
     <item>
+      <title>Docker</title>
+      <link>https://www.shafiq.in/tags/docker/</link>
+      <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Homelab</title>
       <link>https://www.shafiq.in/tags/homelab/</link>
       <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosted</title>
+      <link>https://www.shafiq.in/tags/self-hosted/</link>
+      <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/self-hosted/</guid>
       <description></description>
     </item>
     <item>
@@ -710,7 +724,7 @@
       <description></description>
     </item>
     <item>
-      <title>Virtual-Machine</title>
+      <title>Virtual Machine</title>
       <link>https://www.shafiq.in/tags/virtual-machine/</link>
       <pubDate>Tue, 01 Feb 2022 09:05:56 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/virtual-machine/</guid>
@@ -1235,7 +1249,7 @@
       <description></description>
     </item>
     <item>
-      <title>Web Development</title>
+      <title>Web-Development</title>
       <link>https://www.shafiq.in/tags/web-development/</link>
       <pubDate>Thu, 05 Sep 2013 08:47:24 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/web-development/</guid>
@@ -1739,14 +1753,14 @@
       <description></description>
     </item>
     <item>
-      <title>Erp</title>
+      <title>ERP</title>
       <link>https://www.shafiq.in/tags/erp/</link>
       <pubDate>Fri, 11 Nov 2011 05:21:23 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/erp/</guid>
       <description></description>
     </item>
     <item>
-      <title>SAP</title>
+      <title>Sap</title>
       <link>https://www.shafiq.in/tags/sap/</link>
       <pubDate>Fri, 11 Nov 2011 05:21:23 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/sap/</guid>

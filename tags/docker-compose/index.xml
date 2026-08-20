@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mastodon on Shafiq Alibhai</title>
-    <link>https://www.shafiq.in/tags/mastodon/</link>
-    <description>Recent content in Mastodon on Shafiq Alibhai</description>
+    <title>Docker Compose on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/docker-compose/</link>
+    <description>Recent content in Docker Compose on Shafiq Alibhai</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
     <lastBuildDate>Mon, 29 Sep 2025 14:50:26 +0000</lastBuildDate>
-    <atom:link href="https://www.shafiq.in/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.shafiq.in/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running your own Mastodon instance with Docker Compose</title>
       <link>https://www.shafiq.in/blog/running-your-own-mastodon-instance-with-docker-compose/</link>
