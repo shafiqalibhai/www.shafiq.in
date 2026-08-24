@@ -30,12 +30,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/homebrew/</loc>
+    <loc>https://www.shafiq.in/categories/gadgets/</loc>
     <lastmod>2026-05-13T22:06:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/macos/</loc>
+    <loc>https://www.shafiq.in/tags/homebrew/</loc>
     <lastmod>2026-05-13T22:06:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -120,27 +120,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/self-help/</loc>
-    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/self-help/</loc>
-    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/what-people-in-their-40s-wish-theyd-known-at-25/</loc>
     <lastmod>2025-09-29T14:50:22+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/productivity/</loc>
+    <loc>https://www.shafiq.in/categories/writing/</loc>
+    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/writing/</loc>
+    <lastmod>2025-09-29T14:50:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/managing/</loc>
     <lastmod>2025-09-29T11:53:23+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/productivity/</loc>
+    <loc>https://www.shafiq.in/tags/managing/</loc>
     <lastmod>2025-09-29T11:53:23+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -160,7 +160,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/development/</loc>
+    <loc>https://www.shafiq.in/categories/coding/</loc>
     <lastmod>2025-09-29T11:53:17+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -225,11 +225,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/management/</loc>
-    <lastmod>2025-05-22T12:07:12+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/starting-a-new-contract-what-i-wish-id-asked-sooner/</loc>
     <lastmod>2025-05-22T12:07:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -265,12 +260,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/book-binding/</loc>
+    <loc>https://www.shafiq.in/tags/book-binding/</loc>
     <lastmod>2025-05-22T11:53:25+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/book-binding/</loc>
+    <loc>https://www.shafiq.in/categories/craft/</loc>
     <lastmod>2025-05-22T11:53:25+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -351,16 +346,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/publishing/</loc>
-    <lastmod>2024-12-04T09:24:49+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/writing/</loc>
-    <lastmod>2024-12-04T09:24:49+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/writing/</loc>
     <lastmod>2024-12-04T09:24:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -455,17 +440,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/children/</loc>
-    <lastmod>2024-04-01T15:07:01+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/children/</loc>
-    <lastmod>2024-04-01T15:07:01+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/colouring-book-pictures-for-toddlers/</loc>
+    <lastmod>2024-04-01T15:07:01+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/parenting/</loc>
+    <lastmod>2024-04-01T15:07:01+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/parenting/</loc>
     <lastmod>2024-04-01T15:07:01+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -476,11 +461,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/docker/</loc>
-    <lastmod>2024-04-01T13:30:21+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/homelab/</loc>
     <lastmod>2024-04-01T13:30:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -785,6 +765,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/productivity/</loc>
+    <lastmod>2023-05-06T12:19:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/blog/what-is-a-vision-board/</loc>
     <lastmod>2023-05-06T11:30:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -836,11 +821,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/philosophy/</loc>
-    <lastmod>2022-08-25T20:04:46+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/reflection/</loc>
     <lastmod>2022-08-25T20:04:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1220,11 +1200,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/thoughts/</loc>
-    <lastmod>2018-08-26T10:30:26+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/ultimately-devops-is-an-organisational-transformation/</loc>
     <lastmod>2018-08-26T10:30:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1330,7 +1305,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/philosophy/</loc>
+    <loc>https://www.shafiq.in/categories/reflection/</loc>
     <lastmod>2014-12-07T13:25:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1476,11 +1451,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/first-look-the-artical-trailer-for-kichidi/</loc>
-    <lastmod>2013-09-21T17:53:10+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/art/</loc>
     <lastmod>2013-09-21T17:53:10+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1680,7 +1650,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/travel/</loc>
+    <loc>https://www.shafiq.in/categories/travelling/</loc>
     <lastmod>2012-12-26T11:41:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1691,11 +1661,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/colonialism/</loc>
-    <lastmod>2012-12-05T07:32:02+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/history/</loc>
     <lastmod>2012-12-05T07:32:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1815,7 +1780,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/design/</loc>
+    <loc>https://www.shafiq.in/categories/designing/</loc>
+    <lastmod>2012-10-31T14:26:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/designing/</loc>
     <lastmod>2012-10-31T14:26:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1902,6 +1872,11 @@
   </url><url>
     <loc>https://www.shafiq.in/blog/perl-expect-bindings-a-simple-example/</loc>
     <lastmod>2012-02-21T07:18:05+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/gadgets/</loc>
+    <lastmod>2012-01-23T09:06:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -2235,11 +2210,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/management/</loc>
-    <lastmod>2011-04-04T04:36:59+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/professional-development/</loc>
     <lastmod>2011-04-04T04:36:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2545,11 +2515,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/misc/</loc>
-    <lastmod>2010-04-02T08:40:48+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/blog/slash-vs-backslash/</loc>
     <lastmod>2010-04-02T08:40:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2610,11 +2575,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/categories/career/</loc>
-    <lastmod>2010-03-22T06:06:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/tags/career-development/</loc>
     <lastmod>2010-03-22T06:06:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2647,11 +2607,6 @@
   </url><url>
     <loc>https://www.shafiq.in/blog/restarting-a-project-from-scratch/</loc>
     <lastmod>2010-03-08T05:40:13+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/life/</loc>
-    <lastmod>2010-03-06T05:14:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>

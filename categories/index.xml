@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 13 May 2026 22:06:39 +0100</lastBuildDate>
     <atom:link href="https://www.shafiq.in/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Macos</title>
-      <link>https://www.shafiq.in/categories/macos/</link>
+      <title>Gadgets</title>
+      <link>https://www.shafiq.in/categories/gadgets/</link>
       <pubDate>Wed, 13 May 2026 22:06:39 +0100</pubDate>
-      <guid>https://www.shafiq.in/categories/macos/</guid>
+      <guid>https://www.shafiq.in/categories/gadgets/</guid>
       <description></description>
     </item>
     <item>
@@ -38,24 +38,24 @@
       <description></description>
     </item>
     <item>
-      <title>Self-Help</title>
-      <link>https://www.shafiq.in/categories/self-help/</link>
+      <title>Writing</title>
+      <link>https://www.shafiq.in/categories/writing/</link>
       <pubDate>Mon, 29 Sep 2025 14:50:22 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/self-help/</guid>
+      <guid>https://www.shafiq.in/categories/writing/</guid>
       <description></description>
     </item>
     <item>
-      <title>Productivity</title>
-      <link>https://www.shafiq.in/categories/productivity/</link>
+      <title>Managing</title>
+      <link>https://www.shafiq.in/categories/managing/</link>
       <pubDate>Mon, 29 Sep 2025 11:53:23 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/productivity/</guid>
+      <guid>https://www.shafiq.in/categories/managing/</guid>
       <description></description>
     </item>
     <item>
-      <title>Development</title>
-      <link>https://www.shafiq.in/categories/development/</link>
+      <title>Coding</title>
+      <link>https://www.shafiq.in/categories/coding/</link>
       <pubDate>Mon, 29 Sep 2025 11:53:17 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/development/</guid>
+      <guid>https://www.shafiq.in/categories/coding/</guid>
       <description></description>
     </item>
     <item>
@@ -66,17 +66,10 @@
       <description></description>
     </item>
     <item>
-      <title>Management</title>
-      <link>https://www.shafiq.in/categories/management/</link>
-      <pubDate>Thu, 22 May 2025 12:07:12 +0200</pubDate>
-      <guid>https://www.shafiq.in/categories/management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Book-Binding</title>
-      <link>https://www.shafiq.in/categories/book-binding/</link>
+      <title>Craft</title>
+      <link>https://www.shafiq.in/categories/craft/</link>
       <pubDate>Thu, 22 May 2025 11:53:25 +0200</pubDate>
-      <guid>https://www.shafiq.in/categories/book-binding/</guid>
+      <guid>https://www.shafiq.in/categories/craft/</guid>
       <description></description>
     </item>
     <item>
@@ -87,31 +80,10 @@
       <description></description>
     </item>
     <item>
-      <title>Writing</title>
-      <link>https://www.shafiq.in/categories/writing/</link>
-      <pubDate>Wed, 04 Dec 2024 09:24:49 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/writing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Children</title>
-      <link>https://www.shafiq.in/categories/children/</link>
+      <title>Parenting</title>
+      <link>https://www.shafiq.in/categories/parenting/</link>
       <pubDate>Mon, 01 Apr 2024 15:07:01 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/children/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Homelab</title>
-      <link>https://www.shafiq.in/categories/homelab/</link>
-      <pubDate>Mon, 01 Apr 2024 13:30:21 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/homelab/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reflection</title>
-      <link>https://www.shafiq.in/categories/reflection/</link>
-      <pubDate>Thu, 25 Aug 2022 20:04:46 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/reflection/</guid>
+      <guid>https://www.shafiq.in/categories/parenting/</guid>
       <description></description>
     </item>
     <item>
@@ -122,66 +94,24 @@
       <description></description>
     </item>
     <item>
-      <title>Thoughts</title>
-      <link>https://www.shafiq.in/categories/thoughts/</link>
-      <pubDate>Sun, 26 Aug 2018 10:30:26 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/thoughts/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Philosophy</title>
-      <link>https://www.shafiq.in/categories/philosophy/</link>
+      <title>Reflection</title>
+      <link>https://www.shafiq.in/categories/reflection/</link>
       <pubDate>Sun, 07 Dec 2014 13:25:16 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/philosophy/</guid>
+      <guid>https://www.shafiq.in/categories/reflection/</guid>
       <description></description>
     </item>
     <item>
-      <title>Art</title>
-      <link>https://www.shafiq.in/categories/art/</link>
-      <pubDate>Sat, 21 Sep 2013 17:53:10 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/art/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Travel</title>
-      <link>https://www.shafiq.in/categories/travel/</link>
+      <title>Travelling</title>
+      <link>https://www.shafiq.in/categories/travelling/</link>
       <pubDate>Wed, 26 Dec 2012 11:41:48 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/travel/</guid>
+      <guid>https://www.shafiq.in/categories/travelling/</guid>
       <description></description>
     </item>
     <item>
-      <title>History</title>
-      <link>https://www.shafiq.in/categories/history/</link>
-      <pubDate>Wed, 05 Dec 2012 07:32:02 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/history/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Design</title>
-      <link>https://www.shafiq.in/categories/design/</link>
+      <title>Designing</title>
+      <link>https://www.shafiq.in/categories/designing/</link>
       <pubDate>Wed, 31 Oct 2012 14:26:45 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Misc</title>
-      <link>https://www.shafiq.in/categories/misc/</link>
-      <pubDate>Fri, 02 Apr 2010 08:40:48 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/misc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Career</title>
-      <link>https://www.shafiq.in/categories/career/</link>
-      <pubDate>Mon, 22 Mar 2010 06:06:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/career/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Life</title>
-      <link>https://www.shafiq.in/categories/life/</link>
-      <pubDate>Sat, 06 Mar 2010 05:14:15 +0000</pubDate>
-      <guid>https://www.shafiq.in/categories/life/</guid>
+      <guid>https://www.shafiq.in/categories/designing/</guid>
       <description></description>
     </item>
   </channel>

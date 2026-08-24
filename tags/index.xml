@@ -87,17 +87,17 @@
       <description></description>
     </item>
     <item>
-      <title>Self-Help</title>
-      <link>https://www.shafiq.in/tags/self-help/</link>
+      <title>Writing</title>
+      <link>https://www.shafiq.in/tags/writing/</link>
       <pubDate>Mon, 29 Sep 2025 14:50:22 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/self-help/</guid>
+      <guid>https://www.shafiq.in/tags/writing/</guid>
       <description></description>
     </item>
     <item>
-      <title>Productivity</title>
-      <link>https://www.shafiq.in/tags/productivity/</link>
+      <title>Managing</title>
+      <link>https://www.shafiq.in/tags/managing/</link>
       <pubDate>Mon, 29 Sep 2025 11:53:23 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/productivity/</guid>
+      <guid>https://www.shafiq.in/tags/managing/</guid>
       <description></description>
     </item>
     <item>
@@ -157,7 +157,7 @@
       <description></description>
     </item>
     <item>
-      <title>Project-Management</title>
+      <title>Project Management</title>
       <link>https://www.shafiq.in/tags/project-management/</link>
       <pubDate>Sun, 28 Sep 2025 07:05:57 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/project-management/</guid>
@@ -283,13 +283,6 @@
       <description></description>
     </item>
     <item>
-      <title>Writing</title>
-      <link>https://www.shafiq.in/tags/writing/</link>
-      <pubDate>Wed, 04 Dec 2024 09:24:49 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/writing/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Bios</title>
       <link>https://www.shafiq.in/tags/bios/</link>
       <pubDate>Mon, 25 Nov 2024 09:24:43 +0000</pubDate>
@@ -388,10 +381,10 @@
       <description></description>
     </item>
     <item>
-      <title>Children</title>
-      <link>https://www.shafiq.in/tags/children/</link>
+      <title>Parenting</title>
+      <link>https://www.shafiq.in/tags/parenting/</link>
       <pubDate>Mon, 01 Apr 2024 15:07:01 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/children/</guid>
+      <guid>https://www.shafiq.in/tags/parenting/</guid>
       <description></description>
     </item>
     <item>
@@ -682,6 +675,13 @@
       <description></description>
     </item>
     <item>
+      <title>Productivity</title>
+      <link>https://www.shafiq.in/tags/productivity/</link>
+      <pubDate>Sat, 06 May 2023 12:19:03 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Mental-Health</title>
       <link>https://www.shafiq.in/tags/mental-health/</link>
       <pubDate>Wed, 03 May 2023 11:30:03 +0000</pubDate>
@@ -724,7 +724,7 @@
       <description></description>
     </item>
     <item>
-      <title>Virtual-Machine</title>
+      <title>Virtual Machine</title>
       <link>https://www.shafiq.in/tags/virtual-machine/</link>
       <pubDate>Tue, 01 Feb 2022 09:05:56 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/virtual-machine/</guid>
@@ -1151,7 +1151,7 @@
       <description></description>
     </item>
     <item>
-      <title>Development-Process</title>
+      <title>Development Process</title>
       <link>https://www.shafiq.in/tags/development-process/</link>
       <pubDate>Sun, 29 Dec 2013 12:27:51 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/development-process/</guid>
@@ -1249,7 +1249,7 @@
       <description></description>
     </item>
     <item>
-      <title>Web Development</title>
+      <title>Web-Development</title>
       <link>https://www.shafiq.in/tags/web-development/</link>
       <pubDate>Thu, 05 Sep 2013 08:47:24 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/web-development/</guid>
@@ -1529,7 +1529,7 @@
       <description></description>
     </item>
     <item>
-      <title>Risk-Management</title>
+      <title>Risk Management</title>
       <link>https://www.shafiq.in/tags/risk-management/</link>
       <pubDate>Sat, 01 Dec 2012 16:13:45 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/risk-management/</guid>
@@ -1561,6 +1561,13 @@
       <link>https://www.shafiq.in/tags/mobile/</link>
       <pubDate>Sat, 24 Nov 2012 17:30:00 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/mobile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Designing</title>
+      <link>https://www.shafiq.in/tags/designing/</link>
+      <pubDate>Wed, 31 Oct 2012 14:26:45 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/designing/</guid>
       <description></description>
     </item>
     <item>
@@ -1652,6 +1659,13 @@
       <link>https://www.shafiq.in/tags/perl/</link>
       <pubDate>Tue, 21 Feb 2012 07:18:05 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/perl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gadgets</title>
+      <link>https://www.shafiq.in/tags/gadgets/</link>
+      <pubDate>Mon, 23 Jan 2012 09:06:52 +0000</pubDate>
+      <guid>https://www.shafiq.in/tags/gadgets/</guid>
       <description></description>
     </item>
     <item>
@@ -1753,7 +1767,7 @@
       <description></description>
     </item>
     <item>
-      <title>ERP</title>
+      <title>Erp</title>
       <link>https://www.shafiq.in/tags/erp/</link>
       <pubDate>Fri, 11 Nov 2011 05:21:23 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/erp/</guid>
@@ -1953,13 +1967,6 @@
       <link>https://www.shafiq.in/tags/build/</link>
       <pubDate>Mon, 09 May 2011 18:31:40 +0000</pubDate>
       <guid>https://www.shafiq.in/tags/build/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Management</title>
-      <link>https://www.shafiq.in/tags/management/</link>
-      <pubDate>Mon, 04 Apr 2011 04:36:59 +0000</pubDate>
-      <guid>https://www.shafiq.in/tags/management/</guid>
       <description></description>
     </item>
     <item>
