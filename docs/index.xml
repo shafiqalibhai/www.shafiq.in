@@ -9,74 +9,11 @@
     <copyright>2009-2026 All rights reserved.</copyright>
     <atom:link href="https://www.shafiq.in/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fitness</title>
-      <link>https://www.shafiq.in/docs/fitness/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/fitness/</guid>
-      <description>Notes on exercise, nutrition, sleep, and the quantified self. Covers cardio, strength training, flexibility, and the data I collect along the way.</description>
-    </item>
-    <item>
-      <title>Self Care</title>
-      <link>https://www.shafiq.in/docs/self-care/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/self-care/</guid>
-      <description>Notes on fashion, grooming, self-presentation, personal branding, and the rituals that help you show up as your best self.</description>
-    </item>
-    <item>
       <title>Ansible for Windows</title>
       <link>https://www.shafiq.in/docs/ansible-for-windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/ansible-for-windows/</guid>
       <description>A comprehensive guide to Windows configuration management using Ansible — installation, playbooks, modules, troubleshooting, and DevOps practices.</description>
-    </item>
-    <item>
-      <title>Saltstack</title>
-      <link>https://www.shafiq.in/docs/saltstack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/saltstack/</guid>
-      <description>Comprehensive reference for SaltStack — fundamentals, installation, core concepts, CLI, API, security, and integration with other tools.</description>
-    </item>
-    <item>
-      <title>Social</title>
-      <link>https://www.shafiq.in/docs/social/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/social/</guid>
-      <description>Notes on communication, conflict resolution, family dynamics, friendships, and building the support systems that actually matter.</description>
-    </item>
-    <item>
-      <title>Terraform</title>
-      <link>https://www.shafiq.in/docs/terraform/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/terraform/</guid>
-      <description>A comprehensive guide to Terraform — infrastructure as code, providers, modules, state management, and everything in between.</description>
-    </item>
-    <item>
-      <title>Personal Development</title>
-      <link>https://www.shafiq.in/docs/personal-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/personal-development/</guid>
-      <description>Notes on self-awareness, goal-setting, habits, mindset, and the occasional crisis of direction. Work in progress.</description>
-    </item>
-    <item>
-      <title>Self Promotion at Work</title>
-      <link>https://www.shafiq.in/docs/self-promotion-at-work/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/self-promotion-at-work/</guid>
-      <description>How to get credit for the work you do without being the kind of person people resent. A practical guide to visibility, alliances, and not making things awkward.</description>
-    </item>
-    <item>
-      <title>Spirituality</title>
-      <link>https://www.shafiq.in/docs/spirituality/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/spirituality/</guid>
-      <description>Notes on religion, philosophy, meditation, and the practical side of meaning-making. Covers Ismaili tradition, Stoicism, existentialism, and various contemplative practices.</description>
-    </item>
-    <item>
-      <title>Hobbies and Leisure</title>
-      <link>https://www.shafiq.in/docs/hobbies-and-leisure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/hobbies-and-leisure/</guid>
-      <description>Notes on travel, entertainment, creative pursuits, outdoor activities, and the things I do to decompress.</description>
     </item>
     <item>
       <title>Book Binding</title>
@@ -86,39 +23,102 @@
       <description>A practical guide to bookbinding — materials, techniques, and the equipment I use.</description>
     </item>
     <item>
-      <title>Your Playbook for an Amazing Life</title>
-      <link>https://www.shafiq.in/docs/your-playbook-for-an-amazing-life/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shafiq.in/docs/your-playbook-for-an-amazing-life/</guid>
-      <description>A guide to defining and building a life that actually feels meaningful — drawing on psychology, philosophy, and practical exercises.</description>
-    </item>
-    <item>
-      <title></title>
+      <title>Droidian</title>
       <link>https://www.shafiq.in/docs/droidian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/droidian/</guid>
       <description></description>
     </item>
     <item>
-      <title></title>
+      <title>Fitness</title>
+      <link>https://www.shafiq.in/docs/fitness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/fitness/</guid>
+      <description>Notes on exercise, nutrition, sleep, and the quantified self. Covers cardio, strength training, flexibility, and the data I collect along the way.</description>
+    </item>
+    <item>
+      <title>Hobbies and Leisure</title>
+      <link>https://www.shafiq.in/docs/hobbies-and-leisure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/hobbies-and-leisure/</guid>
+      <description>Notes on travel, entertainment, creative pursuits, outdoor activities, and the things I do to decompress.</description>
+    </item>
+    <item>
+      <title>Mobian</title>
       <link>https://www.shafiq.in/docs/mobian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/mobian/</guid>
       <description></description>
     </item>
     <item>
-      <title></title>
+      <title>Personal Development</title>
+      <link>https://www.shafiq.in/docs/personal-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/personal-development/</guid>
+      <description>Notes on self-awareness, goal-setting, habits, mindset, and the occasional crisis of direction. Work in progress.</description>
+    </item>
+    <item>
+      <title>PostmarketOS</title>
       <link>https://www.shafiq.in/docs/postmarketos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/postmarketos/</guid>
       <description></description>
     </item>
     <item>
-      <title></title>
+      <title>Saltstack</title>
+      <link>https://www.shafiq.in/docs/saltstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/saltstack/</guid>
+      <description>Comprehensive reference for SaltStack — fundamentals, installation, core concepts, CLI, API, security, and integration with other tools.</description>
+    </item>
+    <item>
+      <title>Self Care</title>
+      <link>https://www.shafiq.in/docs/self-care/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/self-care/</guid>
+      <description>Notes on fashion, grooming, self-presentation, personal branding, and the rituals that help you show up as your best self.</description>
+    </item>
+    <item>
+      <title>Self Promotion at Work</title>
+      <link>https://www.shafiq.in/docs/self-promotion-at-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/self-promotion-at-work/</guid>
+      <description>How to get credit for the work you do without being the kind of person people resent. A practical guide to visibility, alliances, and not making things awkward.</description>
+    </item>
+    <item>
+      <title>Social</title>
+      <link>https://www.shafiq.in/docs/social/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/social/</guid>
+      <description>Notes on communication, conflict resolution, family dynamics, friendships, and building the support systems that actually matter.</description>
+    </item>
+    <item>
+      <title>Spirituality</title>
+      <link>https://www.shafiq.in/docs/spirituality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/spirituality/</guid>
+      <description>Notes on religion, philosophy, meditation, and the practical side of meaning-making. Covers Ismaili tradition, Stoicism, existentialism, and various contemplative practices.</description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>https://www.shafiq.in/docs/terraform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/terraform/</guid>
+      <description>A comprehensive guide to Terraform — infrastructure as code, providers, modules, state management, and everything in between.</description>
+    </item>
+    <item>
+      <title>Ubuntu Touch</title>
       <link>https://www.shafiq.in/docs/ubuntu-touch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/ubuntu-touch/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Your Playbook for an Amazing Life</title>
+      <link>https://www.shafiq.in/docs/your-playbook-for-an-amazing-life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.shafiq.in/docs/your-playbook-for-an-amazing-life/</guid>
+      <description>A guide to defining and building a life that actually feels meaningful — drawing on psychology, philosophy, and practical exercises.</description>
     </item>
   </channel>
 </rss>
