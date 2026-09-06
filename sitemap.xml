@@ -10,53 +10,18 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/apple/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/blog/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/categories/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/gadgets/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/homebrew/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/open-source/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/technology/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/blog/why-homebrew-keeps-losing-mac-utilities-to-apples-signing-policy/</loc>
-    <lastmod>2026-05-13T22:06:39+01:00</lastmod>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -80,12 +45,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/</loc>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/technology/</loc>
+    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/tags/youtube/</loc>
     <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/docker-compose/</loc>
+    <lastmod>2025-09-29T14:50:26+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/gadgets/</loc>
     <lastmod>2025-09-29T14:50:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -141,6 +121,11 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/managing/</loc>
+    <lastmod>2025-09-29T11:53:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/open-source/</loc>
     <lastmod>2025-09-29T11:53:23+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -950,6 +935,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.shafiq.in/tags/homebrew/</loc>
+    <lastmod>2020-05-18T10:01:16+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://www.shafiq.in/tags/troubleshooting/</loc>
     <lastmod>2020-05-18T10:01:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1115,7 +1105,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/scripts/extract-cert.c2110-fatal-error-openssl/bio.h-no-such-file-or-directory/</loc>
+    <loc>https://www.shafiq.in/blog/scripts-extract-cert.c2110-fatal-error-openssl-bio.h-no-such-file-or-directory/</loc>
     <lastmod>2018-09-19T15:44:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1130,7 +1120,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/bin/sh-1-bison-not-found/</loc>
+    <loc>https://www.shafiq.in/blog/-bin-sh-1-bison-not-found/</loc>
     <lastmod>2018-09-19T15:33:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1140,7 +1130,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</loc>
+    <loc>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-applications-xcode.app-contents-developer-does-not-exist/</loc>
     <lastmod>2018-09-06T09:43:25+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2477,6 +2467,11 @@
   </url><url>
     <loc>https://www.shafiq.in/tags/team-management/</loc>
     <lastmod>2010-07-12T08:14:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/apple/</loc>
+    <lastmod>2010-07-10T08:56:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>

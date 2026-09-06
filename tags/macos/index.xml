@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>&#39;[solved] xcrun: error: active developer path (&#34;/Applications/Xcode.app/Contents/Developer&#34;) does not exist&#39;</title>
-      <link>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</link>
+      <link>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-applications-xcode.app-contents-developer-does-not-exist/</link>
       <pubDate>Thu, 06 Sep 2018 09:43:25 +0000</pubDate>
-      <guid>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-/applications/xcode.app/contents/developer-does-not-exist/</guid>
+      <guid>https://www.shafiq.in/blog/solved-xcrun-error-active-developer-path-applications-xcode.app-contents-developer-does-not-exist/</guid>
       <description>&lt;p&gt;Error:&lt;/p&gt;
 &lt;p&gt;xcrun: error: active developer path (&amp;quot;/Applications/Xcode.app/Contents/Developer&amp;quot;) does not exist&lt;br&gt;
 Use &lt;code&gt;sudo xcode-select --switch path/to/Xcode.app&lt;/code&gt; to specify the Xcode that you wish to use for command line developer tools, or use &lt;code&gt;xcode-select --install&lt;/code&gt; to install the standalone command line developer tools.&lt;br&gt;

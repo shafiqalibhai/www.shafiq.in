@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Wed, 13 May 2026 22:06:39 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 14:18:11 +0100</lastBuildDate>
     <atom:link href="https://www.shafiq.in/categories/technology/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Why Homebrew keeps losing Mac utilities to Apple&#39;s signing policy</title>
-      <link>https://www.shafiq.in/blog/why-homebrew-keeps-losing-mac-utilities-to-apples-signing-policy/</link>
-      <pubDate>Wed, 13 May 2026 22:06:39 +0100</pubDate>
-      <guid>https://www.shafiq.in/blog/why-homebrew-keeps-losing-mac-utilities-to-apples-signing-policy/</guid>
-      <description>Open-source Mac casks keep getting deprecated from Homebrew. The cause is Apple&amp;#39;s $99/year signing requirement, enforced through brew audit.</description>
-    </item>
     <item>
       <title>Hiding YouTube Shorts on a self-hosted Invidious</title>
       <link>https://www.shafiq.in/blog/hiding-youtube-shorts-on-a-self-hosted-invidious/</link>

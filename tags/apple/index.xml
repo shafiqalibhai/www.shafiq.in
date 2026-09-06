@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Wed, 13 May 2026 22:06:39 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jul 2010 08:56:20 +0000</lastBuildDate>
     <atom:link href="https://www.shafiq.in/tags/apple/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Why Homebrew keeps losing Mac utilities to Apple&#39;s signing policy</title>
-      <link>https://www.shafiq.in/blog/why-homebrew-keeps-losing-mac-utilities-to-apples-signing-policy/</link>
-      <pubDate>Wed, 13 May 2026 22:06:39 +0100</pubDate>
-      <guid>https://www.shafiq.in/blog/why-homebrew-keeps-losing-mac-utilities-to-apples-signing-policy/</guid>
-      <description>Open-source Mac casks keep getting deprecated from Homebrew. The cause is Apple&amp;#39;s $99/year signing requirement, enforced through brew audit.</description>
-    </item>
     <item>
       <title>What Is the iPad?</title>
       <link>https://www.shafiq.in/blog/what-is-the-ipad/</link>
@@ -27,7 +20,7 @@
 
 
   
-  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2010/07/www-google-com-screen-capture-2010-7-10-14-17-311_hu_1a2accd22e8b58c0.png&#34; alt=&#34;Ipad is a ... ?&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
+  &lt;img src=&#34;https://www.shafiq.in/wp-content/uploads/2010/07/www-google-com-screen-capture-2010-7-10-14-17-311_hu_b9aeff44c676034.png&#34; alt=&#34;Ipad is a ... ?&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;&#34; /&gt;
 
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Steve Jobs unveiled the iPad yesterday. A tablet. Bigger than a phone, smaller than a laptop. No keyboard, no trackpad, no USB ports worth mentioning.&lt;/p&gt;
