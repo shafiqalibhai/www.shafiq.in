@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Waterfox on Shafiq Alibhai</title>
+    <link>https://www.shafiq.in/tags/waterfox/</link>
+    <description>Recent content in Waterfox on Shafiq Alibhai</description>
+    <image>
+      <title>Shafiq Alibhai</title>
+      <url>https://www.shafiq.in/images/og-default.jpg</url>
+      <link>https://www.shafiq.in/images/og-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>2009-2026 All rights reserved.</copyright>
+    <lastBuildDate>Sat, 12 Sep 2026 10:00:00 +0100</lastBuildDate>
+    <atom:link href="https://www.shafiq.in/tags/waterfox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waterfox vs Librefox: Which Firefox Fork Should You Use?</title>
+      <link>https://www.shafiq.in/blog/waterfox-vs-librefox-which-firefox-fork-should-you-use/</link>
+      <pubDate>Sat, 12 Sep 2026 10:00:00 +0100</pubDate>
+      <guid>https://www.shafiq.in/blog/waterfox-vs-librefox-which-firefox-fork-should-you-use/</guid>
+      <description>A practical comparison of Waterfox and Librefox for privacy-focused browsing, with recommendations for different use cases.</description>
+    </item>
+  </channel>
+</rss>

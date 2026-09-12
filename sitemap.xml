@@ -11,22 +11,62 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/</loc>
-    <lastmod>2026-09-12T00:00:00+01:00</lastmod>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/firefox/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/librefox/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/privacy/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/privacy/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/categories/technology/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/tags/waterfox/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.shafiq.in/blog/waterfox-vs-librefox-which-firefox-fork-should-you-use/</loc>
+    <lastmod>2026-09-12T10:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/gallery/</loc>
     <lastmod>2026-09-12T00:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/blog/</loc>
-    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/</loc>
-    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -40,22 +80,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://www.shafiq.in/tags/privacy/</loc>
-    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://www.shafiq.in/categories/selfhosting/</loc>
-    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/</loc>
-    <lastmod>2026-05-13T14:18:11+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/categories/technology/</loc>
     <lastmod>2026-05-13T14:18:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -176,11 +201,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://www.shafiq.in/tags/browser/</loc>
-    <lastmod>2025-09-29T11:53:12+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://www.shafiq.in/tags/firefox/</loc>
     <lastmod>2025-09-29T11:53:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

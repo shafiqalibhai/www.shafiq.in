@@ -4,10 +4,15 @@
     <title>Blog on Shafiq Alibhai</title>
     <link>https://www.shafiq.in/</link>
     <description>Recent content in Blog on Shafiq Alibhai</description>
+    <image>
+      <title>Shafiq Alibhai</title>
+      <url>https://www.shafiq.in/images/og-default.jpg</url>
+      <link>https://www.shafiq.in/images/og-default.jpg</link>
+    </image>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://www.shafiq.in/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ansible for Windows</title>
@@ -22,6 +27,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.shafiq.in/docs/book-binding/</guid>
       <description>A practical guide to bookbinding — materials, techniques, and the equipment I use.</description>
+    </item>
+    <item>
+      <title>Waterfox vs Librefox: Which Firefox Fork Should You Use?</title>
+      <link>https://www.shafiq.in/blog/waterfox-vs-librefox-which-firefox-fork-should-you-use/</link>
+      <pubDate>Sat, 12 Sep 2026 10:00:00 +0100</pubDate>
+      <guid>https://www.shafiq.in/blog/waterfox-vs-librefox-which-firefox-fork-should-you-use/</guid>
+      <description>A practical comparison of Waterfox and Librefox for privacy-focused browsing, with recommendations for different use cases.</description>
     </item>
     <item>
       <title>Photo Gallery</title>

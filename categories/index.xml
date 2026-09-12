@@ -4,23 +4,35 @@
     <title>Categories on Shafiq Alibhai</title>
     <link>https://www.shafiq.in/categories/</link>
     <description>Recent content in Categories on Shafiq Alibhai</description>
+    <image>
+      <title>Shafiq Alibhai</title>
+      <url>https://www.shafiq.in/images/og-default.jpg</url>
+      <link>https://www.shafiq.in/images/og-default.jpg</link>
+    </image>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>2009-2026 All rights reserved.</copyright>
-    <lastBuildDate>Wed, 13 May 2026 14:18:11 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://www.shafiq.in/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Selfhosting</title>
-      <link>https://www.shafiq.in/categories/selfhosting/</link>
-      <pubDate>Wed, 13 May 2026 14:18:11 +0100</pubDate>
-      <guid>https://www.shafiq.in/categories/selfhosting/</guid>
+      <title>Privacy</title>
+      <link>https://www.shafiq.in/categories/privacy/</link>
+      <pubDate>Sat, 12 Sep 2026 10:00:00 +0100</pubDate>
+      <guid>https://www.shafiq.in/categories/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
       <link>https://www.shafiq.in/categories/technology/</link>
-      <pubDate>Wed, 13 May 2026 14:18:11 +0100</pubDate>
+      <pubDate>Sat, 12 Sep 2026 10:00:00 +0100</pubDate>
       <guid>https://www.shafiq.in/categories/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selfhosting</title>
+      <link>https://www.shafiq.in/categories/selfhosting/</link>
+      <pubDate>Wed, 13 May 2026 14:18:11 +0100</pubDate>
+      <guid>https://www.shafiq.in/categories/selfhosting/</guid>
       <description></description>
     </item>
     <item>
